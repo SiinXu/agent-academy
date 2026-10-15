@@ -480,7 +480,7 @@
   const copyBtn = $('[data-copy-prompt]', W), cursorA = $('[data-cursor-link]', W); let PROMPT = '', runTok = 0;
   bindCopy(copyBtn, () => PROMPT);
   async function reveal() {
-    const tok = ++runTok; const lines = buildPrompt(S); PROMPT = lines.join('\n');
+    const tok = ++runTok; const lines = buildPrompt(S); PROMPT = lines.join('\n'); try { window.ievt && window.ievt('prompt_generate', { prof: S.prof, goal: S.goal, role: S.role, style: S.style, platform: S.plat, lang: S.lang }); } catch (_) {}
     // stage 0: swap the steps for the result
     if (!RM) await stepsBox.animate([{ opacity: 1, transform: 'translateY(0)', filter: 'blur(0)' }, { opacity: 0, transform: 'translateY(-8px)', filter: 'blur(4px)' }], { duration: 220, easing: 'cubic-bezier(.4,0,1,1)' }).finished;
     stepsBox.hidden = true; result.hidden = false; W.dataset.state = 'result';

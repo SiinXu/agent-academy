@@ -77,7 +77,7 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://m3.material.io/
   license: Google site terms; link only
   needs_credentials: false, writes_external: false
-- [style-library] UI Hub (Sii n's UI resource hub) — llms.txt / api. Curated multilingual directory of ~2,391 public UI resources with visual-style (vs) facets, design KB (specs, skills), JSON endpoints and a recommended design-skill workflow.
+- [style-library] UI Hub (Incidental AI UI resource hub) — llms.txt / api. Curated multilingual directory of ~2,391 public UI resources with visual-style (vs) facets, design KB (specs, skills), JSON endpoints and a recommended design-skill workflow.
   source: https://siinxu.github.io/ui-resource-hub/llms.txt
   license: aggregator; per-item license
   needs_credentials: false, writes_external: false
