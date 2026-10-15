@@ -52,7 +52,7 @@ body{letter-spacing:-.005em}
 .mb-btn .mb-in{border:1px solid #1E293B;background:rgba(15,23,42,.8);color:#fff;font-size:15px;font-weight:500;padding:0 22px}
 .dark .mb-btn .mb-in{border-color:#262626;background:rgba(10,10,10,.8)}
 .mb-btn .mb-in .ic{width:16px;height:16px}
-.link{display:inline-flex;align-items:center;min-height:24px;gap:6px;font-size:15px;font-weight:500;color:var(--ink2)}.link:hover{color:var(--acc)}.link .ic{width:16px;height:16px}
+.link{display:inline-flex;align-items:center;min-height:24px;scroll-margin-top:96px;gap:6px;font-size:15px;font-weight:500;color:var(--ink2)}.link:hover{color:var(--acc)}.link .ic{width:16px;height:16px}
 .stats{display:flex;gap:0;margin-top:48px;border-top:1px solid var(--line)}
 .stat{flex:1;padding:16px 16px 0 0}.stat+.stat{padding-left:16px;border-left:1px solid var(--line)}
 .stat b{display:block;font:600 28px/1 var(--f-body);letter-spacing:-.03em;font-variant-numeric:tabular-nums}.stat span{display:block;margin-top:8px}
@@ -70,7 +70,7 @@ body{letter-spacing:-.005em}
 .notif small{display:block;font-size:12.5px;color:var(--muted)}
 /* sections */
 .sec{padding:112px 0 0}
-.sec-h{display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px;margin-bottom:32px}
+.sec-h{position:relative;z-index:3;display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px;margin-bottom:32px}
 .sec-h h2{margin:14px 0 0;font-size:40px;line-height:1.05;letter-spacing:-.04em;font-weight:600;text-wrap:balance}.sec-h p{margin:12px 0 0;color:var(--muted);max-width:560px}
 /* Aceternity Bento Grid */
 .bento{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:18rem;gap:16px}
