@@ -41,6 +41,31 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/zealt-chief-of-staff",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/dadANmm6M496kgq3qgBJ3",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "zealt_today",
+       "firstSeen": "2026-09-22",
+       "integrations": [],
+       "name": "Zealt Chief of Staff",
+       "official": false,
+       "page": "https://botsdots.site/templates/zealt-chief-of-staff",
+       "risk": "low",
+       "summary": "Coordinates a specialist bot team for a social photo app: Scout world moments, Marketing, Social, Idea Lab, and Knowledge. Keeps lanes clear and growth"
+      }
+     },
      "install": "https://x.ai/bot/dadANmm6M496kgq3qgBJ3",
      "security": {
       "audited": false,
@@ -83,6 +108,37 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/automatesocials",
+      "record": {
+       "access": [
+        "calendar"
+       ],
+       "add": "https://x.ai/bot/bi1TG6r34CXe_JuQMLVfE",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "GregorZebicX",
+       "firstSeen": "2026-10-15",
+       "integrations": [
+        "instagram",
+        "linkedin",
+        "tiktok"
+       ],
+       "name": "AutomateSocials",
+       "official": false,
+       "page": "https://botsdots.site/templates/automatesocials",
+       "risk": "medium",
+       "summary": "A senior social media manager and community manager that plans, writes, schedules, and optimizes approved posts across X, LinkedIn, Facebook."
+      }
+     },
      "install": "https://x.ai/bot/bi1TG6r34CXe_JuQMLVfE",
      "security": {
       "audited": false,
@@ -128,6 +184,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing"
+     },
      "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
      "security": {
       "audited": false,
@@ -168,6 +229,31 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/seo-aeo-desk",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "research-briefings",
+       "creator": "adamta",
+       "firstSeen": "2026-09-21",
+       "integrations": [],
+       "name": "SEO & AEO Desk",
+       "official": true,
+       "page": "https://botsdots.site/templates/seo-aeo-desk",
+       "risk": "low",
+       "summary": "Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Works from a pasted keyword list or your Search Console."
+      }
+     },
      "install": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
      "security": {
       "audited": false,
@@ -209,13 +295,18 @@
      "summary": "Write and run B2B cold outbound that gets replies, from cold emails and follow-ups to sending setup, LinkedIn, multichannel cadences, and reply handling. Use when the user mentions \"cold email,\" \"cold outreach,\" \"outbound,\" \"prospecting email,\" \"SDR emails,\" \"follow-up sequence,\" \"nobody's replying,",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cold-email/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-cold-email-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/cold-email/SKILL.md",
      "repo": "coreyhaines31/marketingskills",
      "author": "coreyhaines31",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cold-email/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill cold-email",
      "security": {
       "audited": false,
@@ -256,6 +347,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/community-marketing/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill community-marketing",
      "security": {
       "audited": false,
@@ -296,6 +392,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cro/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill cro",
      "security": {
       "audited": false,
@@ -336,6 +437,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/directory-submissions/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill directory-submissions",
      "security": {
       "audited": false,
@@ -376,6 +482,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-loops/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill marketing-loops",
      "security": {
       "audited": false,
@@ -416,6 +527,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/onboarding/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill onboarding",
      "security": {
       "audited": false,
@@ -456,6 +572,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/popups/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill popups",
      "security": {
       "audited": false,
@@ -496,6 +617,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/prospecting/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill prospecting",
      "security": {
       "audited": false,
@@ -536,6 +662,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/referrals/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill referrals",
      "security": {
       "audited": false,
@@ -576,6 +707,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/signup/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill signup",
      "security": {
       "audited": false,
@@ -616,6 +752,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/social-publishing/agents/social-publishing-publisher.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -656,6 +797,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/growth-loops.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -696,6 +842,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/landing-page-copywriter.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -736,6 +887,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmjirfi450008jx04zg2kwvml_rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -776,6 +932,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmue8hu2f0001kz04fqubnkts_banner-slogan-and-subtext-generator"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -816,6 +977,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmm3yusid0001ie048o71sjvk_master-storyteller-and-sales-copywriter-prompt"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -856,6 +1022,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmv0859sx0001l6049kz9kqye_sales-and-marketing-strategy"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -902,6 +1073,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -935,13 +1111,36 @@
      "summary": "Plan a social campaign calendar across brands and platforms.",
      "summary_lang": "en",
      "source_url": "https://github.com/pooriaarab/agentic-campaign",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pooriaarab-agentic-campaign.md",
      "upstream_raw_url": null,
      "repo": "pooriaarab/agentic-campaign",
      "author": "io.github.pooriaarab",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/pooriaarab/agentic-campaign/blob/HEAD/README.md",
+      "record": {
+       "description": "Plan a social campaign calendar across brands and platforms.",
+       "name": "io.github.pooriaarab/agentic-campaign",
+       "packages": [
+        {
+         "env": [],
+         "id": "agentic-campaign",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/pooriaarab/agentic-campaign",
+       "title": null,
+       "version": "0.1.0",
+       "website": null
+      }
+     },
      "install": "npx -y agentic-campaign",
      "security": {
       "audited": false,
@@ -984,6 +1183,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1017,13 +1221,18 @@
      "summary": "This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer Use.",
      "summary_lang": "en",
      "source_url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/contrib/python/brand-search-optimization/README.md",
      "repo": "google/adk-recipes",
      "author": "google",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1062,13 +1271,18 @@
      "summary": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I m",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/analytics/SKILL.md",
      "repo": "coreyhaines31/marketingskills",
      "author": "coreyhaines31",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill analytics",
      "security": {
       "audited": false,
@@ -1102,13 +1316,18 @@
      "summary": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summ",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill performance-report",
      "security": {
       "audited": false,
@@ -1149,6 +1368,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill ab-testing",
      "security": {
       "audited": false,
@@ -1189,6 +1413,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill attribution",
      "security": {
       "audited": false,
@@ -1229,6 +1458,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1269,6 +1503,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/data-storytelling/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill data-storytelling",
      "security": {
       "audited": false,
@@ -1309,6 +1548,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill kpi-dashboard-design",
      "security": {
       "audited": false,
@@ -1349,6 +1593,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide"
+     },
      "install": null,
      "security": {
       "audited": false,

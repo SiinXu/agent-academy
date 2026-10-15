@@ -56,21 +56,25 @@ Read the required skills, prompts and standards in order.
 
 - [skill] campaign-plan. Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics. Use when planning a product launch, lead-gen push, or awareness campaign, when you need a week
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-plan/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-campaign-plan-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill campaign-plan
   needs_credentials: false, writes_external: false
 - [skill] ads. When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campa
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ads/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-ads-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ads
   needs_credentials: false, writes_external: false
 - [skill] ai-seo. When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generati
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ai-seo/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-ai-seo-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ai-seo
   needs_credentials: false, writes_external: false
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
@@ -91,10 +95,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [workflow] brand-search-optimization. This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer 
   source: https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
   source: https://github.com/cyanheads/mailchimp-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
   license: Apache-2.0
   install: see README; needs Mailchimp API key; can SEND campaigns (write access)
   needs_credentials: true, writes_external: true
@@ -105,11 +111,13 @@ Go through the checklist and report the result to your owner.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false

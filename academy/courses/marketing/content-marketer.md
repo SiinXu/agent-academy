@@ -101,21 +101,25 @@ Read the required skills, prompts and standards in order.
 
 - [skill] content-strategy. When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog s
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/content-strategy/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-content-strategy-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill content-strategy
   needs_credentials: false, writes_external: false
 - [skill] copywriting. When the user wants to write, rewrite, or improve marketing copy for any page, including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for,"
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-copywriting-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill copywriting
   needs_credentials: false, writes_external: false
 - [skill] brand-review. Review content against your brand voice, style guide, and messaging pillars, flagging deviations by severity with specific before/after fixes. Use when checking a draft before it ships, when auditing copy for voice consi
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/brand-review/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-brand-review-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill brand-review
   needs_credentials: false, writes_external: false
 - [skill] campaign-plan. Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics. Use when planning a product launch, lead-gen push, or awareness campaign, when you need a week
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-plan/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-campaign-plan-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill campaign-plan
   needs_credentials: false, writes_external: false
@@ -239,10 +243,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 
 - [mcp] genpark-jitter-buffer. Packet ordering simulation and inter-arrival jitter telemetry.
   source: https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [mcp] Monetize Marketing. The Monetize Marketing App as MCP tools: Brain, mission, training, skills, Library, software. OAuth.
   source: https://github.com/monetizemarketing/mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-monetizemarketing-app.md
   license: MIT
   install: remote (streamable-http): https://app.monetizemarketing.com/api/mcp
   needs_credentials: true, writes_external: false
@@ -263,6 +269,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] Ariadne for Therapists. Free Google Business Profile audits and sample posts for therapists in private practice.
   source: https://github.com/bgrieco22/ariadne-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-ariadnemarketing-therapist-marketing.md
   license: MIT
   install: remote (streamable-http): https://therapists.ariadnemarketing.com/mcp
   needs_credentials: true, writes_external: true
@@ -293,21 +300,25 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] Mixpanel. Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
   source: https://github.com/pipeworx-io/mcp-mixpanel
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Sendgrid. SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)
   source: https://github.com/pipeworx-io/mcp-sendgrid
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-sendgrid.md
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/sendgrid/mcp
   needs_credentials: true, writes_external: true
 - [mcp] SendGrid Secure. Security-first SendGrid MCP server: dry-run default, recipient allowlists, rate caps, audit log.
   source: https://github.com/Choppaaahh/sendgrid-mcp-secure
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-choppaaahh-sendgrid-mcp-secure.md
   license: MIT
   install: uvx sendgrid-mcp-secure
   needs_credentials: true, writes_external: true
 - [mcp] The Service Marketing Guys Audit. Read-only audit of any local service business, Open Service Profile conformance first.
   source: https://github.com/buildmodus/open-service-profile
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
   license: MIT
   install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
   needs_credentials: true, writes_external: false
@@ -323,11 +334,13 @@ Go through the checklist and report the result to your owner.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false

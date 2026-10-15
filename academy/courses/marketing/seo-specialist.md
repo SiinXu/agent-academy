@@ -105,21 +105,25 @@ Read the required skills, prompts and standards in order.
 
 - [skill] ai-seo. When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generati
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ai-seo/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-ai-seo-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ai-seo
   needs_credentials: false, writes_external: false
 - [skill] seo-audit. When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO heal
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/seo-audit/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-seo-audit-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill seo-audit
   needs_credentials: false, writes_external: false
 - [skill] competitive-brief. Research competitors and generate a positioning and messaging comparison with content gaps, opportunities, and threats. Use when building sales battlecards, when finding positioning gaps and messaging angles competitors 
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/competitive-brief/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-competitive-brief-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill competitive-brief
   needs_credentials: false, writes_external: false
 - [skill] seo-audit. Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison. Use when assessing a site's SEO health, when finding keyword opportunities and content gaps c
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/seo-audit/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-seo-audit-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill seo-audit
   needs_credentials: false, writes_external: false
@@ -243,6 +247,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [workflow] brand-search-optimization. This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer 
   source: https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [case] Ai Email Gtm Reachout Agent. An intelligent, fully automated B2B outreach system that discovers companies, finds decision makers, researches company intelligence, and generates personalized cold emails using AI agents.
@@ -257,45 +262,54 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: true
 - [mcp] SEO Trends MCP. Spot keyword demand rising or fading. Trend volume and growth signals. Free key at trendsmcp.ai
   source: https://github.com/trendsmcp-ai/Trends-MCP
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-seo.md
   license: MIT
   install: remote (streamable-http): https://seo.api.trendsmcp.ai/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Librecrawl — Technical SEO Audit MCP Server. Self-hosted technical SEO audit MCP. 50+ checks, WAF detection, ephemeral. Built on LibreCrawl.
   source: https://github.com/adityaarsharma/sitewalk
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-adityaarsharma-librecrawl-technical-seo-audit-mcp.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [mcp] HasData TikTok. Public TikTok profiles, videos, comments and keyword search as JSON. No developer account.
   source: https://github.com/HasData/tiktok-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-tiktok.md
   license: MIT
   install: npx -y @hasdata/tiktok-mcp
   needs_credentials: true, writes_external: false
 - [mcp] SEO Tools: A-Parser bridge. Bridge to a self-hosted A-Parser: SERP, suggests and 150+ parsers via its API (read-only).
   source: https://github.com/antohins/seo-tools-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-antohins-seo-tools-mcp-aparser.md
   license: MIT
   install: npx -y seo-tools-mcp-aparser
   needs_credentials: true, writes_external: false
 - [mcp] com.superagnt/tiktok-data. TikTok data for AI agents: videos, creators, sounds, hashtags, trends. Content + creator research.
   source: https://github.com/superagnt/plugins
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md
   license: MIT
   install: remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok
   needs_credentials: true, writes_external: false
 - [mcp] io.github.AutomateLab-tech/ai-seo. MCP server for AI-SEO auditing: schema, robots.txt, llms.txt, citation scoring, and AEO/GEO rewrites
   source: https://github.com/AutomateLab-tech/ai-seo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-ai-seo.md
   license: MIT
   install: npx -y @automatelab/ai-seo-mcp
   needs_credentials: false, writes_external: false
 - [mcp] SEO Performance MCP. Per-URL SEO verdicts from GSC, GA4, Matomo, Clarity, AI citations: refresh/expand/merge/kill.
   source: https://github.com/AutomateLab-tech/seo-performance-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-seo-performance-mcp.md
   license: MIT
   install: npx -y @automatelab/seo-performance-mcp
   needs_credentials: true, writes_external: false
 - [mcp] AfterLaunch: the agentic growth marketing engine. Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.
   source: https://github.com/afterlaunch/mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-afterlaunch-agentic-growth-marketing.md
   license: MIT
   install: remote (streamable-http): https://afterlaunch.io/api/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Agency Autopilot. Run client marketing from your AI assistant, or let Autopilot: Google Ads, GA4, SEO, Meta, CRM
   source: https://github.com/harrisonjdahl3/agency-mcp-plugin
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-jiyumarketing-mcp-agency-mcp.md
   license: MIT
   install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
   needs_credentials: true, writes_external: false
@@ -306,11 +320,13 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] io.github.JvnnDev/seo-webmaster-mcp. Read-only SEO and GEO audits with Google Search Console, Bing, and website crawling.
   source: https://github.com/JvnnDev/seo-webmaster-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-jvnndev-seo-webmaster-mcp.md
   license: MIT
   install: npx -y seo-webmaster-mcp
   needs_credentials: false, writes_external: false
 - [mcp] VibeSEO. SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.
   source: https://github.com/sultanlive/vibeseo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-vibeseo-vibeseo.md
   license: MIT
   install: remote (streamable-http): https://mcp.vibeseo.dev/mcp
   needs_credentials: true, writes_external: false
@@ -321,11 +337,13 @@ Go through the checklist and report the result to your owner.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false

@@ -41,6 +41,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -81,6 +87,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -121,6 +133,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -161,6 +179,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -206,6 +230,34 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/framecraft",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/rT68Jw98kUdeABmvFobN5",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "coding-shipping",
+       "creator": "stevenvillarino",
+       "firstSeen": "2026-09-29",
+       "integrations": [
+        "figma"
+       ],
+       "name": "Framecraft",
+       "official": false,
+       "page": "https://botsdots.site/templates/framecraft",
+       "risk": "low",
+       "summary": "Builds and cleans Figma frames for product designers: library components, CSS-style autolayout, pixel-accurate spacing from inspected properties. Keeps"
+      }
+     },
      "install": "https://x.ai/bot/rT68Jw98kUdeABmvFobN5",
      "security": {
       "audited": false,
@@ -251,6 +303,9 @@
      "license": "Apple terms; link only",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -289,6 +344,9 @@
      "license": "Google site terms; link only",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -326,6 +384,9 @@
      "license": "aggregator; per-item license",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -362,13 +423,18 @@
      "summary": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-skills-skills-frontend-design-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
      "repo": "anthropics/skills",
      "author": "anthropics",
      "license": "Apache-2.0 (per-skill LICENSE.txt; docx/pdf/pptx/xlsx are source-available, excluded)",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0 (per-skill LICENSE.txt; docx/pdf/pptx/xlsx are source-available, excluded)",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md"
+     },
      "install": "npx skills add anthropics/skills --skill frontend-design",
      "security": {
       "audited": false,
@@ -409,6 +475,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md"
+     },
      "install": "npx skills add anthropics/skills --skill web-artifacts-builder",
      "security": {
       "audited": false,
@@ -449,6 +520,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brandkit/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill brandkit",
      "security": {
       "audited": false,
@@ -489,6 +565,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill",
      "security": {
       "audited": false,
@@ -529,6 +610,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v1/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill-v1",
      "security": {
       "audited": false,
@@ -569,6 +655,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v2-experimental/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill-v2-experimental",
      "security": {
       "audited": false,
@@ -609,6 +700,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/output-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill output-skill",
      "security": {
       "audited": false,
@@ -649,6 +745,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/gpt-tasteskill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill gpt-tasteskill",
      "security": {
       "audited": false,
@@ -689,6 +790,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/soft-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill soft-skill",
      "security": {
       "audited": false,
@@ -729,6 +835,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/image-to-code-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill image-to-code-skill",
      "security": {
       "audited": false,
@@ -769,6 +880,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-mobile/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-mobile",
      "security": {
       "audited": false,
@@ -809,6 +925,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-web",
      "security": {
       "audited": false,
@@ -849,6 +970,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brutalist-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill brutalist-skill",
      "security": {
       "audited": false,
@@ -889,6 +1015,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/minimalist-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill minimalist-skill",
      "security": {
       "audited": false,
@@ -929,6 +1060,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill redesign-skill",
      "security": {
       "audited": false,
@@ -969,6 +1105,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/stitch-skill/SKILL.md"
+     },
      "install": "npx skills add Leonxlnx/taste-skill --skill stitch-skill",
      "security": {
       "audited": false,
@@ -1009,6 +1150,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills/blob/main/skills/pick-ui-library/SKILL.md"
+     },
      "install": "npx skills add emilkowalski/skills --skill pick-ui-library",
      "security": {
       "audited": false,
@@ -1049,6 +1195,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills/blob/main/skills/prototype/SKILL.md"
+     },
      "install": "npx skills add emilkowalski/skills --skill prototype",
      "security": {
       "audited": false,
@@ -1089,6 +1240,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/frontend-mobile-development/skills/nextjs-app-router-patterns/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill nextjs-app-router-patterns",
      "security": {
       "audited": false,
@@ -1129,6 +1285,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/frontend-mobile-development/skills/react-native-architecture/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill react-native-architecture",
      "security": {
       "audited": false,
@@ -1169,6 +1330,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/frontend-mobile-development/skills/react-state-management/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill react-state-management",
      "security": {
       "audited": false,
@@ -1209,6 +1375,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/skills/web-component-design/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill web-component-design",
      "security": {
       "audited": false,
@@ -1249,6 +1420,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-handoff/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill design-handoff",
      "security": {
       "audited": false,
@@ -1289,6 +1465,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/design-bridge.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1329,6 +1510,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1369,6 +1556,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1409,6 +1602,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1442,13 +1641,18 @@
      "summary": "Addy Osmani 的工程 Skill 集，含前端性能和质量类",
      "summary_lang": "zh-CN",
      "source_url": "https://github.com/addyosmani/agent-skills",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md",
      "upstream_raw_url": null,
      "repo": null,
      "author": null,
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1489,6 +1693,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1529,6 +1739,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1562,13 +1778,18 @@
      "summary": "反 AI slop 设计 Skill",
      "summary_lang": "zh-CN",
      "source_url": "https://github.com/miqdadbadjuber/anti-slop",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md",
      "upstream_raw_url": null,
      "repo": null,
      "author": null,
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/miqdadbadjuber/anti-slop/blob/main/README.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1609,6 +1830,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1654,6 +1881,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/commands/create-component.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1695,6 +1927,27 @@
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.figma.mcp/mcp&version=latest",
+      "record": {
+       "description": "The Figma MCP server brings Figma design context directly into your AI workflow.",
+       "name": "com.figma.mcp/mcp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.figma.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/figma/mcp-server-guide",
+       "title": "Figma MCP Server",
+       "version": "1.0.3",
+       "website": null
+      }
+     },
      "install": "remote (streamable-http): https://mcp.figma.com/mcp",
      "security": {
       "audited": false,
@@ -1730,13 +1983,36 @@
      "summary": "Help agents automatically write and test stories for your UI components.",
      "summary_lang": "en",
      "source_url": "https://github.com/storybookjs/mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-storybookjs-addon-mcp.md",
      "upstream_raw_url": null,
      "repo": "storybookjs/mcp",
      "author": "io.github.storybookjs",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/storybookjs/mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Help agents automatically write and test stories for your UI components.",
+       "name": "io.github.storybookjs/addon-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "@storybook/addon-mcp",
+         "transport": "streamable-http",
+         "type": "npm",
+         "version": "0.6.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/storybookjs/mcp",
+       "title": "Storybook MCP Addon",
+       "version": "0.6.0",
+       "website": "https://storybook.js.org/docs/ai/mcp/overview"
+      }
+     },
      "install": "npx -y @storybook/addon-mcp",
      "security": {
       "audited": false,
@@ -1772,13 +2048,36 @@
      "summary": "Generate beautiful Excalidraw architecture diagrams with auto-layout and component styling",
      "summary_lang": "en",
      "source_url": "https://github.com/BV-Venky/excalidraw-architect-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-bv-venky-excalidraw-architect-mcp.md",
      "upstream_raw_url": null,
      "repo": "BV-Venky/excalidraw-architect-mcp",
      "author": "io.github.BV-Venky",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/BV-Venky/excalidraw-architect-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Generate beautiful Excalidraw architecture diagrams with auto-layout and component styling",
+       "name": "io.github.BV-Venky/excalidraw-architect-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "excalidraw-architect-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/BV-Venky/excalidraw-architect-mcp",
+       "title": "Excalidraw Architect",
+       "version": "0.2.2",
+       "website": null
+      }
+     },
      "install": "uvx excalidraw-architect-mcp",
      "security": {
       "audited": false,
@@ -1814,13 +2113,42 @@
      "summary": "Tailwind CSS palettes (50-950) from any color, the closest Tailwind color, and Tailwind's defaults",
      "summary_lang": "en",
      "source_url": "https://github.com/bourhaouta/vscode-tailwindshades",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-bourhaouta-tailwindshades.md",
      "upstream_raw_url": null,
      "repo": "bourhaouta/vscode-tailwindshades",
      "author": "io.github.bourhaouta",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/bourhaouta/vscode-tailwindshades/blob/HEAD/README.md",
+      "record": {
+       "description": "Tailwind CSS palettes (50-950) from any color, the closest Tailwind color, and Tailwind's defaults",
+       "name": "io.github.bourhaouta/tailwindshades",
+       "packages": [
+        {
+         "env": [],
+         "id": "tailwindshades-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.6.0"
+        }
+       ],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://tailwindshades.bourhaouta.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/bourhaouta/vscode-tailwindshades",
+       "title": "Tailwind Shades",
+       "version": "1.6.0",
+       "website": "https://tailwindshades.bourhaouta.com"
+      }
+     },
      "install": "npx -y tailwindshades-mcp",
      "security": {
       "audited": false,
@@ -1856,13 +2184,36 @@
      "summary": "Compact Figma MCP with validated batch ops through a local plugin bridge.",
      "summary_lang": "en",
      "source_url": "https://github.com/sunhome243/figma-mcp-express",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-sunhome243-figma-mcp-express.md",
      "upstream_raw_url": null,
      "repo": "sunhome243/figma-mcp-express",
      "author": "io.github.sunhome243",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md",
+      "record": {
+       "description": "Compact Figma MCP with validated batch ops through a local plugin bridge.",
+       "name": "io.github.sunhome243/figma-mcp-express",
+       "packages": [
+        {
+         "env": [],
+         "id": "figma-mcp-express",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.8.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/sunhome243/figma-mcp-express",
+       "title": null,
+       "version": "2.8.1",
+       "website": null
+      }
+     },
      "install": "npx -y figma-mcp-express",
      "security": {
       "audited": false,
@@ -1899,13 +2250,43 @@
      "summary": "LLM-optimized Figma MCP server.",
      "summary_lang": "en",
      "source_url": "https://github.com/felixAnhalt/figma-to-code-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-felixanhalt-figma-context-mcp.md",
      "upstream_raw_url": null,
      "repo": "felixAnhalt/figma-to-code-mcp",
      "author": "io.github.felixAnhalt",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/felixAnhalt/figma-to-code-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "LLM-optimized Figma MCP server.",
+       "name": "io.github.felixAnhalt/Figma-Context-MCP",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
+           "name": "FIGMA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@tmegit/figma-developer-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.13.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/felixAnhalt/Figma-Context-MCP",
+       "title": null,
+       "version": "0.13.0",
+       "website": null
+      }
+     },
      "install": "npx -y @tmegit/figma-developer-mcp",
      "security": {
       "audited": false,
@@ -1943,13 +2324,36 @@
      "summary": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
      "summary_lang": "en",
      "source_url": "https://github.com/kolganovr/figma-mcp-bridge",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-kolganovr-figma-mcp-bridge.md",
      "upstream_raw_url": null,
      "repo": "kolganovr/figma-mcp-bridge",
      "author": "io.github.kolganovr",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/kolganovr/figma-mcp-bridge/blob/HEAD/README.md",
+      "record": {
+       "description": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
+       "name": "io.github.kolganovr/figma-mcp-bridge",
+       "packages": [
+        {
+         "env": [],
+         "id": "@kolganovr/figma-mcp-bridge",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "4.0.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/kolganovr/figma-mcp-bridge",
+       "title": null,
+       "version": "4.0.1",
+       "website": "https://github.com/kolganovr/figma-mcp-bridge#quickstart"
+      }
+     },
      "install": "npx -y @kolganovr/figma-mcp-bridge",
      "security": {
       "audited": false,
@@ -1985,13 +2389,49 @@
      "summary": "Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.",
      "summary_lang": "en",
      "source_url": "https://github.com/Mehmoodqureshi/figma-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-mcp.md",
      "upstream_raw_url": null,
      "repo": "Mehmoodqureshi/figma-mcp",
      "author": "io.github.Mehmoodqureshi",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Mehmoodqureshi/figma-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.",
+       "name": "io.github.Mehmoodqureshi/figma-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Figma personal access token (Settings -> Security -> Personal access tokens, scope \"File content: read\"). May instead be placed in a .figma-token file in the project directory. FIGMA_API_KEY is accepted as an alias.",
+           "name": "FIGMA_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Where converted frames are cached. Defaults to .figma-cache/ in the directory the server starts from.",
+           "name": "FIGMA_MCP_CACHE_DIR",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@mehmoodqureshi/figma-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/Mehmoodqureshi/figma-mcp",
+       "title": "figma-mcp",
+       "version": "0.2.1",
+       "website": null
+      }
+     },
      "install": "npx -y @mehmoodqureshi/figma-mcp",
      "security": {
       "audited": false,
@@ -2037,6 +2477,29 @@
      "license": "proprietary",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.jmshinhwa/tailwind-v4-upgrade-blocker-lint&version=latest",
+      "record": {
+       "description": "19 rules that find the Tailwind v3 syntax Tailwind v4 removed or silently redefined, in the file you",
+       "name": "io.github.jmshinhwa/tailwind-v4-upgrade-blocker-lint",
+       "packages": [
+        {
+         "env": [],
+         "id": "@readystack/tailwind-v4-upgrade-blocker-lint",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/jmshinhwa/readystack-themes",
+       "title": null,
+       "version": "1.0.1",
+       "website": null
+      }
+     },
      "install": "npx -y @readystack/tailwind-v4-upgrade-blocker-lint",
      "security": {
       "audited": false,
@@ -2079,6 +2542,27 @@
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Si40Code/super-excalidraw&version=latest",
+      "record": {
+       "description": "Draw40 is an independent diagram workspace with an interactive MCP Apps canvas. OAuth sign-in.",
+       "name": "io.github.Si40Code/super-excalidraw",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://draw.404040.net/mcp"
+        }
+       ],
+       "repository": null,
+       "title": "Draw40",
+       "version": "2026.10.10",
+       "website": "https://draw.404040.net/"
+      }
+     },
      "install": "remote (streamable-http): https://draw.404040.net/mcp",
      "security": {
       "audited": false,
@@ -2121,6 +2605,27 @@
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.tailwind/tailwind-mcp&version=latest",
+      "record": {
+       "description": "Tailwind MCP server — list Pinterest accounts and create, schedule, and manage Pinterest posts.",
+       "name": "ai.tailwind/tailwind-mcp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.tailwind.ai"
+        }
+       ],
+       "repository": null,
+       "title": "Tailwind App",
+       "version": "1.0.0",
+       "website": "https://api-docs.tailwind.ai/mcp"
+      }
+     },
      "install": "remote (streamable-http): https://mcp.tailwind.ai",
      "security": {
       "audited": false,
@@ -2161,13 +2666,18 @@
      "summary": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, ",
      "summary_lang": "en",
      "source_url": "https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/pbakaus/impeccable/main/.claude/skills/impeccable/SKILL.md",
      "repo": "pbakaus/impeccable",
      "author": "pbakaus",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -2208,6 +2718,9 @@
      "license": "NONE (no license file; GitHub API license=null)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -2248,6 +2761,9 @@
      "license": "W3C Document License; link + quote with attribution",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -2285,6 +2801,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-styling/SKILL.md"
+     },
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-styling",
      "security": {
       "audited": false,
@@ -2325,6 +2846,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md"
+     },
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
@@ -2365,6 +2891,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills/blob/main/skills/break-ui/SKILL.md"
+     },
      "install": "npx skills add emilkowalski/skills --skill break-ui",
      "security": {
       "audited": false,
@@ -2405,6 +2936,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/skills/accessibility-compliance/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill accessibility-compliance",
      "security": {
       "audited": false,
@@ -2445,6 +2981,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/agents/accessibility-expert.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -2485,6 +3026,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill screen-reader-testing",
      "security": {
       "audited": false,
@@ -2525,6 +3071,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill wcag-audit-patterns",
      "security": {
       "audited": false,
@@ -2565,6 +3116,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/accessibility-review/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill accessibility-review",
      "security": {
       "audited": false,
@@ -2605,6 +3161,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-critique/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill design-critique",
      "security": {
       "audited": false,
@@ -2645,6 +3206,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/ux-copy/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill ux-copy",
      "security": {
       "audited": false,
@@ -2685,6 +3251,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -2725,6 +3296,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmkb4dsp20009l404yrtmh4a4_frontend-developer"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -2765,6 +3341,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmjhdytu00001jm04yooccuhl_frontend-developer-skill"
+     },
      "install": null,
      "security": {
       "audited": false,

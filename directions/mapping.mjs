@@ -8,7 +8,7 @@ const P = (f) => `previews/cs/${f}.webp`;
 const shared = {
   copy: c('Copy Button', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/copy-button', 'cult-copy-button'),
   compare: c('Compare', AC, 'cs2-ui-aceternity-com--carousel--compare--v0', P('cs2-ui-aceternity-com--carousel--compare--v0'), 'https://ui.aceternity.com/components/compare', 'ac-compare'),
-  footer: c('Blocks · footer', SH, 'lib-ui-shadcn-com-blocks', 'previews/lib-ui-shadcn-com-blocks.webp', 'https://ui.shadcn.com/blocks', 'sh-button + sh-separator', 'footer columns follow the shadcn Blocks marketing footer'),
+  footer: c('Footer · Social media icons (sitemap columns)', 'Flowbite', 'cs2-lib-flowbite-com--layout--components-footer--v2', P('cs2-lib-flowbite-com--layout--components-footer--v2'), 'https://flowbite.com/docs/components/footer/#social-media-icons', 'fb-footer.md (Social media icons example)', 'brand + note on the left, three uppercase-heading link columns, divider, copyright row; spacing as in the original (py-8, mb-6 headings, mb-4 links). No social icon row: the project has one link (GitHub), kept in the Project column. C adds its big wordmark above the divider'),
   ticker: c('Number Ticker', MU, 'cs-magicui-design-chart', P('cs-magicui-design-chart'), 'https://magicui.design/docs/components/number-ticker', 'mu-number-ticker'),
   shBtn: c('Button', SH, 'cs-ui-shadcn-com-button', P('cs-ui-shadcn-com-button'), 'https://ui.shadcn.com/docs/components/base/button', 'sh-button'),
   badge: c('Badge', SH, 'cs2-ui-shadcn-com--badge--docs-components-badge--v2', P('cs2-ui-shadcn-com--badge--docs-components-badge--v2'), 'https://ui.shadcn.com/docs/components/base/badge', 'sh-badge'),
@@ -118,42 +118,44 @@ export const MAP = {
 // ---------------------------------------------------------------- full site (all pages), per skin
 // SITE_MAP rows: [page, module key, label, {a, b, c}] (same object in all three = shared component, re-skinned by tokens).
 // `libLevel` notes mark rows whose Hub preview has no item id of its own, so the Hub id is the library entry.
-const LIB = 'Hub preview has no item id; library-level Hub id';
+// Every SITE_MAP row now points at a component-level Hub item (r5.2). LIB_ONLY marks rows where UI Hub has no component-level
+// item for that library at all (Cult UI, Magic UI Flickering Grid, shadcn Blocks), so the library entry is the most specific Hub id.
+const LIB_ONLY = 'UI Hub has no component-level item for this library; the Hub id is its library entry';
+const RB = 'React Bits', SL = 'Shoelace', MT = 'Mantine', OP = 'Open Props';
 const S = {
-  crumbs: c('Breadcrumb', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--breadcrumb--docs-components-breadcrumb--v1'), 'https://ui.shadcn.com/docs/components/breadcrumb', 'sh-breadcrumb', LIB),
+  crumbs: c('Breadcrumb', SL, 'cs2-lib-shoelace-style--breadcrumb--breadcrumb--v0', P('cs2-lib-shoelace-style--breadcrumb--breadcrumb--v0'), 'https://shoelace.style/components/breadcrumb', 'sl-breadcrumb + sl-breadcrumb-item styles (breadcrumb-item.styles.ts)', 'chevron separator, links in accent (primary-600), current item semibold neutral; B keeps its mono uppercase label font'),
   pagination: c('Pagination', SH, 'cs2-ui-shadcn-com--pagination--docs-components-pagination--v3', P('cs2-ui-shadcn-com--pagination--docs-components-pagination--v3'), 'https://ui.shadcn.com/docs/components/pagination', 'sh-pagination'),
   accordion: c('Accordion', SH, 'cs2-ui-shadcn-com--accordion--docs-components-accordion--v3', P('cs2-ui-shadcn-com--accordion--docs-components-accordion--v3'), 'https://ui.shadcn.com/docs/components/accordion', 'sh-accordion (native <details>)'),
   table: c('Data Table', SH, 'cs2-ui-shadcn-com--table--data-table--v1', P('cs2-ui-shadcn-com--table--data-table--v1'), 'https://ui.shadcn.com/docs/components/data-table', 'sh-table'),
   alert: c('Alert', SH, 'cs2-ui-shadcn-com--alert--docs-components-alert--v1', P('cs2-ui-shadcn-com--alert--docs-components-alert--v1'), 'https://ui.shadcn.com/docs/components/alert', 'sh-alert'),
   select: c('Select', SH, 'cs2-ui-shadcn-com--select--select--v1', P('cs2-ui-shadcn-com--select--select--v1'), 'https://ui.shadcn.com/docs/components/select', 'sh-select (native <select>, same tokens)'),
   checkbox: c('Checkbox', SH, 'cs2-ui-shadcn-com--checkbox--docs-components-checkbox--v1', P('cs2-ui-shadcn-com--checkbox--docs-components-checkbox--v1'), 'https://ui.shadcn.com/docs/components/checkbox', 'sh-checkbox'),
-  toggle: c('Toggle Group', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--tabs--docs-components-toggle-group--v2'), 'https://ui.shadcn.com/docs/components/toggle-group', 'sh-toggle-group', LIB),
+  toggle: c('Tabs · TabsList as segmented control', SH, 'cs2-ui-shadcn-com--tabs--tabs--v0', P('cs2-ui-shadcn-com--tabs--tabs--v0'), 'https://ui.shadcn.com/docs/components/base/tabs', 'sh-tabs + base-nova cn-tabs-list / cn-tabs-trigger (sh-style-nova.css)', 'buttons keep aria-pressed (toggle semantics); segments wrap on desktop and scroll on phones'),
   input: c('Input', SH, 'cs-ui-shadcn-com-input', P('cs-ui-shadcn-com-input'), 'https://ui.shadcn.com/docs/components/input', 'sh-input'),
   tabs: c('Tabs', SH, 'cs-ui-shadcn-com-tabs', P('cs2-ui-shadcn-com--tabs--tabs--v0'), 'https://ui.shadcn.com/docs/components/tabs', 'sh-tabs'),
-  menu: c('Navigation Menu (mobile, collapsed)', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--nav--docs-components-navigation-menu--v1'), 'https://ui.shadcn.com/docs/components/navigation-menu', 'sh-navigation-menu', LIB),
-  timeline: c('Timeline', AC, 'ui-aceternity-com', P('cs2-ui-aceternity-com--timeline--timeline--v0'), 'https://ui.aceternity.com/components/timeline', 'ac-timeline (sticky label + scroll-progress line)', LIB),
-  code: c('Code Block', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/code-block', 'cult-code-block'),
+  menu: c('Context Menu · Basic (menu surface + items)', SH, 'cs2-ui-shadcn-com--menu--docs-components-context-menu--v1', P('cs2-ui-shadcn-com--menu--docs-components-context-menu--v1'), 'https://ui.shadcn.com/docs/components/base/context-menu#basic', 'sh-context-menu (base) + base-nova cn-context-menu-content / -item + cn-menu-translucent', 'opened by the header menu button (native <details>) instead of right-click'),
+  timeline: c('Timeline (align left, bullets with child)', MT, 'cs2-lib-mantine-dev--timeline--core-timeline--v0', P('cs2-lib-mantine-dev--timeline--core-timeline--v0'), 'https://mantine.dev/core/timeline/', 'mantine-timeline (Timeline.module.css)', 'bullet 32px / line 2px (as in the Hub demo); `active` follows scroll; title row centred on the bullet'),
+  code: c('Code Block', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/code-block', 'cult-code-block', LIB_ONLY),
   shCard: c('Card', SH, 'cs2-ui-shadcn-com--card--card--v0', P('cs2-ui-shadcn-com--card--card--v0'), 'https://ui.shadcn.com/docs/components/card', 'sh-card'),
-  spot: c('Card Spotlight', AC, 'ui-aceternity-com', P('cs2-ui-aceternity-com--card--card-spotlight--v0'), 'https://ui.aceternity.com/components/card-spotlight', 'ac-card-spotlight (radial follows pointer)', LIB),
-  minimal: c('Minimal Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card'),
+  spot: c('Spotlight Card', RB, 'cs2-reactbits-dev--card--components-spotlight-card--v0', P('cs2-reactbits-dev--card--components-spotlight-card--v0'), 'https://reactbits.dev/components/spotlight-card', 'rb-spotlight-card (SpotlightCard.tsx + SpotlightCard.css, ts-default)', 'spotlightColor = B accent; other props at their defaults (size 240, intensity .15, softness .7, borderGlow .6, proximity 80, smoothing .3, flare on, grain 0)'),
+  minimal: c('Minimal Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card', LIB_ONLY),
   magic: c('Magic Card', MU, 'cs-magicui-design-card', P('cs2-magicui-design--card--magic-card--v0'), 'https://magicui.design/docs/components/magic-card', 'mu-magic-card'),
-  hover: c('Card Hover Effect', AC, 'ui-aceternity-com', P('cs2-ui-aceternity-com--card--card-hover-effect--v0'), 'https://ui.aceternity.com/components/card-hover-effect', 'ac-card-hover-effect', LIB),
   card3d: c('3D Card Effect', AC, 'cs2-ui-aceternity-com--card--3d-card-effect--v0', P('cs2-ui-aceternity-com--card--3d-card-effect--v0'), 'https://ui.aceternity.com/components/3d-card-effect', 'ac-3d-card'),
   muBento: c('Bento Grid', MU, 'cs-magicui-design-layout', P('cs2-magicui-design--layout--bento-grid--v0'), 'https://magicui.design/docs/components/bento-grid', 'mu-bento-grid'),
   acBento: c('Bento Grid', AC, 'cs-ui-aceternity-com-layout', P('cs-ui-aceternity-com-layout'), 'https://ui.aceternity.com/components/bento-grid', 'ac-bento-grid'),
-  texture: c('Texture Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card (flattened)'),
-  collapsible: c('Collapsible', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--accordion--docs-components-collapsible--v2'), 'https://ui.shadcn.com/docs/components/collapsible', 'sh-collapsible (native <details>)', LIB),
-  prose: c('— (typography only)', '—', '', '', '', 'plain HTML from markdown', 'GAP: long-form prose has no Hub component; styled with tokens only'),
+  texture: c('Texture Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card (flattened)', LIB_ONLY),
+  collapsible: c('Collapsible · Settings Panel', SH, 'cs2-ui-shadcn-com--accordion--docs-components-collapsible--v2', P('cs2-ui-shadcn-com--accordion--docs-components-collapsible--v2'), 'https://ui.shadcn.com/docs/components/base/collapsible#settings-panel', 'sh-collapsible (base) + examples/base/collapsible-settings', 'hidden cards continue the same grid (display:contents = col-span-full subgrid); the outline trigger has a text label next to the Maximize/Minimize icon'),
+  prose: c('Typography (normalize + font/size props)', OP, 'cs2-lib-open-props-style--layout--home--v0', P('cs2-lib-open-props-style--layout--home--v0'), 'https://open-props.style/#typography', 'op-normalize.css + op-props.fonts.js + op-props.sizes.js; rules checked with the better-typography skill (www-ui-skills-com-skills-jakubkrehel-better-typography)', 'UI Hub has no prose/article component; Open Props typography is the closest Hub item. List items use 60ch (Open Props: 45ch) to meet the 60–75ch measure'),
 };
 const all = (x) => ({ a: x, b: x, c: x });
 const per = (k) => ({ a: MAP.a[k], b: MAP.b[k], c: MAP.c[k] });
 const card = { a: S.shCard, b: S.spot, c: S.minimal };
-const role = { a: S.magic, b: S.hover, c: S.card3d };
+const role = { a: S.magic, b: S.spot, c: S.card3d };
 const shBtn = shared.shBtn, badge = shared.badge, ticker = shared.ticker;
 export const SITE_MAP = [
   ['all pages', 'nav', 'Header navigation', per('nav')],
   ['all pages', 'skin-switch', 'A/B/C style switcher', all(S.toggle)],
-  ['all pages', 'lang', 'Language select', all(S.select)],
+  ['all pages', 'lang', 'Language select', { a: S.select, b: { ...S.select, note: 'on phones it sits in the Floating Dock list as a round item (native select over a languages icon)' }, c: S.select }],
   ['all pages', 'theme', 'Light/dark toggle', { a: shBtn, b: MAP.b.nav, c: shBtn }],
   ['all pages', 'menu', 'Mobile menu', { a: S.menu, b: MAP.b.nav, c: S.menu }],
   ['all pages', 'page-head', 'Page header background', per('hero-bg')],
@@ -166,22 +168,23 @@ export const SITE_MAP = [
   ['library, templates, industry, course, latest, resource', 'cards', 'Resource card', card],
   ['library, templates', 'pagination', 'Pagination', all(S.pagination)],
   ['library, templates', 'empty', 'Empty state', all(S.shCard)],
-  ['templates, industry, course', 'stats', 'Stat strip (counts)', all(ticker)],
+  ['templates, industry, course, case', 'stats', 'Stat strip (counts)', all(ticker)],
   ['templates, industry, resource, latest, changelog', 'badges', 'Badges, source chips, safety tags', all(badge)],
   ['industry', 'roles', 'Role cards', role],
   ['course', 'alert', 'Permissions alert', all(S.alert)],
-  ['course, resource, agents, 404', 'buttons', 'Buttons (raw, pack, JSON, copy)', all(shBtn)],
-  ['course, changelog', 'timeline', 'Five-step / per-day timeline', all(S.timeline)],
-  ['course', 'checklist', 'Self-check list', all(S.checkbox)],
-  ['course', 'more', 'Show N more (per step)', all(S.collapsible)],
+  ['course, resource, agents, case, 404', 'buttons', 'Buttons (raw, pack, JSON, copy)', all(shBtn)],
+  ['course, changelog, case', 'timeline', 'Five-step / per-day / rounds timeline', all(S.timeline)],
+  ['course, case', 'checklist', 'Self-check / reuse list', all(S.checkbox)],
+  ['course, resource', 'more', 'Show N more (per step) / show the full original text', all(S.collapsible)],
   ['courses', 'bento', 'Open professions', { a: S.muBento, b: S.acBento, c: S.texture }],
   ['courses', 'steps5', 'Five steps overview', card],
-  ['resource', 'code-block', 'Install command', all(S.code)],
-  ['resource', 'accordion', 'Mirrored text', all(S.accordion)],
-  ['resource, changelog, agents', 'table', 'Metadata / changes / endpoints table', all(S.table)],
+  ['resource', 'code-block', 'Install command, full prompt text (prompts.chat, CC0)', all(S.code)],
+  ['resource, changelog, agents, case', 'table', 'Metadata / public record (BotsDots, MCP Registry, UI Hub) / changes / endpoints / mapping table', all(S.table)],
   ['latest', 'tabs', 'Newest / Trending tabs', all(S.tabs)],
   ['latest', 'trend', 'Trending list', card],
   ['sources', 'source-cards', 'Source cards', card],
-  ['case', 'prose', 'Case study text', all(S.prose)],
+  ['case', 'before-after', 'Before / after', all(shared.compare)],
+  ['case', 'styles', 'Three style cards', card],
+  ['resource, case', 'prose', 'Long-form text (case notes; full original SKILL.md / README / raw file where the license allows)', all(S.prose)],
   ['404', 'not-found', 'Not found', all(S.shCard)],
 ];

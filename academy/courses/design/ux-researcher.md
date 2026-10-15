@@ -105,11 +105,13 @@ Read the required skills, prompts and standards in order.
   needs_credentials: false, writes_external: false
 - [skill] frontend-design. Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
   source: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-skills-skills-frontend-design-skill-md.md
   license: Apache-2.0 (per-skill LICENSE.txt; docx/pdf/pptx/xlsx are source-available, excluded)
   install: npx skills add anthropics/skills --skill frontend-design
   needs_credentials: false, writes_external: false
 - [skill] design-system. Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design t
   source: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/design-system/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-design-system-skill-md.md
   license: MIT
   needs_credentials: false, writes_external: false
 
@@ -145,6 +147,7 @@ Go through the checklist and report the result to your owner.
 
 - [skill] impeccable. Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing page
   source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [skill] web-design-guidelines. Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".

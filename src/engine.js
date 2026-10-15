@@ -148,7 +148,7 @@
       });
     });
   };
-  bindPointer(); window.__bindPointer = bindPointer;
+  bindPointer(); window.__bindPointer = (sc) => { bindPointer(sc); window.__rbSpot && window.__rbSpot(sc); };
 
   // ---------------------------------------------------------------- Aceternity · Compare (ac-compare): slideMode hover + drag, initial 50%
   $$('[data-compare]').forEach((el) => {
@@ -196,12 +196,88 @@
   // inner pages: skin B page headers get the same Background Beams, injected only when B is active
   function injectBeams() { if (root.dataset.skin !== 'b') return; $$('[data-bb-slot]:empty').forEach((s) => { s.innerHTML = BB_SVG; initBeams($('svg', s)); }); }
   injectBeams();
-  // ---------------------------------------------------------------- Aceternity · Timeline (ac-timeline): beam height follows scroll, gradient accent -> transparent
+  // ---------------------------------------------------------------- Mantine · Timeline (cs2-lib-mantine-dev--timeline--core-timeline--v0): `active` = index of the
+  // last item whose top passed 60% of the viewport; items <= active get bullet [data-active], items < active get [data-line-active]
   $$('[data-timeline]').forEach((tl) => {
-    const line = $('.tml-line i', tl); let raf = 0;
-    const upd = () => { raf = 0; const r = tl.getBoundingClientRect(); const p = Math.max(0, Math.min(1, (innerHeight * 0.6 - r.top) / r.height)); line.style.height = (p * 100) + '%'; line.style.opacity = Math.min(1, p * 10); };
+    const items = [...tl.children].filter((x) => x.classList.contains('tml-item')); let raf = 0, cur = -2;
+    const upd = () => {
+      raf = 0; const lim = innerHeight * 0.6; let act = -1;
+      items.forEach((it, k) => { if (it.getBoundingClientRect().top < lim) act = k; });
+      if (act === cur) return; cur = act;
+      items.forEach((it, k) => { const bl = it.querySelector('.tml-bullet'); bl && bl.toggleAttribute('data-active', k <= act); it.toggleAttribute('data-line-active', k < act); });
+    };
     addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(upd); }, { passive: true }); upd();
   });
+
+  // ---------------------------------------------------------------- shadcn · Collapsible (collapsible-settings): trigger toggles the panel that continues the grid
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-collapsible]'); if (!b) return;
+    const panel = document.getElementById(b.getAttribute('aria-controls')); const open = b.getAttribute('aria-expanded') !== 'true';
+    b.setAttribute('aria-expanded', open); panel.hidden = !open;
+    $('.when-closed', b).hidden = open; $('.when-open', b).hidden = !open;
+    if (!open) b.closest('.coll-t').previousElementSibling.scrollIntoView({ block: 'nearest' });
+    window.__bindPointer && window.__bindPointer(panel);
+  });
+
+  // same Collapsible trigger, clamped variant: long original texts on resource pages open to full height
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-clamp]'); if (!b) return;
+    const panel = document.getElementById(b.getAttribute('aria-controls')); const open = b.getAttribute('aria-expanded') !== 'true';
+    b.setAttribute('aria-expanded', open); panel.classList.toggle('is-clamped', !open);
+    $('.when-closed', b).hidden = open; $('.when-open', b).hidden = !open;
+    if (!open) panel.scrollIntoView({ block: 'nearest' });
+  });
+
+  // ---------------------------------------------------------------- React Bits · Spotlight Card (rb-spotlight-card, ts-default; cs2-reactbits-dev--card--components-spotlight-card--v0)
+  // Same maths as the original: falloff() colour stops, circle shape, size 240, intensity .15, softness .7, borderGlow .6, proximity 80,
+  // smoothing .3, press flare, palette fill/edge (dark 1/1, light .28/.7). spotlightColor = the B accent. One shared pointer listener; only
+  // cards on screen are woken. Active only while skin B is on.
+  (() => {
+    const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+    const falloff = (color, softness) => {
+      const soft = clamp(softness, 0, 1); const core = (1 - soft) ** 1.5 * 0.85;
+      const stop = (alpha, at) => `color-mix(in srgb, ${color} ${(alpha * 100).toFixed(2)}%, transparent) ${(at * 100).toFixed(2)}%`;
+      const list = [stop(1, 0)];
+      for (let i = 0; i <= 14; i++) { const t = core + ((1 - core) * i) / 14; const g = (t - core) / (1 - core); const smooth = 1 - g * g * (3 - 2 * g); const glow = Math.exp(-4.6 * g * g) * (1 - g ** 6); list.push(stop(smooth + (glow - smooth) * soft, t)); }
+      return list.join(', ');
+    };
+    const S = { size: 240, intensity: 0.15, borderGlow: 0.6, proximity: 80, smoothing: 0.3, flare: true, fill: falloff('var(--acc)', 0.7), edge: falloff('var(--acc)', 1) };
+    const pointer = { x: 0, y: 0, active: false }; const vis = new Set(); const all = new WeakMap();
+    const io = 'IntersectionObserver' in window ? new IntersectionObserver((es) => es.forEach((en) => { const c = all.get(en.target); if (!c) return; if (en.isIntersecting) vis.add(c); else vis.delete(c); })) : null;
+    const make = (root) => {
+      const st = { x: 0, y: 0, presence: 0, flare: 0, pressed: false, focus: null }; let light, edge, raf = 0, last = 0;
+      const ensure = () => { if (light) return; light = document.createElement('span'); light.className = 'spc-light'; edge = document.createElement('span'); edge.className = 'spc-edge'; light.setAttribute('aria-hidden', 'true'); edge.setAttribute('aria-hidden', 'true'); root.prepend(light); root.append(edge); };
+      const grad = (size, x, y, stops) => `radial-gradient(circle ${size.toFixed(1)}px at ${x.toFixed(1)}px ${y.toFixed(1)}px, ${stops})`;
+      const tick = (now) => {
+        raf = 0; if (root.ownerDocument.documentElement.dataset.skin !== 'b') return; ensure();
+        const dark = root.ownerDocument.documentElement.classList.contains('dark'); const pal = dark ? { fill: 1, edge: 1 } : { fill: 0.28, edge: 0.7 };
+        const dt = Math.min(0.05, Math.max(0.001, (now - last) / 1000)); last = now;
+        const r = root.getBoundingClientRect(); let tx = st.x, ty = st.y, target = 0;
+        if (st.focus && root.contains(st.focus)) { const bx = st.focus.getBoundingClientRect(); tx = bx.left + bx.width / 2 - r.left; ty = bx.top + bx.height / 2 - r.top; target = 1; }
+        else if (pointer.active) { tx = pointer.x - r.left; ty = pointer.y - r.top; const gap = Math.hypot(Math.max(0, -tx, tx - r.width), Math.max(0, -ty, ty - r.height)); if (gap === 0) target = 1; else if (S.proximity > 0) target = Math.max(0, 1 - gap / S.proximity) ** 2; }
+        if (st.presence < 0.02 && target > 0) { st.x = tx; st.y = ty; }
+        const follow = RM ? 1 : 1 - Math.exp(-dt / (0.015 + S.smoothing * 0.22)); st.x += (tx - st.x) * follow; st.y += (ty - st.y) * follow;
+        const fade = RM ? 1 : 1 - Math.exp(-dt / (target > st.presence ? 0.1 : 0.32)); st.presence += (target - st.presence) * fade; if (Math.abs(target - st.presence) < 0.002) st.presence = target;
+        const press = st.pressed && S.flare && !RM ? 1 : 0; st.flare += (press - st.flare) * (1 - Math.exp(-dt / (press ? 0.05 : 0.28))); if (Math.abs(press - st.flare) < 0.002) st.flare = press;
+        const size = S.size * (1 + 0.2 * st.flare), boost = 1 + 0.7 * st.flare;
+        light.style.background = grad(size, st.x, st.y, S.fill); edge.style.background = grad(size * 0.6, st.x, st.y, S.edge);
+        light.style.opacity = String(Math.min(1, st.presence * S.intensity * pal.fill * boost)); edge.style.opacity = String(Math.min(1, st.presence * S.borderGlow * pal.edge * boost));
+        const moving = Math.abs(tx - st.x) > 0.1 || Math.abs(ty - st.y) > 0.1;
+        if (moving || st.presence !== target || st.flare !== press) raf = requestAnimationFrame(tick);
+      };
+      const wake = () => { if (raf) return; last = performance.now(); raf = requestAnimationFrame(tick); };
+      root.addEventListener('pointerdown', (e) => { pointer.x = e.clientX; pointer.y = e.clientY; pointer.active = true; st.pressed = true; wake(); });
+      root.addEventListener('focusin', (e) => { if (e.target.matches(':focus-visible')) { st.focus = e.target; wake(); } });
+      root.addEventListener('focusout', (e) => { if (!root.contains(e.relatedTarget)) { st.focus = null; wake(); } });
+      return { wake, st };
+    };
+    addEventListener('pointermove', (e) => { pointer.x = e.clientX; pointer.y = e.clientY; pointer.active = true; if (root.dataset.skin === 'b') vis.forEach((c) => c.wake()); }, { passive: true });
+    addEventListener('pointerup', (e) => { if (e.pointerType !== 'mouse') pointer.active = false; vis.forEach((c) => { if (c.st.pressed) { c.st.pressed = false; c.wake(); } }); });
+    document.addEventListener('pointerout', (e) => { if (e.relatedTarget) return; pointer.active = false; vis.forEach((c) => c.wake()); });
+    addEventListener('scroll', () => { if (pointer.active && root.dataset.skin === 'b') vis.forEach((c) => c.wake()); }, { passive: true, capture: true });
+    const bind = (scope = document) => $$('[data-rb-spot]:not([data-spc])', scope).forEach((el) => { el.dataset.spc = 1; const c = make(el); all.set(el, c); if (io) io.observe(el); else vis.add(c); });
+    bind(); window.__rbSpot = bind;
+  })();
 
   // ---------------------------------------------------------------- Aceternity · Moving Border (ac-moving-border): a radial dot follows <rect rx=30%> at length/duration px per ms (3000ms)
   $$('[data-moving-border]').forEach((btn) => {

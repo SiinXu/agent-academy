@@ -45,6 +45,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/collect.py ${{ inputs.full_linkcheck && '--full-linkcheck' || '' }}
+      - name: Original content (licence-checked full texts and public records)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: timeout 30m python3 scripts/originals.py
       - name: Cache Argos models
         if: github.event_name != 'push'
         uses: actions/cache@v6

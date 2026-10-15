@@ -56,11 +56,13 @@ Read the required skills, prompts and standards in order.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false
@@ -110,15 +112,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 
 - [mcp] HubSpot auditor MCP (read-only). Read-only audit of a HubSpot portal. You get a scored report of what works, what is broken, and what is missing, plus a 30/60/90-day fix plan.
   source: https://github.com/M-Pineapple/hubspot-auditor
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/m-pineapple-hubspot-auditor.md
   license: MIT
   needs_credentials: true, writes_external: false
 - [mcp] PostHog MCP Server. Official PostHog MCP Server for product analytics, feature flags, experiments, and more.
   source: https://github.com/PostHog/posthog
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-posthog-mcp.md
   license: MIT
   install: remote (streamable-http): https://mcp.posthog.com/mcp
   needs_credentials: true, writes_external: true
 - [mcp] io.github.matjmat/eulerian-marketing-platform-mcp. Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.
   source: https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-matjmat-eulerian-marketing-platform-mcp.md
   license: MIT
   install: uvx eulerian-marketing-platform
   needs_credentials: true, writes_external: false
@@ -129,11 +134,13 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] io.github.CSOAI-ORG/marketing-analytics-ai-mcp. Marketing Analytics Ai MCP Server by MEOK AI Labs
   source: https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-csoai-org-marketing-analytics-ai-mcp.md
   license: MIT
   install: uvx marketing-analytics-ai-mcp
   needs_credentials: false, writes_external: false
 - [mcp] io.github.friendlygeorge/posthog-mcp-server. MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...
   source: https://github.com/friendlygeorge/posthog-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md
   license: MIT
   install: npx -y posthog-mcp-server
   needs_credentials: false, writes_external: true
@@ -144,6 +151,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] Posthog. PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)
   source: https://github.com/pipeworx-io/mcp-posthog
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/posthog/mcp
   needs_credentials: true, writes_external: true
@@ -154,11 +162,13 @@ Go through the checklist and report the result to your owner.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false

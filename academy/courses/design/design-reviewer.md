@@ -94,6 +94,7 @@ Read the required skills, prompts and standards in order.
 
 - [skill] impeccable. Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing page
   source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [skill] web-design-guidelines. Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
@@ -207,6 +208,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [mcp] Supericons. Multilingual semantic SVG icon search with previews for AI coding agents. 20,000+ icons.
   source: https://github.com/curlymolelabs/supericons
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-curlymolelabs-supericons.md
   license: MIT
   install: npx -y @supericons/mcp
   needs_credentials: true, writes_external: false
@@ -217,6 +219,7 @@ Go through the checklist and report the result to your owner.
 
 - [skill] impeccable. Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing page
   source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [skill] web-design-guidelines. Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".

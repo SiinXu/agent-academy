@@ -37,6 +37,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/openai_sdk_crash_course/2_structured_output_agent/2_1_support_ticket_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -77,6 +82,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/google_adk_crash_course/3_structured_output_agent/3_1_customer_support_ticket_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -110,13 +120,18 @@
      "summary": "Using Tool Required for Customer Service The ChatCompletion endpoint now includes the ability to specify whether a tool must be called every time, by adding tool_choice='required' as a parameter. This adds an element of determinism to how you build your wrapping application, as you can count on a to",
      "summary_lang": "en",
      "source_url": "https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cookbook-examples-using-tool-required-for-customer-service-ipynb.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-cookbook/main/examples/Using_tool_required_for_customer_service.ipynb",
      "repo": "openai/openai-cookbook",
      "author": "openai",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -150,13 +165,18 @@
      "summary": "Creating a Customer Service Agent with Client-Side Tools In this recipe, we'll demonstrate how to create a customer service chatbot using Claude 3 plus client-side tools. The chatbot will be able to look up customer information, retrieve order details, and cancel orders on behalf of the customer. We",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-claude-cookbooks-tool-use-customer-service-agent-ipynb.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/claude-cookbooks/main/tool_use/customer_service_agent.ipynb",
      "repo": "anthropics/claude-cookbooks",
      "author": "anthropics",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -195,13 +215,18 @@
      "summary": "The **Retail AI Plugin** bundles two end-to-end Google Cloud retail skills for AI coding assistants (Gemini CLI, Claude Code, Antigravity, Codex) following the [Google Agent Plugins v1.0.0 specification][spec] (`plugin.json` + `skills/<skill-name>/SKILL.md`):",
      "summary_lang": "en",
      "source_url": "https://github.com/google/adk-recipes/tree/main/plugins/retail",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-plugins-retail.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/plugins/retail/README.md",
      "repo": "google/adk-recipes",
      "author": "google",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/adk-recipes/tree/main/plugins/retail"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -242,6 +267,34 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/customer-care",
+      "record": {
+       "access": [
+        "money"
+       ],
+       "add": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+       "cadence": "weekly",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "ColinMcDermott",
+       "firstSeen": "2026-10-02",
+       "integrations": [],
+       "name": "Customer Care",
+       "official": false,
+       "page": "https://botsdots.site/templates/customer-care",
+       "risk": "high",
+       "summary": "Handles refunds and disputes, drafts support messages"
+      }
+     },
      "install": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
      "security": {
       "audited": false,
@@ -284,6 +337,32 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/review-desk",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/MuKDTS9Fq0UySwClmE8wc",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "AraXsuper",
+       "firstSeen": "2026-09-25",
+       "integrations": [],
+       "name": "Review Desk",
+       "official": false,
+       "page": "https://botsdots.site/templates/review-desk",
+       "risk": "low",
+       "summary": "Drafts review replies in your shop's own voice, star-sorted, with you approving each one"
+      }
+     },
      "install": "https://x.ai/bot/MuKDTS9Fq0UySwClmE8wc",
      "security": {
       "audited": false,
@@ -326,6 +405,34 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/claims-finder",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "DanBooneFerden",
+       "firstSeen": "2026-10-14",
+       "integrations": [],
+       "name": "Claims Finder",
+       "official": false,
+       "page": "https://botsdots.site/templates/claims-finder",
+       "risk": "medium",
+       "summary": "Digs through your inbox receipts for refunds, settlements and unclaimed money"
+      }
+     },
      "install": "https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR",
      "security": {
       "audited": false,
@@ -368,6 +475,31 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/noshipsherlock",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/Lll9_CtLlBh_nEOWVQfMY",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "beyrouti",
+       "firstSeen": "2026-09-26",
+       "integrations": [],
+       "name": "NoShipSherlock",
+       "official": false,
+       "page": "https://botsdots.site/templates/noshipsherlock",
+       "risk": "low",
+       "summary": "Lost Package Desk for a store: tracks missing, stalled, and delivered-but-not-received shipments, runs carrier playbooks, and never files or refunds"
+      }
+     },
      "install": "https://x.ai/bot/Lll9_CtLlBh_nEOWVQfMY",
      "security": {
       "audited": false,
@@ -408,13 +540,18 @@
      "summary": "Creates product search agents with semantic search and RAG on Google Cloud (Vector Search on Gemini Enterprise Agent Platform, BigQuery, embeddings). Use when the user wants to \"build a product search agent\", \"create an e-commerce search\", \"make a shopping assistant\", \"set up semantic catalog discov",
      "summary_lang": "en",
      "source_url": "https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/product-search/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-plugins-retail-skills-product-search-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/plugins/retail/skills/product-search/SKILL.md",
      "repo": "google/adk-recipes",
      "author": "google",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/product-search/SKILL.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -448,13 +585,18 @@
      "summary": "At the beginning of the conversation, you have to authenticate the user identity by locating their user id via email, or via name + zip code. This has to be done even when the user already provides the user id.",
      "summary_lang": "en",
      "source_url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/retail/policy.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/sierra-research-tau2-bench-data-tau2-domains-retail-policy-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/data/tau2/domains/retail/policy.md",
      "repo": "sierra-research/tau2-bench",
      "author": "sierra-research",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/retail/policy.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -495,6 +637,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/virtual-tryon/SKILL.md"
+     },
      "install": "npx skills add google/adk-recipes --skill virtual-tryon",
      "security": {
       "audited": false,
@@ -535,6 +682,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/airline/policy.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -575,6 +727,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/telecom/main_policy.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -615,6 +772,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmmx2ya3s000hic04l0i60mil_legal-document-generator-agent-role"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -660,6 +822,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_customer_support_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -693,13 +860,18 @@
      "summary": "This repository contains a demo of a Customer Service interface built on top of the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/).",
      "summary_lang": "en",
      "source_url": "https://github.com/openai/openai-cs-agents-demo",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cs-agents-demo.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-cs-agents-demo/main/README.md",
      "repo": "openai/openai-cs-agents-demo",
      "author": "openai",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/openai/openai-cs-agents-demo"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -733,13 +905,18 @@
      "summary": "A Model Context Protocol server for Zendesk.",
      "summary_lang": "en",
      "source_url": "https://github.com/reminia/zendesk-mcp-server",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/reminia-zendesk-mcp-server.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/reminia/zendesk-mcp-server/main/README.md",
      "repo": "reminia/zendesk-mcp-server",
      "author": "reminia",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/reminia/zendesk-mcp-server"
+     },
      "install": "see README (uv / Claude Desktop config); needs Zendesk API token",
      "security": {
       "audited": false,
@@ -773,13 +950,18 @@
      "summary": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with structured access to the [Freshdesk](https://www.freshdesk.com) customer support platform — tickets, contacts, companies, agents, groups, the knowledge base, and SLA/business-hours configuratio",
      "summary_lang": "en",
      "source_url": "https://github.com/WYRE-AI/freshdesk-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/wyre-ai-freshdesk-mcp.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/WYRE-AI/freshdesk-mcp/main/README.md",
      "repo": "WYRE-AI/freshdesk-mcp",
      "author": "WYRE-AI",
      "license": "Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)",
+      "url": "https://github.com/WYRE-AI/freshdesk-mcp"
+     },
      "install": "MCP Registry: io.github.WYRE-AI/freshdesk-mcp; needs Freshdesk API key",
      "security": {
       "audited": false,
@@ -818,13 +1000,18 @@
      "summary": "τ-bench family benchmark (MIT) that simulates user–agent conversations in customer-service domains (retail, airline, telecom, banking) with tools, policies and automatic task evaluation.",
      "summary_lang": "en",
      "source_url": "https://github.com/sierra-research/tau2-bench",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/sierra-research-tau2-bench.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/README.md",
      "repo": "sierra-research/tau2-bench",
      "author": "sierra-research",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sierra-research/tau2-bench"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -858,13 +1045,18 @@
      "summary": "Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to churn, or an issue has sat unresolved past its SLA.",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-escalation/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-escalation",
      "security": {
       "audited": false,

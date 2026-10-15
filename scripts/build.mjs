@@ -1,6 +1,7 @@
 // Agent Academy static build: data/*.json -> dist/ (pages, /api, llms.txt, agent.md, feeds, packs) + academy/ (raw course files committed to the repo)
 import fs from 'node:fs'; import path from 'node:path'; import { execFileSync } from 'node:child_process';
 import { ROOT, LOCALES, OPEN, readJSON, esc, write, host, shortSrc } from './lib.mjs';
+import { SITE_MAP, MODULES } from '../directions/mapping.mjs';
 
 const BASE = (process.env.BASE || '/agent-academy/').replace(/\/?$/, '/');
 const SITE = (process.env.SITE || 'https://siinxu.github.io/agent-academy').replace(/\/$/, '');
@@ -19,8 +20,12 @@ const COURSES = readJSON('data/courses.json');
 const UI = Object.fromEntries(LOCALES.map((l) => [l, readJSON(`i18n/${l}.json`)]));
 const PROMPT = readJSON('i18n/prompt.json');
 const L10N_EN = readJSON('data/l10n/en.json', {});
-// English display text: the original, or the machine translation for non-English sources (UI Hub notes are Chinese)
-const sumOf = (i) => (i.summary_lang && i.summary_lang !== 'en' && L10N_EN[i.id] ? L10N_EN[i.id].s : i.summary_source) || '';
+// Summaries are always shown in their source language (labelled 原文 / Original on pages in another language). Offline Argos
+// translations were too often wrong (r5.3), so they are no longer shown; only lossless script conversion (OpenCC zh-CN -> zh-TW) is used.
+const sumOf = (i) => i.summary_source || '';
+const ORIG = readJSON('data/originals.json', {});
+const keepTr = (l, k) => l === 'zh-TW' && L10N[l][k]?.by === 'opencc' && L10N['zh-CN'][k]?.by === 'source';
+const ENDO = { en: 'English', 'zh-CN': '简体中文', 'zh-TW': '繁體中文', ja: '日本語', ko: '한국어', ms: 'Bahasa Melayu', vi: 'Tiếng Việt', fr: 'Français', es: 'Español', de: 'Deutsch' };
 const licLabel = (i) => { const l = String(i.license).split(' (')[0]; return /^(see-skill-folder|NOASSERTION|NONE|unknown)$/.test(l) ? 'not stated' : l; };
 const L10N = Object.fromEntries(LOCALES.filter((l) => l !== 'en').map((l) => [l, readJSON(`data/l10n/${l}.json`, {})]));
 const STATE = readJSON('data/state.json', {});
@@ -85,7 +90,7 @@ const CASE_ID = 'agent-academy-build';
 const caseURL = `${SITE}/cases/${CASE_ID}/`;
 const courseRaw = (c) => `${RAW}/academy/courses/${c.industry}/${c.role}.md`;
 const courseJsonRaw = (c) => `${RAW}/academy/courses/${c.industry}/${c.role}.json`;
-const resRaw = (i) => (i.redistributable && fs.existsSync(path.join(ROOT, 'data/mirror', i.id + '.md')) ? `${RAW}/data/mirror/${i.id}.md` : null);
+const resRaw = (i) => (i.redistributable && fs.existsSync(path.join(ROOT, 'data/mirror', i.id + '.md')) ? `${RAW}/data/mirror/${i.id}.md` : ORIG[i.id]?.file ? `${RAW}/${ORIG[i.id].file}` : null);
 
 function courseMd(c) {
   const L = [];
@@ -113,7 +118,7 @@ function courseMd(c) {
 }
 const resJSON = (i) => ({ id: i.id, title: i.title, type: i.type, industry: i.industry, roles: i.roles, summary: i.summary_source, summary_lang: i.summary_lang,
   source_url: i.source_url, raw_url: resRaw(i), upstream_raw_url: i.raw_url, repo: i.repo, author: i.author, license: i.license, redistributable: i.redistributable,
-  content_policy: i.content_policy, install: i.install, security: i.security, metrics: i.metrics, course_step: i.course_step, status: i.status,
+  content_policy: i.content_policy, original: ORIG[i.id] ? { kind: ORIG[i.id].kind, license: ORIG[i.id].license, url: ORIG[i.id].url, record: ORIG[i.id].record } : (resRaw(i) ? { kind: 'full', license: i.license, url: i.source_url } : { kind: 'link' }), install: i.install, security: i.security, metrics: i.metrics, course_step: i.course_step, status: i.status,
   first_seen: i.first_seen, updated_at: i.updated_at, checked_at: i.checked_at, http_status: i.http_status, page: `${SITE}/r/${i.id}/`, source: i.source });
 
 // ---------------------------------------------------------------- academy/ (committed raw files for agents)
@@ -159,7 +164,7 @@ const HOME = [u(), ti('nav.home')];
 const sfTag = (on, y, n2, icn) => `<span class="sf ${on ? 'warn' : 'ok'}">${ic(on ? icn : 'shield')}${ti(on ? y : n2)}</span>`;
 const tagsHTML = (i) => { const s = safety(i); return `<span class="rc-tags">${sfTag(s.cred, 'tag.cred_yes', 'tag.cred_no', 'key')}${sfTag(s.send, 'tag.send_yes', 'tag.send_no', 'send')}</span>`; };
 const srcChip = (i) => i.type === 'skill' ? 'SKILL.md' : i.source === 'prompts.chat' ? 'prompts.chat · CC0' : i.source === 'botsdots' ? 'BotsDots' : i.source === 'mcp-registry' ? 'MCP Registry' : i.source === 'ui-hub' ? 'UI Hub' : '';
-const card = (i, o = {}) => `<article class="rc" data-spotlight-card>
+const card = (i, o = {}) => `<article class="rc" data-rb-spot>
 <div class="rc-top"><span class="rc-type">${txs('types', i.type)}</span>${o.chip && srcChip(i) ? `<span class="rc-chip">${esc(srcChip(i))}</span>` : `<span class="rc-ind">${txs('industries', i.industry)}</span>`}</div>
 <h3 class="rc-t"><a href="${u('r/' + i.id + '/')}">${esc(i.title)}</a></h3>
 <p class="rc-s" data-sid="${esc(i.id)}">${esc(sumOf(i))}</p>
@@ -167,7 +172,7 @@ const card = (i, o = {}) => `<article class="rc" data-spotlight-card>
 <div class="rc-f">${tagsHTML(i)}<span class="rc-lic" title="${esc(i.license)}">${esc(licLabel(i))}</span></div></article>`;
 const grid = (items, o = {}) => `<div class="rgrid${o.cls ? ' ' + o.cls : ''}" data-mod="${o.mod || 'cards'}">${items.map((i) => card(i, o)).join('')}</div>`;
 const btn = (href, label, cls = 'btn btn-o', icn = '') => `<a class="${cls}" href="${href}">${icn ? ic(icn) : ''}${label}</a>`;
-const roleCard = (ind, r) => { const c = COURSE_LIST.find((x) => x.id === `${ind}/${r}`); const n = STEP_KEYS.reduce((a, s) => a + c.steps[s].length, 0); const top = STEP_KEYS.flatMap((s) => c.steps[s]).find((x) => !/[\u3040-\u9fff\uac00-\ud7af]/.test(x.title)); return `<a class="rl" href="${u(`courses/${ind}/${r}/`)}" data-magic-card data-3d data-gsize="220"><span class="rl-in"><span class="rl-ic" data-z style="--z:40">${ic(IND_IC[ind] || 'book')}</span><b class="rl-t" data-z style="--z:30">${txs('roles', r)}</b><small class="rl-n" data-z style="--z:20">${nf(n)} ${ti('fac.items')} · 5 ${ti('course.steps')}</small>${top ? `<small class="rl-eg">${esc(top.title)}</small>` : ''}<span class="rl-go">${ti('course.open')}${ic('right')}</span></span></a>`; };
+const roleCard = (ind, r) => { const c = COURSE_LIST.find((x) => x.id === `${ind}/${r}`); const n = STEP_KEYS.reduce((a, s) => a + c.steps[s].length, 0); const top = STEP_KEYS.flatMap((s) => c.steps[s]).find((x) => !/[\u3040-\u9fff\uac00-\ud7af]/.test(x.title)); return `<a class="rl" href="${u(`courses/${ind}/${r}/`)}" data-magic-card data-3d data-gsize="220"><span class="rl-in" data-rb-spot><span class="rl-ic" data-z style="--z:40">${ic(IND_IC[ind] || 'book')}</span><b class="rl-t" data-z style="--z:30">${txs('roles', r)}</b><small class="rl-n" data-z style="--z:20">${nf(n)} ${ti('fac.items')} · 5 ${ti('course.steps')}</small>${top ? `<small class="rl-eg">${esc(top.title)}</small>` : ''}<span class="rl-go">${ti('course.open')}${ic('right')}</span></span></a>`; };
 const IND_IC = { 'customer-service': 'headset', marketing: 'megaphone', design: 'palette', 'software-engineering': 'code', sales: 'briefcase', ecommerce: 'cart', 'data-research': 'chart', finance: 'wallet', legal: 'scale', product: 'box' };
 
 // ---------------------------------------------------------------- LIBRARY + TEMPLATES (client-side filter over the search index)
@@ -208,61 +213,102 @@ for (const ind of Object.keys(TAX.industries)) {
   const extra = `<p class="p-badges">${types.map(([k, n2]) => `<a class="badge-l" href="${u('library/?ind=' + ind + '&type=' + k)}">${txs('types', k)} <em>${n2}</em></a>`).join('')}</p>
 <div class="p-stats" data-mod="stats"><div><b data-ticker="${items.length}">${nf(items.length)}</b>${ti('fac.items')}</div><div><b data-ticker="${rs.length}">${rs.length}</b>${ti('fac.roles')}</div><div><b data-ticker="${items.filter((i) => i.type === 'skill').length}">${items.filter((i) => i.type === 'skill').length}</b>${ti('h.skills')}</div><div><b data-ticker="${items.filter((i) => i.type === 'mcp').length}">${items.filter((i) => i.type === 'mcp').length}</b>${ti('stat.mcp')}</div></div>`;
   const body = pageHead({ trail: [HOME, [u('courses/'), ti('nav.courses')], [u('i/' + ind + '/'), txs('industries', ind)]], kicker: `<span class="badge-s ${open ? 'on' : ''}" data-i="${open ? 'fac.open' : 'fac.soon'}">${t(open ? 'fac.open' : 'fac.soon')}</span>`, title: txs('industries', ind), lede: open ? `<span data-x="goal.${ind}">${esc(COURSES.goals[ind])}</span>` : ti('course.soon'), extra })
-  + (open ? `<section class="wrap p-sec"><div class="p-sh"><h2 class="p-h2">${ti('course.roles')}</h2><p>${ti('ind.roles_s')}</p></div><div class="roles" data-hover-effect data-mod="roles">${rs.map((r) => roleCard(ind, r)).join('')}</div></section>` : '')
+  + (open ? `<section class="wrap p-sec"><div class="p-sh"><h2 class="p-h2">${ti('course.roles')}</h2><p>${ti('ind.roles_s')}</p></div><div class="roles" data-mod="roles">${rs.map((r) => roleCard(ind, r)).join('')}</div></section>` : '')
   + `<section class="wrap p-sec"><div class="p-sh row"><h2 class="p-h2">${ti('ind.top')}</h2>${btn(u('library/?ind=' + ind), `${ti('nav.library')} · ${nf(items.length)}`, 'btn btn-o', '')}</div>${grid(items.slice(0, 24))}</section>`;
   write(DIST, `i/${ind}/index.html`, page({ title: `${name('industries', ind)} · Agent Academy`, desc: open ? COURSES.goals[ind] : t('course.soon'), body, active: 'nav.courses', rel: `i/${ind}/` }));
 }
-const stepGrid = (items) => (items.length <= 6 ? grid(items) : grid(items.slice(0, 6)) + `<details class="more-d"><summary class="btn btn-o">${tn('course.more', items.length - 6)}${ic('chev')}</summary>${grid(items.slice(6))}</details>`);
+const stepGrid = (items) => (items.length <= 6 ? grid(items) : `<div class="rgrid" data-mod="cards">${items.slice(0, 6).map((i) => card(i)).join('')}<div class="coll-c" id="%ID%" hidden>${items.slice(6).map((i) => card(i)).join('')}</div></div><div class="coll-t" data-mod="more"><button type="button" class="btn btn-o" aria-expanded="false" aria-controls="%ID%" data-collapsible>${ic('maximize', 'ic i-max')}${ic('minimize', 'ic i-min')}<span class="when-closed">${tn('course.more', items.length - 6)}</span><span class="when-open" hidden>${ti('course.less')}</span></button></div>`.replaceAll('%ID%', 'more-' + (++MORE_N)));
+let MORE_N = 0;
 for (const c of COURSE_LIST) {
   const n = STEP_KEYS.reduce((a, s) => a + c.steps[s].length, 0);
   const extra = `<div class="alert" role="note" data-mod="alert">${ic('shield')}<div><b data-i="course.perm">${t('course.perm')}</b><p data-x="perm.${c.industry}">${esc(COURSES.permissions[c.industry])}</p></div></div>
 <div class="p-actions" data-mod="buttons">${btn(courseRaw(c), ti('course.raw'), 'btn btn-p', 'doc')}${btn(u(`packs/${c.industry}/${c.role}.zip`), ti('course.pack'), 'btn btn-o', 'zip')}${btn(courseJsonRaw(c), 'JSON', 'btn btn-o', 'json')}<button type="button" class="btn btn-g" data-copy="${esc(courseRaw(c))}">${ic('copy')}${ti('course.copy_url')}</button></div>
 <div class="p-stats" data-mod="stats"><div><b data-ticker="${n}">${n}</b>${ti('fac.items')}</div><div><b>5</b>${ti('course.steps')}</div><div><b data-ticker="${COURSES.checklists[c.industry].length}">${COURSES.checklists[c.industry].length}</b>${ti('course.checks')}</div></div>`;
-  const step = (s, k) => `<div class="tml-item" data-mod="timeline-item"><div class="tml-l"><span class="tml-dot">${k + 1}</span><h2 class="tml-t">${ti('step.' + s)}</h2></div><div class="tml-r"><h2 class="tml-t-m">${ti('step.' + s)}</h2><p class="tml-d">${ti('step.' + s + '.d')}</p>
+  const step = (s, k) => `<li class="tml-item" id="step-${k + 1}"><span class="tml-bullet" aria-hidden="true">${k + 1}</span><div class="tml-body"><h2 class="tml-t">${ti('step.' + s)}</h2><p class="tml-d">${ti('step.' + s + '.d')}</p>
 ${s === '2-pick-direction' && c.industry === 'design' ? `<div class="styles"><h3 class="p-h3">${ti('course.styles')}</h3><p class="p-badges">${STYLES.map((x) => `<a class="badge-l" href="https://siinxu.github.io/ui-resource-hub/">${esc(x.k)} <em>${x.n}</em></a>`).join('')}</p></div>` : ''}
 ${s === '4-do-it' && c.industry === 'design' ? `<a class="case-link" href="${u('cases/' + CASE_ID + '/')}">${ic('doc')}<span data-i="case.h">${t('case.h')}</span>${ic('right')}</a>` : ''}
 ${stepGrid(c.steps[s])}
-${s === '5-self-check' ? `<h3 class="p-h3">${ti('course.checklist')}</h3><ul class="checklist" data-mod="checklist">${COURSES.checklists[c.industry].map((x, k2) => `<li><label class="chk"><input type="checkbox"><span class="chk-box" aria-hidden="true">${ic('check')}</span><span data-x="check.${c.industry}.${k2}">${esc(x)}</span></label></li>`).join('')}</ul>` : ''}</div></div>`;
+${s === '5-self-check' ? `<h3 class="p-h3">${ti('course.checklist')}</h3><ul class="checklist" data-mod="checklist">${COURSES.checklists[c.industry].map((x, k2) => `<li><label class="chk"><input type="checkbox"><span class="chk-box" aria-hidden="true">${ic('check')}</span><span data-x="check.${c.industry}.${k2}">${esc(x)}</span></label></li>`).join('')}</ul>` : ''}</div></li>`;
   const body = pageHead({ trail: [HOME, [u('courses/'), ti('nav.courses')], [u('i/' + c.industry + '/'), txs('industries', c.industry)], [u(`courses/${c.id}/`), txs('roles', c.role)]], kicker: `${ti('course.title')} · ${txs('industries', c.industry)}`, title: txs('roles', c.role), lede: `<span data-x="goal.${c.industry}">${esc(COURSES.goals[c.industry])}</span>`, extra })
-  + `<section class="wrap p-sec"><div class="tml" data-timeline data-mod="timeline"><div class="tml-line" aria-hidden="true"><i></i></div>${STEP_KEYS.map(step).join('')}</div></section>`;
+  + `<section class="wrap p-sec"><ol class="tml" data-timeline data-mod="timeline">${STEP_KEYS.map(step).join('')}</ol></section>`;
   write(DIST, `courses/${c.industry}/${c.role}/index.html`, page({ title: `${name('roles', c.role)} · ${name('industries', c.industry)} · Agent Academy`, desc: COURSES.goals[c.industry], body, active: 'nav.courses', rel: `courses/${c.industry}/${c.role}/` }));
 }
 {
   const body = pageHead({ trail: [HOME, [u('courses/'), ti('nav.courses')]], title: ti('nav.courses'), lede: ti('path.sub') })
   + `<section class="wrap p-sec"><div class="pbento" data-mod="bento">${OPEN.map((ind) => `<article class="pb-card"><div class="pb-h"><span class="pb-ic">${ic(IND_IC[ind])}</span><div><h2 class="p-h2"><a href="${u('i/' + ind + '/')}">${txs('industries', ind)}</a></h2><small>${nf((byInd[ind] || []).length)} ${ti('fac.items')} · ${rolesOf(ind).length} ${ti('fac.roles')}</small></div></div><p class="pb-goal" data-x="goal.${ind}">${esc(COURSES.goals[ind])}</p><ul class="pb-roles">${rolesOf(ind).map((r) => `<li><a href="${u(`courses/${ind}/${r}/`)}">${txs('roles', r)}${ic('right')}</a></li>`).join('')}</ul></article>`).join('')}
 <article class="pb-card pb-soon"><div class="pb-h"><span class="pb-ic">${ic('layers')}</span><div><h2 class="p-h2">${ti('fac.soon')}</h2><small>${ti('h.soon_d')}</small></div></div><ul class="pb-roles">${Object.keys(TAX.industries).filter((k) => !OPEN.includes(k)).map((k) => `<li><a href="${u('i/' + k + '/')}">${txs('industries', k)}<em>${(byInd[k] || []).length}</em></a></li>`).join('')}</ul></article></div>
-<div class="p-sh"><h2 class="p-h2">${ti('path.title')}</h2></div><ol class="steps5">${STEP_KEYS.map((s, k) => `<li><span class="tml-dot">${k + 1}</span><b>${ti('step.' + s)}</b><p>${ti('step.' + s + '.d')}</p></li>`).join('')}</ol></section>`;
+<div class="p-sh"><h2 class="p-h2">${ti('path.title')}</h2></div><ol class="steps5" data-mod="steps5">${STEP_KEYS.map((s, k) => `<li data-rb-spot><span class="tml-bullet">${k + 1}</span><b>${ti('step.' + s)}</b><p>${ti('step.' + s + '.d')}</p></li>`).join('')}</ol></section>`;
   write(DIST, 'courses/index.html', page({ title: 'Courses · Agent Academy', desc: t('path.sub'), body, active: 'nav.courses', rel: 'courses/' }));
 }
 
+
+// ---- original content on resource pages (r5.3): full text where the license allows, else the public record, else link only
+const cleanReadme = (md) => md.replace(/<!--[\s\S]*?-->/g, '').replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, '').replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+  .replace(/<(img|br|hr)[^>]*>/gi, '').replace(/<\/?(p|div|span|a|h\d|picture|source|details|summary|sup|sub|b|i|em|strong|table|tr|td|th|tbody|thead|center|kbd|code)[^>]*>/gi, '')
+  .replace(/\n{3,}/g, '\n\n');
+const origKind = (i, mirror) => (mirror || ORIG[i.id]?.kind === 'full' ? 'full' : ORIG[i.id]?.record ? 'excerpt' : 'link');
+const isPrompt = (i) => i.type === 'system-prompt' && i.source === 'prompts.chat';
+let CLAMP_N = 0;
+function origBlock(i, mirror) {
+  const o = ORIG[i.id] || {}; const kind = origKind(i, mirror);
+  const head = (k, lic, url) => `<div class="orig-h"><h2 class="p-h3">${ti('o.title')}</h2><span class="orig-k orig-${kind}">${ti(k)}</span>${lic ? `<span class="orig-lic">${esc(lic)}</span>` : ''}${url ? `<a class="orig-src" href="${esc(url)}">${ti('o.f_source')}${ic('ext')}</a>` : ''}</div>`;
+  const rowsT = (rows) => `<div class="tbl-card" data-mod="table"><table class="meta orig-rec"><tbody>${rows.filter(([, v]) => v !== null && v !== undefined && v !== '').map(([k, v]) => `<tr><th scope="row">${ti(k)}</th><td>${v}</td></tr>`).join('')}</tbody></table></div>`;
+  const list = (a) => (a && a.length ? a.map((x) => `<code>${esc(x)}</code>`).join(' ') : ti('o.none'));
+  if (kind === 'full') {
+    let text = mirror ? mirror : fs.readFileSync(path.join(ROOT, o.file), 'utf8');
+    if (!mirror) text = cleanReadme(text);
+    const lic = mirror ? i.license : o.license; const url = mirror ? i.source_url : o.url;
+    const trunc = (mirror && mirror.length > 60000) || o.truncated;
+    const id = 'orig-' + (++CLAMP_N);
+    let inner;
+    if (isPrompt(i)) { const body = text.replace(/^#[^\n]*\n+/, '').replace(/^Source: [^\n]*\n+/, '').trim(); inner = `<div class="cbk" data-mod="code-block"><div class="cbk-h"><span>${ti('o.prompt')}</span><button type="button" class="btn btn-g btn-sm" data-copy="${esc(body)}">${ic('copy')}${ti('r.copy')}</button></div><pre class="cbk-wrap"><code>${esc(body)}</code></pre></div>`; }
+    else inner = `<div class="prose" data-mod="prose" lang="${esc(i.languages?.[0] || 'en')}">${md2html(text.slice(0, 60000), { images: false })}</div>`;
+    const long = text.length > 6000;
+    return `<section class="orig" id="original" data-orig="full">${head('o.full', lic, url)}<p class="orig-n">${ti('o.n_full')}${trunc ? ' ' + ti('o.n_trunc') : ''}</p>
+<div class="orig-b${long ? ' is-clamped' : ''}" id="${id}">${inner}</div>${long ? `<div class="coll-t" data-mod="more"><button type="button" class="btn btn-o" aria-expanded="false" aria-controls="${id}" data-clamp>${ic('maximize', 'ic i-max')}${ic('minimize', 'ic i-min')}<span class="when-closed">${ti('o.show_all')}</span><span class="when-open" hidden>${ti('o.show_less')}</span></button></div>` : ''}${o.record && !mirror ? recordT(o) : ''}</section>`;
+  }
+  function recordT(o2) {
+    const r = o2.record || {};
+    if (o2.label === 'botsdots') return rowsT([['o.f_summary', `<q lang="en">${esc(r.summary)}</q>`], ['o.f_category', esc(r.category)], ['o.f_cadence', esc(r.cadence)], ['o.f_access', list(r.access)], ['o.f_integrations', list(r.integrations)], ['o.f_creator', r.creator ? esc('@' + r.creator) : null], ['o.f_first', esc(r.firstSeen)], ['o.f_catalogs', esc((r.catalog_sources || []).join(', '))], ['o.f_add', r.add ? `<a class="url" href="${esc(r.add)}">${esc(r.add)}</a>` : null]]);
+    if (r.packages || r.remotes) return rowsT([['o.f_summary', r.description ? `<q lang="en">${esc(r.description)}</q>` : null], ['o.f_version', esc(r.version)], ['o.f_packages', (r.packages || []).length ? r.packages.map((pk) => `<code>${esc([pk.type, pk.id && pk.id + (pk.version ? '@' + pk.version : ''), pk.transport].filter(Boolean).join(' · '))}</code>`).join('<br>') : ti('o.none')], ['o.f_env', (r.packages || []).flatMap((pk) => pk.env || []).length ? r.packages.flatMap((pk) => pk.env || []).map((v) => `<code>${esc(v.name)}</code>${v.required ? ` <small>${ti('o.required')}</small>` : ''}${v.secret ? ` <small>${ti('o.secret')}</small>` : ''}${v.description ? `<br><small>${esc(v.description)}</small>` : ''}`).join('<br>') : ti('o.none')], ['o.f_remotes', (r.remotes || []).length ? r.remotes.map((x) => `<code>${esc(x.type)}</code> <span class="url">${esc(x.url)}</span>`).join('<br>') : null], ['o.f_website', r.website ? `<a class="url" href="${esc(r.website)}">${esc(r.website)}</a>` : null]]);
+    return rowsT([['o.f_summary', `<q lang="${esc(i.summary_lang || 'en')}">${esc(i.summary_source)}</q>`], ['o.f_repo_lic', r.repo_license ? esc(r.repo_license) : null]]);
+  }
+  if (kind === 'excerpt') {
+    const note = o.label === 'botsdots' ? 'o.n_bd' : o.label === 'mcp-registry' ? 'o.n_mcp' : 'o.n_hub';
+    return `<section class="orig" id="original" data-orig="excerpt">${head('o.excerpt', o.license, o.label === 'botsdots' ? i.source_url : o.url)}${recordT(o)}<div class="alert" role="note">${ic('ext')}<div><b>${ti('r.policy_link')}</b><p>${ti(note)}</p></div></div></section>`;
+  }
+  return `<section class="orig" id="original" data-orig="link">${head('o.link', i.license, i.source_url)}<div class="alert" role="note">${ic('ext')}<div><b>${ti('r.policy_link')}</b><p>${ti('o.n_link')}</p></div></div></section>`;
+}
 // ---------------------------------------------------------------- RESOURCE detail pages + md + json
 const related = (i) => (byInd[i.industry] || []).filter((x) => x.id !== i.id && x.roles.some((r) => i.roles.includes(r))).sort(sortQ).slice(0, 6);
 for (const i of ALL) {
   const mirrorP = path.join(ROOT, 'data/mirror', i.id + '.md');
   const mirror = i.redistributable && fs.existsSync(mirrorP) ? fs.readFileSync(mirrorP, 'utf8') : null;
-  const rows = [['card.license', esc(i.license)], ['r.policy', ti(i.redistributable ? 'r.policy_mirror' : 'r.policy_link')], ['r.author', esc(i.author)], ['r.roles', i.roles.map((r) => txs('roles', r)).join(', ')], ['r.step', i.course_step ? ti('step.' + i.course_step) : null], ['r.stars', i.metrics?.repo_stars ? nf(i.metrics.repo_stars) : null], ['r.first', i.first_seen?.slice(0, 10)], ['r.updated', i.updated_at?.slice(0, 10)], ['r.checked', i.checked_at ? `${i.checked_at.slice(0, 10)} (HTTP ${i.http_status?.source})` : null]].filter(([, v]) => v !== null && v !== undefined && v !== '');
+  const rows = [['card.license', esc(i.license)], ['r.policy', ti({ full: 'o.full', excerpt: 'o.excerpt', link: 'o.link' }[origKind(i, i.redistributable && fs.existsSync(path.join(ROOT, 'data/mirror', i.id + '.md')))])], ['r.author', esc(i.author)], ['r.roles', i.roles.map((r) => txs('roles', r)).join(', ')], ['r.step', i.course_step ? ti('step.' + i.course_step) : null], ['r.stars', i.metrics?.repo_stars ? nf(i.metrics.repo_stars) : null], ['r.first', i.first_seen?.slice(0, 10)], ['r.updated', i.updated_at?.slice(0, 10)], ['r.checked', i.checked_at ? `${i.checked_at.slice(0, 10)} (HTTP ${i.http_status?.source})` : null]].filter(([, v]) => v !== null && v !== undefined && v !== '');
   const sf = i.security || {};
   const extra = `<div class="p-badges">${tagsHTML(i)}${i.status !== 'active' ? `<span class="sf warn">${esc(i.status)}</span>` : ''}</div>
 <div class="p-actions" data-mod="buttons">${btn(esc(i.source_url), ti('r.open'), 'btn btn-p', 'ext')}<button type="button" class="btn btn-o" data-copy="${esc(i.source_url)}">${ic('copy')}${ti('r.copy_link')}</button></div>
 <p class="url-l"><code class="url">${esc(i.source_url)}</code></p>`;
-  const body = pageHead({ trail: [HOME, [u('library/'), ti('nav.library')], [u('i/' + i.industry + '/'), txs('industries', i.industry)], [u('r/' + i.id + '/'), esc(i.title)]], kicker: txs('types', i.type), title: esc(i.title), lede: `<span data-sid="${esc(i.id)}">${esc(sumOf(i))}</span>`, extra, cls: 'p-head-d' })
+  const body = pageHead({ trail: [HOME, [u('library/'), ti('nav.library')], [u('i/' + i.industry + '/'), txs('industries', i.industry)], [u('r/' + i.id + '/'), esc(i.title)]], kicker: txs('types', i.type), title: esc(i.title), lede: `<span class="orig-l" data-orig-lang="${esc(i.summary_lang || 'en')}" hidden>${ti('card.orig')} · ${esc(ENDO[i.summary_lang || 'en'] || i.summary_lang)}</span><span data-sid="${esc(i.id)}" lang="${esc(i.summary_lang || 'en')}">${esc(sumOf(i))}</span>`, extra, cls: 'p-head-d' })
   + `<section class="wrap p-sec d-grid"><div class="d-main">
 ${sf.credential_names?.length ? `<div class="alert warn" role="note">${ic('key')}<div><b data-i="r.creds">${t('r.creds')}</b><p><code>${esc(sf.credential_names.join(', '))}</code></p></div></div>` : ''}
 ${i.install ? `<div class="cbk" data-mod="code-block"><div class="cbk-h"><span>${ti('card.install')}</span><button type="button" class="btn btn-g btn-sm" data-copy="${esc(i.install)}">${ic('copy')}${ti('r.copy')}</button></div><pre><code>${esc(i.install)}</code></pre></div>` : ''}
-${mirror ? `<details class="acc" data-mod="accordion"><summary><span>${ti('r.mirror')} · ${esc(i.license)}</span>${ic('chev')}</summary><div class="acc-b"><p class="muted" data-i="r.mirror_note">${t('r.mirror_note')}</p><pre>${esc(mirror.slice(0, 60000))}</pre></div></details>` : `<div class="alert" role="note">${ic('ext')}<div><b data-i="r.policy_link">${t('r.policy_link')}</b><p data-i="r.link_only">${t('r.link_only')}</p></div></div>`}
+${origBlock(i, mirror)}
 </div><aside class="d-side"><div class="tbl-card" data-mod="table"><table class="meta"><tbody>${rows.map(([k, v]) => `<tr><th scope="row" data-i="${k}">${t(k)}</th><td>${v}</td></tr>`).join('')}</tbody></table></div>
 <div class="d-agent"><h2 class="p-h3">${ti('nav.agents')}</h2>${btn(u('api/resources/' + i.id + '.json'), ti('r.json'), 'btn btn-o btn-sm', 'json')}${btn(u('r/' + i.id + '.md'), ti('r.md'), 'btn btn-o btn-sm', 'doc')}${resRaw(i) ? btn(resRaw(i), ti('r.raw'), 'btn btn-o btn-sm', 'doc') : ''}</div></aside></section>
 ${related(i).length ? `<section class="wrap p-sec"><div class="p-sh"><h2 class="p-h2">${ti('r.related')}</h2></div>${grid(related(i))}</section>` : ''}`;
-  const tr = Object.fromEntries(LOCALES.filter((l) => l !== 'en' && L10N[l][i.id]).map((l) => [l, L10N[l][i.id].s]));
+  const tr = Object.fromEntries(LOCALES.filter((l) => l !== 'en' && L10N[l][i.id] && keepTr(l, i.id)).map((l) => [l, L10N[l][i.id].s]));
   write(DIST, `r/${i.id}/index.html`, page({ title: `${i.title} · Agent Academy`, desc: (i.summary_source || i.title).slice(0, 160), body, active: 'nav.library', rel: `r/${i.id}/`, pageData: { kind: 'resource', sum: { [i.id]: tr }, lang: i.summary_lang } }));
-  write(DIST, `r/${i.id}.md`, `# ${i.title}\n\n- type: ${i.type}\n- industry: ${i.industry}\n- roles: ${i.roles.join(', ')}\n- source: ${i.source_url}\n- license: ${i.license} (${i.content_policy})\n${i.install ? `- install: ${i.install}\n` : ''}- needs_credentials: ${!!sf.needs_credentials}\n- writes_external: ${!!sf.writes_external}\n- updated_at: ${i.updated_at}\n\n${i.summary_source || ''}\n${mirror ? `\n---\n\nMirrored from ${i.source_url} under ${i.license}. The original is authoritative.\n\n${mirror}` : ''}`);
+  write(DIST, `r/${i.id}.md`, `# ${i.title}\n\n- type: ${i.type}\n- industry: ${i.industry}\n- roles: ${i.roles.join(', ')}\n- source: ${i.source_url}\n- license: ${i.license} (${i.content_policy})\n${i.install ? `- install: ${i.install}\n` : ''}- needs_credentials: ${!!sf.needs_credentials}\n- writes_external: ${!!sf.writes_external}\n- updated_at: ${i.updated_at}\n\n${i.summary_source || ''}\n${mirror ? `\n---\n\nMirrored from ${i.source_url} under ${i.license}. The original is authoritative.\n\n${mirror}` : ORIG[i.id]?.file ? `\n---\n\nRepublished from ${ORIG[i.id].url} under ${ORIG[i.id].license}. The original is authoritative.\n\n${fs.readFileSync(path.join(ROOT, ORIG[i.id].file), 'utf8')}` : ORIG[i.id]?.record ? `\n---\n\nPublic record (${ORIG[i.id].license}): ${JSON.stringify(ORIG[i.id].record)}\n` : ''}`);
   write(DIST, `api/resources/${i.id}.json`, JSON.stringify(resJSON(i)));
 }
 
 // ---------------------------------------------------------------- CASE page
 const caseMd = (l) => { const p = path.join(ROOT, `content/cases/${CASE_ID}.${l}.md`); return fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : null; };
-function md2html(md) {
-  const lines = md.replace(/\r/g, '').split('\n'); let out = ''; let inList = null; let inCode = false; let tbl = [];
+function md2html(md, o = {}) {
+  let src = md.replace(/\r/g, ''); let out = '';
+  const fm = src.match(/^---\n([\s\S]*?)\n---\n/); if (fm) { out += `<pre class="fm"><code>${esc(fm[1])}</code></pre>`; src = src.slice(fm[0].length); }
+  const lines = src.split('\n'); let inList = null; let inCode = false; let tbl = [];
   const inline = (s) => esc(s).replace(/`([^`]+)`/g, '<code>$1</code>').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/\[([^\]]+)\]\((https?:[^)\s]+|\/[^)\s]*)\)/g, (m, a, h) => `<a href="${h.startsWith('/') ? u(h) : h}">${a}</a>`);
   const flushT = () => { if (!tbl.length) return; const rows = tbl.filter((r) => !/^\|\s*-/.test(r)).map((r) => r.replace(/^\||\|$/g, '').split('|').map((c) => c.trim())); out += `<div class="tbl-card"><table><thead><tr>${rows[0].map((c) => `<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map((r) => `<tr>${r.map((c) => `<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`; tbl = []; };
   const closeL = () => { if (inList) { out += `</${inList}>`; inList = null; } };
@@ -274,17 +320,40 @@ function md2html(md) {
     if ((m = ln.match(/^(#{1,4})\s+(.*)/))) { closeL(); const h = Math.min(4, m[1].length + 1); out += `<h${h}>${inline(m[2])}</h${h}>`; }
     else if ((m = ln.match(/^\s*[-*]\s+(.*)/))) { if (inList !== 'ul') { closeL(); out += '<ul>'; inList = 'ul'; } out += `<li>${inline(m[1])}</li>`; }
     else if ((m = ln.match(/^\s*\d+\.\s+(.*)/))) { if (inList !== 'ol') { closeL(); out += '<ol>'; inList = 'ol'; } out += `<li>${inline(m[1])}</li>`; }
-    else if ((m = ln.match(/^!\[([^\]]*)\]\(([^)]+)\)/))) { closeL(); out += `<figure><img src="${m[2].startsWith('/') ? u(m[2]) : m[2]}" alt="${esc(m[1])}" loading="lazy" decoding="async" width="1440" height="900"><figcaption>${esc(m[1])}</figcaption></figure>`; }
+    else if ((m = ln.match(/^!\[([^\]]*)\]\((\/[^)\s"]*|https:[^)\s"]*)\)/))) { closeL(); if (o.images === false) { out += `<p><a href="${esc(m[2])}">${esc(m[1] || m[2])}</a></p>`; continue; } out += `<figure><img src="${esc(m[2].startsWith('/') ? u(m[2]) : m[2])}" alt="${esc(m[1])}" loading="lazy" decoding="async" width="1440" height="900"><figcaption>${esc(m[1])}</figcaption></figure>`; }
+    else if (/^\s*(-{3,}|\*{3,})\s*$/.test(ln)) { closeL(); out += '<hr>'; }
     else if (ln.trim() === '') closeL();
     else { closeL(); out += `<p>${inline(ln)}</p>`; }
   }
   closeL(); flushT(); return out;
 }
 {
+  // r5.2 case page: Aceternity Compare (before/after), Number Ticker stats, style cards (per-skin card), Mantine Timeline (rounds),
+  // Open Props prose (notes), shadcn Data Table (mapping excerpt), shadcn Checkbox list (reuse), shadcn Button (links). See DESIGN_NOTES §12.
   const versions = Object.fromEntries(LOCALES.map((l) => [l, caseMd(l)]).filter(([, v]) => v));
-  const body = pageHead({ trail: [HOME, [u('courses/design/ui-designer/'), txs('roles', 'ui-designer')], [u(`cases/${CASE_ID}/`), ti('case.title')]], kicker: ti('case.title'), title: ti('case.h'), lede: ti('case.sub') })
-  + `<article class="wrap p-sec prose-wrap" data-mod="prose">${Object.entries(versions).map(([l, md]) => `<div class="prose" data-only="${l}"${l === 'en' ? '' : ' hidden'}>${md2html(md)}</div>`).join('')}
-<p class="muted">Raw: <a class="url" href="${RAW}/content/cases/${CASE_ID}.en.md">${RAW}/content/cases/${CASE_ID}.en.md</a></p></article>`;
+  const CA = u('assets/case/');
+  const HUBR = (id) => `https://siinxu.github.io/ui-resource-hub/#/r/${id}`;
+  const nMods = SITE_MAP.length + MODULES.length;
+  const stat = (n, k) => `<div><b data-ticker="${n}">${nf(n)}</b>${ti(k)}</div>`;
+  const extra = `<div class="p-stats" data-mod="stats">${stat(2376, 'cp.n1')}${stat(nMods, 'cp.n2')}${stat(102, 'cp.n3')}${stat(LOCALES.length, 'cp.n4')}</div>`;
+  const sec = (k, sub, inner, mod = '') => `<section class="wrap p-sec cs-sec"${mod ? ` data-sec="${mod}"` : ''}><div class="p-sh"><h2 class="p-h2">${ti(k)}</h2>${sub ? `<p class="muted">${ti(sub)}</p>` : ''}</div>${inner}</section>`;
+  const compare = `<div class="compare cs-cmp" data-compare data-mod="before-after" tabindex="0" role="slider" aria-label="${esc(t('case.drag'))}" data-i-aria="case.drag" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img class="cmp-top" src="${CA}r3-home.webp" alt="Round 3 home page (rejected)" width="1200" height="750" loading="lazy" decoding="async"><img src="${CA}r5-a.webp" alt="Round 5 home page in style A (shipped)" width="1200" height="750" loading="lazy" decoding="async"><span class="cmp-line"></span><span class="cmp-knob">${ic('code')}</span><span class="cmp-tag l">${ti('cp.before')}</span><span class="cmp-tag r">${ti('cp.after')}</span></div>`;
+  const styles = `<div class="rgrid cs-styles" data-mod="styles">${['a', 'b', 'c'].map((d) => `<article class="rc cs-st" data-rb-spot><img class="cs-st-img" src="${CA}r5-${d}.webp" alt="" width="1200" height="750" loading="lazy" decoding="async"><div class="rc-top"><span class="rc-type">${d.toUpperCase()}</span></div><h3 class="rc-t">${ti('skin.' + d + '_full')}</h3><p class="rc-s">${ti('cp.' + d + '_d')}</p><div class="rc-f"><a class="btn btn-o btn-sm" href="${u()}?skin=${d}" data-skin-link="${d}">${ti('cp.open')}${ic('right')}</a></div></article>`).join('')}</div>`;
+  const rounds = `<ol class="tml" data-timeline data-mod="timeline">${[1, 2, 3, 4, 5].map((k) => `<li class="tml-item"><span class="tml-bullet" aria-hidden="true">${k}</span><div class="tml-body"><h3 class="tml-t">${ti('cp.r' + k)}</h3><p class="tml-d">${ti('cp.r' + k + '_d')}</p></div></li>`).join('')}</ol>`;
+  const notes = `<div class="prose-wrap" data-mod="prose">${Object.entries(versions).map(([l, md]) => `<div class="prose" data-only="${l}"${l === 'en' ? '' : ' hidden'}>${md2html(md)}</div>`).join('')}</div>`;
+  const KEYS = ['nav', 'cards', 'roles', 'timeline', 'more', 'crumbs', 'skin-switch', 'footer', 'prose', 'before-after'];
+  const cell = (x) => `<a href="${HUBR(x.hub)}">${esc(x.comp)}</a><small>${esc(x.lib)}</small>`;
+  const rowsM = KEYS.map((k) => SITE_MAP.find((r) => r[1] === k)).filter(Boolean).map(([, k, label, m]) => `<tr><th scope="row">${esc(label)}<small><code>${esc(k)}</code></small></th>${m.a === m.b && m.b === m.c ? `<td colspan="3">${cell(m.a)}<small>${ti('cp.shared')}</small></td>` : ['a', 'b', 'c'].map((d) => `<td>${cell(m[d])}</td>`).join('')}</tr>`).join('');
+  const table = `<div class="tbl-card cs-map" data-mod="table"><table><thead><tr><th scope="col">${ti('cp.mod')}</th><th scope="col">A</th><th scope="col">B</th><th scope="col">C</th></tr></thead><tbody>${rowsM}</tbody></table></div><div class="p-actions" data-mod="buttons">${btn(u('directions/'), ti('cp.map_all'), 'btn btn-p', 'layers')}</div>`;
+  const reuse = `<ul class="checklist" data-mod="checklist">${[1, 2, 3, 4, 5, 6].map((k) => `<li><label class="chk"><input type="checkbox"><span class="chk-box" aria-hidden="true">${ic('check')}</span>${ti('cp.m' + k)}</label></li>`).join('')}</ul>
+<div class="p-actions" data-mod="buttons">${btn(`${RAW}/content/cases/${CASE_ID}.en.md`, ti('cp.raw'), 'btn btn-o', 'doc')}${btn(u('courses/design/ui-designer/'), txs('roles', 'ui-designer'), 'btn btn-g', 'right')}</div>`;
+  const body = pageHead({ trail: [HOME, [u('courses/design/ui-designer/'), txs('roles', 'ui-designer')], [u(`cases/${CASE_ID}/`), ti('case.title')]], kicker: ti('case.title'), title: ti('case.h'), lede: ti('case.sub'), extra })
+  + sec('cp.ba', 'cp.ba_s', compare, 'ba')
+  + sec('cp.styles', 'cp.styles_s', styles, 'styles')
+  + sec('cp.rounds', 'cp.rounds_s', rounds, 'rounds')
+  + sec('cp.notes', '', notes, 'notes')
+  + sec('cp.map', 'cp.map_s', table, 'map')
+  + sec('cp.reuse', '', reuse, 'reuse');
   write(DIST, `cases/${CASE_ID}/index.html`, page({ title: 'How this site was designed by an agent · Agent Academy', desc: t('case.sub'), body, active: 'nav.courses', rel: `cases/${CASE_ID}/`, pageData: { kind: 'case', langs: Object.keys(versions) } }));
 }
 // ---------------------------------------------------------------- changes, latest (+ trending), changelog, sources
@@ -314,13 +383,13 @@ const feedLinks = `<p class="p-badges">${[['feed.xml', 'Atom'], ['feed.json', 'J
   const opCls = { added: 'add', updated: 'upd', removed: 'rem', dead: 'rem' };
   const dayBlock = (d) => {
     const byOp = count(d.items, (x) => x.op); const rows = d.items.slice(0, 80);
-    return `<div class="tml-item" id="d-${d.date}"><div class="tml-l"><span class="tml-dot">${ic('layers')}</span><h2 class="tml-t"><time class="ts" datetime="${d.date}T12:00:00Z">${d.date}</time></h2></div><div class="tml-r"><h2 class="tml-t-m"><time class="ts" datetime="${d.date}T12:00:00Z">${d.date}</time></h2>
+    return `<li class="tml-item" id="d-${d.date}"><span class="tml-bullet" aria-hidden="true">${ic('layers')}</span><div class="tml-body"><h2 class="tml-t"><time class="ts" datetime="${d.date}T12:00:00Z">${d.date}</time></h2>
 <p class="p-badges">${Object.entries(byOp).map(([op, n2]) => `<span class="op op-${opCls[op] || 'upd'}">${ti('op.' + op)} <em>${nf(n2)}</em></span>`).join('')}<a class="badge-l" href="${u('api/changes/' + d.date + '.json')}">${ic('json')}JSON</a></p>
 <div class="tbl-card" data-mod="table"><table class="chg"><thead><tr><th>${ti('chg.op')}</th><th>${ti('lib.type')}</th><th>${ti('chg.item')}</th><th>${ti('lib.prof')}</th></tr></thead><tbody>${rows.map((x) => { const i = byId[x.id]; return `<tr><td><span class="op op-${opCls[x.op] || 'upd'}">${ti('op.' + x.op)}</span></td><td>${txs('types', x.type)}</td><td>${i ? `<a href="${u('r/' + x.id + '/')}">${esc(i.title)}</a>` : esc(x.id)}${x.fields_changed?.length ? `<small>${esc(x.fields_changed.join(', '))}</small>` : ''}</td><td>${txs('industries', x.industry)}</td></tr>`; }).join('')}</tbody></table></div>
-${d.items.length > rows.length ? `<p class="more">${btn(u('api/changes/' + d.date + '.json'), `+${nf(d.items.length - rows.length)} · JSON`)}</p>` : ''}</div></div>`;
+${d.items.length > rows.length ? `<p class="more">${btn(u('api/changes/' + d.date + '.json'), `+${nf(d.items.length - rows.length)} · JSON`)}</p>` : ''}</div></li>`;
   };
   const body = pageHead({ trail: [HOME, [u('changelog/'), ti('nav.changelog')]], title: ti('chg.title'), lede: ti('chg.sub'), extra: feedLinks })
-  + `<section class="wrap p-sec"><div class="tml" data-timeline data-mod="timeline"><div class="tml-line" aria-hidden="true"><i></i></div>${days.slice(0, 30).map(dayBlock).join('') || `<p class="muted">—</p>`}</div></section>`;
+  + `<section class="wrap p-sec">${days.length ? `<ol class="tml" data-timeline data-mod="timeline">${days.slice(0, 30).map(dayBlock).join('')}</ol>` : `<p class="muted">—</p>`}</section>`;
   write(DIST, 'changelog/index.html', page({ title: 'Changelog · Agent Academy', desc: t('chg.sub'), body, active: 'nav.changelog', rel: 'changelog/' }));
 }
 const SOURCES = [
@@ -333,7 +402,7 @@ const SOURCES = [
 ];
 {
   const body = pageHead({ trail: [HOME, [u('sources/'), ti('nav.sources')]], title: ti('src.title'), lede: ti('src.sub') })
-  + `<section class="wrap p-sec"><div class="src-grid" data-mod="bento">${SOURCES.map(([k, n2, where, rule, how]) => `<article class="src-c" data-spotlight-card><div class="src-h"><h2 class="p-h3">${esc(n2)}</h2><b class="src-n" data-ticker="${stats.bySource[k] || 0}">${nf(stats.bySource[k] || 0)}</b></div><p class="src-w">${esc(where)}</p><dl><div><dt>${ti('src.rule')}</dt><dd>${esc(rule)}</dd></div><div><dt>${ti('src.how')}</dt><dd>${esc(how)}</dd></div></dl><a class="src-l" href="${u('library/?q=')}" hidden></a></article>`).join('')}</div>
+  + `<section class="wrap p-sec"><div class="src-grid" data-mod="bento">${SOURCES.map(([k, n2, where, rule, how]) => `<article class="src-c" data-rb-spot><div class="src-h"><h2 class="p-h3">${esc(n2)}</h2><b class="src-n" data-ticker="${stats.bySource[k] || 0}">${nf(stats.bySource[k] || 0)}</b></div><p class="src-w">${esc(where)}</p><dl><div><dt>${ti('src.rule')}</dt><dd>${esc(rule)}</dd></div><div><dt>${ti('src.how')}</dt><dd>${esc(how)}</dd></div></dl><a class="src-l" href="${u('library/?q=')}" hidden></a></article>`).join('')}</div>
 <p class="muted">Collector: <a href="https://github.com/${REPO}/blob/main/scripts/collect.py">scripts/collect.py</a> · <span data-i="src.last">${t('src.last')}</span> <time class="ts" datetime="${esc(STATE.last_collect || UPDATED)}">${esc((STATE.last_collect || UPDATED).slice(0, 10))}</time></p></section>`;
   write(DIST, 'sources/index.html', page({ title: 'Sources · Agent Academy', desc: t('src.sub'), body, active: 'nav.sources', rel: 'sources/' }));
 }
@@ -341,7 +410,7 @@ const SOURCES = [
 // ---------------------------------------------------------------- AGENT ENDPOINTS
 const searchIndex = LIVE.map((i) => ({ id: i.id, t: i.title, ty: i.type, in: i.industry, ro: i.roles, s: sumOf(i).slice(0, 220), h: shortSrc(i.source_url), li: licLabel(i), c: safety(i).cred ? 1 : 0, w: safety(i).send ? 1 : 0, q: stars(i), sr: i.source }));
 write(DIST, 'api/search-index.json', JSON.stringify({ updated_at: UPDATED, fields: { id: 'id', t: 'title', ty: 'type', in: 'industry', ro: 'roles', s: 'summary (en/source)', h: 'source host+path', li: 'license', c: 'needs_credentials', w: 'writes_external', q: 'quality signal (stars/votes/score)', sr: 'collector source' }, items: searchIndex }));
-for (const l of LOCALES.filter((x) => x !== 'en')) write(DIST, `api/l10n/${l}.json`, JSON.stringify(Object.fromEntries(Object.entries(L10N[l]).filter(([k]) => !k.startsWith('_')).map(([k, v]) => [k, v.s]))));
+for (const l of LOCALES.filter((x) => x !== 'en')) write(DIST, `api/l10n/${l}.json`, JSON.stringify(Object.fromEntries(Object.entries(L10N[l]).filter(([k]) => !k.startsWith('_') && keepTr(l, k)).map(([k, v]) => [k, v.s]))));
 write(DIST, 'api/l10n/texts.json', JSON.stringify(Object.fromEntries(LOCALES.filter((x) => x !== 'en').map((l) => [l, Object.fromEntries(Object.entries(L10N[l]._texts || {}).map(([k, v]) => [k, v.s]))]))));
 write(DIST, 'api/resources.json', JSON.stringify({ updated_at: UPDATED, count: ALL.length, items: ALL.map(resJSON) }));
 for (const ind of Object.keys(TAX.industries)) write(DIST, `api/resources/by-industry/${ind}.json`, JSON.stringify({ industry: ind, updated_at: UPDATED, items: (byInd[ind] || []).map(resJSON) }));
@@ -367,7 +436,7 @@ write(DIST, '.nojekyll', '');
 write(DIST, '404.html', page({ title: 'Not found · Agent Academy', desc: 'Not found', active: '', rel: '404.html', body: `<section class="wrap p-sec nf"><div class="nf-c" data-mod="empty"><span class="nf-n">404</span><h1 class="p-title" data-i="nf.title">${t('nf.title')}</h1><p data-i="nf.sub">${t('nf.sub')}</p><div class="p-actions">${btn(u(), ti('nav.home'), 'btn btn-p', 'home')}${btn(u('library/'), ti('nav.library'), 'btn btn-o', 'library')}</div></div></section>` }));
 
 // ---------------------------------------------------------------- packs (zip) + assets
-const packList = COURSE_LIST.map((c) => ({ out: path.join(DIST, `packs/${c.industry}/${c.role}.zip`), files: [[path.join(ROOT, `academy/courses/${c.industry}/${c.role}.md`), 'SKILL.md'], [path.join(ROOT, `academy/courses/${c.industry}/${c.role}.json`), 'course.json'], ...STEP_KEYS.flatMap((s) => c.steps[s]).filter((i) => resRaw(i)).map((i) => [path.join(ROOT, 'data/mirror', i.id + '.md'), `references/${i.id}.md`])] }));
+const packList = COURSE_LIST.map((c) => ({ out: path.join(DIST, `packs/${c.industry}/${c.role}.zip`), files: [[path.join(ROOT, `academy/courses/${c.industry}/${c.role}.md`), 'SKILL.md'], [path.join(ROOT, `academy/courses/${c.industry}/${c.role}.json`), 'course.json'], ...STEP_KEYS.flatMap((s) => c.steps[s]).filter((i) => resRaw(i)).map((i) => [fs.existsSync(path.join(ROOT, 'data/mirror', i.id + '.md')) && i.redistributable ? path.join(ROOT, 'data/mirror', i.id + '.md') : path.join(ROOT, ORIG[i.id].file), `references/${i.id}.md`])] }));
 fs.writeFileSync('/tmp/aa-packs.json', JSON.stringify(packList));
 execFileSync('python3', ['-c', `import json,zipfile,os\nfor p in json.load(open('/tmp/aa-packs.json')):\n  os.makedirs(os.path.dirname(p['out']),exist_ok=True)\n  z=zipfile.ZipFile(p['out'],'w',zipfile.ZIP_DEFLATED)\n  seen=set()\n  for a,b in p['files']:\n    if b in seen: continue\n    seen.add(b); z.write(a,b)\n  z.close()`]);
 const A = path.join(DIST, 'assets'); fs.mkdirSync(path.join(A, 'fonts'), { recursive: true }); fs.mkdirSync(path.join(A, 'img'), { recursive: true });

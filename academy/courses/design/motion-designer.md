@@ -165,6 +165,7 @@ Read the required skills, prompts and standards in order.
 
 - [skill] emil-design-eng. This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.
   source: https://github.com/emilkowalski/skills/blob/main/skills/emil-design-eng/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/emilkowalski-skills-skills-emil-design-eng-skill-md.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [skill] slack-gif-creator. Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for 
@@ -246,6 +247,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 
 - [mcp] io.github.AJSMonty/adobe-mcp. Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client
   source: https://github.com/AJSMonty/adobe-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md
   license: MIT
   install: npx -y @ajsmonty/adobe-mcp
   needs_credentials: true, writes_external: false
@@ -269,6 +271,7 @@ Go through the checklist and report the result to your owner.
 
 - [skill] impeccable. Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing page
   source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [skill] web-design-guidelines. Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".

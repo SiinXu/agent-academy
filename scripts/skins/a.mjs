@@ -222,10 +222,10 @@ h1{font-size:clamp(40px,5.4vw,64px);line-height:1.02;letter-spacing:-.035em;font
 .case{grid-template-columns:1.6fr 1fr}
 /* footer: shadcn Blocks */
 .foot{margin-top:120px;border-top:1px solid var(--line);background:var(--bg2)}
-.foot .wrap{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:32px;padding-top:48px;padding-bottom:32px}
-.foot .fh{margin:0 0 12px;font-size:13px;font-weight:600}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}.foot li a{font-size:14px;color:var(--muted)}.foot li a:hover{color:var(--ink)}
+.foot .wrap{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:24px;padding-top:32px;padding-bottom:32px}
+.foot .fh{margin:0 0 24px;font-size:14px;font-weight:600;text-transform:uppercase;color:var(--ink)}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:16px}.foot li a{font-size:14px;font-weight:500;color:var(--muted)}.foot li a:hover{color:var(--ink);text-decoration:underline}
 .foot p{color:var(--muted);font-size:14px;max-width:320px}
-.foot-b{border-top:1px solid var(--line)}.foot-b .wrap{display:flex;justify-content:space-between;padding-top:16px;padding-bottom:16px;font-size:12.5px;color:var(--muted)}
+.foot-b{border-top:1px solid var(--line)}.foot-b .wrap{display:flex;justify-content:space-between;padding-top:32px;padding-bottom:32px;font-size:14px;color:var(--muted)}
 @media (max-width:1024px){.hero .wrap{grid-template-columns:1fr}.opt-style{grid-template-columns:repeat(4,1fr)}.opt-plat{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:760px){
  .wrap{padding:0 16px}.tabs-list{display:none}.nav .wrap{justify-content:space-between}

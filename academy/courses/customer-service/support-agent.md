@@ -35,14 +35,17 @@ Read course.md: the job, the permissions it needs, and what good output looks li
   needs_credentials: false, writes_external: false
 - [tutorial] Using tool_choice=required for customer service (OpenAI cookbook). Using Tool Required for Customer Service The ChatCompletion endpoint now includes the ability to specify whether a tool must be called every time, by adding tool_choice='required' as a parameter. This adds an element of 
   source: https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cookbook-examples-using-tool-required-for-customer-service-ipynb.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [tutorial] Customer service agent with tool use (Claude cookbook). Creating a Customer Service Agent with Client-Side Tools In this recipe, we'll demonstrate how to create a customer service chatbot using Claude 3 plus client-side tools. The chatbot will be able to look up customer info
   source: https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-claude-cookbooks-tool-use-customer-service-agent-ipynb.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [awesome-list] 500 AI Agents Projects (includes customer service use cases). Curated collection of AI agent use cases across industries (incl. Customer Service, E-commerce) with links to open-source implementations, e.g. a LangGraph customer-support agent tutorial.
   source: https://github.com/ashishpatel26/500-AI-Agents-Projects
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/ashishpatel26-500-ai-agents-projects.md
   license: MIT
   needs_credentials: false, writes_external: false
 
@@ -128,16 +131,19 @@ Read the required skills, prompts and standards in order.
 
 - [skill] customer-research. Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously to
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-research
   needs_credentials: false, writes_external: false
 - [skill] draft-response. Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, decli
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill draft-response
   needs_credentials: false, writes_external: false
 - [skill] ticket-triage. Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking whether it's a duplicate or k
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-ticket-triage-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill ticket-triage
   needs_credentials: false, writes_external: false
@@ -168,15 +174,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [case] OpenAI customer service agents demo (Agents SDK). This repository contains a demo of a Customer Service interface built on top of the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/).
   source: https://github.com/openai/openai-cs-agents-demo
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cs-agents-demo.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [mcp] Zendesk MCP server. A Model Context Protocol server for Zendesk.
   source: https://github.com/reminia/zendesk-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/reminia-zendesk-mcp-server.md
   license: Apache-2.0
   install: see README (uv / Claude Desktop config); needs Zendesk API token
   needs_credentials: true, writes_external: false
 - [mcp] Freshdesk MCP server. A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with structured access to the [Freshdesk](https://www.freshdesk.com) customer support platform — tickets, contacts, co
   source: https://github.com/WYRE-AI/freshdesk-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/wyre-ai-freshdesk-mcp.md
   license: Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)
   install: MCP Registry: io.github.WYRE-AI/freshdesk-mcp; needs Freshdesk API key
   needs_credentials: true, writes_external: false
@@ -192,25 +201,30 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [mcp] io.github.codespar/mcp-shopify. MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)
   source: https://github.com/codespar/mcp-dev-latam
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-codespar-mcp-shopify.md
   license: MIT
   install: npx -y @codespar/mcp-shopify
   needs_credentials: true, writes_external: false
 - [mcp] HubSpot MCP. Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history
   source: https://github.com/Servosity/msp-skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md
   license: Apache-2.0
   needs_credentials: true, writes_external: false
 - [mcp] com.mcparmory/shopify-admin. Manage products, orders, customers, inventory, and store configuration
   source: https://github.com/mcparmory/registry
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mcparmory-shopify-admin.md
   license: MIT
   install: uvx mcparmory-shopify-admin
   needs_credentials: false, writes_external: true
 - [mcp] io.github.MuhammadTalhaMT/intercom. Relays messages between two Claude Code sessions on different machines using the Channels API
   source: https://github.com/MuhammadTalhaMT/claude-intercom
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md
   license: MIT
   install: npx -y claude-intercom
   needs_credentials: true, writes_external: false
 - [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
   source: https://github.com/fruggr/zendesk-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
   license: MIT
   install: npx -y @fruggr/zendesk-mcp-server
   needs_credentials: true, writes_external: true
@@ -221,16 +235,19 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] HasData Shopify. The public product catalogue and collections of any Shopify storefront, as structured JSON.
   source: https://github.com/HasData/shopify-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md
   license: MIT
   install: npx -y @hasdata/shopify-mcp
   needs_credentials: true, writes_external: false
 - [mcp] io.github.michaelrice/zendesk-mcp. Zendesk MCP server for Claude Code and other MCP clients
   source: https://github.com/michaelrice/zendesk-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md
   license: Apache-2.0
   install: uvx zendesk-mcp
   needs_credentials: false, writes_external: false
 - [mcp] io.github.alex-brecher/shopify-multi-store. Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.
   source: https://github.com/alex-brecher/shopify-multi-store
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alex-brecher-shopify-multi-store.md
   license: MIT
   install: npx -y shopify-multi-store-mcp-server
   needs_credentials: false, writes_external: true
@@ -246,10 +263,12 @@ Go through the checklist and report the result to your owner.
 
 - [benchmark] tau2-bench (customer-service agent benchmark). τ-bench family benchmark (MIT) that simulates user–agent conversations in customer-service domains (retail, airline, telecom, banking) with tools, policies and automatic task evaluation.
   source: https://github.com/sierra-research/tau2-bench
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/sierra-research-tau2-bench.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [skill] customer-escalation. Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to ch
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-escalation
   needs_credentials: false, writes_external: false

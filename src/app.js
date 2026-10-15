@@ -32,6 +32,7 @@
     dispatchEvent(new Event('aa-i18n'));
   }
   async function translateContent() {
+    $$('[data-orig-lang]').forEach((e) => { e.hidden = e.dataset.origLang === lang || (lang === 'zh-TW' && e.dataset.origLang === 'zh-CN'); });
     const els = $$('[data-sid]'); const xs = $$('[data-x]');
     if (lang === 'en') { els.forEach(restore); xs.forEach(restore); return; }
     let map = null;
@@ -40,7 +41,7 @@
     els.forEach((e) => { const s = map && map[e.dataset.sid]; if (s) swap(e, s); else restore(e); });
     if (xs.length) { const tx = await getJSON('api/l10n/texts.json'); xs.forEach((e) => { const s = tx && tx[lang] && tx[lang][e.dataset.x]; if (s) swap(e, s); else restore(e); }); }
   }
-  function swap(e, s) { if (!e.dataset.orig) e.dataset.orig = e.textContent; e.textContent = s; e.title = T('card.mt') + ' · ' + T('card.orig') + ': ' + e.dataset.orig.slice(0, 300); e.classList.add('is-mt'); }
+  function swap(e, s) { if (!e.dataset.orig) e.dataset.orig = e.textContent; e.textContent = s; }
   function restore(e) { if (e.dataset.orig) { e.textContent = e.dataset.orig; e.removeAttribute('title'); e.classList.remove('is-mt'); } }
   function localTimes() {
     $$('time.ts').forEach((e) => { try { const dt = new Date(e.dateTime); const full = e.dateTime.length > 10 && !/T12:00:00Z$/.test(e.dateTime); e.textContent = new Intl.DateTimeFormat(lang, full && e.closest('.foot') ? { dateStyle: 'medium', timeStyle: 'short' } : { dateStyle: 'medium' }).format(dt); } catch (_) {} });
@@ -75,7 +76,7 @@
     const sfTag = (on, y, n, ico) => `<span class="sf ${on ? 'warn' : 'ok'}">${ICONS[on ? ico : 'shield']}<span>${esc(T(on ? y : n))}</span></span>`;
     const ICONS = { key: $('#lf-icons [data-ic=key]')?.innerHTML || '', send: $('#lf-icons [data-ic=send]')?.innerHTML || '', shield: $('#lf-icons [data-ic=shield]')?.innerHTML || '' };
     const SRC = (i) => (i.ty === 'skill' ? 'SKILL.md' : i.sr === 'prompts.chat' ? 'prompts.chat · CC0' : i.sr === 'botsdots' ? 'BotsDots' : '');
-    const cardH = (i) => { const s = (tr && tr[i.id]) || i.s; return `<article class="rc" data-spotlight-card><div class="rc-top"><span class="rc-type">${esc(TX('types', i.ty))}</span>${chip && SRC(i) ? `<span class="rc-chip">${esc(SRC(i))}</span>` : `<span class="rc-ind">${esc(TX('industries', i.in))}</span>`}</div><h3 class="rc-t"><a href="${B}r/${i.id}/">${esc(i.t)}</a></h3><p class="rc-s${tr && tr[i.id] ? ' is-mt' : ''}"${tr && tr[i.id] ? ` title="${esc(T('card.mt'))}"` : ''}>${esc(s)}</p><p class="rc-src">${esc(i.h)}</p><div class="rc-f"><span class="rc-tags">${sfTag(i.c, 'tag.cred_yes', 'tag.cred_no', 'key')}${sfTag(i.w, 'tag.send_yes', 'tag.send_no', 'send')}</span><span class="rc-lic">${esc(i.li)}</span></div></article>`; };
+    const cardH = (i) => { const s = (tr && tr[i.id]) || i.s; return `<article class="rc" data-rb-spot><div class="rc-top"><span class="rc-type">${esc(TX('types', i.ty))}</span>${chip && SRC(i) ? `<span class="rc-chip">${esc(SRC(i))}</span>` : `<span class="rc-ind">${esc(TX('industries', i.in))}</span>`}</div><h3 class="rc-t"><a href="${B}r/${i.id}/">${esc(i.t)}</a></h3><p class="rc-s">${esc(s)}</p><p class="rc-src">${esc(i.h)}</p><div class="rc-f"><span class="rc-tags">${sfTag(i.c, 'tag.cred_yes', 'tag.cred_no', 'key')}${sfTag(i.w, 'tag.send_yes', 'tag.send_no', 'send')}</span><span class="rc-lic">${esc(i.li)}</span></div></article>`; };
     const types = AA.page.types || null;
     async function run(push) {
       if (!idx) idx = (await getJSON('api/search-index.json')).items.filter((i) => !types || types.includes(i.ty)).sort((a, b) => b.q - a.q);

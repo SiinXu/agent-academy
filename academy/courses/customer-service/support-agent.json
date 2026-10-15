@@ -37,6 +37,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/openai_sdk_crash_course/2_structured_output_agent/2_1_support_ticket_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -77,6 +82,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/google_adk_crash_course/3_structured_output_agent/3_1_customer_support_ticket_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -110,13 +120,18 @@
      "summary": "Using Tool Required for Customer Service The ChatCompletion endpoint now includes the ability to specify whether a tool must be called every time, by adding tool_choice='required' as a parameter. This adds an element of determinism to how you build your wrapping application, as you can count on a to",
      "summary_lang": "en",
      "source_url": "https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cookbook-examples-using-tool-required-for-customer-service-ipynb.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-cookbook/main/examples/Using_tool_required_for_customer_service.ipynb",
      "repo": "openai/openai-cookbook",
      "author": "openai",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -150,13 +165,18 @@
      "summary": "Creating a Customer Service Agent with Client-Side Tools In this recipe, we'll demonstrate how to create a customer service chatbot using Claude 3 plus client-side tools. The chatbot will be able to look up customer information, retrieve order details, and cancel orders on behalf of the customer. We",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-claude-cookbooks-tool-use-customer-service-agent-ipynb.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/claude-cookbooks/main/tool_use/customer_service_agent.ipynb",
      "repo": "anthropics/claude-cookbooks",
      "author": "anthropics",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -190,13 +210,18 @@
      "summary": "Curated collection of AI agent use cases across industries (incl. Customer Service, E-commerce) with links to open-source implementations, e.g. a LangGraph customer-support agent tutorial.",
      "summary_lang": "en",
      "source_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/ashishpatel26-500-ai-agents-projects.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/ashishpatel26/500-AI-Agents-Projects/main/README.md",
      "repo": "ashishpatel26/500-AI-Agents-Projects",
      "author": "ashishpatel26",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -243,6 +268,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support"
+     },
      "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
      "security": {
       "audited": false,
@@ -283,6 +313,32 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/product-support-inbox-assistant",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "akbaliga96",
+       "firstSeen": "2026-09-20",
+       "integrations": [],
+       "name": "Product Support Inbox Assistant",
+       "official": true,
+       "page": "https://botsdots.site/templates/product-support-inbox-assistant",
+       "risk": "medium",
+       "summary": "Helps you find and draft answers to product questions. Never sends emails without you."
+      }
+     },
      "install": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
      "security": {
       "audited": false,
@@ -325,6 +381,32 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/colombia-move",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/mWxeafjXItbC0_VcpSwqm",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "michaelheredia",
+       "firstSeen": "2026-09-11",
+       "integrations": [],
+       "name": "Colombia Move",
+       "official": false,
+       "page": "https://botsdots.site/templates/colombia-move",
+       "risk": "low",
+       "summary": "Bilingual help desk for the Colombia Move marketplace in Spanish or English"
+      }
+     },
      "install": "https://x.ai/bot/mWxeafjXItbC0_VcpSwqm",
      "security": {
       "audited": false,
@@ -367,6 +449,34 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/customer-service",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/zC_-D00Dam5jmHf0t62l_",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "degen4lyfe_",
+       "firstSeen": "2026-09-28",
+       "integrations": [],
+       "name": "Customer Service",
+       "official": false,
+       "page": "https://botsdots.site/templates/customer-service",
+       "risk": "medium",
+       "summary": "Customer service desk that drafts replies from your policy voice"
+      }
+     },
      "install": "https://x.ai/bot/zC_-D00Dam5jmHf0t62l_",
      "security": {
       "audited": false,
@@ -409,6 +519,34 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/grok-customer-support",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/1PSI6qQln1PowM5reA_8L",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "jakewlittle",
+       "firstSeen": "2026-09-04",
+       "integrations": [
+        "x"
+       ],
+       "name": "X Signal Prospector",
+       "official": false,
+       "page": "https://botsdots.site/templates/grok-customer-support",
+       "risk": "low",
+       "summary": "Sits on hold with customer support so you do not have to"
+      }
+     },
      "install": "https://x.ai/bot/1PSI6qQln1PowM5reA_8L",
      "security": {
       "audited": false,
@@ -453,6 +591,35 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/customer-support-idiot-buffer",
+      "record": {
+       "access": [
+        "chat"
+       ],
+       "add": "https://x.ai/bot/PMCHyvumlOdCFNRifTDJW",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "MitcelloRudoll",
+       "firstSeen": "2026-09-18",
+       "integrations": [
+        "twilio"
+       ],
+       "name": "Customer Support Idiot Buffer",
+       "official": false,
+       "page": "https://botsdots.site/templates/customer-support-idiot-buffer",
+       "risk": "medium",
+       "summary": "Calls customer support for you via a voice bridge and steers mid-call from chat"
+      }
+     },
      "install": "https://x.ai/bot/PMCHyvumlOdCFNRifTDJW",
      "security": {
       "audited": false,
@@ -497,6 +664,31 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/family-wordpress-helpdesk",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/7ySyCp6OurH0hlcKMAm_b",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "research-briefings",
+       "creator": "joshkim",
+       "firstSeen": "2026-08-29",
+       "integrations": [],
+       "name": "Family WordPress helpdesk",
+       "official": false,
+       "page": "https://botsdots.site/templates/family-wordpress-helpdesk",
+       "risk": "low",
+       "summary": "A help desk for the relative who runs the family WordPress site"
+      }
+     },
      "install": "https://x.ai/bot/7ySyCp6OurH0hlcKMAm_b",
      "security": {
       "audited": false,
@@ -539,6 +731,31 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/grok-customer-support-bizp",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/BiZPnYmSfN63bjCVpn1mf",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "littletechbird",
+       "firstSeen": "2026-09-04",
+       "integrations": [],
+       "name": "Grok Customer Support",
+       "official": false,
+       "page": "https://botsdots.site/templates/grok-customer-support-bizp",
+       "risk": "low",
+       "summary": "Eggbot-pruned Twilio to Grok Voice bridge that calls customer support for you"
+      }
+     },
      "install": "https://x.ai/bot/BiZPnYmSfN63bjCVpn1mf",
      "security": {
       "audited": false,
@@ -581,6 +798,33 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/holly-helpdesk",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/sIoeE87fILU5CzptPF29K",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "clairevo",
+       "firstSeen": "2026-08-29",
+       "integrations": [],
+       "name": "Holly Helpdesk",
+       "official": false,
+       "page": "https://botsdots.site/templates/holly-helpdesk",
+       "risk": "medium",
+       "summary": "Runs the support inbox and help desk as a frontline agent"
+      }
+     },
      "install": "https://x.ai/bot/sIoeE87fILU5CzptPF29K",
      "security": {
       "audited": false,
@@ -623,6 +867,32 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/xchat-ec6g",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/Ec6g2olzVFKq60cC-Jy5h",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "brandonchung75",
+       "firstSeen": "2026-10-12",
+       "integrations": [],
+       "name": "XChat 고객센터 봇",
+       "official": false,
+       "page": "https://botsdots.site/templates/xchat-ec6g",
+       "risk": "low",
+       "summary": "24/7 customer support bot that answers X Chat inquiries from the docs and URLs you choose, and can take a voice call when the customer wants one"
+      }
+     },
      "install": "https://x.ai/bot/Ec6g2olzVFKq60cC-Jy5h",
      "security": {
       "audited": false,
@@ -665,6 +935,30 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/google-business-profile-manager",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates"
+       ],
+       "category": "customer-sales",
+       "creator": "JimmyFlipHDR",
+       "firstSeen": "2026-09-29",
+       "integrations": [],
+       "name": "Google Business Profile Manager",
+       "official": false,
+       "page": "https://botsdots.site/templates/google-business-profile-manager",
+       "risk": "low",
+       "summary": "You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,"
+      }
+     },
      "install": "https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT",
      "security": {
       "audited": false,
@@ -707,6 +1001,30 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/review-reply-craft",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates"
+       ],
+       "category": "customer-sales",
+       "creator": "Omenfinancial",
+       "firstSeen": "2026-09-29",
+       "integrations": [],
+       "name": "Review Reply Craft",
+       "official": false,
+       "page": "https://botsdots.site/templates/review-reply-craft",
+       "risk": "low",
+       "summary": "Helps small local businesses write human-sounding Google review replies and turn goodwill into paid reply packs"
+      }
+     },
      "install": "https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6",
      "security": {
       "audited": false,
@@ -749,6 +1067,32 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/support-reply-drafter",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates"
+       ],
+       "category": "customer-sales",
+       "creator": "DoonerDesigns_",
+       "firstSeen": "2026-10-13",
+       "integrations": [],
+       "name": "Support Reply Drafter",
+       "official": false,
+       "page": "https://botsdots.site/templates/support-reply-drafter",
+       "risk": "medium",
+       "summary": "Drafts a short care reply from a pasted support ticket or customer email, for you to send."
+      }
+     },
      "install": "https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO",
      "security": {
       "audited": false,
@@ -791,6 +1135,35 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/hubspot-helper",
+      "record": {
+       "access": [
+        "code"
+       ],
+       "add": "https://x.ai/bot/YELCIJ_5UrbwjP-4pm_Fx",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "TheJonMartin",
+       "firstSeen": "2026-10-15",
+       "integrations": [
+        "hubspot"
+       ],
+       "name": "HubSpot Helper",
+       "official": false,
+       "page": "https://botsdots.site/templates/hubspot-helper",
+       "risk": "medium",
+       "summary": "A HubSpot help desk that answers CRM, workflow, reporting and API questions with numbered steps checked against live HubSpot docs."
+      }
+     },
      "install": "https://x.ai/bot/YELCIJ_5UrbwjP-4pm_Fx",
      "security": {
       "audited": false,
@@ -833,13 +1206,18 @@
      "summary": "Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously told to a specific account, or gathering background before drafting a response.",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-research/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-research",
      "security": {
       "audited": false,
@@ -873,13 +1251,18 @@
      "summary": "Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, declining a feature request, or replying to a billing issue.",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/draft-response/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill draft-response",
      "security": {
       "audited": false,
@@ -913,13 +1296,18 @@
      "summary": "Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking whether it's a duplicate or known issue before routing.",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-ticket-triage-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/ticket-triage/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill ticket-triage",
      "security": {
       "audited": false,
@@ -960,6 +1348,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/customer-sales-automation/agents/customer-support.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1000,6 +1393,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmj81buvg0004tw0q1in0rkal_ai-customer-support-specialist"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1040,6 +1438,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmuvobkhb0004l307voj326w7_customer-support-reply-drafter-empathy-policy"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1085,6 +1488,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_customer_support_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1118,13 +1526,18 @@
      "summary": "This repository contains a demo of a Customer Service interface built on top of the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/).",
      "summary_lang": "en",
      "source_url": "https://github.com/openai/openai-cs-agents-demo",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cs-agents-demo.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-cs-agents-demo/main/README.md",
      "repo": "openai/openai-cs-agents-demo",
      "author": "openai",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/openai/openai-cs-agents-demo"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1158,13 +1571,18 @@
      "summary": "A Model Context Protocol server for Zendesk.",
      "summary_lang": "en",
      "source_url": "https://github.com/reminia/zendesk-mcp-server",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/reminia-zendesk-mcp-server.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/reminia/zendesk-mcp-server/main/README.md",
      "repo": "reminia/zendesk-mcp-server",
      "author": "reminia",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/reminia/zendesk-mcp-server"
+     },
      "install": "see README (uv / Claude Desktop config); needs Zendesk API token",
      "security": {
       "audited": false,
@@ -1198,13 +1616,18 @@
      "summary": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with structured access to the [Freshdesk](https://www.freshdesk.com) customer support platform — tickets, contacts, companies, agents, groups, the knowledge base, and SLA/business-hours configuratio",
      "summary_lang": "en",
      "source_url": "https://github.com/WYRE-AI/freshdesk-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/wyre-ai-freshdesk-mcp.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/WYRE-AI/freshdesk-mcp/main/README.md",
      "repo": "WYRE-AI/freshdesk-mcp",
      "author": "WYRE-AI",
      "license": "Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)",
+      "url": "https://github.com/WYRE-AI/freshdesk-mcp"
+     },
      "install": "MCP Registry: io.github.WYRE-AI/freshdesk-mcp; needs Freshdesk API key",
      "security": {
       "audited": false,
@@ -1245,6 +1668,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/voice_ai_agents/customer_support_voice_agent"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1285,6 +1713,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/openai/openai-agents-python/tree/main/examples/customer_service"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1318,13 +1751,55 @@
      "summary": "MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)",
      "summary_lang": "en",
      "source_url": "https://github.com/codespar/mcp-dev-latam",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-codespar-mcp-shopify.md",
      "upstream_raw_url": null,
      "repo": "codespar/mcp-dev-latam",
      "author": "io.github.codespar",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/codespar/mcp-dev-latam/blob/HEAD/README.md",
+      "record": {
+       "description": "MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)",
+       "name": "io.github.codespar/mcp-shopify",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Shopify shop subdomain (e.g. 'acme' for acme.myshopify.com)",
+           "name": "SHOPIFY_SHOP",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Shopify Admin API access token (private/custom app) sent as X-Shopify-Access-Token header",
+           "name": "SHOPIFY_ACCESS_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Shopify Admin API version. Defaults to 2024-01.",
+           "name": "SHOPIFY_API_VERSION",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@codespar/mcp-shopify",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/codespar/mcp-dev-latam",
+       "title": null,
+       "version": "0.2.2",
+       "website": null
+      }
+     },
      "install": "npx -y @codespar/mcp-shopify",
      "security": {
       "audited": false,
@@ -1364,13 +1839,73 @@
      "summary": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
      "summary_lang": "en",
      "source_url": "https://github.com/Servosity/msp-skills",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md",
      "upstream_raw_url": null,
      "repo": "Servosity/msp-skills",
      "author": "io.github.Servosity",
      "license": "Apache-2.0",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md",
+      "record": {
+       "description": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
+       "name": "io.github.Servosity/hubspot-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Set the HUBSPOT_ACCESS_TOKEN credential for the HubSpot MCP server.",
+           "name": "HUBSPOT_ACCESS_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Base URL for the HubSpot API. Leave the prefilled default unless your account uses a different regional or self-hosted host.",
+           "name": "HUBSPOT_BASE_URL",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
+           "name": "HUBSPOT_OWNER_EMAIL",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Bearer token required by `hubspot-mcp --transport http`; unused by the default stdio transport.",
+           "name": "HUBSPOT_MCP_HTTP_TOKEN",
+           "required": null,
+           "secret": true
+          },
+          {
+           "description": "Overrides the User-Agent the CLI sends on HubSpot requests.",
+           "name": "HUBSPOT_USER_AGENT",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Binds this MCP server to one tenant-gated client profile, so every call answers for that customer. Leave blank to use the profile configured as default_client_profile.",
+           "name": "PRINTING_PRESS_CLIENT_PROFILE",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.1/hubspot-mcp.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": "0.2.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/servosity/msp-skills",
+       "title": "HubSpot MCP",
+       "version": "0.2.1",
+       "website": null
+      }
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1413,13 +1948,43 @@
      "summary": "Manage products, orders, customers, inventory, and store configuration",
      "summary_lang": "en",
      "source_url": "https://github.com/mcparmory/registry",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mcparmory-shopify-admin.md",
      "upstream_raw_url": null,
      "repo": "mcparmory/registry",
      "author": "com.mcparmory",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/mcparmory/registry/blob/HEAD/README.md",
+      "record": {
+       "description": "Manage products, orders, customers, inventory, and store configuration",
+       "name": "com.mcparmory/shopify-admin",
+       "packages": [
+        {
+         "env": [],
+         "id": "mcparmory-shopify-admin",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "1.0.3"
+        },
+        {
+         "env": [],
+         "id": "ghcr.io/mcparmory/shopify-admin:1.0.3",
+         "transport": "stdio",
+         "type": "oci",
+         "version": null
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mcparmory/registry",
+       "title": null,
+       "version": "1.0.3",
+       "website": null
+      }
+     },
      "install": "uvx mcparmory-shopify-admin",
      "security": {
       "audited": false,
@@ -1455,13 +2020,73 @@
      "summary": "Relays messages between two Claude Code sessions on different machines using the Channels API",
      "summary_lang": "en",
      "source_url": "https://github.com/MuhammadTalhaMT/claude-intercom",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md",
      "upstream_raw_url": null,
      "repo": "MuhammadTalhaMT/claude-intercom",
      "author": "io.github.MuhammadTalhaMT",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md",
+      "record": {
+       "description": "Relays messages between two Claude Code sessions on different machines using the Channels API",
+       "name": "io.github.MuhammadTalhaMT/intercom",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Label for this instance, e.g. backend or frontend. Appears in message tags so the other side knows who is talking.",
+           "name": "MY_ROLE",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Address of the other machine as host:port. A Tailscale address is recommended over a public one.",
+           "name": "REMOTE_HOST",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Shared secret authenticating messages between the two instances. Must match on both sides. There is no default: without it the intercom starts unpaired, binds no port, and refuses to send.",
+           "name": "INTERCOM_SECRET",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Port to listen on for incoming messages. Defaults to 8788.",
+           "name": "INTERCOM_PORT",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Interface to bind the listener to. Defaults to 0.0.0.0. Set 127.0.0.1 when a tunnel fronts the intercom, so only the tunnel can connect.",
+           "name": "INTERCOM_HOST",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "How long an outbound POST may hang before giving up. Defaults to 10000.",
+           "name": "INTERCOM_SEND_TIMEOUT_MS",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "claude-intercom",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/MuhammadTalhaMT/claude-intercom",
+       "title": null,
+       "version": "2.1.0",
+       "website": null
+      }
+     },
      "install": "npx -y claude-intercom",
      "security": {
       "audited": false,
@@ -1504,13 +2129,43 @@
      "summary": "Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.",
      "summary_lang": "en",
      "source_url": "https://github.com/fruggr/zendesk-mcp-server",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md",
      "upstream_raw_url": null,
      "repo": "fruggr/zendesk-mcp-server",
      "author": "io.github.fruggr",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/fruggr/zendesk-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.",
+       "name": "io.github.fruggr/zendesk-mcp-server",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Zendesk subdomain, used when no positional subdomain argument is given.",
+           "name": "ZENDESK_SUBDOMAIN",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@fruggr/zendesk-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "3.3.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/fruggr/zendesk-mcp-server",
+       "title": null,
+       "version": "3.3.1",
+       "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
+      }
+     },
      "install": "npx -y @fruggr/zendesk-mcp-server",
      "security": {
       "audited": false,
@@ -1555,6 +2210,48 @@
      "license": "NOASSERTION",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mindstone/mcp-server-zendesk&version=latest",
+      "record": {
+       "description": "Zendesk MCP server for Model Context Protocol hosts",
+       "name": "io.github.mindstone/mcp-server-zendesk",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Path to the config directory containing accounts.json and credentials/",
+           "name": "ZENDESK_CONFIG_PATH",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional OAuth client ID for legacy token refresh flows",
+           "name": "ZENDESK_CLIENT_ID",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional OAuth client secret for legacy token refresh flows",
+           "name": "ZENDESK_CLIENT_SECRET",
+           "required": null,
+           "secret": true
+          }
+         ],
+         "id": "@mindstone/mcp-server-zendesk",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.4.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mindstone/mcp-servers",
+       "title": "Zendesk",
+       "version": "0.4.1",
+       "website": null
+      }
+     },
      "install": "npx -y @mindstone/mcp-server-zendesk",
      "security": {
       "audited": false,
@@ -1594,13 +2291,65 @@
      "summary": "The public product catalogue and collections of any Shopify storefront, as structured JSON.",
      "summary_lang": "en",
      "source_url": "https://github.com/HasData/shopify-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md",
      "upstream_raw_url": null,
      "repo": "HasData/shopify-mcp",
      "author": "com.hasdata",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/HasData/shopify-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "The public product catalogue and collections of any Shopify storefront, as structured JSON.",
+       "name": "com.hasdata/shopify",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
+           "name": "HASDATA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@hasdata/shopify-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.3"
+        },
+        {
+         "env": [
+          {
+           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
+           "name": "HASDATA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "hasdata-shopify-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "1.0.3"
+        }
+       ],
+       "remotes": [
+        {
+         "headers": [
+          "x-api-key"
+         ],
+         "type": "streamable-http",
+         "url": "https://mcp.hasdata.com/mcp?apis=shopify"
+        }
+       ],
+       "repository": "https://github.com/HasData/shopify-mcp",
+       "title": "HasData Shopify",
+       "version": "1.0.3",
+       "website": "https://hasdata.com/apis/shopify-api"
+      }
+     },
      "install": "npx -y @hasdata/shopify-mcp",
      "security": {
       "audited": false,
@@ -1640,13 +2389,36 @@
      "summary": "Zendesk MCP server for Claude Code and other MCP clients",
      "summary_lang": "en",
      "source_url": "https://github.com/michaelrice/zendesk-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md",
      "upstream_raw_url": null,
      "repo": "michaelrice/zendesk-mcp",
      "author": "io.github.michaelrice",
      "license": "Apache-2.0",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Zendesk MCP server for Claude Code and other MCP clients",
+       "name": "io.github.michaelrice/zendesk-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "zendesk-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.1.6"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/michaelrice/zendesk-mcp",
+       "title": null,
+       "version": "0.1.6",
+       "website": null
+      }
+     },
      "install": "uvx zendesk-mcp",
      "security": {
       "audited": false,
@@ -1682,13 +2454,36 @@
      "summary": "Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.",
      "summary_lang": "en",
      "source_url": "https://github.com/alex-brecher/shopify-multi-store",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alex-brecher-shopify-multi-store.md",
      "upstream_raw_url": null,
      "repo": "alex-brecher/shopify-multi-store",
      "author": "io.github.alex-brecher",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md",
+      "record": {
+       "description": "Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.",
+       "name": "io.github.alex-brecher/shopify-multi-store",
+       "packages": [
+        {
+         "env": [],
+         "id": "shopify-multi-store-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.0.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/alex-brecher/shopify-multi-store",
+       "title": null,
+       "version": "2.0.1",
+       "website": null
+      }
+     },
      "install": "npx -y shopify-multi-store-mcp-server",
      "security": {
       "audited": false,
@@ -1731,6 +2526,54 @@
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.nazariinalyvaikobs/shopify-store-builder-mcp&version=latest",
+      "record": {
+       "description": "MCP server for building Shopify stores via the Admin GraphQL API: themes, pages, and navigation",
+       "name": "io.github.nazariinalyvaikobs/shopify-store-builder-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Store domain, e.g. my-store.myshopify.com",
+           "name": "SHOPIFY_STORE_DOMAIN",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Dev Dashboard app client ID (option A, recommended)",
+           "name": "SHOPIFY_CLIENT_ID",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Dev Dashboard app client secret (option A, recommended)",
+           "name": "SHOPIFY_CLIENT_SECRET",
+           "required": null,
+           "secret": true
+          },
+          {
+           "description": "Permanent admin access token shpat_… (option B, instead of client credentials)",
+           "name": "SHOPIFY_ADMIN_ACCESS_TOKEN",
+           "required": null,
+           "secret": true
+          }
+         ],
+         "id": "shopify-store-builder-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/nazariinalyvaikobs/shopify-store-builder-mcp",
+       "title": null,
+       "version": "0.1.1",
+       "website": null
+      }
+     },
      "install": "npx -y shopify-store-builder-mcp",
      "security": {
       "audited": false,
@@ -1776,13 +2619,18 @@
      "summary": "τ-bench family benchmark (MIT) that simulates user–agent conversations in customer-service domains (retail, airline, telecom, banking) with tools, policies and automatic task evaluation.",
      "summary_lang": "en",
      "source_url": "https://github.com/sierra-research/tau2-bench",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/sierra-research-tau2-bench.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/README.md",
      "repo": "sierra-research/tau2-bench",
      "author": "sierra-research",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sierra-research/tau2-bench"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1816,13 +2664,18 @@
      "summary": "Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to churn, or an issue has sat unresolved past its SLA.",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-escalation/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-escalation",
      "security": {
       "audited": false,

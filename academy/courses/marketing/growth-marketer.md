@@ -56,6 +56,7 @@ Read the required skills, prompts and standards in order.
 
 - [skill] cold-email. Write and run B2B cold outbound that gets replies, from cold emails and follow-ups to sending setup, LinkedIn, multichannel cadences, and reply handling. Use when the user mentions "cold email," "cold outreach," "outboun
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/cold-email/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-cold-email-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill cold-email
   needs_credentials: false, writes_external: false
@@ -160,6 +161,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [mcp] io.github.pooriaarab/agentic-campaign. Plan a social campaign calendar across brands and platforms.
   source: https://github.com/pooriaarab/agentic-campaign
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pooriaarab-agentic-campaign.md
   license: MIT
   install: npx -y agentic-campaign
   needs_credentials: false, writes_external: false
@@ -170,6 +172,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [workflow] brand-search-optimization. This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer 
   source: https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 
@@ -179,11 +182,13 @@ Go through the checklist and report the result to your owner.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false

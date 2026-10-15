@@ -234,10 +234,10 @@ body{letter-spacing:-.005em}
 .case li em{font:500 11px/1.6 var(--f-mono);font-style:normal;color:var(--acc)}
 .compare{aspect-ratio:16/10;border-radius:16px;border:1px solid var(--line)}
 .foot{margin-top:128px;border-top:1px solid var(--line)}
-.foot .wrap{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:32px;padding-top:48px;padding-bottom:40px}
-.foot .fh{margin:0 0 14px}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}.foot li a{font-size:14px;color:var(--ink2)}.foot li a:hover{color:var(--acc)}
+.foot .wrap{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:24px;padding-top:32px;padding-bottom:32px}
+.foot .fh{margin:0 0 24px}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:16px}.foot li a{font-size:14px;font-weight:500;color:var(--ink2)}.foot li a:hover{color:var(--acc);text-decoration:underline}
 .foot p{color:var(--muted);font-size:14px;max-width:340px;margin:14px 0 0}
-.foot-b .wrap{display:flex;justify-content:space-between;padding-top:16px;padding-bottom:20px;border-top:1px solid var(--line)}
+.foot-b .wrap{display:flex;justify-content:space-between;padding-top:32px;padding-bottom:32px;border-top:1px solid var(--line)}
 @media (max-width:1024px){.hero .wrap{grid-template-columns:1fr}.fgrid{grid-template-columns:repeat(4,1fr)}.hgrid.plat{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:760px){
  .wrap{padding:0 16px}.top{height:64px;background:color-mix(in srgb,var(--bg) 82%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.top .wrap{justify-content:flex-end;padding-top:12px}.brand{left:16px;top:21px}

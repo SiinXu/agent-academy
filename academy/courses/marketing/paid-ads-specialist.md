@@ -70,6 +70,7 @@ Read the required skills, prompts and standards in order.
 
 - [skill] ads. When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campa
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ads/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-ads-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ads
   needs_credentials: false, writes_external: false
@@ -127,26 +128,31 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 
 - [mcp] TikTok Ads MCP Server. TikTok Ads management — CRUD, async reports, targeting, and media uploads
   source: https://github.com/cesteral/mcp-open-advertising
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-cesteral-tiktok-mcp.md
   license: Apache-2.0
   install: npx -y @cesteral/tiktok-mcp
   needs_credentials: true, writes_external: true
 - [mcp] TikTok Agent Publisher. Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.
   source: https://github.com/davidmosiah/tiktok-agent-publisher
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-davidmosiah-tiktok-agent-publisher.md
   license: MIT
   install: npx -y tiktok-agent-publisher
   needs_credentials: true, writes_external: true
 - [mcp] TikTok Trends API. TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai
   source: https://github.com/trendsapi-ai/tiktok-trends-api
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsapi-tiktok.md
   license: MIT
   install: remote (streamable-http): https://tiktok.api.trendsapi.ai/mcp
   needs_credentials: true, writes_external: false
 - [mcp] io.github.lanternrow/tiktok-organic-mcp. TikTok organic analytics — video performance, engagement metrics, and profile insights.
   source: https://github.com/lanternrow/tiktok-organic-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lanternrow-tiktok-organic-mcp.md
   license: MIT
   install: npx -y tiktok-organic-mcp
   needs_credentials: true, writes_external: false
 - [mcp] TikTok Trends MCP. TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsmcp.ai
   source: https://github.com/trendsmcp-ai/tiktok-trends-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-tiktok.md
   license: MIT
   install: remote (streamable-http): https://tiktok.api.trendsmcp.ai/mcp
   needs_credentials: true, writes_external: false
@@ -157,6 +163,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] com.mambabuilt/mcp-tiktok-brand-presence-mapper. Resolve a TikTok handle or company domain to the brand account with follower counts.
   source: https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper.md
   license: MIT
   install: npx -y @mambalabsdev/mcp-tiktok-brand-presence-mapper
   needs_credentials: true, writes_external: false
@@ -167,16 +174,19 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] io.github.mrocker/tiktok-profile-stats. TikTok profiles (followers, bio) and per-video stats by handle or URL. No login. Pay per result.
   source: https://github.com/mrocker/social-data-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mrocker-tiktok-profile-stats.md
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper
   needs_credentials: true, writes_external: false
 - [mcp] ssave.cc — TikTok & Instagram Downloader. Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export
   source: https://github.com/ssavecc/ssave-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md
   license: MIT
   install: npx -y @ssavecc/mcp-server
   needs_credentials: true, writes_external: false
 - [mcp] TikTok Ads. TikTok Ads MCP server: 35 read tools, 29 opt-in preview-first writes.
   source: https://github.com/get-mcp-ads/tiktok-ads-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-getmcpads-tiktok-ads.md
   license: Apache-2.0
   install: npx -y @getmcpads/tiktok-ads-mcp-server
   needs_credentials: true, writes_external: true
@@ -187,6 +197,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] TikTok Transcript Scraper. Transcripts of TikTok videos or whole accounts, with views, likes and dates.
   source: https://github.com/fernandoguiraud16-coder/data-tools
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fernandoguiraud16-coder-tiktok-transcript-scraper.md
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=fguiraud/tiktok-transcript-scraper
   needs_credentials: true, writes_external: false
@@ -197,6 +208,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] TikTok Transcripts & Video Breakdown. TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown.
   source: https://github.com/LMSlay/tubetext-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lmslay-tubetext-tiktok-transcripts.md
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/video-breakdown-ai
   needs_credentials: true, writes_external: false
@@ -212,11 +224,13 @@ Go through the checklist and report the result to your owner.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false

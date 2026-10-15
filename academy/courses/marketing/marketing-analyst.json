@@ -42,6 +42,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing"
+     },
      "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
      "security": {
       "audited": false,
@@ -82,6 +87,31 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/seo-aeo-desk",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "research-briefings",
+       "creator": "adamta",
+       "firstSeen": "2026-09-21",
+       "integrations": [],
+       "name": "SEO & AEO Desk",
+       "official": true,
+       "page": "https://botsdots.site/templates/seo-aeo-desk",
+       "risk": "low",
+       "summary": "Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Works from a pasted keyword list or your Search Console."
+      }
+     },
      "install": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
      "security": {
       "audited": false,
@@ -124,6 +154,32 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/market-researcher",
+      "record": {
+       "access": [
+        "browser"
+       ],
+       "add": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "research-briefings",
+       "creator": "joshkim",
+       "firstSeen": "2026-10-09",
+       "integrations": [],
+       "name": "Market Researcher",
+       "official": true,
+       "page": "https://botsdots.site/templates/market-researcher",
+       "risk": "medium",
+       "summary": "Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence"
+      }
+     },
      "install": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
      "security": {
       "audited": false,
@@ -166,6 +222,30 @@
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/project-manager",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/AMa1ig4YyoxfYtWFe7PLi",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "research-briefings",
+       "creator": "joshkim",
+       "firstSeen": "2026-10-09",
+       "integrations": [],
+       "name": "Project Manager",
+       "official": true,
+       "page": "https://botsdots.site/templates/project-manager",
+       "risk": "low",
+       "summary": "Marketing project manager that coordinates research, positioning, landing pages, ads"
+      }
+     },
      "install": "https://x.ai/bot/AMa1ig4YyoxfYtWFe7PLi",
      "security": {
       "audited": false,
@@ -206,13 +286,18 @@
      "summary": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I m",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/analytics/SKILL.md",
      "repo": "coreyhaines31/marketingskills",
      "author": "coreyhaines31",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill analytics",
      "security": {
       "audited": false,
@@ -246,13 +331,18 @@
      "summary": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summ",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill performance-report",
      "security": {
       "audited": false,
@@ -293,6 +383,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill ab-testing",
      "security": {
       "audited": false,
@@ -333,6 +428,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill attribution",
      "security": {
       "audited": false,
@@ -373,6 +473,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -413,6 +518,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/data-storytelling/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill data-storytelling",
      "security": {
       "audited": false,
@@ -453,6 +563,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill kpi-dashboard-design",
      "security": {
       "audited": false,
@@ -493,6 +608,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -533,6 +653,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmp2nnvma0001l704v43f48t8_the-lovelyline"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -571,13 +696,18 @@
      "summary": "Read-only audit of a HubSpot portal. You get a scored report of what works, what is broken, and what is missing, plus a 30/60/90-day fix plan.",
      "summary_lang": "en",
      "source_url": "https://github.com/M-Pineapple/hubspot-auditor",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/m-pineapple-hubspot-auditor.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/M-Pineapple/hubspot-auditor/main/README.md",
      "repo": "M-Pineapple/hubspot-auditor",
      "author": "M-Pineapple",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/M-Pineapple/hubspot-auditor"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -611,13 +741,43 @@
      "summary": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
      "summary_lang": "en",
      "source_url": "https://github.com/PostHog/posthog",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-posthog-mcp.md",
      "upstream_raw_url": null,
      "repo": "PostHog/posthog",
      "author": "io.github.PostHog",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md",
+      "record": {
+       "description": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
+       "name": "io.github.PostHog/mcp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://mcp.posthog.com/mcp"
+        },
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "sse",
+         "url": "https://mcp.posthog.com/sse"
+        }
+       ],
+       "repository": "https://github.com/PostHog/posthog",
+       "title": "PostHog MCP Server",
+       "version": "1.0.1",
+       "website": null
+      }
+     },
      "install": "remote (streamable-http): https://mcp.posthog.com/mcp",
      "security": {
       "audited": false,
@@ -656,13 +816,49 @@
      "summary": "Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.",
      "summary_lang": "en",
      "source_url": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-matjmat-eulerian-marketing-platform-mcp.md",
      "upstream_raw_url": null,
      "repo": "EulerianTechnologies/eulerian-marketing-platform-mcp",
      "author": "io.github.matjmat",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.",
+       "name": "io.github.matjmat/eulerian-marketing-platform-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Eulerian Marketing Platform API key",
+           "name": "EMP_API_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Your Eulerian Marketing Platform MCP Endpoint",
+           "name": "EMP_API_ENDPOINT",
+           "required": true,
+           "secret": null
+          }
+         ],
+         "id": "eulerian-marketing-platform",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.9"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
+     },
      "install": "uvx eulerian-marketing-platform",
      "security": {
       "audited": false,
@@ -708,6 +904,27 @@
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.jojapi/similarweb&version=latest",
+      "record": {
+       "description": "Similarweb: Similarweb API allows you to access powerful insights into web analytics and online.",
+       "name": "com.jojapi/similarweb",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.jojapi.com/similarweb"
+        }
+       ],
+       "repository": null,
+       "title": null,
+       "version": "1.0.0",
+       "website": "https://jojapi.com/hub/api/similarweb"
+      }
+     },
      "install": "remote (streamable-http): https://mcp.jojapi.com/similarweb",
      "security": {
       "audited": false,
@@ -743,13 +960,36 @@
      "summary": "Marketing Analytics Ai MCP Server by MEOK AI Labs",
      "summary_lang": "en",
      "source_url": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-csoai-org-marketing-analytics-ai-mcp.md",
      "upstream_raw_url": null,
      "repo": "CSOAI-ORG/marketing-analytics-ai-mcp",
      "author": "io.github.CSOAI-ORG",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Marketing Analytics Ai MCP Server by MEOK AI Labs",
+       "name": "io.github.CSOAI-ORG/marketing-analytics-ai-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "marketing-analytics-ai-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "1.0.9"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp",
+       "title": null,
+       "version": "1.0.9",
+       "website": null
+      }
+     },
      "install": "uvx marketing-analytics-ai-mcp",
      "security": {
       "audited": false,
@@ -785,13 +1025,36 @@
      "summary": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
      "summary_lang": "en",
      "source_url": "https://github.com/friendlygeorge/posthog-mcp-server",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md",
      "upstream_raw_url": null,
      "repo": "friendlygeorge/posthog-mcp-server",
      "author": "io.github.friendlygeorge",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/friendlygeorge/posthog-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
+       "name": "io.github.friendlygeorge/posthog-mcp-server",
+       "packages": [
+        {
+         "env": [],
+         "id": "posthog-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/friendlygeorge/posthog-mcp-server",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
+     },
      "install": "npx -y posthog-mcp-server",
      "security": {
       "audited": false,
@@ -834,6 +1097,27 @@
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.saifs/marketing-intelligence&version=latest",
+      "record": {
+       "description": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
+       "name": "ai.saifs/marketing-intelligence",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://marketing-analysis-mcp.saifs.ai/mcp"
+        }
+       ],
+       "repository": null,
+       "title": "Marketing Intelligence & Optimization",
+       "version": "1.0.0",
+       "website": "https://saifs.ai"
+      }
+     },
      "install": "remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp",
      "security": {
       "audited": false,
@@ -869,13 +1153,34 @@
      "summary": "PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)",
      "summary_lang": "en",
      "source_url": "https://github.com/pipeworx-io/mcp-posthog",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md",
      "upstream_raw_url": null,
      "repo": "pipeworx-io/mcp-posthog",
      "author": "io.github.pipeworx-io",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/pipeworx-io/mcp-posthog/blob/HEAD/README.md",
+      "record": {
+       "description": "PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)",
+       "name": "io.github.pipeworx-io/posthog",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://gateway.pipeworx.io/posthog/mcp"
+        }
+       ],
+       "repository": "https://github.com/pipeworx-io/mcp-posthog",
+       "title": "Posthog",
+       "version": "0.1.2",
+       "website": "https://pipeworx.io/packs/posthog"
+      }
+     },
      "install": "remote (streamable-http): https://gateway.pipeworx.io/posthog/mcp",
      "security": {
       "audited": false,
@@ -916,13 +1221,18 @@
      "summary": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I m",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/analytics/SKILL.md",
      "repo": "coreyhaines31/marketingskills",
      "author": "coreyhaines31",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill analytics",
      "security": {
       "audited": false,
@@ -956,13 +1266,18 @@
      "summary": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summ",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
      "repo": "anthropics/knowledge-work-plugins",
      "author": "anthropics",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill performance-report",
      "security": {
       "audited": false,
@@ -1003,6 +1318,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill ab-testing",
      "security": {
       "audited": false,
@@ -1043,6 +1363,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md"
+     },
      "install": "npx skills add coreyhaines31/marketingskills --skill attribution",
      "security": {
       "audited": false,
@@ -1083,6 +1408,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1123,6 +1453,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/data-storytelling/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill data-storytelling",
      "security": {
       "audited": false,
@@ -1163,6 +1498,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill kpi-dashboard-design",
      "security": {
       "audited": false,
@@ -1203,6 +1543,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide"
+     },
      "install": null,
      "security": {
       "audited": false,

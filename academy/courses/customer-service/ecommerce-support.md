@@ -35,10 +35,12 @@ Read course.md: the job, the permissions it needs, and what good output looks li
   needs_credentials: false, writes_external: false
 - [tutorial] Using tool_choice=required for customer service (OpenAI cookbook). Using Tool Required for Customer Service The ChatCompletion endpoint now includes the ability to specify whether a tool must be called every time, by adding tool_choice='required' as a parameter. This adds an element of 
   source: https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cookbook-examples-using-tool-required-for-customer-service-ipynb.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [tutorial] Customer service agent with tool use (Claude cookbook). Creating a Customer Service Agent with Client-Side Tools In this recipe, we'll demonstrate how to create a customer service chatbot using Claude 3 plus client-side tools. The chatbot will be able to look up customer info
   source: https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-claude-cookbooks-tool-use-customer-service-agent-ipynb.md
   license: MIT
   needs_credentials: false, writes_external: false
 
@@ -48,6 +50,7 @@ Choose one style, platform or channel from the reference library. Only one.
 
 - [plugin] ADK retail plugin. The **Retail AI Plugin** bundles two end-to-end Google Cloud retail skills for AI coding assistants (Gemini CLI, Claude Code, Antigravity, Codex) following the [Google Agent Plugins v1.0.0 specification][spec] (`plugin.j
   source: https://github.com/google/adk-recipes/tree/main/plugins/retail
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-plugins-retail.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [template] Customer Care. Handles refunds and disputes, drafts support messages
@@ -77,10 +80,12 @@ Read the required skills, prompts and standards in order.
 
 - [skill] retail-product-search. Creates product search agents with semantic search and RAG on Google Cloud (Vector Search on Gemini Enterprise Agent Platform, BigQuery, embeddings). Use when the user wants to "build a product search agent", "create an 
   source: https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/product-search/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-plugins-retail-skills-product-search-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [system-prompt] tau2 retail agent policy. At the beginning of the conversation, you have to authenticate the user identity by locating their user id via email, or via name + zip code. This has to be done even when the user already provides the user id.
   source: https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/retail/policy.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/sierra-research-tau2-bench-data-tau2-domains-retail-policy-md.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [skill] retail-virtual-tryon. Creates virtual try-on agents supporting image and video (catwalk animation) try-ons on Google Cloud (Gemini image models and Veo on Gemini Enterprise Agent Platform). Handles resource setup, user photo uploading, image/
@@ -116,15 +121,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [case] OpenAI customer service agents demo (Agents SDK). This repository contains a demo of a Customer Service interface built on top of the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/).
   source: https://github.com/openai/openai-cs-agents-demo
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/openai-openai-cs-agents-demo.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [mcp] Zendesk MCP server. A Model Context Protocol server for Zendesk.
   source: https://github.com/reminia/zendesk-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/reminia-zendesk-mcp-server.md
   license: Apache-2.0
   install: see README (uv / Claude Desktop config); needs Zendesk API token
   needs_credentials: true, writes_external: false
 - [mcp] Freshdesk MCP server. A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with structured access to the [Freshdesk](https://www.freshdesk.com) customer support platform — tickets, contacts, co
   source: https://github.com/WYRE-AI/freshdesk-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/wyre-ai-freshdesk-mcp.md
   license: Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)
   install: MCP Registry: io.github.WYRE-AI/freshdesk-mcp; needs Freshdesk API key
   needs_credentials: true, writes_external: false
@@ -135,10 +143,12 @@ Go through the checklist and report the result to your owner.
 
 - [benchmark] tau2-bench (customer-service agent benchmark). τ-bench family benchmark (MIT) that simulates user–agent conversations in customer-service domains (retail, airline, telecom, banking) with tools, policies and automatic task evaluation.
   source: https://github.com/sierra-research/tau2-bench
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/sierra-research-tau2-bench.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [skill] customer-escalation. Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to ch
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-escalation
   needs_credentials: false, writes_external: false

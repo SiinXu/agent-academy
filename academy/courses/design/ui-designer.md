@@ -332,6 +332,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [mcp] io.github.GLips/Figma-Context-MCP. Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.
   source: https://github.com/GLips/Figma-Context-MCP
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-glips-figma-context-mcp.md
   license: MIT
   install: npx -y figma-developer-mcp
   needs_credentials: true, writes_external: false
@@ -342,71 +343,85 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] io.github.TranHoaiHung/figma-ui-mcp. Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back
   source: https://github.com/TranHoaiHung/figma-ui-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-tranhoaihung-figma-ui-mcp.md
   license: MIT
   install: npx -y figma-ui-mcp
   needs_credentials: false, writes_external: false
 - [mcp] Keyline Icons. Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.
   source: https://github.com/keyline-icons/keyline-icons
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-keylineicons-mcp.md
   license: MIT
   install: npx -y @keyline-icons/mcp
   needs_credentials: false, writes_external: false
 - [mcp] com.webflow/mcp. AI-powered design and management for Webflow Sites
   source: https://github.com/webflow/mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-webflow-mcp.md
   license: MIT
   install: remote (streamable-http): https://mcp.webflow.com/mcp
   needs_credentials: true, writes_external: true
 - [mcp] Illustrator MCP Server. Drive Adobe Illustrator from any MCP client: artwork, type, colour, effects, data and export.
   source: https://github.com/zachshallbetter/adobe-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-illustrator.md
   license: MIT
   install: npx -y adobe-mcp-illustrator
   needs_credentials: true, writes_external: false
 - [mcp] io.github.neozhehan/figma-edit-mcp. Programmatically read, create, and modify Figma designs via MCP.
   source: https://github.com/neozhehan/figma-edit-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-neozhehan-figma-edit-mcp.md
   license: MIT
   install: npx -y figma-edit-mcp
   needs_credentials: false, writes_external: true
 - [mcp] Figma MCP Server. A local MCP server with full Figma REST API coverage.
   source: https://github.com/planetabhi/figma-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-planetabhi-figma-mcp-server.md
   license: MIT
   install: npx -y figma-mcp-server
   needs_credentials: true, writes_external: false
 - [mcp] figmanage. Let agents manage your Figma workspace. 102 tools for seats, teams, offboarding, and cleanup.
   source: https://github.com/dannykeane/figmanage
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dannykeane-figmanage.md
   license: MIT
   install: npx -y figmanage
   needs_credentials: false, writes_external: true
 - [mcp] io.github.felixAnhalt/Figma-Context-MCP. LLM-optimized Figma MCP server.
   source: https://github.com/felixAnhalt/figma-to-code-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-felixanhalt-figma-context-mcp.md
   license: MIT
   install: npx -y @tmegit/figma-developer-mcp
   needs_credentials: true, writes_external: false
 - [mcp] io.github.cmd8/excalidraw-mcp. Model Context Protocol server for Excalidraw diagrams.
   source: https://github.com/cmd8/excalidraw-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-cmd8-excalidraw-mcp.md
   license: MIT
   install: npx -y @cmd8/excalidraw-mcp
   needs_credentials: false, writes_external: false
 - [mcp] io.github.debu-sinha/excalidraw. Security-hardened Excalidraw MCP server with auth, rate limiting, and 14 tools
   source: https://github.com/debu-sinha/excalidraw-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-debu-sinha-excalidraw.md
   license: MIT
   install: npx -y excalidraw-mcp-server
   needs_credentials: false, writes_external: false
 - [mcp] Figma MCP Server. MCP server enabling AI assistants to interact with Figma designs via natural language commands
   source: https://github.com/oabolade/figma_mcp_server_actor
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-oabolade-figma-mcp-server-actor.md
   license: ISC
   install: npx -y @oabolade-pegasus/figma-mcp-server
   needs_credentials: true, writes_external: false
 - [mcp] figma-vault. Figma designs pulled once into a local vault; AI agents read them offline with no rate limits
   source: https://github.com/NBhey/figma-vault
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-nbhey-figma-vault.md
   license: MIT
   install: npx -y figma-vault
   needs_credentials: false, writes_external: false
 - [mcp] io.github.compassalessandrolorenz/Figma-Context-MCP-AIR. Figma MCP server for AI agents. 9 tools: design context, variables, screenshots, and FigJam.
   source: https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-compassalessandrolorenz-figma-context-mcp-air.md
   license: MIT
   install: npx -y figma-context-mcp-air
   needs_credentials: true, writes_external: false
 - [tool] 21st-dev/magic-mcp. 在 Cursor 里调用 1 万+ React / Tailwind 组件（21st 的 MCP）
   source: https://github.com/21st-dev/magic-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [tool] 3Dicons. 免费 3D 图标
@@ -428,6 +443,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] Andorra public sources. Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages
   source: https://github.com/joalavedra/andorra-fonts-publiques
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md
   license: CC0-1.0
   install: uvx fonts-andorra
   needs_credentials: false, writes_external: false
@@ -442,6 +458,7 @@ Go through the checklist and report the result to your owner.
 
 - [skill] impeccable. Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing page
   source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [skill] web-design-guidelines. Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".

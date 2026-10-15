@@ -93,6 +93,7 @@ Read the required skills, prompts and standards in order.
 
 - [skill] frontend-design. Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
   source: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-skills-skills-frontend-design-skill-md.md
   license: Apache-2.0 (per-skill LICENSE.txt; docx/pdf/pptx/xlsx are source-available, excluded)
   install: npx skills add anthropics/skills --skill frontend-design
   needs_credentials: false, writes_external: false
@@ -247,6 +248,7 @@ Read the required skills, prompts and standards in order.
   needs_credentials: false, writes_external: false
 - [skill] addyosmani/agent-skills. Addy Osmani 的工程 Skill 集，含前端性能和质量类
   source: https://github.com/addyosmani/agent-skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [skill] Ant Design for Agents（MCP + Skill）. 蚂蚁官方：antd mcp、antd setup --client cursor/claude/codex，一条命令装好 MCP 和 Skill
@@ -259,6 +261,7 @@ Read the required skills, prompts and standards in order.
   needs_credentials: false, writes_external: false
 - [skill] anti-slop. 反 AI slop 设计 Skill
   source: https://github.com/miqdadbadjuber/anti-slop
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [skill] apple-design（Emil Kowalski）. 苹果风格设计
@@ -284,36 +287,43 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] Storybook MCP Addon. Help agents automatically write and test stories for your UI components.
   source: https://github.com/storybookjs/mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-storybookjs-addon-mcp.md
   license: MIT
   install: npx -y @storybook/addon-mcp
   needs_credentials: false, writes_external: true
 - [mcp] Excalidraw Architect. Generate beautiful Excalidraw architecture diagrams with auto-layout and component styling
   source: https://github.com/BV-Venky/excalidraw-architect-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-bv-venky-excalidraw-architect-mcp.md
   license: MIT
   install: uvx excalidraw-architect-mcp
   needs_credentials: false, writes_external: false
 - [mcp] Tailwind Shades. Tailwind CSS palettes (50-950) from any color, the closest Tailwind color, and Tailwind's defaults
   source: https://github.com/bourhaouta/vscode-tailwindshades
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-bourhaouta-tailwindshades.md
   license: MIT
   install: npx -y tailwindshades-mcp
   needs_credentials: true, writes_external: true
 - [mcp] io.github.sunhome243/figma-mcp-express. Compact Figma MCP with validated batch ops through a local plugin bridge.
   source: https://github.com/sunhome243/figma-mcp-express
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-sunhome243-figma-mcp-express.md
   license: MIT
   install: npx -y figma-mcp-express
   needs_credentials: false, writes_external: false
 - [mcp] io.github.felixAnhalt/Figma-Context-MCP. LLM-optimized Figma MCP server.
   source: https://github.com/felixAnhalt/figma-to-code-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-felixanhalt-figma-context-mcp.md
   license: MIT
   install: npx -y @tmegit/figma-developer-mcp
   needs_credentials: true, writes_external: false
 - [mcp] io.github.kolganovr/figma-mcp-bridge. Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.
   source: https://github.com/kolganovr/figma-mcp-bridge
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-kolganovr-figma-mcp-bridge.md
   license: MIT
   install: npx -y @kolganovr/figma-mcp-bridge
   needs_credentials: false, writes_external: true
 - [mcp] figma-mcp. Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.
   source: https://github.com/Mehmoodqureshi/figma-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-mcp.md
   license: MIT
   install: npx -y @mehmoodqureshi/figma-mcp
   needs_credentials: true, writes_external: false
@@ -339,6 +349,7 @@ Go through the checklist and report the result to your owner.
 
 - [skill] impeccable. Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing page
   source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [skill] web-design-guidelines. Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".

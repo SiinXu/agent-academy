@@ -166,6 +166,7 @@ Read the required skills, prompts and standards in order.
 
 - [skill] design-system. Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design t
   source: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/design-system/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-design-system-skill-md.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [skill] brand-guidelines. Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design 
@@ -271,6 +272,7 @@ Read the required skills, prompts and standards in order.
   needs_credentials: false, writes_external: false
 - [standard] Adobe Spectrum Design Data（tokens）. Spectrum 公开的 token 数据仓库（旧仓库是 adobe/spectrum-tokens）
   source: https://github.com/adobe/spectrum-design-data
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-spectrum-design-data.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [standard] Ant Design llms.txt / design.md. 有 llms.txt、llms-full.txt 和 design.md，把整套 antd 规范喂给 AI
@@ -305,6 +307,7 @@ Read the required skills, prompts and standards in order.
   needs_credentials: false, writes_external: false
 - [standard] DESIGN.md 格式规范（Google）. Google 提出的 DESIGN.md 格式：YAML 写 token，Markdown 写设计意图
   source: https://github.com/google-labs-code/design.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [standard] DTCG Format 2025.10 稳定版. token JSON 格式正式规范，Figma、Tokens Studio、Style Dictionary 都在跟
@@ -343,31 +346,37 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [mcp] io.github.alvinindra/figma-mcp-rust. Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.
   source: https://github.com/alvinindra/figma-mcp-rust
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alvinindra-figma-mcp-rust.md
   license: MIT
   install: npx -y @alvinindra/figma-mcp-rust
   needs_credentials: false, writes_external: false
 - [mcp] io.github.tunglt1810/figma-mcp-go. Figma MCP server with full read/write access via plugin bridge — no API token or rate limits.
   source: https://github.com/tunglt1810/figma-mcp-go
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-tunglt1810-figma-mcp-go.md
   license: MIT
   install: npx -y @tunglt1810/figma-mcp-go
   needs_credentials: false, writes_external: true
 - [mcp] HTML to Figma — Design System. Translate HTML prototypes into Figma using your design system's real components and tokens.
   source: https://github.com/miapre/mimic-ai
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miapre-html-to-figma-design-system.md
   license: MIT
   install: npx -y html-to-figma-design-system
   needs_credentials: false, writes_external: false
 - [mcp] io.github.jirayusueb/figma-mcp-rs. Figma/FigJam MCP server with read/write via plugin — no API token, no limits. 78 tools.
   source: https://github.com/jirayusueb/figma-mcp-rs
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-jirayusueb-figma-mcp-rs.md
   license: MIT
   install: npx -y figma-mcp-rs
   needs_credentials: false, writes_external: true
 - [mcp] io.github.nntoan/figma-mcp-rust. Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.
   source: https://github.com/nntoan/figma-mcp-rust
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-nntoan-figma-mcp-rust.md
   license: MIT
   install: npx -y @nntoan/figma-mcp-rust
   needs_credentials: false, writes_external: false
 - [mcp] io.github.vola-trebla/tailwind-context-resolver-mcp. Resolves Tailwind CSS design tokens and validates utility classes against the local project config.
   source: https://github.com/vola-trebla/tailwind-context-resolver-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-vola-trebla-tailwind-context-resolver-mcp.md
   license: MIT
   install: npx -y tailwind-context-resolver-mcp
   needs_credentials: false, writes_external: false
@@ -378,6 +387,7 @@ Go through the checklist and report the result to your owner.
 
 - [skill] impeccable. Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing page
   source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 - [skill] web-design-guidelines. Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".

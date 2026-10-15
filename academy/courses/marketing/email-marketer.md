@@ -80,11 +80,13 @@ Read the required skills, prompts and standards in order.
 
 - [skill] cold-email. Write and run B2B cold outbound that gets replies, from cold emails and follow-ups to sending setup, LinkedIn, multichannel cadences, and reply handling. Use when the user mentions "cold email," "cold outreach," "outboun
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/cold-email/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-cold-email-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill cold-email
   needs_credentials: false, writes_external: false
 - [skill] email-sequence. Design and draft multi-email sequences with full copy, timing, branching logic, exit conditions, and performance benchmarks. Use when building onboarding, lead nurture, re-engagement, win-back, or product launch flows, w
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/email-sequence/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-email-sequence-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill email-sequence
   needs_credentials: false, writes_external: false
@@ -162,26 +164,31 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
   source: https://github.com/cyanheads/mailchimp-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
   license: Apache-2.0
   install: see README; needs Mailchimp API key; can SEND campaigns (write access)
   needs_credentials: true, writes_external: true
 - [mcp] SendGrid MCP Server. MCP server for SendGrid's v3 API: email marketing, transactional mail, templates, and analytics.
   source: https://github.com/deyikong/sendgrid-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-deyikong-sendgrid-mcp.md
   license: ISC
   install: npx -y sendgrid-mcp
   needs_credentials: true, writes_external: true
 - [mcp] beehiiv. Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.
   source: https://github.com/beehiiv/agents
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-beehiiv-beehiiv.md
   license: MIT
   install: remote (streamable-http): https://mcp.beehiiv.com/mcp
   needs_credentials: true, writes_external: true
 - [mcp] SendGrid Transactional. SendGrid transactional email: preflight send, templates, and delivery diagnostics.
   source: https://github.com/Neschadin/sendgrid-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-neschadin-sendgrid-mcp.md
   license: MIT
   install: npx -y @neschadin/sendgrid-mcp
   needs_credentials: true, writes_external: true
 - [mcp] com.mambabuilt/mcp-link-in-bio-newsletter-checker. Follow a creator bio link and report the newsletter, what they sell, and the contact emails.
   source: https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md
   license: MIT
   install: npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker
   needs_credentials: true, writes_external: false
@@ -197,11 +204,13 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] Klaviyo. Klaviyo MCP Pack — wraps the Klaviyo API for email marketing
   source: https://github.com/pipeworx-io/mcp-klaviyo
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-klaviyo.md
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/klaviyo/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Klaviyo MCP. Klaviyo MCP: campaigns, flows, segments, metrics, reports, profiles across many accounts. 24 tools.
   source: https://github.com/scalably-io/klaviyo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-scalably-klaviyo-mcp.md
   license: MIT
   install: npx -y @scalably-io/klaviyo-mcp
   needs_credentials: true, writes_external: false
@@ -212,6 +221,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] Mailchimp. Mailchimp MCP Pack — manage audiences, campaigns, and members via Mailchimp Marketing API.
   source: https://github.com/pipeworx-io/mcp-mailchimp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mailchimp.md
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp
   needs_credentials: true, writes_external: true
@@ -227,11 +237,13 @@ Go through the checklist and report the result to your owner.
 
 - [skill] analytics. When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters,
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-analytics-skill-md.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill analytics
   needs_credentials: false, writes_external: false
 - [skill] performance-report. Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel sum
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false

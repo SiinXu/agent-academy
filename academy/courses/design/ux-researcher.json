@@ -41,6 +41,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -81,6 +87,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -121,6 +133,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -161,6 +179,12 @@
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -207,6 +231,9 @@
      "license": "Apple terms; link only",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -245,6 +272,9 @@
      "license": "Google site terms; link only",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -282,6 +312,9 @@
      "license": "aggregator; per-item license",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -319,6 +352,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design"
+     },
      "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
      "security": {
       "audited": false,
@@ -364,6 +402,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/user-research/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill user-research",
      "security": {
       "audited": false,
@@ -404,6 +447,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -438,13 +486,18 @@
      "summary": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
      "summary_lang": "en",
      "source_url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-skills-skills-frontend-design-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
      "repo": "anthropics/skills",
      "author": "anthropics",
      "license": "Apache-2.0 (per-skill LICENSE.txt; docx/pdf/pptx/xlsx are source-available, excluded)",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0 (per-skill LICENSE.txt; docx/pdf/pptx/xlsx are source-available, excluded)",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md"
+     },
      "install": "npx skills add anthropics/skills --skill frontend-design",
      "security": {
       "audited": false,
@@ -479,13 +532,18 @@
      "summary": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
      "summary_lang": "en",
      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/design-system/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-design-system-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/design-system/SKILL.md",
      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
      "author": "nextlevelbuilder",
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/design-system/SKILL.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -531,6 +589,9 @@
      "license": "aggregator",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -568,6 +629,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -608,6 +674,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -648,6 +719,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/commands/accessibility-audit.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -686,13 +762,18 @@
      "summary": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, ",
      "summary_lang": "en",
      "source_url": "https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md",
-     "raw_url": null,
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/pbakaus-impeccable-claude-skills-impeccable-skill-md.md",
      "upstream_raw_url": "https://raw.githubusercontent.com/pbakaus/impeccable/main/.claude/skills/impeccable/SKILL.md",
      "repo": "pbakaus/impeccable",
      "author": "pbakaus",
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -733,6 +814,9 @@
      "license": "NONE (no license file; GitHub API license=null)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -773,6 +857,9 @@
      "license": "W3C Document License; link + quote with attribution",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "link"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -810,6 +897,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-styling/SKILL.md"
+     },
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-styling",
      "security": {
       "audited": false,
@@ -850,6 +942,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md"
+     },
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
@@ -890,6 +987,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills/blob/main/skills/break-ui/SKILL.md"
+     },
      "install": "npx skills add emilkowalski/skills --skill break-ui",
      "security": {
       "audited": false,
@@ -930,6 +1032,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/skills/accessibility-compliance/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill accessibility-compliance",
      "security": {
       "audited": false,
@@ -970,6 +1077,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/agents/accessibility-expert.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1010,6 +1122,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill screen-reader-testing",
      "security": {
       "audited": false,
@@ -1050,6 +1167,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md"
+     },
      "install": "npx skills add wshobson/agents --skill wcag-audit-patterns",
      "security": {
       "audited": false,
@@ -1090,6 +1212,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/accessibility-review/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill accessibility-review",
      "security": {
       "audited": false,
@@ -1130,6 +1257,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-critique/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill design-critique",
      "security": {
       "audited": false,
@@ -1170,6 +1302,11 @@
      "license": "Apache-2.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/ux-copy/SKILL.md"
+     },
      "install": "npx skills add anthropics/knowledge-work-plugins --skill ux-copy",
      "security": {
       "audited": false,
@@ -1210,6 +1347,11 @@
      "license": "MIT",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1250,6 +1392,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmkb4dsp20009l404yrtmh4a4_frontend-developer"
+     },
      "install": null,
      "security": {
       "audited": false,
@@ -1290,6 +1437,11 @@
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmjhdytu00001jm04yooccuhl_frontend-developer-skill"
+     },
      "install": null,
      "security": {
       "audited": false,
