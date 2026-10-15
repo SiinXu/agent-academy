@@ -301,7 +301,7 @@ code.url{display:inline-block;max-width:100%;padding:4px 8px;border:1px solid va
 .tbl-card table{width:100%;border-collapse:collapse;font-size:14px}
 .tbl-card th,.tbl-card td{padding:10px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
 .tbl-card tr:last-child>*{border-bottom:0}
-.tbl-card thead th{font-size:12.5px;font-weight:500;color:var(--muted);background:var(--muted-bg)}
+.tbl-card thead th{font-size:12.5px;font-weight:500;color:var(--ink2);background:var(--muted-bg)}
 .meta th{width:38%;font-weight:500;color:var(--muted);font-size:13px}
 .meta td{overflow-wrap:anywhere;color:var(--ink)}
 .d-agent{display:flex;flex-wrap:wrap;gap:8px;padding:var(--pad);border:1px solid var(--line);border-radius:var(--r-card);background:var(--card)}
