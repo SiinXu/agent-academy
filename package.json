@@ -1,0 +1,19 @@
+{
+  "name": "agent-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Academy: real skills, prompts, MCP servers, bot templates and courses for AI agents, by profession. Static site + JSON API.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "collect": "python3 scripts/collect.py",
+    "translate": "python3 scripts/translate.py",
+    "build": "node scripts/build.mjs",
+    "mcp": "node mcp/server.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+"checklists": {
+ "customer-service": [
+  "Every reply answers the customer's actual question in the first two sentences.",
+  "Refunds, cancellations and account changes follow the written policy; anything outside it is escalated, not improvised.",
+  "Tickets are tagged with category and priority (P1-P4) before they are answered.",
+  "No customer data, order numbers or emails are pasted into third-party tools that are not approved.",
+  "Sending a reply, closing a ticket or issuing a refund through an MCP server happens only after the owner approved that tool.",
+  "Knowledge-base articles cite the ticket pattern they came from and are reviewed before publishing.",
+  "Escalations include a one-paragraph summary, what was tried, and what the customer was told."
+ ],
+ "marketing": [
+  "Every claim in the copy can be traced to a source the owner gave you or a public page you link.",
+  "Campaigns name one audience, one offer and one primary metric before any copy is written.",
+  "SEO work starts from real search data or a stated assumption, never invented volumes.",
+  "Nothing is published, posted, emailed or spent (ads budget) without the owner's explicit approval.",
+  "Brand voice: read the brand guide or brand-voice skill first; flag anything that conflicts with it.",
+  "Reports show numbers with their source and date; no fake-precise figures.",
+  "Remove AI-writing tells (filler intros, em-dash chains, generic superlatives) before handing off."
+ ],
+ "design": [
+  "One visual direction was picked from UI Hub, with 2-4 named reference previews and the reasons; rejected clusters are written down.",
+  "A token sheet exists (4-6 colours with hex, type roles, radius scale, one card padding) before any CSS.",
+  "Long links, repo paths and commands wrap (overflow-wrap:anywhere) and never overflow a card.",
+  "All cards of a kind share the same padding and align their actions.",
+  "Text and controls pass WCAG 2.2 AA contrast in light and dark; keyboard focus is visible.",
+  "Motion uses transform/opacity only, has one orchestrated moment per page, and honours prefers-reduced-motion.",
+  "Four screenshots were checked: desktop 1440 and mobile 390, each in light and dark.",
+  "Lighthouse (or an equivalent audit) was run and every accessibility issue fixed."
+ ]
+},
+"goals": {
+ "customer-service": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
+ "marketing": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
+ "design": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots."
+},
+"permissions": {
+ "customer-service": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
+ "marketing": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
+ "design": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first."
+}
+}

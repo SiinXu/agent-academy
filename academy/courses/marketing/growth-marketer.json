@@ -1,0 +1,1377 @@
+{
+ "id": "marketing/growth-marketer",
+ "industry": "marketing",
+ "role": "growth-marketer",
+ "updated_at": "2026-10-15T10:41:56Z",
+ "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
+ "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
+ "checklist": [
+  "Every claim in the copy can be traced to a source the owner gave you or a public page you link.",
+  "Campaigns name one audience, one offer and one primary metric before any copy is written.",
+  "SEO work starts from real search data or a stated assumption, never invented volumes.",
+  "Nothing is published, posted, emailed or spent (ads budget) without the owner's explicit approval.",
+  "Brand voice: read the brand guide or brand-voice skill first; flag anything that conflicts with it.",
+  "Reports show numbers with their source and date; no fake-precise figures.",
+  "Remove AI-writing tells (filler intros, em-dash chains, generic superlatives) before handing off."
+ ],
+ "case": null,
+ "steps": [
+  {
+   "step": "1-enrol",
+   "read": []
+  },
+  {
+   "step": "2-pick-direction",
+   "read": [
+    {
+     "id": "botsdots-zealt-chief-of-staff",
+     "title": "Zealt Chief of Staff",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "Coordinates a specialist bot team for a social photo app: Scout world moments, Marketing, Social, Idea Lab, and Knowledge. Keeps lanes clear and growth",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/zealt-chief-of-staff",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "zealt_today",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/dadANmm6M496kgq3qgBJ3",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-09-22"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-zealt-chief-of-staff/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-automatesocials",
+     "title": "AutomateSocials",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "A senior social media manager and community manager that plans, writes, schedules, and optimizes approved posts across X, LinkedIn, Facebook.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/automatesocials",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "GregorZebicX",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/bi1TG6r34CXe_JuQMLVfE",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "linkedin"
+      ]
+     },
+     "metrics": {
+      "score": 5,
+      "first_seen_catalog": "2026-10-14"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-automatesocials/",
+     "source": "botsdots"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing",
+     "title": "Marketing plugin (Anthropic knowledge-work-plugins)",
+     "type": "plugin",
+     "industry": "marketing",
+     "roles": [
+      "marketing-manager",
+      "content-marketer"
+     ],
+     "summary": "A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice management, competitive analysis, and performance reporting.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-marketing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/README.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing/",
+     "source": "seed"
+    },
+    {
+     "id": "botsdots-seo-aeo-desk",
+     "title": "SEO & AEO Desk",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Works from a pasted keyword list or your Search Console.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/seo-aeo-desk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "adamta",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 18,
+      "first_seen_catalog": "2026-09-21"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-seo-aeo-desk/",
+     "source": "botsdots"
+    }
+   ]
+  },
+  {
+   "step": "3-learn-rules",
+   "read": [
+    {
+     "id": "coreyhaines31-marketingskills-skills-cold-email-skill-md",
+     "title": "cold-email",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer",
+      "email-marketer"
+     ],
+     "summary": "Write and run B2B cold outbound that gets replies, from cold emails and follow-ups to sending setup, LinkedIn, multichannel cadences, and reply handling. Use when the user mentions \"cold email,\" \"cold outreach,\" \"outbound,\" \"prospecting email,\" \"SDR emails,\" \"follow-up sequence,\" \"nobody's replying,",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cold-email/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/cold-email/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill cold-email",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-cold-email-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-community-marketing",
+     "title": "community-marketing",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/community-marketing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-community-marketing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/community-marketing/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill community-marketing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-community-marketing/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-cro",
+     "title": "cro",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cro/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-cro.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/cro/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill cro",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-cro/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-directory-submissions",
+     "title": "directory-submissions",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/directory-submissions/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-directory-submissions.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/directory-submissions/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill directory-submissions",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-directory-submissions/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-marketing-loops",
+     "title": "marketing-loops",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'content refresh loop,' 'churn watch,' 'ranking drop…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-loops/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-loops.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/marketing-loops/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill marketing-loops",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-marketing-loops/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-onboarding",
+     "title": "onboarding",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/onboarding/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-onboarding.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/onboarding/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill onboarding",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-onboarding/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-popups",
+     "title": "popups",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/popups/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-popups.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/popups/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill popups",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-popups/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-prospecting",
+     "title": "prospecting",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to find, qualify, and build a list of prospects to reach out to, across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find leads,\" \"lead list,\" \"outbound list,\" \"target account list,\" \"ICP-fit accounts,\" \"find local businesses,\" \"find my first customers,\" \"design partners,\" \"signal-based outbound,\" \"buying signals,\"…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/prospecting/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-prospecting.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/prospecting/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill prospecting",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-prospecting/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-referrals",
+     "title": "referrals",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' 'affiliate payout,' 'get more reviews,' 'G2 reviews,' 'review campaign,' or…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/referrals/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-referrals.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/referrals/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill referrals",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-referrals/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-signup",
+     "title": "signup",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/signup/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-signup.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/signup/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill signup",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-signup/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-social-publishing-agents-social-publishing-publisher",
+     "title": "social-publishing-publisher",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "Agent-first social media publishing specialist. Use this agent to schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via the SocialClaw API. Invoke for multi-platform campaigns, content scheduling, media upload, and post analytics. Requires a SocialClaw workspace API key (SOCIALCLAW_API_KEY).",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/social-publishing/agents/social-publishing-publisher.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-social-publishing-agents-social-publishing-publisher.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/social-publishing/agents/social-publishing-publisher.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-social-publishing-agents-social-publishing-publisher/",
+     "source": "github"
+    },
+    {
+     "id": "voltagent-awesome-claude-code-subagents-categories-08-business-product-growth-loops",
+     "title": "growth-loops",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "Use when the user wants to design a growth loop, understand PLG mechanics, or build sustainable acquisition. Triggers on: 'growth loop', 'flywheel', 'viral loop', 'PLG growth', 'product-led growth', 'growth mechanics', 'how do we grow', 'word of mouth'.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/growth-loops.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-growth-loops.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/08-business-product/growth-loops.md",
+     "repo": "VoltAgent/awesome-claude-code-subagents",
+     "author": "VoltAgent",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 25736,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-growth-loops/",
+     "source": "github"
+    },
+    {
+     "id": "voltagent-awesome-claude-code-subagents-categories-08-business-product-landing-page-copywr",
+     "title": "landing-page-copywriter",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "Use this agent when writing or optimizing landing page copy, hero sections, CTAs, or conversion-focused funnel content for a specific audience and offer.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/landing-page-copywriter.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-landing-page-copywr.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/08-business-product/landing-page-copywriter.md",
+     "repo": "VoltAgent/awesome-claude-code-subagents",
+     "author": "VoltAgent",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 25736,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-landing-page-copywr/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants",
+     "title": "RIP McKinsey: Here are 10 prompts to replace expensive business consultants",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "\"RIP McKinsey: Here are 10 prompts to replace expensive business consultants.\" focuses on using AI to handle strategic business tasks. RIP McKinsey. Here are 10 prompts to replace expensive business consultants: 1. SWOT Analysis 2. Market Entry Strategy 3. Cost Optimization 4. Growth Hacking 5. Competitive Intelligence 6. Product-Market Fit Evaluation 7. Brand Positioning 8. Risk Management 9. Sales Funnel…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmjirfi450008jx04zg2kwvml_rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "naseeb-ali-a",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 3,
+      "created_at": "2025-12-23"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-banner-slogan-and-subtext-generator",
+     "title": "Banner Slogan and Subtext Generator",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "A senior marketing and art direction assistant that creates minimal, impactful, and conversion-focused banner slogans. It produces a main slogan, an alternative slogan, and subtext for each banner based on the industry, target audience, brand tone, campaign goals, and prohibited words. It asks structured questions one at a time and provides text-only results with strategic reasoning. No visuals, mockups,…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmue8hu2f0001kz04fqubnkts_banner-slogan-and-subtext-generator",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-banner-slogan-and-subtext-generator.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "grafikerman0",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-09-23"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-banner-slogan-and-subtext-generator/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-master-storyteller-and-sales-copywriter-prompt",
+     "title": "Master Storyteller and Sales Copywriter Prompt",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "This prompt guides the user to create compelling sales narratives that transform prospects into loyal customers by embedding the product into their identity.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmm3yusid0001ie048o71sjvk_master-storyteller-and-sales-copywriter-prompt",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-master-storyteller-and-sales-copywriter-prompt.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "amvicioushecs",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-02-26"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-master-storyteller-and-sales-copywriter-prompt/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-sales-and-marketing-strategy",
+     "title": "sales and marketing strategy",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "I am the proprietor of a company with an in-house sheet metal manufacturing facility. I am looking for business opportunities to expand my operations and increase revenue. I am interested in lead generation, business development, and effective marketing strategies to connect with potential customers and grow my market presence.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmv0859sx0001l6049kz9kqye_sales-and-marketing-strategy",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-sales-and-marketing-strategy.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "dhruveshbpatna",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-09"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-sales-and-marketing-strategy/",
+     "source": "prompts.chat"
+    }
+   ]
+  },
+  {
+   "step": "4-do-it",
+   "read": [
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag",
+     "title": "ai_email_gtm_outreach_agent",
+     "type": "case",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer",
+      "email-marketer"
+     ],
+     "summary": "An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Marketing), researches website + Reddit insights, and drafts tailored emails in your s",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag/",
+     "source": "seed"
+    },
+    {
+     "id": "mcp-io-github-pooriaarab-agentic-campaign",
+     "title": "io.github.pooriaarab/agentic-campaign",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "Plan a social campaign calendar across brands and platforms.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pooriaarab/agentic-campaign",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "pooriaarab/agentic-campaign",
+     "author": "io.github.pooriaarab",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y agentic-campaign",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-14",
+      "registry_updated_at": "2026-10-14"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pooriaarab-agentic-campaign/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit",
+     "title": "ai_seo_audit_team",
+     "type": "case",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimization report. The app uses **Firecrawl via MCP (Model Context Protocol)** for a",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
+     "source": "seed"
+    },
+    {
+     "id": "google-adk-recipes-contrib-python-brand-search-optimization",
+     "title": "brand-search-optimization",
+     "type": "workflow",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer Use.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/contrib/python/brand-search-optimization/README.md",
+     "repo": "google/adk-recipes",
+     "author": "google",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 10452,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/google-adk-recipes-contrib-python-brand-search-optimization/",
+     "source": "seed"
+    }
+   ]
+  },
+  {
+   "step": "5-self-check",
+   "read": [
+    {
+     "id": "coreyhaines31-marketingskills-skills-analytics-skill-md",
+     "title": "analytics",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I m",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/analytics/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill analytics",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-analytics-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md",
+     "title": "performance-report",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summ",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill performance-report",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-ab-testing",
+     "title": "ab-testing",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\"…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ab-testing/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill ab-testing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-ab-testing/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-attribution",
+     "title": "attribution",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attribution,\" \"attribution model,\" \"first-touch vs last-touch,\" \"multi-touch,\" \"which channel drives revenue,\" \"what's my real CAC,\" \"my dashboards disagree,\" \"Google/Meta says X but GA says Y,\" \"media mix…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/attribution/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill attribution",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-attribution/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-agents-business-analyst",
+     "title": "business-analyst",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-agents-business-analyst.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/agents/business-analyst.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-agents-business-analyst/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-skills-data-storytelling",
+     "title": "data-storytelling",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill data-storytelling",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-skills-data-storytelling/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design",
+     "title": "kpi-dashboard-design",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill kpi-dashboard-design",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-apple-store-aso-expert-guide",
+     "title": "Apple Store ASO Expert Guide",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "pusuknane",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-06-17"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-apple-store-aso-expert-guide/",
+     "source": "prompts.chat"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+name: Daily update
+# collect -> dedupe/license/classify/linkcheck (scripts/collect.py) -> translate new summaries (offline Argos, optional)
+# -> build -> commit data + academy raw files -> deploy GitHub Pages
+on:
+  schedule:
+    - cron: "17 10 * * *"   # 10:17 UTC every day (06:17 New York in summer, 05:17 in winter)
+  workflow_dispatch:
+    inputs:
+      full_linkcheck:
+        description: "Check every link (normally Mondays only)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["src/**", "scripts/build.mjs", "scripts/lib.mjs", "i18n/**", "content/**", "data/courses.json"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: npm ci
+      - name: Restore source cache
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: src-cache-${{ github.run_id }}
+          restore-keys: src-cache-
+      - name: Collect (headless, no LLM)
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/collect.py ${{ inputs.full_linkcheck && '--full-linkcheck' || '' }}
+      - name: Cache Argos models
+        if: github.event_name != 'push'
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/argos-translate
+          key: argos-v1
+      - name: Translate new summaries (offline Argos + OpenCC)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          pip install -q argostranslate==1.11.0 opencc-python-reimplemented==0.1.7
+          python3 scripts/install_argos.py
+          python3 scripts/translate.py
+      - name: Build
+        run: node scripts/build.mjs
+      - name: Commit data and raw course files
+        run: |
+          git config user.name "SiinXu"
+          git config user.email "sinxu.xsy@gmail.com"
+          git add data academy
+          git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
+          git push || (git pull --rebase && git push)
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deploy
+        uses: actions/deploy-pages@v4

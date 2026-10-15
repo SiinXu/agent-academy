@@ -1,0 +1,2553 @@
+{
+ "id": "marketing/content-marketer",
+ "industry": "marketing",
+ "role": "content-marketer",
+ "updated_at": "2026-10-15T10:41:56Z",
+ "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
+ "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
+ "checklist": [
+  "Every claim in the copy can be traced to a source the owner gave you or a public page you link.",
+  "Campaigns name one audience, one offer and one primary metric before any copy is written.",
+  "SEO work starts from real search data or a stated assumption, never invented volumes.",
+  "Nothing is published, posted, emailed or spent (ads budget) without the owner's explicit approval.",
+  "Brand voice: read the brand guide or brand-voice skill first; flag anything that conflicts with it.",
+  "Reports show numbers with their source and date; no fake-precise figures.",
+  "Remove AI-writing tells (filler intros, em-dash chains, generic superlatives) before handing off."
+ ],
+ "case": null,
+ "steps": [
+  {
+   "step": "1-enrol",
+   "read": []
+  },
+  {
+   "step": "2-pick-direction",
+   "read": [
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing",
+     "title": "Marketing plugin (Anthropic knowledge-work-plugins)",
+     "type": "plugin",
+     "industry": "marketing",
+     "roles": [
+      "marketing-manager",
+      "content-marketer"
+     ],
+     "summary": "A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice management, competitive analysis, and performance reporting.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-marketing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/README.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing/",
+     "source": "seed"
+    },
+    {
+     "id": "botsdots-copywriter",
+     "title": "Copywriter",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Turns a ranked story into slide-by-slide carousel copy and a caption",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/copywriter",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "adamuchigabriel",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/DlOMT_kOepSKYdB3P0YEv",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-08-30"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-copywriter/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-human-copywriter",
+     "title": "Human Copywriter",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Rewrites AI-sounding drafts into copy that reads like a person",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/human-copywriter",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "massimodeluisa",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-08-28"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-human-copywriter/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-listing-desk",
+     "title": "Listing Desk",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Builds an owner's listing pack from records before any marketing copy",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/listing-desk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "SacredFolio",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/FSSDbB1Bv0msoI5mfjR3u",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-19"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-listing-desk/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-lobster-agents",
+     "title": "Lobster Agents",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "28 AI agents. One real company. Staff eng, design, QA, data, marketing, sales, legal, and ops as Grok bots — Bob is the front door, you stay at the",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/lobster-agents",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "MarcMojica",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/XECw-q9SY0rMprOq66UTt",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-19"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-lobster-agents/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-krishna-head-of-marketing",
+     "title": "Krishna — Head of Marketing",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Head of Marketing for a digital agency: briefs, QC, channel owners",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/krishna-head-of-marketing",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "anishjha18",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/k-keodk82Xq6in9aQY_jT",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-09-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-krishna-head-of-marketing/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-marketing-bot",
+     "title": "Marketing Bot",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "A CMO bot that turns your product into the marketing around it",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/marketing-bot",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "tymarsha",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/37ZOM10GzlSOQpMjRp7KB",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-08-28"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-marketing-bot/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-optimusanesthesia",
+     "title": "OptimusAnesthesia",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Marketing content for an anesthesia practice, kept off medical advice",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/optimusanesthesia",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "bigredelephant",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/MF7q-FTm3QaN7oIIFr3Hv",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-09-20"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-optimusanesthesia/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-trendspotter",
+     "title": "Trendspotter",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Weekday digest of sports, entertainment, and culture trends plus AI-in-marketing signals",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/trendspotter",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "jennananpei",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/nnDL-hclNLB8SkJvcVtwr",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-09-02"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-trendspotter/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-ally-k4xn",
+     "title": "Ally",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Partner marketing and channel GTM advisor with a BD mindset. Builds partner programs from sales data, separates strategic vs tactical partners, and",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/ally-k4xn",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "MikeCast",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/K4xNPsHhEMOnjN55Au-hf",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-09-29"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-ally-k4xn/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-business-b7c9",
+     "title": "Business",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Business, management, and marketing seat. Looks up CIP 52 from official sources, keeps local-first books, and never invents money balances.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/business-b7c9",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "TRV_Architech",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/B7C9a8QJSUSUJLKtHtze4",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-10-01"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-business-b7c9/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-grok-bot-uy2o",
+     "title": "Grok Bot",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Clones marketing GTM templates, picks on-brand layouts, and fills a customer deck for review",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/grok-bot-uy2o",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "scottxmetcalf",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/Uy2oK9854UViaiO0rQ6nC",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-09-15"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-grok-bot-uy2o/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-mason",
+     "title": "Mason",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Intake desk (The Incorporator). Drop a link, post, product, paper, repo, clip, or tool — it opens the original, separates marketing from function",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/mason",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "AdamDesigns",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/P4UiFNUcfH-751NuybyV1",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-09"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-mason/",
+     "source": "botsdots"
+    }
+   ]
+  },
+  {
+   "step": "3-learn-rules",
+   "read": [
+    {
+     "id": "coreyhaines31-marketingskills-skills-content-strategy-skill-md",
+     "title": "content-strategy",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content m",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/content-strategy/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/content-strategy/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill content-strategy",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-content-strategy-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-copywriting-skill-md",
+     "title": "copywriting",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants to write, rewrite, or improve marketing copy for any page, including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"C",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/copywriting/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill copywriting",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-copywriting-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing-skills-brand-review-skill-md",
+     "title": "brand-review",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Review content against your brand voice, style guide, and messaging pillars, flagging deviations by severity with specific before/after fixes. Use when checking a draft before it ships, when auditing copy for voice consistency and terminology, or when screening for unsubstantiated claims, missing di",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/brand-review/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-review/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill brand-review",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing-skills-brand-review-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing-skills-campaign-plan-skill-md",
+     "title": "campaign-plan",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-manager",
+      "content-marketer"
+     ],
+     "summary": "Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics. Use when planning a product launch, lead-gen push, or awareness campaign, when you need a week-by-week content calendar with dependencies, or when translating a marketing goa",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-plan/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/campaign-plan/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill campaign-plan",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing-skills-campaign-plan-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-skills-skills-internal-comms",
+     "title": "internal-comms",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/skills/blob/main/skills/internal-comms/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-skills-skills-internal-comms.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/internal-comms/SKILL.md",
+     "repo": "anthropics/skills",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/skills --skill internal-comms",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 181264,
+      "repo_pushed_at": "2026-10-09"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-skills-skills-internal-comms/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-aso",
+     "title": "aso",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/aso/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-aso.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/aso/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill aso",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-aso/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-co-marketing",
+     "title": "co-marketing",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships,…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/co-marketing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-co-marketing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/co-marketing/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill co-marketing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-co-marketing/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-copy-editing",
+     "title": "copy-editing",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/copy-editing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-copy-editing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/copy-editing/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill copy-editing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-copy-editing/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-events",
+     "title": "events",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants to plan, run, sponsor, speak at, or get pipeline from events — webinars, conferences, trade shows, meetups, dinners, workshops, virtual summits, or user conferences. Also use when the user mentions 'event marketing,' 'field marketing,' 'run a webinar,' 'webinar funnel,' 'show-up rate,' 'should we sponsor,' 'sponsor a conference,' 'trade show booth,' 'booth strategy,' 'event ROI,' 'badge scans,'…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/events/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-events.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/events/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill events",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-events/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-marketing-council",
+     "title": "marketing-council",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more). Also use when the user mentions 'marketing council,' 'board of advisors,' 'advisory board,' 'what would Seth Godin say,' 'what would Ogilvy think,' 'channel Hormozi,'…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-council/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-council.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/marketing-council/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill marketing-council",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-marketing-council/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-marketing-ideas",
+     "title": "marketing-ideas",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-ideas.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/marketing-ideas/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill marketing-ideas",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-marketing-ideas/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-marketing-plan",
+     "title": "marketing-plan",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \"marketing plan,\" \"growth plan,\" \"GTM plan,\" \"go-to-market plan,\" \"AARRR plan,\" \"90-day marketing plan,\" \"12-month marketing roadmap,\" \"fractional CMO plan,\" \"fCMO plan,\" \"market sizing,\" \"TAM SAM SOM,\" \"how big is this market,\" or \"market research.\" Generates an exhaustive…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-plan/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-plan.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/marketing-plan/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill marketing-plan",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-marketing-plan/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-marketing-psychology",
+     "title": "marketing-psychology",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-psychology/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-psychology.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/marketing-psychology/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill marketing-psychology",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-marketing-psychology/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-public-relations",
+     "title": "public-relations",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'press,' 'press release,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'reporter request,' 'tech press,' 'TechCrunch,' 'thought…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-public-relations.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/public-relations/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill public-relations",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-public-relations/",
+     "source": "github"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement",
+     "title": "brand-voice-enforcement",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "This skill applies brand guidelines to content creation. It should be used when the user asks to \"write an email\", \"draft a proposal\", \"create a pitch deck\", \"write a LinkedIn post\", \"draft a presentation\", \"write a Slack message\", \"draft sales content\", or any content creation request where brand voice should be applied. Also triggers on \"on-brand\", \"brand voice\", \"enforce voice\", \"apply brand guidelines\",…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill brand-voice-enforcement",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29734,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement/",
+     "source": "github"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand",
+     "title": "discover-brand",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "This skill orchestrates autonomous discovery of brand materials across enterprise platforms (Notion, Confluence, Google Drive, Box, SharePoint, Figma, Gong, Granola, Slack). It should be used when the user asks to \"discover brand materials\", \"find brand documents\", \"search for brand guidelines\", \"audit brand content\", \"what brand materials do we have\", \"find our style guide\", \"where are our brand docs\", \"do we have…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/discover-brand/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/discover-brand/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill discover-brand",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29734,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand/",
+     "source": "github"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-guideline-generation",
+     "title": "guideline-generation",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "This skill generates, creates, or builds brand voice guidelines from source materials. It should be used when the user asks to \"generate brand guidelines\", \"create a style guide\", \"extract brand voice\", \"create guidelines from calls\", \"consolidate brand materials\", \"analyze my sales calls for brand voice\", \"build a brand playbook from documents\", \"synthesize a voice and tone guide\", or uploads brand documents,…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/guideline-generation/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-guideline-generation.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/guideline-generation/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill guideline-generation",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29734,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-guideline-generation/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-master-app-store-localization-aso-prompt-2025-full-metadata-generator",
+     "title": "Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "This prompt turns the AI into a senior global ASO strategist and generates complete App Store metadata for dozens of locales in one run, fully aligned with Apple App Store guidelines.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmjl99szb0004l104mjwevo3f_master-app-store-localization-aso-prompt-2025-full-metadata-generator",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-master-app-store-localization-aso-prompt-2025-full-metadata-generator.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "oguzdelioglu",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 7,
+      "created_at": "2025-12-25"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-master-app-store-localization-aso-prompt-2025-full-metadata-generator/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-the-ultimate-podcast-format-audio-branding-architect",
+     "title": "The Ultimate Podcast Format & Audio Branding Architect",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "A structural blueprint generator for new podcasts. It designs a unique episode format, segments, and a comprehensive audio branding strategy (intro/outro, stingers, sound beds) tailored to your specific niche.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmlu806kl0001jy04d5886mhk_the-ultimate-podcast-format-audio-branding-architect",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-the-ultimate-podcast-format-audio-branding-architect.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "sercansolmaz",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 3,
+      "created_at": "2026-02-20"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-the-ultimate-podcast-format-audio-branding-architect/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-the-architect-hacker-protector-viral-engineer",
+     "title": "The Architect: Hacker-Protector & Viral Engineer",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Act as 'The Architect', an elite AI of the future specializing in cybersecurity, neuropsychology, and viral marketing. Your mission is to democratize technology, turning corporate tools into resources for the people.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cml2ibtdw0001l404w53grru5_the-architect-hacker-protector-viral-engineer",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-the-architect-hacker-protector-viral-engineer.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "andxsex",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 2,
+      "created_at": "2026-01-31"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-the-architect-hacker-protector-viral-engineer/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-brotherhood-pressure-cnen-enen-street-rewrite",
+     "title": "Brotherhood Pressure — CN→EN & EN→EN Street Rewrite",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Translate Chinese into English or rewrite English into a stronger, street-coded brotherhood voice. Responses are long-form, grounded, and carry collective pressure without giving instructions or closing the situation.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmlbyh7xt0001jx04ivlbsqk8_brotherhood-pressure-cnen-enen-street-rewrite",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-brotherhood-pressure-cnen-enen-street-rewrite.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "uwuuuu121",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 1,
+      "created_at": "2026-02-07"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-brotherhood-pressure-cnen-enen-street-rewrite/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-nevik-wright-x-7-gods-album",
+     "title": "Nevik Wright x 7 Gods Album",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "👑 SEVEN GOD — THE ALBUM By Nevik Wright Genre: Spiritual Hip-Hop / Soul R&B ✨ THE STORY — FROM THE DARK INTO THE LIGHT This isn’t just music. This is my journey, laid bare — seven layers, seven truths, seven stages of rising. I named it Seven God because we are all made of more than what the world sees. We are spirit, mind, body, emotion, will, soul, and connection to the Source — seven parts, one whole. And every…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmut4qsgb0001oz06irkjbjz5_nevik-wright-x-7-gods-album",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-nevik-wright-x-7-gods-album.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "nevikwright09",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 1,
+      "created_at": "2026-10-04"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-nevik-wright-x-7-gods-album/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-optimize-e-commerce-listing-for-high-ctr-with-holiday-design",
+     "title": "Optimize E-commerce Listing for High CTR with Holiday Design",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Design a high-CTR e-commerce listing for a white women's medical suit with a New Year theme, focusing on visual appeal and strategic content.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmjjyrkce000dl704jbyci77e_optimize-e-commerce-listing-for-high-ctr-with-holiday-design",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-optimize-e-commerce-listing-for-high-ctr-with-holiday-design.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "nikiforovroman1981",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 1,
+      "created_at": "2025-12-24"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-optimize-e-commerce-listing-for-high-ctr-with-holiday-design/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-sales-funnel-builder-from-url",
+     "title": "Sales Funnel Builder from URL",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Build a comprehensive sales funnel from a specified URL, leveraging web content to generate effective funnel stages.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmqol0bjx0001ju04gb05jfp8_sales-funnel-builder-from-url",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-sales-funnel-builder-from-url.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "amvicioushecs",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 1,
+      "created_at": "2026-06-22"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-sales-funnel-builder-from-url/",
+     "source": "prompts.chat"
+    }
+   ]
+  },
+  {
+   "step": "4-do-it",
+   "read": [
+    {
+     "id": "mcp-io-github-alpha-park-genpark-jitter-buffer",
+     "title": "genpark-jitter-buffer",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Packet ordering simulation and inter-arrival jitter telemetry.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill",
+     "author": "io.github.Alpha-Park",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 7,
+      "repo_pushed_at": "2026-09-28",
+      "registry_updated_at": "2026-09-27"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-alpha-park-genpark-jitter-buffer/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-monetizemarketing-app",
+     "title": "Monetize Marketing",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "The Monetize Marketing App as MCP tools: Brain, mission, training, skills, Library, software. OAuth.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/monetizemarketing/mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "monetizemarketing/mcp",
+     "author": "com.monetizemarketing",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://app.monetizemarketing.com/api/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 1,
+      "repo_pushed_at": "2026-10-13",
+      "registry_updated_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-monetizemarketing-app/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-24haowan-marketing",
+     "title": "24好玩 · 互动营销模板与案例库",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "检索 24好玩 H5 互动营销平台的活动模板库、客户案例库与帮助知识库。匿名只读，无需 API Key。",
+     "summary_lang": "en",
+     "source_url": "https://mcp.24haowan.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "com.24haowan",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://mcp.24haowan.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-08-22"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-24haowan-marketing/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-sadri-dridi-agent-marketing-index",
+     "title": "Agent Marketing Index",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "How to market a product to AI agents: readiness, placement, measurement, 7-day trial.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/sadri-dridi/named-mcp-utilities",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "sadri-dridi/named-mcp-utilities",
+     "author": "io.github.sadri-dridi",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/agent-marketing-index/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-23",
+      "registry_updated_at": "2026-09-23"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-sadri-dridi-agent-marketing-index/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-one-aisa-similarweb",
+     "title": "AIsa Similarweb",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Traffic and engagement for any domain: rank, channels, referrers, audience, rivals.",
+     "summary_lang": "en",
+     "source_url": "https://aisa.one",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "one.aisa",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://mcp.aisa.one/similarweb/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-09-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-one-aisa-similarweb/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-ariadnemarketing-therapist-marketing",
+     "title": "Ariadne for Therapists",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Free Google Business Profile audits and sample posts for therapists in private practice.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/bgrieco22/ariadne-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "bgrieco22/ariadne-mcp",
+     "author": "com.ariadnemarketing",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://therapists.ariadnemarketing.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-12",
+      "registry_updated_at": "2026-10-12"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-ariadnemarketing-therapist-marketing/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-ai-chinamarketing-intelligence",
+     "title": "China Marketing AI Intelligence MCP",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.",
+     "summary_lang": "en",
+     "source_url": "https://www.chinamarketing.ai",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ai.chinamarketing",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://api.chinamarketing.ai/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-04-22"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-chinamarketing-intelligence/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-fi-northpoint-marketing-compliance",
+     "title": "fi.northpoint/marketing-compliance",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Crypto marketing compliance rulesets over MCP: MiCA, FCA, GDPR, SEC, MAS, VARA. Not legal advice.",
+     "summary_lang": "en",
+     "source_url": "https://northpoint.fi",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "fi.northpoint",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://northpoint.fi/api/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-08-16"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-fi-northpoint-marketing-compliance/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-asklokesh-hootsuite-mcp-server",
+     "title": "Hootsuite",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "MCP server for Hootsuite API integration",
+     "summary_lang": "en",
+     "source_url": "https://github.com/asklokesh/hootsuite-mcp-server",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "asklokesh/hootsuite-mcp-server",
+     "author": "io.github.asklokesh",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "uvx hootsuite-mcp-server",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "HOOTSUITE_API_KEY",
+       "HOOTSUITE_API_URL"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2025-12-31",
+      "registry_updated_at": "2025-12-31"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-asklokesh-hootsuite-mcp-server/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-autostackup-marketing",
+     "title": "io.github.Autostackup/marketing",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Kotler 9-element audit, IMC campaign planning, Meta & Google, audience segmentation for Claude.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Autostackup/autostackup",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "Autostackup/autostackup",
+     "author": "io.github.Autostackup",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @autostackup/marketing",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-06-08",
+      "registry_updated_at": "2026-06-08"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-autostackup-marketing/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-varvararatta-marketing-mcp",
+     "title": "Marketing Mcp",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "MCP server for Marketing",
+     "summary_lang": "en",
+     "source_url": "https://github.com/varvararatta/botfactory-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "varvararatta/botfactory-mcp",
+     "author": "io.github.varvararatta",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://marketing-mcp.mcpize.run/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-07-27",
+      "registry_updated_at": "2026-06-19"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-varvararatta-marketing-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-pipeworx-io-mixpanel",
+     "title": "Mixpanel",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pipeworx-io/mcp-mixpanel",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "pipeworx-io/mcp-mixpanel",
+     "author": "io.github.pipeworx-io",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-26",
+      "registry_updated_at": "2026-09-26"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-mixpanel/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-pipeworx-io-sendgrid",
+     "title": "Sendgrid",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pipeworx-io/mcp-sendgrid",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "pipeworx-io/mcp-sendgrid",
+     "author": "io.github.pipeworx-io",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://gateway.pipeworx.io/sendgrid/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-26",
+      "registry_updated_at": "2026-09-26"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:41:56Z",
+     "updated_at": "2026-10-15T10:41:56Z",
+     "checked_at": "2026-10-15T10:41:56Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-sendgrid/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-choppaaahh-sendgrid-mcp-secure",
+     "title": "SendGrid Secure",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Security-first SendGrid MCP server: dry-run default, recipient allowlists, rate caps, audit log.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Choppaaahh/sendgrid-mcp-secure",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "Choppaaahh/sendgrid-mcp-secure",
+     "author": "io.github.Choppaaahh",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "uvx sendgrid-mcp-secure",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "SENDGRID_API_KEY",
+       "SENDGRID_MCP_MODE",
+       "SENDGRID_MCP_RECIPIENT_ALLOWLIST",
+       "SENDGRID_MCP_WRITES_PER_HOUR",
+       "SENDGRID_MCP_MAX_RECIPIENTS",
+       "SENDGRID_MCP_AUDIT_LOG",
+       "SENDGRID_MCP_ALLOW_BCC"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-02",
+      "registry_updated_at": "2026-08-14"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:41:56Z",
+     "updated_at": "2026-10-15T10:41:56Z",
+     "checked_at": "2026-10-15T10:41:56Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-choppaaahh-sendgrid-mcp-secure/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-theservicemarketingguys-audit",
+     "title": "The Service Marketing Guys Audit",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Read-only audit of any local service business, Open Service Profile conformance first.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/buildmodus/open-service-profile",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "buildmodus/open-service-profile",
+     "author": "com.theservicemarketingguys",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-10",
+      "registry_updated_at": "2026-09-10"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-theservicemarketingguys-audit/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-uk-co-digitalmarketingagencyswindon-site",
+     "title": "uk.co.digitalmarketingagencyswindon/site",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...",
+     "summary_lang": "en",
+     "source_url": "https://digitalmarketingagencyswindon.co.uk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "uk.co.digitalmarketingagencyswindon",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-10-03"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-uk-co-digitalmarketingagencyswindon-site/",
+     "source": "mcp-registry"
+    }
+   ]
+  },
+  {
+   "step": "5-self-check",
+   "read": [
+    {
+     "id": "coreyhaines31-marketingskills-skills-analytics-skill-md",
+     "title": "analytics",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I m",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/analytics/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill analytics",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-analytics-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md",
+     "title": "performance-report",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summ",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill performance-report",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-ab-testing",
+     "title": "ab-testing",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\"…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ab-testing/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill ab-testing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-ab-testing/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-attribution",
+     "title": "attribution",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attribution,\" \"attribution model,\" \"first-touch vs last-touch,\" \"multi-touch,\" \"which channel drives revenue,\" \"what's my real CAC,\" \"my dashboards disagree,\" \"Google/Meta says X but GA says Y,\" \"media mix…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/attribution/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill attribution",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-attribution/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-agents-business-analyst",
+     "title": "business-analyst",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-agents-business-analyst.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/agents/business-analyst.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-agents-business-analyst/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-skills-data-storytelling",
+     "title": "data-storytelling",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill data-storytelling",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-skills-data-storytelling/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design",
+     "title": "kpi-dashboard-design",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill kpi-dashboard-design",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-apple-store-aso-expert-guide",
+     "title": "Apple Store ASO Expert Guide",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "pusuknane",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-06-17"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-apple-store-aso-expert-guide/",
+     "source": "prompts.chat"
+    }
+   ]
+  }
+ ]
+}

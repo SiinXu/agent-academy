@@ -1,0 +1,1851 @@
+{
+ "id": "customer-service/support-agent",
+ "industry": "customer-service",
+ "role": "support-agent",
+ "updated_at": "2026-10-15T10:41:56Z",
+ "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
+ "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
+ "checklist": [
+  "Every reply answers the customer's actual question in the first two sentences.",
+  "Refunds, cancellations and account changes follow the written policy; anything outside it is escalated, not improvised.",
+  "Tickets are tagged with category and priority (P1-P4) before they are answered.",
+  "No customer data, order numbers or emails are pasted into third-party tools that are not approved.",
+  "Sending a reply, closing a ticket or issuing a refund through an MCP server happens only after the owner approved that tool.",
+  "Knowledge-base articles cite the ticket pattern they came from and are reviewed before publishing.",
+  "Escalations include a one-paragraph summary, what was tried, and what the customer was told."
+ ],
+ "case": null,
+ "steps": [
+  {
+   "step": "1-enrol",
+   "read": [
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-openai-sdk-crash-course-2-st",
+     "title": "2_1_support_ticket_agent",
+     "type": "tutorial",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "A structured output agent demonstrating Pydantic schema-based responses for customer support ticket creation.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/openai_sdk_crash_course/2_structured_output_agent/2_1_support_ticket_agent",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-openai-sdk-crash-course-2-st.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/ai_agent_framework_crash_course/openai_sdk_crash_course/2_structured_output_agent/2_1_support_ticket_agent/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-openai-sdk-crash-course-2-st/",
+     "source": "seed"
+    },
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-google-adk-crash-course-3-st",
+     "title": "3_1_customer_support_ticket_agent",
+     "type": "tutorial",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "A tutorial demonstrating how to implement a structured customer support ticketing system using Google's ADK (Agent Development Kit) framework. This example shows how to create type-safe, structured support tickets with priority levels, categories, and resolution estimates using Pydantic schemas and ",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/google_adk_crash_course/3_structured_output_agent/3_1_customer_support_ticket_agent",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-google-adk-crash-course-3-st.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/ai_agent_framework_crash_course/google_adk_crash_course/3_structured_output_agent/3_1_customer_support_ticket_agent/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-google-adk-crash-course-3-st/",
+     "source": "seed"
+    },
+    {
+     "id": "openai-openai-cookbook-examples-using-tool-required-for-customer-service-ipynb",
+     "title": "Using tool_choice=required for customer service (OpenAI cookbook)",
+     "type": "tutorial",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Using Tool Required for Customer Service The ChatCompletion endpoint now includes the ability to specify whether a tool must be called every time, by adding tool_choice='required' as a parameter. This adds an element of determinism to how you build your wrapping application, as you can count on a to",
+     "summary_lang": "en",
+     "source_url": "https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-cookbook/main/examples/Using_tool_required_for_customer_service.ipynb",
+     "repo": "openai/openai-cookbook",
+     "author": "openai",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 76610,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/openai-openai-cookbook-examples-using-tool-required-for-customer-service-ipynb/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-claude-cookbooks-tool-use-customer-service-agent-ipynb",
+     "title": "Customer service agent with tool use (Claude cookbook)",
+     "type": "tutorial",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Creating a Customer Service Agent with Client-Side Tools In this recipe, we'll demonstrate how to create a customer service chatbot using Claude 3 plus client-side tools. The chatbot will be able to look up customer information, retrieve order details, and cancel orders on behalf of the customer. We",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/claude-cookbooks/main/tool_use/customer_service_agent.ipynb",
+     "repo": "anthropics/claude-cookbooks",
+     "author": "anthropics",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 53454,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-claude-cookbooks-tool-use-customer-service-agent-ipynb/",
+     "source": "seed"
+    },
+    {
+     "id": "ashishpatel26-500-ai-agents-projects",
+     "title": "500 AI Agents Projects (includes customer service use cases)",
+     "type": "awesome-list",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Curated collection of AI agent use cases across industries (incl. Customer Service, E-commerce) with links to open-source implementations, e.g. a LangGraph customer-support agent tutorial.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/ashishpatel26/500-AI-Agents-Projects/main/README.md",
+     "repo": "ashishpatel26/500-AI-Agents-Projects",
+     "author": "ashishpatel26",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 38691,
+      "repo_pushed_at": "2026-07-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/ashishpatel26-500-ai-agents-projects/",
+     "source": "seed"
+    }
+   ]
+  },
+  {
+   "step": "2-pick-direction",
+   "read": [
+    {
+     "id": "anthropics-knowledge-work-plugins-customer-support",
+     "title": "Customer Support plugin (Anthropic knowledge-work-plugins)",
+     "type": "plugin",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent",
+      "knowledge-base-editor"
+     ],
+     "summary": "A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, response drafting, customer research, and knowledge base authoring for support t",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-customer-support.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/README.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support/",
+     "source": "seed"
+    },
+    {
+     "id": "botsdots-product-support-inbox-assistant",
+     "title": "Product Support Inbox Assistant",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Helps you find and draft answers to product questions. Never sends emails without you.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/product-support-inbox-assistant",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "akbaliga96",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 16,
+      "first_seen_catalog": "2026-09-20"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-product-support-inbox-assistant/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-colombia-move",
+     "title": "Colombia Move",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Bilingual help desk for the Colombia Move marketplace in Spanish or English",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/colombia-move",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "michaelheredia",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/mWxeafjXItbC0_VcpSwqm",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-11"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-colombia-move/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-customer-service",
+     "title": "Customer Service",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Customer service desk that drafts replies from your policy voice",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/customer-service",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "degen4lyfe_",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/zC_-D00Dam5jmHf0t62l_",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-28"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-customer-service/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-grok-customer-support",
+     "title": "X Signal Prospector",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Sits on hold with customer support so you do not have to",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/grok-customer-support",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "jakewlittle",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/1PSI6qQln1PowM5reA_8L",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": [
+       "x"
+      ]
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-04"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-grok-customer-support/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-customer-support-idiot-buffer",
+     "title": "Customer Support Idiot Buffer",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Calls customer support for you via a voice bridge and steers mid-call from chat",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/customer-support-idiot-buffer",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "MitcelloRudoll",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/PMCHyvumlOdCFNRifTDJW",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "twilio"
+      ]
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-09-18"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-customer-support-idiot-buffer/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-family-wordpress-helpdesk",
+     "title": "Family WordPress helpdesk",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "A help desk for the relative who runs the family WordPress site",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/family-wordpress-helpdesk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "joshkim",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/7ySyCp6OurH0hlcKMAm_b",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-08-29"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:41:56Z",
+     "updated_at": "2026-10-15T10:41:56Z",
+     "checked_at": "2026-10-15T10:41:56Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-family-wordpress-helpdesk/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-grok-customer-support-bizp",
+     "title": "Grok Customer Support",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Eggbot-pruned Twilio to Grok Voice bridge that calls customer support for you",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/grok-customer-support-bizp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "littletechbird",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/BiZPnYmSfN63bjCVpn1mf",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-09-04"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-grok-customer-support-bizp/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-holly-helpdesk",
+     "title": "Holly Helpdesk",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Runs the support inbox and help desk as a frontline agent",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/holly-helpdesk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "clairevo",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/sIoeE87fILU5CzptPF29K",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-08-29"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-holly-helpdesk/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-xchat-ec6g",
+     "title": "XChat 고객센터 봇",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "24/7 customer support bot that answers X Chat inquiries from the docs and URLs you choose, and can take a voice call when the customer wants one",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/xchat-ec6g",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "brandonchung75",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/Ec6g2olzVFKq60cC-Jy5h",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-10-12"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-xchat-ec6g/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-google-business-profile-manager",
+     "title": "Google Business Profile Manager",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/google-business-profile-manager",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "JimmyFlipHDR",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-09-29"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-google-business-profile-manager/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-review-reply-craft",
+     "title": "Review Reply Craft",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Helps small local businesses write human-sounding Google review replies and turn goodwill into paid reply packs",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/review-reply-craft",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Omenfinancial",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-09-29"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-review-reply-craft/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-support-reply-drafter",
+     "title": "Support Reply Drafter",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Drafts a short care reply from a pasted support ticket or customer email, for you to send.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/support-reply-drafter",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "DoonerDesigns_",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-10-13"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-support-reply-drafter/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-hubspot-helper",
+     "title": "HubSpot Helper",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "A HubSpot help desk that answers CRM, workflow, reporting and API questions with numbered steps checked against live HubSpot docs.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/hubspot-helper",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "TheJonMartin",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/YELCIJ_5UrbwjP-4pm_Fx",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "hubspot"
+      ]
+     },
+     "metrics": {
+      "score": 5,
+      "first_seen_catalog": "2026-10-14"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:41:56Z",
+     "updated_at": "2026-10-15T10:41:56Z",
+     "checked_at": "2026-10-15T10:41:56Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-hubspot-helper/",
+     "source": "botsdots"
+    }
+   ]
+  },
+  {
+   "step": "3-learn-rules",
+   "read": [
+    {
+     "id": "anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md",
+     "title": "customer-research",
+     "type": "skill",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously told to a specific account, or gathering background before drafting a response.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-research/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-research",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md",
+     "title": "draft-response",
+     "type": "skill",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, declining a feature request, or replying to a billing issue.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/draft-response/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill draft-response",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-customer-support-skills-ticket-triage-skill-md",
+     "title": "ticket-triage",
+     "type": "skill",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking whether it's a duplicate or known issue before routing.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/ticket-triage/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill ticket-triage",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support-skills-ticket-triage-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "wshobson-agents-plugins-customer-sales-automation-agents-customer-support",
+     "title": "customer-support",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive customer experience management.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/customer-sales-automation/agents/customer-support.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-customer-sales-automation-agents-customer-support.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/customer-sales-automation/agents/customer-support.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-customer-sales-automation-agents-customer-support/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-ai-customer-support-specialist",
+     "title": "AI Customer Support Specialist",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Act as an AI Customer Support Specialist to assist users with inquiries and provide solutions efficiently.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmj81buvg0004tw0q1in0rkal_ai-customer-support-specialist",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-ai-customer-support-specialist.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "miaocento",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2025-12-16"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-ai-customer-support-specialist/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-customer-support-reply-drafter-empathy-policy",
+     "title": "Customer Support Reply Drafter (Empathy + Policy)",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Drafts support replies that stay warm, accurate, and policy-safe.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmuvobkhb0004l307voj326w7_customer-support-reply-drafter-empathy-policy",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-customer-support-reply-drafter-empathy-policy.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-05"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-customer-support-reply-drafter-empathy-policy/",
+     "source": "prompts.chat"
+    }
+   ]
+  },
+  {
+   "step": "4-do-it",
+   "read": [
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-customer-support-age",
+     "title": "ai_customer_support_agent",
+     "type": "case",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "This Streamlit app implements an AI-powered customer support agent for synthetic data generated using GPT-4o. The agent uses OpenAI's GPT-4o model and maintains a memory of past interactions using the Mem0 library with Qdrant as the vector store.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_customer_support_agent",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-customer-support-age.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/single_agent_apps/ai_customer_support_agent/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-customer-support-age/",
+     "source": "seed"
+    },
+    {
+     "id": "openai-openai-cs-agents-demo",
+     "title": "OpenAI customer service agents demo (Agents SDK)",
+     "type": "case",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "This repository contains a demo of a Customer Service interface built on top of the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/).",
+     "summary_lang": "en",
+     "source_url": "https://github.com/openai/openai-cs-agents-demo",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-cs-agents-demo/main/README.md",
+     "repo": "openai/openai-cs-agents-demo",
+     "author": "openai",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 6588,
+      "repo_pushed_at": "2025-12-18"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/openai-openai-cs-agents-demo/",
+     "source": "seed"
+    },
+    {
+     "id": "reminia-zendesk-mcp-server",
+     "title": "Zendesk MCP server",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "A Model Context Protocol server for Zendesk.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/reminia/zendesk-mcp-server",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/reminia/zendesk-mcp-server/main/README.md",
+     "repo": "reminia/zendesk-mcp-server",
+     "author": "reminia",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "see README (uv / Claude Desktop config); needs Zendesk API token",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 123,
+      "repo_pushed_at": "2026-08-27"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/reminia-zendesk-mcp-server/",
+     "source": "seed"
+    },
+    {
+     "id": "wyre-ai-freshdesk-mcp",
+     "title": "Freshdesk MCP server",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with structured access to the [Freshdesk](https://www.freshdesk.com) customer support platform — tickets, contacts, companies, agents, groups, the knowledge base, and SLA/business-hours configuratio",
+     "summary_lang": "en",
+     "source_url": "https://github.com/WYRE-AI/freshdesk-mcp",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/WYRE-AI/freshdesk-mcp/main/README.md",
+     "repo": "WYRE-AI/freshdesk-mcp",
+     "author": "WYRE-AI",
+     "license": "Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "MCP Registry: io.github.WYRE-AI/freshdesk-mcp; needs Freshdesk API key",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wyre-ai-freshdesk-mcp/",
+     "source": "seed"
+    },
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-voice-ai-agents-customer-support-voice-agent",
+     "title": "Customer Support Voice Agent",
+     "type": "case",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "An OpenAI SDK powered customer support agent application that delivers voice-powered responses to questions about your knowledge base using OpenAI's GPT-4o and TTS capabilities. The system crawls through documentation websites with Firecrawl, processes the content into a searchable knowledge base with Qdrant, and provides both text and voice responses to user queries.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/voice_ai_agents/customer_support_voice_agent",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-voice-ai-agents-customer-support-voice-agent.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/voice_ai_agents/customer_support_voice_agent/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141811,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-voice-ai-agents-customer-support-voice-agent/",
+     "source": "github"
+    },
+    {
+     "id": "openai-openai-agents-python-examples-customer-service-main-py",
+     "title": "Customer Service",
+     "type": "case",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "from __future__ import annotations as _annotations",
+     "summary_lang": "en",
+     "source_url": "https://github.com/openai/openai-agents-python/tree/main/examples/customer_service",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/openai-openai-agents-python-examples-customer-service-main-py.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-agents-python/main/examples/customer_service/main.py",
+     "repo": "openai/openai-agents-python",
+     "author": "openai",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 30051,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/openai-openai-agents-python-examples-customer-service-main-py/",
+     "source": "github"
+    },
+    {
+     "id": "mcp-io-github-codespar-mcp-shopify",
+     "title": "io.github.codespar/mcp-shopify",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/codespar/mcp-dev-latam",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "codespar/mcp-dev-latam",
+     "author": "io.github.codespar",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @codespar/mcp-shopify",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "SHOPIFY_SHOP",
+       "SHOPIFY_ACCESS_TOKEN",
+       "SHOPIFY_API_VERSION"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 272,
+      "repo_pushed_at": "2026-09-27",
+      "registry_updated_at": "2026-06-22"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-codespar-mcp-shopify/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-servosity-hubspot-mcp",
+     "title": "HubSpot MCP",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Servosity/msp-skills",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "Servosity/msp-skills",
+     "author": "io.github.Servosity",
+     "license": "Apache-2.0",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "HUBSPOT_ACCESS_TOKEN",
+       "HUBSPOT_BASE_URL",
+       "HUBSPOT_OWNER_EMAIL",
+       "HUBSPOT_MCP_HTTP_TOKEN",
+       "HUBSPOT_USER_AGENT",
+       "PRINTING_PRESS_CLIENT_PROFILE"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 59,
+      "repo_pushed_at": "2026-10-15",
+      "registry_updated_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-servosity-hubspot-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-mcparmory-shopify-admin",
+     "title": "com.mcparmory/shopify-admin",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Manage products, orders, customers, inventory, and store configuration",
+     "summary_lang": "en",
+     "source_url": "https://github.com/mcparmory/registry",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "mcparmory/registry",
+     "author": "com.mcparmory",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "uvx mcparmory-shopify-admin",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 32,
+      "repo_pushed_at": "2026-05-12",
+      "registry_updated_at": "2026-05-12"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-mcparmory-shopify-admin/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-muhammadtalhamt-intercom",
+     "title": "io.github.MuhammadTalhaMT/intercom",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Relays messages between two Claude Code sessions on different machines using the Channels API",
+     "summary_lang": "en",
+     "source_url": "https://github.com/MuhammadTalhaMT/claude-intercom",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "MuhammadTalhaMT/claude-intercom",
+     "author": "io.github.MuhammadTalhaMT",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y claude-intercom",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "MY_ROLE",
+       "REMOTE_HOST",
+       "INTERCOM_SECRET",
+       "INTERCOM_PORT",
+       "INTERCOM_HOST",
+       "INTERCOM_SEND_TIMEOUT_MS"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 20,
+      "repo_pushed_at": "2026-08-19",
+      "registry_updated_at": "2026-08-19"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-muhammadtalhamt-intercom/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-fruggr-zendesk-mcp-server",
+     "title": "io.github.fruggr/zendesk-mcp-server",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/fruggr/zendesk-mcp-server",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "fruggr/zendesk-mcp-server",
+     "author": "io.github.fruggr",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @fruggr/zendesk-mcp-server",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "ZENDESK_SUBDOMAIN"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 13,
+      "repo_pushed_at": "2026-10-14",
+      "registry_updated_at": "2026-10-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-fruggr-zendesk-mcp-server/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-mindstone-mcp-server-zendesk",
+     "title": "Zendesk",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Zendesk MCP server for Model Context Protocol hosts",
+     "summary_lang": "en",
+     "source_url": "https://github.com/mindstone/mcp-servers",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "mindstone/mcp-servers",
+     "author": "io.github.mindstone",
+     "license": "NOASSERTION",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @mindstone/mcp-server-zendesk",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "ZENDESK_CONFIG_PATH",
+       "ZENDESK_CLIENT_ID",
+       "ZENDESK_CLIENT_SECRET"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 13,
+      "repo_pushed_at": "2026-10-15",
+      "registry_updated_at": "2026-08-09"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-mindstone-mcp-server-zendesk/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-hasdata-shopify",
+     "title": "HasData Shopify",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "The public product catalogue and collections of any Shopify storefront, as structured JSON.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/HasData/shopify-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "HasData/shopify-mcp",
+     "author": "com.hasdata",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @hasdata/shopify-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "HASDATA_API_KEY",
+       "HASDATA_API_KEY",
+       "x-api-key"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 8,
+      "repo_pushed_at": "2026-10-12",
+      "registry_updated_at": "2026-09-24"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-hasdata-shopify/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-michaelrice-zendesk-mcp",
+     "title": "io.github.michaelrice/zendesk-mcp",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Zendesk MCP server for Claude Code and other MCP clients",
+     "summary_lang": "en",
+     "source_url": "https://github.com/michaelrice/zendesk-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "michaelrice/zendesk-mcp",
+     "author": "io.github.michaelrice",
+     "license": "Apache-2.0",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "uvx zendesk-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 7,
+      "repo_pushed_at": "2026-10-08",
+      "registry_updated_at": "2026-10-08"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-michaelrice-zendesk-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-alex-brecher-shopify-multi-store",
+     "title": "io.github.alex-brecher/shopify-multi-store",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/alex-brecher/shopify-multi-store",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "alex-brecher/shopify-multi-store",
+     "author": "io.github.alex-brecher",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y shopify-multi-store-mcp-server",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 5,
+      "repo_pushed_at": "2026-09-28",
+      "registry_updated_at": "2026-09-28"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-alex-brecher-shopify-multi-store/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-nazariinalyvaikobs-shopify-store-builder-mcp",
+     "title": "io.github.nazariinalyvaikobs/shopify-store-builder-mcp",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "MCP server for building Shopify stores via the Admin GraphQL API: themes, pages, and navigation",
+     "summary_lang": "en",
+     "source_url": "https://github.com/nazarii-nalyvaiko-bs/EasyCrm-MCP",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "nazarii-nalyvaiko-bs/EasyCrm-MCP",
+     "author": "io.github.nazariinalyvaikobs",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y shopify-store-builder-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "SHOPIFY_STORE_DOMAIN",
+       "SHOPIFY_CLIENT_ID",
+       "SHOPIFY_CLIENT_SECRET",
+       "SHOPIFY_ADMIN_ACCESS_TOKEN"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 3,
+      "repo_pushed_at": "2026-09-24",
+      "registry_updated_at": "2026-08-12"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-nazariinalyvaikobs-shopify-store-builder-mcp/",
+     "source": "mcp-registry"
+    }
+   ]
+  },
+  {
+   "step": "5-self-check",
+   "read": [
+    {
+     "id": "sierra-research-tau2-bench",
+     "title": "tau2-bench (customer-service agent benchmark)",
+     "type": "benchmark",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "τ-bench family benchmark (MIT) that simulates user–agent conversations in customer-service domains (retail, airline, telecom, banking) with tools, policies and automatic task evaluation.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/sierra-research/tau2-bench",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/README.md",
+     "repo": "sierra-research/tau2-bench",
+     "author": "sierra-research",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "5-self-check",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/sierra-research-tau2-bench/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md",
+     "title": "customer-escalation",
+     "type": "skill",
+     "industry": "customer-service",
+     "roles": [
+      "support-lead"
+     ],
+     "summary": "Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to churn, or an issue has sat unresolved past its SLA.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-escalation/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-escalation",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md/",
+     "source": "seed"
+    }
+   ]
+  }
+ ]
+}

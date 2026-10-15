@@ -1,0 +1,2414 @@
+{
+ "id": "design/motion-designer",
+ "industry": "design",
+ "role": "motion-designer",
+ "updated_at": "2026-10-15T10:41:56Z",
+ "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
+ "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
+ "checklist": [
+  "One visual direction was picked from UI Hub, with 2-4 named reference previews and the reasons; rejected clusters are written down.",
+  "A token sheet exists (4-6 colours with hex, type roles, radius scale, one card padding) before any CSS.",
+  "Long links, repo paths and commands wrap (overflow-wrap:anywhere) and never overflow a card.",
+  "All cards of a kind share the same padding and align their actions.",
+  "Text and controls pass WCAG 2.2 AA contrast in light and dark; keyboard focus is visible.",
+  "Motion uses transform/opacity only, has one orchestrated moment per page, and honours prefers-reduced-motion.",
+  "Four screenshots were checked: desktop 1440 and mobile 390, each in light and dark.",
+  "Lighthouse (or an equivalent audit) was run and every accessibility issue fixed."
+ ],
+ "case": {
+  "url": "https://siinxu.github.io/agent-academy/cases/agent-academy-build/",
+  "raw": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md"
+ },
+ "steps": [
+  {
+   "step": "1-enrol",
+   "read": [
+    {
+     "id": "uihub-ued-x-voxyz-prompt",
+     "title": "「先出设计方案再写代码」Prompt（@Voxyz_ai）",
+     "type": "tutorial",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md",
+     "summary_lang": "zh-CN",
+     "source_url": "https://x.com/i/status/2087178102505926740",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-voxyz-prompt/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-x-skills-security",
+     "title": "10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）",
+     "type": "tutorial",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md",
+     "summary_lang": "zh-CN",
+     "source_url": "https://x.com/i/status/2077328569219604814",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-skills-security/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-x-designer-workflow",
+     "title": "2026 产品设计师工作流（@dianne_alter）",
+     "type": "tutorial",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查",
+     "summary_lang": "zh-CN",
+     "source_url": "https://x.com/i/status/2088261777758851497",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-designer-workflow/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-8pt-grid",
+     "title": "8pt Grid（spec.fm）",
+     "type": "tutorial",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "8 点栅格间距体系的经典讲解",
+     "summary_lang": "zh-CN",
+     "source_url": "https://spec.fm/specifics/8-pt-grid",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-8pt-grid/",
+     "source": "ui-hub"
+    }
+   ]
+  },
+  {
+   "step": "2-pick-direction",
+   "read": [
+    {
+     "id": "botsdots-figma-bro-pxnv",
+     "title": "figma bro",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Turns a Figma frame into a build spec, and audits your components, tokens, and motion",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/figma-bro-pxnv",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "community",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/pXNvc_U2cGyZmheYrUuF_",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": [
+       "figma"
+      ]
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-10-08"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-figma-bro-pxnv/",
+     "source": "botsdots"
+    },
+    {
+     "id": "uihub-60fps-design",
+     "title": "60fps",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "移动端界面动效（@neropursue）",
+     "summary_lang": "zh-CN",
+     "source_url": "https://60fps.design/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-60fps-design/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ui-aceternity-com",
+     "title": "Aceternity UI",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "",
+     "summary_lang": "en",
+     "source_url": "https://ui.aceternity.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ui-aceternity-com/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-aceternity-components",
+     "title": "Aceternity UI 全部组件",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Full list of free Aceternity components: spotlight, 3D cards, background beams, text effects, floating nav.",
+     "summary_lang": "en",
+     "source_url": "https://ui.aceternity.com/components",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-aceternity-components/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-animata-design",
+     "title": "Animata",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "数百个免费动效组件",
+     "summary_lang": "zh-CN",
+     "source_url": "https://animata.design/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-animata-design/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-animate-ui-com",
+     "title": "Animate UI",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "",
+     "summary_lang": "en",
+     "source_url": "https://animate-ui.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-animate-ui-com/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-animate-style",
+     "title": "Animate.css",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "现成的 CSS 动画类，加个 class 就能动；许可以原仓库为准，本站只放链接",
+     "summary_lang": "zh-CN",
+     "source_url": "https://animate.style/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-animate-style/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-animated-icons",
+     "title": "Animated Icons",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "207 个动画 React 图标",
+     "summary_lang": "zh-CN",
+     "source_url": "https://animated-icons-nu.vercel.app",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-animated-icons/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-animejs",
+     "title": "Anime.js",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "轻量 JavaScript 动画库",
+     "summary_lang": "zh-CN",
+     "source_url": "https://animejs.com",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-animejs/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-auto-animate-formkit-com",
+     "title": "AutoAnimate",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "一行代码给列表加进出场动画",
+     "summary_lang": "zh-CN",
+     "source_url": "https://auto-animate.formkit.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-auto-animate-formkit-com/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-beui-dev",
+     "title": "BeUI",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "漂亮的 React 组件",
+     "summary_lang": "zh-CN",
+     "source_url": "https://beui.dev",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-beui-dev/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-circle-loaders",
+     "title": "Circle Loaders",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "SVG 环形加载动画",
+     "summary_lang": "zh-CN",
+     "source_url": "https://circleloaders.dominikakissi.com",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-circle-loaders/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-tympanus-net-codrops",
+     "title": "Codrops",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "前端特效教程和 Demo 老牌站",
+     "summary_lang": "zh-CN",
+     "source_url": "https://tympanus.net/codrops/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-tympanus-net-codrops/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-www-cult-ui-com",
+     "title": "Cult UI",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "",
+     "summary_lang": "en",
+     "source_url": "https://www.cult-ui.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-cult-ui-com/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-www-eldoraui-site",
+     "title": "Eldora UI",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "动效组件与模板，shadcn 风格",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.eldoraui.site/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-www-eldoraui-site/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-www-embla-carousel-com",
+     "title": "Embla Carousel",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "轻量轮播，手感顺滑",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.embla-carousel.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-www-embla-carousel-com/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-gsap-com",
+     "title": "GSAP",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "专业级 JS 动画平台，免费使用但为自有许可（非 MIT），本站只放链接",
+     "summary_lang": "zh-CN",
+     "source_url": "https://gsap.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-gsap-com/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-www-hover-dev",
+     "title": "Hover.dev",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "偏交互感的现成组件和模板",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.hover.dev/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-hover-dev/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-hover-components",
+     "title": "Hover.dev 组件",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Hover.dev animated components: buttons, navs, cards, heroes; some free.",
+     "summary_lang": "en",
+     "source_url": "https://www.hover.dev/components",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-hover-components/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-lib-inspira-ui",
+     "title": "Inspira UI",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Vue/Nuxt animated components in the spirit of Aceternity and Magic UI. Free and open source.",
+     "summary_lang": "en",
+     "source_url": "https://inspira-ui.com",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-inspira-ui/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-gh-ddoemonn-interior",
+     "title": "interior",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "New GitHub UI repo: micro-interactions for react, built for the half-second after a click (★958, MIT, ddoemonn/interior)",
+     "summary_lang": "en",
+     "source_url": "https://interior.dev",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-gh-ddoemonn-interior/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-kinetics",
+     "title": "Kinetics",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "150+ 动效，附 React 代码和可喂 AI 的提示词",
+     "summary_lang": "zh-CN",
+     "source_url": "https://kinetics.colorion.co",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-kinetics/",
+     "source": "ui-hub"
+    }
+   ]
+  },
+  {
+   "step": "3-learn-rules",
+   "read": [
+    {
+     "id": "emilkowalski-skills-skills-emil-design-eng-skill-md",
+     "title": "emil-design-eng",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "interaction-designer",
+      "motion-designer"
+     ],
+     "summary": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/emil-design-eng/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/emil-design-eng/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46357,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "4-build",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-emil-design-eng-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-skills-skills-slack-gif-creator",
+     "title": "slack-gif-creator",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/skills/blob/main/skills/slack-gif-creator/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-skills-skills-slack-gif-creator.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/slack-gif-creator/SKILL.md",
+     "repo": "anthropics/skills",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/skills --skill slack-gif-creator",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 181264,
+      "repo_pushed_at": "2026-10-09"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-skills-skills-slack-gif-creator/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-animate",
+     "title": "animate",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations;…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/animate/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-animate.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/animate/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill animate",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-animate/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-animation-performance",
+     "title": "animation-performance",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the layout/paint/composite pipeline, cheaper property swaps, CSS vs WAAPI vs requestAnimationFrame, Framer Motion's hardware-accelerated path, React re-rendering per frame, inherited CSS variable recalculation, blur cost,…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/animation-performance/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-animation-performance.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/animation-performance/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill animation-performance",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-animation-performance/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-animation-vocabulary",
+     "title": "animation-vocabulary",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/animation-vocabulary/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-animation-vocabulary.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/animation-vocabulary/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill animation-vocabulary",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-animation-vocabulary/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-apple-design",
+     "title": "apple-design",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/apple-design/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-apple-design.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/apple-design/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill apple-design",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-apple-design/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-find-animation-opportunities",
+     "title": "find-animation-opportunities",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/find-animation-opportunities/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-find-animation-opportunities.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/find-animation-opportunities/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill find-animation-opportunities",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-find-animation-opportunities/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-improve-animations",
+     "title": "improve-animations",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/improve-animations/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-improve-animations.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/improve-animations/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill improve-animations",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-improve-animations/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-review-animations",
+     "title": "review-animations",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/review-animations/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-review-animations.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/review-animations/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill review-animations",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-review-animations/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-ui-design-skills-interaction-design",
+     "title": "interaction-design",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/skills/interaction-design/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-ui-design-skills-interaction-design.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/ui-design/skills/interaction-design/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill interaction-design",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-ui-design-skills-interaction-design/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-ui-design-skills-react-native-design",
+     "title": "react-native-design",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Master React Native styling, navigation, and Reanimated animations for cross-platform mobile development. Use when building React Native apps, implementing navigation patterns, or creating performant animations.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/skills/react-native-design/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-ui-design-skills-react-native-design.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/ui-design/skills/react-native-design/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill react-native-design",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-ui-design-skills-react-native-design/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-apple-level-ui-system-designer-2026-standard",
+     "title": "Apple-Level UI System Designer (2026 Standard)",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Transforms any idea into a clean, premium, Apple-inspired UI system with real design discipline and production-ready structure. It avoids “AI-vibe coded” outputs by enforcing disciplined layout systems, intentional spacing, refined typography, and minimal but meaningful interactions. The output focuses on system-level thinking rather than surface visuals, producing structured UI architectures that are both visually…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmmxtz3690005l704lv6dp3h5_apple-level-ui-system-designer-2026-standard",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-level-ui-system-designer-2026-standard.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "mmanisaligil",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 1,
+      "created_at": "2026-03-19"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-apple-level-ui-system-designer-2026-standard/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-visual-qa-cross-browser-audit",
+     "title": "Visual QA & Cross-Browser Audit",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Systematically checks a built design against its intended specification across browsers, devices, and edge cases. This is the designer's QA not functional testing, but visual fidelity and interaction quality. Produces a categorized issue list with exact reproduction steps and suggested fixes",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmmoq1aqr000kle046h0960yk_visual-qa-cross-browser-audit",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-visual-qa-cross-browser-audit.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "gokbeyinac",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-03-13"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-visual-qa-cross-browser-audit/",
+     "source": "prompts.chat"
+    }
+   ]
+  },
+  {
+   "step": "4-do-it",
+   "read": [
+    {
+     "id": "mcp-io-github-ajsmonty-adobe-mcp",
+     "title": "io.github.AJSMonty/adobe-mcp",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
+     "summary_lang": "en",
+     "source_url": "https://github.com/AJSMonty/adobe-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "AJSMonty/adobe-mcp",
+     "author": "io.github.AJSMonty",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @ajsmonty/adobe-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "ADOBE_MCP_WORKSPACE"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 1,
+      "repo_pushed_at": "2026-09-24",
+      "registry_updated_at": "2026-07-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-ajsmonty-adobe-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-icons8-icons8",
+     "title": "Icons8",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.",
+     "summary_lang": "en",
+     "source_url": "https://icons8.com/mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "com.icons8",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://mcp.icons8.com/mcp/",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-09-23"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-icons8-icons8/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "uihub-www-unicorn-studio",
+     "title": "Unicorn Studio",
+     "type": "tool",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "无代码做 WebGL 特效",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.unicorn.studio/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-unicorn-studio/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "ui-resource-hub-skills",
+     "title": "UI Hub skills.json (recommended design workflow)",
+     "type": "workflow",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+dark, mobile.",
+     "summary_lang": "en",
+     "source_url": "https://siinxu.github.io/ui-resource-hub/api/skills.json",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "aggregator",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {},
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/ui-resource-hub-skills/",
+     "source": "seed"
+    }
+   ]
+  },
+  {
+   "step": "5-self-check",
+   "read": [
+    {
+     "id": "pbakaus-impeccable-claude-skills-impeccable-skill-md",
+     "title": "impeccable",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, ",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/pbakaus/impeccable/main/.claude/skills/impeccable/SKILL.md",
+     "repo": "pbakaus/impeccable",
+     "author": "pbakaus",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 81385,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "5-self-check",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/pbakaus-impeccable-claude-skills-impeccable-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "vercel-labs-agent-skills-skills-web-design-guidelines-skill-md",
+     "title": "web-design-guidelines",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+     "summary_lang": "en",
+     "source_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/web-design-guidelines/SKILL.md",
+     "repo": "vercel-labs/agent-skills",
+     "author": "vercel-labs",
+     "license": "NONE (no license file; GitHub API license=null)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 32455,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "5-self-check",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/vercel-labs-agent-skills-skills-web-design-guidelines-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "wcag-22",
+     "title": "WCAG 2.2 (W3C Recommendation)",
+     "type": "standard",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Web Content Accessibility Guidelines 2.2: testable success criteria for accessible web content.",
+     "summary_lang": "en",
+     "source_url": "https://www.w3.org/TR/WCAG22/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": null,
+     "license": "W3C Document License; link + quote with attribution",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {},
+     "course_step": "5-self-check",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wcag-22/",
+     "source": "seed"
+    },
+    {
+     "id": "nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-styling",
+     "title": "ui-styling",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-styling/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-styling.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/ui-styling/SKILL.md",
+     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+     "author": "nextlevelbuilder",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-styling",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 136030,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-styling/",
+     "source": "github"
+    },
+    {
+     "id": "nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-ux-pro-max",
+     "title": "ui-ux-pro-max",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 79 searchable styles (50 active), 192 product palettes and reasoning profiles, 74 font pairings,…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-ux-pro-max.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/ui-ux-pro-max/SKILL.md",
+     "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+     "author": "nextlevelbuilder",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 136030,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-ux-pro-max/",
+     "source": "github"
+    },
+    {
+     "id": "emilkowalski-skills-skills-break-ui",
+     "title": "break-ui",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme numbers — then render it behind a \"Demo data / Worst case\" toggle and report everything that broke, with the fix for each. Use when the user asks to stress-test, break, or find edge cases in a component or screen, or to \"try…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/break-ui/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-break-ui.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/break-ui/SKILL.md",
+     "repo": "emilkowalski/skills",
+     "author": "emilkowalski",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add emilkowalski/skills --skill break-ui",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 46365,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/emilkowalski-skills-skills-break-ui/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-ui-design-skills-accessibility-compliance",
+     "title": "accessibility-compliance",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA patterns, building for screen readers, or ensuring inclusive user experiences.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/skills/accessibility-compliance/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-ui-design-skills-accessibility-compliance.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/ui-design/skills/accessibility-compliance/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill accessibility-compliance",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-ui-design-skills-accessibility-compliance/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-ui-design-agents-accessibility-expert",
+     "title": "accessibility-expert",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Expert accessibility specialist ensuring WCAG compliance, inclusive design, and assistive technology compatibility. Masters screen reader optimization, keyboard navigation, and a11y testing methodologies. Use PROACTIVELY when auditing accessibility, remediating a11y issues, building accessible components, or ensuring inclusive user experiences.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/ui-design/agents/accessibility-expert.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-ui-design-agents-accessibility-expert.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/ui-design/agents/accessibility-expert.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-ui-design-agents-accessibility-expert/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-accessibility-compliance-skills-screen-reader-testing",
+     "title": "screen-reader-testing",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Test web applications with screen readers including VoiceOver, NVDA, and JAWS. Use when validating screen reader compatibility, debugging accessibility issues, or ensuring assistive technology support.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-accessibility-compliance-skills-screen-reader-testing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill screen-reader-testing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-accessibility-compliance-skills-screen-reader-testing/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-accessibility-compliance-skills-wcag-audit-patterns",
+     "title": "wcag-audit-patterns",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-accessibility-compliance-skills-wcag-audit-patterns.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill wcag-audit-patterns",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-accessibility-compliance-skills-wcag-audit-patterns/",
+     "source": "github"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-design-skills-accessibility-review",
+     "title": "accessibility-review",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with \"audit accessibility\", \"check a11y\", \"is this accessible?\", or when reviewing a design for color contrast, keyboard navigation, touch target size, or screen reader behavior before handoff.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/accessibility-review/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-design-skills-accessibility-review.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/accessibility-review/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill accessibility-review",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29734,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-design-skills-accessibility-review/",
+     "source": "github"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-design-skills-design-critique",
+     "title": "design-critique",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Get structured design feedback on usability, hierarchy, and consistency. Trigger with \"review this design\", \"critique this mockup\", \"what do you think of this screen?\", or when sharing a Figma link or screenshot for feedback at any stage from exploration to final polish.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-critique/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-design-skills-design-critique.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-critique/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill design-critique",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29734,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-design-skills-design-critique/",
+     "source": "github"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-design-skills-ux-copy",
+     "title": "ux-copy",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Write or review UX copy — microcopy, error messages, empty states, CTAs. Trigger with \"write copy for\", \"what should this button say?\", \"review this error message\", or when naming a CTA, wording a confirmation dialog, filling an empty state, or writing onboarding text.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/ux-copy/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-design-skills-ux-copy.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/ux-copy/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill ux-copy",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29734,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-design-skills-ux-copy/",
+     "source": "github"
+    },
+    {
+     "id": "voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester",
+     "title": "ui-ux-tester",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/04-quality-security/ui-ux-tester.md",
+     "repo": "VoltAgent/awesome-claude-code-subagents",
+     "author": "VoltAgent",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 25736,
+      "repo_pushed_at": "2026-10-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-frontend-developer",
+     "title": "Frontend Developer",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Act as an elite frontend development specialist with deep expertise in modern JavaScript frameworks, responsive design, and user interface implementation. Your role encompasses designing reusable components, optimizing performance, and ensuring accessibility.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmkb4dsp20009l404yrtmh4a4_frontend-developer",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ersinyilmaz",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 4,
+      "created_at": "2026-01-12"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-frontend-developer/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-frontend-developer-skill",
+     "title": "Frontend Developer Skill",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "This prompt is designed for an elite frontend development specialist. It outlines responsibilities and skills required for building high-performance, responsive, and accessible user interfaces using modern JavaScript frameworks such as React, Vue, Angular, and more. The prompt includes detailed guidelines for component architecture, responsive design, performance optimization, state management, and UI/UX…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmjhdytu00001jm04yooccuhl_frontend-developer-skill",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer-skill.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ilker",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 4,
+      "created_at": "2025-12-22"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-frontend-developer-skill/",
+     "source": "prompts.chat"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,709 @@
+{
+ "industry": "customer-service",
+ "generated_at": "2026-10-15T09:54:08+00:00",
+ "count": 20,
+ "items": [
+  {
+   "id": "anthropics-knowledge-work-plugins-customer-support",
+   "title": "Customer Support plugin (Anthropic knowledge-work-plugins)",
+   "type": "plugin",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, response drafting, customer research, and knowledge base authoring for support t",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/README.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-customer-support-skills-ticket-triage-skill-md",
+   "title": "ticket-triage",
+   "type": "skill",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking whether it's a duplicate or known issue before routing.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/ticket-triage/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill ticket-triage",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md",
+   "title": "draft-response",
+   "type": "skill",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, declining a feature request, or replying to a billing issue.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/draft-response/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill draft-response",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md",
+   "title": "customer-escalation",
+   "type": "skill",
+   "industry": "customer-service",
+   "roles": [
+    "support-lead"
+   ],
+   "summary_source": "Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to churn, or an issue has sat unresolved past its SLA.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-escalation/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-escalation",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-customer-support-skills-kb-article-skill-md",
+   "title": "kb-article",
+   "type": "skill",
+   "industry": "customer-service",
+   "roles": [
+    "knowledge-base-editor"
+   ],
+   "summary_source": "Draft a knowledge base article from a resolved issue or common question. Use when a ticket resolution is worth documenting for self-service, the same question keeps coming up, a workaround needs to be published, or a known issue should be communicated to customers.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/kb-article/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/kb-article/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill kb-article",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md",
+   "title": "customer-research",
+   "type": "skill",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously told to a specific account, or gathering background before drafting a response.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-research/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-research",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "google-adk-recipes-plugins-retail-skills-product-search-skill-md",
+   "title": "retail-product-search",
+   "type": "skill",
+   "industry": "customer-service",
+   "roles": [
+    "ecommerce-support"
+   ],
+   "summary_source": "Creates product search agents with semantic search and RAG on Google Cloud (Vector Search on Gemini Enterprise Agent Platform, BigQuery, embeddings). Use when the user wants to \"build a product search agent\", \"create an e-commerce search\", \"make a shopping assistant\", \"set up semantic catalog discov",
+   "summary_lang": "en",
+   "source_url": "https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/product-search/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/plugins/retail/skills/product-search/SKILL.md",
+   "repo": "google/adk-recipes",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 10452,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "google-adk-recipes-plugins-retail",
+   "title": "ADK retail plugin",
+   "type": "plugin",
+   "industry": "customer-service",
+   "roles": [
+    "ecommerce-support"
+   ],
+   "summary_source": "The **Retail AI Plugin** bundles two end-to-end Google Cloud retail skills for AI coding assistants (Gemini CLI, Claude Code, Antigravity, Codex) following the [Google Agent Plugins v1.0.0 specification][spec] (`plugin.json` + `skills/<skill-name>/SKILL.md`):",
+   "summary_lang": "en",
+   "source_url": "https://github.com/google/adk-recipes/tree/main/plugins/retail",
+   "raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/plugins/retail/README.md",
+   "repo": "google/adk-recipes",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 10452,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "sierra-research-tau2-bench-data-tau2-domains-retail-policy-md",
+   "title": "tau2 retail agent policy",
+   "type": "system-prompt",
+   "industry": "customer-service",
+   "roles": [
+    "ecommerce-support"
+   ],
+   "summary_source": "At the beginning of the conversation, you have to authenticate the user identity by locating their user id via email, or via name + zip code. This has to be done even when the user already provides the user id.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/retail/policy.md",
+   "raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/data/tau2/domains/retail/policy.md",
+   "repo": "sierra-research/tau2-bench",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": null,
+    "repo_pushed_at": null
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "sierra-research-tau2-bench",
+   "title": "tau2-bench (customer-service agent benchmark)",
+   "type": "benchmark",
+   "industry": "customer-service",
+   "roles": [
+    "ecommerce-support"
+   ],
+   "summary_source": "τ-bench family benchmark (MIT) that simulates user–agent conversations in customer-service domains (retail, airline, telecom, banking) with tools, policies and automatic task evaluation.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/sierra-research/tau2-bench",
+   "raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/README.md",
+   "repo": "sierra-research/tau2-bench",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": null,
+    "repo_pushed_at": null
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "summary_note": "summary written by curator from README; README opens with a joke line"
+  },
+  {
+   "id": "anthropics-claude-cookbooks-tool-use-customer-service-agent-ipynb",
+   "title": "Customer service agent with tool use (Claude cookbook)",
+   "type": "tutorial",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "Creating a Customer Service Agent with Client-Side Tools In this recipe, we'll demonstrate how to create a customer service chatbot using Claude 3 plus client-side tools. The chatbot will be able to look up customer information, retrieve order details, and cancel orders on behalf of the customer. We",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/claude-cookbooks/blob/main/tool_use/customer_service_agent.ipynb",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/claude-cookbooks/main/tool_use/customer_service_agent.ipynb",
+   "repo": "anthropics/claude-cookbooks",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 53454,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "openai-openai-cookbook-examples-using-tool-required-for-customer-service-ipynb",
+   "title": "Using tool_choice=required for customer service (OpenAI cookbook)",
+   "type": "tutorial",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "Using Tool Required for Customer Service The ChatCompletion endpoint now includes the ability to specify whether a tool must be called every time, by adding tool_choice='required' as a parameter. This adds an element of determinism to how you build your wrapping application, as you can count on a to",
+   "summary_lang": "en",
+   "source_url": "https://github.com/openai/openai-cookbook/blob/main/examples/Using_tool_required_for_customer_service.ipynb",
+   "raw_url": "https://raw.githubusercontent.com/openai/openai-cookbook/main/examples/Using_tool_required_for_customer_service.ipynb",
+   "repo": "openai/openai-cookbook",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 76610,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "openai-openai-cs-agents-demo",
+   "title": "OpenAI customer service agents demo (Agents SDK)",
+   "type": "case",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "This repository contains a demo of a Customer Service interface built on top of the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/).",
+   "summary_lang": "en",
+   "source_url": "https://github.com/openai/openai-cs-agents-demo",
+   "raw_url": "https://raw.githubusercontent.com/openai/openai-cs-agents-demo/main/README.md",
+   "repo": "openai/openai-cs-agents-demo",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 6588,
+    "repo_pushed_at": "2025-12-18"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-customer-support-age",
+   "title": "ai_customer_support_agent",
+   "type": "case",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "This Streamlit app implements an AI-powered customer support agent for synthetic data generated using GPT-4o. The agent uses OpenAI's GPT-4o model and maintains a memory of past interactions using the Mem0 library with Qdrant as the vector store.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_customer_support_agent",
+   "raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/single_agent_apps/ai_customer_support_agent/README.md",
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 141810,
+    "repo_pushed_at": "2026-10-13"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-google-adk-crash-course-3-st",
+   "title": "3_1_customer_support_ticket_agent",
+   "type": "tutorial",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "A tutorial demonstrating how to implement a structured customer support ticketing system using Google's ADK (Agent Development Kit) framework. This example shows how to create type-safe, structured support tickets with priority levels, categories, and resolution estimates using Pydantic schemas and ",
+   "summary_lang": "en",
+   "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/google_adk_crash_course/3_structured_output_agent/3_1_customer_support_ticket_agent",
+   "raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/ai_agent_framework_crash_course/google_adk_crash_course/3_structured_output_agent/3_1_customer_support_ticket_agent/README.md",
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 141810,
+    "repo_pushed_at": "2026-10-13"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "shubhamsaboo-awesome-llm-apps-ai-agent-framework-crash-course-openai-sdk-crash-course-2-st",
+   "title": "2_1_support_ticket_agent",
+   "type": "tutorial",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "A structured output agent demonstrating Pydantic schema-based responses for customer support ticket creation.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/openai_sdk_crash_course/2_structured_output_agent/2_1_support_ticket_agent",
+   "raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/ai_agent_framework_crash_course/openai_sdk_crash_course/2_structured_output_agent/2_1_support_ticket_agent/README.md",
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 141810,
+    "repo_pushed_at": "2026-10-13"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "reminia-zendesk-mcp-server",
+   "title": "Zendesk MCP server",
+   "type": "mcp",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "A Model Context Protocol server for Zendesk.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/reminia/zendesk-mcp-server",
+   "raw_url": "https://raw.githubusercontent.com/reminia/zendesk-mcp-server/main/README.md",
+   "repo": "reminia/zendesk-mcp-server",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "see README (uv / Claude Desktop config); needs Zendesk API token",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 123,
+    "repo_pushed_at": "2026-08-27"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": true
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "wyre-ai-freshdesk-mcp",
+   "title": "Freshdesk MCP server",
+   "type": "mcp",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with structured access to the [Freshdesk](https://www.freshdesk.com) customer support platform — tickets, contacts, companies, agents, groups, the knowledge base, and SLA/business-hours configuratio",
+   "summary_lang": "en",
+   "source_url": "https://github.com/WYRE-AI/freshdesk-mcp",
+   "raw_url": "https://raw.githubusercontent.com/WYRE-AI/freshdesk-mcp/main/README.md",
+   "repo": "WYRE-AI/freshdesk-mcp",
+   "license": "Apache-2.0 (LICENSE file; GitHub API reports NOASSERTION)",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "MCP Registry: io.github.WYRE-AI/freshdesk-mcp; needs Freshdesk API key",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 0,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": true
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-churn-prevention-skill-md",
+   "title": "churn-prevention",
+   "type": "skill",
+   "industry": "customer-service",
+   "roles": [
+    "customer-success"
+   ],
+   "summary_source": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit sur",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/churn-prevention/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/churn-prevention/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill churn-prevention",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "ashishpatel26-500-ai-agents-projects",
+   "title": "500 AI Agents Projects (includes customer service use cases)",
+   "type": "awesome-list",
+   "industry": "customer-service",
+   "roles": [
+    "support-agent"
+   ],
+   "summary_source": "Curated collection of AI agent use cases across industries (incl. Customer Service, E-commerce) with links to open-source implementations, e.g. a LangGraph customer-support agent tutorial.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+   "raw_url": "https://raw.githubusercontent.com/ashishpatel26/500-AI-Agents-Projects/main/README.md",
+   "repo": "ashishpatel26/500-AI-Agents-Projects",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 38691,
+    "repo_pushed_at": "2026-07-27"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "summary_note": "curator summary of README tables (README opens with nav links)"
+  }
+ ]
+}

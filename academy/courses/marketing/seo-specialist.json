@@ -1,0 +1,2615 @@
+{
+ "id": "marketing/seo-specialist",
+ "industry": "marketing",
+ "role": "seo-specialist",
+ "updated_at": "2026-10-15T10:41:56Z",
+ "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
+ "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
+ "checklist": [
+  "Every claim in the copy can be traced to a source the owner gave you or a public page you link.",
+  "Campaigns name one audience, one offer and one primary metric before any copy is written.",
+  "SEO work starts from real search data or a stated assumption, never invented volumes.",
+  "Nothing is published, posted, emailed or spent (ads budget) without the owner's explicit approval.",
+  "Brand voice: read the brand guide or brand-voice skill first; flag anything that conflicts with it.",
+  "Reports show numbers with their source and date; no fake-precise figures.",
+  "Remove AI-writing tells (filler intros, em-dash chains, generic superlatives) before handing off."
+ ],
+ "case": null,
+ "steps": [
+  {
+   "step": "1-enrol",
+   "read": []
+  },
+  {
+   "step": "2-pick-direction",
+   "read": [
+    {
+     "id": "botsdots-seo-aeo-desk",
+     "title": "SEO & AEO Desk",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Works from a pasted keyword list or your Search Console.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/seo-aeo-desk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "adamta",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 18,
+      "first_seen_catalog": "2026-09-21"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-seo-aeo-desk/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-market-researcher",
+     "title": "Market Researcher",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/market-researcher",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "joshkim",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 17,
+      "first_seen_catalog": "2026-10-09"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-market-researcher/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-project-manager",
+     "title": "Project Manager",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Marketing project manager that coordinates research, positioning, landing pages, ads",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/project-manager",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "joshkim",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/AMa1ig4YyoxfYtWFe7PLi",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 17,
+      "first_seen_catalog": "2026-10-09"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-project-manager/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-stalk-bot",
+     "title": "Stalk Bot",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Signs up for your competitors' newsletters and products under its own research email, walks their onboarding on video, and watches their site, pricing",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/stalk-bot",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "shubgaur",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 17,
+      "first_seen_catalog": "2026-10-09"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-stalk-bot/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-website-ops",
+     "title": "Website Ops",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Website operations and content manager. Ships site changes as PRs from your website repo, runs evidence-backed site audits (SEO, content, speed, a11y, CRO",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/website-ops",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "joshkim",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/NYDai_DOI_2pNDIKerrpD",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 17,
+      "first_seen_catalog": "2026-10-08"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-website-ops/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-apple-search-ads-review",
+     "title": "Apple Search Ads Review",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Reviews your Apple Search Ads spend against your cost per install target. Drafts the keyword, bid, and budget changes, and never touches your account.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/apple-search-ads-review",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Chris Everett",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/gadc3bVOsg9iIwmzAGRve",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 15,
+      "first_seen_catalog": "2026-09-16"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-apple-search-ads-review/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-aeoseo-bot",
+     "title": "AEO/SEO Bot",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Weekday pipeline that picks, lays out, and grades search-visibility pages",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/aeoseo-bot",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "eddiearc6",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-06"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-aeoseo-bot/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-grok-for-seo-geo-paid-ads-and-shopify",
+     "title": "Grok for SEO, GEO, paid ads and Shopify",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Reviews ads, search and Shopify performance from a single place",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/grok-for-seo-geo-paid-ads-and-shopify",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "irabukht",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/dep-tU0gmIPgiqNsvS4N4",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": [
+       "shopify"
+      ]
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-08-31"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-grok-for-seo-geo-paid-ads-and-shopify/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-index",
+     "title": "Index",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "An SEO and AEO teammate that writes briefs for your writers",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/index",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "adamta",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/Viv2NbC5skPslV1WH9Fs7",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-08-28"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-index/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-seo-content-desk-seodraft",
+     "title": "SEO Content Desk (seodraft)",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "SEO writing desk for your own blog: topics, SERP briefs, drafts from sources via seodraft MCP",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/seo-content-desk-seodraft",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "chorch_md",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/OkT4Dbjy4xVf7oVBCr8hL",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-28"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-seo-content-desk-seodraft/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-seo-expert",
+     "title": "SEO Expert",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Keeps watch on your site's search performance and plans fixes for your sign-off",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/seo-expert",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "iammutex",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/sg2dZMjlprpit0y0PNyhL",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-seo-expert/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-serp-specialist",
+     "title": "SERP SPECIALIST",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Local SEO bot: keyword volumes SERPs rank plan and preview site for a niche plus towns",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/serp-specialist",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ascndnt_alchmy",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/262LyEVXcAKuQuohFeXop",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-10-02"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-serp-specialist/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-site-audit",
+     "title": "Site Audit",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "One-pass site audit across SEO, speed, accessibility, CRO and schema",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/site-audit",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "scheemunai",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-08-28"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-site-audit/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-site-audit-rzrr",
+     "title": "Site Audit",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/site-audit-rzrr",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "community",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-10-09"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-site-audit-rzrr/",
+     "source": "botsdots"
+    }
+   ]
+  },
+  {
+   "step": "3-learn-rules",
+   "read": [
+    {
+     "id": "coreyhaines31-marketingskills-skills-ai-seo-skill-md",
+     "title": "ai-seo",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatG",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ai-seo/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ai-seo/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill ai-seo",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-ai-seo-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-seo-audit-skill-md",
+     "title": "seo-audit",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"s",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/seo-audit/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/seo-audit/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill seo-audit",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-seo-audit-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing-skills-competitive-brief-skill-md",
+     "title": "competitive-brief",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "product-marketer",
+      "seo-specialist"
+     ],
+     "summary": "Research competitors and generate a positioning and messaging comparison with content gaps, opportunities, and threats. Use when building sales battlecards, when finding positioning gaps and messaging angles competitors haven't claimed, or when a competitor makes a move and you need to assess the im",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/competitive-brief/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-brief/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill competitive-brief",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing-skills-competitive-brief-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing-skills-seo-audit-skill-md",
+     "title": "seo-audit",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison. Use when assessing a site's SEO health, when finding keyword opportunities and content gaps competitors own, or when you need a prioritized action plan split into quick wins",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/seo-audit/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/seo-audit/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill seo-audit",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing-skills-seo-audit-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-competitor-profiling",
+     "title": "competitor-profiling",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/competitor-profiling/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-competitor-profiling.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/competitor-profiling/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill competitor-profiling",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-competitor-profiling/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-competitors",
+     "title": "competitors",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to create competitor comparison or alternative pages for SEO and buyer-facing use. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'competitor teardown,' 'audit our competitor pages,' 'are our comparison pages out of date,' or…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/competitors/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-competitors.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/competitors/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill competitors",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-competitors/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-customer-research",
+     "title": "customer-research",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/customer-research/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-customer-research.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/customer-research/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill customer-research",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-customer-research/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-free-tools",
+     "title": "free-tools",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/free-tools/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-free-tools.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/free-tools/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill free-tools",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-free-tools/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-programmatic-seo",
+     "title": "programmatic-seo",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" \"templated landing pages,\" or \"which CMS for pSEO.\" Use this…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/programmatic-seo/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-programmatic-seo.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/programmatic-seo/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill programmatic-seo",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-programmatic-seo/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-schema",
+     "title": "schema",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/schema/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-schema.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/schema/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill schema",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-schema/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-site-architecture",
+     "title": "site-architecture",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/site-architecture/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-site-architecture.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/site-architecture/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill site-architecture",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-site-architecture/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-video",
+     "title": "video",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,'…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/video/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-video.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/video/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill video",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-video/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-content-marketing-agents-content-marketer",
+     "title": "content-marketer",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation, and conversion optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive content marketing.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/content-marketing/agents/content-marketer.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-content-marketing-agents-content-marketer.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/content-marketing/agents/content-marketer.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-content-marketing-agents-content-marketer/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-content-marketing-agents-search-specialist",
+     "title": "search-specialist",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Handles competitive analysis and fact-checking. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/content-marketing/agents/search-specialist.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-content-marketing-agents-search-specialist.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/content-marketing/agents/search-specialist.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-content-marketing-agents-search-specialist/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-authority-builder",
+     "title": "seo-authority-builder",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-analysis-monitoring/agents/seo-authority-builder.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-authority-builder.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-analysis-monitoring/agents/seo-authority-builder.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-authority-builder/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-cannibalization-detector",
+     "title": "seo-cannibalization-detector",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-analysis-monitoring/agents/seo-cannibalization-detector.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-cannibalization-detector.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-analysis-monitoring/agents/seo-cannibalization-detector.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-cannibalization-detector/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-content-creation-agents-seo-content-auditor",
+     "title": "seo-content-auditor",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. Use PROACTIVELY for content review.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-content-creation/agents/seo-content-auditor.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-content-creation-agents-seo-content-auditor.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-content-creation/agents/seo-content-auditor.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-content-creation-agents-seo-content-auditor/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-content-creation-agents-seo-content-planner",
+     "title": "seo-content-planner",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-content-creation/agents/seo-content-planner.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-content-creation-agents-seo-content-planner.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-content-creation/agents/seo-content-planner.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-content-creation-agents-seo-content-planner/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-content-refresher",
+     "title": "seo-content-refresher",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-analysis-monitoring/agents/seo-content-refresher.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-content-refresher.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-analysis-monitoring/agents/seo-content-refresher.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-analysis-monitoring-agents-seo-content-refresher/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-content-creation-agents-seo-content-writer",
+     "title": "seo-content-writer",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-content-creation/agents/seo-content-writer.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-content-creation-agents-seo-content-writer.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-content-creation/agents/seo-content-writer.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-content-creation-agents-seo-content-writer/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-technical-optimization-agents-seo-keyword-strategist",
+     "title": "seo-keyword-strategist",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-technical-optimization/agents/seo-keyword-strategist.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-technical-optimization-agents-seo-keyword-strategist.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-technical-optimization/agents/seo-keyword-strategist.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-technical-optimization-agents-seo-keyword-strategist/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-technical-optimization-agents-seo-meta-optimizer",
+     "title": "seo-meta-optimizer",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-technical-optimization/agents/seo-meta-optimizer.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-technical-optimization-agents-seo-meta-optimizer.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-technical-optimization/agents/seo-meta-optimizer.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-technical-optimization-agents-seo-meta-optimizer/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-technical-optimization-agents-seo-snippet-hunter",
+     "title": "seo-snippet-hunter",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-technical-optimization/agents/seo-snippet-hunter.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-technical-optimization-agents-seo-snippet-hunter.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-technical-optimization/agents/seo-snippet-hunter.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-technical-optimization-agents-seo-snippet-hunter/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-seo-technical-optimization-agents-seo-structure-architect",
+     "title": "seo-structure-architect",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. Use PROACTIVELY for content structuring.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/seo-technical-optimization/agents/seo-structure-architect.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-seo-technical-optimization-agents-seo-structure-architect.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/seo-technical-optimization/agents/seo-structure-architect.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-seo-technical-optimization-agents-seo-structure-architect/",
+     "source": "github"
+    }
+   ]
+  },
+  {
+   "step": "4-do-it",
+   "read": [
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit",
+     "title": "ai_seo_audit_team",
+     "type": "case",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimization report. The app uses **Firecrawl via MCP (Model Context Protocol)** for a",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
+     "source": "seed"
+    },
+    {
+     "id": "google-adk-recipes-contrib-python-brand-search-optimization",
+     "title": "brand-search-optimization",
+     "type": "workflow",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer Use.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/contrib/python/brand-search-optimization/README.md",
+     "repo": "google/adk-recipes",
+     "author": "google",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 10452,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/google-adk-recipes-contrib-python-brand-search-optimization/",
+     "source": "seed"
+    },
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-email-gtm-reachout-a",
+     "title": "Ai Email Gtm Reachout Agent",
+     "type": "case",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "An intelligent, fully automated B2B outreach system that discovers companies, finds decision makers, researches company intelligence, and generates personalized cold emails using AI agents.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_email_gtm_reachout_agent",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-email-gtm-reachout-a.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/single_agent_apps/ai_email_gtm_reachout_agent/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 141811,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-email-gtm-reachout-a/",
+     "source": "github"
+    },
+    {
+     "id": "mcp-io-github-neozi12-dispatchseo",
+     "title": "DispatchSEO",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Open-source SEO manager for coding agents: keyword research, content PRs, rank + Search Console.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/NeoZi12/dispatchseo",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "NeoZi12/dispatchseo",
+     "author": "io.github.NeoZi12",
+     "license": "AGPL-3.0",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://dispatchseo.com/api/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 86,
+      "repo_pushed_at": "2026-10-14",
+      "registry_updated_at": "2026-08-10"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-neozi12-dispatchseo/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-ai-trendsmcp-seo",
+     "title": "SEO Trends MCP",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Spot keyword demand rising or fading. Trend volume and growth signals. Free key at trendsmcp.ai",
+     "summary_lang": "en",
+     "source_url": "https://github.com/trendsmcp-ai/Trends-MCP",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "trendsmcp-ai/Trends-MCP",
+     "author": "ai.trendsmcp",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://seo.api.trendsmcp.ai/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "Authorization"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 44,
+      "repo_pushed_at": "2026-08-29",
+      "registry_updated_at": "2026-08-18"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-trendsmcp-seo/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-adityaarsharma-librecrawl-technical-seo-audit-mcp",
+     "title": "Librecrawl — Technical SEO Audit MCP Server",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Self-hosted technical SEO audit MCP. 50+ checks, WAF detection, ephemeral. Built on LibreCrawl.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/adityaarsharma/sitewalk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "adityaarsharma/sitewalk",
+     "author": "io.github.adityaarsharma",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 43,
+      "repo_pushed_at": "2026-10-10",
+      "registry_updated_at": "2026-06-07"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-adityaarsharma-librecrawl-technical-seo-audit-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-hasdata-tiktok",
+     "title": "HasData TikTok",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Public TikTok profiles, videos, comments and keyword search as JSON. No developer account.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/HasData/tiktok-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "HasData/tiktok-mcp",
+     "author": "com.hasdata",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @hasdata/tiktok-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "HASDATA_API_KEY",
+       "HASDATA_API_KEY",
+       "x-api-key"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 10,
+      "repo_pushed_at": "2026-10-12",
+      "registry_updated_at": "2026-09-24"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-hasdata-tiktok/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-antohins-seo-tools-mcp-aparser",
+     "title": "SEO Tools: A-Parser bridge",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Bridge to a self-hosted A-Parser: SERP, suggests and 150+ parsers via its API (read-only).",
+     "summary_lang": "en",
+     "source_url": "https://github.com/antohins/seo-tools-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "antohins/seo-tools-mcp",
+     "author": "io.github.antohins",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y seo-tools-mcp-aparser",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "APARSER_URL",
+       "APARSER_PASSWORD",
+       "APARSER_GOOGLE_PRESET",
+       "APARSER_YANDEX_PRESET",
+       "APARSER_PROXY_CHECKERS",
+       "APARSER_USE_PROXY"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 6,
+      "repo_pushed_at": "2026-10-02",
+      "registry_updated_at": "2026-08-25"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-antohins-seo-tools-mcp-aparser/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-superagnt-tiktok-data",
+     "title": "com.superagnt/tiktok-data",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "TikTok data for AI agents: videos, creators, sounds, hashtags, trends. Content + creator research.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/superagnt/plugins",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "superagnt/plugins",
+     "author": "com.superagnt",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 5,
+      "repo_pushed_at": "2026-10-14",
+      "registry_updated_at": "2026-09-18"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-superagnt-tiktok-data/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-automatelab-tech-ai-seo",
+     "title": "io.github.AutomateLab-tech/ai-seo",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "MCP server for AI-SEO auditing: schema, robots.txt, llms.txt, citation scoring, and AEO/GEO rewrites",
+     "summary_lang": "en",
+     "source_url": "https://github.com/AutomateLab-tech/ai-seo-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "AutomateLab-tech/ai-seo-mcp",
+     "author": "io.github.AutomateLab-tech",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @automatelab/ai-seo-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 3,
+      "repo_pushed_at": "2026-10-13",
+      "registry_updated_at": "2026-05-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-automatelab-tech-ai-seo/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-automatelab-tech-seo-performance-mcp",
+     "title": "SEO Performance MCP",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Per-URL SEO verdicts from GSC, GA4, Matomo, Clarity, AI citations: refresh/expand/merge/kill.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/AutomateLab-tech/seo-performance-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "AutomateLab-tech/seo-performance-mcp",
+     "author": "io.github.AutomateLab-tech",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y @automatelab/seo-performance-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "GSC_SERVICE_ACCOUNT_JSON",
+       "GSC_SITE_URL",
+       "MATOMO_URL",
+       "MATOMO_TOKEN",
+       "MATOMO_SITE_ID",
+       "GA4_PROPERTY_ID",
+       "GA4_SERVICE_ACCOUNT_JSON",
+       "CLARITY_PROJECT_ID",
+       "CLARITY_API_TOKEN",
+       "POSTS_SITEMAP_URL",
+       "POSTS_LIST",
+       "GHOST_ADMIN_API_URL",
+       "GHOST_ADMIN_API_KEY",
+       "CITATION_INTELLIGENCE_URL"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 3,
+      "repo_pushed_at": "2026-06-08",
+      "registry_updated_at": "2026-06-08"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-automatelab-tech-seo-performance-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-afterlaunch-agentic-growth-marketing",
+     "title": "AfterLaunch: the agentic growth marketing engine",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/afterlaunch/mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "afterlaunch/mcp",
+     "author": "io.afterlaunch",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://afterlaunch.io/api/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "Authorization"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-10-09",
+      "registry_updated_at": "2026-07-30"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-afterlaunch-agentic-growth-marketing/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-jiyumarketing-mcp-agency-mcp",
+     "title": "Agency Autopilot",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Run client marketing from your AI assistant, or let Autopilot: Google Ads, GA4, SEO, Meta, CRM",
+     "summary_lang": "en",
+     "source_url": "https://github.com/harrisonjdahl3/agency-mcp-plugin",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "harrisonjdahl3/agency-mcp-plugin",
+     "author": "com.jiyumarketing.mcp",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-10-13",
+      "registry_updated_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-jiyumarketing-mcp-agency-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-yoshyaes-creator-seo-mcp",
+     "title": "Creator SEO MCP",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "SEO MCP server for creators. Ranks Google Search Console opportunities by ad revenue, not clicks.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Yoshyaes/creator-seo-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "Yoshyaes/creator-seo-mcp",
+     "author": "io.github.Yoshyaes",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "uvx creator-seo-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "GOOGLE_CREDENTIALS_PATH",
+       "CREATOR_SEO_SITE_RPM",
+       "CREATOR_SEO_AFFILIATE_CATEGORIES"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-08-25",
+      "registry_updated_at": "2026-06-17"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-yoshyaes-creator-seo-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-jvnndev-seo-webmaster-mcp",
+     "title": "io.github.JvnnDev/seo-webmaster-mcp",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Read-only SEO and GEO audits with Google Search Console, Bing, and website crawling.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/JvnnDev/seo-webmaster-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "JvnnDev/seo-webmaster-mcp",
+     "author": "io.github.JvnnDev",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "npx -y seo-webmaster-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-09-27",
+      "registry_updated_at": "2026-09-27"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-jvnndev-seo-webmaster-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-dev-vibeseo-vibeseo",
+     "title": "VibeSEO",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/sultanlive/vibeseo-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "sultanlive/vibeseo-mcp",
+     "author": "dev.vibeseo",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "install": "remote (streamable-http): https://mcp.vibeseo.dev/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-10-04",
+      "registry_updated_at": "2026-09-24"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-dev-vibeseo-vibeseo/",
+     "source": "mcp-registry"
+    }
+   ]
+  },
+  {
+   "step": "5-self-check",
+   "read": [
+    {
+     "id": "coreyhaines31-marketingskills-skills-analytics-skill-md",
+     "title": "analytics",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I m",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/analytics/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill analytics",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54814,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-analytics-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md",
+     "title": "performance-report",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summ",
+     "summary_lang": "en",
+     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md",
+     "raw_url": null,
+     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
+     "repo": "anthropics/knowledge-work-plugins",
+     "author": "anthropics",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add anthropics/knowledge-work-plugins --skill performance-report",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 29728,
+      "repo_pushed_at": "2026-10-15"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md/",
+     "source": "seed"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-ab-testing",
+     "title": "ab-testing",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\"…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ab-testing/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill ab-testing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-ab-testing/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-attribution",
+     "title": "attribution",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attribution,\" \"attribution model,\" \"first-touch vs last-touch,\" \"multi-touch,\" \"which channel drives revenue,\" \"what's my real CAC,\" \"my dashboards disagree,\" \"Google/Meta says X but GA says Y,\" \"media mix…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/attribution/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add coreyhaines31/marketingskills --skill attribution",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 54820,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/coreyhaines31-marketingskills-skills-attribution/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-agents-business-analyst",
+     "title": "business-analyst",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-agents-business-analyst.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/agents/business-analyst.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-agents-business-analyst/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-skills-data-storytelling",
+     "title": "data-storytelling",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill data-storytelling",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-skills-data-storytelling/",
+     "source": "github"
+    },
+    {
+     "id": "wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design",
+     "title": "kpi-dashboard-design",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict…",
+     "summary_lang": "en",
+     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
+     "repo": "wshobson/agents",
+     "author": "wshobson",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": "npx skills add wshobson/agents --skill kpi-dashboard-design",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 40824,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design/",
+     "source": "github"
+    },
+    {
+     "id": "prompts-chat-apple-store-aso-expert-guide",
+     "title": "Apple Store ASO Expert Guide",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "pusuknane",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-06-17"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-apple-store-aso-expert-guide/",
+     "source": "prompts.chat"
+    }
+   ]
+  }
+ ]
+}

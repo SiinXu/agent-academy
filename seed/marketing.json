@@ -1,0 +1,707 @@
+{
+ "industry": "marketing",
+ "generated_at": "2026-10-15T09:54:08+00:00",
+ "count": 20,
+ "items": [
+  {
+   "id": "anthropics-knowledge-work-plugins-marketing",
+   "title": "Marketing plugin (Anthropic knowledge-work-plugins)",
+   "type": "plugin",
+   "industry": "marketing",
+   "roles": [
+    "marketing-manager"
+   ],
+   "summary_source": "A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice management, competitive analysis, and performance reporting.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/README.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-marketing-skills-campaign-plan-skill-md",
+   "title": "campaign-plan",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "marketing-manager"
+   ],
+   "summary_source": "Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics. Use when planning a product launch, lead-gen push, or awareness campaign, when you need a week-by-week content calendar with dependencies, or when translating a marketing goa",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-plan/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/campaign-plan/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill campaign-plan",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-marketing-skills-seo-audit-skill-md",
+   "title": "seo-audit",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "seo-specialist"
+   ],
+   "summary_source": "Run a comprehensive SEO audit — keyword research, on-page analysis, content gaps, technical checks, and competitor comparison. Use when assessing a site's SEO health, when finding keyword opportunities and content gaps competitors own, or when you need a prioritized action plan split into quick wins",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/seo-audit/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/seo-audit/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill seo-audit",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-marketing-skills-email-sequence-skill-md",
+   "title": "email-sequence",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "email-marketer"
+   ],
+   "summary_source": "Design and draft multi-email sequences with full copy, timing, branching logic, exit conditions, and performance benchmarks. Use when building onboarding, lead nurture, re-engagement, win-back, or product launch flows, when you need a complete drip campaign with A/B test suggestions, or when mapping",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/email-sequence/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/email-sequence/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill email-sequence",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-marketing-skills-competitive-brief-skill-md",
+   "title": "competitive-brief",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "product-marketer"
+   ],
+   "summary_source": "Research competitors and generate a positioning and messaging comparison with content gaps, opportunities, and threats. Use when building sales battlecards, when finding positioning gaps and messaging angles competitors haven't claimed, or when a competitor makes a move and you need to assess the im",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/competitive-brief/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-brief/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill competitive-brief",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-marketing-skills-performance-report-skill-md",
+   "title": "performance-report",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "marketing-analyst"
+   ],
+   "summary_source": "Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summ",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill performance-report",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "anthropics-knowledge-work-plugins-marketing-skills-brand-review-skill-md",
+   "title": "brand-review",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "content-marketer"
+   ],
+   "summary_source": "Review content against your brand voice, style guide, and messaging pillars, flagging deviations by severity with specific before/after fixes. Use when checking a draft before it ships, when auditing copy for voice consistency and terminology, or when screening for unsubstantiated claims, missing di",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/brand-review/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-review/SKILL.md",
+   "repo": "anthropics/knowledge-work-plugins",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/knowledge-work-plugins --skill brand-review",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 29728,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-copywriting-skill-md",
+   "title": "copywriting",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "content-marketer"
+   ],
+   "summary_source": "When the user wants to write, rewrite, or improve marketing copy for any page, including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"C",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/copywriting/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill copywriting",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-seo-audit-skill-md",
+   "title": "seo-audit",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "seo-specialist"
+   ],
+   "summary_source": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"s",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/seo-audit/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/seo-audit/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill seo-audit",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-ai-seo-skill-md",
+   "title": "ai-seo",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "seo-specialist"
+   ],
+   "summary_source": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatG",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ai-seo/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ai-seo/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill ai-seo",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-content-strategy-skill-md",
+   "title": "content-strategy",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "content-marketer"
+   ],
+   "summary_source": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content m",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/content-strategy/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/content-strategy/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill content-strategy",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-cold-email-skill-md",
+   "title": "cold-email",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "growth-marketer"
+   ],
+   "summary_source": "Write and run B2B cold outbound that gets replies, from cold emails and follow-ups to sending setup, LinkedIn, multichannel cadences, and reply handling. Use when the user mentions \"cold email,\" \"cold outreach,\" \"outbound,\" \"prospecting email,\" \"SDR emails,\" \"follow-up sequence,\" \"nobody's replying,",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cold-email/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/cold-email/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill cold-email",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-ads-skill-md",
+   "title": "ads",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "paid-ads-specialist"
+   ],
+   "summary_source": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'Linked",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ads/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ads/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill ads",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-analytics-skill-md",
+   "title": "analytics",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "marketing-analyst"
+   ],
+   "summary_source": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I m",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/analytics/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/analytics/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill analytics",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "coreyhaines31-marketingskills-skills-launch-skill-md",
+   "title": "launch",
+   "type": "skill",
+   "industry": "marketing",
+   "roles": [
+    "product-marketer"
+   ],
+   "summary_source": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'site launch,' 'g",
+   "summary_lang": "en",
+   "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/launch/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/launch/SKILL.md",
+   "repo": "coreyhaines31/marketingskills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add coreyhaines31/marketingskills --skill launch",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 54814,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit",
+   "title": "ai_seo_audit_team",
+   "type": "case",
+   "industry": "marketing",
+   "roles": [
+    "seo-specialist"
+   ],
+   "summary_source": "The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimization report. The app uses **Firecrawl via MCP (Model Context Protocol)** for a",
+   "summary_lang": "en",
+   "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team",
+   "raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team/README.md",
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 141810,
+    "repo_pushed_at": "2026-10-13"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag",
+   "title": "ai_email_gtm_outreach_agent",
+   "type": "case",
+   "industry": "marketing",
+   "roles": [
+    "growth-marketer"
+   ],
+   "summary_source": "An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Marketing), researches website + Reddit insights, and drafts tailored emails in your s",
+   "summary_lang": "en",
+   "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent",
+   "raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent/README.md",
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 141810,
+    "repo_pushed_at": "2026-10-13"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "google-adk-recipes-contrib-python-brand-search-optimization",
+   "title": "brand-search-optimization",
+   "type": "workflow",
+   "industry": "marketing",
+   "roles": [
+    "seo-specialist"
+   ],
+   "summary_source": "This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer Use.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization",
+   "raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/contrib/python/brand-search-optimization/README.md",
+   "repo": "google/adk-recipes",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 10452,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "cyanheads-mailchimp-mcp-server",
+   "title": "Mailchimp MCP server",
+   "type": "mcp",
+   "industry": "marketing",
+   "roles": [
+    "email-marketer"
+   ],
+   "summary_source": "Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image and template directories for authoring. Runs as a stdio process or a local Streama",
+   "summary_lang": "en",
+   "source_url": "https://github.com/cyanheads/mailchimp-mcp-server",
+   "raw_url": "https://raw.githubusercontent.com/cyanheads/mailchimp-mcp-server/main/README.md",
+   "repo": "cyanheads/mailchimp-mcp-server",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "see README; needs Mailchimp API key; can SEND campaigns (write access)",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 2,
+    "repo_pushed_at": "2026-10-13"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": true
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  },
+  {
+   "id": "m-pineapple-hubspot-auditor",
+   "title": "HubSpot auditor MCP (read-only)",
+   "type": "mcp",
+   "industry": "marketing",
+   "roles": [
+    "marketing-analyst"
+   ],
+   "summary_source": "Read-only audit of a HubSpot portal. You get a scored report of what works, what is broken, and what is missing, plus a 30/60/90-day fix plan.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/M-Pineapple/hubspot-auditor",
+   "raw_url": "https://raw.githubusercontent.com/M-Pineapple/hubspot-auditor/main/README.md",
+   "repo": "M-Pineapple/hubspot-auditor",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 1,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": true,
+    "needs_credentials": true
+   },
+   "checked_at": "2026-10-15T09:54:08+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   }
+  }
+ ]
+}

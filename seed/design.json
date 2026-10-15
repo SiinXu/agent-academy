@@ -1,0 +1,424 @@
+{
+ "industry": "design",
+ "generated_at": "2026-10-15T09:56:09+00:00",
+ "count": 12,
+ "items": [
+  {
+   "id": "ui-resource-hub",
+   "title": "UI Hub (Sii n's UI resource hub) — llms.txt / api",
+   "type": "style-library",
+   "industry": "design",
+   "roles": [
+    "ui-designer"
+   ],
+   "summary_source": "Curated multilingual directory of ~2,391 public UI resources with visual-style (vs) facets, design KB (specs, skills), JSON endpoints and a recommended design-skill workflow.",
+   "summary_lang": "en",
+   "source_url": "https://siinxu.github.io/ui-resource-hub/llms.txt",
+   "raw_url": null,
+   "repo": null,
+   "license": "aggregator; per-item license",
+   "redistributable": false,
+   "content_policy": "link-and-summary-only",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {},
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": null
+   },
+   "course_step": "2-pick-style"
+  },
+  {
+   "id": "ui-resource-hub-skills",
+   "title": "UI Hub skills.json (recommended design workflow)",
+   "type": "workflow",
+   "industry": "design",
+   "roles": [
+    "ui-designer"
+   ],
+   "summary_source": "Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+dark, mobile.",
+   "summary_lang": "en",
+   "source_url": "https://siinxu.github.io/ui-resource-hub/api/skills.json",
+   "raw_url": null,
+   "repo": null,
+   "license": "aggregator",
+   "redistributable": false,
+   "content_policy": "link-and-summary-only",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {},
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": null
+   },
+   "course_step": "3-learn-rules"
+  },
+  {
+   "id": "anthropics-skills-skills-frontend-design-skill-md",
+   "title": "frontend-design",
+   "type": "skill",
+   "industry": "design",
+   "roles": [
+    "frontend-designer"
+   ],
+   "summary_source": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+   "repo": "anthropics/skills",
+   "license": "Apache-2.0 (per-skill LICENSE.txt; docx/pdf/pptx/xlsx are source-available, excluded)",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": "npx skills add anthropics/skills --skill frontend-design",
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 181256,
+    "repo_pushed_at": "2026-10-09"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "course_step": "3-learn-rules"
+  },
+  {
+   "id": "leonxlnx-taste-skill-skills-minimalist-skill-skill-md",
+   "title": "minimalist-ui",
+   "type": "skill",
+   "industry": "design",
+   "roles": [
+    "frontend-designer"
+   ],
+   "summary_source": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/leonxlnx/taste-skill/blob/main/skills/minimalist-skill/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/leonxlnx/taste-skill/main/skills/minimalist-skill/SKILL.md",
+   "repo": "leonxlnx/taste-skill",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 96868,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "course_step": "3-learn-rules"
+  },
+  {
+   "id": "leonxlnx-taste-skill-skills-redesign-skill-skill-md",
+   "title": "redesign-existing-projects",
+   "type": "skill",
+   "industry": "design",
+   "roles": [
+    "frontend-designer"
+   ],
+   "summary_source": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/leonxlnx/taste-skill/main/skills/redesign-skill/SKILL.md",
+   "repo": "leonxlnx/taste-skill",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 96868,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "course_step": "4-build"
+  },
+  {
+   "id": "pbakaus-impeccable-claude-skills-impeccable-skill-md",
+   "title": "impeccable",
+   "type": "skill",
+   "industry": "design",
+   "roles": [
+    "design-reviewer"
+   ],
+   "summary_source": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, ",
+   "summary_lang": "en",
+   "source_url": "https://github.com/pbakaus/impeccable/blob/main/.claude/skills/impeccable/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/pbakaus/impeccable/main/.claude/skills/impeccable/SKILL.md",
+   "repo": "pbakaus/impeccable",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 81385,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "course_step": "5-self-check"
+  },
+  {
+   "id": "nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-design-system-skill-md",
+   "title": "design-system",
+   "type": "skill",
+   "industry": "design",
+   "roles": [
+    "design-system-engineer"
+   ],
+   "summary_source": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/design-system/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/design-system/SKILL.md",
+   "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 136019,
+    "repo_pushed_at": "2026-10-15"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "course_step": "3-learn-rules"
+  },
+  {
+   "id": "emilkowalski-skills-skills-emil-design-eng-skill-md",
+   "title": "emil-design-eng",
+   "type": "skill",
+   "industry": "design",
+   "roles": [
+    "interaction-designer"
+   ],
+   "summary_source": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+   "summary_lang": "en",
+   "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/emil-design-eng/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/emilkowalski/skills/main/skills/emil-design-eng/SKILL.md",
+   "repo": "emilkowalski/skills",
+   "license": "MIT",
+   "redistributable": true,
+   "content_policy": "mirror-with-attribution",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 46357,
+    "repo_pushed_at": "2026-10-11"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "course_step": "4-build"
+  },
+  {
+   "id": "vercel-labs-agent-skills-skills-web-design-guidelines-skill-md",
+   "title": "web-design-guidelines",
+   "type": "skill",
+   "industry": "design",
+   "roles": [
+    "design-reviewer"
+   ],
+   "summary_source": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+   "summary_lang": "en",
+   "source_url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/web-design-guidelines/SKILL.md",
+   "repo": "vercel-labs/agent-skills",
+   "license": "NONE (no license file; GitHub API license=null)",
+   "redistributable": false,
+   "content_policy": "link-and-summary-only",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {
+    "repo_stars": 32455,
+    "repo_pushed_at": "2026-10-14"
+   },
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": 200
+   },
+   "course_step": "5-self-check"
+  },
+  {
+   "id": "material-3",
+   "title": "Material Design 3",
+   "type": "design-system",
+   "industry": "design",
+   "roles": [
+    "design-system-engineer"
+   ],
+   "summary_source": "Google's open-source design system: foundations, styles (color, typography, motion), components.",
+   "summary_lang": "en",
+   "source_url": "https://m3.material.io/",
+   "raw_url": null,
+   "repo": null,
+   "license": "Google site terms; link only",
+   "redistributable": false,
+   "content_policy": "link-and-summary-only",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {},
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": null
+   },
+   "course_step": "3-learn-rules"
+  },
+  {
+   "id": "apple-hig",
+   "title": "Apple Human Interface Guidelines",
+   "type": "design-system",
+   "industry": "design",
+   "roles": [
+    "ui-designer"
+   ],
+   "summary_source": "Apple's platform design guidance: foundations, patterns, components, inputs, technologies.",
+   "summary_lang": "en",
+   "source_url": "https://developer.apple.com/design/human-interface-guidelines",
+   "raw_url": null,
+   "repo": null,
+   "license": "Apple terms; link only",
+   "redistributable": false,
+   "content_policy": "link-and-summary-only",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {},
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": null
+   },
+   "course_step": "3-learn-rules"
+  },
+  {
+   "id": "wcag-22",
+   "title": "WCAG 2.2 (W3C Recommendation)",
+   "type": "standard",
+   "industry": "design",
+   "roles": [
+    "design-reviewer"
+   ],
+   "summary_source": "Web Content Accessibility Guidelines 2.2: testable success criteria for accessible web content.",
+   "summary_lang": "en",
+   "source_url": "https://www.w3.org/TR/WCAG22/",
+   "raw_url": null,
+   "repo": null,
+   "license": "W3C Document License; link + quote with attribution",
+   "redistributable": false,
+   "content_policy": "link-and-summary-only",
+   "install": null,
+   "languages": [
+    "en"
+   ],
+   "metrics": {},
+   "security": {
+    "audited": false,
+    "executes_code": false,
+    "needs_credentials": false
+   },
+   "checked_at": "2026-10-15T09:56:09+00:00",
+   "http_status": {
+    "source": 200,
+    "raw": null
+   },
+   "course_step": "5-self-check"
+  }
+ ]
+}
