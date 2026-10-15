@@ -20,7 +20,7 @@ export function makeChrome({ BASE, REPO, UPDATED, LOCALES, UI, t, esc }) {
 <nav class="tabs-list" aria-label="Main">${MAIN.map(([h, k]) => `<a href="${u(h)}"${cur(active, k)}>${i(k)}</a>`).join('')}</nav>
 <div class="nav-r">${tools('btn btn-g btn-ic')}${menu(active, 'btn btn-o btn-ic')}</div></div></header>`;
     const dock = [...MAIN, ...MORE];
-    const b = `<header class="top sk-hdr" data-sk-only="b" data-mod="nav"><div class="wrap"><a class="brand" href="${u()}"><i>${ic('sparkles')}</i><span>Agent Academy</span></a>
+    const b = `<header class="top sk-hdr" data-sk-only="b" data-mod="nav"><div class="wrap"><a class="brand" aria-label="Agent Academy" href="${u()}"><i>${ic('sparkles')}</i><span>Agent Academy</span></a>
 <nav class="dock" data-dock aria-label="Main">${dock.map(([h, k, icn]) => `<a class="dock-item" href="${u(h)}" aria-label="${esc(t(k))}" data-i-aria="${k}"${cur(active, k)}><span class="dock-tip">${i(k)}</span><span class="dock-ic">${ic(icn)}</span></a>`).join('')}<span class="dock-sep"></span><button class="dock-item" type="button" data-theme-toggle aria-label="${esc(t('nav.theme'))}" data-i-aria="nav.theme"><span class="dock-tip">${i('nav.theme')}</span><span class="dock-ic">${ic('sun', 'ic i-sun')}${ic('moon', 'ic i-moon')}</span></button></nav>
 <div class="tools tools-b">${skinSw()}${langSel()}</div>
 <div class="dock-m"><button type="button" aria-expanded="false" aria-label="${esc(t('nav.menu'))}" data-i-aria="nav.menu" data-dock-m>${ic('menu')}</button><ul>${dock.map(([h, k, icn], n) => `<li style="--i:${n}"><a href="${u(h)}" aria-label="${esc(t(k))}" data-i-aria="${k}"${cur(active, k)}>${ic(icn)}</a></li>`).join('')}<li style="--i:${dock.length}"><button type="button" data-theme-toggle aria-label="${esc(t('nav.theme'))}" data-i-aria="nav.theme">${ic('sun', 'ic i-sun')}${ic('moon', 'ic i-moon')}</button></li></ul></div></div></header>`;
@@ -36,10 +36,10 @@ export function makeChrome({ BASE, REPO, UPDATED, LOCALES, UI, t, esc }) {
   function footer() {
     const a = `<footer class="foot sk-ftr" data-sk-only="a" data-mod="footer"><div class="wrap"><div><a class="logo" href="${u()}"><span class="logo-m">${ic('sparkles')}</span>Agent Academy</a><p>${i('footer.note')}</p></div>${cols()}</div>
 <div class="foot-b"><div class="wrap"><span>${upd}</span><span>${i('skin.a_full')}</span></div></div></footer>`;
-    const b = `<footer class="foot sk-ftr" data-sk-only="b" data-mod="footer"><div class="wrap"><div><a class="brand" style="position:static" href="${u()}"><i>${ic('sparkles')}</i>Agent Academy</a><p>${i('footer.note')}</p></div>${cols().replaceAll('<h3 class="fh">', '<h3 class="fh lbl">')}</div>
+    const b = `<footer class="foot sk-ftr" data-sk-only="b" data-mod="footer"><div class="wrap"><div><a class="brand" aria-label="Agent Academy" style="position:static" href="${u()}"><i>${ic('sparkles')}</i>Agent Academy</a><p>${i('footer.note')}</p></div>${cols().replaceAll('<h3 class="fh">', '<h3 class="fh lbl">')}</div>
 <div class="foot-b"><div class="wrap"><span class="lbl">${upd}</span><span class="lbl">${i('skin.b_full')}</span></div></div></footer>`;
     const c = `<footer class="foot sk-ftr" data-sk-only="c" data-mod="footer"><div class="wrap"><div><a class="logo" href="${u()}">Agent <i>Academy</i></a><p>${i('footer.note')}</p></div>${cols()}</div>
-<p class="foot-big" aria-hidden="true">Agent <i>Academy</i></p>
+<p class="foot-big" aria-hidden="true" data-t="Agent "><i data-t="Academy"></i></p>
 <div class="foot-b"><div class="wrap"><span>${upd}</span><span>${i('skin.c_full')}</span></div></div></footer>`;
     return a + b + c;
   }

@@ -398,7 +398,8 @@ const FONTS = `@font-face{font-family:"Geist";src:url(${u('assets/fonts/geist-la
 @font-face{font-family:"Instrument Serif";src:url(${u('assets/fonts/instrument-serif-latin.woff2')}) format("woff2");font-weight:400;font-display:swap}
 @font-face{font-family:"Instrument Serif";src:url(${u('assets/fonts/instrument-serif-italic-latin.woff2')}) format("woff2");font-weight:400;font-style:italic;font-display:swap}`;
 const css = [FONTS, fs.readFileSync(path.join(ROOT, 'src/base.css'), 'utf8'), await scopeSkins(H.css), fs.readFileSync(path.join(ROOT, 'src/pages.css'), 'utf8')].join('\n');
-fs.writeFileSync(path.join(A, 'site.css'), css.replaceAll('__BASE__', BASE));
+const minCss = (x) => x.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s+/g, ' ').replace(/\s*([{};])\s*/g, '$1').replace(/;}/g, '}').trim();
+fs.writeFileSync(path.join(A, 'site.css'), minCss(css.replaceAll('__BASE__', BASE)));
 fs.writeFileSync(path.join(A, 'app.js'), fs.readFileSync(path.join(ROOT, 'src/app.js'), 'utf8'));
 fs.writeFileSync(path.join(A, 'engine.js'), fs.readFileSync(path.join(ROOT, 'src/engine.js'), 'utf8').replace('"__BB_SVG__"', JSON.stringify(H.bgBeams('p'))));
 console.log(JSON.stringify({ items: ALL.length, live: LIVE.length, courses: COURSE_LIST.length, css_kb: Math.round(css.length / 1024), stats }, null, 0));

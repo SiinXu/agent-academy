@@ -62,7 +62,7 @@ h1{font:400 clamp(52px,7vw,92px)/.95 var(--f-disp);letter-spacing:-.02em;margin:
 .sf-screen{background:var(--card)}
 .doc{padding:22px 26px;font-size:12px;line-height:1.5;color:var(--ink2);height:100%;overflow:hidden;-webkit-mask-image:linear-gradient(#000 78%,transparent);mask-image:linear-gradient(#000 78%,transparent)}
 .doc-k{font:500 10px/1 var(--f-mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
-.doc h4{margin:8px 0 4px;font:400 28px/1.05 var(--f-disp);color:var(--ink)}
+.doc .doc-h{margin:8px 0 4px;font:400 28px/1.05 var(--f-disp);color:var(--ink)}
 .doc p{margin:0 0 12px;max-width:44ch;color:var(--muted)}
 .doc ol{list-style:none;margin:0;padding:0;display:grid;gap:7px}
 .doc li{display:grid;grid-template-columns:22px 1fr auto;gap:10px;align-items:start;padding:8px 10px;border-radius:10px;background:var(--muted-bg)}
@@ -253,14 +253,15 @@ h1{font:400 clamp(52px,7vw,92px)/.95 var(--f-disp);letter-spacing:-.02em;margin:
 .foot .fh{margin:0 0 14px;font:500 11px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}.foot li a{font-size:14px;color:var(--ink2)}.foot li a:hover{color:var(--acc-text)}
 .foot p{color:var(--muted);font-size:14px;max-width:340px}
-.foot .foot-big{font:400 clamp(64px,13vw,184px)/.8 var(--f-disp);letter-spacing:-.03em;color:var(--line);text-align:center;margin:0;padding:0 0 8px;white-space:nowrap;overflow:hidden;user-select:none}
+.foot .foot-big{max-width:none;width:100%;box-sizing:border-box;font:400 clamp(64px,13vw,184px)/.8 var(--f-disp);letter-spacing:-.03em;color:var(--line);text-align:center;margin:0;padding:0 0 8px;white-space:nowrap;overflow:hidden;user-select:none}
 .foot .foot-big i{color:color-mix(in srgb,var(--acc) 30%,var(--line))}
+.foot .foot-big::before,.foot .foot-big i::before{content:attr(data-t)}
 .foot-b{border-top:1px solid var(--line)}.foot-b .wrap{display:flex;justify-content:space-between;padding-top:16px;padding-bottom:16px;font-size:12.5px;color:var(--muted)}
 @media (max-width:1024px){.hero .wrap{grid-template-columns:1fr}.opt-style{grid-template-columns:repeat(4,1fr)}.opt-plat{grid-template-columns:repeat(3,1fr)}.mosaic{grid-template-columns:1fr 1fr}.tgrid{grid-template-columns:1fr 1fr}}
 @media (max-width:760px){
  .wrap{padding:0 16px}.nav .wrap{grid-template-columns:1fr auto}.da{display:none}.nav-r .gh{display:none}
  .hero .wrap{padding-top:48px;padding-bottom:48px;gap:36px}.stats{grid-template-columns:repeat(2,1fr);gap:20px}
- .doc{padding:12px 14px;font-size:10.5px}.doc h4{font-size:18px}.doc p{display:none}.doc li{padding:5px 8px;grid-template-columns:18px 1fr}.doc li span{display:none}.doc li small{max-width:200px}
+ .doc{padding:12px 14px;font-size:10.5px}.doc .doc-h{font-size:18px}.doc p:not(.doc-h){display:none}.doc li{padding:5px 8px;grid-template-columns:18px 1fr}.doc li span{display:none}.doc li small{max-width:200px}
  .sec{padding-top:80px}.sec-h{grid-template-columns:1fr}.sec-h h2{font-size:38px}
  .mosaic{grid-template-columns:1fr}.tex.span2{grid-column:auto}.mc-thumbs{grid-template-columns:repeat(2,1fr)}.mc-thumbs figure:nth-child(3){display:none}
  .wz{border-radius:20px}.wz-head{grid-template-columns:1fr;padding:20px 16px 0}.wz-head h3{font-size:28px}.wz-tabs{gap:0;justify-content:space-between}.wz-tabs button{font-size:13px}
@@ -303,7 +304,7 @@ h1{font:400 clamp(52px,7vw,92px)/.95 var(--f-disp);letter-spacing:-.02em;margin:
 <p class="lede">${n('h.lede', C.total)}</p>
 <div class="cta" data-mod="buttons"><a class="btn btn-p btn-lg" href="#start">${i('hero.cta')}${ic('right')}</a><a class="btn btn-o btn-lg" href="${BASE}library/">${i('hero.cta2')}</a></div>
 <div class="stats" data-mod="stats"><div class="stat"><b data-ticker="${C.total}">${nf(C.total)}</b>${i('stat.resources')}</div><div class="stat"><b data-ticker="${C.skills}">${nf(C.skills)}</b>${i('h.skills')}</div><div class="stat"><b data-ticker="${C.mcp}">${nf(C.mcp)}</b>${i('stat.mcp')}</div><div class="stat"><b data-ticker="${C.prompts}">${nf(C.prompts)}</b>${i('h.prompts')}</div></div></div>
-<div class="sf-wrap" data-mod="hero-visual"><div class="safari"><div class="sf-screen"><div class="doc"><span class="doc-k">academy/courses/design/ui-designer.md</span><h4>${tx('roles', 'ui-designer')} · ${i('h.five_steps')}</h4><p data-x="goal.design">${esc(course.goal)}</p>
+<div class="sf-wrap" data-mod="hero-visual"><div class="safari"><div class="sf-screen"><div class="doc"><span class="doc-k">academy/courses/design/ui-designer.md</span><p class="doc-h">${tx('roles', 'ui-designer')} · ${i('h.five_steps')}</p><p data-x="goal.design">${esc(course.goal)}</p>
 <ol>${steps.map((s, k) => `<li><em>0${k + 1}</em><div><b>${i('step.' + s.key)}</b><small>${esc(s.eg)}</small></div><span>${s.n} ${i('src.items')}</span></li>`).join('')}</ol></div></div>${SAFARI}</div></div></div></section>
 
 <section class="sec wrap" id="professions"><div class="sec-h"><div><p class="kick"><b>01</b> · ${i('h.k_prof')}</p><h2>${i('h.prof_t')}</h2><p>${i('h.prof_s')}</p></div><a class="btn btn-o" href="${BASE}courses/">${i('h.all_courses')}${ic('right')}</a></div>
