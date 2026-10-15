@@ -42,7 +42,7 @@ export const DIRS = {
 export const MAP = {
   a: {
     nav: c('Tabs (pill list as segmented nav)', SH, 'cs-ui-shadcn-com-tabs', P('cs-ui-shadcn-com-tabs'), 'https://ui.shadcn.com/docs/components/base/tabs', 'sh-tabs'),
-    'hero-bg': c('Flickering Grid', MU, 'magicui-design', P('cs2-magicui-design--background--flickering-grid--v0'), 'https://magicui.design/docs/components/flickering-grid', 'mu-flickering-grid', 'component preview exists in Hub; the Hub item is the Magic UI library card'),
+    'hero-bg': c('Flickering Grid', MU, 'cs2-magicui-design--background--flickering-grid--v0', P('cs2-magicui-design--background--flickering-grid--v0'), 'https://magicui.design/docs/components/flickering-grid', 'mu-flickering-grid'),
     hero: c('Word Rotate', MU, 'magicui-design', P('cs2-magicui-design--motion--word-rotate--v0'), 'https://magicui.design/docs/components/word-rotate', 'mu-word-rotate'),
     'hero-visual': c('Animated Beam · Multiple Inputs', MU, 'cs2-magicui-design--loader--animated-beam--v3', P('cs2-magicui-design--loader--animated-beam--v3'), 'https://magicui.design/docs/components/animated-beam#animated-beam-multiple-inputs', 'mu-animated-beam'),
     stats: shared.ticker, buttons: shared.shBtn,
@@ -90,24 +90,24 @@ export const MAP = {
     'before-after': shared.compare, footer: shared.footer,
   },
   c: {
-    nav: c('Direction Aware Tabs', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/direction-aware-tabs', 'cult-direction-aware-tabs'),
+    nav: c('Direction Aware Tabs', CU, 'cs2-www-cult-ui-com--tabs--direction-aware-tabs--v0', P('cs2-www-cult-ui-com--tabs--direction-aware-tabs--v0'), 'https://www.cult-ui.com/docs/components/direction-aware-tabs', 'cult-direction-aware-tabs'),
     'hero-bg': c('Hero Highlight (dot background)', AC, 'cs2-ui-aceternity-com--motion--hero-highlight--v1', P('cs2-ui-aceternity-com--motion--hero-highlight--v1'), 'https://ui.aceternity.com/components/hero-highlight', 'ac-hero-highlight'),
     hero: c('Hero Highlight · Highlight', AC, 'cs2-ui-aceternity-com--motion--hero-highlight--v1', P('cs2-ui-aceternity-com--motion--hero-highlight--v1'), 'https://ui.aceternity.com/components/hero-highlight#highlight-props', 'ac-hero-highlight'),
     'hero-visual': c('Safari', MU, 'cs2-magicui-design--layout--safari--v2', P('cs2-magicui-design--layout--safari--v2'), 'https://magicui.design/docs/components/safari', 'mu-safari'),
     stats: shared.ticker, buttons: shared.shBtn,
-    showcase: c('Texture Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card'),
-    'showcase-cs': c('Texture Card (content list)', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card'),
-    'showcase-mk': c('Texture Card (content list)', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card'),
+    showcase: c('Texture Card', CU, 'cs2-www-cult-ui-com--card--texture-card--v0', P('cs2-www-cult-ui-com--card--texture-card--v0'), 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card'),
+    'showcase-cs': c('Texture Card (content list)', CU, 'cs2-www-cult-ui-com--card--texture-card--v0', P('cs2-www-cult-ui-com--card--texture-card--v0'), 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card'),
+    'showcase-mk': c('Texture Card (content list)', CU, 'cs2-www-cult-ui-com--card--texture-card--v0', P('cs2-www-cult-ui-com--card--texture-card--v0'), 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card'),
     wizard: c('Card', SH, 'cs2-ui-shadcn-com--card--card--v0', P('cs2-ui-shadcn-com--card--card--v0'), 'https://ui.shadcn.com/docs/components/base/card', 'sh-card'),
     'wizard-accent': c('Shine Border · Monotone', MU, 'cs2-magicui-design--background--shine-border--v1', P('cs2-magicui-design--background--shine-border--v1'), 'https://magicui.design/docs/components/shine-border#monotone', 'mu-shine-border'),
     steps: c('Tabs · Line + Progress', SH, 'cs2-lib-www-shadcn-svelte-com--tabs--tabs--v1', P('cs2-lib-www-shadcn-svelte-com--tabs--tabs--v1'), 'https://ui.shadcn.com/docs/components/base/tabs', 'sh-tabs (variant=line) + sh-progress; panel motion from cult-direction-aware-tabs'),
-    step1: c('Minimal Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card'),
+    step1: c('Minimal Card', CU, 'cs2-www-cult-ui-com--card--minimal-card--v0', P('cs2-www-cult-ui-com--card--minimal-card--v0'), 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card'),
     custom: shared.field, step2: shared.radioCard,
     style: c('3D Card Effect', AC, 'cs2-ui-aceternity-com--card--3d-card-effect--v0', P('cs2-ui-aceternity-com--card--3d-card-effect--v0'), 'https://ui.aceternity.com/components/3d-card-effect', 'ac-3d-card'),
-    platform: c('Minimal Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card'),
+    platform: c('Minimal Card', CU, 'cs2-www-cult-ui-com--card--minimal-card--v0', P('cs2-www-cult-ui-com--card--minimal-card--v0'), 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card'),
     lang: shared.badge, summary: shared.badge1,
     generate: c('Pulsating Button', MU, 'cs2-magicui-design--button--pulsating-button--v1', P('cs2-magicui-design--button--pulsating-button--v1'), 'https://magicui.design/docs/components/pulsating-button', 'mu-pulsating-button'),
-    terminal: c('Code Block + Typing Animation', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/code-block', 'cult-code-block + mu-typing-animation'),
+    terminal: c('Code Block + Typing Animation', CU, 'cs2-www-cult-ui-com--editor--code-block--v0', P('cs2-www-cult-ui-com--editor--code-block--v0'), 'https://www.cult-ui.com/docs/components/code-block', 'cult-code-block + mu-typing-animation'),
     files: c('Animated Beam', MU, 'cs-magicui-design-loader', P('cs-magicui-design-loader'), 'https://magicui.design/docs/components/animated-beam', 'mu-animated-beam (+ cult-minimal-card tiles)'),
     copy: shared.copy, restart: shared.shBtn,
     feed: c('Tweet Card (grid)', MU, 'cs2-magicui-design--card--tweet-card--v2', P('cs2-magicui-design--card--tweet-card--v2'), 'https://magicui.design/docs/components/tweet-card', 'mu-tweet-card'),
@@ -118,8 +118,8 @@ export const MAP = {
 // ---------------------------------------------------------------- full site (all pages), per skin
 // SITE_MAP rows: [page, module key, label, {a, b, c}] (same object in all three = shared component, re-skinned by tokens).
 // `libLevel` notes mark rows whose Hub preview has no item id of its own, so the Hub id is the library entry.
-// Every SITE_MAP row now points at a component-level Hub item (r5.2). LIB_ONLY marks rows where UI Hub has no component-level
-// item for that library at all (Cult UI, Magic UI Flickering Grid, shadcn Blocks), so the library entry is the most specific Hub id.
+// Every SITE_MAP row now points at a component-level Hub item (r5.4: Cult UI Direction Aware Tabs / Minimal Card / Texture Card / Code Block + Magic UI Flickering Grid added to UI Hub).
+// LIB_ONLY kept for any future library-only fallbacks (currently unused in SITE_MAP).
 const LIB_ONLY = 'UI Hub has no component-level item for this library; the Hub id is its library entry';
 const RB = 'React Bits', SL = 'Shoelace', MT = 'Mantine', OP = 'Open Props';
 const S = {
@@ -135,15 +135,15 @@ const S = {
   tabs: c('Tabs', SH, 'cs-ui-shadcn-com-tabs', P('cs2-ui-shadcn-com--tabs--tabs--v0'), 'https://ui.shadcn.com/docs/components/tabs', 'sh-tabs'),
   menu: c('Context Menu · Basic (menu surface + items)', SH, 'cs2-ui-shadcn-com--menu--docs-components-context-menu--v1', P('cs2-ui-shadcn-com--menu--docs-components-context-menu--v1'), 'https://ui.shadcn.com/docs/components/base/context-menu#basic', 'sh-context-menu (base) + base-nova cn-context-menu-content / -item + cn-menu-translucent', 'opened by the header menu button (native <details>) instead of right-click'),
   timeline: c('Timeline (align left, bullets with child)', MT, 'cs2-lib-mantine-dev--timeline--core-timeline--v0', P('cs2-lib-mantine-dev--timeline--core-timeline--v0'), 'https://mantine.dev/core/timeline/', 'mantine-timeline (Timeline.module.css)', 'bullet 32px / line 2px (as in the Hub demo); `active` follows scroll; title row centred on the bullet'),
-  code: c('Code Block', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/code-block', 'cult-code-block', LIB_ONLY),
+  code: c('Code Block', CU, 'cs2-www-cult-ui-com--editor--code-block--v0', P('cs2-www-cult-ui-com--editor--code-block--v0'), 'https://www.cult-ui.com/docs/components/code-block', 'cult-code-block'),
   shCard: c('Card', SH, 'cs2-ui-shadcn-com--card--card--v0', P('cs2-ui-shadcn-com--card--card--v0'), 'https://ui.shadcn.com/docs/components/card', 'sh-card'),
   spot: c('Spotlight Card', RB, 'cs2-reactbits-dev--card--components-spotlight-card--v0', P('cs2-reactbits-dev--card--components-spotlight-card--v0'), 'https://reactbits.dev/components/spotlight-card', 'rb-spotlight-card (SpotlightCard.tsx + SpotlightCard.css, ts-default)', 'spotlightColor = B accent; other props at their defaults (size 240, intensity .15, softness .7, borderGlow .6, proximity 80, smoothing .3, flare on, grain 0)'),
-  minimal: c('Minimal Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card', LIB_ONLY),
+  minimal: c('Minimal Card', CU, 'cs2-www-cult-ui-com--card--minimal-card--v0', P('cs2-www-cult-ui-com--card--minimal-card--v0'), 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card'),
   magic: c('Magic Card', MU, 'cs-magicui-design-card', P('cs2-magicui-design--card--magic-card--v0'), 'https://magicui.design/docs/components/magic-card', 'mu-magic-card'),
   card3d: c('3D Card Effect', AC, 'cs2-ui-aceternity-com--card--3d-card-effect--v0', P('cs2-ui-aceternity-com--card--3d-card-effect--v0'), 'https://ui.aceternity.com/components/3d-card-effect', 'ac-3d-card'),
   muBento: c('Bento Grid', MU, 'cs-magicui-design-layout', P('cs2-magicui-design--layout--bento-grid--v0'), 'https://magicui.design/docs/components/bento-grid', 'mu-bento-grid'),
   acBento: c('Bento Grid', AC, 'cs-ui-aceternity-com-layout', P('cs-ui-aceternity-com-layout'), 'https://ui.aceternity.com/components/bento-grid', 'ac-bento-grid'),
-  texture: c('Texture Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card (flattened)', LIB_ONLY),
+  texture: c('Texture Card', CU, 'cs2-www-cult-ui-com--card--texture-card--v0', P('cs2-www-cult-ui-com--card--texture-card--v0'), 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card (flattened)'),
   collapsible: c('Collapsible · Settings Panel', SH, 'cs2-ui-shadcn-com--accordion--docs-components-collapsible--v2', P('cs2-ui-shadcn-com--accordion--docs-components-collapsible--v2'), 'https://ui.shadcn.com/docs/components/base/collapsible#settings-panel', 'sh-collapsible (base) + examples/base/collapsible-settings', 'hidden cards continue the same grid (display:contents = col-span-full subgrid); the outline trigger has a text label next to the Maximize/Minimize icon'),
   prose: c('Typography (normalize + font/size props)', OP, 'cs2-lib-open-props-style--layout--home--v0', P('cs2-lib-open-props-style--layout--home--v0'), 'https://open-props.style/#typography', 'op-normalize.css + op-props.fonts.js + op-props.sizes.js; rules checked with the better-typography skill (www-ui-skills-com-skills-jakubkrehel-better-typography)', 'UI Hub has no prose/article component; Open Props typography is the closest Hub item. List items use 60ch (Open Props: 45ch) to meet the 60–75ch measure'),
 };
