@@ -1,30 +1,35 @@
-/* Agent Academy client: i18n, theme, generator, library, motion. No dependencies. */
+/* Agent Academy client: i18n (10 locales), copy, tabs, library + template filters. No dependencies.
+   Theme, skin switching and all component motion live in engine.js. */
 (() => {
   const AA = window.AA || {}; const B = AA.base || '/'; const d = document.documentElement;
   const $ = (s, r = document) => r.querySelector(s); const $$ = (s, r = document) => [...r.querySelectorAll(s)];
-  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
   let lang = d.dataset.lang || 'en'; let I = null; const cache = {};
   const getJSON = (p) => (cache[p] ||= fetch(B + p).then((r) => (r.ok ? r.json() : null)).catch(() => null));
   const T = (k) => (I && I.ui[k]) || k;
   const TX = (g, k) => (I && I.tax[g] && I.tax[g][k]) || k;
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  window.__T = T; window.__TX = TX;
 
   // ---------- i18n
   async function applyLang(l) {
     lang = l; d.lang = l; d.dataset.lang = l;
     I = await getJSON(`assets/i18n/${l}.json`);
     if (!I) { d.classList.remove('i18n-wait'); return; }
+    const nf = new Intl.NumberFormat(l);
     $$('[data-i]').forEach((e) => { e.textContent = T(e.dataset.i); });
+    $$('[data-i-n]').forEach((e) => { e.textContent = T(e.dataset.iN).replace('{n}', nf.format(+e.dataset.n)); });
     $$('[data-i-ph]').forEach((e) => { e.placeholder = T(e.dataset.iPh); });
     $$('[data-i-aria]').forEach((e) => { e.setAttribute('aria-label', T(e.dataset.iAria)); });
-    $$('[data-tx]').forEach((e) => { const [g, k] = e.dataset.tx.split('.'); let s = TX(g, k); if (e.dataset.soon) s += ' · ' + T('fac.soon'); e.textContent = s; });
+    $$('[data-i-title]').forEach((e) => { const s = e.dataset.skinSet ? e.dataset.skinSet.toUpperCase() + ' · ' : ''; e.title = s + T(e.dataset.iTitle); e.setAttribute('aria-label', e.title); });
+    $$('[data-tx]').forEach((e) => { const [g, k] = e.dataset.tx.split('.'); e.textContent = TX(g, k); });
+    $$('[data-rotate-tx]').forEach((e) => { const [g, ks] = e.dataset.rotateTx.split(':'); const w = ks.split(',').map((k) => TX(g, k)); e.dataset.wordRotate = JSON.stringify(w); const sp = e.firstElementChild; if (sp && !w.includes(sp.textContent)) sp.textContent = w[0]; });
     $$('[data-only]').forEach((e) => { e.hidden = true; });
     const only = $$(`[data-only="${l}"]`); (only.length ? only : $$('[data-only="en"]')).forEach((e) => (e.hidden = false));
-    const sel = $('#lang'); if (sel) sel.value = l;
-    const gl = $('#g-lang'); if (gl && !gl.dataset.touched) gl.value = l;
+    $$('.lang-sel').forEach((s) => { s.value = l; });
     localTimes();
     await translateContent();
     d.classList.remove('i18n-wait');
-    if (window.__gen) window.__gen();
+    dispatchEvent(new Event('aa-i18n'));
   }
   async function translateContent() {
     const els = $$('[data-sid]'); const xs = $$('[data-x]');
@@ -35,110 +40,66 @@
     els.forEach((e) => { const s = map && map[e.dataset.sid]; if (s) swap(e, s); else restore(e); });
     if (xs.length) { const tx = await getJSON('api/l10n/texts.json'); xs.forEach((e) => { const s = tx && tx[lang] && tx[lang][e.dataset.x]; if (s) swap(e, s); else restore(e); }); }
   }
-  function swap(e, s) { if (!e.dataset.orig) e.dataset.orig = e.textContent; e.textContent = s; e.title = (I ? T('card.mt') : 'Machine translated') + ' · ' + T('card.orig') + ': ' + e.dataset.orig.slice(0, 300); e.classList.add('is-mt'); }
+  function swap(e, s) { if (!e.dataset.orig) e.dataset.orig = e.textContent; e.textContent = s; e.title = T('card.mt') + ' · ' + T('card.orig') + ': ' + e.dataset.orig.slice(0, 300); e.classList.add('is-mt'); }
   function restore(e) { if (e.dataset.orig) { e.textContent = e.dataset.orig; e.removeAttribute('title'); e.classList.remove('is-mt'); } }
   function localTimes() {
-    $$('time.ts').forEach((e) => { try { e.textContent = new Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: e.closest('.foot') ? 'short' : undefined }).format(new Date(e.dateTime)); } catch (_) {} });
+    $$('time.ts').forEach((e) => { try { const dt = new Date(e.dateTime); const full = e.dateTime.length > 10 && !/T12:00:00Z$/.test(e.dateTime); e.textContent = new Intl.DateTimeFormat(lang, full && e.closest('.foot') ? { dateStyle: 'medium', timeStyle: 'short' } : { dateStyle: 'medium' }).format(dt); } catch (_) {} });
   }
-  $('#lang')?.addEventListener('change', (ev) => { try { localStorage.setItem('aa-lang', ev.target.value); } catch (_) {} const u = new URL(location.href); u.searchParams.delete('lang'); history.replaceState(null, '', u); applyLang(ev.target.value); });
+  $$('.lang-sel').forEach((sel) => sel.addEventListener('change', (ev) => { try { localStorage.setItem('aa-lang', ev.target.value); } catch (_) {} const u = new URL(location.href); u.searchParams.delete('lang'); history.replaceState(null, '', u); applyLang(ev.target.value); }));
 
-  // ---------- theme
-  $('.theme')?.addEventListener('click', () => { const n = d.dataset.theme === 'dark' ? 'light' : 'dark'; d.dataset.theme = n; try { localStorage.setItem('aa-theme', n); } catch (_) {} });
-
-  // ---------- copy
+  // ---------- copy (any [data-copy="value"])
   async function copy(text, btn) {
     try { await navigator.clipboard.writeText(text); } catch (_) { const ta = document.createElement('textarea'); ta.value = text; document.body.append(ta); ta.select(); document.execCommand('copy'); ta.remove(); }
-    if (btn) { const o = btn.textContent; btn.textContent = T('qs.copied'); setTimeout(() => (btn.textContent = o), 1400); }
+    if (btn) { const lab = btn.querySelector('[data-i]') || btn; const k = lab.dataset.i; lab.textContent = T('qs.copied'); btn.dataset.copied = 'true'; setTimeout(() => { lab.textContent = k ? T(k) : lab.textContent; btn.dataset.copied = 'false'; }, 1400); }
   }
-  document.addEventListener('click', (e) => { const b = e.target.closest('[data-copy]'); if (b) copy(b.dataset.copy, b); });
+  document.addEventListener('click', (e) => { const b = e.target.closest('[data-copy]'); if (b && b.dataset.copy) copy(b.dataset.copy, b); });
 
-  // ---------- count-up (once, when visible)
-  const io = 'IntersectionObserver' in window ? new IntersectionObserver((es) => es.forEach((en) => { if (!en.isIntersecting) return; io.unobserve(en.target); tick(en.target); }), { threshold: .4 }) : null;
-  function tick(el) { const n = +el.dataset.count; if (RM || !n || window.__noTick) return; const t0 = performance.now(); const f = (t) => { const p = Math.min(1, (t - t0) / 900); el.textContent = Math.round(n * (1 - Math.pow(1 - p, 3))).toLocaleString(lang); if (p < 1) requestAnimationFrame(f); }; requestAnimationFrame(f); }
-  $$('[data-count]').forEach((e) => { e.textContent = (+e.dataset.count).toLocaleString(); io ? io.observe(e) : 0; });
+  // ---------- shadcn Tabs (latest / trending), arrow-key roving focus
+  $$('[data-tabs]').forEach((box) => {
+    const tabs = $$('[role="tab"]', box);
+    const sel = (t) => { tabs.forEach((x) => { const on = x === t; x.setAttribute('aria-selected', on); x.tabIndex = on ? 0 : -1; $('#' + x.getAttribute('aria-controls')).hidden = !on; }); };
+    tabs.forEach((t, i) => { t.addEventListener('click', () => sel(t)); t.addEventListener('keydown', (e) => { const j = e.key === 'ArrowRight' ? (i + 1) % tabs.length : e.key === 'ArrowLeft' ? (i - 1 + tabs.length) % tabs.length : -1; if (j > -1) { e.preventDefault(); tabs[j].focus(); sel(tabs[j]); } }); });
+    if (location.hash === '#trending') sel(tabs[1]);
+  });
 
-  // ---------- course chain (Rive-style traveler: steps through once when scrolled in, then waits for clicks)
-  const chips = $$('.chip-step');
-  function selectStep(s) { chips.forEach((c) => { const on = c.dataset.step === s; c.classList.toggle('on', on); c.setAttribute('aria-pressed', on); }); $$('.step-panel').forEach((p) => (p.hidden = p.dataset.panel !== s)); }
-  chips.forEach((c) => c.addEventListener('click', () => { travelling = false; selectStep(c.dataset.step); }));
-  let travelling = false;
-  if (chips.length && io && !RM) { const o2 = new IntersectionObserver((es) => { if (es[0].isIntersecting) { o2.disconnect(); travelling = true; let k = 0; const step = () => { if (!travelling) return; k++; if (k >= chips.length) { selectStep(chips[0].dataset.step); travelling = false; return; } selectStep(chips[k].dataset.step); setTimeout(step, 1600); }; setTimeout(step, 1600); } }, { threshold: .6 }); o2.observe($('.chain')); }
-
-  // ---------- pause offscreen animations
-  if (io) { const po = new IntersectionObserver((es) => es.forEach((en) => en.target.style.setProperty('--play', en.isIntersecting ? 'running' : 'paused'))); $$('.orbit,.mq,.hero-bg,.shine').forEach((e) => po.observe(e)); }
-
-  // ---------- before/after + tilt
-  const ba = $('.ba');
-  if (ba) {
-    const r = $('.ba-range', ba); r.addEventListener('input', () => ba.style.setProperty('--x', r.value + '%'));
-    if (!RM && matchMedia('(hover: hover)').matches) { ba.addEventListener('pointermove', (e) => { const b = ba.getBoundingClientRect(); ba.style.setProperty('--ry', ((e.clientX - b.left) / b.width - .5) * 6 + 'deg'); ba.style.setProperty('--rx', -((e.clientY - b.top) / b.height - .5) * 6 + 'deg'); }); ba.addEventListener('pointerleave', () => { ba.style.setProperty('--rx', '0deg'); ba.style.setProperty('--ry', '0deg'); }); }
-  }
-
-  // ---------- prompt generator (Quick start)
-  const gen = $('#gen');
-  if (gen && AA.page && AA.page.kind === 'home') {
-    const P = AA.page; const prof = $('#g-prof'), role = $('#g-role'), style = $('#g-style'), sw = $('#g-style-wrap'), gl = $('#g-lang'), plat = $('#g-plat'), safe = $('#g-safe'), goal = $('#g-goal'), out = $('#g-prompt'), files = $('#g-files');
-    const fill = () => { const cur = role.value; role.innerHTML = (P.roles[prof.value] || []).map((r) => `<option value="${r}">${TX('roles', r)}</option>`).join(''); if ([...role.options].some((o) => o.value === cur)) role.value = cur; sw.hidden = prof.value !== 'design'; };
-    const PLAT = { 'claude-code': 'shell', codex: 'shell', shell: 'shell', cursor: 'cursor', 'grok-bot': 'read', chatgpt: 'read', readonly: 'read' };
-    const fmt = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? '');
-    function render() {
-      fill();
-      const L = gl.value; const t = P.prompt[L] || P.prompt.en; const cid = `${prof.value}/${role.value}`; const c = P.courses[cid]; if (!c) return;
-      const names = I && I.tax ? I.tax : null; // UI language names; the prompt uses the chosen reply language for names when available
-      const tok = (render.tok = (render.tok || 0) + 1);
-      getJSON(`assets/i18n/${L}.json`).then((J) => {
-        if (tok !== render.tok) return;
-        const nm = (g, k) => (J && J.tax[g][k]) || (names && names[g][k]) || k;
-        const v = { site: AA.site + '/', goal: goal.value.trim() || (J ? J.ui['qs.bot_ph'] : ''), prof: nm('industries', prof.value), role: nm('roles', role.value), lang: J ? J.ui.lang_name : L, course: c.course, json: c.json, pack: c.pack, changes: P.changes, uihub: P.uihub, style: style.value, vs: style.value };
-        const lines = [fmt(t.intro, v), '', fmt(t.goal, v), fmt(t.job, v), fmt(t.lang, v), '', fmt(t.s1, v), fmt(t.s2, v)];
-        if (prof.value === 'design') lines.push(fmt(style.value ? t.style : t.style_any, v));
-        lines.push(t.s3, fmt(t[PLAT[plat.value]], v), safe.checked ? t.safe_on : t.safe_off, t.s6, '', fmt(t.updates, v));
-        out.textContent = lines.join('\n'); if (!RM) { out.classList.remove('flash'); void out.offsetWidth; out.classList.add('flash'); }
-        const fl = [['course.md', c.course], ['course.json', c.json], ['skill pack', c.pack]]; if (prof.value === 'design') fl.push(['UI Hub API', P.uihub], ['design case', P.caseRaw]); fl.push(['changes', P.changes]);
-        files.innerHTML = fl.map(([k, h]) => `<li><span>${k}</span><a href="${h}">${h.replace(/^https:\/\//, '')}</a></li>`).join('');
-      });
-    }
-    window.__gen = render;
-    [prof, role, style, plat, safe].forEach((e) => e.addEventListener('change', render)); gl.addEventListener('change', () => { gl.dataset.touched = 1; render(); });
-    let to; goal.addEventListener('input', () => { clearTimeout(to); to = setTimeout(render, 250); });
-    const PRE = { cs: ['customer-service', 'ecommerce-support', '', 'grok-bot', 'Answer refund and order-status emails for my Shopify store'], mk: ['marketing', 'seo-specialist', '', 'claude-code', 'Plan and write SEO blog posts for a B2B SaaS'], ds: ['design', 'ui-designer', 'motion', 'cursor', 'Design a landing page that does not look like a template'] };
-    $$('[data-preset]').forEach((b) => b.addEventListener('click', () => { const [p, r, s, pl, g] = PRE[b.dataset.preset]; prof.value = p; fill(); role.value = r; style.value = s; plat.value = pl; goal.value = g; render(); }));
-    $('#g-copy').addEventListener('click', (e) => copy(out.textContent, e.currentTarget));
-    $('[data-preset="ds"]').click(); gl.value = lang; render();
-  }
-
-  // ---------- library (client-side filter, 48 per page)
+  // ---------- library + template library (client-side filter, 24 per page)
   const grid = $('#lf-grid');
-  if (grid && AA.page && AA.page.kind === 'library') {
-    const st = { q: '', ind: '', type: '', safe: false, page: 1 }; const PER = 48; let idx = null; let tr = null;
-    const qp = new URLSearchParams(location.search); st.ind = qp.get('ind') || ''; st.type = qp.get('type') || ''; st.q = qp.get('q') || ''; st.page = +qp.get('page') || 1;
-    $('#lf-q').value = st.q; $('#lf-type').value = st.type; $$('.seg').forEach((s) => s.classList.toggle('on', s.dataset.ind === st.ind));
-    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-    const OPEN = ['customer-service', 'marketing', 'design'];
-    const tag = (on, y, n) => `<span class="tg ${on ? 'warn' : 'ok'}">${esc(T(on ? y : n))}</span>`;
-    const cardH = (i) => { const s = (tr && tr[i.id]) || i.s; return `<article class="card fac-${OPEN.includes(i.in) ? i.in : 'other'}"><div class="card-top"><span class="pill">${esc(TX('types', i.ty))}</span><span class="card-ind">${esc(TX('industries', i.in))}</span></div><h3 class="card-h"><a href="${B}r/${i.id}/">${esc(i.t)}</a></h3><p class="card-s"${tr && tr[i.id] ? ` title="${esc(T('card.mt'))}"` : ''}>${esc(s)}</p><p class="card-src">${esc(i.h)}</p><div class="card-foot"><span class="tags">${tag(i.c, 'tag.cred_yes', 'tag.cred_no')}${tag(i.w, 'tag.send_yes', 'tag.send_no')}</span><span class="lic">${esc(i.li)}</span></div></article>`; };
+  if (grid && AA.page && (AA.page.kind === 'library' || AA.page.kind === 'templates')) {
+    const segBox = $('.seg-group'); const SEGK = segBox.dataset.key; const sel = $('#lf-sel'); const SELK = sel.dataset.key; const chip = grid.dataset.chip === '1';
+    const st = { q: '', ind: '', type: '', safe: false, page: 1 }; const PER = 24; let idx = null; let tr = null;
+    const qp = new URLSearchParams(location.search); st.ind = qp.get('ind') || ''; st.type = qp.get('type') || ''; st.q = qp.get('q') || ''; st.page = +qp.get('page') || 1; st.safe = qp.get('safe') === '1';
+    const segs = $$('.seg', segBox);
+    const syncUI = () => { $('#lf-q').value = st.q; sel.value = st[SELK]; $('#lf-safe').checked = st.safe; segs.forEach((s) => s.setAttribute('aria-pressed', s.dataset.v === st[SEGK] ? 'true' : 'false')); };
+    syncUI();
+    const OPENI = ['customer-service', 'marketing', 'design'];
+    const sfTag = (on, y, n, ico) => `<span class="sf ${on ? 'warn' : 'ok'}">${ICONS[on ? ico : 'shield']}<span>${esc(T(on ? y : n))}</span></span>`;
+    const ICONS = { key: $('#lf-icons [data-ic=key]')?.innerHTML || '', send: $('#lf-icons [data-ic=send]')?.innerHTML || '', shield: $('#lf-icons [data-ic=shield]')?.innerHTML || '' };
+    const SRC = (i) => (i.ty === 'skill' ? 'SKILL.md' : i.sr === 'prompts.chat' ? 'prompts.chat · CC0' : i.sr === 'botsdots' ? 'BotsDots' : '');
+    const cardH = (i) => { const s = (tr && tr[i.id]) || i.s; return `<article class="rc" data-spotlight-card><div class="rc-top"><span class="rc-type">${esc(TX('types', i.ty))}</span>${chip && SRC(i) ? `<span class="rc-chip">${esc(SRC(i))}</span>` : `<span class="rc-ind">${esc(TX('industries', i.in))}</span>`}</div><h3 class="rc-t"><a href="${B}r/${i.id}/">${esc(i.t)}</a></h3><p class="rc-s${tr && tr[i.id] ? ' is-mt' : ''}"${tr && tr[i.id] ? ` title="${esc(T('card.mt'))}"` : ''}>${esc(s)}</p><p class="rc-src">${esc(i.h)}</p><div class="rc-f"><span class="rc-tags">${sfTag(i.c, 'tag.cred_yes', 'tag.cred_no', 'key')}${sfTag(i.w, 'tag.send_yes', 'tag.send_no', 'send')}</span><span class="rc-lic">${esc(i.li)}</span></div></article>`; };
+    const types = AA.page.types || null;
     async function run(push) {
-      if (!idx) idx = (await getJSON('api/search-index.json')).items.sort((a, b) => b.q - a.q);
+      if (!idx) idx = (await getJSON('api/search-index.json')).items.filter((i) => !types || types.includes(i.ty)).sort((a, b) => b.q - a.q);
       tr = lang === 'en' ? null : await getJSON(`api/l10n/${lang}.json`);
       const q = st.q.toLowerCase().trim();
       const res = idx.filter((i) => (!st.ind || i.in === st.ind) && (!st.type || i.ty === st.type) && (!st.safe || (!i.c && !i.w)) && (!q || (i.t + ' ' + i.s + ' ' + i.h + ' ' + ((tr && tr[i.id]) || '')).toLowerCase().includes(q)));
       const pages = Math.max(1, Math.ceil(res.length / PER)); st.page = Math.min(st.page, pages);
       grid.innerHTML = res.slice((st.page - 1) * PER, st.page * PER).map(cardH).join('');
+      window.__bindPointer && window.__bindPointer(grid);
       $('#lf-n').textContent = res.length.toLocaleString(lang); $('#lf-empty').hidden = res.length > 0;
-      const pg = $('#lf-pager'); const nums = []; for (let p = 1; p <= pages; p++) if (p === 1 || p === pages || Math.abs(p - st.page) <= 2) nums.push(p); else if (nums[nums.length - 1] !== '…') nums.push('…');
-      pg.innerHTML = pages < 2 ? '' : `<button type="button" data-p="${st.page - 1}" ${st.page === 1 ? 'disabled' : ''}>${esc(T('lib.prev'))}</button>` + nums.map((p) => (p === '…' ? '<span aria-hidden="true">…</span>' : `<button type="button" data-p="${p}" ${p === st.page ? 'aria-current="page"' : ''} aria-label="${esc(T('lib.page'))} ${p}">${p}</button>`)).join('') + `<button type="button" data-p="${st.page + 1}" ${st.page === pages ? 'disabled' : ''}>${esc(T('lib.next'))}</button>`;
-      if (push) { const u = new URL(location.href); ['ind', 'type', 'q', 'page'].forEach((k) => u.searchParams.delete(k)); if (st.ind) u.searchParams.set('ind', st.ind); if (st.type) u.searchParams.set('type', st.type); if (st.q) u.searchParams.set('q', st.q); if (st.page > 1) u.searchParams.set('page', st.page); history.replaceState(null, '', u); }
+      const pg = $('#lf-pager'); const nums = []; for (let p = 1; p <= pages; p++) if (p === 1 || p === pages || Math.abs(p - st.page) <= 1) nums.push(p); else if (nums[nums.length - 1] !== '…') nums.push('…');
+      pg.innerHTML = pages < 2 ? '' : `<ul><li><button type="button" class="pg-nav" data-p="${st.page - 1}" ${st.page === 1 ? 'disabled' : ''} aria-label="${esc(T('lib.prev'))}"><span aria-hidden="true">‹</span><span class="pg-l">${esc(T('lib.prev'))}</span></button></li>` + nums.map((p) => (p === '…' ? '<li><span class="pg-el" aria-hidden="true">…</span></li>' : `<li><button type="button" data-p="${p}" ${p === st.page ? 'aria-current="page"' : ''} aria-label="${esc(T('lib.page'))} ${p}">${p}</button></li>`)).join('') + `<li><button type="button" class="pg-nav" data-p="${st.page + 1}" ${st.page === pages ? 'disabled' : ''} aria-label="${esc(T('lib.next'))}"><span class="pg-l">${esc(T('lib.next'))}</span><span aria-hidden="true">›</span></button></li></ul>`;
+      if (push) { const u = new URL(location.href); ['ind', 'type', 'q', 'page', 'safe'].forEach((k) => u.searchParams.delete(k)); if (st.ind) u.searchParams.set('ind', st.ind); if (st.type) u.searchParams.set('type', st.type); if (st.q) u.searchParams.set('q', st.q); if (st.safe) u.searchParams.set('safe', '1'); if (st.page > 1) u.searchParams.set('page', st.page); history.replaceState(null, '', u); }
     }
-    $('#lf-pager').addEventListener('click', (e) => { const b = e.target.closest('[data-p]'); if (!b || b.disabled) return; st.page = +b.dataset.p; run(true); $('.filters').scrollIntoView({ block: 'start', behavior: RM ? 'auto' : 'smooth' }); });
-    $$('.seg').forEach((s) => s.addEventListener('click', () => { $$('.seg').forEach((x) => x.classList.toggle('on', x === s)); st.ind = s.dataset.ind; st.page = 1; run(true); }));
-    $('#lf-type').addEventListener('change', (e) => { st.type = e.target.value; st.page = 1; run(true); });
+    $('#lf-pager').addEventListener('click', (e) => { const b = e.target.closest('[data-p]'); if (!b || b.disabled) return; st.page = +b.dataset.p; run(true); $('.filters').scrollIntoView({ block: 'start', behavior: 'smooth' }); });
+    segs.forEach((s) => s.addEventListener('click', () => { st[SEGK] = s.dataset.v; st.page = 1; syncUI(); run(true); }));
+    sel.addEventListener('change', (e) => { st[SELK] = e.target.value; st.page = 1; run(true); });
     $('#lf-safe').addEventListener('change', (e) => { st.safe = e.target.checked; st.page = 1; run(true); });
     let to; $('#lf-q').addEventListener('input', (e) => { clearTimeout(to); to = setTimeout(() => { st.q = e.target.value; st.page = 1; run(true); }, 200); });
-    $('#lf-clear').addEventListener('click', () => { Object.assign(st, { q: '', ind: '', type: '', safe: false, page: 1 }); $('#lf-q').value = ''; $('#lf-type').value = ''; $('#lf-safe').checked = false; $$('.seg').forEach((x) => x.classList.toggle('on', !x.dataset.ind)); run(true); });
+    $('#lf-clear').addEventListener('click', () => { Object.assign(st, { q: '', ind: '', type: '', safe: false, page: 1 }); syncUI(); run(true); });
     $('#lf').addEventListener('submit', (e) => e.preventDefault());
-    const prev = window.__libLang; window.__libRun = () => run(false);
-    run(false);
+    window.__libRun = () => run(false);
+    if (st.q || st.ind || st.type || st.safe || st.page > 1 || lang !== 'en') run(false); else run(false);
   }
-  const _apply = applyLang; applyLang = async (l) => { await _apply(l); if (window.__libRun) window.__libRun(); };
+  addEventListener('aa-i18n', () => { if (window.__libRun) window.__libRun(); });
   applyLang(lang);
 })();

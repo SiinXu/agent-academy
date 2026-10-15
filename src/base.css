@@ -15,7 +15,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .tnum{font-variant-numeric:tabular-nums}
 
 /* Magic UI · Border Beam (mu-border-beam): mask border-box ∩ !padding-box, square dot travels offset-path rect() */
-.border-beam{pointer-events:none;position:absolute;inset:0;border-radius:inherit;border:var(--bb-w,1px) solid transparent;
+.border-beam{overflow:clip;overflow-clip-margin:var(--bb-w,1px);pointer-events:none;position:absolute;inset:0;border-radius:inherit;border:var(--bb-w,1px) solid transparent;
   -webkit-mask:linear-gradient(transparent,transparent) padding-box,linear-gradient(#000,#000) border-box;-webkit-mask-composite:source-in;
   mask:linear-gradient(transparent,transparent) padding-box,linear-gradient(#000,#000) border-box;mask-composite:intersect}
 .border-beam i{position:absolute;aspect-ratio:1;width:var(--bb-size,50px);background:linear-gradient(to left,var(--bb-from),var(--bb-to),transparent);

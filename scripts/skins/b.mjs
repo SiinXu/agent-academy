@@ -1,9 +1,6 @@
 // Direction B · "Neutral black + Emerald" · Hub vs: dark-tech · Aceternity UI + Cult UI (+ Magic UI list/marquee/beam)
-import fs from 'node:fs';
-import path from 'node:path';
-export function pageB(X) {
-  const { COUNTS: C, esc, nf, ic, roles, csItems, mkItems, mcpItems, feed, STYLE_CARDS, TAX, SOON, IND_IC, owner, mono, stars, rUrl, safety, TYPE, wizard, themeBtn, copyBtn, radio, BASE } = X;
-  const BB = JSON.parse(fs.readFileSync(path.join(X.ROOT, 'directions/orig/bg-beams.json'), 'utf8'));
+export function page(X) {
+  const { COUNTS: C, esc, nf, ic, roles, csItems, mkItems, mcpItems, feed, STYLE_CARDS, TAX, SOON, IND_IC, owner, mono, stars, rUrl, safeTags, licTag, TYPE, wizard, copyBtn, radio, BASE, IMG, i, n, tx, updated } = X;
   const css = `
 :root{--f-body:"Geist",ui-sans-serif,system-ui,sans-serif;--f-mono:"Geist Mono",ui-monospace,monospace;
  --bg:#FAFAFA;--card:#FFFFFF;--muted-bg:#F5F5F5;--line:#E5E5E5;--ink:#0A0A0A;--ink2:#404040;--muted:#737373;
@@ -15,7 +12,6 @@ export function pageB(X) {
  --acc:#34D399;--acc-ink:#022C22;--acc-soft:rgba(52,211,153,.10);--acc-b1:#34D399;--acc-b2:#059669;--acc-b3:#A7F3D0;--ring:#34D399;
  --shadow-input:none;--he-bg:rgba(38,38,38,.8);--spot-bg:#0B1F18;--dotc:rgba(52,211,153,.45);--mb-c:#34D399;--beam-base:#404040;
  --t-bg:#050505}
-${X.MOCKBAR_CSS}
 body{letter-spacing:-.005em}
 .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
 .i-moon{display:none}.dark .i-sun{display:none}.dark .i-moon{display:block}
@@ -190,13 +186,13 @@ body{letter-spacing:-.005em}
 /* result: Cult UI Terminal Animation window */
 .wz-result{padding:20px;display:grid;gap:20px}
 .res-term{overflow:hidden;border-radius:12px}
-.res-term[data-reveal]{transform:translateY(16rem);opacity:1;transition:transform 1s cubic-bezier(.16,1,.3,1)}
-.res-term[data-reveal].in{transform:none}
+.res-term[data-reveal]{opacity:0;transform:translateY(24px);transition:transform 1s cubic-bezier(.16,1,.3,1),opacity .4s}
+.res-term[data-reveal].in{transform:none;opacity:1}
 .tw-win{position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:12px;background:var(--t-bg);min-height:22rem;box-shadow:0 0 0 1px rgba(255,255,255,.06)}
 .tw-bar{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid #1F1F1F}
 .tw-bar .dots{display:flex;gap:6px}.tw-bar .dots i{width:10px;height:10px;border-radius:999px;background:#2A2A2A}
 .tw-bar span{font:500 12px/1 var(--f-mono);color:#A3A3A3}.tw-bar small{margin-left:auto;font:500 11px/1 var(--f-mono);color:#34D399}
-.tw-body{padding:24px 40px 32px;font:400 13.5px/1.7 var(--f-mono);max-height:430px;overflow:auto;cursor:text}
+.tw-body{padding:24px 40px 32px;font:400 13.5px/1.7 var(--f-mono);cursor:text}.tw-body pre{white-space:pre-wrap;overflow-wrap:anywhere}
 .tw-cmd{color:#737373;margin-bottom:10px}.tw-cmd b{color:#34D399;font-weight:500}
 .res-l{margin:0 0 12px}
 .stage{--beam-from:var(--acc-b1);--beam-to:var(--acc-b2);--beam-path:var(--beam-base);display:grid;grid-template-columns:1fr auto 1fr;gap:80px;align-items:center;padding:28px;border-radius:12px;background:color-mix(in srgb,var(--muted-bg) 50%,transparent);box-shadow:0 0 0 1px rgba(0,0,0,.06)}
@@ -233,12 +229,13 @@ body{letter-spacing:-.005em}
 /* compare */
 .case{display:grid;grid-template-columns:.8fr 2fr;gap:40px;align-items:start}
 .case ul{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:0;border-top:1px solid var(--line)}
+.case-h{margin:14px 0 0;font-size:34px;letter-spacing:-.04em;line-height:1.05}.case .link{margin-top:18px}
 .case li{padding:14px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:36px 1fr;font-size:14px;color:var(--muted)}.case li b{color:var(--ink);font-weight:500;display:block}
 .case li em{font:500 11px/1.6 var(--f-mono);font-style:normal;color:var(--acc)}
 .compare{aspect-ratio:16/10;border-radius:16px;border:1px solid var(--line)}
 .foot{margin-top:128px;border-top:1px solid var(--line)}
 .foot .wrap{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:32px;padding-top:48px;padding-bottom:40px}
-.foot h4{margin:0 0 14px}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}.foot li a{font-size:14px;color:var(--ink2)}.foot li a:hover{color:var(--acc)}
+.foot .fh{margin:0 0 14px}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}.foot li a{font-size:14px;color:var(--ink2)}.foot li a:hover{color:var(--acc)}
 .foot p{color:var(--muted);font-size:14px;max-width:340px;margin:14px 0 0}
 .foot-b .wrap{display:flex;justify-content:space-between;padding-top:16px;padding-bottom:20px;border-top:1px solid var(--line)}
 @media (max-width:1024px){.hero .wrap{grid-template-columns:1fr}.fgrid{grid-template-columns:repeat(4,1fr)}.hgrid.plat{grid-template-columns:repeat(3,1fr)}}
@@ -257,77 +254,65 @@ body{letter-spacing:-.005em}
  .vfeed{grid-template-columns:1fr;height:520px}.vfeed .marquee:nth-child(n+2){display:none}
  .case{grid-template-columns:1fr}.foot .wrap{grid-template-columns:1fr 1fr}.res-actions .btn-g{margin-left:0}
 }`;
-  const bgBeams = `<svg data-bg-beams viewBox="0 0 696 316" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="${BB.big}" stroke="url(#paint0_radial_bb)" stroke-opacity="0.05" stroke-width="0.5"/>${BB.paths.map((p, i) => `<path d="${p}" stroke="url(#lg-${i})" stroke-opacity="0.4" stroke-width="0.5"/>`).join('')}<defs>${BB.paths.map((p, i) => `<linearGradient id="lg-${i}" x1="0%" x2="0%" y1="0%" y2="0%"><stop style="stop-color:var(--acc-b3)" stop-opacity="0"/><stop style="stop-color:var(--acc-b3)"/><stop offset="32.5%" style="stop-color:var(--acc-b1)"/><stop offset="100%" style="stop-color:var(--acc-b2)" stop-opacity="0"/></linearGradient>`).join('')}<radialGradient id="paint0_radial_bb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(352 34) rotate(90) scale(555 1560.62)"><stop offset="0.0666667" style="stop-color:var(--beam-base)"/><stop offset="0.243243" style="stop-color:var(--beam-base)"/><stop offset="0.43594" stop-color="white" stop-opacity="0"/></radialGradient></defs></svg>`;
   const live = [...csItems.slice(0, 3), ...mkItems.slice(0, 2), ...mcpItems.slice(0, 3)].slice(0, 8);
   const tyIc = { mcp: 'plug', skill: 'book', 'system-prompt': 'terminal', template: 'bot', workflow: 'layers', case: 'doc', tutorial: 'book', 'awesome-list': 'library' };
-  const mbBtn = (label, attrs = '', inner = '') => `<button type="button" class="mb-btn" data-moving-border data-duration="3000" ${attrs}><span class="mb-track"><svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="100%"><rect fill="none" width="100%" height="100%" rx="30%" ry="30%"/></svg><span class="mb-dot"></span></span><span class="mb-in">${inner}${label}</span></button>`;
-  const mbLink = (label, href) => `<a class="mb-btn" href="${href}" data-moving-border data-duration="3000"><span class="mb-track"><svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="100%"><rect fill="none" width="100%" height="100%" rx="30%" ry="30%"/></svg><span class="mb-dot"></span></span><span class="mb-in">${label}${ic('right')}</span></a>`;
+  const track = `<span class="mb-track"><svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="100%"><rect fill="none" width="100%" height="100%" rx="30%" ry="30%"/></svg><span class="mb-dot"></span></span>`;
+  const mbBtn = (label, attrs = '', inner = '') => `<button type="button" class="mb-btn" data-moving-border data-duration="3000" ${attrs}>${track}<span class="mb-in">${inner}${label}</span></button>`;
+  const mbLink = (label, href) => `<a class="mb-btn" href="${href}" data-moving-border data-duration="3000">${track}<span class="mb-in">${label}${ic('right')}</span></a>`;
   const mkRoles = roles.marketing.slice(0, 9); const mkMax = Math.max(...mkRoles.map((r) => r.n));
-  const fcard = (x) => `<a class="fcard" href="${rUrl(x.id)}"><div class="fcard-h"><span class="lbl">${esc(TYPE[x.ty] || x.ty)} · <b>${esc(TAX.industries[x.in]?.en || x.in)}</b></span><span class="lbl">${ic('star')} ${stars(x.q)}</span></div><b>${esc(x.t)}</b><p>${esc(x.s)}</p><div class="fcard-f"><span class="tag">@${esc(owner(x.h))}</span><span class="tag">${esc(x.li && x.li !== 'see source' ? x.li : 'licence: source')}</span>${safety(x).map(([i, l]) => `<span class="tag warn">${ic(i)}${l}</span>`).join('') || `<span class="tag">${ic('shield')}read-only</span>`}</div></a>`;
-  const cols = [feed.filter((_, i) => i % 3 === 0), feed.filter((_, i) => i % 3 === 1), feed.filter((_, i) => i % 3 === 2)];
-  const dockItems = [['home', 'Home', '#', true], ['library', 'Library', `${BASE}library/`], ['book', 'Courses', `${BASE}courses/`], ['rss', 'Latest', '#latest'], ['bot', 'For agents', `${BASE}agents/`, false, 'dock-hide'], ['github', 'GitHub', 'https://github.com/SiinXu/agent-academy', false, 'dock-hide']];
+  const fcard = (x) => `<a class="fcard" href="${rUrl(x.id)}"><div class="fcard-h"><span class="lbl">${tx('types', x.ty)} · <b>${tx('industries', x.in)}</b></span><span class="lbl">${ic('star')} ${stars(x.q)}</span></div><b>${esc(x.t)}</b><p>${esc(x.s)}</p><div class="fcard-f"><span class="tag">@${esc(owner(x.h))}</span><span class="tag">${licTag(x)}</span>${safeTags(x)}</div></a>`;
+  const cols = [feed.filter((_, k) => k % 3 === 0), feed.filter((_, k) => k % 3 === 1), feed.filter((_, k) => k % 3 === 2)];
   const W = wizard({
     cls: '', anim: 'stagger', typeMs: 4,
-    head: `<div class="wz-bar" aria-hidden="true"><i data-wz-progress role="progressbar" aria-label="Wizard progress" aria-valuemin="0" aria-valuemax="100"></i></div><div class="wz-top" data-mod="steps"><div class="wz-tabs" role="tablist" aria-label="Steps"><button type="button" role="tab" data-wz-tab="1"><em>1</em>Bot</button><button type="button" role="tab" data-wz-tab="2"><em>2</em>Role</button><button type="button" role="tab" data-wz-tab="3"><em>3</em>Preferences</button></div><span class="lbl pct"><span data-wz-progress-label>0%</span> complete</span></div>`,
-    h1: 'Which bot are you building?', h2: 'Which role should it learn first?', h3: 'How should it work?',
-    prof: (p) => `<button type="button" class="spot-card pc" data-spotlight-card data-item ${radio('prof', p.k)}><span class="sel-dot"></span><span class="pc-ic">${p.icon}</span><b>${esc(p.name)}</b><p>${esc(p.blurb)}</p><small class="lbl">${nf(p.n)} resources · ${p.roles} roles</small></button>`,
-    custom: `<div class="field" data-item data-mod="custom"><label for="wz-goal">Or describe it in one line</label><input class="input" id="wz-goal" data-wz-goal maxlength="200" placeholder="e.g. answer refund emails for my online shop" autocomplete="off"><small data-wz-guess aria-live="polite"></small></div>`,
+    head: `<div class="wz-bar" aria-hidden="true"><i data-wz-progress></i></div><div class="wz-top" data-mod="steps"><div class="wz-tabs" role="tablist" aria-label="Steps"><button type="button" role="tab" data-wz-tab="1"><em>1</em>${i('wz.tab1')}</button><button type="button" role="tab" data-wz-tab="2"><em>2</em>${i('wz.tab2')}</button><button type="button" role="tab" data-wz-tab="3"><em>3</em>${i('wz.tab3')}</button></div><span class="lbl pct"><span data-wz-progress-label>0%</span> ${i('wz.complete')}</span></div>`,
+    prof: (p) => `<button type="button" class="spot-card pc" data-spotlight-card data-item ${radio('prof', p.k)}><span class="sel-dot"></span><span class="pc-ic">${p.icon}</span><b>${p.name}</b><p>${p.blurb}</p><small class="lbl">${p.meta}</small></button>`,
+    custom: `<div class="field" data-item data-mod="custom"><label for="wz-goal">${i('wz.custom')}</label><input class="input" id="wz-goal" data-wz-goal maxlength="200" placeholder="${esc(X.t('qs.bot_ph'))}" data-i-ph="qs.bot_ph" autocomplete="off"><small data-wz-guess aria-live="polite"></small></div>`,
     roleCls: 'hgrid', roleAttr: 'data-hover-effect',
-    roleTpl: `<button type="button" class="hcard" data-item ${radio('role', '{val}')} aria-checked="{sel}" data-sel="{sel}"><div class="hc"><h4>{title}</h4><p>{n} resources in 5 steps. Starts with {top}.</p></div></button>`,
+    roleTpl: `<button type="button" class="hcard" data-item ${radio('role', '{val}')} aria-checked="{sel}" data-sel="{sel}"><div class="hc"><h4>{title}</h4><p>{n} {res} · {eg} {top}</p></div></button>`,
     styleCls: 'fgrid', styleAttr: 'data-focus-cards',
-    style: (s) => `<button type="button" class="fc" ${radio('style', s.k)}>${s.any ? `<span class="fc-any">${ic('sparkles')}Let the agent pick one of 20</span>` : `<img src="img/style-${s.k}.webp" alt="${esc(s.src)} preview from UI Hub" loading="lazy" width="480" height="300"><span class="fc-o"><b>${s.k}</b><small>${nf(s.n)} refs · ${esc(s.src)}</small></span>`}</button>`,
+    style: (s) => `<button type="button" class="fc" ${radio('style', s.k)}>${s.any ? `<span class="fc-any">${ic('sparkles')}${s.label}</span>` : `${s.img}<span class="fc-o"><b>${s.label}</b><small>${s.sub}</small></span>`}</button>`,
     platCls: 'hgrid plat', platAttr: 'data-hover-effect',
-    plat: (p) => `<button type="button" class="hcard" ${radio('plat', p.k)}><div class="hc"><span class="pm">${esc(p.m)}</span><h4>${esc(p.n)}</h4><p>${esc(p.note)}</p></div></button>`,
+    plat: (p) => `<button type="button" class="hcard" ${radio('plat', p.k)}><div class="hc"><span class="pm">${esc(p.m)}</span><h4>${p.name}</h4><p>${p.noteH}</p></div></button>`,
     lang: (l) => `<button type="button" class="badge" ${radio('lang', l.k)}>${esc(l.n)}</button>`,
     chipTpl: `<button type="button" class="chip" data-chip-step="{step}">{label}</button>`,
-    back: `<button type="button" class="btn btn-g" data-wz-back>${ic('left')}Back</button>`,
-    next: `<button type="button" class="btn btn-p" data-wz-next>Continue${ic('right')}</button>`,
-    gen: mbBtn('Generate · 生成', 'data-wz-generate data-mod="generate"', ic('sparkles')),
-    terminal: `<div class="tw-win" data-mod="terminal"><div class="tw-bar"><span class="dots"><i></i><i></i><i></i></span><span data-term-title>prompt</span><small data-term-status>typing…</small></div><div class="tw-body"><div class="tw-cmd"><b>~/agent-academy</b> $ academy prompt --print</div><pre data-term-body style="margin:0;font:inherit" title="Click to skip"></pre></div></div>`,
-    filesLabel: '<span class="lbl">Your agent will read</span>',
+    back: `<button type="button" class="btn btn-g" data-wz-back>${ic('left')}${i('wz.back')}</button>`,
+    next: `<button type="button" class="btn btn-p" data-wz-next>${i('wz.next')}${ic('right')}</button>`,
+    gen: mbBtn(i('wz.gen'), 'data-wz-generate data-mod="generate"', ic('sparkles')),
+    terminal: `<div class="tw-win" data-mod="terminal"><div class="tw-bar"><span class="dots"><i></i><i></i><i></i></span><span data-term-title>prompt</span><small data-term-status></small></div><div class="tw-body"><div class="tw-cmd"><b>~/agent-academy</b> $ academy prompt --print</div><pre data-term-body style="margin:0;font:inherit"></pre></div></div>`,
+    filesLabel: `<span class="lbl">${i('wz.reads')}</span>`,
     agent: `${ic('bot')}<b data-agent-name>Agent</b>`,
     fileTpl: `<a class="file" id="{id}" data-side="{side}" href="{href}" target="_blank" rel="noopener"><span class="f-ic">{ico}</span><span class="f-t"><b>{name}</b><small>{kind} · {note}</small></span></a>`,
     copy: copyBtn('cb'), cursorCls: 'btn btn-o',
-    restart: `<button type="button" class="btn btn-g" data-wz-restart data-mod="restart">${ic('restart')}Start over · 重新选</button>`,
+    restart: `<button type="button" class="btn btn-g" data-wz-restart data-mod="restart">${ic('restart')}${i('wz.restart')}</button>`,
   }).replace('<div class="wz-steps" data-wz-steps>', '<div class="wz-steps" data-wz-steps><div class="well">').replace('<div class="wz-foot">', '</div><div class="wz-foot">');
-  return `${X.head('b', 'Neutral black + Emerald', css)}<body>
-<a class="skip" href="#main">Skip to content</a>${X.mockBar('b')}
-<header class="top"><div class="wrap"><a class="brand" href="#"><i>${ic('sparkles')}</i><span>Agent Academy</span></a>
-<nav class="dock" data-dock data-mod="nav" aria-label="Main">${dockItems.map(([i, l, h, cur, cls]) => `<a class="dock-item ${cls || ''}" href="${h}" aria-label="${l}"${cur ? ' aria-current="page"' : ''}><span class="dock-tip">${l}</span><span class="dock-ic">${ic(i)}</span></a>`).join('')}<span class="dock-sep"></span><button class="dock-item" type="button" data-theme-toggle aria-label="Toggle light / dark"><span class="dock-tip">Theme</span><span class="dock-ic">${ic('sun', 'ic i-sun')}${ic('moon', 'ic i-moon')}</span></button></nav>
-<div class="dock-m" data-mod-alt="nav-mobile"><button type="button" aria-expanded="false" aria-label="Open menu" onclick="const m=this.parentNode;m.classList.toggle('open');this.setAttribute('aria-expanded',m.classList.contains('open'))">${ic('menu')}</button><ul>${dockItems.map(([i, l, h], n) => `<li style="--i:${n}"><a href="${h}" aria-label="${l}">${ic(i)}</a></li>`).join('')}<li style="--i:${dockItems.length}"><button type="button" data-theme-toggle aria-label="Toggle light / dark">${ic('sun', 'ic i-sun')}${ic('moon', 'ic i-moon')}</button></li></ul></div></div></header>
-<main id="main">
-<section class="hero"><div class="beams-bg" data-mod="hero-bg">${bgBeams}</div>
-<div class="wrap"><div data-mod="hero"><p class="lbl"><b>●</b> Agent Academy · updated daily · ${nf(C.changes)} changes logged</p>
-<h1 data-text-generate>Teach your agent a real job.</h1>
-<p class="lede">${nf(C.total)} real skills, MCP servers, prompts and workflows, sorted into courses by profession. Your agent reads one course, then gets to work.</p>
-<div class="cta" data-mod="buttons">${mbLink('Build a prompt', '#start')}<a class="link" href="${BASE}library/">Browse the library${ic('right')}</a></div>
-<div class="stats" data-mod="stats"><div class="stat"><b data-ticker="${C.total}">${nf(C.total)}</b><span class="lbl">resources</span></div><div class="stat"><b data-ticker="${C.skills}">${nf(C.skills)}</b><span class="lbl">skills</span></div><div class="stat"><b data-ticker="${C.mcp}">${nf(C.mcp)}</b><span class="lbl">MCP servers</span></div><div class="stat"><b data-ticker="${C.prompts}">${nf(C.prompts)}</b><span class="lbl">prompts</span></div></div></div>
-<div class="live" data-mod="hero-visual"><div class="live-h"><span class="lbl"><span class="dotlive"></span>Added in today's run</span><span class="lbl">${nf(C.changes)}</span></div>
-<div class="alist" data-animated-list data-delay="1000">${live.map((x) => `<template><a class="notif" href="${rUrl(x.id)}"><i>${ic(tyIc[x.ty] || 'doc')}</i><span><b>${esc(x.t)}</b><small>${esc(TYPE[x.ty] || x.ty)} · ${esc(TAX.industries[x.in]?.en || x.in)} · ${stars(x.q)}★</small></span></a></template>`).join('')}</div></div></div></section>
+  const main = `<main id="main" data-sk-home="b">
+<section class="hero"><div class="beams-bg" data-mod="hero-bg">${X.bgBeams('h')}</div>
+<div class="wrap"><div data-mod="hero"><p class="lbl"><b>●</b> Agent Academy · ${i('h.daily_upd')} · ${n('h.changes_n', C.changes)}</p>
+<h1 data-text-generate data-i="h.title_dot">${esc(X.t('h.title_dot'))}</h1>
+<p class="lede">${n('h.lede', C.total)}</p>
+<div class="cta" data-mod="buttons">${mbLink(i('hero.cta'), '#start')}<a class="link" href="${BASE}library/">${i('hero.cta2')}${ic('right')}</a></div>
+<div class="stats" data-mod="stats"><div class="stat"><b data-ticker="${C.total}">${nf(C.total)}</b><span class="lbl">${i('stat.resources')}</span></div><div class="stat"><b data-ticker="${C.skills}">${nf(C.skills)}</b><span class="lbl">${i('h.skills')}</span></div><div class="stat"><b data-ticker="${C.mcp}">${nf(C.mcp)}</b><span class="lbl">${i('stat.mcp')}</span></div><div class="stat"><b data-ticker="${C.prompts}">${nf(C.prompts)}</b><span class="lbl">${i('h.prompts')}</span></div></div></div>
+<div class="live" data-mod="hero-visual"><div class="live-h"><span class="lbl"><span class="dotlive"></span>${i('h.live')}</span><span class="lbl">${nf(C.changes)}</span></div>
+<div class="alist" data-animated-list data-delay="1000">${live.map((x) => `<template><a class="notif" href="${rUrl(x.id)}"><i>${ic(tyIc[x.ty] || 'doc')}</i><span><b>${esc(x.t)}</b><small>${tx('types', x.ty)} · ${tx('industries', x.in)} · ${stars(x.q)}★</small></span></a></template>`).join('')}</div></div></div></section>
 
-<section class="sec wrap" id="professions"><div class="sec-h"><div><p class="lbl"><b>01</b> · Professions</p><h2>Three professions are open.</h2><p>Each one is a course: five ordered steps of source-linked resources, licences and safety tags included.</p></div><a class="link" href="${BASE}courses/">All courses${ic('right')}</a></div>
+<section class="sec wrap" id="professions"><div class="sec-h"><div><p class="lbl"><b>01</b> · ${i('h.k_prof')}</p><h2>${i('h.prof_t')}</h2><p>${i('h.prof_s')}</p></div><a class="link" href="${BASE}courses/">${i('h.all_courses')}${ic('right')}</a></div>
 <div class="bento" data-mod="showcase">
- <a class="bi span2" href="${BASE}courses/design/"><div class="bi-head"><div class="bh-thumbs">${STYLE_CARDS.slice(0, 3).map((s) => `<img src="img/style-${s.k}.webp" alt="" loading="lazy" width="480" height="300">`).join('')}</div></div><div class="bi-txt">${ic('palette')}<div class="bi-t">Design · ${nf(C.ind.design)} resources</div><div class="bi-d">${roles.design.length} roles. Wired to UI Hub's 20 visual styles; this site is the first case study.</div></div></a>
- <a class="bi" href="${BASE}courses/customer-service/" data-mod="showcase-cs"><div class="bi-head"><div class="bh-list">${csItems.slice(0, 4).map((x) => `<div class="bh-row"><i>${esc(mono(owner(x.h)))}</i><span>${esc(x.t)}</span></div>`).join('')}</div></div><div class="bi-txt">${ic('headset')}<div class="bi-t">Customer service · ${nf(C.ind['customer-service'])}</div><div class="bi-d">${roles['customer-service'].length} roles, from support agent to escalations lead.</div></div></a>
- <a class="bi" href="${BASE}courses/marketing/" data-mod="showcase-mk"><div class="bi-head"><div class="bh-bars">${mkRoles.slice(0, 7).map((r) => `<div><small>${esc(TAX.roles[r.k].en)}</small><i style="--h:${Math.round((r.n / mkMax) * 92) + 8}%"></i><em>${r.n}</em></div>`).join('')}</div></div><div class="bi-txt">${ic('megaphone')}<div class="bi-t">Marketing · ${nf(C.ind.marketing)}</div><div class="bi-d">${roles.marketing.length} roles. Bars show resources per role.</div></div></a>
- <a class="bi" href="${BASE}library/?type=mcp"><div class="bi-head"><div class="bh-chips">${mcpItems.slice(0, 7).map((x) => `<span>${ic('plug')}${esc(x.t.length > 26 ? x.t.slice(0, 25) + '…' : x.t)}</span>`).join('')}</div></div><div class="bi-txt">${ic('plug')}<div class="bi-t">${nf(C.mcp)} MCP servers</div><div class="bi-d">Tagged when they need credentials or write to outside systems.</div></div></a>
- <a class="bi" href="${BASE}courses/"><div class="bi-head"><div class="bh-chips soon">${SOON.slice(0, 9).map((k) => `<span>${esc(TAX.industries[k].en)}</span>`).join('')}</div></div><div class="bi-txt">${ic('layers')}<div class="bi-t">Coming soon</div><div class="bi-d">Collected already; each opens when its course is ready.</div></div></a>
+ <a class="bi span2" href="${BASE}i/design/"><div class="bi-head"><div class="bh-thumbs">${STYLE_CARDS.slice(0, 3).map((s) => `<img src="${IMG}style-${s.k}.webp" alt="" loading="lazy" width="480" height="300">`).join('')}</div></div><div class="bi-txt">${ic('palette')}<div class="bi-t">${tx('industries', 'design')} · ${nf(C.ind.design)}</div><div class="bi-d">${roles.design.length} ${i('fac.roles')}. ${i('h.ds_d')}</div></div></a>
+ <a class="bi" href="${BASE}i/customer-service/" data-mod="showcase-cs"><div class="bi-head"><div class="bh-list">${csItems.slice(0, 4).map((x) => `<div class="bh-row"><i>${esc(mono(owner(x.h)))}</i><span>${esc(x.t)}</span></div>`).join('')}</div></div><div class="bi-txt">${ic('headset')}<div class="bi-t">${tx('industries', 'customer-service')} · ${nf(C.ind['customer-service'])}</div><div class="bi-d">${roles['customer-service'].length} ${i('fac.roles')}. ${i('h.cs_d')}</div></div></a>
+ <a class="bi" href="${BASE}i/marketing/" data-mod="showcase-mk"><div class="bi-head"><div class="bh-bars">${mkRoles.slice(0, 7).map((r) => `<div><small>${tx('roles', r.k)}</small><i style="--h:${Math.round((r.n / mkMax) * 92) + 8}%"></i><em>${r.n}</em></div>`).join('')}</div></div><div class="bi-txt">${ic('megaphone')}<div class="bi-t">${tx('industries', 'marketing')} · ${nf(C.ind.marketing)}</div><div class="bi-d">${roles.marketing.length} ${i('fac.roles')}. ${i('h.mk_d')}</div></div></a>
+ <a class="bi" href="${BASE}library/?type=mcp"><div class="bi-head"><div class="bh-chips">${mcpItems.slice(0, 7).map((x) => `<span>${ic('plug')}${esc(x.t.length > 26 ? x.t.slice(0, 25) + '…' : x.t)}</span>`).join('')}</div></div><div class="bi-txt">${ic('plug')}<div class="bi-t">${nf(C.mcp)} ${i('stat.mcp')}</div><div class="bi-d">${i('h.mcp_d')}</div></div></a>
+ <a class="bi" href="${BASE}courses/"><div class="bi-head"><div class="bh-chips soon">${SOON.slice(0, 9).map((k) => `<span>${tx('industries', k)}</span>`).join('')}</div></div><div class="bi-txt">${ic('layers')}<div class="bi-t">${i('fac.soon')}</div><div class="bi-d">${i('h.soon_d')}</div></div></a>
 </div></section>
 
-<section class="sec wrap" id="start"><div class="sec-h"><div><p class="lbl"><b>02</b> · Quick start</p><h2>Three picks, one prompt.</h2><p>Choose the bot, the role and how it works. Generate, then paste into the agent you already use. Nothing is sent from this page.</p></div></div>
+<section class="sec wrap" id="start"><div class="sec-h"><div><p class="lbl"><b>02</b> · ${i('qs.title')}</p><h2>${i('h.start_t')}</h2><p>${i('h.start_s')}</p></div></div>
 <div data-mod="wizard"><div data-mod="wizard-accent">${W}</div></div></section>
 
-<section class="sec wrap" id="latest"><div class="sec-h"><div><p class="lbl"><b>03</b> · Latest</p><h2>Fresh from the sources.</h2><p>Real items from today's run. Every card shows licence, stars and safety tags.</p></div><a class="link" href="${BASE}latest/">Change log${ic('right')}</a></div>
-<div class="vfeed" data-mod="feed">${cols.map((col, i) => `<div class="marquee vertical pause${i === 1 ? ' reverse' : ''}" data-marquee data-repeat="3" style="--duration:${44 + i * 6}s"><div>${col.map(fcard).join('')}</div></div>`).join('')}</div></section>
+<section class="sec wrap" id="latest"><div class="sec-h"><div><p class="lbl"><b>03</b> · ${i('nav.latest')}</p><h2>${i('h.latest_t')}</h2><p>${i('h.latest_s')}</p></div><a class="link" href="${BASE}latest/">${i('h.all_latest')}${ic('right')}</a></div>
+<div class="vfeed" data-mod="feed">${cols.map((col, k) => `<div class="marquee vertical pause${k === 1 ? ' reverse' : ''}" data-marquee data-repeat="3" style="--duration:${44 + k * 6}s"><div>${col.map(fcard).join('')}</div></div>`).join('')}</div></section>
 
-<section class="sec wrap" id="case"><div class="case"><div><p class="lbl"><b>04</b> · Design case</p><h2 style="margin:14px 0 0;font-size:34px;letter-spacing:-.04em;line-height:1.05">This site, before and after its own course.</h2>
-<ul><li><em>01</em><span><b>Pick one style</b>UI Hub vs cluster + 2–4 refs</span></li><li><em>02</em><span><b>Follow design skills</b>taste-skill, frontend-design, emil-design-eng</span></li><li><em>03</em><span><b>Build from Hub components</b>original code, not invented</span></li><li><em>04</em><span><b>Verify</b>4 screenshots + Lighthouse</span></li></ul></div>
-<div class="compare" data-compare data-mod="before-after" tabindex="0" role="slider" aria-label="Before / after" aria-valuemin="0" aria-valuemax="100"><img class="cmp-top" src="img/case-before.webp" alt="Before: unstyled HTML" width="1200" height="750"><img src="img/case-after.webp" alt="After: styled home page" width="1200" height="750"><span class="cmp-line"></span><span class="cmp-knob">${ic('code')}</span><span class="cmp-tag l">before</span><span class="cmp-tag r">after</span></div></div></section>
-</main>
-<footer class="foot" data-mod="footer"><div class="wrap"><div><a class="brand" style="position:static" href="#"><i>${ic('sparkles')}</i>Agent Academy</a><p>A free school for AI agents. Every item links to its original source.</p></div>
-<div><h4 class="lbl">Learn</h4><ul><li><a href="${BASE}courses/">Courses</a></li><li><a href="${BASE}library/">Library</a></li><li><a href="${BASE}latest/">Latest</a></li></ul></div>
-<div><h4 class="lbl">For agents</h4><ul><li><a href="${BASE}llms.txt">llms.txt</a></li><li><a href="${BASE}agent.md">agent.md</a></li><li><a href="${BASE}api/index.json">JSON API</a></li><li><a href="${BASE}feed.xml">Atom feed</a></li></ul></div>
-<div><h4 class="lbl">Project</h4><ul><li><a href="https://github.com/SiinXu/agent-academy">GitHub</a></li><li><a href="${BASE}sources/">Sources</a></li><li><a href="https://siinxu.github.io/ui-resource-hub/">UI Hub</a></li></ul></div></div>
-<div class="foot-b"><div class="wrap"><span class="lbl">Direction B · Neutral black + Emerald · vs dark-tech</span><span class="lbl">Data · Oct 15, 2026</span></div></div></footer>
-${X.tail()}`;
+<section class="sec wrap" id="case"><div class="case"><div><p class="lbl"><b>04</b> · ${i('h.k_case')}</p><h2 class="case-h">${i('h.case_t')}</h2>
+<ul>${[1, 2, 3, 4].map((k) => `<li><em>0${k}</em><span><b>${i('h.cs' + k)}</b>${i('h.cs' + k + 'd')}</span></li>`).join('')}</ul><a class="link" href="${BASE}cases/agent-academy-build/">${i('case.read')}${ic('right')}</a></div>
+<div class="compare" data-compare data-mod="before-after" tabindex="0" role="slider" aria-label="${esc(X.t('case.drag'))}" data-i-aria="case.drag" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img class="cmp-top" src="${IMG}case-before.webp" alt="Before: unstyled HTML" width="1200" height="750" loading="lazy"><img src="${IMG}case-after.webp" alt="After: styled home page" width="1200" height="750" loading="lazy"><span class="cmp-line"></span><span class="cmp-knob">${ic('code')}</span><span class="cmp-tag l">${i('h.before')}</span><span class="cmp-tag r">${i('h.after')}</span></div></div></section>
+</main>`;
+  return { css, main };
 }

@@ -1,9 +1,12 @@
-/* Agent Academy direction mocks: shared engine.
+/* Agent Academy site engine (all three skins).
    Every behaviour below is a vanilla port of a specific registry component; the original
    React/motion source lives in directions/orig/src/<lib>-<name>__*.tsx. Values (durations,
-   springs, sizes, keyframes) are copied from those files. */
+   springs, sizes, keyframes) are copied from those files. Text comes from app.js i18n (window.__T). */
 (() => {
-  const D = window.DIR;
+  const D = window.DIR || {};
+  const T = (k, f) => (window.__T && window.__T(k) !== k ? window.__T(k) : f !== undefined ? f : k);
+  const LANG = () => document.documentElement.dataset.lang || 'en';
+  const BB_SVG = "__BB_SVG__";
   const root = document.documentElement;
   const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const $ = (s, r = document) => r.querySelector(s);
@@ -12,14 +15,24 @@
   const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   const EASE_OUT_EXPO = 'cubic-bezier(0.16, 1, 0.3, 1)';
 
-  // ---------------------------------------------------------------- theme (shadcn next-themes behaviour: class="dark")
-  const qs = new URLSearchParams(location.search);
-  const setTheme = (t) => { root.dataset.theme = t; root.classList.toggle('dark', t === 'dark'); root.style.colorScheme = t; };
-  setTheme(qs.get('theme') || localStorage.getItem('aa-dir-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+  // ---------------------------------------------------------------- theme (shadcn next-themes behaviour: class="dark"); set before paint by the head script
+  const store = (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} };
+  const setTheme = (t) => { root.dataset.theme = t; root.classList.toggle('dark', t === 'dark'); };
   $$('[data-theme-toggle]').forEach((b) => b.addEventListener('click', () => {
-    const t = root.dataset.theme === 'dark' ? 'light' : 'dark'; setTheme(t); localStorage.setItem('aa-dir-theme', t);
+    const t = root.dataset.theme === 'dark' ? 'light' : 'dark'; setTheme(t); store('aa-theme', t);
     dispatchEvent(new Event('aa-theme'));
   }));
+  // ---------------------------------------------------------------- skin switcher (shadcn Toggle Group): A / B / C, independent of light/dark
+  const syncSkinBtns = () => $$('[data-skin-set]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.skinSet === root.dataset.skin ? 'true' : 'false'));
+  syncSkinBtns();
+  $$('[data-skin-set]').forEach((b) => b.addEventListener('click', () => {
+    const s = b.dataset.skinSet; if (s === root.dataset.skin) return; store('aa-skin', s);
+    const u = new URL(location.href); if (u.searchParams.has('skin')) { u.searchParams.delete('skin'); history.replaceState(null, '', u); }
+    if ($('main[data-sk-home]')) { location.reload(); return; } // home modules differ per skin: re-render from the template
+    root.dataset.skin = s; syncSkinBtns(); injectBeams(); dispatchEvent(new Event('aa-theme')); dispatchEvent(new Event('resize'));
+  }));
+  // Aceternity Floating Dock (mobile): toggle
+  $$('[data-dock-m]').forEach((b) => b.addEventListener('click', () => { const m = b.parentNode; m.classList.toggle('open'); b.setAttribute('aria-expanded', m.classList.contains('open')); }));
   const cssVar = (el, n) => getComputedStyle(el).getPropertyValue(n).trim();
 
   // ---------------------------------------------------------------- springs (motion's default spring integrator, simplified)
@@ -49,44 +62,50 @@
       squares = new Float32Array(cols * rows); for (let i = 0; i < squares.length; i++) squares[i] = Math.random() * o.maxOpacity;
     };
     const draw = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) {
-        ctx.fillStyle = `${color}${squares[i * rows + j]})`;
-        ctx.fillRect(i * (o.squareSize + o.gridGap) * dpr, j * (o.squareSize + o.gridGap) * dpr, o.squareSize * dpr, o.squareSize * dpr);
-      }
+      ctx.clearRect(0, 0, canvas.width, canvas.height); ctx.fillStyle = color + '1)';
+      const step = (o.squareSize + o.gridGap) * dpr, sz = o.squareSize * dpr;
+      for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) { const a = squares[i * rows + j]; if (a < 0.01) continue; ctx.globalAlpha = a; ctx.fillRect(i * step, j * step, sz, sz); }
+      ctx.globalAlpha = 1;
     };
+    // same flicker maths as the original; frames are throttled to ~16 fps and only run while the canvas is on screen
+    let raf = 0, acc = 0;
     const loop = (now) => {
-      const dt = (now - last) / 1000; last = now;
-      if (visible) { for (let i = 0; i < squares.length; i++) if (Math.random() < o.flickerChance * dt) squares[i] = Math.random() * o.maxOpacity; draw(); }
-      if (!RM) requestAnimationFrame(loop);
+      raf = 0; const dt = (now - last) / 1000; last = now; acc += dt;
+      if (!visible || !cols) return;
+      if (acc >= 0.06) { for (let i = 0; i < squares.length; i++) if (Math.random() < o.flickerChance * acc) squares[i] = Math.random() * o.maxOpacity; acc = 0; draw(); }
+      if (!RM) raf = requestAnimationFrame(loop);
     };
-    toRGBA(); setup(); draw(); if (!RM) requestAnimationFrame(loop);
-    new ResizeObserver(() => { setup(); draw(); }).observe(canvas);
-    new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(canvas);
+    const start = () => { if (!raf && !RM && visible) { last = performance.now(); raf = requestAnimationFrame(loop); } };
+    toRGBA(); setup(); draw(); visible = false;
+    new ResizeObserver(() => { setup(); draw(); start(); }).observe(canvas);
+    const go = () => new IntersectionObserver(([e]) => { visible = e.isIntersecting; start(); }).observe(canvas);
+    if (document.readyState === 'complete') setTimeout(go, 800); else addEventListener('load', () => setTimeout(go, 800), { once: true });
     addEventListener('aa-theme', () => { toRGBA(); draw(); });
   });
 
   // ---------------------------------------------------------------- Magic UI · Word Rotate (mu-word-rotate): 2500ms, y -50 -> 0 -> 50, 0.25s easeOut
   $$('[data-word-rotate]').forEach((el) => {
-    const words = JSON.parse(el.dataset.wordRotate); let i = 0; const span = el.firstElementChild;
+    let i = 0; const span = el.firstElementChild;
     if (RM) return;
     setInterval(async () => {
       await span.animate([{ opacity: 1, transform: 'translateY(0)' }, { opacity: 0, transform: 'translateY(50px)' }], { duration: 250, easing: 'ease-out', fill: 'forwards' }).finished;
-      i = (i + 1) % words.length; span.textContent = words[i];
+      const words = JSON.parse(el.dataset.wordRotate); i = (i + 1) % words.length; span.textContent = words[i];
       span.animate([{ opacity: 0, transform: 'translateY(-50px)' }, { opacity: 1, transform: 'translateY(0)' }], { duration: 250, easing: 'ease-out', fill: 'forwards' });
     }, 2500);
   });
 
   // ---------------------------------------------------------------- Aceternity · Text Generate Effect (ac-text-generate-effect): blur(10px)->0, duration .5s, stagger .2s
-  $$('[data-text-generate]').forEach((el) => {
-    const words = el.textContent.trim().split(/\s+/);
-    el.innerHTML = words.map((w) => `<span class="tg-w">${esc(w)} </span>`).join('');
-    $$('.tg-w', el).forEach((s, i) => { if (RM) { s.style.opacity = 1; return; } s.animate([{ opacity: 0, filter: 'blur(10px)' }, { opacity: 1, filter: 'blur(0px)' }], { duration: 500, delay: i * 200, fill: 'both', easing: 'ease-out' }); });
-  });
+  const textGen = (el) => {
+    const txt = el.textContent.trim(); const words = /\s/.test(txt) ? txt.split(/\s+/) : [...txt]; const sp = /\s/.test(txt) ? ' ' : '';
+    el.innerHTML = words.map((w) => `<span class="tg-w">${esc(w)}${sp}</span>`).join('');
+    $$('.tg-w', el).forEach((s, i) => { if (RM) { s.style.opacity = 1; return; } s.animate([{ opacity: 0, filter: 'blur(10px)' }, { opacity: 1, filter: 'blur(0px)' }], { duration: 500, delay: Math.min(i, 12) * 200 / (sp ? 1 : 3), fill: 'both', easing: 'ease-out' }); });
+  };
+  $$('[data-text-generate]').forEach(textGen);
+  addEventListener('aa-i18n', () => $$('[data-text-generate]').forEach(textGen));
 
   // ---------------------------------------------------------------- Magic UI · Number Ticker (mu-number-ticker): useSpring damping 60 stiffness 100
   $$('[data-ticker]').forEach((el) => {
-    const to = +el.dataset.ticker; const fmt = (n) => Intl.NumberFormat('en-US').format(Math.round(n));
+    const to = +el.dataset.ticker; const fmt = (n) => Intl.NumberFormat(LANG()).format(Math.round(n));
     if (RM) { el.textContent = fmt(to); return; }
     el.textContent = '0';
     inView(el, () => setTimeout(() => spring({ from: 0, to, stiffness: 100, damping: 60, onUpdate: (x) => { el.textContent = fmt(Math.max(0, x)); } }), (+el.dataset.delay || 0) * 1000), { threshold: 0 });
@@ -111,7 +130,7 @@
     // Aceternity · 3D Card Effect (ac-3d-card): rotate = (pointer - centre) / 25, perspective 1000px, transition 200ms linear
     $$('[data-3d]:not([data-bound])', scope).forEach((el) => {
       el.dataset.bound = 1; const body = el.firstElementChild;
-      el.addEventListener('pointermove', (e) => { if (RM) return; const r = el.getBoundingClientRect(); const x = (e.clientX - r.left - r.width / 2) / 25, y = (e.clientY - r.top - r.height / 2) / 25; body.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`; el.classList.add('is-3d'); });
+      el.addEventListener('pointermove', (e) => { if (RM || root.dataset.skin !== 'c') return; const r = el.getBoundingClientRect(); const x = (e.clientX - r.left - r.width / 2) / 25, y = (e.clientY - r.top - r.height / 2) / 25; body.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`; el.classList.add('is-3d'); });
       el.addEventListener('pointerleave', () => { body.style.transform = 'rotateY(0deg) rotateX(0deg)'; el.classList.remove('is-3d'); });
     });
     // Aceternity · Focus Cards (ac-focus-cards): siblings blur-sm scale .98, 300ms ease-out
@@ -124,16 +143,16 @@
       g.dataset.bound = 1; const bg = document.createElement('span'); bg.className = 'he-bg'; bg.setAttribute('aria-hidden', 'true'); g.prepend(bg);
       let hideT;
       [...g.children].filter((c) => c !== bg).forEach((c) => {
-        c.addEventListener('pointerenter', () => { clearTimeout(hideT); const gr = g.getBoundingClientRect(), r = c.getBoundingClientRect(); const first = !bg.classList.contains('on'); bg.style.transition = first ? 'opacity .15s' : ''; bg.style.transform = `translate(${r.left - gr.left}px, ${r.top - gr.top}px)`; bg.style.width = r.width + 'px'; bg.style.height = r.height + 'px'; bg.classList.add('on'); });
+        c.addEventListener('pointerenter', () => { clearTimeout(hideT); if (root.dataset.skin !== 'b' && !g.closest('[data-sk-home]')) return; const gr = g.getBoundingClientRect(), r = c.getBoundingClientRect(); const first = !bg.classList.contains('on'); bg.style.transition = first ? 'opacity .15s' : ''; bg.style.transform = `translate(${r.left - gr.left}px, ${r.top - gr.top}px)`; bg.style.width = r.width + 'px'; bg.style.height = r.height + 'px'; bg.classList.add('on'); });
         c.addEventListener('pointerleave', () => { hideT = setTimeout(() => bg.classList.remove('on'), 200); });
       });
     });
   };
-  bindPointer();
+  bindPointer(); window.__bindPointer = bindPointer;
 
   // ---------------------------------------------------------------- Aceternity · Compare (ac-compare): slideMode hover + drag, initial 50%
   $$('[data-compare]').forEach((el) => {
-    const set = (p) => { p = Math.max(0, Math.min(100, p)); el.style.setProperty('--x', p + '%'); };
+    const set = (p) => { p = Math.max(0, Math.min(100, p)); el.style.setProperty('--x', p + '%'); el.setAttribute('aria-valuenow', Math.round(p)); };
     set(50);
     const mv = (cx) => { const r = el.getBoundingClientRect(); set(((cx - r.left) / r.width) * 100); };
     el.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse' || el.dataset.drag) mv(e.clientX); });
@@ -160,17 +179,28 @@
     inView(list, add, { threshold: 0.1 });
   });
 
-  // ---------------------------------------------------------------- Aceternity · Background Beams (ac-background-beams): per-path gradient x1/x2/y1/y2 0%->100%, duration 10-20s, delay 0-10s, easeInOut
-  $$('svg[data-bg-beams]').forEach((svg) => {
+  // ---------------------------------------------------------------- Aceternity · Background Beams (ac-background-beams): per-path gradient x1/x2/y1/y2 0%->100%, duration 10-20s, easeInOut (delay 0-2.5s instead of 0-10s so beams show on short page visits)
+  const initBeams = (svg) => {
+    if (svg.dataset.bound) return; svg.dataset.bound = 1;
     $$('linearGradient', svg).forEach((g) => {
       if (RM) return;
-      const dur = Math.random() * 10 + 10, delay = Math.random() * 10, y2 = 93 + Math.random() * 8;
+      const dur = Math.random() * 10 + 10, delay = Math.random() * 2.5, y2 = 93 + Math.random() * 8;
       [['x1', '0%;100%'], ['x2', '0%;95%'], ['y1', '0%;100%'], ['y2', `0%;${y2}%`]].forEach(([a, v]) => {
         const an = document.createElementNS('http://www.w3.org/2000/svg', 'animate');
         an.setAttribute('attributeName', a); an.setAttribute('values', v); an.setAttribute('dur', dur + 's'); an.setAttribute('begin', delay + 's'); an.setAttribute('repeatCount', 'indefinite');
         an.setAttribute('calcMode', 'spline'); an.setAttribute('keyTimes', '0;1'); an.setAttribute('keySplines', '0.42 0 0.58 1'); g.appendChild(an);
       });
     });
+  };
+  $$('svg[data-bg-beams]').forEach(initBeams);
+  // inner pages: skin B page headers get the same Background Beams, injected only when B is active
+  function injectBeams() { if (root.dataset.skin !== 'b') return; $$('[data-bb-slot]:empty').forEach((s) => { s.innerHTML = BB_SVG; initBeams($('svg', s)); }); }
+  injectBeams();
+  // ---------------------------------------------------------------- Aceternity · Timeline (ac-timeline): beam height follows scroll, gradient accent -> transparent
+  $$('[data-timeline]').forEach((tl) => {
+    const line = $('.tml-line i', tl); let raf = 0;
+    const upd = () => { raf = 0; const r = tl.getBoundingClientRect(); const p = Math.max(0, Math.min(1, (innerHeight * 0.6 - r.top) / r.height)); line.style.height = (p * 100) + '%'; line.style.opacity = Math.min(1, p * 10); };
+    addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(upd); }, { passive: true }); upd();
   });
 
   // ---------------------------------------------------------------- Aceternity · Moving Border (ac-moving-border): a radial dot follows <rect rx=30%> at length/duration px per ms (3000ms)
@@ -205,8 +235,10 @@
   $$('[data-da-tabs]').forEach((bar) => {
     const bubble = $('.da-bubble', bar); const btns = $$('a,button', bar).filter((b) => !b.hasAttribute('data-theme-toggle'));
     const moveTo = (b) => { const br = bar.getBoundingClientRect(), r = b.getBoundingClientRect(); bubble.style.transform = `translateX(${r.left - br.left}px)`; bubble.style.width = r.width + 'px'; btns.forEach((x) => x.classList.toggle('on', x === b)); };
+    const start = () => btns.find((b) => b.getAttribute('aria-current') === 'page') || btns[0];
     btns.forEach((b) => b.addEventListener('click', () => moveTo(b)));
-    requestAnimationFrame(() => moveTo(btns[0])); addEventListener('resize', () => moveTo($('.on', bar) || btns[0]));
+    requestAnimationFrame(() => moveTo(start())); addEventListener('resize', () => moveTo($('.on', bar) || start()));
+    if (document.fonts) document.fonts.ready.then(() => moveTo($('.on', bar) || start()));
   });
 
   // ---------------------------------------------------------------- Magic UI · Animated Beam (mu-animated-beam)
@@ -250,8 +282,8 @@
     let timer;
     btn.addEventListener('click', async () => {
       if (!(await copyText(get()))) return;
-      btn.dataset.copied = 'true'; $('.sr-live', btn).textContent = 'Copied'; const lab = $('.cb-label', btn); if (lab) lab.textContent = lab.dataset.done;
-      clearTimeout(timer); timer = setTimeout(() => { btn.dataset.copied = 'false'; $('.sr-live', btn).textContent = ''; if (lab) lab.textContent = lab.dataset.idle; }, 2000);
+      btn.dataset.copied = 'true'; $('.sr-live', btn).textContent = T('wz.copied', 'Copied'); const lab = $('.cb-label', btn); if (lab) lab.textContent = T('wz.copied', 'Copied');
+      clearTimeout(timer); timer = setTimeout(() => { btn.dataset.copied = 'false'; $('.sr-live', btn).textContent = ''; if (lab) lab.textContent = T('wz.copy', 'Copy prompt'); }, 2000);
     });
   }
 
@@ -269,12 +301,12 @@
   function filesFor(S) {
     const c = D.courses[`${S.prof}/${S.role}`];
     const f = [
-      { id: 'f-md', name: `${S.role}.md`, kind: 'Course', note: '5 ordered steps', href: c.course, ic: 'doc' },
-      { id: 'f-json', name: `${S.role}.json`, kind: 'Resources', note: `${c.n} items · licences · safety tags`, href: c.json, ic: 'json' },
-      { id: 'f-zip', name: `${S.role}.zip`, kind: 'Skill pack', note: 'SKILL.md files', href: c.pack, ic: 'zip' },
+      { id: 'f-md', name: `${S.role}.md`, kind: T('wz.f_course'), note: T('wz.f_steps'), href: c.course, ic: 'doc' },
+      { id: 'f-json', name: `${S.role}.json`, kind: T('wz.f_res'), note: `${c.n} ${T('wz.f_items')}`, href: c.json, ic: 'json' },
+      { id: 'f-zip', name: `${S.role}.zip`, kind: T('wz.f_pack'), note: 'SKILL.md', href: c.pack, ic: 'zip' },
     ];
-    if (S.prof === 'design') f.push({ id: 'f-hub', name: 'resources.json', kind: 'UI Hub', note: S.style ? `vs = ${S.style}` : '20 visual styles', href: D.uihub, ic: 'json' }, { id: 'f-case', name: 'agent-academy-build.md', kind: 'Design case', note: 'before / after', href: D.caseRaw, ic: 'doc' });
-    f.push({ id: 'f-chg', name: 'changes.json', kind: 'Updates', note: 'daily change log', href: D.changes, ic: 'rss' });
+    if (S.prof === 'design') f.push({ id: 'f-hub', name: 'resources.json', kind: 'UI Hub', note: S.style ? `vs = ${S.style}` : T('wz.f_styles'), href: D.uihub, ic: 'json' }, { id: 'f-case', name: 'agent-academy-build.md', kind: T('wz.f_case'), note: T('wz.f_ba'), href: D.caseRaw, ic: 'doc' });
+    f.push({ id: 'f-chg', name: 'changes.json', kind: T('wz.f_upd'), note: T('wz.f_log'), href: D.changes, ic: 'rss' });
     return f;
   }
   // light syntax colouring for the terminal: step numbers, labels before ':', `code`, "quoted", links, {placeholders}
@@ -293,7 +325,8 @@
   const W = $('[data-wz]');
   if (!W) return;
   const anim = W.dataset.wzAnim; // blurfade | stagger | direction
-  const S = { step: 1, prof: '', goal: '', role: '', style: '', plat: '', lang: 'en' };
+  const S = { step: 1, prof: '', goal: '', role: '', style: '', plat: '', lang: LANG() }; let langTouched = false;
+  const UTX = () => D.tx[LANG()] || D.tx.en;
   const panels = $$('[data-wz-panel]', W), tabs = $$('[data-wz-tab]', W);
   const progress = $$('[data-wz-progress]', W);
   const next = $('[data-wz-next]', W), back = $('[data-wz-back]', W), gen = $('[data-wz-generate]', W);
@@ -304,17 +337,17 @@
 
   function roleOptions() {
     const box = $('[data-wz-roles]', W); const rs = D.roles[S.prof] || [];
-    box.innerHTML = rs.map((r) => fill(tpl('role'), { val: r.k, title: esc(D.tx.en.roles[r.k]), n: r.n, top: esc(r.top), sel: S.role === r.k ? 'true' : 'false' })).join('');
+    box.innerHTML = rs.map((r) => fill(tpl('role'), { val: r.k, title: esc(UTX().roles[r.k]), n: r.n, res: esc(T('fac.items')), eg: esc(T('wz.eg')), top: esc(r.top), sel: S.role === r.k ? 'true' : 'false' })).join('');
     bindPointer(box);
   }
   function ok(step) { return step === 1 ? !!S.prof : step === 2 ? !!S.role : !!S.plat && !!S.lang; }
   function progressValue() { return Math.round(((S.prof ? 1 : 0) + (S.role ? 1 : 0) + (S.plat ? 1 : 0)) / 3 * 100); }
   function renderSummary() {
-    const tx = D.tx.en; const chips = [];
+    const tx = UTX(); const chips = [];
     if (S.prof) chips.push([1, tx.industries[S.prof]]); if (S.goal) chips.push([1, '“' + (S.goal.length > 28 ? S.goal.slice(0, 27) + '…' : S.goal) + '”']);
     if (S.role) chips.push([2, tx.roles[S.role]]); if (S.prof === 'design' && S.style) chips.push([3, S.style]);
-    if (S.plat) chips.push([3, D.platName[S.plat]]); if (S.lang) chips.push([3, D.langName[S.lang]]);
-    summary.innerHTML = chips.length ? chips.map(([st, l]) => fill(tpl('chip'), { step: st, label: esc(l) })).join('') : `<span class="sum-empty">${esc(summary.dataset.empty)}</span>`;
+    if (S.plat) chips.push([3, D.platName[S.plat] || T("wz.other")]); if (S.lang) chips.push([3, D.langName[S.lang]]);
+    summary.innerHTML = chips.length ? chips.map(([st, l]) => fill(tpl('chip'), { step: st, label: esc(l) })).join('') : `<span class="sum-empty">${esc(T('wz.empty'))}</span>`;
   }
   function sync() {
     $$('[data-opt]', W).forEach((o) => { const k = o.dataset.opt; const sel = S[k] === o.dataset.val; o.setAttribute('aria-checked', sel ? 'true' : 'false'); o.dataset.sel = sel; });
@@ -345,7 +378,7 @@
   W.addEventListener('click', (e) => {
     const o = e.target.closest('[data-opt]');
     if (o && !o.disabled && o.getAttribute('aria-disabled') !== 'true') {
-      const k = o.dataset.opt; S[k] = o.dataset.val;
+      const k = o.dataset.opt; S[k] = o.dataset.val; if (k === 'lang') langTouched = true;
       if (k === 'prof') { if (S.role && !(D.roles[S.prof] || []).some((r) => r.k === S.role)) S.role = ''; }
       sync(); return;
     }
@@ -361,13 +394,14 @@
   });
   const goalIn = $('[data-wz-goal]', W);
   const guess = (s) => /design|ui\b|ux|landing|figma|brand|logo|style|interface/i.test(s) ? 'design' : /support|refund|ticket|customer|order|help ?desk|faq|reply/i.test(s) ? 'customer-service' : /seo|ads?\b|email|content|social|campaign|marketing|growth|blog/i.test(s) ? 'marketing' : '';
-  goalIn.addEventListener('input', () => { S.goal = goalIn.value.trim(); const g = guess(S.goal); const hint = $('[data-wz-guess]', W); if (g && !S.prof) { S.prof = g; } hint.textContent = S.goal ? (g ? `Closest course: ${D.tx.en.industries[g]}` : 'Pick the closest profession above') : ''; sync(); });
+  goalIn.addEventListener('input', () => { S.goal = goalIn.value.trim(); const g = guess(S.goal); const hint = $('[data-wz-guess]', W); if (g && !S.prof) { S.prof = g; } hint.textContent = S.goal ? (g ? `${T('wz.closest')} ${UTX().industries[g]}` : T('wz.pick_closest')) : ''; sync(); });
+  addEventListener('aa-i18n', () => { if (!langTouched) S.lang = LANG(); if (S.step === 2) roleOptions(); sync(); });
   next.addEventListener('click', () => ok(S.step) && show(S.step + 1));
   back.addEventListener('click', () => S.step > 1 && show(S.step - 1));
 
   // ------------- Generate -> reveal: 1) terminal types the prompt  2) file cards + Animated Beam  3) copy button
   const term = $('[data-term-body]', W), files = $('[data-files]', W), stage = $('[data-beam-stage]', W), actions = $('[data-wz-actions]', W);
-  const copyBtn = $('[data-copy]', W), cursorA = $('[data-cursor-link]', W); let PROMPT = '', runTok = 0;
+  const copyBtn = $('[data-copy-prompt]', W), cursorA = $('[data-cursor-link]', W); let PROMPT = '', runTok = 0;
   bindCopy(copyBtn, () => PROMPT);
   async function reveal() {
     const tok = ++runTok; const lines = buildPrompt(S); PROMPT = lines.join('\n');
@@ -377,8 +411,10 @@
     $$('[data-reveal]', result).forEach((e) => e.classList.remove('in'));
     term.innerHTML = ''; files.innerHTML = ''; actions.classList.remove('in');
     const fl = filesFor(S);
-    $('[data-term-title]', W).textContent = `prompt · ${D.tx.en.roles[S.role]} · ${D.platName[S.plat]}`;
+    const plat = D.platName[S.plat] || T('wz.other');
+    $('[data-term-title]', W).textContent = `prompt · ${UTX().roles[S.role]} · ${plat}`; $('[data-term-status]', W).textContent = T('wz.typing');
     const tw = $('[data-reveal="term"]', result); tw.classList.add('in');
+    // scroll the result's top (terminal window bar + line 1) below the sticky header; scroll-margin-top is set in CSS
     result.scrollIntoView({ behavior: RM ? 'auto' : 'smooth', block: 'start' });
     await wait(RM ? 0 : 450);
     // 1) Magic UI Terminal sequence: AnimatedSpan (opacity 0,y -5 -> 1, .3s) for blank lines, TypingAnimation for text lines
@@ -391,15 +427,15 @@
       if (!s) { tx.innerHTML = '&nbsp;'; row.animate([{ opacity: 0, transform: 'translateY(-5px)' }, { opacity: 1, transform: 'translateY(0)' }], { duration: 300 }); await wait(60); continue; }
       tx.classList.add('typing');
       await new Promise((res) => { const t0 = performance.now(); const f = (now) => { if (tok !== runTok) return res(); const n = W.dataset.skip ? s.length : Math.min(s.length, Math.floor((now - t0) / speed) + 1); tx.innerHTML = hl(s.slice(0, n)); if (n < s.length) requestAnimationFrame(f); else res(); }; requestAnimationFrame(f); });
-      tx.classList.remove('typing'); term.scrollTop = term.scrollHeight;
+      tx.classList.remove('typing');
     }
     if (tok !== runTok) return;
-    $('[data-term-status]', W).textContent = `${lines.length} lines · ${PROMPT.length.toLocaleString('en-US')} chars`;
+    $('[data-term-status]', W).textContent = `${lines.length} ${T('wz.lines')} · ${PROMPT.length.toLocaleString(LANG())} ${T('wz.chars')}`;
     // 2) file mini-cards + Animated Beam (agent node -> each file)
     const L = Math.ceil(fl.length / 2);
     files.innerHTML = fl.map((f, i) => fill(tpl('file'), Object.assign({}, f, { side: i < L ? 'l' : 'r', name: esc(f.name), note: esc(f.note), ico: D.fileIcons[f.ic] }))).join('');
     $('[data-files-l]', W).append(...$$('[data-side="l"]', files)); $('[data-files-r]', W).append(...$$('[data-side="r"]', files));
-    $('[data-agent-name]', W).textContent = D.platName[S.plat];
+    $('[data-agent-name]', W).textContent = plat;
     const fr = $('[data-reveal="files"]', result); fr.classList.add('in');
     stage.dataset.beams = JSON.stringify(fl.map((f, i) => ({ from: 'agent-node', to: f.id, curvature: (i % L - (L - 1) / 2) * -40, reverse: i < L, duration: 3 + (i % 3) * 0.6, delay: i * 0.15 })));
     const cards = $$('.file', stage);

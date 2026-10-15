@@ -114,3 +114,74 @@ export const MAP = {
     'before-after': shared.compare, footer: shared.footer,
   },
 };
+
+// ---------------------------------------------------------------- full site (all pages), per skin
+// SITE_MAP rows: [page, module key, label, {a, b, c}] (same object in all three = shared component, re-skinned by tokens).
+// `libLevel` notes mark rows whose Hub preview has no item id of its own, so the Hub id is the library entry.
+const LIB = 'Hub preview has no item id; library-level Hub id';
+const S = {
+  crumbs: c('Breadcrumb', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--breadcrumb--docs-components-breadcrumb--v1'), 'https://ui.shadcn.com/docs/components/breadcrumb', 'sh-breadcrumb', LIB),
+  pagination: c('Pagination', SH, 'cs2-ui-shadcn-com--pagination--docs-components-pagination--v3', P('cs2-ui-shadcn-com--pagination--docs-components-pagination--v3'), 'https://ui.shadcn.com/docs/components/pagination', 'sh-pagination'),
+  accordion: c('Accordion', SH, 'cs2-ui-shadcn-com--accordion--docs-components-accordion--v3', P('cs2-ui-shadcn-com--accordion--docs-components-accordion--v3'), 'https://ui.shadcn.com/docs/components/accordion', 'sh-accordion (native <details>)'),
+  table: c('Data Table', SH, 'cs2-ui-shadcn-com--table--data-table--v1', P('cs2-ui-shadcn-com--table--data-table--v1'), 'https://ui.shadcn.com/docs/components/data-table', 'sh-table'),
+  alert: c('Alert', SH, 'cs2-ui-shadcn-com--alert--docs-components-alert--v1', P('cs2-ui-shadcn-com--alert--docs-components-alert--v1'), 'https://ui.shadcn.com/docs/components/alert', 'sh-alert'),
+  select: c('Select', SH, 'cs2-ui-shadcn-com--select--select--v1', P('cs2-ui-shadcn-com--select--select--v1'), 'https://ui.shadcn.com/docs/components/select', 'sh-select (native <select>, same tokens)'),
+  checkbox: c('Checkbox', SH, 'cs2-ui-shadcn-com--checkbox--docs-components-checkbox--v1', P('cs2-ui-shadcn-com--checkbox--docs-components-checkbox--v1'), 'https://ui.shadcn.com/docs/components/checkbox', 'sh-checkbox'),
+  toggle: c('Toggle Group', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--tabs--docs-components-toggle-group--v2'), 'https://ui.shadcn.com/docs/components/toggle-group', 'sh-toggle-group', LIB),
+  input: c('Input', SH, 'cs-ui-shadcn-com-input', P('cs-ui-shadcn-com-input'), 'https://ui.shadcn.com/docs/components/input', 'sh-input'),
+  tabs: c('Tabs', SH, 'cs-ui-shadcn-com-tabs', P('cs2-ui-shadcn-com--tabs--tabs--v0'), 'https://ui.shadcn.com/docs/components/tabs', 'sh-tabs'),
+  menu: c('Navigation Menu (mobile, collapsed)', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--nav--docs-components-navigation-menu--v1'), 'https://ui.shadcn.com/docs/components/navigation-menu', 'sh-navigation-menu', LIB),
+  timeline: c('Timeline', AC, 'ui-aceternity-com', P('cs2-ui-aceternity-com--timeline--timeline--v0'), 'https://ui.aceternity.com/components/timeline', 'ac-timeline (sticky label + scroll-progress line)', LIB),
+  code: c('Code Block', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/code-block', 'cult-code-block'),
+  shCard: c('Card', SH, 'cs2-ui-shadcn-com--card--card--v0', P('cs2-ui-shadcn-com--card--card--v0'), 'https://ui.shadcn.com/docs/components/card', 'sh-card'),
+  spot: c('Card Spotlight', AC, 'ui-aceternity-com', P('cs2-ui-aceternity-com--card--card-spotlight--v0'), 'https://ui.aceternity.com/components/card-spotlight', 'ac-card-spotlight (radial follows pointer)', LIB),
+  minimal: c('Minimal Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/minimal-card', 'cult-minimal-card'),
+  magic: c('Magic Card', MU, 'cs-magicui-design-card', P('cs2-magicui-design--card--magic-card--v0'), 'https://magicui.design/docs/components/magic-card', 'mu-magic-card'),
+  hover: c('Card Hover Effect', AC, 'ui-aceternity-com', P('cs2-ui-aceternity-com--card--card-hover-effect--v0'), 'https://ui.aceternity.com/components/card-hover-effect', 'ac-card-hover-effect', LIB),
+  card3d: c('3D Card Effect', AC, 'cs2-ui-aceternity-com--card--3d-card-effect--v0', P('cs2-ui-aceternity-com--card--3d-card-effect--v0'), 'https://ui.aceternity.com/components/3d-card-effect', 'ac-3d-card'),
+  muBento: c('Bento Grid', MU, 'cs-magicui-design-layout', P('cs2-magicui-design--layout--bento-grid--v0'), 'https://magicui.design/docs/components/bento-grid', 'mu-bento-grid'),
+  acBento: c('Bento Grid', AC, 'cs-ui-aceternity-com-layout', P('cs-ui-aceternity-com-layout'), 'https://ui.aceternity.com/components/bento-grid', 'ac-bento-grid'),
+  texture: c('Texture Card', CU, 'www-cult-ui-com', 'previews/www-cult-ui-com.webp', 'https://www.cult-ui.com/docs/components/texture-card', 'cult-texture-card (flattened)'),
+  collapsible: c('Collapsible', SH, 'ui-shadcn-com', P('cs2-ui-shadcn-com--accordion--docs-components-collapsible--v2'), 'https://ui.shadcn.com/docs/components/collapsible', 'sh-collapsible (native <details>)', LIB),
+  prose: c('— (typography only)', '—', '', '', '', 'plain HTML from markdown', 'GAP: long-form prose has no Hub component; styled with tokens only'),
+};
+const all = (x) => ({ a: x, b: x, c: x });
+const per = (k) => ({ a: MAP.a[k], b: MAP.b[k], c: MAP.c[k] });
+const card = { a: S.shCard, b: S.spot, c: S.minimal };
+const role = { a: S.magic, b: S.hover, c: S.card3d };
+const shBtn = shared.shBtn, badge = shared.badge, ticker = shared.ticker;
+export const SITE_MAP = [
+  ['all pages', 'nav', 'Header navigation', per('nav')],
+  ['all pages', 'skin-switch', 'A/B/C style switcher', all(S.toggle)],
+  ['all pages', 'lang', 'Language select', all(S.select)],
+  ['all pages', 'theme', 'Light/dark toggle', { a: shBtn, b: MAP.b.nav, c: shBtn }],
+  ['all pages', 'menu', 'Mobile menu', { a: S.menu, b: MAP.b.nav, c: S.menu }],
+  ['all pages', 'page-head', 'Page header background', per('hero-bg')],
+  ['all pages', 'crumbs', 'Breadcrumb', all(S.crumbs)],
+  ['all pages', 'footer', 'Footer', per('footer')],
+  ['library, templates', 'search', 'Search input', all(S.input)],
+  ['library, templates', 'filter-select', 'Type / profession select', all(S.select)],
+  ['library, templates', 'safe-only', 'Safe-only checkbox', all(S.checkbox)],
+  ['library, templates', 'segments', 'Profession / type segments', all(S.toggle)],
+  ['library, templates, industry, course, latest, resource', 'cards', 'Resource card', card],
+  ['library, templates', 'pagination', 'Pagination', all(S.pagination)],
+  ['library, templates', 'empty', 'Empty state', all(S.shCard)],
+  ['templates, industry, course', 'stats', 'Stat strip (counts)', all(ticker)],
+  ['templates, industry, resource, latest, changelog', 'badges', 'Badges, source chips, safety tags', all(badge)],
+  ['industry', 'roles', 'Role cards', role],
+  ['course', 'alert', 'Permissions alert', all(S.alert)],
+  ['course, resource, agents, 404', 'buttons', 'Buttons (raw, pack, JSON, copy)', all(shBtn)],
+  ['course, changelog', 'timeline', 'Five-step / per-day timeline', all(S.timeline)],
+  ['course', 'checklist', 'Self-check list', all(S.checkbox)],
+  ['course', 'more', 'Show N more (per step)', all(S.collapsible)],
+  ['courses', 'bento', 'Open professions', { a: S.muBento, b: S.acBento, c: S.texture }],
+  ['courses', 'steps5', 'Five steps overview', card],
+  ['resource', 'code-block', 'Install command', all(S.code)],
+  ['resource', 'accordion', 'Mirrored text', all(S.accordion)],
+  ['resource, changelog, agents', 'table', 'Metadata / changes / endpoints table', all(S.table)],
+  ['latest', 'tabs', 'Newest / Trending tabs', all(S.tabs)],
+  ['latest', 'trend', 'Trending list', card],
+  ['sources', 'source-cards', 'Source cards', card],
+  ['case', 'prose', 'Case study text', all(S.prose)],
+  ['404', 'not-found', 'Not found', all(S.shCard)],
+];

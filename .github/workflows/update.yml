@@ -12,7 +12,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["src/**", "scripts/build.mjs", "scripts/lib.mjs", "i18n/**", "content/**", "data/courses.json", "directions/**", "scripts/directions.mjs"]
+    paths: ["src/**", "scripts/**", "i18n/**", "content/**", "data/courses.json", "directions/**", "package.json", "package-lock.json", ".github/workflows/update.yml"]
 
 permissions:
   contents: write

@@ -1,6 +1,6 @@
 // Direction A · "Zinc + Indigo" · Hub vs: minimal · shadcn/ui + Magic UI
-export function pageA(X) {
-  const { COUNTS: C, esc, nf, ic, roles, csItems, mkItems, feed, STYLE_CARDS, TAX, SOON, IND_IC, owner, mono, stars, rUrl, safety, TYPE, wizard, themeBtn, copyBtn, radio, BASE, SITE } = X;
+export function page(X) {
+  const { COUNTS: C, esc, nf, ic, roles, csItems, mkItems, feed, STYLE_CARDS, TAX, SOON, IND_IC, owner, mono, stars, rUrl, safeTags, licTag, TYPE, wizard, copyBtn, radio, BASE, IMG, i, n, tx, updated } = X;
   const css = `
 :root{--f-body:"Geist",ui-sans-serif,system-ui,sans-serif;--f-mono:"Geist Mono",ui-monospace,monospace;
  --bg:#FFFFFF;--bg2:#FAFAFA;--card:#FFFFFF;--muted-bg:#F4F4F5;--line:#E4E4E7;--input:#E4E4E7;--ink:#09090B;--ink2:#3F3F46;--muted:#71717A;
@@ -11,7 +11,6 @@ export function pageA(X) {
  --acc:#818CF8;--acc-ink:#0B0B2B;--acc-soft:rgba(129,140,248,.12);--acc-2:#C7D2FE;--ring:#818CF8;--flicker-color:#818CF8;
  --mc-from:#818CF8;--mc-to:#312E81;--mc-glow:rgba(129,140,248,.10);
  --t-bg:#09090B;--t-ink:#E4E4E7;--ln:#52525B;--caret:#818CF8;--tk-num:#A5B4FC;--tk-key:#C7D2FE;--tk-url:#A1A1AA;--tk-str:#C4B5FD;--tk-kw:#A5B4FC;--bg-sh:#4F46E5}
-${X.MOCKBAR_CSS}
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
 .i-moon{display:none}.dark .i-sun{display:none}.dark .i-moon{display:block}
 /* shadcn Button */
@@ -183,7 +182,7 @@ h1{font-size:clamp(40px,5.4vw,64px);line-height:1.02;letter-spacing:-.035em;font
 .term-h{display:flex;align-items:center;gap:8px;padding:14px 16px;border-bottom:1px solid var(--line)}
 .term-h .dots{display:flex;gap:8px}.term-h .dots i{width:8px;height:8px;border-radius:999px;background:#EF4444}.term-h .dots i:nth-child(2){background:#EAB308}.term-h .dots i:nth-child(3){background:#22C55E}
 .term-h span{margin-left:8px;font:500 12px/1 var(--f-mono);color:var(--muted)}.term-h small{margin-left:auto;font:500 12px/1 var(--f-mono);color:var(--muted)}
-.term-b{padding:16px;max-height:420px;overflow:auto;font:400 13px/1.6 var(--f-mono);cursor:text}
+.term-b{padding:16px;margin:0;font:400 13px/1.6 var(--f-mono);cursor:text;white-space:pre-wrap;overflow-wrap:anywhere}
 .res-l{margin:0 0 12px;font-size:13px;font-weight:500;color:var(--ink2)}
 .stage{--beam-from:var(--acc);--beam-to:var(--acc-2);--beam-path:var(--muted);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:72px;padding:28px;border:1px solid var(--line);border-radius:12px;background:var(--bg2);min-height:260px}
 .stage-col{display:flex;flex-direction:column;gap:12px}
@@ -219,11 +218,12 @@ h1{font-size:clamp(40px,5.4vw,64px);line-height:1.02;letter-spacing:-.035em;font
 .case ol{margin:0;padding:0;list-style:none;display:grid;gap:14px;counter-reset:s}
 .case li{display:grid;grid-template-columns:28px 1fr;gap:12px;counter-increment:s}
 .case li::before{content:counter(s);width:28px;height:28px;border-radius:999px;display:grid;place-items:center;border:1px solid var(--line);font:600 12px/1 var(--f-mono);color:var(--acc)}
-.case li b{display:block;font-size:14.5px;font-weight:600}.case li span{font-size:14px;color:var(--muted)}
+.case li b{display:block;font-size:14.5px;font-weight:600}.case li span{font-size:14px;color:var(--muted)}.case li b span{color:var(--ink)}
+.case{grid-template-columns:1.6fr 1fr}
 /* footer: shadcn Blocks */
 .foot{margin-top:120px;border-top:1px solid var(--line);background:var(--bg2)}
 .foot .wrap{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:32px;padding-top:48px;padding-bottom:32px}
-.foot h4{margin:0 0 12px;font-size:13px;font-weight:600}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}.foot li a{font-size:14px;color:var(--muted)}.foot li a:hover{color:var(--ink)}
+.foot .fh{margin:0 0 12px;font-size:13px;font-weight:600}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}.foot li a{font-size:14px;color:var(--muted)}.foot li a:hover{color:var(--ink)}
 .foot p{color:var(--muted);font-size:14px;max-width:320px}
 .foot-b{border-top:1px solid var(--line)}.foot-b .wrap{display:flex;justify-content:space-between;padding-top:16px;padding-bottom:16px;font-size:12.5px;color:var(--muted)}
 @media (max-width:1024px){.hero .wrap{grid-template-columns:1fr}.opt-style{grid-template-columns:repeat(4,1fr)}.opt-plat{grid-template-columns:repeat(3,1fr)}}
@@ -242,76 +242,66 @@ h1{font-size:clamp(40px,5.4vw,64px);line-height:1.02;letter-spacing:-.035em;font
  .case{grid-template-columns:1fr}.foot .wrap{grid-template-columns:1fr 1fr}.res-actions .btn-g{margin-left:0}
 }`;
   const sources = [['GitHub', 'GH', C.src.github], ['MCP Registry', 'MCP', C.src['mcp-registry']], ['prompts.chat', 'PC', C.src['prompts.chat']], ['UI Hub', 'UI', C.src['ui-hub']], ['BotsDots', 'BD', C.src.botsdots]];
-  const beamsHero = JSON.stringify(sources.map((s, i) => ({ from: `src-${i}`, to: 'hub-node', curvature: (2 - i) * 30, duration: 5, delay: i * 0.4 })).concat([{ from: 'hub-node', to: 'out-node', duration: 4, delay: 1 }]));
-  const chg = Object.entries(X.CHG.items.reduce((a, i) => (a[i.type] = (a[i.type] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).slice(0, 6);
+  const beamsHero = JSON.stringify(sources.map((s, k) => ({ from: `src-${k}`, to: 'hub-node', curvature: (2 - k) * 30, duration: 5, delay: k * 0.4 })).concat([{ from: 'hub-node', to: 'out-node', duration: 4, delay: 1 }]));
+  const chg = Object.entries(X.CHG.items.reduce((a, x) => (a[x.type] = (a[x.type] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]).slice(0, 6);
   const maxC = chg[0][1];
-  const tweet = (x) => `<a class="tw" href="${rUrl(x.id)}"><div class="tw-h"><i>${esc(mono(owner(x.h)))}</i><div><b>${esc(x.t)}</b><small>@${esc(owner(x.h))} · ${esc(TYPE[x.ty] || x.ty)}</small></div></div><p>${esc(x.s)}</p><div class="tw-f"><span class="tag">${ic('star')}${stars(x.q)}</span><span class="tag">${esc(x.li && x.li !== 'see source' ? x.li : 'licence: see source')}</span>${safety(x).map(([i, l]) => `<span class="tag warn">${ic(i)}${l}</span>`).join('') || `<span class="tag">${ic('shield')}read-only</span>`}</div></a>`;
+  const tweet = (x) => `<a class="tw" href="${rUrl(x.id)}"><div class="tw-h"><i>${esc(mono(owner(x.h)))}</i><div><b>${esc(x.t)}</b><small>@${esc(owner(x.h))} · ${tx('types', x.ty)}</small></div></div><p>${esc(x.s)}</p><div class="tw-f"><span class="tag">${ic('star')}${stars(x.q)}</span><span class="tag">${licTag(x)}</span>${safeTags(x)}</div></a>`;
   const half = Math.ceil(feed.length / 2);
   const W = wizard({
     cls: 'card', anim: 'blurfade', typeMs: 4,
-    head: `<span class="border-beam" data-mod="wizard-accent" aria-hidden="true"><i></i></span><div class="wz-head" data-mod="steps"><div><h3>Quick start</h3><p>Three picks. The prompt opens the course files in your own agent; nothing is sent from here.</p></div>
-<div class="prog"><div class="prog-l"><span>Progress</span><span data-wz-progress-label>0%</span></div><div class="progress" data-wz-progress role="progressbar" aria-label="Wizard progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i></i></div></div>
-<div class="wz-tabs" role="tablist" aria-label="Steps"><button type="button" role="tab" data-wz-tab="1"><em>1</em>Bot</button><button type="button" role="tab" data-wz-tab="2"><em>2</em>Role</button><button type="button" role="tab" data-wz-tab="3"><em>3</em>Preferences</button></div></div>`,
-    prof: (p) => `<button type="button" class="pc magic-card" data-magic-card data-gsize="220" data-item ${radio('prof', p.k)} data-mod-item="step1"><span class="tick">${ic('check')}</span><span class="pc-ic">${p.icon}</span><b>${esc(p.name)}</b><p>${esc(p.blurb)}</p><small>${nf(p.n)} resources · ${p.roles} roles</small></button>`,
-    custom: `<div class="field" data-item data-mod="custom"><label for="wz-goal">Or describe your bot in your own words</label><input class="input" id="wz-goal" data-wz-goal maxlength="200" placeholder="e.g. answer refund emails for my online shop" autocomplete="off"><small data-wz-guess aria-live="polite"></small></div>`,
-    roleTpl: `<button type="button" class="choice" data-item ${radio('role', '{val}')} aria-checked="{sel}" data-sel="{sel}"><span class="ct"><b>{title}</b><small>{n} resources · e.g. {top}</small></span><span class="rd"></span></button>`,
-    style: (s) => `<button type="button" class="sc magic-card" data-magic-card data-gsize="160" ${radio('style', s.k)}><span class="sc-img">${s.any ? ic('sparkles') : `<img src="img/style-${s.k}.webp" alt="${esc(s.src)} preview from UI Hub" loading="lazy" width="480" height="300">`}</span><b>${s.any ? 'Agent picks' : s.k}</b><small>${s.any ? 'one of 20 styles' : `${nf(s.n)} refs · ${esc(s.src)}`}</small></button>`,
-    plat: (p) => `<button type="button" class="choice plat" ${radio('plat', p.k)}><span class="pm">${esc(p.m)}</span><span class="ct"><b>${esc(p.n)}</b><small>${esc(p.note)}</small></span><span class="rd"></span></button>`,
+    head: `<span class="border-beam" data-mod="wizard-accent" aria-hidden="true"><i></i></span><div class="wz-head" data-mod="steps"><div><h3>${i('qs.title')}</h3><p>${i('wz.sub')}</p></div>
+<div class="prog"><div class="prog-l"><span>${i('wz.progress')}</span><span data-wz-progress-label>0%</span></div><div class="progress" data-wz-progress role="progressbar" aria-label="${esc(X.t('wz.progress'))}" data-i-aria="wz.progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i></i></div></div>
+<div class="wz-tabs" role="tablist" aria-label="Steps"><button type="button" role="tab" data-wz-tab="1"><em>1</em>${i('wz.tab1')}</button><button type="button" role="tab" data-wz-tab="2"><em>2</em>${i('wz.tab2')}</button><button type="button" role="tab" data-wz-tab="3"><em>3</em>${i('wz.tab3')}</button></div></div>`,
+    prof: (p) => `<button type="button" class="pc magic-card" data-magic-card data-gsize="220" data-item ${radio('prof', p.k)} data-mod-item="step1"><span class="tick">${ic('check')}</span><span class="pc-ic">${p.icon}</span><b>${p.name}</b><p>${p.blurb}</p><small>${p.meta}</small></button>`,
+    custom: `<div class="field" data-item data-mod="custom"><label for="wz-goal">${i('wz.custom')}</label><input class="input" id="wz-goal" data-wz-goal maxlength="200" placeholder="${esc(X.t('qs.bot_ph'))}" data-i-ph="qs.bot_ph" autocomplete="off"><small data-wz-guess aria-live="polite"></small></div>`,
+    roleTpl: `<button type="button" class="choice" data-item ${radio('role', '{val}')} aria-checked="{sel}" data-sel="{sel}"><span class="ct"><b>{title}</b><small>{n} {res} · {eg} {top}</small></span><span class="rd"></span></button>`,
+    style: (s) => `<button type="button" class="sc magic-card" data-magic-card data-gsize="160" ${radio('style', s.k)}><span class="sc-img">${s.any ? ic('sparkles') : s.img}</span><b>${s.label}</b><small>${s.sub}</small></button>`,
+    plat: (p) => `<button type="button" class="choice plat" ${radio('plat', p.k)}><span class="pm">${esc(p.m)}</span><span class="ct"><b>${p.name}</b><small>${p.noteH}</small></span><span class="rd"></span></button>`,
     lang: (l) => `<button type="button" class="badge" ${radio('lang', l.k)}>${esc(l.n)}</button>`,
     chipTpl: `<button type="button" class="chip" data-chip-step="{step}">{label}</button>`,
-    back: `<button type="button" class="btn btn-o" data-wz-back>${ic('left')}Back</button>`,
-    next: `<button type="button" class="btn btn-p" data-wz-next>Continue${ic('right')}</button>`,
-    gen: `<button type="button" class="shimmer-btn" data-wz-generate data-mod="generate"><span class="sh-spark-wrap"><span class="sh-spark"></span></span>${ic('sparkles')}Generate · 生成<span class="sh-hl"></span><span class="sh-back"></span></button>`,
-    terminal: `<div class="term" data-mod="terminal"><div class="term-h"><span class="dots"><i></i><i></i><i></i></span><span data-term-title>prompt</span><small data-term-status>typing…</small></div><pre class="term-b" data-term-body aria-live="off" title="Click to skip"></pre></div>`,
+    back: `<button type="button" class="btn btn-o" data-wz-back>${ic('left')}${i('wz.back')}</button>`,
+    next: `<button type="button" class="btn btn-p" data-wz-next>${i('wz.next')}${ic('right')}</button>`,
+    gen: `<button type="button" class="shimmer-btn" data-wz-generate data-mod="generate"><span class="sh-spark-wrap"><span class="sh-spark"></span></span>${ic('sparkles')}${i('wz.gen')}<span class="sh-hl"></span><span class="sh-back"></span></button>`,
+    terminal: `<div class="term" data-mod="terminal"><div class="term-h"><span class="dots"><i></i><i></i><i></i></span><span data-term-title>prompt</span><small data-term-status></small></div><pre class="term-b" data-term-body aria-live="off"></pre></div>`,
     agent: `${ic('bot')}<b data-agent-name>Agent</b>`,
     fileTpl: `<a class="file" id="{id}" data-side="{side}" href="{href}" target="_blank" rel="noopener"><span class="f-ic">{ico}</span><span class="f-t"><b>{name}</b><small>{kind} · {note}</small></span></a>`,
     copy: copyBtn('btn-acc'), cursorCls: 'btn btn-o btn-lg',
-    restart: `<button type="button" class="btn btn-g" data-wz-restart data-mod="restart">${ic('restart')}Start over · 重新选</button>`,
+    restart: `<button type="button" class="btn btn-g" data-wz-restart data-mod="restart">${ic('restart')}${i('wz.restart')}</button>`,
   });
-  return `${X.head('a', 'Zinc + Indigo', css)}<body>
-<a class="skip" href="#main">Skip to content</a>${X.mockBar('a')}
-<header class="nav" data-mod="nav"><div class="wrap"><a class="logo" href="#"><span class="logo-m">${ic('sparkles')}</span>Agent Academy</a>
-<nav class="tabs-list" aria-label="Main"><a href="#" aria-current="page">Home</a><a href="${BASE}library/">Library</a><a href="${BASE}courses/">Courses</a><a href="#latest">Latest</a><a href="${BASE}agents/">For agents</a></nav>
-<div class="nav-r">${themeBtn('btn btn-g btn-ic')}<a class="btn btn-o btn-sm" href="https://github.com/SiinXu/agent-academy">${ic('github')}GitHub</a></div></div></header>
-<main id="main">
+  const main = `<main id="main" data-sk-home="a">
 <section class="hero"><canvas data-flicker='{"squareSize":4,"gridGap":6,"flickerChance":0.3,"maxOpacity":0.22}' data-mod="hero-bg" aria-hidden="true"></canvas>
-<div class="wrap"><div data-mod="hero"><span class="eyebrow"><b>Daily</b>Updated ${esc(X.DATA.prompt ? 'Oct 15, 2026' : '')} · ${nf(C.changes)} changes logged</span>
-<h1>Teach your agent a real job<span class="wr" data-word-rotate='["in customer service","in marketing","in design"]'><span>in customer service</span></span></h1>
-<p class="lede">${nf(C.total)} real skills, MCP servers, prompts and workflows, sorted into courses by profession. Your agent reads a course, then gets to work.</p>
-<div class="cta" data-mod="buttons"><a class="btn btn-p btn-lg" href="#start">Build a prompt${ic('right')}</a><a class="btn btn-o btn-lg" href="${BASE}library/">Browse the library</a></div>
-<div class="stats" data-mod="stats"><div class="stat"><b data-ticker="${C.total}">${nf(C.total)}</b><span>resources</span></div><div class="stat"><b data-ticker="${C.skills}">${nf(C.skills)}</b><span>SKILL.md files</span></div><div class="stat"><b data-ticker="${C.mcp}">${nf(C.mcp)}</b><span>MCP servers</span></div><div class="stat"><b data-ticker="${C.prompts}">${nf(C.prompts)}</b><span>prompts</span></div></div></div>
-<div class="diagram" data-beam-stage data-beams='${beamsHero}' data-mod="hero-visual" aria-label="Where resources come from"><div class="dg-col">${sources.map(([n, m, c], i) => `<div class="node" id="src-${i}"><i>${m}</i>${esc(n)}<small>${nf(c)}</small></div>`).join('')}</div>
-<div class="hub" id="hub-node" title="Agent Academy">${ic('library')}</div><div class="dg-out"><div class="node" id="out-node">${ic('bot')}<span>Your agent</span><small>20 courses</small></div></div>
-<div class="dg-cap">5 sources → dedupe · licence · safety tags → 20 course files</div></div></div></section>
+<div class="wrap"><div data-mod="hero"><span class="eyebrow"><b>${i('h.daily')}</b>${i('stat.updated')} ${updated} · ${n('h.changes_n', C.changes)}</span>
+<h1>${i('h.title')}<span class="wr" data-word-rotate='${JSON.stringify(X.OPEN.map((k) => TAX.industries[k].en))}' data-rotate-tx="industries:${X.OPEN.join(',')}"><span>${esc(TAX.industries[X.OPEN[0]].en)}</span></span></h1>
+<p class="lede">${n('h.lede', C.total)}</p>
+<div class="cta" data-mod="buttons"><a class="btn btn-p btn-lg" href="#start">${i('hero.cta')}${ic('right')}</a><a class="btn btn-o btn-lg" href="${BASE}library/">${i('hero.cta2')}</a></div>
+<div class="stats" data-mod="stats"><div class="stat"><b data-ticker="${C.total}">${nf(C.total)}</b>${i('stat.resources')}</div><div class="stat"><b data-ticker="${C.skills}">${nf(C.skills)}</b>${i('stat.skills')}</div><div class="stat"><b data-ticker="${C.mcp}">${nf(C.mcp)}</b>${i('stat.mcp')}</div><div class="stat"><b data-ticker="${C.prompts}">${nf(C.prompts)}</b>${i('h.prompts')}</div></div></div>
+<div class="diagram" data-beam-stage data-beams='${beamsHero}' data-mod="hero-visual" role="img" aria-label="${esc(X.t('orbit.label'))}" data-i-aria="orbit.label"><div class="dg-col">${sources.map(([nm, m, c], k) => `<div class="node" id="src-${k}"><i>${m}</i>${esc(nm)}<small>${nf(c)}</small></div>`).join('')}</div>
+<div class="hub" id="hub-node">${ic('library')}</div><div class="dg-out"><div class="node" id="out-node">${ic('bot')}${i('h.your_agent')}<small>${n('h.courses_n', X.DATA ? Object.keys(X.DATA.courses).length : 0)}</small></div></div>
+<div class="dg-cap">${i('h.diag')}</div></div></div></section>
 
-<section class="sec wrap" id="professions"><div class="sec-h"><div><p class="kicker">Professions</p><h2>Three professions are open</h2><p>Every card is a course: five ordered steps of source-linked resources, with licences and safety tags.</p></div><a class="btn btn-o" href="${BASE}courses/">All courses${ic('right')}</a></div>
+<section class="sec wrap" id="professions"><div class="sec-h"><div><p class="kicker">${i('h.k_prof')}</p><h2>${i('h.prof_t')}</h2><p>${i('h.prof_s')}</p></div><a class="btn btn-o" href="${BASE}courses/">${i('h.all_courses')}${ic('right')}</a></div>
 <div class="bento" data-mod="showcase">
- <div class="bc span2"><div class="bc-bg fade-b"><div class="thumbs">${STYLE_CARDS.map((s) => `<figure class="thumb" style="margin:0"><img src="img/style-${s.k}.webp" alt="" loading="lazy" width="480" height="300"><figcaption>${s.k}</figcaption></figure>`).join('')}</div></div>
-  <div class="bc-body">${ic('palette')}<h3>Design</h3><p>${nf(C.ind.design)} resources · ${roles.design.length} roles · wired to UI Hub's 20 visual styles, with this site as the first case.</p></div><a class="bc-cta" href="${BASE}courses/design/">Open course${ic('right')}</a></div>
- <div class="bc" data-mod="showcase-cs"><div class="bc-bg fade-b"><div class="alist" data-animated-list data-delay="1200">${csItems.slice(0, 5).map((x) => `<template><a class="notif" href="${rUrl(x.id)}"><i>${esc(mono(owner(x.h)))}</i><span><b>${esc(x.t)}</b><small>${esc(TYPE[x.ty] || x.ty)} · ${stars(x.q)} stars</small></span></a></template>`).join('')}</div></div>
-  <div class="bc-body">${ic('headset')}<h3>Customer service</h3><p>${nf(C.ind['customer-service'])} resources · ${roles['customer-service'].length} roles</p></div><a class="bc-cta" href="${BASE}courses/customer-service/">Open course${ic('right')}</a></div>
- <div class="bc" data-mod="showcase-mk"><div class="bc-bg"><div class="vmq"><div class="marquee vertical pause" data-marquee data-repeat="3"><div>${mkItems.slice(0, 6).map((x) => `<a class="mini" href="${rUrl(x.id)}"><b>${esc(x.t)}</b><small>${esc(TYPE[x.ty] || x.ty)} · ${stars(x.q)}★</small></a>`).join('')}</div></div><div class="marquee vertical reverse pause" data-marquee data-repeat="3"><div>${mkItems.slice(6, 12).map((x) => `<a class="mini" href="${rUrl(x.id)}"><b>${esc(x.t)}</b><small>${esc(TYPE[x.ty] || x.ty)} · ${stars(x.q)}★</small></a>`).join('')}</div></div></div></div>
-  <div class="bc-body">${ic('megaphone')}<h3>Marketing</h3><p>${nf(C.ind.marketing)} resources · ${roles.marketing.length} roles</p></div><a class="bc-cta" href="${BASE}courses/marketing/">Open course${ic('right')}</a></div>
- <div class="bc"><div class="bc-bg"><div class="bars">${chg.map(([t, n], i) => `<div class="bar"><span>${esc(TYPE[t] || t)}</span><span><i style="--w:${Math.max(6, Math.round((n / maxC) * 100))}%;--o:${1 - i * 0.12}"></i></span><span>${nf(n)}</span></div>`).join('')}</div></div>
-  <div class="bc-body">${ic('rss')}<h3>Updated every day</h3><p>${nf(C.changes)} changes since ${esc(C.since)}. Dead links are hidden after two failed checks.</p></div><a class="bc-cta" href="${BASE}latest/">See the change log${ic('right')}</a></div>
- <div class="bc"><div class="bc-bg"><div class="soonlist">${SOON.slice(0, 8).map((k) => `<span>${ic(IND_IC[k] || 'box')}${esc(TAX.industries[k].en)}</span>`).join('')}</div></div>
-  <div class="bc-body">${ic('layers')}<h3>Coming soon</h3><p>Other professions are collected already and open when their course is ready.</p></div><a class="bc-cta" href="${BASE}courses/">What is next${ic('right')}</a></div>
+ <div class="bc span2"><div class="bc-bg fade-b"><div class="thumbs">${STYLE_CARDS.map((s) => `<figure class="thumb" style="margin:0"><img src="${IMG}style-${s.k}.webp" alt="" loading="lazy" width="480" height="300"></figure>`).join('')}</div></div>
+  <div class="bc-body">${ic('palette')}<h3>${tx('industries', 'design')}</h3><p>${nf(C.ind.design)} ${i('fac.items')} · ${roles.design.length} ${i('fac.roles')}. ${i('h.ds_d')}</p></div><a class="bc-cta" href="${BASE}i/design/">${i('h.open_course')}${ic('right')}</a></div>
+ <div class="bc" data-mod="showcase-cs"><div class="bc-bg fade-b"><div class="alist" data-animated-list data-delay="1200">${csItems.slice(0, 5).map((x) => `<template><a class="notif" href="${rUrl(x.id)}"><i>${esc(mono(owner(x.h)))}</i><span><b>${esc(x.t)}</b><small>${tx('types', x.ty)} · ${stars(x.q)} ★</small></span></a></template>`).join('')}</div></div>
+  <div class="bc-body">${ic('headset')}<h3>${tx('industries', 'customer-service')}</h3><p>${nf(C.ind['customer-service'])} ${i('fac.items')} · ${roles['customer-service'].length} ${i('fac.roles')}</p></div><a class="bc-cta" href="${BASE}i/customer-service/">${i('h.open_course')}${ic('right')}</a></div>
+ <div class="bc" data-mod="showcase-mk"><div class="bc-bg"><div class="vmq"><div class="marquee vertical pause" data-marquee data-repeat="3"><div>${mkItems.slice(0, 6).map((x) => `<a class="mini" href="${rUrl(x.id)}"><b>${esc(x.t)}</b><small>${tx('types', x.ty)} · ${stars(x.q)}★</small></a>`).join('')}</div></div><div class="marquee vertical reverse pause" data-marquee data-repeat="3"><div>${mkItems.slice(6, 12).map((x) => `<a class="mini" href="${rUrl(x.id)}"><b>${esc(x.t)}</b><small>${tx('types', x.ty)} · ${stars(x.q)}★</small></a>`).join('')}</div></div></div></div>
+  <div class="bc-body">${ic('megaphone')}<h3>${tx('industries', 'marketing')}</h3><p>${nf(C.ind.marketing)} ${i('fac.items')} · ${roles.marketing.length} ${i('fac.roles')}</p></div><a class="bc-cta" href="${BASE}i/marketing/">${i('h.open_course')}${ic('right')}</a></div>
+ <div class="bc"><div class="bc-bg"><div class="bars">${chg.map(([ty, c], k) => `<div class="bar">${tx('types', ty)}<span><i style="--w:${Math.max(6, Math.round((c / maxC) * 100))}%;--o:${1 - k * 0.12}"></i></span><span>${nf(c)}</span></div>`).join('')}</div></div>
+  <div class="bc-body">${ic('rss')}<h3>${i('h.upd_t')}</h3><p>${n('h.upd_d', C.changes)}</p></div><a class="bc-cta" href="${BASE}changelog/">${i('nav.changelog')}${ic('right')}</a></div>
+ <div class="bc"><div class="bc-bg"><div class="soonlist">${SOON.slice(0, 8).map((k) => `<span>${ic(IND_IC[k] || 'box')}${tx('industries', k)}</span>`).join('')}</div></div>
+  <div class="bc-body">${ic('layers')}<h3>${i('fac.soon')}</h3><p>${i('h.soon_d')}</p></div><a class="bc-cta" href="${BASE}courses/">${i('h.next')}${ic('right')}</a></div>
 </div></section>
 
-<section class="sec wrap" id="start"><div class="sec-h"><div><p class="kicker">Quick start</p><h2>Build your agent's first prompt</h2><p>Pick a bot, a role and a few preferences. Generate, then paste the prompt into the agent you already use.</p></div></div>
+<section class="sec wrap" id="start"><div class="sec-h"><div><p class="kicker">${i('qs.title')}</p><h2>${i('h.start_t')}</h2><p>${i('h.start_s')}</p></div></div>
 <div data-mod="wizard">${W}</div></section>
 
-<section class="sec" id="latest"><div class="wrap sec-h"><div><p class="kicker">Latest</p><h2>Fresh from the sources</h2><p>Real items from today's run, best-starred first. Safety tags show what needs credentials or writes outside.</p></div><a class="btn btn-o" href="${BASE}latest/">All changes${ic('right')}</a></div>
+<section class="sec" id="latest"><div class="wrap sec-h"><div><p class="kicker">${i('nav.latest')}</p><h2>${i('h.latest_t')}</h2><p>${i('h.latest_s')}</p></div><a class="btn btn-o" href="${BASE}latest/">${i('h.all_latest')}${ic('right')}</a></div>
 <div class="feed" data-mod="feed"><div class="marquee pause" data-marquee data-repeat="3"><div>${feed.slice(0, half).map(tweet).join('')}</div></div><div class="marquee reverse pause" data-marquee data-repeat="3"><div>${feed.slice(half).map(tweet).join('')}</div></div></div></section>
 
-<section class="sec wrap" id="case"><div class="sec-h"><div><p class="kicker">Design case</p><h2>This site, before and after its own course</h2><p>The design course's first case is Agent Academy itself. Drag across the image.</p></div></div>
-<div class="case"><div class="compare" data-compare data-mod="before-after" tabindex="0" role="slider" aria-label="Before / after" aria-valuemin="0" aria-valuemax="100"><img class="cmp-top" src="img/case-before.webp" alt="Before: unstyled HTML" width="1200" height="750"><img src="img/case-after.webp" alt="After: styled home page" width="1200" height="750"><span class="cmp-line"></span><span class="cmp-knob">${ic('code')}</span><span class="cmp-tag l">before</span><span class="cmp-tag r">after</span></div>
-<ol><li><span><b>Pick one style</b><span>From UI Hub's 20 clusters, with 2–4 reference previews.</span></span></li><li><span><b>Follow design skills</b><span>taste-skill, frontend-design and emil-design-eng as working rules.</span></span></li><li><span><b>Build with real components</b><span>Every module maps to a Hub component and its original code.</span></span></li><li><span><b>Verify with screenshots</b><span>Desktop and mobile, light and dark, plus Lighthouse.</span></span></li></ol></div></section>
-</main>
-<footer class="foot" data-mod="footer"><div class="wrap"><div><a class="logo" href="#"><span class="logo-m">${ic('sparkles')}</span>Agent Academy</a><p>A free school for AI agents. Every item links to its original source; licences and safety tags on every card.</p></div>
-<div><h4>Learn</h4><ul><li><a href="${BASE}courses/">Courses</a></li><li><a href="${BASE}library/">Library</a></li><li><a href="${BASE}latest/">Latest</a></li></ul></div>
-<div><h4>For agents</h4><ul><li><a href="${BASE}llms.txt">llms.txt</a></li><li><a href="${BASE}agent.md">agent.md</a></li><li><a href="${BASE}api/index.json">JSON API</a></li><li><a href="${BASE}feed.xml">Atom feed</a></li></ul></div>
-<div><h4>Project</h4><ul><li><a href="https://github.com/SiinXu/agent-academy">GitHub</a></li><li><a href="${BASE}sources/">Sources</a></li><li><a href="https://siinxu.github.io/ui-resource-hub/">UI Hub</a></li></ul></div></div>
-<div class="foot-b"><div class="wrap"><span>Direction A · Zinc + Indigo · Hub vs: minimal</span><span>Data updated Oct 15, 2026</span></div></div></footer>
-${X.tail()}`;
+<section class="sec wrap" id="case"><div class="sec-h"><div><p class="kicker">${i('h.k_case')}</p><h2>${i('h.case_t')}</h2><p>${i('h.case_s')}</p></div><a class="btn btn-o" href="${BASE}cases/agent-academy-build/">${i('case.read')}${ic('right')}</a></div>
+<div class="case"><div class="compare" data-compare data-mod="before-after" tabindex="0" role="slider" aria-label="${esc(X.t('case.drag'))}" data-i-aria="case.drag" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img class="cmp-top" src="${IMG}case-before.webp" alt="Before: unstyled HTML" width="1200" height="750" loading="lazy"><img src="${IMG}case-after.webp" alt="After: styled home page" width="1200" height="750" loading="lazy"><span class="cmp-line"></span><span class="cmp-knob">${ic('code')}</span><span class="cmp-tag l">${i('h.before')}</span><span class="cmp-tag r">${i('h.after')}</span></div>
+<ol>${[1, 2, 3, 4].map((k) => `<li><span><b>${i('h.cs' + k)}</b>${i('h.cs' + k + 'd')}</span></li>`).join('')}</ol></div></section>
+</main>`;
+  return { css, main };
 }
