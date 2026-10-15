@@ -12,7 +12,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["src/**", "scripts/build.mjs", "scripts/lib.mjs", "i18n/**", "content/**", "data/courses.json"]
+    paths: ["src/**", "scripts/build.mjs", "scripts/lib.mjs", "i18n/**", "content/**", "data/courses.json", "directions/**", "scripts/directions.mjs"]
 
 permissions:
   contents: write
@@ -28,14 +28,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with: { node-version: 22, cache: npm }
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with: { python-version: "3.12" }
       - run: npm ci
       - name: Restore source cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: data/cache
           key: src-cache-${{ github.run_id }}
@@ -47,7 +47,7 @@ jobs:
         run: python3 scripts/collect.py ${{ inputs.full_linkcheck && '--full-linkcheck' || '' }}
       - name: Cache Argos models
         if: github.event_name != 'push'
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.local/share/argos-translate
           key: argos-v1
@@ -59,7 +59,7 @@ jobs:
           python3 scripts/install_argos.py
           python3 scripts/translate.py
       - name: Build
-        run: node scripts/build.mjs
+        run: node scripts/build.mjs && node scripts/directions.mjs
       - name: Commit data and raw course files
         run: |
           git config user.name "SiinXu"
@@ -67,8 +67,8 @@ jobs:
           git add data academy
           git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
           git push || (git pull --rebase && git push)
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with: { path: dist }
       - id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

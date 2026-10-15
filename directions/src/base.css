@@ -1,0 +1,150 @@
+/* Shared component CSS for the direction mocks. Each block names the registry component it ports. */
+html{color-scheme:light}html.dark{color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.55 var(--f-body);font-feature-settings:"ss01","cv11"}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+[hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ic{width:1em;height:1em;flex:none}
+:focus-visible{outline:2px solid var(--ring,var(--acc));outline-offset:2px}
+.skip{position:absolute;left:-999px;top:8px;z-index:99;background:var(--ink);color:var(--bg);padding:8px 12px;border-radius:8px}.skip:focus{left:8px}
+.mono{font-family:var(--f-mono)}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* Magic UI · Border Beam (mu-border-beam): mask border-box ∩ !padding-box, square dot travels offset-path rect() */
+.border-beam{pointer-events:none;position:absolute;inset:0;border-radius:inherit;border:var(--bb-w,1px) solid transparent;
+  -webkit-mask:linear-gradient(transparent,transparent) padding-box,linear-gradient(#000,#000) border-box;-webkit-mask-composite:source-in;
+  mask:linear-gradient(transparent,transparent) padding-box,linear-gradient(#000,#000) border-box;mask-composite:intersect}
+.border-beam i{position:absolute;aspect-ratio:1;width:var(--bb-size,50px);background:linear-gradient(to left,var(--bb-from),var(--bb-to),transparent);
+  offset-path:rect(0 auto auto 0 round var(--bb-size,50px));animation:bb-move var(--bb-dur,6s) linear infinite;animation-delay:calc(var(--bb-delay,0s) * -1)}
+@keyframes bb-move{from{offset-distance:0%}to{offset-distance:100%}}
+
+/* Magic UI · Shine Border (mu-shine-border) */
+.shine-border{pointer-events:none;position:absolute;inset:0;border-radius:inherit;padding:var(--sb-w,1px);background-image:radial-gradient(transparent,transparent,var(--sb-c),transparent,transparent);background-size:300% 300%;
+  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;animation:shine var(--sb-dur,14s) infinite linear}
+@keyframes shine{0%{background-position:0% 0%}50%{background-position:100% 100%}to{background-position:0% 0%}}
+
+/* Magic UI · Marquee (mu-marquee): --duration 40s --gap 1rem */
+.marquee{display:flex;gap:var(--gap,1rem);overflow:hidden;padding:8px;--duration:40s;--gap:1rem}
+.marquee>*{display:flex;flex:none;justify-content:space-around;gap:var(--gap);animation:marquee var(--duration) linear infinite}
+.marquee.vertical{flex-direction:column}.marquee.vertical>*{flex-direction:column;animation-name:marquee-vertical}
+.marquee.reverse>*{animation-direction:reverse}.marquee.pause:hover>*{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(calc(-100% - var(--gap)))}}
+@keyframes marquee-vertical{from{transform:translateY(0)}to{transform:translateY(calc(-100% - var(--gap)))}}
+
+/* Magic UI · Magic Card (gradient mode): padding-box fill + radial border-box, inner overlay radial at pointer */
+.magic-card{position:relative;isolation:isolate;overflow:hidden;border:1px solid transparent;
+  background:linear-gradient(var(--card) 0 0) padding-box,radial-gradient(var(--gs,200px) circle at var(--mx,-200px) var(--my,-200px),var(--mc-from),var(--mc-to),var(--line) 100%) border-box}
+.magic-card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;z-index:0;
+  background:radial-gradient(var(--gs,200px) circle at var(--mx,-200px) var(--my,-200px),var(--mc-glow),transparent 100%)}
+.magic-card:hover::after{opacity:var(--mc-op,.8)}
+.magic-card>*{position:relative;z-index:1}
+
+/* Aceternity · Card Spotlight (ac-card-spotlight): colour layer masked by a 350px radial at the pointer */
+.spot-card{position:relative;overflow:hidden}
+.spot-card::before{content:"";position:absolute;inset:-1px;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;z-index:0;background:var(--spot-bg);
+  -webkit-mask-image:radial-gradient(var(--spot-r,350px) circle at var(--mx) var(--my),#fff,transparent 80%);mask-image:radial-gradient(var(--spot-r,350px) circle at var(--mx) var(--my),#fff,transparent 80%)}
+.spot-card:hover::before,.spot-card[data-sel="true"]::before{opacity:1}
+.spot-card>*{position:relative;z-index:1}
+
+/* Aceternity · Hero Highlight (ac-hero-highlight): 16px dot pattern, accent dots revealed in a 200px circle at the pointer */
+.hero-hl{position:relative}
+.hero-hl::before,.hero-hl::after{content:"";position:absolute;inset:0;pointer-events:none;background-image:var(--dot);background-size:16px 16px}
+.hero-hl::after{background-image:var(--dot-hover);opacity:0;transition:opacity .3s;-webkit-mask-image:radial-gradient(200px circle at var(--mx) var(--my),#000 0%,transparent 100%);mask-image:radial-gradient(200px circle at var(--mx) var(--my),#000 0%,transparent 100%)}
+.hero-hl:hover::after{opacity:1}
+.hero-hl>*{position:relative;z-index:2}
+.hl{background-repeat:no-repeat;background-position:left center;background-size:0% 100%;display:inline;padding:0 .12em .04em;border-radius:.12em;animation:hl-grow 2s linear .5s forwards;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+@keyframes hl-grow{to{background-size:100% 100%}}
+
+/* Aceternity · Focus Cards */
+[data-focus-cards]>*{transition:filter .3s ease-out,scale .3s ease-out}
+[data-focus-cards][data-h]>*:not(.is-h){filter:blur(4px);scale:.98}
+/* Aceternity · Card Hover Effect: shared hover background */
+[data-hover-effect]{position:relative}
+.he-bg{position:absolute;left:0;top:0;border-radius:var(--he-r,24px);background:var(--he-bg);opacity:0;pointer-events:none;z-index:0;transition:transform .35s cubic-bezier(.2,.9,.3,1.1),width .35s,height .35s,opacity .15s .2s}
+.he-bg.on{opacity:1;transition:transform .35s cubic-bezier(.2,.9,.3,1.1),width .35s,height .35s,opacity .15s}
+[data-hover-effect]>*:not(.he-bg){position:relative;z-index:1}
+/* Aceternity · 3D Card Effect */
+[data-3d]{perspective:1000px}
+[data-3d]>*{transition:transform .2s linear;transform-style:preserve-3d}
+[data-3d] [data-z]{transition:transform .2s linear}
+[data-3d].is-3d [data-z]{transform:translateZ(calc(var(--z) * 1px))}
+
+/* Aceternity · Compare (ac-compare): first image clipped to the left of the slider, indigo-style glow line */
+.compare{position:relative;overflow:hidden;touch-action:pan-y;cursor:ew-resize;--x:50%}
+.compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;user-select:none;-webkit-user-drag:none}
+.compare .cmp-top{clip-path:inset(0 calc(100% - var(--x)) 0 0);z-index:2}
+.compare .cmp-line{position:absolute;top:0;bottom:0;left:var(--x);width:1px;z-index:3;background:linear-gradient(to bottom,transparent 5%,var(--acc) 50%,transparent 95%)}
+.compare .cmp-line::before{content:"";position:absolute;top:50%;left:0;width:144px;height:100%;translate:0 -50%;opacity:.2;background:linear-gradient(to right,var(--acc),transparent);-webkit-mask-image:radial-gradient(100px at left,#fff,transparent);mask-image:radial-gradient(100px at left,#fff,transparent)}
+.compare .cmp-knob{position:absolute;top:50%;left:var(--x);translate:-50% -50%;z-index:4;width:20px;height:20px;border-radius:6px;background:#fff;color:#000;display:grid;place-items:center;box-shadow:0 -1px 0 0 #FFFFFF40,0 1px 3px rgba(0,0,0,.3)}
+.compare .cmp-tag{position:absolute;top:12px;z-index:5;font:500 11px/1 var(--f-mono);padding:5px 8px;border-radius:999px;background:rgba(0,0,0,.6);color:#fff;letter-spacing:.02em}
+.compare .cmp-tag.l{left:12px}.compare .cmp-tag.r{right:12px}
+
+/* Magic UI · Shimmer Button (mu-shimmer-button) */
+.shimmer-btn{--spread:90deg;--shimmer-color:#fff;--radius:100px;--speed:3s;--cut:.05em;position:relative;z-index:0;display:inline-flex;align-items:center;justify-content:center;gap:8px;overflow:hidden;border-radius:var(--radius);border:1px solid rgba(255,255,255,.1);padding:12px 24px;white-space:nowrap;color:#fff;background:var(--bg-sh);transition:transform .3s ease-in-out}
+.shimmer-btn:active{transform:translateY(1px)}
+.shimmer-btn .sh-spark-wrap{position:absolute;inset:0;z-index:-30;filter:blur(2px);overflow:visible;container-type:size}
+.shimmer-btn .sh-spark{position:absolute;inset:0;height:100cqh;aspect-ratio:1;animation:shimmer-slide var(--speed) ease-in-out infinite alternate}
+.shimmer-btn .sh-spark::before{content:"";position:absolute;inset:-100%;width:auto;rotate:0deg;background:conic-gradient(from calc(270deg - (var(--spread) * .5)),transparent 0,var(--shimmer-color) var(--spread),transparent var(--spread));animation:spin-around calc(var(--speed) * 2) infinite linear}
+.shimmer-btn .sh-hl{position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 -8px 10px #ffffff1f;transition:all .3s ease-in-out}
+.shimmer-btn:hover .sh-hl{box-shadow:inset 0 -6px 10px #ffffff3f}
+.shimmer-btn .sh-back{position:absolute;inset:var(--cut);z-index:-20;border-radius:var(--radius);background:var(--bg-sh)}
+.shimmer-btn:disabled{opacity:.5;cursor:not-allowed}.shimmer-btn:disabled .sh-spark{animation:none;opacity:0}
+@keyframes shimmer-slide{to{transform:translate(calc(100cqw - 100%),0)}}
+@keyframes spin-around{0%{transform:translateZ(0) rotate(0)}15%,35%{transform:translateZ(0) rotate(90deg)}65%,85%{transform:translateZ(0) rotate(270deg)}100%{transform:translateZ(0) rotate(360deg)}}
+
+/* Magic UI · Pulsating Button (mu-pulsating-button): pulse 1.5s ease-out, distance 8px */
+.pulse-btn{position:relative;--duration:1.5s;--distance:8px}
+.pulse-btn>span{position:relative;z-index:1;display:inline-flex;align-items:center;gap:8px}
+.pulse-btn::after{content:"";position:absolute;inset:0;border-radius:inherit;background:inherit;pointer-events:none;animation:pulse var(--duration) ease-out infinite}
+.pulse-btn:disabled::after{animation:none}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 var(--pulse-color)}50%{box-shadow:0 0 0 var(--distance) var(--pulse-color)}}
+
+/* Aceternity · Moving Border button (ac-moving-border): 1px padding, dot h-20 w-20 radial(#0ea5e9 40%, transparent 60%) */
+.mb-btn{position:relative;overflow:hidden;padding:1px;background:transparent;display:inline-flex}
+.mb-btn .mb-track svg{position:absolute;inset:0;width:100%;height:100%}
+.mb-btn .mb-track{position:absolute;inset:0;border-radius:inherit}
+.mb-btn .mb-dot{position:absolute;top:0;left:0;width:80px;height:80px;opacity:.8;background:radial-gradient(var(--mb-c) 40%,transparent 60%)}
+.mb-btn .mb-in{position:relative;display:flex;align-items:center;justify-content:center;gap:8px;width:100%;height:100%;border-radius:inherit;-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px)}
+.mb-btn:disabled{opacity:.45;cursor:not-allowed}.mb-btn:disabled .mb-dot{display:none}
+
+/* Cult UI · Copy Button: icons swap with opacity/scale(.25)/blur(4px), spring .3s */
+.copy-btn{position:relative;display:inline-flex;align-items:center;gap:8px;overflow:hidden;touch-action:manipulation}
+.copy-btn:active{scale:.96}
+.copy-btn .cb-ic{position:relative;display:inline-flex;width:16px;height:16px}
+.copy-btn .cb-ic>svg{position:absolute;inset:0;width:16px;height:16px;transition:opacity .3s cubic-bezier(.2,.9,.3,1),transform .3s cubic-bezier(.2,.9,.3,1),filter .3s}
+.copy-btn .cb-check{opacity:0;transform:scale(.25);filter:blur(4px)}
+.copy-btn[data-copied="true"] .cb-copy{opacity:0;transform:scale(.25);filter:blur(4px)}
+.copy-btn[data-copied="true"] .cb-check{opacity:1;transform:scale(1);filter:blur(0)}
+
+/* Terminal / code lines (Magic UI Terminal + Typing Animation, Cult UI Code Block, Cult UI Terminal Animation) */
+.tl{display:grid;grid-template-columns:2.4em 1fr;gap:12px;min-height:1.6em}
+.tl .ln{color:var(--ln);text-align:right;user-select:none;font-variant-numeric:tabular-nums}
+.tl .tx{white-space:pre-wrap;overflow-wrap:anywhere;color:var(--t-ink)}
+.tl .tx.typing::after{content:"";display:inline-block;width:7px;height:1.05em;translate:2px 3px;background:var(--caret);animation:caret 1s steps(1) infinite}
+@keyframes caret{50%{opacity:0}}
+.tk-num{color:var(--tk-num);font-weight:600}.tk-key{color:var(--tk-key)}.tk-url{color:var(--tk-url);text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--tk-url) 35%,transparent);text-underline-offset:2px}
+.tk-code,.tk-str{color:var(--tk-str)}.tk-kw{color:var(--tk-kw);font-weight:600}
+
+/* reveal choreography */
+[data-reveal]{opacity:0;transform:translateY(12px);transition:opacity .5s cubic-bezier(.16,1,.3,1),transform .5s cubic-bezier(.16,1,.3,1)}
+[data-reveal].in{opacity:1;transform:none}
+[data-wz-actions]{opacity:0;transform:translateY(8px);transition:opacity .4s ease-out,transform .4s ease-out;pointer-events:none}
+[data-wz-actions].in{opacity:1;transform:none;pointer-events:auto}
+
+/* Animated beam stage (mu-animated-beam) */
+[data-beam-stage]{position:relative}
+[data-beam-stage]>svg.beams{position:absolute;inset:0;pointer-events:none;overflow:visible;z-index:0}
+[data-beam-stage]>*:not(svg){position:relative;z-index:1}
+
+/* Magic UI · Safari (mu-safari) */
+.safari{position:relative;width:100%;aspect-ratio:1203/753}
+.safari>svg{position:absolute;inset:0;width:100%;height:100%;z-index:10}
+.safari .sf-screen{position:absolute;left:.0831%;top:6.906%;width:99.75%;height:92.96%;overflow:hidden;border-radius:0 0 11px 11px;z-index:0}
+.safari .lfe5e5e5{fill:#E5E5E5}.safari .df262626{fill:#fff}
+.dark .safari .df404040{fill:#404040}.dark .safari .df262626{fill:#262626}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}.marquee>*{animation:none}.border-beam,.shine-border{display:none}}
