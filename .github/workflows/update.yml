@@ -4,6 +4,7 @@ name: Daily update
 on:
   schedule:
     - cron: "17 10 * * *"   # 10:17 UTC every day (06:17 New York in summer, 05:17 in winter)
+    - cron: "17 22 * * *"   # backup run 12h later (GitHub often delays/drops schedules); idempotent, no commit if nothing changed
   workflow_dispatch:
     inputs:
       full_linkcheck:
@@ -64,6 +65,19 @@ jobs:
           pip install -q argostranslate==1.11.0 opencc-python-reimplemented==0.1.7
           python3 scripts/install_argos.py
           python3 scripts/translate.py
+      - name: Data summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, subprocess
+          d = json.load(open("data/resources.json"))
+          items = d.get("items") or d.get("resources") or []
+          print(f"### Data\n- generated_at: `{d.get('generated_at')}`\n- items: {len(items) if isinstance(items, list) else items}")
+          print("- changed files under data/:")
+          out = subprocess.run(["git", "status", "--porcelain", "data"], capture_output=True, text=True).stdout.strip()
+          print("```\n" + (out[:3000] or "(none)") + "\n```")
+          PY
+          echo "Note: Original content and Translate steps use continue-on-error; check their logs if counts look off." >> "$GITHUB_STEP_SUMMARY"
       - name: Build
         run: node scripts/build.mjs && node scripts/directions.mjs
       - name: Commit data and raw course files

@@ -1,0 +1,48 @@
+name: Data freshness watchdog
+# Alerts when the live dataset is older than 30h (Daily update runs at 10:17 + 22:17 UTC).
+# Alert = this run fails (red) + one open issue labelled "stale-data" (auto-closed when fresh again).
+on:
+  schedule:
+    - cron: "47 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check api/index.json updated_at (threshold 30h)
+        id: age
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, datetime as dt
+          url = "https://siinxu.github.io/agent-academy/api/index.json"
+          d = json.load(urllib.request.urlopen(url + "?v=" + str(dt.datetime.now().timestamp()), timeout=30))
+          ts = dt.datetime.fromisoformat(d["updated_at"].replace("Z", "+00:00"))
+          age_h = (dt.datetime.now(dt.timezone.utc) - ts).total_seconds() / 3600
+          stale = age_h > 30
+          line = f"Agent Academy updated_at {ts.isoformat()} — age {age_h:.1f} h (threshold 30 h) — {'STALE' if stale else 'ok'}"
+          print(line)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f: f.write(line + "\n")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f: f.write(f"stale={'true' if stale else 'false'}\nline={line}\n")
+          PY
+      - name: Open or update alert issue
+        if: steps.age.outputs.stale == 'true'
+        env: { GH_TOKEN: "${{ github.token }}", LINE: "${{ steps.age.outputs.line }}", REPO: "${{ github.repository }}" }
+        run: |
+          gh label create stale-data -R "$REPO" -c d73a4a -d "Data freshness alert" 2>/dev/null || true
+          n=$(gh issue list -R "$REPO" -l stale-data -s open --json number -q '.[0].number')
+          body="$LINE
+          Run: ${{ github.server_url }}/$REPO/actions/runs/${{ github.run_id }}
+          Check the latest 'Daily update' runs (collect.py / deploy-pages)."
+          if [ -n "$n" ]; then gh issue comment "$n" -R "$REPO" -b "$body"; else gh issue create -R "$REPO" -l stale-data -t "Academy data stale (>30h)" -b "$body"; fi
+          exit 1
+      - name: Close alert issue when fresh
+        if: steps.age.outputs.stale == 'false'
+        env: { GH_TOKEN: "${{ github.token }}", REPO: "${{ github.repository }}" }
+        run: |
+          for n in $(gh issue list -R "$REPO" -l stale-data -s open --json number -q '.[].number'); do gh issue close "$n" -R "$REPO" -c "Fresh again: ${{ steps.age.outputs.line }}"; done
