@@ -30,6 +30,26 @@ const ENDO = { en: 'English', 'zh-CN': '简体中文', 'zh-TW': '繁體中文', 
 const licLabel = (i) => { const l = String(i.license).split(' (')[0]; return /^(see-skill-folder|NOASSERTION|NONE|unknown)$/.test(l) ? 'not stated' : l; };
 const L10N = Object.fromEntries(LOCALES.filter((l) => l !== 'en').map((l) => [l, readJSON(`data/l10n/${l}.json`, {})]));
 const STATE = readJSON('data/state.json', {});
+// No Chinese on non-zh pages (hard rule): the static HTML, search index, course .md and llms files are served to every
+// locale, so items whose title / summary are Chinese show English there (human English from UI Hub name_en / note_en via
+// collect.py, or data/l10n/en-human.json; never offline MT). The Chinese originals go to api/l10n/zh-CN|zh-TW.json and are
+// swapped in on zh pages only (data-sid / data-tid). Items without an English summary show none outside zh.
+const HAN = /[\u3400-\u9fff\uf900-\ufaff]/;
+const EN_HUMAN = readJSON('data/l10n/en-human.json', {});
+const stripHan = (s) => String(s || '').replace(/[（(][^（）()]*[\u3400-\u9fff][^（）()]*[）)]/g, '').replace(/[\u3400-\u9fff\uf900-\ufaff\u3000-\u303f\uff01\uff0c\uff1a\uff1b\uff1f「」『』【】]+/g, ' ').replace(/^[\s·|,:—-]+|[\s·|,:—-]+$/g, '').replace(/\s{2,}/g, ' ').trim();
+const AUTHOR_EN = { '蚂蚁集团': 'Ant Group', '阿里巴巴': 'Alibaba', '阿里': 'Alibaba', '华为': 'Huawei', '京东': 'JD.com', '腾讯': 'Tencent', '字节跳动': 'ByteDance', '百度': 'Baidu', '美团': 'Meituan', '小米': 'Xiaomi', '网易': 'NetEase', 'W3C 社区组': 'W3C Community Group', '标杆站点': 'Benchmark site', '花叔': 'Huashu' };
+const ZH_ORIG = {};
+for (const i of ALL) {
+  if (i.author && HAN.test(i.author)) i.author = AUTHOR_EN[i.author] || stripHan(i.author) || null;
+  const tH = HAN.test(i.title || ''), sH = HAN.test(i.summary_source || '');
+  if (!tH && !sH) continue;
+  const h = EN_HUMAN[i.id] || {}, o = ZH_ORIG[i.id] = { lang: i.summary_lang && i.summary_lang.startsWith('zh') ? i.summary_lang : 'zh-CN' };
+  if (tH) { o.t = i.title; const en = [i.title_en, h.t].find((x) => x && !HAN.test(x)); i.title = en || stripHan(i.title) || (i.source_url ? new URL(i.source_url).hostname.replace(/^www\./, '') : i.id); }
+  if (sH) { o.s = i.summary_source; const en = [i.summary_en, h.s].find((x) => x && !HAN.test(x)); i.summary_source = en || ''; i.summary_lang = 'en'; }
+}
+// zh-CN / zh-TW maps: Chinese originals (zh-TW prefers the OpenCC conversion when one exists)
+const zhMap = (l) => Object.fromEntries(Object.entries(ZH_ORIG).flatMap(([id, o]) => [
+  ...(o.s ? [[id, (l === 'zh-TW' && L10N['zh-TW'][id]?.by === 'opencc' && L10N['zh-TW'][id].s) || o.s]] : []), ...(o.t ? [['t:' + id, o.t]] : [])]));
 const UPDATED = db.generated_at || new Date().toISOString();
 const t = (k, l = 'en') => UI[l]?.[k] ?? UI.en[k] ?? k;
 const name = (group, k, l = 'en') => TAX[group]?.[k]?.[l] || TAX[group]?.[k]?.en || k;
@@ -169,7 +189,7 @@ const tagsHTML = (i) => { const s = safety(i); return `<span class="rc-tags">${s
 const srcChip = (i) => i.type === 'skill' ? 'SKILL.md' : i.source === 'prompts.chat' ? 'prompts.chat · CC0' : i.source === 'botsdots' ? 'BotsDots' : i.source === 'mcp-registry' ? 'MCP Registry' : i.source === 'ui-hub' ? 'UI Hub' : '';
 const card = (i, o = {}) => `<article class="rc" data-rb-spot>
 <div class="rc-top"><span class="rc-type">${txs('types', i.type)}</span>${o.chip && srcChip(i) ? `<span class="rc-chip">${esc(srcChip(i))}</span>` : `<span class="rc-ind">${txs('industries', i.industry)}</span>`}</div>
-<h3 class="rc-t"><a href="${u('r/' + i.id + '/')}">${esc(i.title)}</a></h3>
+<h3 class="rc-t"><a href="${u('r/' + i.id + '/')}"${ZH_ORIG[i.id]?.t ? ` data-tid="${esc(i.id)}"` : ''}>${esc(i.title)}</a></h3>
 <p class="rc-s" data-sid="${esc(i.id)}">${esc(sumOf(i))}</p>
 <p class="rc-src"><span class="sr-only" data-i="card.source">${t('card.source')}</span>${esc(shortSrc(i.source_url))}</p>
 <div class="rc-f">${tagsHTML(i)}<span class="rc-lic" title="${esc(i.license)}">${esc(licLabel(i))}</span></div></article>`;
@@ -260,6 +280,10 @@ function origBlock(i, mirror) {
   if (kind === 'full') {
     let text = mirror ? mirror : fs.readFileSync(path.join(ROOT, o.file), 'utf8');
     if (!mirror) text = cleanReadme(text);
+    /* no Chinese on non-zh pages: a few stray Han chars are dropped; a Chinese original is shown on zh pages only, other locales get a note + source link */
+    const hanN = (text.match(/[\u3400-\u9fff\uf900-\ufaff]/g) || []).length;
+    if (hanN && hanN <= 12) text = text.replace(/[\u3400-\u9fff\uf900-\ufaff]+/g, '');
+    const zhOnly = hanN > 12;
     const lic = mirror ? i.license : o.license; const url = mirror ? i.source_url : o.url;
     const trunc = (mirror && mirror.length > 60000) || o.truncated;
     const id = 'orig-' + (++CLAMP_N);
@@ -268,13 +292,13 @@ function origBlock(i, mirror) {
     else inner = `<div class="prose" data-mod="prose" lang="${esc(i.languages?.[0] || 'en')}">${md2html(text.slice(0, 60000), { images: false })}</div>`;
     const long = text.length > 6000;
     return `<section class="orig" id="original" data-orig="full">${head('o.full', lic, url)}<p class="orig-n">${ti('o.n_full')}${trunc ? ' ' + ti('o.n_trunc') : ''}</p>
-<div class="orig-b${long ? ' is-clamped' : ''}" id="${id}">${inner}</div>${long ? `<div class="coll-t" data-mod="more"><button type="button" class="btn btn-o" aria-expanded="false" aria-controls="${id}" data-clamp>${ic('maximize', 'ic i-max')}${ic('minimize', 'ic i-min')}<span class="when-closed">${ti('o.show_all')}</span><span class="when-open" hidden>${ti('o.show_less')}</span></button></div>` : ''}${o.record && !mirror ? recordT(o) : ''}</section>`;
+${zhOnly ? `<div class="alert" role="note" data-nonzh-only>${ic('ext')}<div><p>${ti('o.zh_only')}</p></div></div>` : ''}<div class="orig-b${long ? ' is-clamped' : ''}" id="${id}"${zhOnly ? ' data-zh-only hidden' : ''}>${inner}</div>${long ? `<div class="coll-t" data-mod="more"><button type="button" class="btn btn-o" aria-expanded="false" aria-controls="${id}" data-clamp>${ic('maximize', 'ic i-max')}${ic('minimize', 'ic i-min')}<span class="when-closed">${ti('o.show_all')}</span><span class="when-open" hidden>${ti('o.show_less')}</span></button></div>` : ''}${o.record && !mirror ? recordT(o) : ''}</section>`;
   }
   function recordT(o2) {
     const r = o2.record || {};
-    if (o2.label === 'botsdots') return rowsT([['o.f_summary', `<q lang="en">${esc(r.summary)}</q>`], ['o.f_category', esc(r.category)], ['o.f_cadence', esc(r.cadence)], ['o.f_access', list(r.access)], ['o.f_integrations', list(r.integrations)], ['o.f_creator', r.creator ? esc('@' + r.creator) : null], ['o.f_first', esc(r.firstSeen)], ['o.f_catalogs', esc((r.catalog_sources || []).join(', '))], ['o.f_add', r.add ? `<a class="url" href="${esc(r.add)}">${esc(r.add)}</a>` : null]]);
-    if (r.packages || r.remotes) return rowsT([['o.f_summary', r.description ? `<q lang="en">${esc(r.description)}</q>` : null], ['o.f_version', esc(r.version)], ['o.f_packages', (r.packages || []).length ? r.packages.map((pk) => `<code>${esc([pk.type, pk.id && pk.id + (pk.version ? '@' + pk.version : ''), pk.transport].filter(Boolean).join(' · '))}</code>`).join('<br>') : ti('o.none')], ['o.f_env', (r.packages || []).flatMap((pk) => pk.env || []).length ? r.packages.flatMap((pk) => pk.env || []).map((v) => `<code>${esc(v.name)}</code>${v.required ? ` <small>${ti('o.required')}</small>` : ''}${v.secret ? ` <small>${ti('o.secret')}</small>` : ''}${v.description ? `<br><small>${esc(v.description)}</small>` : ''}`).join('<br>') : ti('o.none')], ['o.f_remotes', (r.remotes || []).length ? r.remotes.map((x) => `<code>${esc(x.type)}</code> <span class="url">${esc(x.url)}</span>`).join('<br>') : null], ['o.f_website', r.website ? `<a class="url" href="${esc(r.website)}">${esc(r.website)}</a>` : null]]);
-    return rowsT([['o.f_summary', `<q lang="${esc(i.summary_lang || 'en')}">${esc(i.summary_source)}</q>`], ['o.f_repo_lic', r.repo_license ? esc(r.repo_license) : null]]);
+    if (o2.label === 'botsdots') return rowsT([['o.f_summary', HAN.test(r.summary || '') ? (i.summary_source ? `<q lang="en">${esc(i.summary_source)}</q>` : null) : `<q lang="en">${esc(r.summary)}</q>`], ['o.f_category', esc(r.category)], ['o.f_cadence', esc(r.cadence)], ['o.f_access', list(r.access)], ['o.f_integrations', list(r.integrations)], ['o.f_creator', r.creator ? esc('@' + r.creator) : null], ['o.f_first', esc(r.firstSeen)], ['o.f_catalogs', esc((r.catalog_sources || []).join(', '))], ['o.f_add', r.add ? `<a class="url" href="${esc(r.add)}">${esc(r.add)}</a>` : null]]);
+    if (r.packages || r.remotes) return rowsT([['o.f_summary', r.description && !HAN.test(r.description) ? `<q lang="en">${esc(r.description)}</q>` : (i.summary_source ? `<q lang="en">${esc(i.summary_source)}</q>` : null)], ['o.f_version', esc(r.version)], ['o.f_packages', (r.packages || []).length ? r.packages.map((pk) => `<code>${esc([pk.type, pk.id && pk.id + (pk.version ? '@' + pk.version : ''), pk.transport].filter(Boolean).join(' · '))}</code>`).join('<br>') : ti('o.none')], ['o.f_env', (r.packages || []).flatMap((pk) => pk.env || []).length ? r.packages.flatMap((pk) => pk.env || []).map((v) => `<code>${esc(v.name)}</code>${v.required ? ` <small>${ti('o.required')}</small>` : ''}${v.secret ? ` <small>${ti('o.secret')}</small>` : ''}${v.description ? `<br><small>${esc(v.description)}</small>` : ''}`).join('<br>') : ti('o.none')], ['o.f_remotes', (r.remotes || []).length ? r.remotes.map((x) => `<code>${esc(x.type)}</code> <span class="url">${esc(x.url)}</span>`).join('<br>') : null], ['o.f_website', r.website ? `<a class="url" href="${esc(r.website)}">${esc(r.website)}</a>` : null]]);
+    return rowsT([['o.f_summary', i.summary_source ? `<q lang="${esc(i.summary_lang || 'en')}">${esc(i.summary_source)}</q>` : null], ['o.f_repo_lic', r.repo_license ? esc(r.repo_license) : null]]);
   }
   if (kind === 'excerpt') {
     const note = o.label === 'botsdots' ? 'o.n_bd' : o.label === 'mcp-registry' ? 'o.n_mcp' : 'o.n_hub';
@@ -292,7 +316,7 @@ for (const i of ALL) {
   const extra = `<div class="p-badges">${tagsHTML(i)}${i.status !== 'active' ? `<span class="sf warn">${esc(i.status)}</span>` : ''}</div>
 <div class="p-actions" data-mod="buttons">${btn(esc(i.source_url), ti('r.open'), 'btn btn-p', 'ext')}<button type="button" class="btn btn-o" data-copy="${esc(i.source_url)}">${ic('copy')}${ti('r.copy_link')}</button></div>
 <p class="url-l"><code class="url">${esc(i.source_url)}</code></p>`;
-  const body = pageHead({ trail: [HOME, [u('library/'), ti('nav.library')], [u('i/' + i.industry + '/'), txs('industries', i.industry)], [u('r/' + i.id + '/'), esc(i.title)]], kicker: txs('types', i.type), title: esc(i.title), lede: `<span class="orig-l" data-orig-lang="${esc(i.summary_lang || 'en')}" hidden>${ti('card.orig')} · ${esc(ENDO[i.summary_lang || 'en'] || i.summary_lang)}</span><span data-sid="${esc(i.id)}" lang="${esc(i.summary_lang || 'en')}">${esc(sumOf(i))}</span>`, extra, cls: 'p-head-d' })
+  const body = pageHead({ trail: [HOME, [u('library/'), ti('nav.library')], [u('i/' + i.industry + '/'), txs('industries', i.industry)], [u('r/' + i.id + '/'), esc(i.title)]], kicker: txs('types', i.type), title: ZH_ORIG[i.id]?.t ? `<span data-tid="${esc(i.id)}">${esc(i.title)}</span>` : esc(i.title), lede: `<span class="orig-l" data-orig-lang="${esc(i.summary_lang || 'en')}" hidden>${ti('card.orig')} · ${esc(ENDO[i.summary_lang || 'en'] || i.summary_lang)}</span><span data-sid="${esc(i.id)}" lang="${esc(i.summary_lang || 'en')}">${esc(sumOf(i))}</span>`, extra, cls: 'p-head-d' })
   + `<section class="wrap p-sec d-grid"><div class="d-main">
 ${sf.credential_names?.length ? `<div class="alert warn" role="note">${ic('key')}<div><b data-i="r.creds">${t('r.creds')}</b><p><code>${esc(sf.credential_names.join(', '))}</code></p></div></div>` : ''}
 ${i.install ? `<div class="cbk" data-mod="code-block"><div class="cbk-h"><span>${ti('card.install')}</span><button type="button" class="btn btn-g btn-sm" data-copy="${esc(i.install)}">${ic('copy')}${ti('r.copy')}</button></div><pre><code>${esc(i.install)}</code></pre></div>` : ''}
@@ -301,6 +325,7 @@ ${origBlock(i, mirror)}
 <div class="d-agent"><h2 class="p-h3">${ti('nav.agents')}</h2>${btn(u('api/resources/' + i.id + '.json'), ti('r.json'), 'btn btn-o btn-sm', 'json')}${btn(u('r/' + i.id + '.md'), ti('r.md'), 'btn btn-o btn-sm', 'doc')}${resRaw(i) ? btn(resRaw(i), ti('r.raw'), 'btn btn-o btn-sm', 'doc') : ''}</div></aside></section>
 ${related(i).length ? `<section class="wrap p-sec"><div class="p-sh"><h2 class="p-h2">${ti('r.related')}</h2></div>${grid(related(i))}</section>` : ''}`;
   const tr = Object.fromEntries(LOCALES.filter((l) => l !== 'en' && L10N[l][i.id] && keepTr(l, i.id)).map((l) => [l, L10N[l][i.id].s]));
+  if (ZH_ORIG[i.id]?.s) { tr['zh-CN'] = ZH_ORIG[i.id].s; tr['zh-TW'] = (L10N['zh-TW'][i.id]?.by === 'opencc' && L10N['zh-TW'][i.id].s) || ZH_ORIG[i.id].s; }
   write(DIST, `r/${i.id}/index.html`, page({ title: `${i.title} · Agent Academy`, desc: (i.summary_source || i.title).slice(0, 160), body, active: 'nav.library', og: 'article', ld: [{ '@type': 'CreativeWork', name: i.title, description: (i.summary_source || i.title).slice(0, 300), url: `${SITE}/r/${i.id}/`, ...(i.license && !/^(see-skill-folder|NOASSERTION|NONE|unknown)/.test(String(i.license)) ? { license: String(i.license) } : {}), ...(i.updated_at ? { dateModified: String(i.updated_at).slice(0, 10) } : {}), isBasedOn: { '@type': 'CreativeWork', url: i.source_url || i.repo || `${SITE}/r/${i.id}/` }, publisher: { '@id': ORG['@id'] } }], rel: `r/${i.id}/`, pageData: { kind: 'resource', sum: { [i.id]: tr }, lang: i.summary_lang } }));
   write(DIST, `r/${i.id}.md`, `# ${i.title}\n\n- type: ${i.type}\n- industry: ${i.industry}\n- roles: ${i.roles.join(', ')}\n- source: ${i.source_url}\n- license: ${i.license} (${i.content_policy})\n${i.install ? `- install: ${i.install}\n` : ''}- needs_credentials: ${!!sf.needs_credentials}\n- writes_external: ${!!sf.writes_external}\n- updated_at: ${i.updated_at}\n\n${i.summary_source || ''}\n${mirror ? `\n---\n\nMirrored from ${i.source_url} under ${i.license}. The original is authoritative.\n\n${mirror}` : ORIG[i.id]?.file ? `\n---\n\nRepublished from ${ORIG[i.id].url} under ${ORIG[i.id].license}. The original is authoritative.\n\n${fs.readFileSync(path.join(ROOT, ORIG[i.id].file), 'utf8')}` : ORIG[i.id]?.record ? `\n---\n\nPublic record (${ORIG[i.id].license}): ${JSON.stringify(ORIG[i.id].record)}\n` : ''}`);
   write(DIST, `api/resources/${i.id}.json`, JSON.stringify(resJSON(i)));
@@ -413,7 +438,7 @@ const SOURCES = [
 // ---------------------------------------------------------------- AGENT ENDPOINTS
 const searchIndex = LIVE.map((i) => ({ id: i.id, t: i.title, ty: i.type, in: i.industry, ro: i.roles, s: sumOf(i).slice(0, 220), h: shortSrc(i.source_url), li: licLabel(i), c: safety(i).cred ? 1 : 0, w: safety(i).send ? 1 : 0, q: stars(i), sr: i.source }));
 write(DIST, 'api/search-index.json', JSON.stringify({ updated_at: UPDATED, fields: { id: 'id', t: 'title', ty: 'type', in: 'industry', ro: 'roles', s: 'summary (en/source)', h: 'source host+path', li: 'license', c: 'needs_credentials', w: 'writes_external', q: 'quality signal (stars/votes/score)', sr: 'collector source' }, items: searchIndex }));
-for (const l of LOCALES.filter((x) => x !== 'en')) write(DIST, `api/l10n/${l}.json`, JSON.stringify(Object.fromEntries(Object.entries(L10N[l]).filter(([k]) => !k.startsWith('_') && keepTr(l, k)).map(([k, v]) => [k, v.s]))));
+for (const l of LOCALES.filter((x) => x !== 'en')) write(DIST, `api/l10n/${l}.json`, JSON.stringify({ ...Object.fromEntries(Object.entries(L10N[l]).filter(([k]) => !k.startsWith('_') && keepTr(l, k)).map(([k, v]) => [k, v.s])), ...(l.startsWith('zh') ? zhMap(l) : {}) }));
 write(DIST, 'api/l10n/texts.json', JSON.stringify(Object.fromEntries(LOCALES.filter((x) => x !== 'en').map((l) => [l, Object.fromEntries(Object.entries(L10N[l]._texts || {}).map(([k, v]) => [k, v.s]))]))));
 write(DIST, 'api/resources.json', JSON.stringify({ updated_at: UPDATED, count: ALL.length, items: ALL.map(resJSON) }));
 for (const ind of Object.keys(TAX.industries)) write(DIST, `api/resources/by-industry/${ind}.json`, JSON.stringify({ industry: ind, updated_at: UPDATED, items: (byInd[ind] || []).map(resJSON) }));

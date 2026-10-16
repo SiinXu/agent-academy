@@ -24,6 +24,7 @@
     $$('[data-tx]').forEach((e) => { const [g, k] = e.dataset.tx.split('.'); e.textContent = TX(g, k); });
     $$('[data-rotate-tx]').forEach((e) => { const [g, ks] = e.dataset.rotateTx.split(':'); const w = ks.split(',').map((k) => TX(g, k)); e.dataset.wordRotate = JSON.stringify(w); const sp = e.firstElementChild; if (sp && !w.includes(sp.textContent)) sp.textContent = w[0]; });
     $$('[data-only]').forEach((e) => { e.hidden = true; });
+    $$('[data-zh-only]').forEach((e) => { e.hidden = !l.startsWith('zh'); }); $$('[data-nonzh-only]').forEach((e) => { e.hidden = l.startsWith('zh'); });
     const only = $$(`[data-only="${l}"]`); (only.length ? only : $$('[data-only="en"]')).forEach((e) => (e.hidden = false));
     $$('.lang-sel').forEach((s) => { s.value = l; });
     localTimes();
@@ -33,7 +34,9 @@
   }
   async function translateContent() {
     $$('[data-orig-lang]').forEach((e) => { e.hidden = e.dataset.origLang === lang || (lang === 'zh-TW' && e.dataset.origLang === 'zh-CN'); });
-    const els = $$('[data-sid]'); const xs = $$('[data-x]');
+    const els = $$('[data-sid]'); const xs = $$('[data-x]'); const tids = $$('[data-tid]');
+    /* Chinese titles exist only for zh pages (api/l10n/zh-*.json "t:<id>"); every other locale keeps the English static title */
+    if (tids.length) { const tm = lang.startsWith('zh') ? await getJSON(`api/l10n/${lang}.json`) : null; tids.forEach((e) => { const s = tm && tm['t:' + e.dataset.tid]; if (s) swap(e, s); else restore(e); }); }
     if (lang === 'en') { els.forEach(restore); xs.forEach(restore); return; }
     let map = null;
     if (AA.page && AA.page.sum) { map = {}; for (const [id, v] of Object.entries(AA.page.sum)) map[id] = v[lang]; }
@@ -76,7 +79,7 @@
     const sfTag = (on, y, n, ico) => `<span class="sf ${on ? 'warn' : 'ok'}">${ICONS[on ? ico : 'shield']}<span>${esc(T(on ? y : n))}</span></span>`;
     const ICONS = { key: $('#lf-icons [data-ic=key]')?.innerHTML || '', send: $('#lf-icons [data-ic=send]')?.innerHTML || '', shield: $('#lf-icons [data-ic=shield]')?.innerHTML || '' };
     const SRC = (i) => (i.ty === 'skill' ? 'SKILL.md' : i.sr === 'prompts.chat' ? 'prompts.chat · CC0' : i.sr === 'botsdots' ? 'BotsDots' : '');
-    const cardH = (i) => { const s = (tr && tr[i.id]) || i.s; return `<article class="rc" data-rb-spot><div class="rc-top"><span class="rc-type">${esc(TX('types', i.ty))}</span>${chip && SRC(i) ? `<span class="rc-chip">${esc(SRC(i))}</span>` : `<span class="rc-ind">${esc(TX('industries', i.in))}</span>`}</div><h3 class="rc-t"><a href="${B}r/${i.id}/">${esc(i.t)}</a></h3><p class="rc-s">${esc(s)}</p><p class="rc-src">${esc(i.h)}</p><div class="rc-f"><span class="rc-tags">${sfTag(i.c, 'tag.cred_yes', 'tag.cred_no', 'key')}${sfTag(i.w, 'tag.send_yes', 'tag.send_no', 'send')}</span><span class="rc-lic">${esc(i.li)}</span></div></article>`; };
+    const cardH = (i) => { const s = (tr && tr[i.id]) || i.s; const tt = (tr && tr['t:' + i.id]) || i.t; return `<article class="rc" data-rb-spot><div class="rc-top"><span class="rc-type">${esc(TX('types', i.ty))}</span>${chip && SRC(i) ? `<span class="rc-chip">${esc(SRC(i))}</span>` : `<span class="rc-ind">${esc(TX('industries', i.in))}</span>`}</div><h3 class="rc-t"><a href="${B}r/${i.id}/">${esc(tt)}</a></h3><p class="rc-s">${esc(s)}</p><p class="rc-src">${esc(i.h)}</p><div class="rc-f"><span class="rc-tags">${sfTag(i.c, 'tag.cred_yes', 'tag.cred_no', 'key')}${sfTag(i.w, 'tag.send_yes', 'tag.send_no', 'send')}</span><span class="rc-lic">${esc(i.li)}</span></div></article>`; };
     const types = AA.page.types || null;
     async function run(push) {
       if (!idx) idx = (await getJSON('api/search-index.json')).items.filter((i) => !types || types.includes(i.ty)).sort((a, b) => b.q - a.q);

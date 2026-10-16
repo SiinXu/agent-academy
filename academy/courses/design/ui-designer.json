@@ -25,14 +25,14 @@
    "read": [
     {
      "id": "uihub-ued-x-voxyz-prompt",
-     "title": "「先出设计方案再写代码」Prompt（@Voxyz_ai）",
+     "title": "\"Design first, then code\" prompt (@Voxyz_ai)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md",
-     "summary_lang": "zh-CN",
+     "summary": "Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2087178102505926740",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -71,14 +71,14 @@
     },
     {
      "id": "uihub-ued-x-skills-security",
-     "title": "10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）",
+     "title": "10 UI Skills tested, plus a safety note (@Ryan95322865)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md",
-     "summary_lang": "zh-CN",
+     "summary": "Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2077328569219604814",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -117,14 +117,14 @@
     },
     {
      "id": "uihub-ued-x-designer-workflow",
-     "title": "2026 产品设计师工作流（@dianne_alter）",
+     "title": "2026 product designer workflow (@dianne_alter)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查",
-     "summary_lang": "zh-CN",
+     "summary": "Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2088261777758851497",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -162,6 +162,98 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-x-claude-design-tips",
+     "title": "6 tips from Claude Design designer Nate Parrott (@mylifcc)",
+     "type": "tutorial",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Chinese summary: most people use Claude Design wrong from the start",
+     "summary_lang": "en",
+     "source_url": "https://x.com/i/status/2104441471948496967",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@mylifcc",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-claude-design-tips/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-x-7-ui-skills",
+     "title": "7 UI Skills every design engineer should know (@neropursue)",
+     "type": "tutorial",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Adds fixing-accessibility, react-doctor and playwright-cli (screenshot QA)",
+     "summary_lang": "en",
+     "source_url": "https://x.com/i/status/2101613613949542838",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@neropursue",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-7-ui-skills/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-ued-8pt-grid",
      "title": "8pt Grid（spec.fm）",
      "type": "tutorial",
@@ -169,8 +261,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "8 点栅格间距体系的经典讲解",
-     "summary_lang": "zh-CN",
+     "summary": "The classic explanation of the 8-point spacing grid",
+     "summary_lang": "en",
      "source_url": "https://spec.fm/specifics/8-pt-grid",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -215,8 +307,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "每周 AI × 设计动态：Figma MCP、Codex ↔ Figma、设计系统 Skills",
-     "summary_lang": "zh-CN",
+     "summary": "Weekly AI × design news: Figma MCP, Codex ↔ Figma, design-system skills",
+     "summary_lang": "en",
      "source_url": "https://jasoncyr.substack.com/p/ai-design-weekly-issue-005",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -254,61 +346,15 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-ued-x-ai-slop-why",
-     "title": "AI slop 成因与破解（@dashiAIxz）",
-     "type": "tutorial",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "约束不够就趋同；用随机数打破、给参考图、首尾帧生视频做 Landing",
-     "summary_lang": "zh-CN",
-     "source_url": "https://x.com/i/status/2095715594368860421",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@dashiAIxz",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "1-enrol",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-ai-slop-why/",
-     "source": "ui-hub"
-    },
-    {
      "id": "uihub-ued-airbnb-dls",
-     "title": "Airbnb DLS（Karri Saarinen 复盘）",
+     "title": "Airbnb DLS (Karri Saarinen retrospective)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "Airbnb DLS 不公开；主导者亲自讲怎么搭跨端组件体系",
-     "summary_lang": "zh-CN",
+     "summary": "Airbnb’s DLS isn’t public; its lead explains how the cross-platform component system was built",
+     "summary_lang": "en",
      "source_url": "https://karrisaarinen.com/dls/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -353,8 +399,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "Emil 的网页动效系统课（付费）",
-     "summary_lang": "zh-CN",
+     "summary": "Emil’s complete web animation course (paid)",
+     "summary_lang": "en",
      "source_url": "https://animations.dev",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -393,14 +439,14 @@
     },
     {
      "id": "uihub-ued-atomic-design",
-     "title": "Atomic Design（Brad Frost 免费全书）",
+     "title": "Atomic Design (Brad Frost, free full book)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "原子、分子、组织的组件分层方法论",
-     "summary_lang": "zh-CN",
+     "summary": "The atoms–molecules–organisms method for layering components",
+     "summary_lang": "en",
      "source_url": "https://atomicdesign.bradfrost.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -439,14 +485,14 @@
     },
     {
      "id": "uihub-ued-x-claude-design-vs-figma",
-     "title": "Claude Design vs Figma MCP（@dotey 宝玉）",
+     "title": "Claude Design vs Figma MCP (@dotey)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "直出 HTML 原型 vs 操作 Figma 文件；不是设计师优先选 Claude Design",
-     "summary_lang": "zh-CN",
+     "summary": "HTML prototypes vs editing Figma files; non-designers should pick Claude Design first",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2102509523684479377",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -484,52 +530,6 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-ued-x-claude-design-tips",
-     "title": "Claude Design 设计师 Nate Parrott 的 6 条用法（@mylifcc）",
-     "type": "tutorial",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "中文整理：大多数人一开始就用错了 Claude Design",
-     "summary_lang": "zh-CN",
-     "source_url": "https://x.com/i/status/2104441471948496967",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@mylifcc",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "1-enrol",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-claude-design-tips/",
-     "source": "ui-hub"
-    },
-    {
      "id": "uihub-ued-x-design-eng-stack",
      "title": "Design Engineer Stack 101（@SataEricUX）",
      "type": "tutorial",
@@ -537,8 +537,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "给设计师 / PM 讲清 React、Next、TS、Prisma 各管什么",
-     "summary_lang": "zh-CN",
+     "summary": "Explains to designers and PMs what React, Next, TS and Prisma each do",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2094659988971261998",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -583,8 +583,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "4 周：Claude Code + Figma MCP + Supabase + Vercel",
-     "summary_lang": "zh-CN",
+     "summary": "4 weeks: Claude Code + Figma MCP + Supabase + Vercel",
+     "summary_lang": "en",
      "source_url": "https://designlab.com/advanced/vibe-coding-course",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -623,14 +623,14 @@
     },
     {
      "id": "uihub-ued-x-emil-skills-zh",
-     "title": "Emil Kowalski Skills 中文全解（@pengchujin）",
+     "title": "Emil Kowalski Skills, fully explained (@pengchujin)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "apple-design、animate、review-animations 各干什么，什么时候不该加动画",
-     "summary_lang": "zh-CN",
+     "summary": "What apple-design, animate and review-animations each do, and when not to animate",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2101578929786228924",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -669,14 +669,14 @@
     },
     {
      "id": "uihub-ued-emil-animation-tips",
-     "title": "Emil Kowalski：7 个动效实用技巧",
+     "title": "Emil Kowalski: 7 practical animation tips",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "Sonner、Vaul 作者写的 UI 动效手感要点",
-     "summary_lang": "zh-CN",
+     "summary": "Animation feel tips from the author of Sonner and Vaul",
+     "summary_lang": "en",
      "source_url": "https://emilkowal.ski/ui/7-practical-animation-tips",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -715,14 +715,14 @@
     },
     {
      "id": "uihub-ued-figma-variables-guide",
-     "title": "Figma 官方 Variables 指南",
+     "title": "Figma official Variables guide",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "在 Figma 里落地 token 和模式（明暗、品牌）",
-     "summary_lang": "zh-CN",
+     "summary": "Putting tokens and modes (light/dark, brands) into practice in Figma",
+     "summary_lang": "en",
      "source_url": "https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1239,14 +1239,14 @@
     },
     {
      "id": "uihub-w16-otsuka-air-jp",
-     "title": "/zeroz（ゼロズ）公式サイト",
+     "title": "/zeroz official site",
      "type": "style-library",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "白底时尚摄影 + 超大斜杠字标 /zeroz，日系品牌的留白与锐利（收录自 Awwwards）",
-     "summary_lang": "zh-CN",
+     "summary": "Fashion photography on white with an oversized slash wordmark /zeroz: Japanese whitespace and sharpness (via Awwwards)",
+     "summary_lang": "en",
      "source_url": "https://otsuka-air.jp/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1291,8 +1291,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "黑底月面渲染 + 银色大字 MOON，太空主题的克制动效（收录自 Awwwards）",
-     "summary_lang": "zh-CN",
+     "summary": "Moon render on black with large silver MOON: restrained motion on a space theme (via Awwwards)",
+     "summary_lang": "en",
      "source_url": "https://www.21hrs.space/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1337,8 +1337,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "社区组件市场",
-     "summary_lang": "zh-CN",
+     "summary": "Community component marketplace",
+     "summary_lang": "en",
      "source_url": "https://21st.dev/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1377,14 +1377,14 @@
     },
     {
      "id": "uihub-21st-dev-community-components-s-ai-chat",
-     "title": "21st.dev AI 聊天组件合集",
+     "title": "21st.dev AI chat components",
      "type": "style-library",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "248 个以上社区组件",
-     "summary_lang": "zh-CN",
+     "summary": "248+ community components",
+     "summary_lang": "en",
      "source_url": "https://21st.dev/community/components/s/ai-chat",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1429,8 +1429,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "黑底手写体标语，像在纸上写字的“手绘线条”气质（收录自 Awwwards）",
-     "summary_lang": "zh-CN",
+     "summary": "Handwritten tagline on black, like writing on paper with a hand-drawn line (via Awwwards)",
+     "summary_lang": "en",
      "source_url": "https://2xa.studio/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1475,8 +1475,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "专收 404 页面",
-     "summary_lang": "zh-CN",
+     "summary": "A gallery of 404 pages",
+     "summary_lang": "en",
      "source_url": "https://www.404s.design",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1567,8 +1567,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "黑底翻开的画册 3D + 衬线小字，期刊站的展陈感（收录自 Minimal Gallery）",
-     "summary_lang": "zh-CN",
+     "summary": "An open 3D art book on black with small serif type: exhibition feel for a journal site (via Minimal Gallery)",
+     "summary_lang": "en",
      "source_url": "https://www.ajournalon.co/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1613,8 +1613,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "红底 + 白色超粗大字 A LOVE STORY，品牌代理的海报感（收录自 Lapa Ninja）",
-     "summary_lang": "zh-CN",
+     "summary": "Red with ultra-bold white A LOVE STORY: poster feel for a brand agency (via Lapa Ninja)",
+     "summary_lang": "en",
      "source_url": "https://alovehatestory.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1659,8 +1659,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "真实 A/B 测试前后对比，学「哪个版本赢了」",
-     "summary_lang": "zh-CN",
+     "summary": "Real A/B test before/after comparisons — learn which version won",
+     "summary_lang": "en",
      "source_url": "https://abtest.design",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1705,8 +1705,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "粉黄撞色 + 粗衬线大字 + 一本书的插画，读书会订阅站的俏皮版式（收录自 Awwwards）",
-     "summary_lang": "zh-CN",
+     "summary": "Pink and yellow clash, bold serif type and a book illustration: a playful layout for a book club subscription (via Awwwards)",
+     "summary_lang": "en",
      "source_url": "https://aardvarkbookclub.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1751,8 +1751,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "白底黑白故障人像 + 分栏大字 Design Engineer / Product Designer，作品集的黑白冲击（收录自 One Page Love）",
-     "summary_lang": "zh-CN",
+     "summary": "Glitched black and white portrait on white with split big type \"Design Engineer / Product Designer\": monochrome impact for a portfolio (via One Page Love)",
+     "summary_lang": "en",
      "source_url": "https://www.sananes.co/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1797,8 +1797,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "米色底 + 衬线文字 + 建筑线描插画，艺术社区站的纸感（收录自 Httpster）",
-     "summary_lang": "zh-CN",
+     "summary": "Beige, serif text and line-drawn architecture illustrations: paper feel for an arts community site (via Httpster)",
+     "summary_lang": "en",
      "source_url": "https://abbotsfordconvent.com.au/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1843,8 +1843,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "AI Agent 营销站模板（付费）",
-     "summary_lang": "zh-CN",
+     "summary": "AI agent marketing site template (paid)",
+     "summary_lang": "en",
      "source_url": "https://ui.aceternity.com/templates/agenforce-marketing-template",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -3835,8 +3835,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "在 Cursor 里调用 1 万+ React / Tailwind 组件（21st 的 MCP）",
-     "summary_lang": "zh-CN",
+     "summary": "Use 10k+ React/Tailwind components inside Cursor (21st’s MCP)",
+     "summary_lang": "en",
      "source_url": "https://github.com/21st-dev/magic-mcp",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md",
      "upstream_raw_url": null,
@@ -3880,8 +3880,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "免费 3D 图标",
-     "summary_lang": "zh-CN",
+     "summary": "Free 3D icons",
+     "summary_lang": "en",
      "source_url": "https://3dicons.co",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -3926,8 +3926,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "按对比度生成无障碍色阶，Adobe 开源",
-     "summary_lang": "zh-CN",
+     "summary": "Generates accessible color scales by target contrast; open source from Adobe",
+     "summary_lang": "en",
      "source_url": "https://leonardocolor.io/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -3972,8 +3972,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "在界面上直接标注问题，生成说明给编程 Agent（@tranmautritam）",
-     "summary_lang": "zh-CN",
+     "summary": "Annotate problems directly on the UI and generate instructions for coding agents",
+     "summary_lang": "en",
      "source_url": "https://agentation.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -4146,8 +4146,8 @@
      "roles": [
       "ui-designer"
      ],
-     "summary": "对话生成应用，可在线改代码",
-     "summary_lang": "zh-CN",
+     "summary": "Build apps by chatting, with in-browser code editing",
+     "summary_lang": "en",
      "source_url": "https://bolt.cello.so/ByQ3siiRkMz",
      "raw_url": null,
      "upstream_raw_url": null,

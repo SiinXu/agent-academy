@@ -23,20 +23,20 @@ Rules for the agent: read the steps in order. For each item open `raw` if presen
 
 Read course.md: the job, the permissions it needs, and what good output looks like.
 
-- [tutorial] 「先出设计方案再写代码」Prompt（@Voxyz_ai）. 受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md
+- [tutorial] "Design first, then code" prompt (@Voxyz_ai). Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md
   source: https://x.com/i/status/2087178102505926740
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）. 动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md
+- [tutorial] 10 UI Skills tested, plus a safety note (@Ryan95322865). Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing
   source: https://x.com/i/status/2077328569219604814
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 2026 产品设计师工作流（@dianne_alter）. 产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查
+- [tutorial] 2026 product designer workflow (@dianne_alter). Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review
   source: https://x.com/i/status/2088261777758851497
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 8pt Grid（spec.fm）. 8 点栅格间距体系的经典讲解
-  source: https://spec.fm/specifics/8-pt-grid
+- [tutorial] 6 tips from Claude Design designer Nate Parrott (@mylifcc). Chinese summary: most people use Claude Design wrong from the start
+  source: https://x.com/i/status/2104441471948496967
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -74,23 +74,23 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/pXNvc_U2cGyZmheYrUuF_
   needs_credentials: true, writes_external: false
-- [style-library] 1367 Studio. 深色工作室首页，一个发光主视觉压住整屏，导航极简，适合学“单一焦点”的首屏（收录自 CSS Design Awards）
+- [style-library] 1367 Studio. Dark studio homepage: one glowing key visual holds the screen with minimal nav — a lesson in single-focus heroes (via CSS Design Awards)
   source: https://www.1367studio.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 60fps. 移动端界面动效（@neropursue）
+- [style-library] 60fps. Mobile UI motion
   source: https://60fps.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [template] Aceternity Hero Sections 区块. 完整的首屏区块合集（含免费款），有排版、截图、CTA 的成品组合，可直接对照整页比例
+- [template] Aceternity Hero Sections blocks. A full set of hero sections (free ones included): finished combos of type, screenshots and CTAs to compare whole-page proportions
   source: https://ui.aceternity.com/blocks/hero-sections
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [template] Aceternity Pricing Sections 区块. 定价区块：月/年切换、推荐档高亮
+- [template] Aceternity Pricing Sections blocks. Pricing blocks: monthly/yearly toggle and a highlighted recommended tier
   source: https://ui.aceternity.com/blocks/pricing-sections
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [template] Aceternity Text Animations 区块. 标题文字动画区块合集
+- [template] Aceternity Text Animations blocks. A collection of headline text animation blocks
   source: https://ui.aceternity.com/blocks/text-animations
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -98,11 +98,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://ui.aceternity.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Aceternity UI 全部组件. Full list of free Aceternity components: spotlight, 3D cards, background beams, text effects, floating nav.
+- [style-library] Aceternity UI all components. Full list of free Aceternity components: spotlight, 3D cards, background beams, text effects, floating nav.
   source: https://ui.aceternity.com/components
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Animata. 数百个免费动效组件
+- [style-library] Animata. Hundreds of free motion components
   source: https://animata.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -110,15 +110,15 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://animate-ui.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Animate.css. 现成的 CSS 动画类，加个 class 就能动；许可以原仓库为准，本站只放链接
+- [style-library] Animate.css. Ready-made CSS animation classes: add a class and it moves. License per the repo; link only here
   source: https://animate.style/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Animated Icons. 207 个动画 React 图标
+- [style-library] Animated Icons. 207 animated React icons
   source: https://animated-icons-nu.vercel.app
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Anime.js. 轻量 JavaScript 动画库
+- [style-library] Anime.js. A lightweight JavaScript animation library
   source: https://animejs.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -126,35 +126,35 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://uiarc.dev
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Asher Vale（Framer 模板）. Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）
+- [style-library] Asher Vale (Framer template). A full-site template from the official Framer marketplace, previewable online; good for comparing whole-page rhythm (mostly paid, links to the original)
   source: https://www.framer.com/marketplace/templates/asher-vale/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] AutoAnimate. 一行代码给列表加进出场动画
+- [style-library] AutoAnimate. Add enter/leave animations to lists with one line of code
   source: https://auto-animate.formkit.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Awwwards · Sites of the Day. Awwwards 每日最佳网站，评审打分，适合找高完成度整站
+- [style-library] Awwwards · Sites of the Day. Awwwards Sites of the Day, jury-scored; good for polished full sites
   source: https://www.awwwards.com/websites/sites_of_the_day/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] BeUI. 漂亮的 React 组件
+- [style-library] BeUI. Good-looking React components
   source: https://beui.dev
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Buff Motion. 米色底 + 衬线斜体混排大标题 + 手绘线条，动态设计工作室的温柔首屏（收录自 Best Website Gallery）
+- [style-library] Buff Motion. Beige with mixed serif italic headlines and hand-drawn lines: a gentle hero for a motion design studio (via Best Website Gallery)
   source: https://www.buffmotion.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Circle Loaders. SVG 环形加载动画
+- [style-library] Circle Loaders. SVG circular loaders
   source: https://circleloaders.dominikakissi.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Codrops. 前端特效教程和 Demo 老牌站
+- [style-library] Codrops. A long-running site of frontend effect tutorials and demos
   source: https://tympanus.net/codrops/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Conicorn（Framer 模板）. Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）
+- [style-library] Conicorn (Framer template). A full-site template from the official Framer marketplace, previewable online; good for comparing whole-page rhythm (mostly paid, links to the original)
   source: https://www.framer.com/marketplace/templates/conicorn/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -256,7 +256,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.icons8.com/mcp/
   needs_credentials: true, writes_external: false
-- [tool] Unicorn Studio. 无代码做 WebGL 特效
+- [tool] Unicorn Studio. Build WebGL effects without code
   source: https://www.unicorn.studio/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false

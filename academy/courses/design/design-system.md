@@ -23,20 +23,20 @@ Rules for the agent: read the steps in order. For each item open `raw` if presen
 
 Read course.md: the job, the permissions it needs, and what good output looks like.
 
-- [tutorial] 「先出设计方案再写代码」Prompt（@Voxyz_ai）. 受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md
+- [tutorial] "Design first, then code" prompt (@Voxyz_ai). Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md
   source: https://x.com/i/status/2087178102505926740
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）. 动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md
+- [tutorial] 10 UI Skills tested, plus a safety note (@Ryan95322865). Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing
   source: https://x.com/i/status/2077328569219604814
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 2026 产品设计师工作流（@dianne_alter）. 产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查
+- [tutorial] 2026 product designer workflow (@dianne_alter). Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review
   source: https://x.com/i/status/2088261777758851497
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 8pt Grid（spec.fm）. 8 点栅格间距体系的经典讲解
-  source: https://spec.fm/specifics/8-pt-grid
+- [tutorial] 6 tips from Claude Design designer Nate Parrott (@mylifcc). Chinese summary: most people use Claude Design wrong from the start
+  source: https://x.com/i/status/2104441471948496967
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -87,76 +87,76 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/JjLTs-HzmZyOmhxef2k2l
   needs_credentials: true, writes_external: false
-- [design-system] Adobe Spectrum. Adobe 全家桶设计语言
+- [design-system] Adobe Spectrum. The design language across Adobe’s product suite
   source: https://spectrum.adobe.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Apple Design Resources. 官方 Figma / Sketch 套件、SF 字体、SF Symbols
+- [design-system] Apple Design Resources. Official Figma/Sketch kits, SF fonts and SF Symbols
   source: https://developer.apple.com/design/resources/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Astryx（Meta 开源设计系统）. Meta 开源的设计系统，150–170+ 组件、主题、暗色模式、面向 AI 的工具（X 来源：@neropursue，406 赞 / 457 收藏，2026-09-19）
+- [design-system] Astryx (Meta open-source design system). Meta's open-source design system: 150–170+ components, themes, dark mode and AI-facing tooling (from X: @neropursue, 406 likes / 457 bookmarks, 2026-09-19)
   source: https://astryx.atmeta.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Atlassian Design System. Jira / Confluence 的规范，token 和写作规范都公开
+- [design-system] Atlassian Design System. The system behind Jira and Confluence, with public tokens and content guidelines
   source: https://atlassian.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Elastic EUI. Elastic 的公开设计系统，数据密集型界面参考
+- [design-system] Elastic EUI. Elastic’s public design system; a reference for data-dense UIs
   source: https://eui.elastic.co/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Fusion Design（阿里）. 阿里中台设计系统
+- [design-system] Fusion Design (Alibaba). Alibaba’s design system for middle-platform and admin products
   source: https://fusion.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] GOV.UK Design System. 公共服务规范，无障碍和表单模式是教科书级
+- [design-system] GOV.UK Design System. Public-service design system; its accessibility and form patterns are textbook quality
   source: https://design-system.service.gov.uk/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] HarmonyOS 设计（华为）. 鸿蒙官方设计规范和资源
+- [design-system] HarmonyOS Design (Huawei). Huawei’s official HarmonyOS design guidelines and resources
   source: https://developer.huawei.com/consumer/cn/design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] HashiCorp Helios. HashiCorp 的公开设计系统，开发者工具类界面参考
+- [design-system] HashiCorp Helios. HashiCorp’s public design system; a reference for developer-tool UIs
   source: https://helios.hashicorp.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Interfere Design System. Interfere 公开的设计系统页：基础、字体、原语，排版极其克制（X 来源：@jakubkrehel，523 赞 / 560 收藏，2026-10-15）
+- [design-system] Interfere Design System. Interfere's public design system page: foundations, type and primitives, with very restrained layout (from X: @jakubkrehel, 523 likes / 560 bookmarks, 2026-10-15)
   source: https://design.interfere.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Microsoft Fluent 2. 微软跨平台设计语言，有 Web、iOS、Android、Windows 版本
+- [design-system] Microsoft Fluent 2. Microsoft’s cross-platform design language for Web, iOS, Android and Windows
   source: https://fluent2.microsoft.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] NutUI（京东）. 京东移动端和小程序电商风组件规范
+- [design-system] NutUI (JD.com). JD.com’s e-commerce component spec for mobile web and mini-programs
   source: https://nutui.jd.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Polaris Web Components 文档. Polaris 新版组件 API
+- [design-system] Polaris Web Components docs. API docs for the new Polaris components
   source: https://shopify.dev/docs/api/app-home/polaris-web-components
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Samsung One UI. 三星官方：布局、栅格、大屏和折叠屏规范
+- [design-system] Samsung One UI. Samsung’s official layout, grid, large-screen and foldable guidelines
   source: https://developer.samsung.com/one-ui
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Shopify Polaris. Shopify 后台设计系统，现在以 Web Components 为主
+- [design-system] Shopify Polaris. Shopify’s admin design system, now built mainly on Web Components
   source: https://polaris.shopify.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Spectrum 2. Spectrum 新一代视觉和组件
+- [design-system] Spectrum 2. The next generation of Spectrum visuals and components
   source: https://s2.spectrum.adobe.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Twilio Paste. Twilio 的公开设计系统，组件文档写得很规范
+- [design-system] Twilio Paste. Twilio’s public design system with well-structured component docs
   source: https://paste.twilio.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] WeUI（微信）. 微信原生视觉规范组件
-  source: https://github.com/Tencent/weui
+- [design-system] WeChat Mini Program design guide. Official interaction and visual principles for WeChat mini-programs
+  source: https://developers.weixin.qq.com/miniprogram/design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -270,28 +270,28 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-strategic-app-design-content-engineering-prompt.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [standard] Adobe Spectrum Design Data（tokens）. Spectrum 公开的 token 数据仓库（旧仓库是 adobe/spectrum-tokens）
+- [standard] Adobe Spectrum Design Data（tokens）. Spectrum’s public token data repo (formerly adobe/spectrum-tokens)
   source: https://github.com/adobe/spectrum-design-data
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-spectrum-design-data.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] Ant Design llms.txt / design.md. 有 llms.txt、llms-full.txt 和 design.md，把整套 antd 规范喂给 AI
+- [standard] Ant Design llms.txt / design.md. Provides llms.txt, llms-full.txt and design.md so you can feed the whole antd spec to an AI
   source: https://ant.design/docs/react/llms
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] Ant Design 定制主题（Seed → Map → Alias）. 国内最常用的三层 token 算法模型
+- [standard] Ant Design theming (Seed → Map → Alias). The widely used three-layer token algorithm model
   source: https://ant.design/docs/react/customize-theme
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] Apple HIG Typography. Dynamic Type 字号层级和行高规范
+- [standard] Apple HIG Typography. Dynamic Type sizes and line-height rules
   source: https://developer.apple.com/design/human-interface-guidelines/typography
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] Atlassian Design Tokens. 语义 token 命名范例，例如 color.background.danger
+- [standard] Atlassian Design Tokens. Semantic token naming examples such as color.background.danger
   source: https://atlassian.design/foundations/tokens/design-tokens
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] Carbon 主题和 token. IBM 四套主题，靠一组语义 token 切换
+- [standard] Carbon themes and tokens. IBM’s four themes, switched through one set of semantic tokens
   source: https://carbondesignsystem.com/elements/themes/overview/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -305,16 +305,16 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-consistency-auditor.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [standard] DESIGN.md 格式规范（Google）. Google 提出的 DESIGN.md 格式：YAML 写 token，Markdown 写设计意图
+- [standard] DESIGN.md format spec (Google). Google’s DESIGN.md format: tokens in YAML, design intent in Markdown
   source: https://github.com/google-labs-code/design.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] DTCG Format 2025.10 稳定版. token JSON 格式正式规范，Figma、Tokens Studio、Style Dictionary 都在跟
+- [standard] DTCG Format 2025.10 stable. The formal token JSON spec followed by Figma, Tokens Studio and Style Dictionary
   source: https://www.designtokens.org/tr/2025.10/format/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] Fluent 2 Design Tokens. 微软的全局 token 和别名 token 体系
+- [standard] Fluent 2 Design Tokens. Microsoft’s global and alias token system
   source: https://fluent2.microsoft.design/design-tokens
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -323,8 +323,8 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-high-end-technology-inspired-website-ui-redesign.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [standard] Material 3 Design Tokens. M3 的 token 分层（ref → sys → comp）和命名
-  source: https://m3.material.io/foundations/design-tokens/overview
+- [standard] Material 3 color roles. The reference for semantic color roles such as primary, on-primary and container
+  source: https://m3.material.io/styles/color/roles
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

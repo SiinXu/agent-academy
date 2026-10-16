@@ -1,6 +1,6 @@
 // SEO / GEO / analytics head for every Agent Academy page (v-seo). Locales are ?lang=<code> variants of the same page.
 export const CF_TOKEN = '41d8abdb6f1247c08f2412afcd5f2143'; // Cloudflare Web Analytics: siinxu.github.io
-export const ORG = { '@type': 'Organization', '@id': 'https://incidental.site/#org', name: 'Incidental AI', alternateName: '偶然 AI', url: 'https://incidental.site/' };
+export const ORG = { '@type': 'Organization', '@id': 'https://incidental.site/#org', name: 'Incidental AI', url: 'https://incidental.site/' };
 const SEC = { library: 'Library', templates: 'Templates', courses: 'Courses', i: 'Courses', r: 'Library', cases: 'Courses', latest: 'Latest', changelog: 'Changelog', sources: 'Sources', agents: 'For agents' };
 const SEC_URL = { i: 'courses/', r: 'library/', cases: 'courses/' };
 const escA = (v) => String(v ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);

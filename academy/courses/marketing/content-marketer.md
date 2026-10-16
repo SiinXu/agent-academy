@@ -257,7 +257,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://app.monetizemarketing.com/api/mcp
   needs_credentials: true, writes_external: false
-- [mcp] 24好玩 · 互动营销模板与案例库. 检索 24好玩 H5 互动营销平台的活动模板库、客户案例库与帮助知识库。匿名只读，无需 API Key。
+- [mcp] 24haowan · interactive marketing templates and case library. Search the 24haowan H5 interactive-marketing platform: campaign template library, customer case library and help knowledge base. Anonymous read-only, no API key needed.
   source: https://mcp.24haowan.com/
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.24haowan.com/mcp

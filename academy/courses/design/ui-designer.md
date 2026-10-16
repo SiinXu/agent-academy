@@ -23,67 +23,67 @@ Rules for the agent: read the steps in order. For each item open `raw` if presen
 
 Read course.md: the job, the permissions it needs, and what good output looks like.
 
-- [tutorial] 「先出设计方案再写代码」Prompt（@Voxyz_ai）. 受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md
+- [tutorial] "Design first, then code" prompt (@Voxyz_ai). Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md
   source: https://x.com/i/status/2087178102505926740
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）. 动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md
+- [tutorial] 10 UI Skills tested, plus a safety note (@Ryan95322865). Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing
   source: https://x.com/i/status/2077328569219604814
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 2026 产品设计师工作流（@dianne_alter）. 产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查
+- [tutorial] 2026 product designer workflow (@dianne_alter). Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review
   source: https://x.com/i/status/2088261777758851497
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 8pt Grid（spec.fm）. 8 点栅格间距体系的经典讲解
-  source: https://spec.fm/specifics/8-pt-grid
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tutorial] AI × Design Weekly（Jason Cyr）. 每周 AI × 设计动态：Figma MCP、Codex ↔ Figma、设计系统 Skills
-  source: https://jasoncyr.substack.com/p/ai-design-weekly-issue-005
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tutorial] AI slop 成因与破解（@dashiAIxz）. 约束不够就趋同；用随机数打破、给参考图、首尾帧生视频做 Landing
-  source: https://x.com/i/status/2095715594368860421
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tutorial] Airbnb DLS（Karri Saarinen 复盘）. Airbnb DLS 不公开；主导者亲自讲怎么搭跨端组件体系
-  source: https://karrisaarinen.com/dls/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tutorial] animations.dev. Emil 的网页动效系统课（付费）
-  source: https://animations.dev
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tutorial] Atomic Design（Brad Frost 免费全书）. 原子、分子、组织的组件分层方法论
-  source: https://atomicdesign.bradfrost.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tutorial] Claude Design vs Figma MCP（@dotey 宝玉）. 直出 HTML 原型 vs 操作 Figma 文件；不是设计师优先选 Claude Design
-  source: https://x.com/i/status/2102509523684479377
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tutorial] Claude Design 设计师 Nate Parrott 的 6 条用法（@mylifcc）. 中文整理：大多数人一开始就用错了 Claude Design
+- [tutorial] 6 tips from Claude Design designer Nate Parrott (@mylifcc). Chinese summary: most people use Claude Design wrong from the start
   source: https://x.com/i/status/2104441471948496967
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] Design Engineer Stack 101（@SataEricUX）. 给设计师 / PM 讲清 React、Next、TS、Prisma 各管什么
+- [tutorial] 7 UI Skills every design engineer should know (@neropursue). Adds fixing-accessibility, react-doctor and playwright-cli (screenshot QA)
+  source: https://x.com/i/status/2101613613949542838
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tutorial] 8pt Grid（spec.fm）. The classic explanation of the 8-point spacing grid
+  source: https://spec.fm/specifics/8-pt-grid
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tutorial] AI × Design Weekly（Jason Cyr）. Weekly AI × design news: Figma MCP, Codex ↔ Figma, design-system skills
+  source: https://jasoncyr.substack.com/p/ai-design-weekly-issue-005
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tutorial] Airbnb DLS (Karri Saarinen retrospective). Airbnb’s DLS isn’t public; its lead explains how the cross-platform component system was built
+  source: https://karrisaarinen.com/dls/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tutorial] animations.dev. Emil’s complete web animation course (paid)
+  source: https://animations.dev
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tutorial] Atomic Design (Brad Frost, free full book). The atoms–molecules–organisms method for layering components
+  source: https://atomicdesign.bradfrost.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tutorial] Claude Design vs Figma MCP (@dotey). HTML prototypes vs editing Figma files; non-designers should pick Claude Design first
+  source: https://x.com/i/status/2102509523684479377
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tutorial] Design Engineer Stack 101（@SataEricUX）. Explains to designers and PMs what React, Next, TS and Prisma each do
   source: https://x.com/i/status/2094659988971261998
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] Designlab：Vibe Coding Camp. 4 周：Claude Code + Figma MCP + Supabase + Vercel
+- [tutorial] Designlab：Vibe Coding Camp. 4 weeks: Claude Code + Figma MCP + Supabase + Vercel
   source: https://designlab.com/advanced/vibe-coding-course
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] Emil Kowalski Skills 中文全解（@pengchujin）. apple-design、animate、review-animations 各干什么，什么时候不该加动画
+- [tutorial] Emil Kowalski Skills, fully explained (@pengchujin). What apple-design, animate and review-animations each do, and when not to animate
   source: https://x.com/i/status/2101578929786228924
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] Emil Kowalski：7 个动效实用技巧. Sonner、Vaul 作者写的 UI 动效手感要点
+- [tutorial] Emil Kowalski: 7 practical animation tips. Animation feel tips from the author of Sonner and Vaul
   source: https://emilkowal.ski/ui/7-practical-animation-tips
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] Figma 官方 Variables 指南. 在 Figma 里落地 token 和模式（明暗、品牌）
+- [tutorial] Figma official Variables guide. Putting tokens and modes (light/dark, brands) into practice in Figma
   source: https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -156,27 +156,27 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dYpPe1PCZv2WJDVTYDwhc
   needs_credentials: true, writes_external: false
-- [style-library] /zeroz（ゼロズ）公式サイト. 白底时尚摄影 + 超大斜杠字标 /zeroz，日系品牌的留白与锐利（收录自 Awwwards）
+- [style-library] /zeroz official site. Fashion photography on white with an oversized slash wordmark /zeroz: Japanese whitespace and sharpness (via Awwwards)
   source: https://otsuka-air.jp/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 21 Hours on the Moon. 黑底月面渲染 + 银色大字 MOON，太空主题的克制动效（收录自 Awwwards）
+- [style-library] 21 Hours on the Moon. Moon render on black with large silver MOON: restrained motion on a space theme (via Awwwards)
   source: https://www.21hrs.space/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 21st.dev. 社区组件市场
+- [style-library] 21st.dev. Community component marketplace
   source: https://21st.dev/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 21st.dev AI 聊天组件合集. 248 个以上社区组件
+- [style-library] 21st.dev AI chat components. 248+ community components
   source: https://21st.dev/community/components/s/ai-chat
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 2xA. 黑底手写体标语，像在纸上写字的“手绘线条”气质（收录自 Awwwards）
+- [style-library] 2xA. Handwritten tagline on black, like writing on paper with a hand-drawn line (via Awwwards)
   source: https://2xa.studio/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 404s. 专收 404 页面
+- [style-library] 404s. A gallery of 404 pages
   source: https://www.404s.design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -184,31 +184,31 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://8bitcn.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] A Journal On How to Wow People. 黑底翻开的画册 3D + 衬线小字，期刊站的展陈感（收录自 Minimal Gallery）
+- [style-library] A Journal On How to Wow People. An open 3D art book on black with small serif type: exhibition feel for a journal site (via Minimal Gallery)
   source: https://www.ajournalon.co/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] A Love Story. 红底 + 白色超粗大字 A LOVE STORY，品牌代理的海报感（收录自 Lapa Ninja）
+- [style-library] A Love Story. Red with ultra-bold white A LOVE STORY: poster feel for a brand agency (via Lapa Ninja)
   source: https://alovehatestory.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] A/B Test Design. 真实 A/B 测试前后对比，学「哪个版本赢了」
+- [style-library] A/B Test Design. Real A/B test before/after comparisons — learn which version won
   source: https://abtest.design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Aardvark Book Club. 粉黄撞色 + 粗衬线大字 + 一本书的插画，读书会订阅站的俏皮版式（收录自 Awwwards）
+- [style-library] Aardvark Book Club. Pink and yellow clash, bold serif type and a book illustration: a playful layout for a book club subscription (via Awwwards)
   source: https://aardvarkbookclub.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Aaron Sananes. 白底黑白故障人像 + 分栏大字 Design Engineer / Product Designer，作品集的黑白冲击（收录自 One Page Love）
+- [style-library] Aaron Sananes. Glitched black and white portrait on white with split big type "Design Engineer / Product Designer": monochrome impact for a portfolio (via One Page Love)
   source: https://www.sananes.co/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Abbotsford Convent. 米色底 + 衬线文字 + 建筑线描插画，艺术社区站的纸感（收录自 Httpster）
+- [style-library] Abbotsford Convent. Beige, serif text and line-drawn architecture illustrations: paper feel for an arts community site (via Httpster)
   source: https://abbotsfordconvent.com.au/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [template] Aceternity Agenforce Marketing Template. AI Agent 营销站模板（付费）
+- [template] Aceternity Agenforce Marketing Template. AI agent marketing site template (paid)
   source: https://ui.aceternity.com/templates/agenforce-marketing-template
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -419,20 +419,20 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y figma-context-mcp-air
   needs_credentials: true, writes_external: false
-- [tool] 21st-dev/magic-mcp. 在 Cursor 里调用 1 万+ React / Tailwind 组件（21st 的 MCP）
+- [tool] 21st-dev/magic-mcp. Use 10k+ React/Tailwind components inside Cursor (21st’s MCP)
   source: https://github.com/21st-dev/magic-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tool] 3Dicons. 免费 3D 图标
+- [tool] 3Dicons. Free 3D icons
   source: https://3dicons.co
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tool] Adobe Leonardo. 按对比度生成无障碍色阶，Adobe 开源
+- [tool] Adobe Leonardo. Generates accessible color scales by target contrast; open source from Adobe
   source: https://leonardocolor.io/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tool] Agentation. 在界面上直接标注问题，生成说明给编程 Agent（@tranmautritam）
+- [tool] Agentation. Annotate problems directly on the UI and generate instructions for coding agents
   source: https://agentation.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
@@ -447,7 +447,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: CC0-1.0
   install: uvx fonts-andorra
   needs_credentials: false, writes_external: false
-- [tool] Bolt. 对话生成应用，可在线改代码
+- [tool] Bolt. Build apps by chatting, with in-browser code editing
   source: https://bolt.cello.so/ByQ3siiRkMz
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false

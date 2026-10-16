@@ -25,14 +25,14 @@
    "read": [
     {
      "id": "uihub-ued-x-voxyz-prompt",
-     "title": "「先出设计方案再写代码」Prompt（@Voxyz_ai）",
+     "title": "\"Design first, then code\" prompt (@Voxyz_ai)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md",
-     "summary_lang": "zh-CN",
+     "summary": "Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2087178102505926740",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -71,14 +71,14 @@
     },
     {
      "id": "uihub-ued-x-skills-security",
-     "title": "10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）",
+     "title": "10 UI Skills tested, plus a safety note (@Ryan95322865)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md",
-     "summary_lang": "zh-CN",
+     "summary": "Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2077328569219604814",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -117,14 +117,14 @@
     },
     {
      "id": "uihub-ued-x-designer-workflow",
-     "title": "2026 产品设计师工作流（@dianne_alter）",
+     "title": "2026 product designer workflow (@dianne_alter)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查",
-     "summary_lang": "zh-CN",
+     "summary": "Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2088261777758851497",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -162,20 +162,20 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-ued-8pt-grid",
-     "title": "8pt Grid（spec.fm）",
+     "id": "uihub-ued-x-claude-design-tips",
+     "title": "6 tips from Claude Design designer Nate Parrott (@mylifcc)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "8 点栅格间距体系的经典讲解",
-     "summary_lang": "zh-CN",
-     "source_url": "https://spec.fm/specifics/8-pt-grid",
+     "summary": "Chinese summary: most people use Claude Design wrong from the start",
+     "summary_lang": "en",
+     "source_url": "https://x.com/i/status/2104441471948496967",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "spec.fm",
+     "author": "@mylifcc",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -204,7 +204,7 @@
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-8pt-grid/",
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-claude-design-tips/",
      "source": "ui-hub"
     }
    ]
@@ -442,8 +442,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Adobe 全家桶设计语言",
-     "summary_lang": "zh-CN",
+     "summary": "The design language across Adobe’s product suite",
+     "summary_lang": "en",
      "source_url": "https://spectrum.adobe.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -488,8 +488,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "官方 Figma / Sketch 套件、SF 字体、SF Symbols",
-     "summary_lang": "zh-CN",
+     "summary": "Official Figma/Sketch kits, SF fonts and SF Symbols",
+     "summary_lang": "en",
      "source_url": "https://developer.apple.com/design/resources/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -528,14 +528,14 @@
     },
     {
      "id": "uihub-x-astryx-meta",
-     "title": "Astryx（Meta 开源设计系统）",
+     "title": "Astryx (Meta open-source design system)",
      "type": "design-system",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "Meta 开源的设计系统，150–170+ 组件、主题、暗色模式、面向 AI 的工具（X 来源：@neropursue，406 赞 / 457 收藏，2026-09-19）",
-     "summary_lang": "zh-CN",
+     "summary": "Meta's open-source design system: 150–170+ components, themes, dark mode and AI-facing tooling (from X: @neropursue, 406 likes / 457 bookmarks, 2026-09-19)",
+     "summary_lang": "en",
      "source_url": "https://astryx.atmeta.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -580,8 +580,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Jira / Confluence 的规范，token 和写作规范都公开",
-     "summary_lang": "zh-CN",
+     "summary": "The system behind Jira and Confluence, with public tokens and content guidelines",
+     "summary_lang": "en",
      "source_url": "https://atlassian.design/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -626,8 +626,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Elastic 的公开设计系统，数据密集型界面参考",
-     "summary_lang": "zh-CN",
+     "summary": "Elastic’s public design system; a reference for data-dense UIs",
+     "summary_lang": "en",
      "source_url": "https://eui.elastic.co/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -666,19 +666,19 @@
     },
     {
      "id": "uihub-ued-fusion-design",
-     "title": "Fusion Design（阿里）",
+     "title": "Fusion Design (Alibaba)",
      "type": "design-system",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "阿里中台设计系统",
-     "summary_lang": "zh-CN",
+     "summary": "Alibaba’s design system for middle-platform and admin products",
+     "summary_lang": "en",
      "source_url": "https://fusion.design/",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "阿里巴巴",
+     "author": "Alibaba",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -718,8 +718,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "公共服务规范，无障碍和表单模式是教科书级",
-     "summary_lang": "zh-CN",
+     "summary": "Public-service design system; its accessibility and form patterns are textbook quality",
+     "summary_lang": "en",
      "source_url": "https://design-system.service.gov.uk/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -758,19 +758,19 @@
     },
     {
      "id": "uihub-ued-harmonyos-design",
-     "title": "HarmonyOS 设计（华为）",
+     "title": "HarmonyOS Design (Huawei)",
      "type": "design-system",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "鸿蒙官方设计规范和资源",
-     "summary_lang": "zh-CN",
+     "summary": "Huawei’s official HarmonyOS design guidelines and resources",
+     "summary_lang": "en",
      "source_url": "https://developer.huawei.com/consumer/cn/design/",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "华为",
+     "author": "Huawei",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -810,8 +810,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "HashiCorp 的公开设计系统，开发者工具类界面参考",
-     "summary_lang": "zh-CN",
+     "summary": "HashiCorp’s public design system; a reference for developer-tool UIs",
+     "summary_lang": "en",
      "source_url": "https://helios.hashicorp.design/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -856,8 +856,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Interfere 公开的设计系统页：基础、字体、原语，排版极其克制（X 来源：@jakubkrehel，523 赞 / 560 收藏，2026-10-15）",
-     "summary_lang": "zh-CN",
+     "summary": "Interfere's public design system page: foundations, type and primitives, with very restrained layout (from X: @jakubkrehel, 523 likes / 560 bookmarks, 2026-10-15)",
+     "summary_lang": "en",
      "source_url": "https://design.interfere.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -902,8 +902,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "微软跨平台设计语言，有 Web、iOS、Android、Windows 版本",
-     "summary_lang": "zh-CN",
+     "summary": "Microsoft’s cross-platform design language for Web, iOS, Android and Windows",
+     "summary_lang": "en",
      "source_url": "https://fluent2.microsoft.design/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -942,19 +942,19 @@
     },
     {
      "id": "uihub-ued-nutui",
-     "title": "NutUI（京东）",
+     "title": "NutUI (JD.com)",
      "type": "design-system",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "京东移动端和小程序电商风组件规范",
-     "summary_lang": "zh-CN",
+     "summary": "JD.com’s e-commerce component spec for mobile web and mini-programs",
+     "summary_lang": "en",
      "source_url": "https://nutui.jd.com/",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "京东",
+     "author": "JD.com",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -988,14 +988,14 @@
     },
     {
      "id": "uihub-ued-polaris-wc",
-     "title": "Polaris Web Components 文档",
+     "title": "Polaris Web Components docs",
      "type": "design-system",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "Polaris 新版组件 API",
-     "summary_lang": "zh-CN",
+     "summary": "API docs for the new Polaris components",
+     "summary_lang": "en",
      "source_url": "https://shopify.dev/docs/api/app-home/polaris-web-components",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1040,8 +1040,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "三星官方：布局、栅格、大屏和折叠屏规范",
-     "summary_lang": "zh-CN",
+     "summary": "Samsung’s official layout, grid, large-screen and foldable guidelines",
+     "summary_lang": "en",
      "source_url": "https://developer.samsung.com/one-ui",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1086,8 +1086,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Shopify 后台设计系统，现在以 Web Components 为主",
-     "summary_lang": "zh-CN",
+     "summary": "Shopify’s admin design system, now built mainly on Web Components",
+     "summary_lang": "en",
      "source_url": "https://polaris.shopify.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1132,8 +1132,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Spectrum 新一代视觉和组件",
-     "summary_lang": "zh-CN",
+     "summary": "The next generation of Spectrum visuals and components",
+     "summary_lang": "en",
      "source_url": "https://s2.spectrum.adobe.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1178,8 +1178,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Twilio 的公开设计系统，组件文档写得很规范",
-     "summary_lang": "zh-CN",
+     "summary": "Twilio’s public design system with well-structured component docs",
+     "summary_lang": "en",
      "source_url": "https://paste.twilio.design/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1217,20 +1217,20 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-ued-weui",
-     "title": "WeUI（微信）",
+     "id": "uihub-ued-wx-miniprogram-design",
+     "title": "WeChat Mini Program design guide",
      "type": "design-system",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "微信原生视觉规范组件",
-     "summary_lang": "zh-CN",
-     "source_url": "https://github.com/Tencent/weui",
+     "summary": "Official interaction and visual principles for WeChat mini-programs",
+     "summary_lang": "en",
+     "source_url": "https://developers.weixin.qq.com/miniprogram/design/",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "腾讯",
+     "author": "Tencent",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -1238,9 +1238,7 @@
       "kind": "excerpt",
       "license": "UI Hub entry",
       "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {
-       "repo_license": "NOASSERTION"
-      }
+      "record": {}
      },
      "install": null,
      "security": {
@@ -1261,7 +1259,7 @@
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-weui/",
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-wx-miniprogram-design/",
      "source": "ui-hub"
     }
    ]
@@ -2133,8 +2131,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Spectrum 公开的 token 数据仓库（旧仓库是 adobe/spectrum-tokens）",
-     "summary_lang": "zh-CN",
+     "summary": "Spectrum’s public token data repo (formerly adobe/spectrum-tokens)",
+     "summary_lang": "en",
      "source_url": "https://github.com/adobe/spectrum-design-data",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-spectrum-design-data.md",
      "upstream_raw_url": null,
@@ -2178,13 +2176,13 @@
      "roles": [
       "design-system"
      ],
-     "summary": "有 llms.txt、llms-full.txt 和 design.md，把整套 antd 规范喂给 AI",
-     "summary_lang": "zh-CN",
+     "summary": "Provides llms.txt, llms-full.txt and design.md so you can feed the whole antd spec to an AI",
+     "summary_lang": "en",
      "source_url": "https://ant.design/docs/react/llms",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "蚂蚁集团",
+     "author": "Ant Group",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -2218,19 +2216,19 @@
     },
     {
      "id": "uihub-ued-antd-theme",
-     "title": "Ant Design 定制主题（Seed → Map → Alias）",
+     "title": "Ant Design theming (Seed → Map → Alias)",
      "type": "standard",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "国内最常用的三层 token 算法模型",
-     "summary_lang": "zh-CN",
+     "summary": "The widely used three-layer token algorithm model",
+     "summary_lang": "en",
      "source_url": "https://ant.design/docs/react/customize-theme",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "蚂蚁集团",
+     "author": "Ant Group",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -2270,8 +2268,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "Dynamic Type 字号层级和行高规范",
-     "summary_lang": "zh-CN",
+     "summary": "Dynamic Type sizes and line-height rules",
+     "summary_lang": "en",
      "source_url": "https://developer.apple.com/design/human-interface-guidelines/typography",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -2316,8 +2314,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "语义 token 命名范例，例如 color.background.danger",
-     "summary_lang": "zh-CN",
+     "summary": "Semantic token naming examples such as color.background.danger",
+     "summary_lang": "en",
      "source_url": "https://atlassian.design/foundations/tokens/design-tokens",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -2356,14 +2354,14 @@
     },
     {
      "id": "uihub-ued-carbon-themes",
-     "title": "Carbon 主题和 token",
+     "title": "Carbon themes and tokens",
      "type": "standard",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "IBM 四套主题，靠一组语义 token 切换",
-     "summary_lang": "zh-CN",
+     "summary": "IBM’s four themes, switched through one set of semantic tokens",
+     "summary_lang": "en",
      "source_url": "https://carbondesignsystem.com/elements/themes/overview/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -2492,14 +2490,14 @@
     },
     {
      "id": "uihub-ued-google-design-md",
-     "title": "DESIGN.md 格式规范（Google）",
+     "title": "DESIGN.md format spec (Google)",
      "type": "standard",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "Google 提出的 DESIGN.md 格式：YAML 写 token，Markdown 写设计意图",
-     "summary_lang": "zh-CN",
+     "summary": "Google’s DESIGN.md format: tokens in YAML, design intent in Markdown",
+     "summary_lang": "en",
      "source_url": "https://github.com/google-labs-code/design.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md",
      "upstream_raw_url": null,
@@ -2537,14 +2535,14 @@
     },
     {
      "id": "uihub-ued-dtcg-format",
-     "title": "DTCG Format 2025.10 稳定版",
+     "title": "DTCG Format 2025.10 stable",
      "type": "standard",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "token JSON 格式正式规范，Figma、Tokens Studio、Style Dictionary 都在跟",
-     "summary_lang": "zh-CN",
+     "summary": "The formal token JSON spec followed by Figma, Tokens Studio and Style Dictionary",
+     "summary_lang": "en",
      "source_url": "https://www.designtokens.org/tr/2025.10/format/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -2589,8 +2587,8 @@
      "roles": [
       "design-system"
      ],
-     "summary": "微软的全局 token 和别名 token 体系",
-     "summary_lang": "zh-CN",
+     "summary": "Microsoft’s global and alias token system",
+     "summary_lang": "en",
      "source_url": "https://fluent2.microsoft.design/design-tokens",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -2673,16 +2671,16 @@
      "source": "prompts.chat"
     },
     {
-     "id": "uihub-ued-m3-tokens",
-     "title": "Material 3 Design Tokens",
+     "id": "uihub-ued-m3-color-roles",
+     "title": "Material 3 color roles",
      "type": "standard",
      "industry": "design",
      "roles": [
       "design-system"
      ],
-     "summary": "M3 的 token 分层（ref → sys → comp）和命名",
-     "summary_lang": "zh-CN",
-     "source_url": "https://m3.material.io/foundations/design-tokens/overview",
+     "summary": "The reference for semantic color roles such as primary, on-primary and container",
+     "summary_lang": "en",
+     "source_url": "https://m3.material.io/styles/color/roles",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
@@ -2715,7 +2713,7 @@
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-m3-tokens/",
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-m3-color-roles/",
      "source": "ui-hub"
     }
    ]

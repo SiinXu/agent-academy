@@ -96,7 +96,7 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-comprehensive-digital-marketing-strategy-for-fashion-brand.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [system-prompt] Content Creation Prompts for E-commerce and Social Platforms. 为电商平台和社交媒体（如抖音、小红书）创建高效的内容创作提示词，帮助用户有效推广产品和服务。
+- [system-prompt] Content Creation Prompts for E-commerce and Social Platforms. Write effective content-creation prompts for e-commerce and social platforms (e.g. Douyin, Xiaohongshu) to help promote products and services.
   source: https://prompts.chat/prompts/cmjgof96g0007kw04swjw2j4j_content-creation-prompts-for-e-commerce-and-social-platforms
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-content-creation-prompts-for-e-commerce-and-social-platforms.md
   license: CC0-1.0

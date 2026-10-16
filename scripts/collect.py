@@ -406,6 +406,9 @@ def collect_uihub():
         it = base(id=slug("uihub-" + r["id"], 90), title=clean(r.get("name"), 120), type=t, industry="design", roles=[role],
                   summary_source=clean(note), summary_lang="zh-CN" if zh else "en", source_url=r["url"],
                   author=r.get("source") or None, license="see source (listed via UI Hub)", source="ui-hub")
+        # English display text from UI Hub (human, never Chinese) for non-zh pages; build.mjs falls back to data/l10n/en-human.json
+        if r.get("name_en") and not re.search(r"[\u4e00-\u9fff]", r["name_en"]): it["title_en"] = clean(r["name_en"], 120)
+        if r.get("note_en") and not re.search(r"[\u4e00-\u9fff]", r["note_en"]): it["summary_en"] = clean(r["note_en"])
         it["via"] = "https://siinxu.github.io/ui-resource-hub/"
         it["facets"] = {"visual_style": vs, "component_types": ct, "pricing": r.get("pricing")}
         it["content_hash"] = sha(json.dumps(r, sort_keys=True, ensure_ascii=False)); it["course_step"] = STEP_BY_TYPE.get(t)

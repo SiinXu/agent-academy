@@ -23,20 +23,20 @@ Rules for the agent: read the steps in order. For each item open `raw` if presen
 
 Read course.md: the job, the permissions it needs, and what good output looks like.
 
-- [tutorial] 「先出设计方案再写代码」Prompt（@Voxyz_ai）. 受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md
+- [tutorial] "Design first, then code" prompt (@Voxyz_ai). Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md
   source: https://x.com/i/status/2087178102505926740
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）. 动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md
+- [tutorial] 10 UI Skills tested, plus a safety note (@Ryan95322865). Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing
   source: https://x.com/i/status/2077328569219604814
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 2026 产品设计师工作流（@dianne_alter）. 产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查
+- [tutorial] 2026 product designer workflow (@dianne_alter). Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review
   source: https://x.com/i/status/2088261777758851497
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 8pt Grid（spec.fm）. 8 点栅格间距体系的经典讲解
-  source: https://spec.fm/specifics/8-pt-grid
+- [tutorial] 6 tips from Claude Design designer Nate Parrott (@mylifcc). Chinese summary: most people use Claude Design wrong from the start
+  source: https://x.com/i/status/2104441471948496967
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -234,37 +234,37 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-01-core-development-design-bridge.md
   license: MIT
   needs_credentials: false, writes_external: false
-- [skill] 0xdesign/design-lab. 设计探索流程：访谈、出多个方案、按反馈迭代
+- [skill] 0xdesign/design-lab. A design exploration flow: interview, multiple options, iterate on feedback
   source: https://www.ui-skills.com/skills/0xdesign/design-lab
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] accessibility（Addy Osmani）. 无障碍设计
+- [skill] accessibility（Addy Osmani）. Accessibility design
   source: https://www.ui-skills.com/skills/addyosmani/accessibility
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] adapt（Paul Bakaus）. 响应式适配
+- [skill] adapt（Paul Bakaus）. Responsive adaptation
   source: https://www.ui-skills.com/skills/pbakaus/adapt
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] addyosmani/agent-skills. Addy Osmani 的工程 Skill 集，含前端性能和质量类
+- [skill] addyosmani/agent-skills. Addy Osmani’s engineering skills, including frontend performance and quality
   source: https://github.com/addyosmani/agent-skills
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] Ant Design for Agents（MCP + Skill）. 蚂蚁官方：antd mcp、antd setup --client cursor/claude/codex，一条命令装好 MCP 和 Skill
+- [skill] Ant Design for Agents（MCP + Skill）. Ant Group official: antd mcp and antd setup --client cursor/claude/codex install the MCP and skill in one command
   source: https://ant-design.antgroup.com/docs/react/for-agents
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] anthropics/canvas-design. Anthropic 官方，生成海报和视觉设计
+- [skill] anthropics/canvas-design. Anthropic's official skill for posters and visual design
   source: https://www.ui-skills.com/skills/anthropics/canvas-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] anti-slop. 反 AI slop 设计 Skill
+- [skill] anti-slop. An anti-AI-slop design skill
   source: https://github.com/miqdadbadjuber/anti-slop
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] apple-design（Emil Kowalski）. 苹果风格设计
+- [skill] apple-design（Emil Kowalski）. Apple-style design
   source: https://www.ui-skills.com/skills/emilkowalski/apple-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false

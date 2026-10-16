@@ -25,14 +25,14 @@
    "read": [
     {
      "id": "uihub-ued-x-voxyz-prompt",
-     "title": "「先出设计方案再写代码」Prompt（@Voxyz_ai）",
+     "title": "\"Design first, then code\" prompt (@Voxyz_ai)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md",
-     "summary_lang": "zh-CN",
+     "summary": "Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2087178102505926740",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -71,14 +71,14 @@
     },
     {
      "id": "uihub-ued-x-skills-security",
-     "title": "10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）",
+     "title": "10 UI Skills tested, plus a safety note (@Ryan95322865)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md",
-     "summary_lang": "zh-CN",
+     "summary": "Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2077328569219604814",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -117,14 +117,14 @@
     },
     {
      "id": "uihub-ued-x-designer-workflow",
-     "title": "2026 产品设计师工作流（@dianne_alter）",
+     "title": "2026 product designer workflow (@dianne_alter)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查",
-     "summary_lang": "zh-CN",
+     "summary": "Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2088261777758851497",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -162,20 +162,20 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-ued-8pt-grid",
-     "title": "8pt Grid（spec.fm）",
+     "id": "uihub-ued-x-claude-design-tips",
+     "title": "6 tips from Claude Design designer Nate Parrott (@mylifcc)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "8 点栅格间距体系的经典讲解",
-     "summary_lang": "zh-CN",
-     "source_url": "https://spec.fm/specifics/8-pt-grid",
+     "summary": "Chinese summary: most people use Claude Design wrong from the start",
+     "summary_lang": "en",
+     "source_url": "https://x.com/i/status/2104441471948496967",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "spec.fm",
+     "author": "@mylifcc",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -204,7 +204,7 @@
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-8pt-grid/",
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-claude-design-tips/",
      "source": "ui-hub"
     }
    ]
@@ -289,8 +289,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "深色工作室首页，一个发光主视觉压住整屏，导航极简，适合学“单一焦点”的首屏（收录自 CSS Design Awards）",
-     "summary_lang": "zh-CN",
+     "summary": "Dark studio homepage: one glowing key visual holds the screen with minimal nav — a lesson in single-focus heroes (via CSS Design Awards)",
+     "summary_lang": "en",
      "source_url": "https://www.1367studio.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -335,8 +335,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "移动端界面动效（@neropursue）",
-     "summary_lang": "zh-CN",
+     "summary": "Mobile UI motion",
+     "summary_lang": "en",
      "source_url": "https://60fps.design/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -375,14 +375,14 @@
     },
     {
      "id": "uihub-x16-aceternity-blocks-hero-sections",
-     "title": "Aceternity Hero Sections 区块",
+     "title": "Aceternity Hero Sections blocks",
      "type": "template",
      "industry": "design",
      "roles": [
       "motion-designer"
      ],
-     "summary": "完整的首屏区块合集（含免费款），有排版、截图、CTA 的成品组合，可直接对照整页比例",
-     "summary_lang": "zh-CN",
+     "summary": "A full set of hero sections (free ones included): finished combos of type, screenshots and CTAs to compare whole-page proportions",
+     "summary_lang": "en",
      "source_url": "https://ui.aceternity.com/blocks/hero-sections",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -421,14 +421,14 @@
     },
     {
      "id": "uihub-x16-aceternity-blocks-pricing-sections",
-     "title": "Aceternity Pricing Sections 区块",
+     "title": "Aceternity Pricing Sections blocks",
      "type": "template",
      "industry": "design",
      "roles": [
       "motion-designer"
      ],
-     "summary": "定价区块：月/年切换、推荐档高亮",
-     "summary_lang": "zh-CN",
+     "summary": "Pricing blocks: monthly/yearly toggle and a highlighted recommended tier",
+     "summary_lang": "en",
      "source_url": "https://ui.aceternity.com/blocks/pricing-sections",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -467,14 +467,14 @@
     },
     {
      "id": "uihub-x16-aceternity-blocks-text-animations",
-     "title": "Aceternity Text Animations 区块",
+     "title": "Aceternity Text Animations blocks",
      "type": "template",
      "industry": "design",
      "roles": [
       "motion-designer"
      ],
-     "summary": "标题文字动画区块合集",
-     "summary_lang": "zh-CN",
+     "summary": "A collection of headline text animation blocks",
+     "summary_lang": "en",
      "source_url": "https://ui.aceternity.com/blocks/text-animations",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -559,7 +559,7 @@
     },
     {
      "id": "uihub-lib-aceternity-components",
-     "title": "Aceternity UI 全部组件",
+     "title": "Aceternity UI all components",
      "type": "style-library",
      "industry": "design",
      "roles": [
@@ -611,8 +611,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "数百个免费动效组件",
-     "summary_lang": "zh-CN",
+     "summary": "Hundreds of free motion components",
+     "summary_lang": "en",
      "source_url": "https://animata.design/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -703,8 +703,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "现成的 CSS 动画类，加个 class 就能动；许可以原仓库为准，本站只放链接",
-     "summary_lang": "zh-CN",
+     "summary": "Ready-made CSS animation classes: add a class and it moves. License per the repo; link only here",
+     "summary_lang": "en",
      "source_url": "https://animate.style/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -749,8 +749,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "207 个动画 React 图标",
-     "summary_lang": "zh-CN",
+     "summary": "207 animated React icons",
+     "summary_lang": "en",
      "source_url": "https://animated-icons-nu.vercel.app",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -795,8 +795,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "轻量 JavaScript 动画库",
-     "summary_lang": "zh-CN",
+     "summary": "A lightweight JavaScript animation library",
+     "summary_lang": "en",
      "source_url": "https://animejs.com",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -881,14 +881,14 @@
     },
     {
      "id": "uihub-x16-framer-asher-vale",
-     "title": "Asher Vale（Framer 模板）",
+     "title": "Asher Vale (Framer template)",
      "type": "style-library",
      "industry": "design",
      "roles": [
       "motion-designer"
      ],
-     "summary": "Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）",
-     "summary_lang": "zh-CN",
+     "summary": "A full-site template from the official Framer marketplace, previewable online; good for comparing whole-page rhythm (mostly paid, links to the original)",
+     "summary_lang": "en",
      "source_url": "https://www.framer.com/marketplace/templates/asher-vale/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -933,8 +933,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "一行代码给列表加进出场动画",
-     "summary_lang": "zh-CN",
+     "summary": "Add enter/leave animations to lists with one line of code",
+     "summary_lang": "en",
      "source_url": "https://auto-animate.formkit.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -979,8 +979,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "Awwwards 每日最佳网站，评审打分，适合找高完成度整站",
-     "summary_lang": "zh-CN",
+     "summary": "Awwwards Sites of the Day, jury-scored; good for polished full sites",
+     "summary_lang": "en",
      "source_url": "https://www.awwwards.com/websites/sites_of_the_day/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1025,8 +1025,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "漂亮的 React 组件",
-     "summary_lang": "zh-CN",
+     "summary": "Good-looking React components",
+     "summary_lang": "en",
      "source_url": "https://beui.dev",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1071,8 +1071,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "米色底 + 衬线斜体混排大标题 + 手绘线条，动态设计工作室的温柔首屏（收录自 Best Website Gallery）",
-     "summary_lang": "zh-CN",
+     "summary": "Beige with mixed serif italic headlines and hand-drawn lines: a gentle hero for a motion design studio (via Best Website Gallery)",
+     "summary_lang": "en",
      "source_url": "https://www.buffmotion.com/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1117,8 +1117,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "SVG 环形加载动画",
-     "summary_lang": "zh-CN",
+     "summary": "SVG circular loaders",
+     "summary_lang": "en",
      "source_url": "https://circleloaders.dominikakissi.com",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1163,8 +1163,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "前端特效教程和 Demo 老牌站",
-     "summary_lang": "zh-CN",
+     "summary": "A long-running site of frontend effect tutorials and demos",
+     "summary_lang": "en",
      "source_url": "https://tympanus.net/codrops/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1203,14 +1203,14 @@
     },
     {
      "id": "uihub-x16-framer-conicorn",
-     "title": "Conicorn（Framer 模板）",
+     "title": "Conicorn (Framer template)",
      "type": "style-library",
      "industry": "design",
      "roles": [
       "motion-designer"
      ],
-     "summary": "Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）",
-     "summary_lang": "zh-CN",
+     "summary": "A full-site template from the official Framer marketplace, previewable online; good for comparing whole-page rhythm (mostly paid, links to the original)",
+     "summary_lang": "en",
      "source_url": "https://www.framer.com/marketplace/templates/conicorn/",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1988,8 +1988,8 @@
      "roles": [
       "motion-designer"
      ],
-     "summary": "无代码做 WebGL 特效",
-     "summary_lang": "zh-CN",
+     "summary": "Build WebGL effects without code",
+     "summary_lang": "en",
      "source_url": "https://www.unicorn.studio/",
      "raw_url": null,
      "upstream_raw_url": null,

@@ -25,14 +25,14 @@
    "read": [
     {
      "id": "uihub-ued-x-voxyz-prompt",
-     "title": "「先出设计方案再写代码」Prompt（@Voxyz_ai）",
+     "title": "\"Design first, then code\" prompt (@Voxyz_ai)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md",
-     "summary_lang": "zh-CN",
+     "summary": "Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2087178102505926740",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -71,14 +71,14 @@
     },
     {
      "id": "uihub-ued-x-skills-security",
-     "title": "10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）",
+     "title": "10 UI Skills tested, plus a safety note (@Ryan95322865)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md",
-     "summary_lang": "zh-CN",
+     "summary": "Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2077328569219604814",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -117,14 +117,14 @@
     },
     {
      "id": "uihub-ued-x-designer-workflow",
-     "title": "2026 产品设计师工作流（@dianne_alter）",
+     "title": "2026 product designer workflow (@dianne_alter)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查",
-     "summary_lang": "zh-CN",
+     "summary": "Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review",
+     "summary_lang": "en",
      "source_url": "https://x.com/i/status/2088261777758851497",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -162,20 +162,20 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-ued-8pt-grid",
-     "title": "8pt Grid（spec.fm）",
+     "id": "uihub-ued-x-claude-design-tips",
+     "title": "6 tips from Claude Design designer Nate Parrott (@mylifcc)",
      "type": "tutorial",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "8 点栅格间距体系的经典讲解",
-     "summary_lang": "zh-CN",
-     "source_url": "https://spec.fm/specifics/8-pt-grid",
+     "summary": "Chinese summary: most people use Claude Design wrong from the start",
+     "summary_lang": "en",
+     "source_url": "https://x.com/i/status/2104441471948496967",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "spec.fm",
+     "author": "@mylifcc",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -204,7 +204,7 @@
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-8pt-grid/",
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-x-claude-design-tips/",
      "source": "ui-hub"
     }
    ]
@@ -1500,8 +1500,8 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "设计探索流程：访谈、出多个方案、按反馈迭代",
-     "summary_lang": "zh-CN",
+     "summary": "A design exploration flow: interview, multiple options, iterate on feedback",
+     "summary_lang": "en",
      "source_url": "https://www.ui-skills.com/skills/0xdesign/design-lab",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1546,8 +1546,8 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "无障碍设计",
-     "summary_lang": "zh-CN",
+     "summary": "Accessibility design",
+     "summary_lang": "en",
      "source_url": "https://www.ui-skills.com/skills/addyosmani/accessibility",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1592,8 +1592,8 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "响应式适配",
-     "summary_lang": "zh-CN",
+     "summary": "Responsive adaptation",
+     "summary_lang": "en",
      "source_url": "https://www.ui-skills.com/skills/pbakaus/adapt",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1638,8 +1638,8 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Addy Osmani 的工程 Skill 集，含前端性能和质量类",
-     "summary_lang": "zh-CN",
+     "summary": "Addy Osmani’s engineering skills, including frontend performance and quality",
+     "summary_lang": "en",
      "source_url": "https://github.com/addyosmani/agent-skills",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md",
      "upstream_raw_url": null,
@@ -1683,13 +1683,13 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "蚂蚁官方：antd mcp、antd setup --client cursor/claude/codex，一条命令装好 MCP 和 Skill",
-     "summary_lang": "zh-CN",
+     "summary": "Ant Group official: antd mcp and antd setup --client cursor/claude/codex install the MCP and skill in one command",
+     "summary_lang": "en",
      "source_url": "https://ant-design.antgroup.com/docs/react/for-agents",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "蚂蚁集团",
+     "author": "Ant Group",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -1729,8 +1729,8 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Anthropic 官方，生成海报和视觉设计",
-     "summary_lang": "zh-CN",
+     "summary": "Anthropic's official skill for posters and visual design",
+     "summary_lang": "en",
      "source_url": "https://www.ui-skills.com/skills/anthropics/canvas-design",
      "raw_url": null,
      "upstream_raw_url": null,
@@ -1775,8 +1775,8 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "反 AI slop 设计 Skill",
-     "summary_lang": "zh-CN",
+     "summary": "An anti-AI-slop design skill",
+     "summary_lang": "en",
      "source_url": "https://github.com/miqdadbadjuber/anti-slop",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md",
      "upstream_raw_url": null,
@@ -1820,8 +1820,8 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "苹果风格设计",
-     "summary_lang": "zh-CN",
+     "summary": "Apple-style design",
+     "summary_lang": "en",
      "source_url": "https://www.ui-skills.com/skills/emilkowalski/apple-design",
      "raw_url": null,
      "upstream_raw_url": null,

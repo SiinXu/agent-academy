@@ -23,20 +23,20 @@ Rules for the agent: read the steps in order. For each item open `raw` if presen
 
 Read course.md: the job, the permissions it needs, and what good output looks like.
 
-- [tutorial] 「先出设计方案再写代码」Prompt（@Voxyz_ai）. 受众/目标 → 4–6 个色 token → 字体 → ASCII 线框 → 1 个标志元素；完成后桌面 + 手机截图对照 DESIGN.md
+- [tutorial] "Design first, then code" prompt (@Voxyz_ai). Audience/goal → 4–6 color tokens → type → ASCII wireframe → one signature element; then check desktop + mobile screenshots against DESIGN.md
   source: https://x.com/i/status/2087178102505926740
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 10 个 UI Skills 实测 + 安全提醒（@Ryan95322865）. 动效控制在 300ms 内；约三分之一 Skills 有安全问题，装前先读 SKILL.md
+- [tutorial] 10 UI Skills tested, plus a safety note (@Ryan95322865). Keep motion under 300ms; about a third of skills have security issues — read SKILL.md before installing
   source: https://x.com/i/status/2077328569219604814
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 2026 产品设计师工作流（@dianne_alter）. 产品上下文 → Mobbin + Paper / Claude Code 原型 → Figma 组件进 Storybook → Agent 审查
+- [tutorial] 2026 product designer workflow (@dianne_alter). Product context → Mobbin + Paper/Claude Code prototypes → Figma components into Storybook → agent review
   source: https://x.com/i/status/2088261777758851497
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] 8pt Grid（spec.fm）. 8 点栅格间距体系的经典讲解
-  source: https://spec.fm/specifics/8-pt-grid
+- [tutorial] 6 tips from Claude Design designer Nate Parrott (@mylifcc). Chinese summary: most people use Claude Design wrong from the start
+  source: https://x.com/i/status/2104441471948496967
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
