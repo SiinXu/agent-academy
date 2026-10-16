@@ -2,7 +2,7 @@
  "id": "customer-service/ecommerce-support",
  "industry": "customer-service",
  "role": "ecommerce-support",
- "updated_at": "2026-10-15T10:41:56Z",
+ "updated_at": "2026-10-16T10:29:38Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -250,6 +250,76 @@
      "source": "seed"
     },
     {
+     "id": "botsdots-claims-finder",
+     "title": "Claims Finder",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "Digs through your inbox receipts for refunds, settlements and unclaimed money",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/claims-finder",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "DanBooneFerden",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/claims-finder",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "DanBooneFerden",
+       "firstSeen": "2026-10-14",
+       "integrations": [],
+       "name": "Claims Finder",
+       "official": false,
+       "page": "https://botsdots.site/templates/claims-finder",
+       "risk": "medium",
+       "summary": "Digs through your inbox receipts for refunds, settlements and unclaimed money"
+      }
+     },
+     "install": "https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-10-14"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-claims-finder/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-customer-care",
      "title": "Customer Care",
      "type": "template",
@@ -388,73 +458,73 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-claims-finder",
-     "title": "Claims Finder",
+     "id": "botsdots-ledger-eiic",
+     "title": "Ledger",
      "type": "template",
      "industry": "customer-service",
      "roles": [
       "ecommerce-support"
      ],
-     "summary": "Digs through your inbox receipts for refunds, settlements and unclaimed money",
+     "summary": "A read-only personal finance watchdog that watches your bank, cards, and bills email, flags odd charges and upcoming bills, chases refunds.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/claims-finder",
+     "source_url": "https://botsdots.site/templates/ledger-eiic",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "DanBooneFerden",
+     "author": "arouch_serg",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "CC-BY-4.0",
-      "url": "https://botsdots.site/templates/claims-finder",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/ledger-eiic",
       "record": {
        "access": [
-        "inbox"
+        "inbox",
+        "money"
        ],
-       "add": "https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR",
+       "add": "https://x.ai/bot/eIicxWVI6dT6IOHrUDO8h",
        "cadence": "on-demand",
        "catalog_sources": [
         "kydlikebtc/awesome-grokbot",
         "majiayu000/awesome-grok-bot",
         "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot.dev (CC BY 4.0)",
         "GrokBot HQ (CC BY 4.0)"
        ],
        "category": "inbox-calendar",
-       "creator": "DanBooneFerden",
-       "firstSeen": "2026-10-14",
+       "creator": "arouch_serg",
+       "firstSeen": "2026-10-15",
        "integrations": [],
-       "name": "Claims Finder",
+       "name": "Ledger",
        "official": false,
-       "page": "https://botsdots.site/templates/claims-finder",
-       "risk": "medium",
-       "summary": "Digs through your inbox receipts for refunds, settlements and unclaimed money"
+       "page": "https://botsdots.site/templates/ledger-eiic",
+       "risk": "high",
+       "summary": "A read-only personal finance watchdog that watches your bank, cards, and bills email, flags odd charges and upcoming bills, chases refunds."
       }
      },
-     "install": "https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR",
+     "install": "https://x.ai/bot/eIicxWVI6dT6IOHrUDO8h",
      "security": {
       "audited": false,
       "executes_code": false,
       "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "medium",
+      "writes_external": true,
+      "risk_label": "high",
       "integrations": []
      },
      "metrics": {
       "score": 11,
-      "first_seen_catalog": "2026-10-14"
+      "first_seen_catalog": "2026-10-15"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-claims-finder/",
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-ledger-eiic/",
      "source": "botsdots"
     },
     {
@@ -522,6 +592,75 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-noshipsherlock/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-money-finder-xjfl",
+     "title": "Money Finder",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "Finds money you're owed, like class action settlements, FTC refunds, lost 401(k)s, and forgotten balances in your email, and files honest claims.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/money-finder-xjfl",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Paste_Values",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/money-finder-xjfl",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "Paste_Values",
+       "firstSeen": "2026-10-15",
+       "integrations": [],
+       "name": "Money Finder",
+       "official": false,
+       "page": "https://botsdots.site/templates/money-finder-xjfl",
+       "risk": "medium",
+       "summary": "Finds money you're owed, like class action settlements, FTC refunds, lost 401(k)s, and forgotten balances in your email, and files honest claims."
+      }
+     },
+     "install": "https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 10,
+      "first_seen_catalog": "2026-10-15"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-money-finder-xjfl/",
      "source": "botsdots"
     }
    ]
@@ -650,7 +789,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 10452,
+      "repo_stars": 10454,
       "repo_pushed_at": "2026-10-14"
      },
      "course_step": "3-learn-rules",
@@ -695,8 +834,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2239,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 2242,
+      "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -740,8 +879,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2239,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 2242,
+      "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",

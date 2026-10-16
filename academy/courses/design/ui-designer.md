@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,24 +94,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 316 items
-- motion: 60 items
-- enterprise: 37 items
-- dark-tech: 27 items
-- editorial: 25 items
-- 3d: 21 items
-- gradient: 18 items
-- playful: 17 items
+- minimal: 458 items
+- editorial: 284 items
+- dark-tech: 107 items
+- motion: 103 items
+- playful: 81 items
+- enterprise: 41 items
+- 3d: 33 items
+- retro: 29 items
+- swiss: 28 items
+- gradient: 25 items
 - soft: 15 items
-- swiss: 13 items
 - apple: 12 items
+- brutalist: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
-- brutalist: 6 items
 - glass: 5 items
 - fluent: 3 items
-- retro: 2 items
 - industrial: 1 items
 - neumorphism: 1 items
 
@@ -136,16 +136,16 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/VHMdjIGjGpgDSJR7dW6Gz
   needs_credentials: true, writes_external: false
-- [template] Idle Tees Designer. Visual/UX designer for idle/incremental games. Owns drones look, landscape/background, VFX, UI polish, and readable hierarchy while protecting
-  source: https://botsdots.site/templates/idle-tees-designer
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/ogAh6MiV-0HAhp9wbHMTS
-  needs_credentials: false, writes_external: true
 - [template] Music Video. Generates a track from your lyrics, syncs every line to the beat, and renders kinetic-typography visuals into a draft music video
   source: https://botsdots.site/templates/music-video
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/1Et06G_Q820_RNat-_0tQ
   needs_credentials: false, writes_external: false
+- [template] Idle Tees Designer. Visual/UX designer for idle/incremental games. Owns drones look, landscape/background, VFX, UI polish, and readable hierarchy while protecting
+  source: https://botsdots.site/templates/idle-tees-designer
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/ogAh6MiV-0HAhp9wbHMTS
+  needs_credentials: false, writes_external: true
 - [template] Spruce. Send a photo of a room to clean out or redecorate and get a concept after mockup plus easy step-by-step instructions
   source: https://botsdots.site/templates/spruce
   license: template belongs to its creator (catalog CC0)
@@ -156,12 +156,24 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dYpPe1PCZv2WJDVTYDwhc
   needs_credentials: true, writes_external: false
+- [style-library] /zeroz（ゼロズ）公式サイト. 白底时尚摄影 + 超大斜杠字标 /zeroz，日系品牌的留白与锐利（收录自 Awwwards）
+  source: https://otsuka-air.jp/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 21 Hours on the Moon. 黑底月面渲染 + 银色大字 MOON，太空主题的克制动效（收录自 Awwwards）
+  source: https://www.21hrs.space/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] 21st.dev. 社区组件市场
   source: https://21st.dev/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [style-library] 21st.dev AI 聊天组件合集. 248 个以上社区组件
   source: https://21st.dev/community/components/s/ai-chat
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 2xA. 黑底手写体标语，像在纸上写字的“手绘线条”气质（收录自 Awwwards）
+  source: https://2xa.studio/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [style-library] 404s. 专收 404 页面
@@ -172,44 +184,32 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://8bitcn.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [style-library] A Journal On How to Wow People. 黑底翻开的画册 3D + 衬线小字，期刊站的展陈感（收录自 Minimal Gallery）
+  source: https://www.ajournalon.co/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] A Love Story. 红底 + 白色超粗大字 A LOVE STORY，品牌代理的海报感（收录自 Lapa Ninja）
+  source: https://alovehatestory.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] A/B Test Design. 真实 A/B 测试前后对比，学「哪个版本赢了」
   source: https://abtest.design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] agentic-design.ai. 智能体设计模式
-  source: https://agentic-design.ai/
+- [style-library] Aardvark Book Club. 粉黄撞色 + 粗衬线大字 + 一本书的插画，读书会订阅站的俏皮版式（收录自 Awwwards）
+  source: https://aardvarkbookclub.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] AI Elements（Vercel）. Vercel 官方 AI 组件
-  source: https://ai-sdk.dev/elements
+- [style-library] Aaron Sananes. 白底黑白故障人像 + 分栏大字 Design Engineer / Product Designer，作品集的黑白冲击（收录自 One Page Love）
+  source: https://www.sananes.co/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] aicss. AI 智能体聊天组件（@tranmautritam）
-  source: https://aicss.dev
+- [style-library] Abbotsford Convent. 米色底 + 衬线文字 + 建筑线描插画，艺术社区站的纸感（收录自 Httpster）
+  source: https://abbotsfordconvent.com.au/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] aiverse. 200 多个海外 AI 产品交互案例
-  source: https://www.aiverse.design/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Angular Material. Angular 官方 Material 组件
-  source: https://material.angular.dev/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Ant Design. 蚂蚁中后台组件库，60+ 组件，表格表单极强
-  source: https://ant.design/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Ant Design Mobile. 蚂蚁移动端组件库
-  source: https://mobile.ant.design/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Ant Design X（蚂蚁）. 专门做 AI 界面
-  source: https://x.ant.design/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] AntV G2. 蚂蚁可视化语法，几十种图表
-  source: https://g2.antv.antgroup.com/
+- [template] Aceternity Agenforce Marketing Template. AI Agent 营销站模板（付费）
+  source: https://ui.aceternity.com/templates/agenforce-marketing-template
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

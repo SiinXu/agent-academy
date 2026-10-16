@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -255,6 +255,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-email-gtm-reachout-a.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [mcp] SEO Skill. Free Google Search Console MCP: your real GSC, Google Analytics and keyword data for AI agents.
+  source: https://github.com/iannuttall/seo
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-seoskill-seo.md
+  license: Apache-2.0
+  install: npx -y seo
+  needs_credentials: true, writes_external: false
 - [mcp] DispatchSEO. Open-source SEO manager for coding agents: keyword research, content PRs, rank + Search Console.
   source: https://github.com/NeoZi12/dispatchseo
   license: AGPL-3.0
@@ -324,12 +330,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y seo-webmaster-mcp
   needs_credentials: false, writes_external: false
-- [mcp] VibeSEO. SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.
-  source: https://github.com/sultanlive/vibeseo-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-vibeseo-vibeseo.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.vibeseo.dev/mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -53,6 +53,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s634cb1edf26493e86be2
   needs_credentials: false, writes_external: true
+- [template] Small Business Social Media Manager. Your own social media manager for a small business. It writes on-brand captions, makes Instagram and Facebook graphics from your logo and photos.
+  source: https://botsdots.site/templates/small-business-social-media-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/wDVFJmSK67btMnZBwcgic
+  needs_credentials: true, writes_external: false
 - [template] Social Media Tracker. Tracks social posts you care about and returns a short digest
   source: https://botsdots.site/templates/social-media-tracker
   license: template belongs to its creator (catalog CC0)

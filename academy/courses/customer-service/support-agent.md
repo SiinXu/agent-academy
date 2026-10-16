@@ -1,8 +1,8 @@
 ---
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -79,6 +79,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/1PSI6qQln1PowM5reA_8L
   needs_credentials: true, writes_external: false
+- [template] XChat 고객센터 봇. 24/7 customer support bot that answers X Chat inquiries from the docs and URLs you choose, and can take a voice call when the customer wants one
+  source: https://botsdots.site/templates/xchat-ec6g
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Ec6g2olzVFKq60cC-Jy5h
+  needs_credentials: false, writes_external: false
 - [template] Customer Support Idiot Buffer. Calls customer support for you via a voice bridge and steers mid-call from chat
   source: https://botsdots.site/templates/customer-support-idiot-buffer
   license: template belongs to its creator (catalog CC0)
@@ -99,11 +104,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/sIoeE87fILU5CzptPF29K
   needs_credentials: false, writes_external: false
-- [template] XChat 고객센터 봇. 24/7 customer support bot that answers X Chat inquiries from the docs and URLs you choose, and can take a voice call when the customer wants one
-  source: https://botsdots.site/templates/xchat-ec6g
+- [template] HubSpot Helper. A HubSpot help desk that answers CRM, workflow, reporting and API questions with numbered steps checked against live HubSpot docs.
+  source: https://botsdots.site/templates/hubspot-helper
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/Ec6g2olzVFKq60cC-Jy5h
-  needs_credentials: false, writes_external: false
+  install: https://x.ai/bot/YELCIJ_5UrbwjP-4pm_Fx
+  needs_credentials: true, writes_external: false
 - [template] Google Business Profile Manager. You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,
   source: https://botsdots.site/templates/google-business-profile-manager
   license: template belongs to its creator (catalog CC0)
@@ -114,16 +119,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6
   needs_credentials: false, writes_external: false
-- [template] Support Reply Drafter. Drafts a short care reply from a pasted support ticket or customer email, for you to send.
-  source: https://botsdots.site/templates/support-reply-drafter
+- [template] Review Reply Drafter. Draft replies to public reviews from paste.
+  source: https://botsdots.site/templates/review-reply-drafter
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO
+  install: https://x.ai/bot/RFZWV8682hykNKF8UJf44
   needs_credentials: false, writes_external: false
-- [template] HubSpot Helper. A HubSpot help desk that answers CRM, workflow, reporting and API questions with numbered steps checked against live HubSpot docs.
-  source: https://botsdots.site/templates/hubspot-helper
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/YELCIJ_5UrbwjP-4pm_Fx
-  needs_credentials: true, writes_external: false
 
 ## Step 3: Learn the rules
 
@@ -216,12 +216,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx mcparmory-shopify-admin
   needs_credentials: false, writes_external: true
-- [mcp] io.github.MuhammadTalhaMT/intercom. Relays messages between two Claude Code sessions on different machines using the Channels API
-  source: https://github.com/MuhammadTalhaMT/claude-intercom
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md
-  license: MIT
-  install: npx -y claude-intercom
-  needs_credentials: true, writes_external: false
 - [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
   source: https://github.com/fruggr/zendesk-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
@@ -251,10 +245,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y shopify-multi-store-mcp-server
   needs_credentials: false, writes_external: true
-- [mcp] io.github.nazariinalyvaikobs/shopify-store-builder-mcp. MCP server for building Shopify stores via the Admin GraphQL API: themes, pages, and navigation
-  source: https://github.com/nazarii-nalyvaiko-bs/EasyCrm-MCP
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y shopify-store-builder-mcp
+- [mcp] Jitbit Helpdesk. MCP server for Jitbit Helpdesk: search, list, read, and reply to support tickets from AI assistants.
+  source: https://github.com/jitbit/jitbit-helpdesk-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-jitbit-jitbit-helpdesk.md
+  license: MIT
+  install: npx -y jitbit-helpdesk-mcp
+  needs_credentials: true, writes_external: true
+- [mcp] io.github.miller-joe/shopify-mcp. MCP server for Shopify Admin API with a ComfyUI bridge for AI product image generation.
+  source: https://github.com/miller-joe/shopify-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miller-joe-shopify-mcp.md
+  license: MIT
+  install: npx -y @miller-joe/shopify-mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

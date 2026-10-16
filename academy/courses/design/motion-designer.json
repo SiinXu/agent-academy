@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-15T10:41:56Z",
+ "updated_at": "2026-10-16T10:29:38Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -37,7 +37,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@Voxyz_ai",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -61,7 +61,7 @@
      "course_step": "1-enrol",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -83,7 +83,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@Ryan95322865",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -107,7 +107,7 @@
      "course_step": "1-enrol",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -129,7 +129,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@dianne_alter",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -153,7 +153,7 @@
      "course_step": "1-enrol",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -175,7 +175,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "spec.fm",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -199,7 +199,7 @@
      "course_step": "1-enrol",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -282,6 +282,52 @@
      "source": "botsdots"
     },
     {
+     "id": "uihub-w16-1367studio-com",
+     "title": "1367 Studio",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "深色工作室首页，一个发光主视觉压住整屏，导航极简，适合学“单一焦点”的首屏（收录自 CSS Design Awards）",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.1367studio.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "CSS Design Awards",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-w16-1367studio-com/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-60fps-design",
      "title": "60fps",
      "type": "style-library",
@@ -295,7 +341,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@neropursue",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -319,12 +365,150 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-60fps-design/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-x16-aceternity-blocks-hero-sections",
+     "title": "Aceternity Hero Sections 区块",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "完整的首屏区块合集（含免费款），有排版、截图、CTA 的成品组合，可直接对照整页比例",
+     "summary_lang": "zh-CN",
+     "source_url": "https://ui.aceternity.com/blocks/hero-sections",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Aceternity UI",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-x16-aceternity-blocks-hero-sections/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-x16-aceternity-blocks-pricing-sections",
+     "title": "Aceternity Pricing Sections 区块",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "定价区块：月/年切换、推荐档高亮",
+     "summary_lang": "zh-CN",
+     "source_url": "https://ui.aceternity.com/blocks/pricing-sections",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Aceternity UI",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-x16-aceternity-blocks-pricing-sections/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-x16-aceternity-blocks-text-animations",
+     "title": "Aceternity Text Animations 区块",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "标题文字动画区块合集",
+     "summary_lang": "zh-CN",
+     "source_url": "https://ui.aceternity.com/blocks/text-animations",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Aceternity UI",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-x16-aceternity-blocks-text-animations/",
      "source": "ui-hub"
     },
     {
@@ -571,7 +755,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@csaba_kissi",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -595,7 +779,7 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -617,7 +801,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@klosexf",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -641,12 +825,104 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-animejs/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-gh-kuratlielia-arc-library",
+     "title": "arc-library",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "New GitHub UI repo: Arc Library: free, open source React components with calm motion. Copy the code or install with the shadcn CLI. (★786, MIT, kuratlielia/arc-library)",
+     "summary_lang": "en",
+     "source_url": "https://uiarc.dev",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "GitHub",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-gh-kuratlielia-arc-library/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-x16-framer-asher-vale",
+     "title": "Asher Vale（Framer 模板）",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.framer.com/marketplace/templates/asher-vale/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Framer Marketplace",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-x16-framer-asher-vale/",
      "source": "ui-hub"
     },
     {
@@ -696,6 +972,52 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-x16-awwwards-sotd",
+     "title": "Awwwards · Sites of the Day",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Awwwards 每日最佳网站，评审打分，适合找高完成度整站",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.awwwards.com/websites/sites_of_the_day/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "awwwards.com",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 0
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-x16-awwwards-sotd/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-beui-dev",
      "title": "BeUI",
      "type": "style-library",
@@ -709,7 +1031,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@lumxss",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -733,12 +1055,58 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-beui-dev/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-w16-buffmotion-com",
+     "title": "Buff Motion",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "米色底 + 衬线斜体混排大标题 + 手绘线条，动态设计工作室的温柔首屏（收录自 Best Website Gallery）",
+     "summary_lang": "zh-CN",
+     "source_url": "https://www.buffmotion.com/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Best Website Gallery",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-w16-buffmotion-com/",
      "source": "ui-hub"
     },
     {
@@ -755,7 +1123,7 @@
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "@csaba_kissi",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -779,7 +1147,7 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -834,66 +1202,20 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-www-cult-ui-com",
-     "title": "Cult UI",
+     "id": "uihub-x16-framer-conicorn",
+     "title": "Conicorn（Framer 模板）",
      "type": "style-library",
      "industry": "design",
      "roles": [
       "motion-designer"
      ],
-     "summary": "",
-     "summary_lang": "en",
-     "source_url": "https://www.cult-ui.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-cult-ui-com/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-lib-www-eldoraui-site",
-     "title": "Eldora UI",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "动效组件与模板，shadcn 风格",
+     "summary": "Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）",
      "summary_lang": "zh-CN",
-     "source_url": "https://www.eldoraui.site/",
+     "source_url": "https://www.framer.com/marketplace/templates/conicorn/",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": null,
+     "author": "Framer Marketplace",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -916,335 +1238,13 @@
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-16T10:29:38Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-www-eldoraui-site/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-lib-www-embla-carousel-com",
-     "title": "Embla Carousel",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "轻量轮播，手感顺滑",
-     "summary_lang": "zh-CN",
-     "source_url": "https://www.embla-carousel.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-www-embla-carousel-com/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-lib-gsap-com",
-     "title": "GSAP",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "专业级 JS 动画平台，免费使用但为自有许可（非 MIT），本站只放链接",
-     "summary_lang": "zh-CN",
-     "source_url": "https://gsap.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-gsap-com/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-www-hover-dev",
-     "title": "Hover.dev",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "偏交互感的现成组件和模板",
-     "summary_lang": "zh-CN",
-     "source_url": "https://www.hover.dev/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-hover-dev/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-lib-hover-components",
-     "title": "Hover.dev 组件",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Hover.dev animated components: buttons, navs, cards, heroes; some free.",
-     "summary_lang": "en",
-     "source_url": "https://www.hover.dev/components",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-hover-components/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-lib-inspira-ui",
-     "title": "Inspira UI",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Vue/Nuxt animated components in the spirit of Aceternity and Magic UI. Free and open source.",
-     "summary_lang": "en",
-     "source_url": "https://inspira-ui.com",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-lib-inspira-ui/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-gh-ddoemonn-interior",
-     "title": "interior",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "New GitHub UI repo: micro-interactions for react, built for the half-second after a click (★958, MIT, ddoemonn/interior)",
-     "summary_lang": "en",
-     "source_url": "https://interior.dev",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-gh-ddoemonn-interior/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-kinetics",
-     "title": "Kinetics",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "150+ 动效，附 React 代码和可喂 AI 的提示词",
-     "summary_lang": "zh-CN",
-     "source_url": "https://kinetics.colorion.co",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-kinetics/",
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-x16-framer-conicorn/",
      "source": "ui-hub"
     }
    ]
@@ -1329,7 +1329,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181264,
+      "repo_stars": 181487,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1374,7 +1374,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1419,7 +1419,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1464,7 +1464,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1509,7 +1509,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1554,7 +1554,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1599,7 +1599,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1644,7 +1644,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1689,8 +1689,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40824,
-      "repo_pushed_at": "2026-10-14"
+      "repo_stars": 40891,
+      "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1734,8 +1734,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40824,
-      "repo_pushed_at": "2026-10-14"
+      "repo_stars": 40891,
+      "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2230,7 +2230,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136030,
+      "repo_stars": 136402,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2275,7 +2275,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136030,
+      "repo_stars": 136402,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2320,7 +2320,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46365,
+      "repo_stars": 46586,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2365,8 +2365,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40824,
-      "repo_pushed_at": "2026-10-14"
+      "repo_stars": 40891,
+      "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2410,8 +2410,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40824,
-      "repo_pushed_at": "2026-10-14"
+      "repo_stars": 40891,
+      "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2455,13 +2455,13 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40824,
-      "repo_pushed_at": "2026-10-14"
+      "repo_stars": 40891,
+      "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -2500,8 +2500,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40824,
-      "repo_pushed_at": "2026-10-14"
+      "repo_stars": 40891,
+      "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2545,8 +2545,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29734,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 29839,
+      "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2590,8 +2590,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29734,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 29839,
+      "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2635,8 +2635,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29734,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 29839,
+      "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2680,7 +2680,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25736,
+      "repo_stars": 25755,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

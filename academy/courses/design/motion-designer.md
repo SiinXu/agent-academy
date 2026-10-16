@@ -1,8 +1,8 @@
 ---
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,24 +46,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 316 items
-- motion: 60 items
-- enterprise: 37 items
-- dark-tech: 27 items
-- editorial: 25 items
-- 3d: 21 items
-- gradient: 18 items
-- playful: 17 items
+- minimal: 458 items
+- editorial: 284 items
+- dark-tech: 107 items
+- motion: 103 items
+- playful: 81 items
+- enterprise: 41 items
+- 3d: 33 items
+- retro: 29 items
+- swiss: 28 items
+- gradient: 25 items
 - soft: 15 items
-- swiss: 13 items
 - apple: 12 items
+- brutalist: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
-- brutalist: 6 items
 - glass: 5 items
 - fluent: 3 items
-- retro: 2 items
 - industrial: 1 items
 - neumorphism: 1 items
 
@@ -74,8 +74,24 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/pXNvc_U2cGyZmheYrUuF_
   needs_credentials: true, writes_external: false
+- [style-library] 1367 Studio. 深色工作室首页，一个发光主视觉压住整屏，导航极简，适合学“单一焦点”的首屏（收录自 CSS Design Awards）
+  source: https://www.1367studio.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] 60fps. 移动端界面动效（@neropursue）
   source: https://60fps.design/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [template] Aceternity Hero Sections 区块. 完整的首屏区块合集（含免费款），有排版、截图、CTA 的成品组合，可直接对照整页比例
+  source: https://ui.aceternity.com/blocks/hero-sections
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [template] Aceternity Pricing Sections 区块. 定价区块：月/年切换、推荐档高亮
+  source: https://ui.aceternity.com/blocks/pricing-sections
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [template] Aceternity Text Animations 区块. 标题文字动画区块合集
+  source: https://ui.aceternity.com/blocks/text-animations
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [style-library] Aceternity UI. 
@@ -106,12 +122,28 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://animejs.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [style-library] arc-library. New GitHub UI repo: Arc Library: free, open source React components with calm motion. Copy the code or install with the shadcn CLI. (★786, MIT, kuratlielia/arc-library)
+  source: https://uiarc.dev
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] Asher Vale（Framer 模板）. Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）
+  source: https://www.framer.com/marketplace/templates/asher-vale/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] AutoAnimate. 一行代码给列表加进出场动画
   source: https://auto-animate.formkit.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [style-library] Awwwards · Sites of the Day. Awwwards 每日最佳网站，评审打分，适合找高完成度整站
+  source: https://www.awwwards.com/websites/sites_of_the_day/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] BeUI. 漂亮的 React 组件
   source: https://beui.dev
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] Buff Motion. 米色底 + 衬线斜体混排大标题 + 手绘线条，动态设计工作室的温柔首屏（收录自 Best Website Gallery）
+  source: https://www.buffmotion.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [style-library] Circle Loaders. SVG 环形加载动画
@@ -122,40 +154,8 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://tympanus.net/codrops/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Cult UI. 
-  source: https://www.cult-ui.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Eldora UI. 动效组件与模板，shadcn 风格
-  source: https://www.eldoraui.site/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Embla Carousel. 轻量轮播，手感顺滑
-  source: https://www.embla-carousel.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] GSAP. 专业级 JS 动画平台，免费使用但为自有许可（非 MIT），本站只放链接
-  source: https://gsap.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Hover.dev. 偏交互感的现成组件和模板
-  source: https://www.hover.dev/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Hover.dev 组件. Hover.dev animated components: buttons, navs, cards, heroes; some free.
-  source: https://www.hover.dev/components
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Inspira UI. Vue/Nuxt animated components in the spirit of Aceternity and Magic UI. Free and open source.
-  source: https://inspira-ui.com
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] interior. New GitHub UI repo: micro-interactions for react, built for the half-second after a click (★958, MIT, ddoemonn/interior)
-  source: https://interior.dev
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Kinetics. 150+ 动效，附 React 代码和可喂 AI 的提示词
-  source: https://kinetics.colorion.co
+- [style-library] Conicorn（Framer 模板）. Framer 官方模板市场的整站模板，可在线预览完整页面；适合直接对照整页节奏（多数付费，链接到原站）
+  source: https://www.framer.com/marketplace/templates/conicorn/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

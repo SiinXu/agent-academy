@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -89,6 +89,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Uy2oK9854UViaiO0rQ6nC
   needs_credentials: false, writes_external: false
+- [template] X Marketing Bot. An X marketing strategist that writes posts, threads and replies in your voice and turns your account's numbers into clear next steps.
+  source: https://botsdots.site/templates/x-marketing-bot
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Qn3J8hO5gAMc_7BVzYm-p
+  needs_credentials: true, writes_external: false
 - [template] Mason. Intake desk (The Incorporator). Drop a link, post, product, paper, repo, clip, or tool — it opens the original, separates marketing from function
   source: https://botsdots.site/templates/mason
   license: template belongs to its creator (catalog CC0)

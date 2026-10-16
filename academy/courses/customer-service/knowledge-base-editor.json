@@ -2,7 +2,7 @@
  "id": "customer-service/knowledge-base-editor",
  "industry": "customer-service",
  "role": "knowledge-base-editor",
- "updated_at": "2026-10-15T10:41:56Z",
+ "updated_at": "2026-10-16T10:29:38Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -321,6 +321,75 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-ticket-desk",
+     "title": "Ticket Desk",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "knowledge-base-editor"
+     ],
+     "summary": "Flags urgent support tickets, drafts replies from your docs, and turns gaps into help-article drafts; never sends",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/ticket-desk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Screaming_Chkn",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/ticket-desk",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/47iWfw0I5xxt6uPqKj52G",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "Screaming_Chkn",
+       "firstSeen": "2026-10-11",
+       "integrations": [],
+       "name": "Ticket Desk",
+       "official": false,
+       "page": "https://botsdots.site/templates/ticket-desk",
+       "risk": "medium",
+       "summary": "Flags urgent support tickets, drafts replies from your docs, and turns gaps into help-article drafts; never sends"
+      }
+     },
+     "install": "https://x.ai/bot/47iWfw0I5xxt6uPqKj52G",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-10-11"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-ticket-desk/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-call-faq-miner",
      "title": "Call FAQ Miner",
      "type": "template",
@@ -454,75 +523,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-customer-support-desk/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-ticket-desk",
-     "title": "Ticket Desk",
-     "type": "template",
-     "industry": "customer-service",
-     "roles": [
-      "knowledge-base-editor"
-     ],
-     "summary": "Flags urgent support tickets, drafts replies from your docs, and turns gaps into help-article drafts; never sends",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/ticket-desk",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Screaming_Chkn",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/ticket-desk",
-      "record": {
-       "access": [
-        "inbox"
-       ],
-       "add": "https://x.ai/bot/47iWfw0I5xxt6uPqKj52G",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "customer-sales",
-       "creator": "Screaming_Chkn",
-       "firstSeen": "2026-10-11",
-       "integrations": [],
-       "name": "Ticket Desk",
-       "official": false,
-       "page": "https://botsdots.site/templates/ticket-desk",
-       "risk": "medium",
-       "summary": "Flags urgent support tickets, drafts replies from your docs, and turns gaps into help-article drafts; never sends"
-      }
-     },
-     "install": "https://x.ai/bot/47iWfw0I5xxt6uPqKj52G",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "medium",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 8,
-      "first_seen_catalog": "2026-10-11"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-ticket-desk/",
      "source": "botsdots"
     }
    ]

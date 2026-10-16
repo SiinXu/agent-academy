@@ -1,8 +1,8 @@
 ---
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -47,6 +47,11 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/newsletter-writer
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s5d2839123b973b4480f9
+  needs_credentials: false, writes_external: false
+- [template] Email Newsletter Daily Report. Subscribe your newsletters and podcasts to this bot's email and get a daily report with an executive summary, per-item summaries.
+  source: https://botsdots.site/templates/email-newsletter-daily-report
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk
   needs_credentials: false, writes_external: false
 - [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. Cited newsletter issue with three subject lines and one clear CTA
   source: https://botsdots.site/templates/newsletter-desk-inbox-worthy

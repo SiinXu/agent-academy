@@ -1,8 +1,8 @@
 ---
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/ecommerce-support/
 ---
 
@@ -53,6 +53,11 @@ Choose one style, platform or channel from the reference library. Only one.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-plugins-retail.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [template] Claims Finder. Digs through your inbox receipts for refunds, settlements and unclaimed money
+  source: https://botsdots.site/templates/claims-finder
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR
+  needs_credentials: false, writes_external: false
 - [template] Customer Care. Handles refunds and disputes, drafts support messages
   source: https://botsdots.site/templates/customer-care
   license: template belongs to its creator (catalog CC0)
@@ -63,15 +68,20 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/MuKDTS9Fq0UySwClmE8wc
   needs_credentials: false, writes_external: false
-- [template] Claims Finder. Digs through your inbox receipts for refunds, settlements and unclaimed money
-  source: https://botsdots.site/templates/claims-finder
+- [template] Ledger. A read-only personal finance watchdog that watches your bank, cards, and bills email, flags odd charges and upcoming bills, chases refunds.
+  source: https://botsdots.site/templates/ledger-eiic
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/6VeOVsZzMkrKElrPi_kOR
-  needs_credentials: false, writes_external: false
+  install: https://x.ai/bot/eIicxWVI6dT6IOHrUDO8h
+  needs_credentials: false, writes_external: true
 - [template] NoShipSherlock. Lost Package Desk for a store: tracks missing, stalled, and delivered-but-not-received shipments, runs carrier playbooks, and never files or refunds
   source: https://botsdots.site/templates/noshipsherlock
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Lll9_CtLlBh_nEOWVQfMY
+  needs_credentials: false, writes_external: false
+- [template] Money Finder. Finds money you're owed, like class action settlements, FTC refunds, lost 401(k)s, and forgotten balances in your email, and files honest claims.
+  source: https://botsdots.site/templates/money-finder-xjfl
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

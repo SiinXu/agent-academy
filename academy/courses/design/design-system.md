@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-15
-updated_at: 2026-10-15T10:41:56Z
+version: 2026-10-16
+updated_at: 2026-10-16T10:29:38Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-system/
 ---
 
@@ -46,24 +46,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 316 items
-- motion: 60 items
-- enterprise: 37 items
-- dark-tech: 27 items
-- editorial: 25 items
-- 3d: 21 items
-- gradient: 18 items
-- playful: 17 items
+- minimal: 458 items
+- editorial: 284 items
+- dark-tech: 107 items
+- motion: 103 items
+- playful: 81 items
+- enterprise: 41 items
+- 3d: 33 items
+- retro: 29 items
+- swiss: 28 items
+- gradient: 25 items
 - soft: 15 items
-- swiss: 13 items
 - apple: 12 items
+- brutalist: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
-- brutalist: 6 items
 - glass: 5 items
 - fluent: 3 items
-- retro: 2 items
 - industrial: 1 items
 - neumorphism: 1 items
 
@@ -95,6 +95,10 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://developer.apple.com/design/resources/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [design-system] Astryx（Meta 开源设计系统）. Meta 开源的设计系统，150–170+ 组件、主题、暗色模式、面向 AI 的工具（X 来源：@neropursue，406 赞 / 457 收藏，2026-09-19）
+  source: https://astryx.atmeta.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [design-system] Atlassian Design System. Jira / Confluence 的规范，token 和写作规范都公开
   source: https://atlassian.design/
   license: see source (listed via UI Hub)
@@ -117,6 +121,10 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [design-system] HashiCorp Helios. HashiCorp 的公开设计系统，开发者工具类界面参考
   source: https://helios.hashicorp.design/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [design-system] Interfere Design System. Interfere 公开的设计系统页：基础、字体、原语，排版极其克制（X 来源：@jakubkrehel，523 赞 / 560 收藏，2026-10-15）
+  source: https://design.interfere.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [design-system] Microsoft Fluent 2. 微软跨平台设计语言，有 Web、iOS、Android、Windows 版本
@@ -149,14 +157,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [design-system] WeUI（微信）. 微信原生视觉规范组件
   source: https://github.com/Tencent/weui
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [design-system] Zendesk Garden. Zendesk 的公开设计系统，SaaS 组件参考
-  source: https://garden.zendesk.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [design-system] 微信小程序设计指南. 小程序官方交互和视觉原则
-  source: https://developers.weixin.qq.com/miniprogram/design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
