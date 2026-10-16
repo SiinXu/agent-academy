@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-16
-updated_at: 2026-10-16T10:29:38Z
+updated_at: 2026-10-16T14:52:06Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -109,20 +109,20 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/YELCIJ_5UrbwjP-4pm_Fx
   needs_credentials: true, writes_external: false
-- [template] Google Business Profile Manager. You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,
-  source: https://botsdots.site/templates/google-business-profile-manager
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT
-  needs_credentials: false, writes_external: false
-- [template] Review Reply Craft. Helps small local businesses write human-sounding Google review replies and turn goodwill into paid reply packs
-  source: https://botsdots.site/templates/review-reply-craft
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6
-  needs_credentials: false, writes_external: false
 - [template] Review Reply Drafter. Draft replies to public reviews from paste.
   source: https://botsdots.site/templates/review-reply-drafter
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/RFZWV8682hykNKF8UJf44
+  needs_credentials: false, writes_external: false
+- [template] Support Reply Drafter. Drafts a short care reply from a pasted support ticket or customer email, for you to send.
+  source: https://botsdots.site/templates/support-reply-drafter
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO
+  needs_credentials: false, writes_external: false
+- [template] Google Business Profile Manager. You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,
+  source: https://botsdots.site/templates/google-business-profile-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -205,11 +205,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @codespar/mcp-shopify
   needs_credentials: true, writes_external: false
-- [mcp] HubSpot MCP. Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history
-  source: https://github.com/Servosity/msp-skills
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md
-  license: Apache-2.0
-  needs_credentials: true, writes_external: false
 - [mcp] com.mcparmory/shopify-admin. Manage products, orders, customers, inventory, and store configuration
   source: https://github.com/mcparmory/registry
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mcparmory-shopify-admin.md
@@ -256,6 +251,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miller-joe-shopify-mcp.md
   license: MIT
   install: npx -y @miller-joe/shopify-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.den-indance/shopify-mcp-pro. Shopify MCP server with real analytics (ShopifyQL), auto-refresh auth, and Shopify API 2026-04.
+  source: https://github.com/den-indance/shopify-mcp-pro
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-den-indance-shopify-mcp-pro.md
+  license: MIT
+  install: npx -y @den.dance/shopify-mcp-pro
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

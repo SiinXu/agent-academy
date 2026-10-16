@@ -2,7 +2,7 @@
 name: customer-service-knowledge-base-editor
 description: Agent Academy course for Knowledge base editor (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-16
-updated_at: 2026-10-16T10:29:38Z
+updated_at: 2026-10-16T14:52:06Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/knowledge-base-editor/
 ---
 

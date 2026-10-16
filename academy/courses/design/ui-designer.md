@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-16
-updated_at: 2026-10-16T10:29:38Z
+updated_at: 2026-10-16T14:52:06Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,23 +94,23 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 458 items
-- editorial: 284 items
+- minimal: 1353 items
+- motion: 673 items
+- 3d: 626 items
+- editorial: 595 items
+- playful: 544 items
+- gradient: 285 items
+- retro: 115 items
 - dark-tech: 107 items
-- motion: 103 items
-- playful: 81 items
+- glass: 52 items
 - enterprise: 41 items
-- 3d: 33 items
-- retro: 29 items
-- swiss: 28 items
-- gradient: 25 items
+- swiss: 27 items
 - soft: 15 items
+- brutalist: 13 items
 - apple: 12 items
-- brutalist: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
-- glass: 5 items
 - fluent: 3 items
 - industrial: 1 items
 - neumorphism: 1 items
@@ -160,6 +160,22 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://otsuka-air.jp/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [style-library] 1042 Studio Seven Year Posters. A series of editorial anniversary posters from 1042 Studio featuring bold red numerals, collage photography, glitch effects, and typographic compositions on textured aged paper.
+  source: https://x.com/mrblackstudio/status/2091775071350128796
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 12 Mil. 12mil Music was created to bring Latin talent to the world with a global, stereotype-free vision, building real connections between artists and superfans...
+  source: https://docemilmusic.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 18 years of Büro. Bürocratik—18 years in the making. An interactive timeline of our design craft journey, by and for the Büros.Magic People, Büro People!
+  source: https://18.burocratik.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 1Password: A Vision of the Future. 1Password's scrolling microsite illustrates the growing complexity of online sign-ins and envisions a simpler passwordless future with one-click authentication.
+  source: https://www.future.1password.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] 21 Hours on the Moon. Moon render on black with large silver MOON: restrained motion on a space theme (via Awwwards)
   source: https://www.21hrs.space/
   license: see source (listed via UI Hub)
@@ -172,44 +188,28 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://21st.dev/community/components/s/ai-chat
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [style-library] 22.09.2000 - HE WAS BORN. Hardik Bhansali is a designer, a digital experience designer who can lucid dream design concepts and bring them to life on a digital canvas.
+  source: https://www.hardikbhansali.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] 2xA. Handwritten tagline on black, like writing on paper with a hand-drawn line (via Awwwards)
   source: https://2xa.studio/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 404s. A gallery of 404 pages
-  source: https://www.404s.design
+- [style-library] 3 Logos. A set of three logo concepts: a rounded flower-like monogram, a red cursive wordmark, and a black handwritten script logotype.
+  source: https://x.com/lancedraws/status/2075536899217760307
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 8bitcn/ui. Pixel-art 8-bit take on shadcn components for games and retro sites.
-  source: https://8bitcn.com
+- [style-library] 30 Japanese Typography Studies. A series of 30 experimental Japanese typography pieces exploring kanji and kana through bold stylistic treatments including dot-matrix, contour lines, calligraphy, and pixel forms.
+  source: https://x.com/hiro000509/status/2076637780097028105
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] A Journal On How to Wow People. An open 3D art book on black with small serif type: exhibition feel for a journal site (via Minimal Gallery)
-  source: https://www.ajournalon.co/
+- [style-library] 35mm. 35mm is a website showcasing film photography through the lenses of the iconic Cannon F1 !
+  source: https://35mm-one.vercel.app/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] A Love Story. Red with ultra-bold white A LOVE STORY: poster feel for a brand agency (via Lapa Ninja)
-  source: https://alovehatestory.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] A/B Test Design. Real A/B test before/after comparisons — learn which version won
-  source: https://abtest.design
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Aardvark Book Club. Pink and yellow clash, bold serif type and a book illustration: a playful layout for a book club subscription (via Awwwards)
-  source: https://aardvarkbookclub.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Aaron Sananes. Glitched black and white portrait on white with split big type "Design Engineer / Product Designer": monochrome impact for a portfolio (via One Page Love)
-  source: https://www.sananes.co/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Abbotsford Convent. Beige, serif text and line-drawn architecture illustrations: paper feel for an arts community site (via Httpster)
-  source: https://abbotsfordconvent.com.au/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [template] Aceternity Agenforce Marketing Template. AI agent marketing site template (paid)
-  source: https://ui.aceternity.com/templates/agenforce-marketing-template
+- [style-library] 3D Image Globe. A floating gallery of polaroid-style images forms an interactive 3D sphere on a white background, letting you upload your own images and project them onto the globe.
+  source: https://x.com/gabriell_lab/status/2067542058957406217
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

@@ -205,11 +205,10 @@ A folder that goes deeper into one concern, holding a `SKILL.md` with its rules.
 
 ## Roadmap
 
-**v3.2.20** adds opt-in usage-mode preferences and announces the active mode and its source. It builds on the v3.2.19 changes:
+**v3.2.21** reads the contrast threshold from the unrounded ratio, so a pairing that computes to 4.4983:1 no longer reports 4.50 and passes 4.5:1, and the boundary is pinned in the reference table. It builds on the v3.2.20 changes:
 
-- **The community files.** CONTRIBUTING.md, CODE_OF_CONDUCT.md, issue templates, and a pull request template, so the repository reads as one you can join and not only one you can install.
-- **A README rebuilt.** One heading per install route, and the detail that used to be repeated here moved to the guide, where it is written out in more depth.
-- **A guide rebuilt.** One section per route, so install, update, and removal sit together instead of being written out three times, and a catalogue of every named pattern generated from the skills themselves and checked in CI.
+- **Usage modes as a saved preference.** Saving a mode is opt-in, a saved mode announces its source, an explicit choice in the current session still wins, and `--mode ask` restores the question.
+- **A guide that covers it.** The Usage modes section walks the commands, the settings file on each platform, and what an unsaved preference means.
 
 Every earlier release, and what comes next, is in [ROADMAP.md](ROADMAP.md).
 
@@ -223,7 +222,7 @@ Thanks to everyone who helps make antislop better.
 
 <p align="center">
   <a href="https://github.com/miqdadbadjuber/anti-slop/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=miqdadbadjuber/anti-slop&v=3.2.20" alt="antislop contributors" />
+    <img src="https://contrib.rocks/image?repo=miqdadbadjuber/anti-slop&v=3.2.21" alt="antislop contributors" />
   </a>
 </p>
 

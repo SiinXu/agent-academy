@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-16
-updated_at: 2026-10-16T10:29:38Z
+updated_at: 2026-10-16T14:52:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -58,11 +58,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ
   needs_credentials: true, writes_external: true
-- [template] Image AD generator. Turns your real product photo into high-converting 1080×1080 Meta image ads with centered text, plus ready-to-paste ad copy for each one.
-  source: https://botsdots.site/templates/image-ad-generator
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/u3dFfq5q52a_p4tZU62Dg
-  needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
 

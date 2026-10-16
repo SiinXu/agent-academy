@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-16
-updated_at: 2026-10-16T10:29:38Z
+updated_at: 2026-10-16T14:52:06Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,23 +46,23 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 458 items
-- editorial: 284 items
+- minimal: 1353 items
+- motion: 673 items
+- 3d: 626 items
+- editorial: 595 items
+- playful: 544 items
+- gradient: 285 items
+- retro: 115 items
 - dark-tech: 107 items
-- motion: 103 items
-- playful: 81 items
+- glass: 52 items
 - enterprise: 41 items
-- 3d: 33 items
-- retro: 29 items
-- swiss: 28 items
-- gradient: 25 items
+- swiss: 27 items
 - soft: 15 items
+- brutalist: 13 items
 - apple: 12 items
-- brutalist: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
-- glass: 5 items
 - fluent: 3 items
 - industrial: 1 items
 - neumorphism: 1 items
@@ -74,88 +74,88 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/pXNvc_U2cGyZmheYrUuF_
   needs_credentials: true, writes_external: false
+- [style-library] 'kin. ‘kin are a creative commercial interior design, branding and graphic design studio.
+  source: https://by-kin.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] ©Design by Dylan. Portfolio by Dylan Brouwer: a Dutch digital designer & Webflow developer crafting experience-driven websites for brands & agencies. Bold, intuitive design...
+  source: https://www.dylanbrouwer.design/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] +13322566869. Digital Producer. Specialized in Design & E-commerce. Only.From me to you.Always Responsive.Face to Face.Kyiv raised Miami Based.
+  source: https://13322566869.com
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 100 Lost Species. A digital memorial that unfolds across time. In 100 seconds, 100 lost species are remembered, before the site itself disappears, echoing their silence.
+  source: https://www.100lostspecies.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] 1367 Studio. Dark studio homepage: one glowing key visual holds the screen with minimal nav — a lesson in single-focus heroes (via CSS Design Awards)
   source: https://www.1367studio.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 60fps. Mobile UI motion
-  source: https://60fps.design/
+- [style-library] 1820 Productions. Award-winning video production company in Dallas, TX. We listen, craft, and deliver stylish production with seamless execution.
+  source: https://www.1820productions.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [template] Aceternity Hero Sections blocks. A full set of hero sections (free ones included): finished combos of type, screenshots and CTAs to compare whole-page proportions
-  source: https://ui.aceternity.com/blocks/hero-sections
+- [style-library] 24/7 Artists. A bold, vibrant one-page website for 24/7 Artists, capturing the rhythm of music through dynamic visuals, depth, and movement—designed to empower artists...
+  source: https://247artists.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [template] Aceternity Pricing Sections blocks. Pricing blocks: monthly/yearly toggle and a highlighted recommended tier
-  source: https://ui.aceternity.com/blocks/pricing-sections
+- [style-library] 25 Residences. 25 Residences is an architectural firm that is redefining luxury living in the heart of Mumbai.
+  source: https://25residences.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [template] Aceternity Text Animations blocks. A collection of headline text animation blocks
-  source: https://ui.aceternity.com/blocks/text-animations
+- [style-library] 3-in-1 Icon Morph. A clever icon animation where the signal bars, WiFi, and battery status icons seamlessly morph into a single combined WiFi symbol.
+  source: https://x.com/hukamdesign/status/2097837510038868477
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Aceternity UI. 
-  source: https://ui.aceternity.com/
+- [style-library] 3200 Kelvin. Portfolio website for 3200 Kelvin — a Web Design & Development Studio creating authentic websites that speak, connect, illuminate, and transform brands'...
+  source: https://www.3200kelvin.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Aceternity UI all components. Full list of free Aceternity components: spotlight, 3D cards, background beams, text effects, floating nav.
-  source: https://ui.aceternity.com/components
+- [style-library] 365 — A Year of Cartier. The Cartier Yearbook celebrates 2024's extraordinary journey, showcasing transformative creativity, innovation, and timeless elegance.
+  source: https://365ayearof.cartier.com/en/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Animata. Hundreds of free motion components
-  source: https://animata.design/
+- [style-library] 365 Days at Vercel. A dark, moody motion piece marking 365 days at Vercel, featuring a rotating 3D tetrahedron catching dramatic light against a pixelated typographic backdrop.
+  source: https://x.com/JohnPhamous/status/2087226344564469850
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Animate UI. 
-  source: https://animate-ui.com/
+- [style-library] 3D Bank Card. A cinematic 3D render exploring the inside of a Lead Bank card, animating apart to reveal iridescent prismatic layers and glowing chip components beneath a minimal matte surface.
+  source: https://x.com/glebich/status/2100831842253570148
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Animate.css. Ready-made CSS animation classes: add a class and it moves. License per the repo; link only here
-  source: https://animate.style/
+- [style-library] 3D Benchmark Art. A looping 3D motion study featuring iridescent bar-chart columns morphing between arc and M-shaped formations with prismatic blue and purple lighting, created as hero art for a model benchmark page.
+  source: https://x.com/benfryc/status/2075275106301903067
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Animated Icons. 207 animated React icons
-  source: https://animated-icons-nu.vercel.app
+- [style-library] 3D Can. An interactive 3D beverage can built with three.js for Iskra Graphics, wrapped in vibrant sticker-style branding and rotating in a dark, bubble-filled environment.
+  source: http://iskra.graphics/can
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Anime.js. A lightweight JavaScript animation library
-  source: https://animejs.com
+- [style-library] 3D Face Morphing. A surreal 3D animation study where a hyper-realistic male face morphs between geometric and organic shapes, from spheres and cubes to melting puddles, on a vivid blue background.
+  source: https://x.com/ingi_erlingsson/status/2085892337092162035
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] arc-library. New GitHub UI repo: Arc Library: free, open source React components with calm motion. Copy the code or install with the shadcn CLI. (★786, MIT, kuratlielia/arc-library)
-  source: https://uiarc.dev
+- [style-library] 3D Fashion Models. A series of stylized 3D character renders in normal-map shading, featuring diverse streetwear and futuristic fashion outfits set against a vivid green background.
+  source: https://x.com/ingi_erlingsson/status/2086274940861329645
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Asher Vale (Framer template). A full-site template from the official Framer marketplace, previewable online; good for comparing whole-page rhythm (mostly paid, links to the original)
-  source: https://www.framer.com/marketplace/templates/asher-vale/
+- [style-library] 3D Knot. A pastel rainbow-colored 3D knot object continuously rotates and morphs through different configurations in this smooth motion study.
+  source: https://jlongster.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] AutoAnimate. Add enter/leave animations to lists with one line of code
-  source: https://auto-animate.formkit.com/
+- [style-library] 3D Sphere Videos. A technical reference sheet comparing 3D sphere renders across multiple animation phases and material states, from glossy white to deep black, annotated with file names and phase values.
+  source: https://x.com/kosta4a/status/2086083489418391688
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] Awwwards · Sites of the Day. Awwwards Sites of the Day, jury-scored; good for polished full sites
-  source: https://www.awwwards.com/websites/sites_of_the_day/
+- [style-library] 404 Chicken Flock Animation. A playful motion piece spelling out 404 using a flock of animated chickens that shuffle and move to maintain the numeral shapes across the loop.
+  source: https://x.com/AnaArsonist/status/2082519448154522077
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] BeUI. Good-looking React components
-  source: https://beui.dev
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Buff Motion. Beige with mixed serif italic headlines and hand-drawn lines: a gentle hero for a motion design studio (via Best Website Gallery)
-  source: https://www.buffmotion.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Circle Loaders. SVG circular loaders
-  source: https://circleloaders.dominikakissi.com
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Codrops. A long-running site of frontend effect tutorials and demos
-  source: https://tympanus.net/codrops/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] Conicorn (Framer template). A full-site template from the official Framer marketplace, previewable online; good for comparing whole-page rhythm (mostly paid, links to the original)
-  source: https://www.framer.com/marketplace/templates/conicorn/
+- [style-library] 45R Denim Karuta. Denim is 45R's signature item. We created an online Japanese Poetry Card Game to showcase the craft of our 30+ years. Featuring warm distinctive illustrations,...
+  source: https://45r.jp/ja/45denim-karuta/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

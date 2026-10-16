@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-16T10:29:38Z",
+ "updated_at": "2026-10-16T14:52:06Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -991,6 +991,142 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-review-reply-drafter",
+     "title": "Review Reply Drafter",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Draft replies to public reviews from paste.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/review-reply-drafter",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "DoonerDesigns_",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/review-reply-drafter",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/RFZWV8682hykNKF8UJf44",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "personal-admin",
+       "creator": "DoonerDesigns_",
+       "firstSeen": "2026-10-15",
+       "integrations": [],
+       "name": "Review Reply Drafter",
+       "official": false,
+       "page": "https://botsdots.site/templates/review-reply-drafter",
+       "risk": "low",
+       "summary": "Draft replies to public reviews from paste."
+      }
+     },
+     "install": "https://x.ai/bot/RFZWV8682hykNKF8UJf44",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 10,
+      "first_seen_catalog": "2026-10-15"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-review-reply-drafter/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-support-reply-drafter",
+     "title": "Support Reply Drafter",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Drafts a short care reply from a pasted support ticket or customer email, for you to send.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/support-reply-drafter",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "DoonerDesigns_",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/support-reply-drafter",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "DoonerDesigns_",
+       "firstSeen": "2026-10-13",
+       "integrations": [],
+       "name": "Support Reply Drafter",
+       "official": false,
+       "page": "https://botsdots.site/templates/support-reply-drafter",
+       "risk": "medium",
+       "summary": "Drafts a short care reply from a pasted support ticket or customer email, for you to send."
+      }
+     },
+     "install": "https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 10,
+      "first_seen_catalog": "2026-10-13"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-support-reply-drafter/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-google-business-profile-manager",
      "title": "Google Business Profile Manager",
      "type": "template",
@@ -1054,138 +1190,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-google-business-profile-manager/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-review-reply-craft",
-     "title": "Review Reply Craft",
-     "type": "template",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Helps small local businesses write human-sounding Google review replies and turn goodwill into paid reply packs",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/review-reply-craft",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Omenfinancial",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/review-reply-craft",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates"
-       ],
-       "category": "customer-sales",
-       "creator": "Omenfinancial",
-       "firstSeen": "2026-09-29",
-       "integrations": [],
-       "name": "Review Reply Craft",
-       "official": false,
-       "page": "https://botsdots.site/templates/review-reply-craft",
-       "risk": "low",
-       "summary": "Helps small local businesses write human-sounding Google review replies and turn goodwill into paid reply packs"
-      }
-     },
-     "install": "https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 8,
-      "first_seen_catalog": "2026-09-29"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-review-reply-craft/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-review-reply-drafter",
-     "title": "Review Reply Drafter",
-     "type": "template",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Draft replies to public reviews from paste.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/review-reply-drafter",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "DoonerDesigns_",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/review-reply-drafter",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/RFZWV8682hykNKF8UJf44",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates"
-       ],
-       "category": "personal-admin",
-       "creator": "DoonerDesigns_",
-       "firstSeen": "2026-10-15",
-       "integrations": [],
-       "name": "Review Reply Drafter",
-       "official": false,
-       "page": "https://botsdots.site/templates/review-reply-drafter",
-       "risk": "low",
-       "summary": "Draft replies to public reviews from paste."
-      }
-     },
-     "install": "https://x.ai/bot/RFZWV8682hykNKF8UJf44",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 8,
-      "first_seen_catalog": "2026-10-15"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-review-reply-drafter/",
      "source": "botsdots"
     }
    ]
@@ -1359,7 +1363,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40891,
+      "repo_stars": 40903,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1679,7 +1683,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 141954,
+      "repo_stars": 141995,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "4-do-it",
@@ -1724,7 +1728,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30077,
+      "repo_stars": 30086,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "4-do-it",
@@ -1811,7 +1815,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 272,
+      "repo_stars": 273,
       "repo_pushed_at": "2026-09-27",
       "registry_updated_at": "2026-06-22"
      },
@@ -1824,115 +1828,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-codespar-mcp-shopify/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-servosity-hubspot-mcp",
-     "title": "HubSpot MCP",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Servosity/msp-skills",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "Servosity/msp-skills",
-     "author": "io.github.Servosity",
-     "license": "Apache-2.0",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md",
-      "record": {
-       "description": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
-       "name": "io.github.Servosity/hubspot-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Set the HUBSPOT_ACCESS_TOKEN credential for the HubSpot MCP server.",
-           "name": "HUBSPOT_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Base URL for the HubSpot API. Leave the prefilled default unless your account uses a different regional or self-hosted host.",
-           "name": "HUBSPOT_BASE_URL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
-           "name": "HUBSPOT_OWNER_EMAIL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Bearer token required by `hubspot-mcp --transport http`; unused by the default stdio transport.",
-           "name": "HUBSPOT_MCP_HTTP_TOKEN",
-           "required": null,
-           "secret": true
-          },
-          {
-           "description": "Overrides the User-Agent the CLI sends on HubSpot requests.",
-           "name": "HUBSPOT_USER_AGENT",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Binds this MCP server to one tenant-gated client profile, so every call answers for that customer. Leave blank to use the profile configured as default_client_profile.",
-           "name": "PRINTING_PRESS_CLIENT_PROFILE",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.2/hubspot-mcp.mcpb",
-         "transport": "stdio",
-         "type": "mcpb",
-         "version": "0.2.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/servosity/msp-skills",
-       "title": "HubSpot MCP",
-       "version": "0.2.2",
-       "website": null
-      }
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "HUBSPOT_ACCESS_TOKEN",
-       "HUBSPOT_BASE_URL",
-       "HUBSPOT_OWNER_EMAIL",
-       "HUBSPOT_MCP_HTTP_TOKEN",
-       "HUBSPOT_USER_AGENT",
-       "PRINTING_PRESS_CLIENT_PROFILE"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 59,
-      "repo_pushed_at": "2026-10-16",
-      "registry_updated_at": "2026-10-16"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-servosity-hubspot-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -2353,25 +2248,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md",
-      "record": {
-       "description": "Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.",
-       "name": "io.github.alex-brecher/shopify-multi-store",
-       "packages": [
-        {
-         "env": [],
-         "id": "shopify-multi-store-mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.0.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/alex-brecher/shopify-multi-store",
-       "title": null,
-       "version": "2.0.1",
-       "website": null
-      }
+      "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md"
      },
      "install": "npx -y shopify-multi-store-mcp-server",
      "security": {
@@ -2508,62 +2385,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/miller-joe/shopify-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "MCP server for Shopify Admin API with a ComfyUI bridge for AI product image generation.",
-       "name": "io.github.miller-joe/shopify-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Store domain, e.g. 'my-store' or 'my-store.myshopify.com'",
-           "name": "SHOPIFY_STORE",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "Admin API access token (shpat_...). See README for how to create a custom app on a dev store.",
-           "name": "SHOPIFY_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Shopify GraphQL Admin API version (default: 2026-04)",
-           "name": "SHOPIFY_API_VERSION",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "ComfyUI HTTP URL for bridge tools. When unset, generate_* bridge tools are disabled.",
-           "name": "COMFYUI_URL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Externally-reachable ComfyUI URL (defaults to COMFYUI_URL)",
-           "name": "COMFYUI_PUBLIC_URL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Default ComfyUI checkpoint filename for bridge tools (default: sd_xl_base_1.0.safetensors)",
-           "name": "COMFYUI_DEFAULT_CKPT",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "@miller-joe/shopify-mcp",
-         "transport": "streamable-http",
-         "type": "npm",
-         "version": "0.1.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/miller-joe/shopify-mcp",
-       "title": null,
-       "version": "0.1.2",
-       "website": null
-      }
+      "url": "https://github.com/miller-joe/shopify-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y @miller-joe/shopify-mcp",
      "security": {
@@ -2594,6 +2416,101 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-miller-joe-shopify-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-den-indance-shopify-mcp-pro",
+     "title": "io.github.den-indance/shopify-mcp-pro",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Shopify MCP server with real analytics (ShopifyQL), auto-refresh auth, and Shopify API 2026-04.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/den-indance/shopify-mcp-pro",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-den-indance-shopify-mcp-pro.md",
+     "upstream_raw_url": null,
+     "repo": "den-indance/shopify-mcp-pro",
+     "author": "io.github.den-indance",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/den-indance/shopify-mcp-pro/blob/HEAD/README.md",
+      "record": {
+       "description": "Shopify MCP server with real analytics (ShopifyQL), auto-refresh auth, and Shopify API 2026-04.",
+       "name": "io.github.den-indance/shopify-mcp-pro",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Shopify store domain, e.g. my-store.myshopify.com",
+           "name": "SHOPIFY_STORE_DOMAIN",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Client ID from Shopify Dev Dashboard (custom app)",
+           "name": "SHOPIFY_CLIENT_ID",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Client Secret from Shopify Dev Dashboard (custom app)",
+           "name": "SHOPIFY_CLIENT_SECRET",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Shopify API version, defaults to 2026-04",
+           "name": "SHOPIFY_API_VERSION",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@den.dance/shopify-mcp-pro",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.0.5"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/den-indance/shopify-mcp-pro",
+       "title": null,
+       "version": "2.0.5",
+       "website": null
+      }
+     },
+     "install": "npx -y @den.dance/shopify-mcp-pro",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "SHOPIFY_STORE_DOMAIN",
+       "SHOPIFY_CLIENT_ID",
+       "SHOPIFY_CLIENT_SECRET",
+       "SHOPIFY_API_VERSION"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 1,
+      "repo_pushed_at": "2026-05-22",
+      "registry_updated_at": "2026-05-22"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-den-indance-shopify-mcp-pro/",
      "source": "mcp-registry"
     }
    ]

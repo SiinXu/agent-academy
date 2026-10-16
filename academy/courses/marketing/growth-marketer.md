@@ -2,7 +2,7 @@
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-16
-updated_at: 2026-10-16T10:29:38Z
+updated_at: 2026-10-16T14:52:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -33,6 +33,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dadANmm6M496kgq3qgBJ3
   needs_credentials: false, writes_external: false
+- [template] Marketing Manager. Helps independent and AI-assisted musicians get their songs heard with free, low-key promotion across YouTube, Spotify, and music communities.
+  source: https://botsdots.site/templates/marketing-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/GW1Db37PnYoLXuaxX_Si-
+  needs_credentials: true, writes_external: false
 - [plugin] Marketing plugin (Anthropic knowledge-work-plugins). A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice manag
   source: https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-marketing.md
@@ -43,11 +48,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/seo-aeo-desk
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
-  needs_credentials: false, writes_external: false
-- [template] Market Researcher. Monitors your competitors' public websites, ads, marketing, pricing, and positioning on a standing cadence
-  source: https://botsdots.site/templates/market-researcher
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
