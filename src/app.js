@@ -24,8 +24,8 @@
     $$('[data-tx]').forEach((e) => { const [g, k] = e.dataset.tx.split('.'); e.textContent = TX(g, k); });
     $$('[data-rotate-tx]').forEach((e) => { const [g, ks] = e.dataset.rotateTx.split(':'); const w = ks.split(',').map((k) => TX(g, k)); e.dataset.wordRotate = JSON.stringify(w); const sp = e.firstElementChild; if (sp && !w.includes(sp.textContent)) sp.textContent = w[0]; });
     $$('[data-only]').forEach((e) => { e.hidden = true; });
-    $$('[data-zh-only]').forEach((e) => { e.hidden = !l.startsWith('zh'); }); $$('[data-nonzh-only]').forEach((e) => { e.hidden = l.startsWith('zh'); });
-    const only = $$(`[data-only="${l}"]`); (only.length ? only : $$('[data-only="en"]')).forEach((e) => (e.hidden = false));
+    $$('[data-zh-only]').forEach((e) => { e.hidden = !l.startsWith('zh'); if (!e.hidden && e.dataset.zhSrc && !e.dataset.zhOk) { e.dataset.zhOk = '1'; fetch(e.dataset.zhSrc).then((r) => (r.ok ? r.text() : '')).then((t) => { e.innerHTML = t; }).catch(() => {}); } }); $$('[data-nonzh-only]').forEach((e) => { e.hidden = l.startsWith('zh'); });
+    const only = $$(`[data-only="${l}"]`); (only.length ? only : $$('[data-only="en"]')).forEach((e) => { e.hidden = false; if (e.dataset.frag && !e.dataset.fragOk) { e.dataset.fragOk = '1'; fetch(e.dataset.frag).then((r) => (r.ok ? r.text() : '')).then((t) => { e.innerHTML = t; }).catch(() => {}); } });
     $$('.lang-sel').forEach((s) => { s.value = l; });
     localTimes();
     await translateContent();
