@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-17T00:33:10Z",
+ "updated_at": "2026-10-17T13:43:47Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,8 +876,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29887,
-      "repo_pushed_at": "2026-10-16"
+      "repo_stars": 29943,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181606,
+      "repo_stars": 181699,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181606,
+      "repo_stars": 181699,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,7 +2007,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136584,
+      "repo_stars": 136748,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46729,
+      "repo_stars": 46840,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2772,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142024,
+      "repo_stars": 142091,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "4-do-it",
@@ -2845,7 +2845,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 15999,
+      "repo_stars": 16002,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-06-18"
      },
@@ -2945,25 +2945,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/TranHoaiHung/figma-ui-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back",
-       "name": "io.github.TranHoaiHung/figma-ui-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "figma-ui-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.5.29"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/TranHoaiHung/figma-ui-mcp",
-       "title": null,
-       "version": "2.5.29",
-       "website": null
-      }
+      "url": "https://github.com/TranHoaiHung/figma-ui-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y figma-ui-mcp",
      "security": {
@@ -3010,25 +2992,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/keyline-icons/keyline-icons/blob/HEAD/README.md",
-      "record": {
-       "description": "Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.",
-       "name": "com.keylineicons/mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "@keyline-icons/mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.8.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/keyline-icons/keyline-icons",
-       "title": "Keyline Icons",
-       "version": "1.8.0",
-       "website": "https://keylineicons.com"
-      }
+      "url": "https://github.com/keyline-icons/keyline-icons/blob/HEAD/README.md"
      },
      "install": "npx -y @keyline-icons/mcp",
      "security": {
@@ -3039,7 +3003,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 167,
+      "repo_stars": 168,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-10-11"
      },
@@ -3138,44 +3102,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Drive Adobe Illustrator from any MCP client: artwork, type, colour, effects, data and export.",
-       "name": "io.github.zachshallbetter/adobe-mcp-illustrator",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "macOS only: address a specific copy, e.g. \"Adobe Illustrator 2025\". Default: Illustrator by bundle id",
-           "name": "ILLUSTRATOR_APP_NAME",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
-           "name": "ILLUSTRATOR_ALLOWED_DIRS",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "How long to wait for Illustrator before reporting that a dialog may be open. Default 120000",
-           "name": "ILLUSTRATOR_SCRIPT_TIMEOUT_MS",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "adobe-mcp-illustrator",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.9.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/zachshallbetter/adobe-mcp",
-       "title": "Illustrator MCP Server",
-       "version": "0.9.0",
-       "website": null
-      }
+      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y adobe-mcp-illustrator",
      "security": {
@@ -3226,25 +3153,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/neozhehan/figma-edit-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Programmatically read, create, and modify Figma designs via MCP.",
-       "name": "io.github.neozhehan/figma-edit-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "figma-edit-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.3.3"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/neozhehan/figma-edit-mcp",
-       "title": null,
-       "version": "2.3.3",
-       "website": null
-      }
+      "url": "https://github.com/neozhehan/figma-edit-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y figma-edit-mcp",
      "security": {
@@ -3291,32 +3200,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/planetabhi/figma-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "A local MCP server with full Figma REST API coverage.",
-       "name": "io.github.planetabhi/figma-mcp-server",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Figma personal access token",
-           "name": "FIGMA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "figma-mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "3.1.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/planetabhi/figma-mcp-server",
-       "title": "Figma MCP Server",
-       "version": "3.1.1",
-       "website": null
-      }
+      "url": "https://github.com/planetabhi/figma-mcp-server/blob/HEAD/README.md"
      },
      "install": "npx -y figma-mcp-server",
      "security": {
@@ -3365,25 +3249,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/dannykeane/figmanage/blob/HEAD/README.md",
-      "record": {
-       "description": "Let agents manage your Figma workspace. 102 tools for seats, teams, offboarding, and cleanup.",
-       "name": "io.github.dannykeane/figmanage",
-       "packages": [
-        {
-         "env": [],
-         "id": "figmanage",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.5.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/dannykeane/figmanage",
-       "title": "figmanage",
-       "version": "1.5.2",
-       "website": null
-      }
+      "url": "https://github.com/dannykeane/figmanage/blob/HEAD/README.md"
      },
      "install": "npx -y figmanage",
      "security": {
@@ -3505,25 +3371,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/cmd8/excalidraw-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Model Context Protocol server for Excalidraw diagrams.",
-       "name": "io.github.cmd8/excalidraw-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "@cmd8/excalidraw-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/cmd8/excalidraw-mcp",
-       "title": null,
-       "version": "1.2.0",
-       "website": null
-      }
+      "url": "https://github.com/cmd8/excalidraw-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y @cmd8/excalidraw-mcp",
      "security": {
@@ -3570,25 +3418,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/debu-sinha/excalidraw-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Security-hardened Excalidraw MCP server with auth, rate limiting, and 14 tools",
-       "name": "io.github.debu-sinha/excalidraw",
-       "packages": [
-        {
-         "env": [],
-         "id": "excalidraw-mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.0.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/debu-sinha/excalidraw-mcp-server",
-       "title": null,
-       "version": "1.0.2",
-       "website": null
-      }
+      "url": "https://github.com/debu-sinha/excalidraw-mcp-server/blob/HEAD/README.md"
      },
      "install": "npx -y excalidraw-mcp-server",
      "security": {
@@ -3709,25 +3539,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/NBhey/figma-vault/blob/HEAD/README.md",
-      "record": {
-       "description": "Figma designs pulled once into a local vault; AI agents read them offline with no rate limits",
-       "name": "io.github.NBhey/figma-vault",
-       "packages": [
-        {
-         "env": [],
-         "id": "figma-vault",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.1.5"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/NBhey/figma-vault",
-       "title": "figma-vault",
-       "version": "0.1.5",
-       "website": "https://github.com/NBhey/figma-vault#readme"
-      }
+      "url": "https://github.com/NBhey/figma-vault/blob/HEAD/README.md"
      },
      "install": "npx -y figma-vault",
      "security": {
@@ -4094,25 +3906,7 @@
      "original": {
       "kind": "full",
       "license": "CC0-1.0",
-      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md",
-      "record": {
-       "description": "Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages",
-       "name": "io.github.joalavedra/andorra-fonts-publiques",
-       "packages": [
-        {
-         "env": [],
-         "id": "fonts-andorra",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "0.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/joalavedra/andorra-fonts-publiques",
-       "title": "Andorra public sources",
-       "version": "0.2.0",
-       "website": null
-      }
+      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md"
      },
      "install": "uvx fonts-andorra",
      "security": {
@@ -4348,7 +4142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136584,
+      "repo_stars": 136748,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4393,7 +4187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136584,
+      "repo_stars": 136748,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4438,7 +4232,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46729,
+      "repo_stars": 46840,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4483,7 +4277,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4528,7 +4322,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4573,7 +4367,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4618,7 +4412,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4663,8 +4457,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29887,
-      "repo_pushed_at": "2026-10-16"
+      "repo_stars": 29943,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4708,8 +4502,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29887,
-      "repo_pushed_at": "2026-10-16"
+      "repo_stars": 29943,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4753,8 +4547,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29887,
-      "repo_pushed_at": "2026-10-16"
+      "repo_stars": 29943,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4798,7 +4592,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25774,
+      "repo_stars": 25778,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-17
-updated_at: 2026-10-17T00:33:10Z
+updated_at: 2026-10-17T13:43:47Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -43,20 +43,15 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/aZktlS8No2Ur9nlhKRcy8
   needs_credentials: false, writes_external: false
-- [template] Newsletter Writer. Pulls what shipped from launches, wins and your calendar, writes the issue in your voice, and parks it for you to send.
-  source: https://botsdots.site/templates/newsletter-writer
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/s5d2839123b973b4480f9
-  needs_credentials: false, writes_external: false
-- [template] Email Newsletter Daily Report. Subscribe your newsletters and podcasts to this bot's email and get a daily report with an executive summary, per-item summaries.
-  source: https://botsdots.site/templates/email-newsletter-daily-report
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk
-  needs_credentials: false, writes_external: false
 - [template] Newsletter Editor. Runs the day-to-day of a weekly beehiiv newsletter: drafts from your outlines, sends test emails, claims ads, schedules after your approval.
   source: https://botsdots.site/templates/newsletter-editor-wdti
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/_WDTIZiZCF43PWKoL5iUE
+  needs_credentials: false, writes_external: false
+- [template] Newsletter Writer. Pulls what shipped from launches, wins and your calendar, writes the issue in your voice, and parks it for you to send.
+  source: https://botsdots.site/templates/newsletter-writer
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/s5d2839123b973b4480f9
   needs_credentials: false, writes_external: false
 - [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. Cited newsletter issue with three subject lines and one clear CTA
   source: https://botsdots.site/templates/newsletter-desk-inbox-worthy

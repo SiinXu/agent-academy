@@ -2,7 +2,7 @@
  "id": "marketing/growth-marketer",
  "industry": "marketing",
  "role": "growth-marketer",
- "updated_at": "2026-10-17T00:33:10Z",
+ "updated_at": "2026-10-17T13:43:47Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -23,6 +23,77 @@
   {
    "step": "2-pick-direction",
    "read": [
+    {
+     "id": "botsdots-marketing-manager",
+     "title": "Marketing Manager",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "Helps independent and AI-assisted musicians get their songs heard with free, low-key promotion across YouTube, Spotify, and music communities.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/marketing-manager",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "PaulHPowell13",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/marketing-manager",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/GW1Db37PnYoLXuaxX_Si-",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "PaulHPowell13",
+       "firstSeen": "2026-10-16",
+       "integrations": [
+        "youtube"
+       ],
+       "name": "Marketing Manager",
+       "official": false,
+       "page": "https://botsdots.site/templates/marketing-manager",
+       "risk": "low",
+       "summary": "Helps independent and AI-assisted musicians get their songs heard with free, low-key promotion across YouTube, Spotify, and music communities."
+      }
+     },
+     "install": "https://x.ai/bot/GW1Db37PnYoLXuaxX_Si-",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": [
+       "youtube"
+      ]
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-10-16"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T14:52:06Z",
+     "updated_at": "2026-10-17T13:43:47Z",
+     "checked_at": "2026-10-16T14:52:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-marketing-manager/",
+     "source": "botsdots"
+    },
     {
      "id": "botsdots-zealt-chief-of-staff",
      "title": "Zealt Chief of Staff",
@@ -88,76 +159,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-zealt-chief-of-staff/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-marketing-manager",
-     "title": "Marketing Manager",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "growth-marketer"
-     ],
-     "summary": "Helps independent and AI-assisted musicians get their songs heard with free, low-key promotion across YouTube, Spotify, and music communities.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/marketing-manager",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "PaulHPowell13",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/marketing-manager",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/GW1Db37PnYoLXuaxX_Si-",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot.dev (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "PaulHPowell13",
-       "firstSeen": "2026-10-16",
-       "integrations": [
-        "youtube"
-       ],
-       "name": "Marketing Manager",
-       "official": false,
-       "page": "https://botsdots.site/templates/marketing-manager",
-       "risk": "low",
-       "summary": "Helps independent and AI-assisted musicians get their songs heard with free, low-key promotion across YouTube, Spotify, and music communities."
-      }
-     },
-     "install": "https://x.ai/bot/GW1Db37PnYoLXuaxX_Si-",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": [
-       "youtube"
-      ]
-     },
-     "metrics": {
-      "score": 9,
-      "first_seen_catalog": "2026-10-16"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-16T14:52:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-marketing-manager/",
      "source": "botsdots"
     },
     {
@@ -355,7 +356,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -400,7 +401,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -445,7 +446,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -490,7 +491,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -535,7 +536,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -580,7 +581,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -625,7 +626,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -670,7 +671,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -715,7 +716,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -760,7 +761,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -805,7 +806,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25774,
+      "repo_stars": 25778,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -850,7 +851,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25774,
+      "repo_stars": 25778,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1376,7 +1377,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1421,7 +1422,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1466,7 +1467,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1511,7 +1512,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1556,7 +1557,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",

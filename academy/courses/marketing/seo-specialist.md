@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-17
-updated_at: 2026-10-17T00:33:10Z
+updated_at: 2026-10-17T13:43:47Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -73,6 +73,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Viv2NbC5skPslV1WH9Fs7
   needs_credentials: false, writes_external: false
+- [template] SEO & GEO Bot. Finds what your buyers search on Google and ask AI assistants, then turns it into ranked ideas, writer briefs.
+  source: https://botsdots.site/templates/seo-geo-bot
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/5iHGngaDIvmt1Mh-ef3_w
+  needs_credentials: false, writes_external: true
 - [template] SEO Content Desk (seodraft). SEO writing desk for your own blog: topics, SERP briefs, drafts from sources via seodraft MCP
   source: https://botsdots.site/templates/seo-content-desk-seodraft
   license: template belongs to its creator (catalog CC0)
@@ -92,11 +97,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/site-audit
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW
-  needs_credentials: false, writes_external: false
-- [template] Site Audit. SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics
-  source: https://botsdots.site/templates/site-audit-rzrr
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -283,12 +283,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @hasdata/tiktok-mcp
   needs_credentials: true, writes_external: false
-- [mcp] SEO Tools: A-Parser bridge. Bridge to a self-hosted A-Parser: SERP, suggests and 150+ parsers via its API (read-only).
-  source: https://github.com/antohins/seo-tools-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-antohins-seo-tools-mcp-aparser.md
-  license: MIT
-  install: npx -y seo-tools-mcp-aparser
-  needs_credentials: true, writes_external: false
 - [mcp] com.superagnt/tiktok-data. TikTok data for AI agents: videos, creators, sounds, hashtags, trends. Content + creator research.
   source: https://github.com/superagnt/plugins
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md
@@ -330,6 +324,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y seo-webmaster-mcp
   needs_credentials: false, writes_external: false
+- [mcp] VibeSEO. SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.
+  source: https://github.com/sultanlive/vibeseo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-vibeseo-vibeseo.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.vibeseo.dev/mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

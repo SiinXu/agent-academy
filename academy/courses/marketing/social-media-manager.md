@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-17
-updated_at: 2026-10-17T00:33:10Z
+updated_at: 2026-10-17T13:43:47Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -63,6 +63,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N
   needs_credentials: true, writes_external: false
+- [template] Social Sidekick — A Week of Posts, Planned in One Sitting. Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.
+  source: https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
+  needs_credentials: false, writes_external: true
 
 ## Step 3: Learn the rules
 

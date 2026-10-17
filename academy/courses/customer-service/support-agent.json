@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-17T00:33:10Z",
+ "updated_at": "2026-10-17T13:43:47Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1363,7 +1363,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1683,7 +1683,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142024,
+      "repo_stars": 142091,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "4-do-it",
@@ -1728,7 +1728,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30092,
+      "repo_stars": 30098,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "4-do-it",
@@ -1851,62 +1851,7 @@
      "original": {
       "kind": "full",
       "license": "Apache-2.0",
-      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md",
-      "record": {
-       "description": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
-       "name": "io.github.Servosity/hubspot-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Set the HUBSPOT_ACCESS_TOKEN credential for the HubSpot MCP server.",
-           "name": "HUBSPOT_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Base URL for the HubSpot API. Leave the prefilled default unless your account uses a different regional or self-hosted host.",
-           "name": "HUBSPOT_BASE_URL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
-           "name": "HUBSPOT_OWNER_EMAIL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Bearer token required by `hubspot-mcp --transport http`; unused by the default stdio transport.",
-           "name": "HUBSPOT_MCP_HTTP_TOKEN",
-           "required": null,
-           "secret": true
-          },
-          {
-           "description": "Overrides the User-Agent the CLI sends on HubSpot requests.",
-           "name": "HUBSPOT_USER_AGENT",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Binds this MCP server to one tenant-gated client profile, so every call answers for that customer. Leave blank to use the profile configured as default_client_profile.",
-           "name": "PRINTING_PRESS_CLIENT_PROFILE",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.2/hubspot-mcp.mcpb",
-         "transport": "stdio",
-         "type": "mcpb",
-         "version": "0.2.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/servosity/msp-skills",
-       "title": "HubSpot MCP",
-       "version": "0.2.2",
-       "website": null
-      }
+      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md"
      },
      "install": null,
      "security": {
@@ -1924,7 +1869,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 59,
+      "repo_stars": 60,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-10-16"
      },
@@ -2032,62 +1977,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md",
-      "record": {
-       "description": "Relays messages between two Claude Code sessions on different machines using the Channels API",
-       "name": "io.github.MuhammadTalhaMT/intercom",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Label for this instance, e.g. backend or frontend. Appears in message tags so the other side knows who is talking.",
-           "name": "MY_ROLE",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "Address of the other machine as host:port. A Tailscale address is recommended over a public one.",
-           "name": "REMOTE_HOST",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "Shared secret authenticating messages between the two instances. Must match on both sides. There is no default: without it the intercom starts unpaired, binds no port, and refuses to send.",
-           "name": "INTERCOM_SECRET",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Port to listen on for incoming messages. Defaults to 8788.",
-           "name": "INTERCOM_PORT",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Interface to bind the listener to. Defaults to 0.0.0.0. Set 127.0.0.1 when a tunnel fronts the intercom, so only the tunnel can connect.",
-           "name": "INTERCOM_HOST",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "How long an outbound POST may hang before giving up. Defaults to 10000.",
-           "name": "INTERCOM_SEND_TIMEOUT_MS",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "claude-intercom",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.1.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/MuhammadTalhaMT/claude-intercom",
-       "title": null,
-       "version": "2.1.0",
-       "website": null
-      }
+      "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md"
      },
      "install": "npx -y claude-intercom",
      "security": {
@@ -2180,7 +2070,7 @@
      },
      "metrics": {
       "repo_stars": 13,
-      "repo_pushed_at": "2026-10-16",
+      "repo_pushed_at": "2026-10-17",
       "registry_updated_at": "2026-10-15"
      },
      "course_step": "4-do-it",
@@ -2401,25 +2291,7 @@
      "original": {
       "kind": "full",
       "license": "Apache-2.0",
-      "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Zendesk MCP server for Claude Code and other MCP clients",
-       "name": "io.github.michaelrice/zendesk-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "zendesk-mcp",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "0.1.6"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/michaelrice/zendesk-mcp",
-       "title": null,
-       "version": "0.1.6",
-       "website": null
-      }
+      "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md"
      },
      "install": "uvx zendesk-mcp",
      "security": {

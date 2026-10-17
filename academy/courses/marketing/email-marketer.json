@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-10-17T00:33:10Z",
+ "updated_at": "2026-10-17T13:43:47Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -236,6 +236,76 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-newsletter-editor-wdti",
+     "title": "Newsletter Editor",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Runs the day-to-day of a weekly beehiiv newsletter: drafts from your outlines, sends test emails, claims ads, schedules after your approval.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/newsletter-editor-wdti",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "sholabuilds",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/newsletter-editor-wdti",
+      "record": {
+       "access": [
+        "inbox",
+        "calendar"
+       ],
+       "add": "https://x.ai/bot/_WDTIZiZCF43PWKoL5iUE",
+       "cadence": "weekly",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "sholabuilds",
+       "firstSeen": "2026-10-16",
+       "integrations": [],
+       "name": "Newsletter Editor",
+       "official": false,
+       "page": "https://botsdots.site/templates/newsletter-editor-wdti",
+       "risk": "medium",
+       "summary": "Runs the day-to-day of a weekly beehiiv newsletter: drafts from your outlines, sends test emails, claims ads, schedules after your approval."
+      }
+     },
+     "install": "https://x.ai/bot/_WDTIZiZCF43PWKoL5iUE",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-10-16"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T14:52:06Z",
+     "updated_at": "2026-10-17T13:43:47Z",
+     "checked_at": "2026-10-16T14:52:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-newsletter-editor-wdti/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-newsletter-writer",
      "title": "Newsletter Writer",
      "type": "template",
@@ -303,144 +373,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-newsletter-writer/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-email-newsletter-daily-report",
-     "title": "Email Newsletter Daily Report",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Subscribe your newsletters and podcasts to this bot's email and get a daily report with an executive summary, per-item summaries.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/email-newsletter-daily-report",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "BrianRoemmele",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/email-newsletter-daily-report",
-      "record": {
-       "access": [
-        "inbox",
-        "code"
-       ],
-       "add": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk",
-       "cadence": "daily",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "research-briefings",
-       "creator": "BrianRoemmele",
-       "firstSeen": "2026-10-15",
-       "integrations": [],
-       "name": "Email Newsletter Daily Report",
-       "official": false,
-       "page": "https://botsdots.site/templates/email-newsletter-daily-report",
-       "risk": "medium",
-       "summary": "Subscribe your newsletters and podcasts to this bot's email and get a daily report with an executive summary, per-item summaries."
-      }
-     },
-     "install": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "medium",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 9,
-      "first_seen_catalog": "2026-10-15"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T10:29:38Z",
-     "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-16T10:29:38Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-email-newsletter-daily-report/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-newsletter-editor-wdti",
-     "title": "Newsletter Editor",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Runs the day-to-day of a weekly beehiiv newsletter: drafts from your outlines, sends test emails, claims ads, schedules after your approval.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/newsletter-editor-wdti",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "sholabuilds",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/newsletter-editor-wdti",
-      "record": {
-       "access": [
-        "inbox",
-        "calendar"
-       ],
-       "add": "https://x.ai/bot/_WDTIZiZCF43PWKoL5iUE",
-       "cadence": "weekly",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot.dev (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "sholabuilds",
-       "firstSeen": "2026-10-16",
-       "integrations": [],
-       "name": "Newsletter Editor",
-       "official": false,
-       "page": "https://botsdots.site/templates/newsletter-editor-wdti",
-       "risk": "medium",
-       "summary": "Runs the day-to-day of a weekly beehiiv newsletter: drafts from your outlines, sends test emails, claims ads, schedules after your approval."
-      }
-     },
-     "install": "https://x.ai/bot/_WDTIZiZCF43PWKoL5iUE",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "medium",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 9,
-      "first_seen_catalog": "2026-10-16"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-16T14:52:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-newsletter-editor-wdti/",
      "source": "botsdots"
     },
     {
@@ -913,7 +845,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -958,7 +890,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1003,7 +935,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1048,7 +980,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1093,7 +1025,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1138,8 +1070,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29887,
-      "repo_pushed_at": "2026-10-16"
+      "repo_stars": 29943,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1183,8 +1115,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29887,
-      "repo_pushed_at": "2026-10-16"
+      "repo_stars": 29943,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1740,32 +1672,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker/blob/HEAD/README.md",
-      "record": {
-       "description": "Follow a creator bio link and report the newsletter, what they sell, and the contact emails.",
-       "name": "com.mambabuilt/mcp-link-in-bio-newsletter-checker",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Apify API token from https://console.apify.com/account/integrations",
-           "name": "APIFY_TOKEN",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@mambalabsdev/mcp-link-in-bio-newsletter-checker",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker",
-       "title": null,
-       "version": "1.2.0",
-       "website": null
-      }
+      "url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker/blob/HEAD/README.md"
      },
      "install": "npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker",
      "security": {
@@ -2469,7 +2376,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2514,7 +2421,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2559,7 +2466,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2604,7 +2511,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2649,7 +2556,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",

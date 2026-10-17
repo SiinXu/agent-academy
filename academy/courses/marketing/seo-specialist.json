@@ -2,7 +2,7 @@
  "id": "marketing/seo-specialist",
  "industry": "marketing",
  "role": "seo-specialist",
- "updated_at": "2026-10-17T00:33:10Z",
+ "updated_at": "2026-10-17T13:43:47Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -638,6 +638,77 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-seo-geo-bot",
+     "title": "SEO & GEO Bot",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "Finds what your buyers search on Google and ask AI assistants, then turns it into ranked ideas, writer briefs.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/seo-geo-bot",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "antoine_cre",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/seo-geo-bot",
+      "record": {
+       "access": [
+        "code",
+        "money"
+       ],
+       "add": "https://x.ai/bot/5iHGngaDIvmt1Mh-ef3_w",
+       "cadence": "weekly",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "research-briefings",
+       "creator": "antoine_cre",
+       "firstSeen": "2026-10-17",
+       "integrations": [],
+       "name": "SEO & GEO Bot",
+       "official": false,
+       "page": "https://botsdots.site/templates/seo-geo-bot",
+       "risk": "high",
+       "summary": "Finds what your buyers search on Google and ask AI assistants, then turns it into ranked ideas, writer briefs."
+      }
+     },
+     "install": "https://x.ai/bot/5iHGngaDIvmt1Mh-ef3_w",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-10-17"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-17T13:43:47Z",
+     "checked_at": "2026-10-16T10:29:38Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-seo-geo-bot/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-seo-content-desk-seodraft",
      "title": "SEO Content Desk (seodraft)",
      "type": "template",
@@ -910,73 +981,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-site-audit/",
      "source": "botsdots"
-    },
-    {
-     "id": "botsdots-site-audit-rzrr",
-     "title": "Site Audit",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "seo-specialist"
-     ],
-     "summary": "SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/site-audit-rzrr",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "community",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/site-audit-rzrr",
-      "record": {
-       "access": [
-        "browser"
-       ],
-       "add": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
-       "cadence": "monthly",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot"
-       ],
-       "category": "content-publishing",
-       "creator": null,
-       "firstSeen": "2026-10-09",
-       "integrations": [],
-       "name": "Site Audit",
-       "official": true,
-       "page": "https://botsdots.site/templates/site-audit-rzrr",
-       "risk": "medium",
-       "summary": "SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics"
-      }
-     },
-     "install": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "medium",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 13,
-      "first_seen_catalog": "2026-10-09"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-site-audit-rzrr/",
-     "source": "botsdots"
     }
    ]
   },
@@ -1195,7 +1199,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1240,7 +1244,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1285,7 +1289,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1330,7 +1334,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1375,7 +1379,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1420,7 +1424,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1465,7 +1469,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1510,7 +1514,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1555,7 +1559,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1600,7 +1604,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1645,7 +1649,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1690,7 +1694,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1735,7 +1739,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1780,7 +1784,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1825,7 +1829,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1870,7 +1874,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1915,7 +1919,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1960,7 +1964,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2005,7 +2009,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2050,7 +2054,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2190,7 +2194,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142024,
+      "repo_stars": 142091,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "4-do-it",
@@ -2261,7 +2265,7 @@
      },
      "metrics": {
       "repo_stars": 578,
-      "repo_pushed_at": "2026-10-16",
+      "repo_pushed_at": "2026-10-17",
       "registry_updated_at": "2026-10-16"
      },
      "course_step": "4-do-it",
@@ -2359,25 +2363,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/trendsmcp-ai/Trends-MCP/blob/HEAD/README.md",
-      "record": {
-       "description": "Spot keyword demand rising or fading. Trend volume and growth signals. Free key at trendsmcp.ai",
-       "name": "ai.trendsmcp/seo",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://seo.api.trendsmcp.ai/mcp"
-        }
-       ],
-       "repository": "https://github.com/trendsmcp-ai/Trends-MCP",
-       "title": "SEO Trends MCP",
-       "version": "1.0.2",
-       "website": "https://trendsmcp.ai"
-      }
+      "url": "https://github.com/trendsmcp-ai/Trends-MCP/blob/HEAD/README.md"
      },
      "install": "remote (streamable-http): https://seo.api.trendsmcp.ai/mcp",
      "security": {
@@ -2483,54 +2469,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/HasData/tiktok-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Public TikTok profiles, videos, comments and keyword search as JSON. No developer account.",
-       "name": "com.hasdata/tiktok",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
-           "name": "HASDATA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@hasdata/tiktok-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.0.7"
-        },
-        {
-         "env": [
-          {
-           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
-           "name": "HASDATA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "hasdata-tiktok-mcp",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "1.0.7"
-        }
-       ],
-       "remotes": [
-        {
-         "headers": [
-          "x-api-key"
-         ],
-         "type": "streamable-http",
-         "url": "https://mcp.hasdata.com/mcp?apis=tiktok"
-        }
-       ],
-       "repository": "https://github.com/HasData/tiktok-mcp",
-       "title": "HasData TikTok",
-       "version": "1.0.7",
-       "website": "https://hasdata.com/apis/tiktok-scraper-api"
-      }
+      "url": "https://github.com/HasData/tiktok-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y @hasdata/tiktok-mcp",
      "security": {
@@ -2558,115 +2497,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-hasdata-tiktok/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-antohins-seo-tools-mcp-aparser",
-     "title": "SEO Tools: A-Parser bridge",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "seo-specialist"
-     ],
-     "summary": "Bridge to a self-hosted A-Parser: SERP, suggests and 150+ parsers via its API (read-only).",
-     "summary_lang": "en",
-     "source_url": "https://github.com/antohins/seo-tools-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-antohins-seo-tools-mcp-aparser.md",
-     "upstream_raw_url": null,
-     "repo": "antohins/seo-tools-mcp",
-     "author": "io.github.antohins",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/antohins/seo-tools-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Bridge to a self-hosted A-Parser: SERP, suggests and 150+ parsers via its API (read-only).",
-       "name": "io.github.antohins/seo-tools-mcp-aparser",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "A-Parser API endpoint, e.g. http://IP:9091/API (Settings -> API).",
-           "name": "APARSER_URL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "A-Parser API password (Settings -> API).",
-           "name": "APARSER_PASSWORD",
-           "required": null,
-           "secret": true
-          },
-          {
-           "description": "Default config preset for SE::Google (preset name from the GUI).",
-           "name": "APARSER_GOOGLE_PRESET",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Default config preset for SE::Yandex (preset name from the GUI).",
-           "name": "APARSER_YANDEX_PRESET",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Default proxy checker groups, comma-separated.",
-           "name": "APARSER_PROXY_CHECKERS",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Use proxies by default (true/false; default true).",
-           "name": "APARSER_USE_PROXY",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "seo-tools-mcp-aparser",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.8.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/antohins/seo-tools-mcp",
-       "title": "SEO Tools: A-Parser bridge",
-       "version": "1.8.0",
-       "website": "https://github.com/antohins/seo-tools-mcp#readme"
-      }
-     },
-     "install": "npx -y seo-tools-mcp-aparser",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "APARSER_URL",
-       "APARSER_PASSWORD",
-       "APARSER_GOOGLE_PRESET",
-       "APARSER_YANDEX_PRESET",
-       "APARSER_PROXY_CHECKERS",
-       "APARSER_USE_PROXY"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 7,
-      "repo_pushed_at": "2026-10-02",
-      "registry_updated_at": "2026-08-25"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-antohins-seo-tools-mcp-aparser/",
      "source": "mcp-registry"
     },
     {
@@ -3050,23 +2880,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/harrisonjdahl3/agency-mcp-plugin/blob/HEAD/README.md",
-      "record": {
-       "description": "Run client marketing from your AI assistant, or let Autopilot: Google Ads, GA4, SEO, Meta, CRM",
-       "name": "com.jiyumarketing.mcp/agency-mcp",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.jiyumarketing.com/mcp?src=registry"
-        }
-       ],
-       "repository": "https://github.com/harrisonjdahl3/agency-mcp-plugin",
-       "title": "Agency Autopilot",
-       "version": "1.4.3",
-       "website": "https://getagencyautopilot.com"
-      }
+      "url": "https://github.com/harrisonjdahl3/agency-mcp-plugin/blob/HEAD/README.md"
      },
      "install": "remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry",
      "security": {
@@ -3244,6 +3058,69 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-jvnndev-seo-webmaster-mcp/",
      "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-dev-vibeseo-vibeseo",
+     "title": "VibeSEO",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/sultanlive/vibeseo-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-vibeseo-vibeseo.md",
+     "upstream_raw_url": null,
+     "repo": "sultanlive/vibeseo-mcp",
+     "author": "dev.vibeseo",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sultanlive/vibeseo-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.",
+       "name": "dev.vibeseo/vibeseo",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.vibeseo.dev/mcp"
+        }
+       ],
+       "repository": "https://github.com/sultanlive/vibeseo-mcp",
+       "title": "VibeSEO",
+       "version": "0.1.4",
+       "website": "https://vibeseo.dev/mcp"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.vibeseo.dev/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-10-04",
+      "registry_updated_at": "2026-09-24"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-dev-vibeseo-vibeseo/",
+     "source": "mcp-registry"
     }
    ]
   },
@@ -3371,7 +3248,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -3416,7 +3293,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -3461,7 +3338,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -3506,7 +3383,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -3551,7 +3428,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",

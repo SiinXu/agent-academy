@@ -2,7 +2,7 @@
  "id": "marketing/social-media-manager",
  "industry": "marketing",
  "role": "social-media-manager",
- "updated_at": "2026-10-17T00:33:10Z",
+ "updated_at": "2026-10-17T13:43:47Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -512,6 +512,73 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-tracker/",
      "source": "botsdots"
+    },
+    {
+     "id": "botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting",
+     "title": "Social Sidekick — A Week of Posts, Planned in One Sitting",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "NewsGurus",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
+      "record": {
+       "access": [
+        "publishing"
+       ],
+       "add": "https://x.ai/bot/V84j989EfSSeuL0On3JSR",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "NewsGurus",
+       "firstSeen": "2026-10-17",
+       "integrations": [],
+       "name": "Social Sidekick — A Week of Posts, Planned in One Sitting",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
+       "risk": "high",
+       "summary": "Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes."
+      }
+     },
+     "install": "https://x.ai/bot/V84j989EfSSeuL0On3JSR",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-17"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-17T13:43:47Z",
+     "updated_at": "2026-10-17T13:43:47Z",
+     "checked_at": "2026-10-17T13:43:47Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting/",
+     "source": "botsdots"
     }
    ]
   },
@@ -549,7 +616,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -594,7 +661,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -639,7 +706,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -684,7 +751,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25774,
+      "repo_stars": 25778,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1523,7 +1590,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1568,7 +1635,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55116,
+      "repo_stars": 55193,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1613,7 +1680,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1658,7 +1725,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1703,7 +1770,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40926,
+      "repo_stars": 40955,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
