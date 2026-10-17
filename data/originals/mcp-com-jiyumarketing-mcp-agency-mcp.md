@@ -8,7 +8,7 @@ Also works as a connector in ChatGPT, Codex and any assistant that takes a custo
 
 Run a marketing agency from the conversation. This plugin installs the **Agency Autopilot** connector and a set of skills that know how to use it: **Autopilot** (a hands-off weekly pass that works each client end to end and learns from what brings in leads), SEO audits, keyword research, on-page content, Google Ads and Meta Ads management, hosted lead forms, CRM follow-up and branded client reports.
 
-Agency Autopilot (https://mcp.jiyumarketing.com) connects the accounts your agency already manages — Google Analytics, Search Console, Google Ads, Meta ads, WordPress and HighLevel — to Claude. It only ever sees what your own logins can reach, and **every change is previewed first and applied only when you confirm it.**
+Agency Autopilot (https://getagencyautopilot.com) connects the accounts your agency already manages — Google Analytics, Search Console, Google Ads, Meta ads, WordPress and HighLevel — to Claude. It only ever sees what your own logins can reach, and **every change is previewed first and applied only when you confirm it.**
 
 ## Install
 
@@ -37,6 +37,7 @@ Pricing: free for one client; paid plans are per client (see the site). No cost 
 | `seo-content` | Drafts or optimizes a page or post on the client's WordPress site (Elementor pages included, with the Bridge plugin 1.3.0+), including title, meta description and JSON-LD. |
 | `google-ads-manager` | Reports, search-term hygiene, negatives, budgets, pauses and new campaign builds, all previewed and validated by Google before anything applies. |
 | `meta-ads-manager` | Meta (Facebook and Instagram) campaign reporting, status and budget changes with the same preview-then-confirm discipline. |
+| `find-prospects` | Finds local businesses in any trade and area, checks each website, ranks the ones you could help most and drafts a first email, follow-up and phone opener. One credit per business; 100 free to start. Nothing is sent. |
 | `crm-followup` | HighLevel: who is waiting on a reply, pipeline and won-work numbers, appointments, and prospect creation when writes are enabled. |
 | `client-report` | A clear, jargon-free weekly or monthly report across every channel a client has linked, published as a branded shareable page. |
 | `local-seo-gbp` | Google Business Profile reviews, posts and performance — activates when the Business Profile tools are enabled on your account. |

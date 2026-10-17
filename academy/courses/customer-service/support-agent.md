@@ -1,8 +1,8 @@
 ---
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-16
-updated_at: 2026-10-16T14:52:06Z
+version: 2026-10-17
+updated_at: 2026-10-17T00:33:10Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -205,12 +205,23 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @codespar/mcp-shopify
   needs_credentials: true, writes_external: false
+- [mcp] HubSpot MCP. Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history
+  source: https://github.com/Servosity/msp-skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md
+  license: Apache-2.0
+  needs_credentials: true, writes_external: false
 - [mcp] com.mcparmory/shopify-admin. Manage products, orders, customers, inventory, and store configuration
   source: https://github.com/mcparmory/registry
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mcparmory-shopify-admin.md
   license: MIT
   install: uvx mcparmory-shopify-admin
   needs_credentials: false, writes_external: true
+- [mcp] io.github.MuhammadTalhaMT/intercom. Relays messages between two Claude Code sessions on different machines using the Channels API
+  source: https://github.com/MuhammadTalhaMT/claude-intercom
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md
+  license: MIT
+  install: npx -y claude-intercom
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
   source: https://github.com/fruggr/zendesk-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
@@ -246,18 +257,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y jitbit-helpdesk-mcp
   needs_credentials: true, writes_external: true
-- [mcp] io.github.miller-joe/shopify-mcp. MCP server for Shopify Admin API with a ComfyUI bridge for AI product image generation.
-  source: https://github.com/miller-joe/shopify-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miller-joe-shopify-mcp.md
-  license: MIT
-  install: npx -y @miller-joe/shopify-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.den-indance/shopify-mcp-pro. Shopify MCP server with real analytics (ShopifyQL), auto-refresh auth, and Shopify API 2026-04.
-  source: https://github.com/den-indance/shopify-mcp-pro
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-den-indance-shopify-mcp-pro.md
-  license: MIT
-  install: npx -y @den.dance/shopify-mcp-pro
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

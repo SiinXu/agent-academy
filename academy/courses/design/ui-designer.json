@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-16T14:52:06Z",
+ "updated_at": "2026-10-17T00:33:10Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29853,
+      "repo_stars": 29887,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "4-do-it",
@@ -1330,52 +1330,6 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-awd-12-mil",
-     "title": "12 Mil",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "12mil Music was created to bring Latin talent to the world with a global, stereotype-free vision, building real connections between artists and superfans...",
-     "summary_lang": "en",
-     "source_url": "https://docemilmusic.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Contra Studio",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-16T14:52:06Z",
-     "http_status": {
-      "source": 402
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-awd-12-mil/",
-     "source": "ui-hub"
-    },
-    {
      "id": "uihub-awd-18-years-of-buro",
      "title": "18 years of Büro",
      "type": "style-library",
@@ -1419,52 +1373,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-awd-18-years-of-buro/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-rto4yih-1password-a-vision-of-the-future",
-     "title": "1Password: A Vision of the Future",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "1Password's scrolling microsite illustrates the growing complexity of online sign-ins and envisions a simpler passwordless future with one-click authentication.",
-     "summary_lang": "en",
-     "source_url": "https://www.future.1password.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "future.1password.com",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-16T14:52:06Z",
-     "http_status": {
-      "source": 0
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-rto4yih-1password-a-vision-of-the-future/",
      "source": "ui-hub"
     },
     {
@@ -1880,6 +1788,98 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-mkozhk7-3d-image-globe/",
      "source": "ui-hub"
+    },
+    {
+     "id": "uihub-rd-49ta02w-3d-neon-logo-signs",
+     "title": "3D Neon Logos",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "AI-generated 3D renders transforming iconic brand logos into realistic glowing neon tube signs, showcasing McDonald's, Airbnb, Spotify, and Grok with cinematic studio lighting on black backgrounds.",
+     "summary_lang": "en",
+     "source_url": "https://x.com/doganuraldesign/status/2088750386605916429",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@doganuraldesign",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T14:52:06Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-16T14:52:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-49ta02w-3d-neon-logo-signs/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-rd-qkfor3e-3d-product-explorations",
+     "title": "3D Product Explorations",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "A three-year archive of 3D product concept renders by PeterTarka, spanning gadgets, cameras, wearables, and appliances with meticulous material and lighting craft.",
+     "summary_lang": "en",
+     "source_url": "https://x.com/PeterTarka/status/2087476514413498691",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@petertarka",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T14:52:06Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-16T14:52:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-qkfor3e-3d-product-explorations/",
+     "source": "ui-hub"
     }
    ]
   },
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181530,
+      "repo_stars": 181606,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181530,
+      "repo_stars": 181606,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,7 +2007,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136468,
+      "repo_stars": 136584,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46640,
+      "repo_stars": 46729,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40903,
+      "repo_stars": 40926,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40903,
+      "repo_stars": 40926,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40903,
+      "repo_stars": 40926,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2772,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 141995,
+      "repo_stars": 142024,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "4-do-it",
@@ -2845,7 +2845,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16001,
+      "repo_stars": 15999,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-06-18"
      },
@@ -2909,7 +2909,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2078,
+      "repo_stars": 2079,
       "repo_pushed_at": "2026-10-15",
       "registry_updated_at": "2025-10-16"
      },
@@ -3138,7 +3138,44 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe Illustrator from any MCP client: artwork, type, colour, effects, data and export.",
+       "name": "io.github.zachshallbetter/adobe-mcp-illustrator",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "macOS only: address a specific copy, e.g. \"Adobe Illustrator 2025\". Default: Illustrator by bundle id",
+           "name": "ILLUSTRATOR_APP_NAME",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
+           "name": "ILLUSTRATOR_ALLOWED_DIRS",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "How long to wait for Illustrator before reporting that a dialog may be open. Default 120000",
+           "name": "ILLUSTRATOR_SCRIPT_TIMEOUT_MS",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "adobe-mcp-illustrator",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.9.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/zachshallbetter/adobe-mcp",
+       "title": "Illustrator MCP Server",
+       "version": "0.9.0",
+       "website": null
+      }
      },
      "install": "npx -y adobe-mcp-illustrator",
      "security": {
@@ -3154,7 +3191,7 @@
      },
      "metrics": {
       "repo_stars": 25,
-      "repo_pushed_at": "2026-10-15",
+      "repo_pushed_at": "2026-10-17",
       "registry_updated_at": "2026-10-15"
      },
      "course_step": "4-do-it",
@@ -3328,7 +3365,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/dannykeane/figmanage/blob/HEAD/README.md"
+      "url": "https://github.com/dannykeane/figmanage/blob/HEAD/README.md",
+      "record": {
+       "description": "Let agents manage your Figma workspace. 102 tools for seats, teams, offboarding, and cleanup.",
+       "name": "io.github.dannykeane/figmanage",
+       "packages": [
+        {
+         "env": [],
+         "id": "figmanage",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.5.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/dannykeane/figmanage",
+       "title": "figmanage",
+       "version": "1.5.2",
+       "website": null
+      }
      },
      "install": "npx -y figmanage",
      "security": {
@@ -3376,7 +3431,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/felixAnhalt/figma-to-code-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/felixAnhalt/figma-to-code-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "LLM-optimized Figma MCP server.",
+       "name": "io.github.felixAnhalt/Figma-Context-MCP",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
+           "name": "FIGMA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@tmegit/figma-developer-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.13.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/felixAnhalt/Figma-Context-MCP",
+       "title": null,
+       "version": "0.13.0",
+       "website": null
+      }
      },
      "install": "npx -y @tmegit/figma-developer-mcp",
      "security": {
@@ -4268,7 +4348,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136468,
+      "repo_stars": 136584,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4313,7 +4393,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136468,
+      "repo_stars": 136584,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4358,7 +4438,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 46640,
+      "repo_stars": 46729,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4403,7 +4483,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40903,
+      "repo_stars": 40926,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4448,7 +4528,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40903,
+      "repo_stars": 40926,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4493,7 +4573,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40903,
+      "repo_stars": 40926,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4538,7 +4618,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40903,
+      "repo_stars": 40926,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4583,7 +4663,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29853,
+      "repo_stars": 29887,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
@@ -4628,7 +4708,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29853,
+      "repo_stars": 29887,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
@@ -4673,7 +4753,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29853,
+      "repo_stars": 29887,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
@@ -4718,7 +4798,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25761,
+      "repo_stars": 25774,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

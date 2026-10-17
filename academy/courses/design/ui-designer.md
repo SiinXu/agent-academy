@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-16
-updated_at: 2026-10-16T14:52:06Z
+version: 2026-10-17
+updated_at: 2026-10-17T00:33:10Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,12 +94,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1353 items
-- motion: 673 items
-- 3d: 626 items
-- editorial: 595 items
-- playful: 544 items
-- gradient: 285 items
+- minimal: 1337 items
+- motion: 643 items
+- 3d: 608 items
+- editorial: 588 items
+- playful: 529 items
+- gradient: 282 items
 - retro: 115 items
 - dark-tech: 107 items
 - glass: 52 items
@@ -164,16 +164,8 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://x.com/mrblackstudio/status/2091775071350128796
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 12 Mil. 12mil Music was created to bring Latin talent to the world with a global, stereotype-free vision, building real connections between artists and superfans...
-  source: https://docemilmusic.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 - [style-library] 18 years of Büro. Bürocratik—18 years in the making. An interactive timeline of our design craft journey, by and for the Büros.Magic People, Büro People!
   source: https://18.burocratik.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 1Password: A Vision of the Future. 1Password's scrolling microsite illustrates the growing complexity of online sign-ins and envisions a simpler passwordless future with one-click authentication.
-  source: https://www.future.1password.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [style-library] 21 Hours on the Moon. Moon render on black with large silver MOON: restrained motion on a space theme (via Awwwards)
@@ -210,6 +202,14 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 3D Image Globe. A floating gallery of polaroid-style images forms an interactive 3D sphere on a white background, letting you upload your own images and project them onto the globe.
   source: https://x.com/gabriell_lab/status/2067542058957406217
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 3D Neon Logos. AI-generated 3D renders transforming iconic brand logos into realistic glowing neon tube signs, showcasing McDonald's, Airbnb, Spotify, and Grok with cinematic studio lighting on black backgrounds.
+  source: https://x.com/doganuraldesign/status/2088750386605916429
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [style-library] 3D Product Explorations. A three-year archive of 3D product concept renders by PeterTarka, spanning gadgets, cameras, wearables, and appliances with meticulous material and lighting craft.
+  source: https://x.com/PeterTarka/status/2087476514413498691
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
