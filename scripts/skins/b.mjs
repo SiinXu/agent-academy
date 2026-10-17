@@ -54,6 +54,7 @@ body{letter-spacing:-.005em}
 .mb-btn .mb-in .ic{width:16px;height:16px}
 .link{display:inline-flex;align-items:center;min-height:24px;scroll-margin-top:96px;gap:6px;font-size:15px;font-weight:500;color:var(--ink2)}.link:hover{color:var(--acc)}.link .ic{width:16px;height:16px}
 .stats{display:flex;gap:0;margin-top:48px;border-top:1px solid var(--line)}
+/* allow-left-border: stat divider */
 .stat{flex:1;padding:16px 16px 0 0}.stat+.stat{padding-left:16px;border-left:1px solid var(--line)}
 .stat b{display:block;font:600 28px/1 var(--f-body);letter-spacing:-.03em;font-variant-numeric:tabular-nums}.stat span{display:block;margin-top:8px}
 /* hero visual: Magic UI Animated List */
@@ -242,6 +243,7 @@ body{letter-spacing:-.005em}
 @media (max-width:760px){
  .wrap{padding:0 16px}.top{height:64px;background:color-mix(in srgb,var(--bg) 82%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.top .wrap{justify-content:flex-end;padding-top:12px}.brand{left:16px;top:21px}
  .dock{display:none}.dock-m{display:block}
+ /* allow-left-border: stat divider */
  .hero{padding:110px 0 56px}.stats{flex-wrap:wrap}.stat{flex:1 1 45%;padding:14px 0 0!important;border-left:0!important}.live{height:380px}
  .sec{padding-top:72px}.sec-h{grid-template-columns:1fr}.sec-h h2{font-size:30px}
  .bento{grid-template-columns:1fr;grid-auto-rows:16rem}.bi.span2{grid-column:auto}

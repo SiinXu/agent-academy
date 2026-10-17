@@ -102,6 +102,7 @@ main a:not(.btn):not(.badge-l):not(.rl):focus-visible,.seg:focus-visible,.skin-s
 .p-actions{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0}
 .p-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:28px 0 0;max-width:760px;border:1px solid var(--line);border-radius:var(--r-card);background:var(--card);box-shadow:var(--sh-card)}
 .p-stats>div{display:flex;flex-direction:column;gap:2px;padding:14px 18px;font-size:13px;color:var(--muted);min-width:0}
+/* allow-left-border: stat divider / timeline (not a callout) */
 .p-stats>div+div{border-left:1px solid var(--line)}
 .p-stats b{font:600 24px/1.1 var(--f-body);letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums}
 [data-skin=b] .p-stats b{font-family:var(--f-mono);letter-spacing:-.04em}
@@ -383,7 +384,7 @@ code.url{display:inline-block;max-width:100%;padding:4px 8px;border:1px solid va
 .prose figcaption{font-size:.875rem;color:var(--muted);text-wrap:balance}
 .prose img{max-width:100%;height:auto;border-radius:var(--r-card);border:1px solid var(--line)}
 .prose .tbl-card{max-inline-size:100%}.prose table{font-size:.9rem;font-variant-numeric:tabular-nums}
-.prose blockquote{padding:var(--size-1) var(--size-3);border-left:3px solid var(--acc);color:var(--muted)}
+.prose blockquote{padding:var(--size-2) var(--size-3);border:1px solid var(--line);border-radius:var(--r-ctl);background:var(--muted-bg);color:var(--muted)}
 .prose hr{height:1px;border:0;background:var(--line);margin:var(--size-7) 0}
 .prose .fm{font-size:.8rem}
 .acc-b .prose{max-height:640px;overflow:auto;padding-right:8px;font-size:1rem}
@@ -412,6 +413,7 @@ main.pg{display:block;min-height:50vh}
  .wrap.p-head-in{padding-top:calc(var(--head-top) + 28px);padding-bottom:32px}
  .p-lede{font-size:16px}
  .p-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+ /* allow-left-border: stat divider / timeline (not a callout) */
  .p-stats>div:nth-child(3){border-left:0}.p-stats>div:nth-child(n+3){border-top:1px solid var(--line)}
  .wrap.p-sec{padding-top:36px}
  .fl-row{grid-template-columns:1fr}
@@ -456,12 +458,13 @@ main.pg{display:block;min-height:50vh}
 html:not([data-skin=b]) .spc-light,html:not([data-skin=b]) .spc-edge{display:none}
 [data-skin=b] .rl-in{border-radius:16px}
 /* --- Mantine Timeline (cs2-lib-mantine-dev--timeline--core-timeline--v0; Timeline.module.css, align left, bullets with child):
-   --offset = bullet/2 + line/2; line = item ::before border-inline-start, coloured when [data-line-active]; bullet circle with border = line
+   --offset = bullet/2 + line/2; line = item ::before inline-start border, coloured when [data-line-active]; bullet circle with border = line
    width, filled with the line colour when it has a child, primary when [data-active]; title weight 500, line-height 1, mb xs/2; items xl apart.
    engine.js moves `active` down the list as you scroll (Mantine's active prop). */
 .tml{--tl-bullet-size:32px;--tl-line-width:2px;--tl-gap:40px;--offset:calc(var(--tl-bullet-size)/2 + var(--tl-line-width)/2);margin:0;padding:0 0 0 var(--offset);list-style:none}
 .tml-item{position:relative;padding-left:var(--offset);min-width:0;scroll-margin-top:96px}
 .tml-item:not(:first-of-type){margin-top:var(--tl-gap)}
+/* allow-left-border: stat divider / timeline (not a callout) */
 .tml-item::before{content:"";position:absolute;top:0;left:calc(var(--tl-line-width)*-1);bottom:calc(var(--tl-gap)*-1);border-left:var(--tl-line-width) solid var(--line);pointer-events:none;transition:border-color .3s}
 .tml-item:last-of-type::before{display:none}
 .tml-item[data-line-active]::before{border-color:var(--acc)}

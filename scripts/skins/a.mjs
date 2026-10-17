@@ -43,6 +43,7 @@ h1{font-size:clamp(40px,5.4vw,64px);line-height:1.02;letter-spacing:-.035em;font
 .lede{font-size:18px;line-height:1.55;color:var(--muted);max-width:520px;margin:18px 0 28px}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:44px;border:1px solid var(--line);border-radius:12px;background:var(--bg);overflow:hidden}
+/* allow-left-border: stat divider */
 .stat{padding:14px 16px;border-left:1px solid var(--line)}.stat:first-child{border-left:0}
 .stat b{display:block;font-size:24px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}.stat span{font-size:12.5px;color:var(--muted)}
 /* hero beam diagram */
@@ -229,6 +230,7 @@ h1{font-size:clamp(40px,5.4vw,64px);line-height:1.02;letter-spacing:-.035em;font
 @media (max-width:1024px){.hero .wrap{grid-template-columns:1fr}.opt-style{grid-template-columns:repeat(4,1fr)}.opt-plat{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:760px){
  .wrap{padding:0 16px}.tabs-list{display:none}.nav .wrap{justify-content:space-between}
+ /* allow-left-border: stat divider */
  .hero .wrap{padding-top:48px;padding-bottom:40px;gap:32px}.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(3){border-left:0}.stat:nth-child(n+3){border-top:1px solid var(--line)}
  .diagram{gap:12px;padding:16px;min-height:0}.node{font-size:12px;padding:6px 10px 6px 6px}.node small{display:none}.hub{width:56px;height:56px}.hub .ic{width:24px;height:24px}
  .bento{grid-template-columns:1fr;grid-auto-rows:20rem}.bc.span2{grid-column:auto}
