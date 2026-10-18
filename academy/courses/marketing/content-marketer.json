@@ -2,7 +2,7 @@
  "id": "marketing/content-marketer",
  "industry": "marketing",
  "role": "content-marketer",
- "updated_at": "2026-10-17T13:43:47Z",
+ "updated_at": "2026-10-18T00:05:34Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1170,7 +1170,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181699,
+      "repo_stars": 181789,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1215,7 +1215,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1260,7 +1260,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1305,7 +1305,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1350,7 +1350,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1395,7 +1395,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1440,7 +1440,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1485,7 +1485,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1530,7 +1530,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1575,7 +1575,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1620,7 +1620,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29943,
+      "repo_stars": 30004,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1665,7 +1665,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29943,
+      "repo_stars": 30004,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1710,7 +1710,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 29943,
+      "repo_stars": 30004,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2130,7 +2130,23 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/monetizemarketing/mcp/blob/HEAD/README.md"
+      "url": "https://github.com/monetizemarketing/mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "The Monetize Marketing App as MCP tools: Brain, mission, training, skills, Library, software. OAuth.",
+       "name": "com.monetizemarketing/app",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://app.monetizemarketing.com/api/mcp"
+        }
+       ],
+       "repository": "https://github.com/monetizemarketing/mcp",
+       "title": "Monetize Marketing",
+       "version": "1.0.0",
+       "website": "https://monetizemarketing.com/mcp"
+      }
      },
      "install": "remote (streamable-http): https://app.monetizemarketing.com/api/mcp",
      "security": {
@@ -2371,7 +2387,23 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/bgrieco22/ariadne-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/bgrieco22/ariadne-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Free Google Business Profile audits and sample posts for therapists in private practice.",
+       "name": "com.ariadnemarketing/therapist-marketing",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://therapists.ariadnemarketing.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/bgrieco22/ariadne-mcp",
+       "title": "Ariadne for Therapists",
+       "version": "1.0.0",
+       "website": "https://ariadnemarketing.com/therapists"
+      }
      },
      "install": "remote (streamable-http): https://therapists.ariadnemarketing.com/mcp",
      "security": {
@@ -3226,7 +3258,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -3271,7 +3303,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -3316,8 +3348,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40955,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 40973,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3361,8 +3393,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40955,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 40973,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3406,8 +3438,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40955,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 40973,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",

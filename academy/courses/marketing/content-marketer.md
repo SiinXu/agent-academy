@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-17
-updated_at: 2026-10-17T13:43:47Z
+version: 2026-10-18
+updated_at: 2026-10-18T00:05:34Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 

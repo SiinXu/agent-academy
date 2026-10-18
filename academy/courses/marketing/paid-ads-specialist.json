@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-10-17T13:43:47Z",
+ "updated_at": "2026-10-18T00:05:34Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -513,7 +513,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -558,8 +558,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40955,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 40973,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -603,7 +603,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25778,
+      "repo_stars": 25795,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1072,7 +1072,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/trendsapi-ai/tiktok-trends-api/blob/HEAD/README.md"
+      "url": "https://github.com/trendsapi-ai/tiktok-trends-api/blob/HEAD/README.md",
+      "record": {
+       "description": "TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai",
+       "name": "ai.trendsapi/tiktok",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://tiktok.api.trendsapi.ai/mcp"
+        }
+       ],
+       "repository": "https://github.com/trendsapi-ai/tiktok-trends-api",
+       "title": "TikTok Trends API",
+       "version": "1.0.1",
+       "website": "https://trendsapi.ai/trends/tiktok-trends"
+      }
      },
      "install": "remote (streamable-http): https://tiktok.api.trendsapi.ai/mcp",
      "security": {
@@ -1209,7 +1227,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/trendsmcp-ai/tiktok-trends-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/trendsmcp-ai/tiktok-trends-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsmcp.ai",
+       "name": "ai.trendsmcp/tiktok",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://tiktok.api.trendsmcp.ai/mcp"
+        }
+       ],
+       "repository": "https://github.com/trendsmcp-ai/tiktok-trends-mcp",
+       "title": "TikTok Trends MCP",
+       "version": "1.0.6",
+       "website": "https://trendsmcp.ai"
+      }
      },
      "install": "remote (streamable-http): https://tiktok.api.trendsmcp.ai/mcp",
      "security": {
@@ -1321,7 +1357,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper/blob/HEAD/README.md"
+      "url": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper/blob/HEAD/README.md",
+      "record": {
+       "description": "Resolve a TikTok handle or company domain to the brand account with follower counts.",
+       "name": "com.mambabuilt/mcp-tiktok-brand-presence-mapper",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Apify API token from https://console.apify.com/account/integrations",
+           "name": "APIFY_TOKEN",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@mambalabsdev/mcp-tiktok-brand-presence-mapper",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.2.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper",
+       "title": null,
+       "version": "1.2.0",
+       "website": null
+      }
      },
      "install": "npx -y @mambalabsdev/mcp-tiktok-brand-presence-mapper",
      "security": {
@@ -1424,7 +1485,7 @@
      "roles": [
       "paid-ads-specialist"
      ],
-     "summary": "TikTok profiles (followers, bio) and per-video stats by handle or URL. No login. Pay per result.",
+     "summary": "TikTok profiles, video stats and transcripts by handle or URL. No login. Pay per result.",
      "summary_lang": "en",
      "source_url": "https://github.com/mrocker/social-data-mcp",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mrocker-tiktok-profile-stats.md",
@@ -1439,7 +1500,7 @@
       "license": "MIT",
       "url": "https://github.com/mrocker/social-data-mcp/blob/HEAD/README.md",
       "record": {
-       "description": "TikTok profiles (followers, bio) and per-video stats by handle or URL. No login. Pay per result.",
+       "description": "TikTok profiles, video stats and transcripts by handle or URL. No login. Pay per result.",
        "name": "io.github.mrocker/tiktok-profile-stats",
        "packages": [],
        "remotes": [
@@ -1451,7 +1512,7 @@
        ],
        "repository": "https://github.com/mrocker/social-data-mcp",
        "title": null,
-       "version": "1.0.0",
+       "version": "1.0.1",
        "website": "https://apify.com/nick.cheng/tiktok-profile-stats-scraper"
       }
      },
@@ -1465,13 +1526,13 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-08-30",
-      "registry_updated_at": "2026-08-29"
+      "repo_pushed_at": "2026-10-17",
+      "registry_updated_at": "2026-10-17"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-18T00:05:34Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200
@@ -1500,7 +1561,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/ssavecc/ssave-mcp-server/blob/HEAD/README.md"
+      "url": "https://github.com/ssavecc/ssave-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export",
+       "name": "cc.ssave/tiktok-instagram-downloader",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your API key for the service",
+           "name": "YOUR_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@ssavecc/mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/ssavecc/ssave-mcp-server",
+       "title": "ssave.cc — TikTok & Instagram Downloader",
+       "version": "0.1.1",
+       "website": null
+      }
      },
      "install": "npx -y @ssavecc/mcp-server",
      "security": {
@@ -1549,7 +1635,62 @@
      "original": {
       "kind": "full",
       "license": "Apache-2.0",
-      "url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server/blob/HEAD/README.md"
+      "url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "TikTok Ads MCP server: 35 read tools, 29 opt-in preview-first writes.",
+       "name": "com.getmcpads/tiktok-ads",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "TikTok Business API access token.",
+           "name": "TIKTOK_ACCESS_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "App ID the token belongs to.",
+           "name": "TIKTOK_APP_ID",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "App secret, for endpoints needing app authentication.",
+           "name": "TIKTOK_APP_SECRET",
+           "required": null,
+           "secret": true
+          },
+          {
+           "description": "Default advertiser ID.",
+           "name": "TIKTOK_ADVERTISER_ID",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Set to 1 to expose 27 write tools. Default calls preview; confirm:true applies changes.",
+           "name": "TIKTOK_ENABLE_WRITES",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "API environment: production (default) or sandbox. Use credentials issued for that environment.",
+           "name": "TIKTOK_ENVIRONMENT",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@getmcpads/tiktok-ads-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.0.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
+       "title": "TikTok Ads",
+       "version": "2.0.1",
+       "website": "https://www.getmcpads.com/tools/tiktok-ads"
+      }
      },
      "install": "npx -y @getmcpads/tiktok-ads-mcp-server",
      "security": {
@@ -1792,7 +1933,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/LMSlay/tubetext-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/LMSlay/tubetext-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown.",
+       "name": "io.github.LMSlay/tubetext-tiktok-transcripts",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/video-breakdown-ai"
+        }
+       ],
+       "repository": "https://github.com/LMSlay/tubetext-mcp",
+       "title": "TikTok Transcripts & Video Breakdown",
+       "version": "1.1.0",
+       "website": "https://apify.com/tubetext/tiktok-transcript"
+      }
      },
      "install": "remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/video-breakdown-ai",
      "security": {
@@ -2009,7 +2168,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2054,7 +2213,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55193,
+      "repo_stars": 55253,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2099,8 +2258,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40955,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 40973,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2144,8 +2303,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40955,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 40973,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2189,8 +2348,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40955,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 40973,
+      "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",

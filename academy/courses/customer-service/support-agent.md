@@ -1,8 +1,8 @@
 ---
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-17
-updated_at: 2026-10-17T13:43:47Z
+version: 2026-10-18
+updated_at: 2026-10-18T00:05:34Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -216,12 +216,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx mcparmory-shopify-admin
   needs_credentials: false, writes_external: true
-- [mcp] io.github.MuhammadTalhaMT/intercom. Relays messages between two Claude Code sessions on different machines using the Channels API
-  source: https://github.com/MuhammadTalhaMT/claude-intercom
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md
-  license: MIT
-  install: npx -y claude-intercom
-  needs_credentials: true, writes_external: false
 - [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
   source: https://github.com/fruggr/zendesk-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
@@ -257,6 +251,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y jitbit-helpdesk-mcp
   needs_credentials: true, writes_external: true
+- [mcp] io.github.miller-joe/shopify-mcp. MCP server for Shopify Admin API with a ComfyUI bridge for AI product image generation.
+  source: https://github.com/miller-joe/shopify-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miller-joe-shopify-mcp.md
+  license: MIT
+  install: npx -y @miller-joe/shopify-mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 
