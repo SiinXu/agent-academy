@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-18T00:05:34Z",
+ "updated_at": "2026-10-18T14:01:50Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1363,7 +1363,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1683,7 +1683,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142137,
+      "repo_stars": 142189,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "4-do-it",
@@ -1728,7 +1728,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30103,
+      "repo_stars": 30115,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "4-do-it",
@@ -1851,62 +1851,7 @@
      "original": {
       "kind": "full",
       "license": "Apache-2.0",
-      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md",
-      "record": {
-       "description": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
-       "name": "io.github.Servosity/hubspot-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Set the HUBSPOT_ACCESS_TOKEN credential for the HubSpot MCP server.",
-           "name": "HUBSPOT_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Base URL for the HubSpot API. Leave the prefilled default unless your account uses a different regional or self-hosted host.",
-           "name": "HUBSPOT_BASE_URL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
-           "name": "HUBSPOT_OWNER_EMAIL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Bearer token required by `hubspot-mcp --transport http`; unused by the default stdio transport.",
-           "name": "HUBSPOT_MCP_HTTP_TOKEN",
-           "required": null,
-           "secret": true
-          },
-          {
-           "description": "Overrides the User-Agent the CLI sends on HubSpot requests.",
-           "name": "HUBSPOT_USER_AGENT",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Binds this MCP server to one tenant-gated client profile, so every call answers for that customer. Leave blank to use the profile configured as default_client_profile.",
-           "name": "PRINTING_PRESS_CLIENT_PROFILE",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.2/hubspot-mcp.mcpb",
-         "transport": "stdio",
-         "type": "mcpb",
-         "version": "0.2.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/servosity/msp-skills",
-       "title": "HubSpot MCP",
-       "version": "0.2.2",
-       "website": null
-      }
+      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md"
      },
      "install": null,
      "security": {
@@ -1924,7 +1869,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 60,
+      "repo_stars": 61,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-10-16"
      },
@@ -2049,13 +1994,13 @@
          "id": "@fruggr/zendesk-mcp-server",
          "transport": "stdio",
          "type": "npm",
-         "version": "3.3.1"
+         "version": "3.4.0"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/fruggr/zendesk-mcp-server",
        "title": null,
-       "version": "3.3.1",
+       "version": "3.4.0",
        "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
       }
      },
@@ -2071,13 +2016,13 @@
      },
      "metrics": {
       "repo_stars": 13,
-      "repo_pushed_at": "2026-10-17",
-      "registry_updated_at": "2026-10-15"
+      "repo_pushed_at": "2026-10-18",
+      "registry_updated_at": "2026-10-18"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-18T14:01:50Z",
      "checked_at": "2026-10-15T10:15:30Z",
      "http_status": {
       "source": 200

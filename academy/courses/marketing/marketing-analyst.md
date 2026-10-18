@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-18
-updated_at: 2026-10-18T00:05:34Z
+updated_at: 2026-10-18T14:01:50Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 
@@ -121,34 +121,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.posthog.com/mcp
   needs_credentials: true, writes_external: true
-- [mcp] io.github.matjmat/eulerian-marketing-platform-mcp. Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.
-  source: https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-matjmat-eulerian-marketing-platform-mcp.md
-  license: MIT
-  install: uvx eulerian-marketing-platform
-  needs_credentials: true, writes_external: false
 - [mcp] com.jojapi/similarweb. Similarweb: Similarweb API allows you to access powerful insights into web analytics and online.
   source: https://jojapi.com/hub/api/similarweb
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.jojapi.com/similarweb
   needs_credentials: true, writes_external: false
-- [mcp] io.github.CSOAI-ORG/marketing-analytics-ai-mcp. Marketing Analytics Ai MCP Server by MEOK AI Labs
-  source: https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-csoai-org-marketing-analytics-ai-mcp.md
-  license: MIT
-  install: uvx marketing-analytics-ai-mcp
-  needs_credentials: false, writes_external: false
 - [mcp] io.github.friendlygeorge/posthog-mcp-server. MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...
   source: https://github.com/friendlygeorge/posthog-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md
   license: MIT
   install: npx -y posthog-mcp-server
   needs_credentials: false, writes_external: true
-- [mcp] Marketing Intelligence & Optimization. Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.
-  source: https://saifs.ai
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Posthog. PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)
   source: https://github.com/pipeworx-io/mcp-posthog
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md

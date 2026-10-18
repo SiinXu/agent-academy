@@ -2,7 +2,7 @@
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-18
-updated_at: 2026-10-18T00:05:34Z
+updated_at: 2026-10-18T14:01:50Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -251,57 +251,15 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md
   license: MIT
   needs_credentials: false, writes_external: false
-- [mcp] Monetize Marketing. The Monetize Marketing App as MCP tools: Brain, mission, training, skills, Library, software. OAuth.
-  source: https://github.com/monetizemarketing/mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-monetizemarketing-app.md
-  license: MIT
-  install: remote (streamable-http): https://app.monetizemarketing.com/api/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] 24haowan · interactive marketing templates and case library. Search the 24haowan H5 interactive-marketing platform: campaign template library, customer case library and help knowledge base. Anonymous read-only, no API key needed.
-  source: https://mcp.24haowan.com/
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.24haowan.com/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] Agent Marketing Index. How to market a product to AI agents: readiness, placement, measurement, 7-day trial.
-  source: https://github.com/sadri-dridi/named-mcp-utilities
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/agent-marketing-index/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] AIsa Similarweb. Traffic and engagement for any domain: rank, channels, referrers, audience, rivals.
   source: https://aisa.one
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.aisa.one/similarweb/mcp
   needs_credentials: true, writes_external: false
-- [mcp] Ariadne for Therapists. Free Google Business Profile audits and sample posts for therapists in private practice.
-  source: https://github.com/bgrieco22/ariadne-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-ariadnemarketing-therapist-marketing.md
-  license: MIT
-  install: remote (streamable-http): https://therapists.ariadnemarketing.com/mcp
-  needs_credentials: true, writes_external: true
-- [mcp] China Marketing AI Intelligence MCP. Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.
-  source: https://www.chinamarketing.ai
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://api.chinamarketing.ai/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] fi.northpoint/marketing-compliance. Crypto marketing compliance rulesets over MCP: MiCA, FCA, GDPR, SEC, MAS, VARA. Not legal advice.
-  source: https://northpoint.fi
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://northpoint.fi/api/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Hootsuite. MCP server for Hootsuite API integration
   source: https://github.com/asklokesh/hootsuite-mcp-server
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: uvx hootsuite-mcp-server
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.Autostackup/marketing. Kotler 9-element audit, IMC campaign planning, Meta & Google, audience segmentation for Claude.
-  source: https://github.com/Autostackup/autostackup
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y @autostackup/marketing
-  needs_credentials: false, writes_external: false
-- [mcp] Marketing Mcp. MCP server for Marketing
-  source: https://github.com/varvararatta/botfactory-mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://marketing-mcp.mcpize.run/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Mixpanel. Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
   source: https://github.com/pipeworx-io/mcp-mixpanel
@@ -321,17 +279,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx sendgrid-mcp-secure
   needs_credentials: true, writes_external: true
-- [mcp] The Service Marketing Guys Audit. Read-only audit of any local service business, Open Service Profile conformance first.
-  source: https://github.com/buildmodus/open-service-profile
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
-  license: MIT
-  install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] uk.co.digitalmarketingagencyswindon/site. Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...
-  source: https://digitalmarketingagencyswindon.co.uk
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

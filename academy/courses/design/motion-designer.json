@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-18T00:05:34Z",
+ "updated_at": "2026-10-18T14:01:50Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -417,6 +417,52 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-awd-13322566869/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-aw-cojeev-com-ui",
+     "title": "000h",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Listed in awesome-shadcn-ui: MIT-licensed shadcn registry of React components with organic shapes and adjustable motion, covering core UI, charts, drawers, text effects, animated backgrounds and WebGL sculptures.",
+     "summary_lang": "en",
+     "source_url": "https://cojeev.com/ui/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "awesome-shadcn-ui",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-18T14:01:50Z",
+     "updated_at": "2026-10-18T14:01:50Z",
+     "checked_at": "2026-10-18T14:01:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-aw-cojeev-com-ui/",
      "source": "ui-hub"
     },
     {
@@ -1200,52 +1246,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-uuhoew2-404-chicken-flock-animation/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-awd-45r-denim-karuta",
-     "title": "45R Denim Karuta",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Denim is 45R's signature item. We created an online Japanese Poetry Card Game to showcase the craft of our 30+ years. Featuring warm distinctive illustrations,...",
-     "summary_lang": "en",
-     "source_url": "https://45r.jp/ja/45denim-karuta/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "SHIFTBRAIN",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-16T14:52:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-awd-45r-denim-karuta/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1329,7 +1329,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181789,
+      "repo_stars": 181908,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1374,7 +1374,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1419,7 +1419,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1464,7 +1464,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1509,7 +1509,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1554,7 +1554,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1599,7 +1599,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1644,7 +1644,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1689,7 +1689,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1734,7 +1734,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1918,69 +1918,6 @@
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-com-icons8-icons8",
-     "title": "Icons8",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.",
-     "summary_lang": "en",
-     "source_url": "https://icons8.com/mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "com.icons8",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.icons8/icons8&version=latest",
-      "record": {
-       "description": "Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.",
-       "name": "com.icons8/icons8",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.icons8.com/mcp/"
-        }
-       ],
-       "repository": null,
-       "title": "Icons8",
-       "version": "1.0.0",
-       "website": "https://icons8.com/mcp"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.icons8.com/mcp/",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-09-23"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-icons8-icons8/",
-     "source": "mcp-registry"
-    },
-    {
      "id": "uihub-www-unicorn-studio",
      "title": "Unicorn Studio",
      "type": "tool",
@@ -2065,6 +2002,51 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/ui-resource-hub-skills/",
      "source": "seed"
+    },
+    {
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi",
+     "title": "Ai Game Design Agent Team",
+     "type": "case",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "The AI Game Design Agent Team is a collaborative game design system powered by AG2(formerly AutoGen)'s AI Agent framework. This app generates comprehensive game concepts through the coordination of multiple specialized AI agents, each focusing on different aspects of game design based on user inputs such as game type, target audience, art style, and technical requirements. This is built on AG2's n",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 142189,
+      "repo_pushed_at": "2026-10-17"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi/",
+     "source": "github"
     }
    ]
   },
@@ -2230,7 +2212,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136890,
+      "repo_stars": 137075,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2275,7 +2257,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136890,
+      "repo_stars": 137075,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2320,7 +2302,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2365,7 +2347,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2410,7 +2392,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2455,7 +2437,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2500,7 +2482,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2545,7 +2527,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2590,7 +2572,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2635,7 +2617,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2680,7 +2662,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25795,
+      "repo_stars": 25827,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

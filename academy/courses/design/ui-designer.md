@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-18
-updated_at: 2026-10-18T00:05:34Z
+updated_at: 2026-10-18T14:01:50Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,7 +94,7 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1369 items
+- minimal: 1385 items
 - motion: 644 items
 - 3d: 608 items
 - editorial: 588 items
@@ -347,12 +347,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y figma-ui-mcp
   needs_credentials: false, writes_external: false
-- [mcp] Keyline Icons. Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.
-  source: https://github.com/keyline-icons/keyline-icons
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-keylineicons-mcp.md
-  license: MIT
-  install: npx -y @keyline-icons/mcp
-  needs_credentials: false, writes_external: false
 - [mcp] com.webflow/mcp. AI-powered design and management for Webflow Sites
   source: https://github.com/webflow/mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-webflow-mcp.md
@@ -436,11 +430,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://agentation.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [mcp] All SVG Icons. Search and fetch SVG icons from 250,000+ icons across 200+ open-source icon sets.
-  source: https://allsvgicons.com/mcp/
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://i.allsvgicons.com/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Andorra public sources. Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages
   source: https://github.com/joalavedra/andorra-fonts-publiques
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md
@@ -449,6 +438,14 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: false, writes_external: false
 - [tool] Bolt. Build apps by chatting, with in-browser code editing
   source: https://bolt.cello.so/ByQ3siiRkMz
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tool] Claude Code /design、/design-sync. Generate several editable artboards in the terminal, pick one, then build; /design-sync syncs your React design system
+  source: https://code.claude.com/docs/en/commands
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tool] Claude Design. Anthropic’s design product, now built into Claude chats; outputs HTML prototypes
+  source: https://claude.com/product/design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

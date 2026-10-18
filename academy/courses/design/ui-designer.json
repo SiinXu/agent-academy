@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-18T00:05:34Z",
+ "updated_at": "2026-10-18T14:01:50Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "4-do-it",
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181789,
+      "repo_stars": 181908,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181789,
+      "repo_stars": 181908,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,7 +2007,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136890,
+      "repo_stars": 137075,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2772,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142137,
+      "repo_stars": 142189,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "4-do-it",
@@ -2845,7 +2845,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16002,
+      "repo_stars": 16004,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-06-18"
      },
@@ -2909,7 +2909,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2082,
+      "repo_stars": 2084,
       "repo_pushed_at": "2026-10-15",
       "registry_updated_at": "2025-10-16"
      },
@@ -2987,71 +2987,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-tranhoaihung-figma-ui-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-keylineicons-mcp",
-     "title": "Keyline Icons",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/keyline-icons/keyline-icons",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-keylineicons-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "keyline-icons/keyline-icons",
-     "author": "com.keylineicons",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/keyline-icons/keyline-icons/blob/HEAD/README.md",
-      "record": {
-       "description": "Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.",
-       "name": "com.keylineicons/mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "@keyline-icons/mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.8.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/keyline-icons/keyline-icons",
-       "title": "Keyline Icons",
-       "version": "1.8.0",
-       "website": "https://keylineicons.com"
-      }
-     },
-     "install": "npx -y @keyline-icons/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 168,
-      "repo_pushed_at": "2026-10-16",
-      "registry_updated_at": "2026-10-11"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-keylineicons-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -3190,7 +3125,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 25,
+      "repo_stars": 26,
       "repo_pushed_at": "2026-10-17",
       "registry_updated_at": "2026-10-15"
      },
@@ -4011,69 +3946,6 @@
      "source": "ui-hub"
     },
     {
-     "id": "mcp-com-allsvgicons-icons",
-     "title": "All SVG Icons",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Search and fetch SVG icons from 250,000+ icons across 200+ open-source icon sets.",
-     "summary_lang": "en",
-     "source_url": "https://allsvgicons.com/mcp/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "com.allsvgicons",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.allsvgicons/icons&version=latest",
-      "record": {
-       "description": "Search and fetch SVG icons from 250,000+ icons across 200+ open-source icon sets.",
-       "name": "com.allsvgicons/icons",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://i.allsvgicons.com/mcp"
-        }
-       ],
-       "repository": null,
-       "title": "All SVG Icons",
-       "version": "1.0.0",
-       "website": "https://allsvgicons.com/mcp/"
-      }
-     },
-     "install": "remote (streamable-http): https://i.allsvgicons.com/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-09-27"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-allsvgicons-icons/",
-     "source": "mcp-registry"
-    },
-    {
      "id": "mcp-io-github-joalavedra-andorra-fonts-publiques",
      "title": "Andorra public sources",
      "type": "mcp",
@@ -4182,6 +4054,98 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-bolt-new/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-claude-code-design",
+     "title": "Claude Code /design、/design-sync",
+     "type": "tool",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Generate several editable artboards in the terminal, pick one, then build; /design-sync syncs your React design system",
+     "summary_lang": "en",
+     "source_url": "https://code.claude.com/docs/en/commands",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Anthropic",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-claude-code-design/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-claude-design",
+     "title": "Claude Design",
+     "type": "tool",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Anthropic’s design product, now built into Claude chats; outputs HTML prototypes",
+     "summary_lang": "en",
+     "source_url": "https://claude.com/product/design",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Anthropic",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-15T10:15:30Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-claude-design/",
      "source": "ui-hub"
     }
    ]
@@ -4348,7 +4312,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136890,
+      "repo_stars": 137075,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4393,7 +4357,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 136890,
+      "repo_stars": 137075,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4438,7 +4402,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47046,
+      "repo_stars": 47244,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4483,7 +4447,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -4528,7 +4492,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -4573,7 +4537,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -4618,7 +4582,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -4663,7 +4627,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -4708,7 +4672,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -4753,7 +4717,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -4798,7 +4762,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25795,
+      "repo_stars": 25827,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

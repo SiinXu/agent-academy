@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-18
-updated_at: 2026-10-18T00:05:34Z
+updated_at: 2026-10-18T14:01:50Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -230,11 +230,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp
   needs_credentials: true, writes_external: true
-- [mcp] Marketing Content Production. Brand-safe ad, email, product description, and social content production.
-  source: https://mcp-payment-site.vercel.app/marketing-content-production
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: uvx marketing-content-production-mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

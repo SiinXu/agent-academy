@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-10-18T00:05:34Z",
+ "updated_at": "2026-10-18T14:01:50Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -845,7 +845,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55253,
+      "repo_stars": 55329,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -890,7 +890,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55253,
+      "repo_stars": 55329,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -935,7 +935,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55253,
+      "repo_stars": 55329,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -980,7 +980,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55253,
+      "repo_stars": 55329,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -1025,7 +1025,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1070,7 +1070,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1115,7 +1115,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30004,
+      "repo_stars": 30088,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -1507,23 +1507,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md",
-      "record": {
-       "description": "Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.",
-       "name": "com.beehiiv/beehiiv",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.beehiiv.com/mcp"
-        }
-       ],
-       "repository": "https://github.com/beehiiv/agents",
-       "title": "beehiiv",
-       "version": "0.1.0",
-       "website": "https://www.beehiiv.com"
-      }
+      "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md"
      },
      "install": "remote (streamable-http): https://mcp.beehiiv.com/mcp",
      "security": {
@@ -1672,32 +1656,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker/blob/HEAD/README.md",
-      "record": {
-       "description": "Follow a creator bio link and report the newsletter, what they sell, and the contact emails.",
-       "name": "com.mambabuilt/mcp-link-in-bio-newsletter-checker",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Apify API token from https://console.apify.com/account/integrations",
-           "name": "APIFY_TOKEN",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@mambalabsdev/mcp-link-in-bio-newsletter-checker",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker",
-       "title": null,
-       "version": "1.2.0",
-       "website": null
-      }
+      "url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker/blob/HEAD/README.md"
      },
      "install": "npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker",
      "security": {
@@ -2179,101 +2138,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-mailchimp/",
      "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-atul0016-marketing-content-production",
-     "title": "Marketing Content Production",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Brand-safe ad, email, product description, and social content production.",
-     "summary_lang": "en",
-     "source_url": "https://mcp-payment-site.vercel.app/marketing-content-production",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "io.github.atul0016",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.atul0016/marketing-content-production&version=latest",
-      "record": {
-       "description": "Brand-safe ad, email, product description, and social content production.",
-       "name": "io.github.atul0016/marketing-content-production",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "License key from AtulHritik-Mcp-Marketing-Content-Production purchase page.",
-           "name": "EARNALL_MCP_LICENSE_KEY",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Optional stable private install ID for this user/device.",
-           "name": "EARNALL_MCP_ACTIVATION_ID",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "License validation endpoint.",
-           "name": "EARNALL_MCP_LICENSE_API",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "marketing-content-production-mcp",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "0.1.1"
-        },
-        {
-         "env": [],
-         "id": "docker.io/atulhritik/marketing-content-production-mcp:0.1.0",
-         "transport": "stdio",
-         "type": "oci",
-         "version": null
-        }
-       ],
-       "remotes": [],
-       "repository": null,
-       "title": "Marketing Content Production",
-       "version": "0.1.1",
-       "website": "https://mcp-payment-site.vercel.app/marketing-content-production"
-      }
-     },
-     "install": "uvx marketing-content-production-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "EARNALL_MCP_LICENSE_KEY",
-       "EARNALL_MCP_ACTIVATION_ID",
-       "EARNALL_MCP_LICENSE_API"
-      ]
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-05-14"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-atul0016-marketing-content-production/",
-     "source": "mcp-registry"
     }
    ]
   },
@@ -2401,7 +2265,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55253,
+      "repo_stars": 55329,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2446,7 +2310,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55253,
+      "repo_stars": 55329,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2491,7 +2355,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2536,7 +2400,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
@@ -2581,7 +2445,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40973,
+      "repo_stars": 40994,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
