@@ -1,8 +1,8 @@
 ---
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-18
-updated_at: 2026-10-18T14:01:50Z
+version: 2026-10-19
+updated_at: 2026-10-19T00:13:40Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1385 items
+- minimal: 1384 items
 - motion: 644 items
 - 3d: 608 items
 - editorial: 588 items
 - playful: 529 items
-- gradient: 282 items
+- gradient: 281 items
 - retro: 115 items
 - dark-tech: 107 items
 - glass: 52 items
@@ -251,6 +251,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @ajsmonty/adobe-mcp
   needs_credentials: true, writes_external: false
+- [mcp] Icons8. Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.
+  source: https://icons8.com/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.icons8.com/mcp/
+  needs_credentials: true, writes_external: false
 - [tool] Unicorn Studio. Build WebGL effects without code
   source: https://www.unicorn.studio/
   license: see source (listed via UI Hub)
@@ -258,11 +263,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 - [workflow] UI Hub skills.json (recommended design workflow). Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+
   source: https://siinxu.github.io/ui-resource-hub/api/skills.json
   license: aggregator
-  needs_credentials: false, writes_external: false
-- [case] Ai Game Design Agent Team. The AI Game Design Agent Team is a collaborative game design system powered by AG2(formerly AutoGen)'s AI Agent framework. This app generates comprehensive game concepts through the coordination of multiple specialized A
-  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi.md
-  license: Apache-2.0
   needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check

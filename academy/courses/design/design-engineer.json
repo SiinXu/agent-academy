@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-10-18T14:01:50Z",
+ "updated_at": "2026-10-19T00:13:40Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -62,7 +62,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -108,7 +108,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -154,7 +154,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -200,7 +200,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -277,7 +277,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -318,7 +318,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -359,7 +359,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -399,7 +399,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -450,7 +450,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -488,14 +488,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 181908,
+      "repo_stars": 181996,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -510,7 +510,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups,…",
+     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brandkit/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brandkit.md",
@@ -528,19 +528,19 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill brandkit",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -573,19 +573,19 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -600,7 +600,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2), which is a new skill. Use this v1 install name only if you need exact backward compatibility.",
+     "summary": "The original taste-skill v1, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v1/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v1.md",
@@ -623,14 +623,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -645,7 +645,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Old v2 (experimental) of taste-skill, the single-file dial-driven version, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2). Use this install name only if you need the earlier behavior. Anti-slop frontend rules for landing pages, portfolios, and redesigns, with real design systems when applicable, audit-first redesigns and a strict pre-flight check.",
+     "summary": "The single-file, dial-driven taste-skill that was the default before v2, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v2-experimental/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v2-experimental.md",
@@ -663,68 +663,23 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill-v2-experimental",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-taste-skill-v2-experimental/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-output-skill",
-     "title": "full-output-enforcement",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/output-skill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-output-skill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/output-skill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/output-skill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill output-skill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 98692,
-      "repo_pushed_at": "2026-10-18"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-output-skill/",
      "source": "github"
     },
     {
@@ -735,7 +690,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+     "summary": "Classic skill for GPT and Codex, opt-in: it runs only when called by name. Layout variance, a strict AIDA page structure and GSAP scroll motion.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/gpt-tasteskill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-gpt-tasteskill.md",
@@ -758,14 +713,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -780,7 +735,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+     "summary": "Classic style skill, opt-in: it runs only when called by name. A calm, polished look with soft contrast, generous whitespace and spring motion.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/soft-skill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-soft-skill.md",
@@ -803,14 +758,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -825,7 +780,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid…",
+     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/image-to-code-skill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-image-to-code-skill.md",
@@ -843,19 +798,19 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill image-to-code-skill",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -870,7 +825,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By…",
+     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-mobile/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-mobile.md",
@@ -888,19 +843,19 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-mobile",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -915,7 +870,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant /…",
+     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-web.md",
@@ -933,19 +888,19 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-web",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -960,7 +915,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.",
+     "summary": "Classic style skill, opt-in: it runs only when called by name. A hard mechanical look with Swiss type, rigid grids, extreme scale contrast and utilitarian colour.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brutalist-skill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brutalist-skill.md",
@@ -983,14 +938,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1005,7 +960,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+     "summary": "Classic style skill, opt-in: it runs only when called by name. Editorial product UI with a warm monochrome palette, typographic contrast and flat bento grids.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/minimalist-skill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-minimalist-skill.md",
@@ -1028,14 +983,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1050,7 +1005,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
+     "summary": "Retired: redesigns, restyles and design reviews are part of design-taste-frontend. Runs only when called by name.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-redesign-skill.md",
@@ -1068,19 +1023,19 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill redesign-skill",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1095,7 +1050,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+     "summary": "Classic skill for Google Stitch, opt-in: it runs only when called by name. Writes an agent-friendly DESIGN.md with strict type, colour and layout rules.",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/stitch-skill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-stitch-skill.md",
@@ -1118,14 +1073,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 98692,
+      "repo_stars": 98850,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1163,14 +1118,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47244,
+      "repo_stars": 47380,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1208,14 +1163,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47244,
+      "repo_stars": 47380,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1253,14 +1208,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1298,14 +1253,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1343,14 +1298,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1388,14 +1343,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1433,14 +1388,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30088,
+      "repo_stars": 30184,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1478,14 +1433,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25827,
+      "repo_stars": 25840,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1531,7 +1486,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1577,7 +1532,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1623,7 +1578,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1668,9 +1623,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-addy-agent-skills/",
      "source": "ui-hub"
@@ -1714,7 +1669,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1760,7 +1715,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1805,9 +1760,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-anti-slop/",
      "source": "ui-hub"
@@ -1851,11 +1806,56 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-emilkowalski-apple-design/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-avoid-ai-design",
+     "title": "avoid-ai-design",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "A rule set for avoiding templated AI-looking design",
+     "summary_lang": "en",
+     "source_url": "https://github.com/funboy322/avoid-ai-design",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-avoid-ai-design.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@lorden_eth",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/funboy322/avoid-ai-design/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-19T00:13:40Z",
+     "http_status": {
+      "source": 429
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-avoid-ai-design/",
      "source": "ui-hub"
     }
    ]
@@ -1894,14 +1894,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1957,7 +1957,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2084,
+      "repo_stars": 2086,
       "repo_pushed_at": "2026-10-15",
       "registry_updated_at": "2025-10-16"
      },
@@ -1965,7 +1965,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -1993,7 +1993,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/storybookjs/mcp/blob/HEAD/README.md"
+      "url": "https://github.com/storybookjs/mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Help agents automatically write and test stories for your UI components.",
+       "name": "io.github.storybookjs/addon-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "@storybook/addon-mcp",
+         "transport": "streamable-http",
+         "type": "npm",
+         "version": "0.6.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/storybookjs/mcp",
+       "title": "Storybook MCP Addon",
+       "version": "0.6.0",
+       "website": "https://storybook.js.org/docs/ai/mcp/overview"
+      }
      },
      "install": "npx -y @storybook/addon-mcp",
      "security": {
@@ -2012,7 +2030,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2077,7 +2095,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2148,7 +2166,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2176,7 +2194,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md"
+      "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md",
+      "record": {
+       "description": "Compact Figma MCP with validated batch ops through a local plugin bridge.",
+       "name": "io.github.sunhome243/figma-mcp-express",
+       "packages": [
+        {
+         "env": [],
+         "id": "figma-mcp-express",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.8.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/sunhome243/figma-mcp-express",
+       "title": null,
+       "version": "2.8.1",
+       "website": null
+      }
      },
      "install": "npx -y figma-mcp-express",
      "security": {
@@ -2195,7 +2231,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2270,7 +2306,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2335,7 +2371,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2416,7 +2452,7 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-16T10:29:38Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2481,11 +2517,85 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:34:04Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-jmshinhwa-tailwind-v4-upgrade-blocker-lint/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-iconsroom-mcp",
+     "title": "com.iconsroom/mcp",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Search 276,000+ open source icons and insert them as SVG or React components while you code.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/mdanassaif/iconsroom",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "mdanassaif/iconsroom",
+     "author": "com.iconsroom",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.iconsroom/mcp&version=latest",
+      "record": {
+       "description": "Search 276,000+ open source icons and insert them as SVG or React components while you code.",
+       "name": "com.iconsroom/mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "IconsRoom lifetime license token (IR-XXXX…) — get one at https://iconsroom.com/pricing",
+           "name": "ICONSROOM_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@iconsroom/mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mdanassaif/iconsroom",
+       "title": null,
+       "version": "0.1.1",
+       "website": "https://iconsroom.com"
+      }
+     },
+     "install": "npx -y @iconsroom/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "ICONSROOM_API_KEY"
+      ]
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-07-07"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-19T00:13:40Z",
+     "updated_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T00:13:40Z",
+     "http_status": {
+      "source": 429
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-iconsroom-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -2544,7 +2654,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2607,7 +2717,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2657,7 +2767,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2700,7 +2810,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2740,7 +2850,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2778,14 +2888,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137075,
+      "repo_stars": 137235,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2823,14 +2933,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137075,
+      "repo_stars": 137235,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2868,14 +2978,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47244,
+      "repo_stars": 47380,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2913,14 +3023,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -2958,14 +3068,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3003,14 +3113,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3048,14 +3158,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 40994,
+      "repo_stars": 41018,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3093,14 +3203,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30088,
+      "repo_stars": 30184,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3138,14 +3248,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30088,
+      "repo_stars": 30184,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3183,14 +3293,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30088,
+      "repo_stars": 30184,
       "repo_pushed_at": "2026-10-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3228,14 +3338,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25827,
+      "repo_stars": 25840,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3280,7 +3390,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },
@@ -3325,7 +3435,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T00:13:40Z",
      "http_status": {
       "source": 200
      },

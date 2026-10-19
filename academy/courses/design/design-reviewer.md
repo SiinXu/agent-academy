@@ -1,8 +1,8 @@
 ---
 name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-18
-updated_at: 2026-10-18T14:01:50Z
+version: 2026-10-19
+updated_at: 2026-10-19T00:13:40Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-reviewer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1385 items
+- minimal: 1384 items
 - motion: 644 items
 - 3d: 608 items
 - editorial: 588 items
 - playful: 529 items
-- gradient: 282 items
+- gradient: 281 items
 - retro: 115 items
 - dark-tech: 107 items
 - glass: 52 items
@@ -206,10 +206,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-ui-design-commands-design-review.md
   license: MIT
   needs_credentials: false, writes_external: false
-- [workflow] UI Hub skills.json (recommended design workflow). Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+
-  source: https://siinxu.github.io/ui-resource-hub/api/skills.json
-  license: aggregator
-  needs_credentials: false, writes_external: false
+- [mcp] Supericons. Multilingual semantic SVG icon search with previews for AI coding agents. 20,000+ icons.
+  source: https://github.com/curlymolelabs/supericons
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-curlymolelabs-supericons.md
+  license: MIT
+  install: npx -y @supericons/mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

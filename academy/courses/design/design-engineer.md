@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-18
-updated_at: 2026-10-18T14:01:50Z
+version: 2026-10-19
+updated_at: 2026-10-19T00:13:40Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-engineer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1385 items
+- minimal: 1384 items
 - motion: 644 items
 - 3d: 608 items
 - editorial: 588 items
 - playful: 529 items
-- gradient: 282 items
+- gradient: 281 items
 - retro: 115 items
 - dark-tech: 107 items
 - glass: 52 items
@@ -103,7 +103,7 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/skills --skill web-artifacts-builder
   needs_credentials: false, writes_external: false
-- [skill] brandkit. Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultu
+- [skill] brandkit. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/brandkit/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brandkit.md
   license: MIT
@@ -115,73 +115,67 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill taste-skill
   needs_credentials: false, writes_external: false
-- [skill] design-taste-frontend-v1. The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2), which is a new skill. Use this v1 install name only if you need exact backward com
+- [skill] design-taste-frontend-v1. The original taste-skill v1, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v1/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v1.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill taste-skill-v1
   needs_credentials: false, writes_external: false
-- [skill] design-taste-frontend-v2-experimental. Old v2 (experimental) of taste-skill, the single-file dial-driven version, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2). Use this install name only if you ne
+- [skill] design-taste-frontend-v2-experimental. The single-file, dial-driven taste-skill that was the default before v2, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v2-experimental/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v2-experimental.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill taste-skill-v2-experimental
   needs_credentials: false, writes_external: false
-- [skill] full-output-enforcement. Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/output-skill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-output-skill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill output-skill
-  needs_credentials: false, writes_external: false
-- [skill] gpt-taste. Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP Scro
+- [skill] gpt-taste. Classic skill for GPT and Codex, opt-in: it runs only when called by name. Layout variance, a strict AIDA page structure and GSAP scroll motion.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/gpt-tasteskill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-gpt-tasteskill.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill gpt-tasteskill
   needs_credentials: false, writes_external: false
-- [skill] high-end-visual-design. Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look che
+- [skill] high-end-visual-design. Classic style skill, opt-in: it runs only when called by name. A calm, polished look with soft contrast, generous whitespace and spring motion.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/soft-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-soft-skill.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill soft-skill
   needs_credentials: false, writes_external: false
-- [skill] image-to-code. Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In C
+- [skill] image-to-code. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/image-to-code-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-image-to-code-skill.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill image-to-code-skill
   needs_credentials: false, writes_external: false
-- [skill] imagegen-frontend-mobile. Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, s
+- [skill] imagegen-frontend-mobile. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-mobile/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-mobile.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-mobile
   needs_credentials: false, writes_external: false
-- [skill] imagegen-frontend-web. Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections pro
+- [skill] imagegen-frontend-web. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-web.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-web
   needs_credentials: false, writes_external: false
-- [skill] industrial-brutalist-ui. Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, 
+- [skill] industrial-brutalist-ui. Classic style skill, opt-in: it runs only when called by name. A hard mechanical look with Swiss type, rigid grids, extreme scale contrast and utilitarian colour.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/brutalist-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brutalist-skill.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill brutalist-skill
   needs_credentials: false, writes_external: false
-- [skill] minimalist-ui. Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
+- [skill] minimalist-ui. Classic style skill, opt-in: it runs only when called by name. Editorial product UI with a warm monochrome palette, typographic contrast and flat bento grids.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/minimalist-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-minimalist-skill.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill minimalist-skill
   needs_credentials: false, writes_external: false
-- [skill] redesign-existing-projects. Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla
+- [skill] redesign-existing-projects. Retired: redesigns, restyles and design reviews are part of design-taste-frontend. Runs only when called by name.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-redesign-skill.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill redesign-skill
   needs_credentials: false, writes_external: false
-- [skill] stitch-design-taste. Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, 
+- [skill] stitch-design-taste. Classic skill for Google Stitch, opt-in: it runs only when called by name. Writes an agent-friendly DESIGN.md with strict type, colour and layout rules.
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/stitch-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-stitch-skill.md
   license: MIT
@@ -268,6 +262,11 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/emilkowalski/apple-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] avoid-ai-design. A rule set for avoiding templated AI-looking design
+  source: https://github.com/funboy322/avoid-ai-design
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-avoid-ai-design.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
 
@@ -332,6 +331,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: proprietary
   install: npx -y @readystack/tailwind-v4-upgrade-blocker-lint
   needs_credentials: false, writes_external: false
+- [mcp] com.iconsroom/mcp. Search 276,000+ open source icons and insert them as SVG or React components while you code.
+  source: https://github.com/mdanassaif/iconsroom
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: npx -y @iconsroom/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Draw40. Draw40 is an independent diagram workspace with an interactive MCP Apps canvas. OAuth sign-in.
   source: https://draw.404040.net/
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)

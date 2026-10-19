@@ -1,8 +1,8 @@
 ---
 name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-18
-updated_at: 2026-10-18T14:01:50Z
+version: 2026-10-19
+updated_at: 2026-10-19T00:13:40Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/customer-success/
 ---
 

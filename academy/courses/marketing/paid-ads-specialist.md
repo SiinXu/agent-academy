@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-18
-updated_at: 2026-10-18T14:01:50Z
+version: 2026-10-19
+updated_at: 2026-10-19T00:13:40Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -121,27 +121,97 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [case] ai_email_gtm_outreach_agent. An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Market
-  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
+- [mcp] TikTok Ads MCP Server. TikTok Ads management — CRUD, async reports, targeting, and media uploads
+  source: https://github.com/cesteral/mcp-open-advertising
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-cesteral-tiktok-mcp.md
   license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi
-  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [workflow] brand-search-optimization. This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer 
-  source: https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
-  source: https://github.com/cyanheads/mailchimp-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
-  license: Apache-2.0
-  install: see README; needs Mailchimp API key; can SEND campaigns (write access)
+  install: npx -y @cesteral/tiktok-mcp
   needs_credentials: true, writes_external: true
+- [mcp] TikTok Agent Publisher. Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.
+  source: https://github.com/davidmosiah/tiktok-agent-publisher
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-davidmosiah-tiktok-agent-publisher.md
+  license: MIT
+  install: npx -y tiktok-agent-publisher
+  needs_credentials: true, writes_external: true
+- [mcp] TikTok Trends API. TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai
+  source: https://github.com/trendsapi-ai/tiktok-trends-api
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsapi-tiktok.md
+  license: MIT
+  install: remote (streamable-http): https://tiktok.api.trendsapi.ai/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.lanternrow/tiktok-organic-mcp. TikTok organic analytics — video performance, engagement metrics, and profile insights.
+  source: https://github.com/lanternrow/tiktok-organic-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lanternrow-tiktok-organic-mcp.md
+  license: MIT
+  install: npx -y tiktok-organic-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] TikTok Trends MCP. TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsmcp.ai
+  source: https://github.com/trendsmcp-ai/tiktok-trends-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-tiktok.md
+  license: MIT
+  install: remote (streamable-http): https://tiktok.api.trendsmcp.ai/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] com.jojapi/tiktok-download-video. TikTok Download Video: TikTok API 🔥 300/month is free The most powerful Tiktok Api available The.
+  source: https://jojapi.com/hub/api/tiktok-download-video
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.jojapi.com/tiktok-download-video
+  needs_credentials: true, writes_external: false
+- [mcp] com.mambabuilt/mcp-tiktok-brand-presence-mapper. Resolve a TikTok handle or company domain to the brand account with follower counts.
+  source: https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper.md
+  license: MIT
+  install: npx -y @mambalabsdev/mcp-tiktok-brand-presence-mapper
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.deapi-ai/tiktok-transcript-scraper. AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.
+  source: https://github.com/deapi-ai/tiktok-transcript-mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.apify.com?tools=deapi/tiktok-transcript-scraper
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.mrocker/tiktok-profile-stats. TikTok profiles, video stats and transcripts by handle or URL. No login. Pay per result.
+  source: https://github.com/mrocker/social-data-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mrocker-tiktok-profile-stats.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper
+  needs_credentials: true, writes_external: false
+- [mcp] ssave.cc — TikTok & Instagram Downloader. Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export
+  source: https://github.com/ssavecc/ssave-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md
+  license: MIT
+  install: npx -y @ssavecc/mcp-server
+  needs_credentials: true, writes_external: false
+- [mcp] TikTok Ads. TikTok Ads MCP server: 35 read tools, 29 opt-in preview-first writes.
+  source: https://github.com/get-mcp-ads/tiktok-ads-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-getmcpads-tiktok-ads.md
+  license: Apache-2.0
+  install: npx -y @getmcpads/tiktok-ads-mcp-server
+  needs_credentials: true, writes_external: true
+- [mcp] TikTok data for agents. 13 TikTok endpoints. Pay per call in USDC via x402.
+  source: https://tiktok.fetcher.sh
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://tiktok.fetcher.sh/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] TikTok Transcript Scraper. Transcripts of TikTok videos or whole accounts, with views, likes and dates.
+  source: https://github.com/fernandoguiraud16-coder/data-tools
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fernandoguiraud16-coder-tiktok-transcript-scraper.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.apify.com/?tools=fguiraud/tiktok-transcript-scraper
+  needs_credentials: true, writes_external: false
+- [mcp] TikTok Transcripts & Subtitles. TikTok videos to text in bulk: transcripts with timestamps, SRT and VTT. Native captions or Whisper.
+  source: https://apify.com/sauliusautomatesit/tiktok-transcript-scraper
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.apify.com/?tools=sauliusautomatesit/tiktok-transcript-scraper
+  needs_credentials: true, writes_external: false
+- [mcp] TikTok Transcripts, Comments, Video Breakdown & Shot Analysis. TikTok transcripts, comment sentiment by moment, AI breakdowns and director-level shot analysis.
+  source: https://github.com/LMSlay/tubetext-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lmslay-tubetext-tiktok-transcripts.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/youtube-tiktok-comments-api,tubetext/video-breakdown-ai,tubetext/shot-by-shot-video-analysis
+  needs_credentials: true, writes_external: false
+- [mcp] uk.co.ppcmarketingcompany/site. PPC marketing company: the site's own MCP server — enquiry (enquiry = a human handoff, not a...
+  source: https://ppcmarketingcompany.co.uk
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://ppcmarketingcompany.co.uk/mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 
