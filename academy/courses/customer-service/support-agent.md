@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-19
-updated_at: 2026-10-19T00:13:40Z
+updated_at: 2026-10-19T16:59:16Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -216,16 +216,10 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx mcparmory-shopify-admin
   needs_credentials: false, writes_external: true
-- [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
-  source: https://github.com/fruggr/zendesk-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
-  license: MIT
-  install: npx -y @fruggr/zendesk-mcp-server
-  needs_credentials: true, writes_external: true
-- [mcp] Zendesk. Zendesk MCP server for Model Context Protocol hosts
+- [mcp] HubSpot. HubSpot CRM: contacts, deals, tickets, line items, properties, marketing, files, workflows, threads
   source: https://github.com/mindstone/mcp-servers
   license: NOASSERTION
-  install: npx -y @mindstone/mcp-server-zendesk
+  install: npx -y @mindstone/mcp-server-hubspot
   needs_credentials: true, writes_external: false
 - [mcp] HasData Shopify. The public product catalogue and collections of any Shopify storefront, as structured JSON.
   source: https://github.com/HasData/shopify-mcp
@@ -233,12 +227,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @hasdata/shopify-mcp
   needs_credentials: true, writes_external: false
-- [mcp] io.github.michaelrice/zendesk-mcp. Zendesk MCP server for Claude Code and other MCP clients
-  source: https://github.com/michaelrice/zendesk-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md
-  license: Apache-2.0
-  install: uvx zendesk-mcp
-  needs_credentials: false, writes_external: false
 - [mcp] io.github.alex-brecher/shopify-multi-store. Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.
   source: https://github.com/alex-brecher/shopify-multi-store
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alex-brecher-shopify-multi-store.md
@@ -256,6 +244,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miller-joe-shopify-mcp.md
   license: MIT
   install: npx -y @miller-joe/shopify-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] HubSpot. HubSpot API: 1,000+ endpoints as safety-categorized, hub- and plan-aware MCP tools, stdio or HTTP.
+  source: https://github.com/ohneben/Hubspot-MCP
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ohneben-hubspot-mcp.md
+  license: MIT
+  install: docker run -i --rm ghcr.io/ohneben/hubspot-mcp:2.0.1
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.den-indance/shopify-mcp-pro. Shopify MCP server with real analytics (ShopifyQL), auto-refresh auth, and Shopify API 2026-04.
+  source: https://github.com/den-indance/shopify-mcp-pro
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-den-indance-shopify-mcp-pro.md
+  license: MIT
+  install: npx -y @den.dance/shopify-mcp-pro
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

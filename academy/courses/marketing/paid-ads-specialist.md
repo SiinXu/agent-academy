@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-19
-updated_at: 2026-10-19T00:13:40Z
+updated_at: 2026-10-19T16:59:16Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -127,6 +127,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: Apache-2.0
   install: npx -y @cesteral/tiktok-mcp
   needs_credentials: true, writes_external: true
+- [mcp] TikTok Shop. Read-only TikTok Shop Partner API: orders, finance, products and analytics across shops.
+  source: https://github.com/Buer2333/tiktok-shop-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-shop-mcp.md
+  license: MIT
+  install: uvx tiktok-shop-mcp
+  needs_credentials: true, writes_external: false
 - [mcp] TikTok Agent Publisher. Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.
   source: https://github.com/davidmosiah/tiktok-agent-publisher
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-davidmosiah-tiktok-agent-publisher.md
@@ -190,6 +196,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://tiktok.fetcher.sh/mcp
   needs_credentials: true, writes_external: false
+- [mcp] TikTok GMV Max. Read-only TikTok Business API: GMV Max campaigns and reports, ads, BC balances.
+  source: https://github.com/Buer2333/tiktok-ads-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-gmvmax-mcp.md
+  license: MIT
+  install: uvx tiktok-gmvmax-mcp
+  needs_credentials: true, writes_external: false
 - [mcp] TikTok Transcript Scraper. Transcripts of TikTok videos or whole accounts, with views, likes and dates.
   source: https://github.com/fernandoguiraud16-coder/data-tools
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fernandoguiraud16-coder-tiktok-transcript-scraper.md
@@ -200,17 +212,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://apify.com/sauliusautomatesit/tiktok-transcript-scraper
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.apify.com/?tools=sauliusautomatesit/tiktok-transcript-scraper
-  needs_credentials: true, writes_external: false
-- [mcp] TikTok Transcripts, Comments, Video Breakdown & Shot Analysis. TikTok transcripts, comment sentiment by moment, AI breakdowns and director-level shot analysis.
-  source: https://github.com/LMSlay/tubetext-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lmslay-tubetext-tiktok-transcripts.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/youtube-tiktok-comments-api,tubetext/video-breakdown-ai,tubetext/shot-by-shot-video-analysis
-  needs_credentials: true, writes_external: false
-- [mcp] uk.co.ppcmarketingcompany/site. PPC marketing company: the site's own MCP server — enquiry (enquiry = a human handoff, not a...
-  source: https://ppcmarketingcompany.co.uk
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://ppcmarketingcompany.co.uk/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

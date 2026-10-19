@@ -2,7 +2,7 @@
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-19
-updated_at: 2026-10-19T00:13:40Z
+updated_at: 2026-10-19T16:59:16Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-engineer/
 ---
 
@@ -46,25 +46,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1384 items
-- motion: 644 items
-- 3d: 608 items
-- editorial: 588 items
-- playful: 529 items
+- minimal: 1362 items
+- motion: 643 items
+- 3d: 606 items
+- editorial: 585 items
+- playful: 530 items
 - gradient: 281 items
 - retro: 115 items
-- dark-tech: 107 items
-- glass: 52 items
-- enterprise: 41 items
-- swiss: 27 items
-- soft: 15 items
+- dark-tech: 106 items
+- glass: 51 items
+- enterprise: 40 items
+- swiss: 25 items
+- soft: 14 items
 - brutalist: 13 items
-- apple: 12 items
+- apple: 11 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
 - fluent: 3 items
-- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://siinxu.github.io/agent-academy/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -240,11 +239,6 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/pbakaus/adapt
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] addyosmani/agent-skills. Addy Osmani’s engineering skills, including frontend performance and quality
-  source: https://github.com/addyosmani/agent-skills
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 - [skill] Ant Design for Agents（MCP + Skill）. Ant Group official: antd mcp and antd setup --client cursor/claude/codex install the MCP and skill in one command
   source: https://ant-design.antgroup.com/docs/react/for-agents
   license: see source (listed via UI Hub)
@@ -253,19 +247,22 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/anthropics/canvas-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] anti-slop. An anti-AI-slop design skill
-  source: https://github.com/miqdadbadjuber/anti-slop
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 - [skill] apple-design（Emil Kowalski）. Apple-style design
   source: https://www.ui-skills.com/skills/emilkowalski/apple-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] avoid-ai-design. A rule set for avoiding templated AI-looking design
-  source: https://github.com/funboy322/avoid-ai-design
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-avoid-ai-design.md
+- [skill] beautiful-shadows（Meng To）. Beautiful shadows
+  source: https://www.ui-skills.com/skills/mengto/beautiful-shadows
   license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] better-interface（Jakub Krehel）. Polish interface details
+  source: https://www.ui-skills.com/skills/jakubkrehel/better-interface
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [system-prompt] Comprehensive UI/UX Mobile App Analysis. Perform a detailed UI/UX analysis on mobile app screenshots, providing feedback from multiple perspectives including designer, engineer, and user.
+  source: https://prompts.chat/prompts/cmj9yexu6000ns80rshl4m7vr_comprehensive-uiux-mobile-app-analysis
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-comprehensive-uiux-mobile-app-analysis.md
+  license: CC0-1.0
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
@@ -331,11 +328,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: proprietary
   install: npx -y @readystack/tailwind-v4-upgrade-blocker-lint
   needs_credentials: false, writes_external: false
-- [mcp] com.iconsroom/mcp. Search 276,000+ open source icons and insert them as SVG or React components while you code.
-  source: https://github.com/mdanassaif/iconsroom
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y @iconsroom/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Draw40. Draw40 is an independent diagram workspace with an interactive MCP Apps canvas. OAuth sign-in.
   source: https://draw.404040.net/
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)

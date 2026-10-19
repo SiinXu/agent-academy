@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-19
-updated_at: 2026-10-19T00:13:40Z
+updated_at: 2026-10-19T16:59:16Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -68,6 +68,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
   needs_credentials: false, writes_external: true
+- [template] UniFlow Social Agent. A social media content strategist that plans your week of posts and writes drafts for X, Instagram, Facebook, LinkedIn, Threads, Bluesky and more.
+  source: https://botsdots.site/templates/uniflow-social-agent
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a
+  needs_credentials: true, writes_external: false
 
 ## Step 3: Learn the rules
 

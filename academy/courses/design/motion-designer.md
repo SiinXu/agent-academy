@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-19
-updated_at: 2026-10-19T00:13:40Z
+updated_at: 2026-10-19T16:59:16Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,25 +46,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1384 items
-- motion: 644 items
-- 3d: 608 items
-- editorial: 588 items
-- playful: 529 items
+- minimal: 1362 items
+- motion: 643 items
+- 3d: 606 items
+- editorial: 585 items
+- playful: 530 items
 - gradient: 281 items
 - retro: 115 items
-- dark-tech: 107 items
-- glass: 52 items
-- enterprise: 41 items
-- swiss: 27 items
-- soft: 15 items
+- dark-tech: 106 items
+- glass: 51 items
+- enterprise: 40 items
+- swiss: 25 items
+- soft: 14 items
 - brutalist: 13 items
-- apple: 12 items
+- apple: 11 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
 - fluent: 3 items
-- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://siinxu.github.io/agent-academy/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)

@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-19
-updated_at: 2026-10-19T00:13:40Z
+updated_at: 2026-10-19T16:59:16Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -42,11 +42,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/newsletterbot
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/aZktlS8No2Ur9nlhKRcy8
-  needs_credentials: false, writes_external: false
-- [template] Newsletter Editor. Runs the day-to-day of a weekly beehiiv newsletter: drafts from your outlines, sends test emails, claims ads, schedules after your approval.
-  source: https://botsdots.site/templates/newsletter-editor-wdti
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/_WDTIZiZCF43PWKoL5iUE
   needs_credentials: false, writes_external: false
 - [template] Newsletter Writer. Pulls what shipped from launches, wins and your calendar, writes the issue in your voice, and parks it for you to send.
   source: https://botsdots.site/templates/newsletter-writer
@@ -191,22 +186,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @neschadin/sendgrid-mcp
   needs_credentials: true, writes_external: true
-- [mcp] com.mambabuilt/mcp-link-in-bio-newsletter-checker. Follow a creator bio link and report the newsletter, what they sell, and the contact emails.
-  source: https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md
-  license: MIT
-  install: npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.closermethod/newsletter-growth-mcp. Newsletter growth loops, welcome-sequence architecture, subject-line and list-metric guidance.
-  source: https://github.com/closermethod/newsletter-growth-mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y newsletter-growth-mcp
-  needs_credentials: false, writes_external: false
-- [mcp] io.github.teamsincetoday/newsletter-commerce-mcp. Extract shoppable products from newsletter content with affiliate signals.
-  source: https://github.com/teamsincetoday/newsletter-commerce-mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y newsletter-commerce-mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Klaviyo. Klaviyo MCP Pack — wraps the Klaviyo API for email marketing
   source: https://github.com/pipeworx-io/mcp-klaviyo
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-klaviyo.md
@@ -229,6 +208,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mailchimp.md
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp
+  needs_credentials: true, writes_external: true
+- [mcp] Mailchimp MCP by usefulapi. Read audiences, members, campaigns and reports; add, update, tag and archive subscribers.
+  source: https://github.com/m190/usefulapi-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-usefulapi-mailchimp.md
+  license: MIT
+  install: remote (streamable-http): https://mailchimp.usefulapi.io/mcp
   needs_credentials: true, writes_external: true
 - [mcp] Marketing Content Production. Brand-safe ad, email, product description, and social content production.
   source: https://mcp-payment-site.vercel.app/marketing-content-production

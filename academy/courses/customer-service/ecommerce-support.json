@@ -2,7 +2,7 @@
  "id": "customer-service/ecommerce-support",
  "industry": "customer-service",
  "role": "ecommerce-support",
- "updated_at": "2026-10-19T00:13:40Z",
+ "updated_at": "2026-10-19T16:59:16Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -57,7 +57,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -102,7 +102,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -147,7 +147,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -192,7 +192,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -242,7 +242,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -312,7 +312,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -382,7 +382,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -450,7 +450,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -520,7 +520,7 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -587,11 +587,84 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-noshipsherlock/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-shopify-store-pulse",
+     "title": "Shopify Store Pulse",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "Every weekday morning, sends a short pulse from your Shopify store: yesterday's orders, open refunds or returns that need attention.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/shopify-store-pulse",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "crisships",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/shopify-store-pulse",
+      "record": {
+       "access": [
+        "money"
+       ],
+       "add": "https://x.ai/bot/kBSc1eU-xj4uQzFkjK7z_",
+       "cadence": "daily",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "crisships",
+       "firstSeen": "2026-10-19",
+       "integrations": [
+        "shopify"
+       ],
+       "name": "Shopify Store Pulse",
+       "official": false,
+       "page": "https://botsdots.site/templates/shopify-store-pulse",
+       "risk": "high",
+       "summary": "Every weekday morning, sends a short pulse from your Shopify store: yesterday's orders, open refunds or returns that need attention."
+      }
+     },
+     "install": "https://x.ai/bot/kBSc1eU-xj4uQzFkjK7z_",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": [
+       "shopify"
+      ]
+     },
+     "metrics": {
+      "score": 11,
+      "first_seen_catalog": "2026-10-19"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-16T14:52:06Z",
+     "updated_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-shopify-store-pulse/",
      "source": "botsdots"
     },
     {
@@ -656,83 +729,11 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-money-finder-xjfl/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-shopify-store-pulse",
-     "title": "Shopify Store Pulse",
-     "type": "template",
-     "industry": "customer-service",
-     "roles": [
-      "ecommerce-support"
-     ],
-     "summary": "Every weekday morning, sends a short pulse from your Shopify store: yesterday's orders, open refunds or returns that need attention.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/shopify-store-pulse",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "crisships",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/shopify-store-pulse",
-      "record": {
-       "access": [
-        "money"
-       ],
-       "add": "https://x.ai/bot/kBSc1eU-xj4uQzFkjK7z_",
-       "cadence": "daily",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "customer-sales",
-       "creator": "crisships",
-       "firstSeen": "2026-10-16",
-       "integrations": [
-        "shopify"
-       ],
-       "name": "Shopify Store Pulse",
-       "official": false,
-       "page": "https://botsdots.site/templates/shopify-store-pulse",
-       "risk": "high",
-       "summary": "Every weekday morning, sends a short pulse from your Shopify store: yesterday's orders, open refunds or returns that need attention."
-      }
-     },
-     "install": "https://x.ai/bot/kBSc1eU-xj4uQzFkjK7z_",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": true,
-      "risk_label": "high",
-      "integrations": [
-       "shopify"
-      ]
-     },
-     "metrics": {
-      "score": 9,
-      "first_seen_catalog": "2026-10-16"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-19T00:13:40Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-shopify-store-pulse/",
      "source": "botsdots"
     }
    ]
@@ -778,7 +779,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -823,7 +824,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -861,16 +862,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 10461,
+      "repo_stars": 10464,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://siinxu.github.io/agent-academy/r/google-adk-recipes-plugins-retail-skills-virtual-tryon/",
      "source": "github"
@@ -906,16 +907,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2259,
+      "repo_stars": 2262,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://siinxu.github.io/agent-academy/r/sierra-research-tau2-bench-data-tau2-domains-airline-policy/",
      "source": "github"
@@ -951,16 +952,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2259,
+      "repo_stars": 2262,
       "repo_pushed_at": "2026-10-16"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://siinxu.github.io/agent-academy/r/sierra-research-tau2-bench-data-tau2-domains-telecom-main-policy/",
      "source": "github"
@@ -1003,7 +1004,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -1053,7 +1054,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -1098,7 +1099,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -1143,7 +1144,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -1188,7 +1189,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -1238,7 +1239,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
@@ -1283,7 +1284,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T00:13:40Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },

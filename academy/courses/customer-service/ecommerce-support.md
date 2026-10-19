@@ -2,7 +2,7 @@
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-19
-updated_at: 2026-10-19T00:13:40Z
+updated_at: 2026-10-19T16:59:16Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/ecommerce-support/
 ---
 
@@ -78,16 +78,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Lll9_CtLlBh_nEOWVQfMY
   needs_credentials: false, writes_external: false
-- [template] Money Finder. Finds money you're owed, like class action settlements, FTC refunds, lost 401(k)s, and forgotten balances in your email, and files honest claims.
-  source: https://botsdots.site/templates/money-finder-xjfl
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW
-  needs_credentials: false, writes_external: false
 - [template] Shopify Store Pulse. Every weekday morning, sends a short pulse from your Shopify store: yesterday's orders, open refunds or returns that need attention.
   source: https://botsdots.site/templates/shopify-store-pulse
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/kBSc1eU-xj4uQzFkjK7z_
   needs_credentials: true, writes_external: true
+- [template] Money Finder. Finds money you're owed, like class action settlements, FTC refunds, lost 401(k)s, and forgotten balances in your email, and files honest claims.
+  source: https://botsdots.site/templates/money-finder-xjfl
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW
+  needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
 
