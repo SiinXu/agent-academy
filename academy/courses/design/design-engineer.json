@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-10-19T16:59:16Z",
+ "updated_at": "2026-10-20T01:06:48Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -488,7 +488,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182179,
+      "repo_stars": 182240,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -500,51 +500,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/anthropics-skills-skills-web-artifacts-builder/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-brandkit",
-     "title": "brandkit",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brandkit/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brandkit.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/brandkit/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brandkit/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill brandkit",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-brandkit/",
      "source": "github"
     },
     {
@@ -573,12 +528,12 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill",
      "security": {
       "audited": false,
-      "executes_code": true,
+      "executes_code": false,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 99229,
+      "repo_stars": 99367,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -590,501 +545,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-taste-skill/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-taste-skill-v1",
-     "title": "design-taste-frontend-v1",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "The original taste-skill v1, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v1/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v1.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/taste-skill-v1/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v1/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill-v1",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-taste-skill-v1/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-taste-skill-v2-experimental",
-     "title": "design-taste-frontend-v2-experimental",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "The single-file, dial-driven taste-skill that was the default before v2, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v2-experimental/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v2-experimental.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/taste-skill-v2-experimental/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v2-experimental/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill-v2-experimental",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-taste-skill-v2-experimental/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-gpt-tasteskill",
-     "title": "gpt-taste",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Classic skill for GPT and Codex, opt-in: it runs only when called by name. Layout variance, a strict AIDA page structure and GSAP scroll motion.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/gpt-tasteskill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-gpt-tasteskill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/gpt-tasteskill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/gpt-tasteskill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill gpt-tasteskill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-gpt-tasteskill/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-soft-skill",
-     "title": "high-end-visual-design",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Classic style skill, opt-in: it runs only when called by name. A calm, polished look with soft contrast, generous whitespace and spring motion.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/soft-skill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-soft-skill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/soft-skill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/soft-skill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill soft-skill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-soft-skill/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-image-to-code-skill",
-     "title": "image-to-code",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/image-to-code-skill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-image-to-code-skill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/image-to-code-skill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/image-to-code-skill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill image-to-code-skill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-image-to-code-skill/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-imagegen-frontend-mobile",
-     "title": "imagegen-frontend-mobile",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-mobile/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-mobile.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/imagegen-frontend-mobile/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-mobile/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-mobile",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-imagegen-frontend-mobile/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-imagegen-frontend-web",
-     "title": "imagegen-frontend-web",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-web.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/imagegen-frontend-web/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-web",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-imagegen-frontend-web/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-brutalist-skill",
-     "title": "industrial-brutalist-ui",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Classic style skill, opt-in: it runs only when called by name. A hard mechanical look with Swiss type, rigid grids, extreme scale contrast and utilitarian colour.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brutalist-skill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brutalist-skill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/brutalist-skill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/brutalist-skill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill brutalist-skill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-brutalist-skill/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-minimalist-skill",
-     "title": "minimalist-ui",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Classic style skill, opt-in: it runs only when called by name. Editorial product UI with a warm monochrome palette, typographic contrast and flat bento grids.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/minimalist-skill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-minimalist-skill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/minimalist-skill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/minimalist-skill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill minimalist-skill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-minimalist-skill/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-redesign-skill",
-     "title": "redesign-existing-projects",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Retired: redesigns, restyles and design reviews are part of design-taste-frontend. Runs only when called by name.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-redesign-skill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/redesign-skill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill redesign-skill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-redesign-skill/",
-     "source": "github"
-    },
-    {
-     "id": "leonxlnx-taste-skill-skills-stitch-skill",
-     "title": "stitch-design-taste",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Classic skill for Google Stitch, opt-in: it runs only when called by name. Writes an agent-friendly DESIGN.md with strict type, colour and layout rules.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/stitch-skill/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-stitch-skill.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/stitch-skill/SKILL.md",
-     "repo": "Leonxlnx/taste-skill",
-     "author": "Leonxlnx",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/stitch-skill/SKILL.md"
-     },
-     "install": "npx skills add Leonxlnx/taste-skill --skill stitch-skill",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 99229,
-      "repo_pushed_at": "2026-10-19"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/leonxlnx-taste-skill-skills-stitch-skill/",
      "source": "github"
     },
     {
@@ -1118,7 +578,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1163,7 +623,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1208,7 +668,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1253,7 +713,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1298,7 +758,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1343,7 +803,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1388,7 +848,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30437,
+      "repo_stars": 30511,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1433,16 +893,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25858,
+      "repo_stars": 25868,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-01-core-development-design-bridge/",
      "source": "github"
@@ -1586,6 +1046,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-addy-agent-skills",
+     "title": "addyosmani/agent-skills",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Addy Osmani’s engineering skills, including frontend performance and quality",
+     "summary_lang": "en",
+     "source_url": "https://github.com/addyosmani/agent-skills",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@addyosmani",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-addy-agent-skills/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-ued-antd-for-agents",
      "title": "Ant Design for Agents（MCP + Skill）",
      "type": "skill",
@@ -1678,6 +1183,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-anti-slop",
+     "title": "anti-slop",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "An anti-AI-slop design skill",
+     "summary_lang": "en",
+     "source_url": "https://github.com/miqdadbadjuber/anti-slop",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@lorden_eth",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/miqdadbadjuber/anti-slop/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-anti-slop/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-www-ui-skills-com-skills-emilkowalski-apple-design",
      "title": "apple-design（Emil Kowalski）",
      "type": "skill",
@@ -1724,6 +1274,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-avoid-ai-design",
+     "title": "avoid-ai-design",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "A rule set for avoiding templated AI-looking design",
+     "summary_lang": "en",
+     "source_url": "https://github.com/funboy322/avoid-ai-design",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-avoid-ai-design.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@lorden_eth",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/funboy322/avoid-ai-design/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-avoid-ai-design/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-www-ui-skills-com-skills-mengto-beautiful-shadows",
      "title": "beautiful-shadows（Meng To）",
      "type": "skill",
@@ -1767,6 +1362,51 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-mengto-beautiful-shadows/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-bencium-design",
+     "title": "bencium Claude Code Design Skill",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Called “one of the most complete UX design skills” by the community; focused on UX flow and usability",
+     "summary_lang": "en",
+     "source_url": "https://github.com/bencium/bencium-claude-code-design-skill",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-bencium-design.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@bencium",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/bencium/bencium-marketplace/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-bencium-design/",
      "source": "ui-hub"
     },
     {
@@ -1859,6 +1499,372 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-comprehensive-uiux-mobile-app-analysis/",
      "source": "prompts.chat"
+    },
+    {
+     "id": "uihub-www-ui-skills-com-skills-dammyjay93-interface-design",
+     "title": "dammyjay93/interface-design",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Specialized in admin panels, dashboards and SaaS UIs",
+     "summary_lang": "en",
+     "source_url": "https://www.ui-skills.com/skills/dammyjay93/interface-design",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ui-skills.com",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-dammyjay93-interface-design/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-grubby-design-guide",
+     "title": "design-guide（GrubbyLee）",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "A design guide written for agents",
+     "summary_lang": "en",
+     "source_url": "https://github.com/GrubbyLee/design-guide",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-grubby-design-guide.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@lorden_eth",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/GrubbyLee/design-guide/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-grubby-design-guide/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-www-ui-skills-com-skills-superfuture-design-review",
+     "title": "design-review（superfuture）",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Design review",
+     "summary_lang": "en",
+     "source_url": "https://www.ui-skills.com/skills/superfuture/design-review",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@kail_designs",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-superfuture-design-review/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-www-ui-skills-com-skills-diffusionstudio-text-to-lottie",
+     "title": "diffusionstudio/text-to-lottie",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Generate Lottie animations from text",
+     "summary_lang": "en",
+     "source_url": "https://www.ui-skills.com/skills/diffusionstudio/text-to-lottie",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ui-skills.com",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-diffusionstudio-text-to-lottie/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-x-emilkowalski-skills",
+     "title": "Emil Kowalski · skills",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Emil's agent skills repo: /mobile-native (native touch feel, no hover) and /break-ui (stress-test UI with extreme data like long names) (from X: @emilkowalski, 4601 likes / 5138 bookmarks, 2026-10-04)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-x-emilkowalski-skills.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "X",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-x-emilkowalski-skills/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-www-ui-skills-com-skills-emilkowalski-emil-design-eng",
+     "title": "emil-design-eng（Emil Kowalski）",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Design engineering details",
+     "summary_lang": "en",
+     "source_url": "https://www.ui-skills.com/skills/emilkowalski/emil-design-eng",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@kail_designs",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-emilkowalski-emil-design-eng/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-www-ui-skills-com-skills-emilkowalski-animate",
+     "title": "emilkowalski/animate",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Animate from scratch, deciding in the right order whether and how things move",
+     "summary_lang": "en",
+     "source_url": "https://www.ui-skills.com/skills/emilkowalski/animate",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ui-skills.com",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-emilkowalski-animate/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-www-ui-skills-com-skills-emilkowalski-review-animations",
+     "title": "emilkowalski/review-animations",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Review animation timing, rhythm and consistency",
+     "summary_lang": "en",
+     "source_url": "https://www.ui-skills.com/skills/emilkowalski/review-animations",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ui-skills.com",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-16T14:52:06Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-www-ui-skills-com-skills-emilkowalski-review-animations/",
+     "source": "ui-hub"
     }
    ]
   },
@@ -1896,7 +1902,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "4-do-it",
@@ -1967,9 +1973,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-figma-mcp-mcp/",
      "source": "mcp-registry"
@@ -1995,7 +2001,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/storybookjs/mcp/blob/HEAD/README.md"
+      "url": "https://github.com/storybookjs/mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Help agents automatically write and test stories for your UI components.",
+       "name": "io.github.storybookjs/addon-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "@storybook/addon-mcp",
+         "transport": "streamable-http",
+         "type": "npm",
+         "version": "0.6.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/storybookjs/mcp",
+       "title": "Storybook MCP Addon",
+       "version": "0.6.0",
+       "website": "https://storybook.js.org/docs/ai/mcp/overview"
+      }
      },
      "install": "npx -y @storybook/addon-mcp",
      "security": {
@@ -2014,9 +2038,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-storybookjs-addon-mcp/",
      "source": "mcp-registry"
@@ -2042,7 +2066,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/BV-Venky/excalidraw-architect-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/BV-Venky/excalidraw-architect-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Generate beautiful Excalidraw architecture diagrams with auto-layout and component styling",
+       "name": "io.github.BV-Venky/excalidraw-architect-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "excalidraw-architect-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/BV-Venky/excalidraw-architect-mcp",
+       "title": "Excalidraw Architect",
+       "version": "0.2.2",
+       "website": null
+      }
      },
      "install": "uvx excalidraw-architect-mcp",
      "security": {
@@ -2061,9 +2103,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-bv-venky-excalidraw-architect-mcp/",
      "source": "mcp-registry"
@@ -2089,7 +2131,31 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/bourhaouta/vscode-tailwindshades/blob/HEAD/README.md"
+      "url": "https://github.com/bourhaouta/vscode-tailwindshades/blob/HEAD/README.md",
+      "record": {
+       "description": "Tailwind CSS palettes (50-950) from any color, the closest Tailwind color, and Tailwind's defaults",
+       "name": "io.github.bourhaouta/tailwindshades",
+       "packages": [
+        {
+         "env": [],
+         "id": "tailwindshades-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.6.0"
+        }
+       ],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://tailwindshades.bourhaouta.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/bourhaouta/vscode-tailwindshades",
+       "title": "Tailwind Shades",
+       "version": "1.6.0",
+       "website": "https://tailwindshades.bourhaouta.com"
+      }
      },
      "install": "npx -y tailwindshades-mcp",
      "security": {
@@ -2108,9 +2174,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-bourhaouta-tailwindshades/",
      "source": "mcp-registry"
@@ -2136,7 +2202,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md"
+      "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md",
+      "record": {
+       "description": "Compact Figma MCP with validated batch ops through a local plugin bridge.",
+       "name": "io.github.sunhome243/figma-mcp-express",
+       "packages": [
+        {
+         "env": [],
+         "id": "figma-mcp-express",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.8.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/sunhome243/figma-mcp-express",
+       "title": null,
+       "version": "2.8.1",
+       "website": null
+      }
      },
      "install": "npx -y figma-mcp-express",
      "security": {
@@ -2155,9 +2239,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-sunhome243-figma-mcp-express/",
      "source": "mcp-registry"
@@ -2184,7 +2268,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/felixAnhalt/figma-to-code-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/felixAnhalt/figma-to-code-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "LLM-optimized Figma MCP server.",
+       "name": "io.github.felixAnhalt/Figma-Context-MCP",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
+           "name": "FIGMA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@tmegit/figma-developer-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.13.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/felixAnhalt/Figma-Context-MCP",
+       "title": null,
+       "version": "0.13.0",
+       "website": null
+      }
      },
      "install": "npx -y @tmegit/figma-developer-mcp",
      "security": {
@@ -2205,9 +2314,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-felixanhalt-figma-context-mcp/",
      "source": "mcp-registry"
@@ -2233,7 +2342,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/kolganovr/figma-mcp-bridge/blob/HEAD/README.md"
+      "url": "https://github.com/kolganovr/figma-mcp-bridge/blob/HEAD/README.md",
+      "record": {
+       "description": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
+       "name": "io.github.kolganovr/figma-mcp-bridge",
+       "packages": [
+        {
+         "env": [],
+         "id": "@kolganovr/figma-mcp-bridge",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "4.0.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/kolganovr/figma-mcp-bridge",
+       "title": null,
+       "version": "4.0.1",
+       "website": "https://github.com/kolganovr/figma-mcp-bridge#quickstart"
+      }
      },
      "install": "npx -y @kolganovr/figma-mcp-bridge",
      "security": {
@@ -2252,9 +2379,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-kolganovr-figma-mcp-bridge/",
      "source": "mcp-registry"
@@ -2280,7 +2407,38 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/Mehmoodqureshi/figma-codekit-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/Mehmoodqureshi/figma-codekit-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.",
+       "name": "io.github.Mehmoodqureshi/figma-codekit-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Figma personal access token (Settings -> Security -> Personal access tokens, scope \"File content: read\"). May instead be placed in a .figma-token file in the project directory. FIGMA_API_KEY is accepted as an alias.",
+           "name": "FIGMA_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Where converted frames are cached. Defaults to .figma-cache/ in the directory the server starts from.",
+           "name": "FIGMA_MCP_CACHE_DIR",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "figma-codekit-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.4"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/Mehmoodqureshi/figma-codekit-mcp",
+       "title": "Figma CodeKit MCP",
+       "version": "0.2.4",
+       "website": null
+      }
      },
      "install": "npx -y figma-codekit-mcp",
      "security": {
@@ -2302,9 +2460,9 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-mehmoodqureshi-figma-codekit-mcp/",
      "source": "mcp-registry"
@@ -2367,9 +2525,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:34:04Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-jmshinhwa-tailwind-v4-upgrade-blocker-lint/",
      "source": "mcp-registry"
@@ -2664,7 +2822,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137525,
+      "repo_stars": 137622,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2709,7 +2867,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137525,
+      "repo_stars": 137622,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2754,7 +2912,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2799,7 +2957,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2844,7 +3002,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2889,7 +3047,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2934,7 +3092,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2979,7 +3137,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30437,
+      "repo_stars": 30511,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3024,7 +3182,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30437,
+      "repo_stars": 30511,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3069,7 +3227,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30437,
+      "repo_stars": 30511,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3114,16 +3272,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25858,
+      "repo_stars": 25868,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"

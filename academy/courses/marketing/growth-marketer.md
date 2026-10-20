@@ -1,8 +1,8 @@
 ---
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-19
-updated_at: 2026-10-19T16:59:16Z
+version: 2026-10-20
+updated_at: 2026-10-20T01:06:48Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -65,6 +65,12 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-community-marketing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill community-marketing
+  needs_credentials: false, writes_external: false
+- [skill] conversion-tracking. Set up, audit, verify, or fix website conversion tracking. Use when the conversion is a form submission, booked meeting, chat, phone call, signup, or purchase; when conversions must reach Google Ads, Meta, GA4, LinkedIn,
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/conversion-tracking/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-conversion-tracking.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill conversion-tracking
   needs_credentials: false, writes_external: false
 - [skill] cro. When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the u
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/cro/SKILL.md
@@ -159,6 +165,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [mcp] io.github.pooriaarab/agentic-campaign. Plan a social campaign calendar across brands and platforms.
+  source: https://github.com/pooriaarab/agentic-campaign
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pooriaarab-agentic-campaign.md
+  license: MIT
+  install: npx -y agentic-campaign
+  needs_credentials: false, writes_external: false
 - [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
@@ -169,12 +181,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
-- [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
-  source: https://github.com/cyanheads/mailchimp-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
-  license: Apache-2.0
-  install: see README; needs Mailchimp API key; can SEND campaigns (write access)
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

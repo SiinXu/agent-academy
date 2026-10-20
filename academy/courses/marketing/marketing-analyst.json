@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-10-19T16:59:16Z",
+ "updated_at": "2026-10-20T01:06:48Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -396,8 +396,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55508,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 55560,
+      "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -441,13 +441,13 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55508,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 55560,
+      "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
      "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
@@ -486,7 +486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -531,7 +531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -576,7 +576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -751,7 +751,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md"
+      "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md",
+      "record": {
+       "description": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
+       "name": "io.github.PostHog/mcp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://mcp.posthog.com/mcp"
+        },
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "sse",
+         "url": "https://mcp.posthog.com/sse"
+        }
+       ],
+       "repository": "https://github.com/PostHog/posthog",
+       "title": "PostHog MCP Server",
+       "version": "1.0.1",
+       "website": null
+      }
      },
      "install": "remote (streamable-http): https://mcp.posthog.com/mcp",
      "security": {
@@ -765,17 +790,17 @@
       ]
      },
      "metrics": {
-      "repo_stars": 40346,
-      "repo_pushed_at": "2026-10-19",
+      "repo_stars": 40350,
+      "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2026-01-07"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-posthog-mcp/",
      "source": "mcp-registry"
@@ -801,7 +826,38 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.",
+       "name": "io.github.matjmat/eulerian-marketing-platform-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Eulerian Marketing Platform API key",
+           "name": "EMP_API_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Your Eulerian Marketing Platform MCP Endpoint",
+           "name": "EMP_API_ENDPOINT",
+           "required": true,
+           "secret": null
+          }
+         ],
+         "id": "eulerian-marketing-platform",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.9"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
      },
      "install": "uvx eulerian-marketing-platform",
      "security": {
@@ -823,9 +879,9 @@
      "status": "active",
      "first_seen": "2026-10-19T00:13:40Z",
      "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-matjmat-eulerian-marketing-platform-mcp/",
      "source": "mcp-registry"
@@ -894,6 +950,136 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-csoai-org-marketing-analytics-ai-mcp",
+     "title": "io.github.CSOAI-ORG/marketing-analytics-ai-mcp",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Marketing Analytics Ai MCP Server by MEOK AI Labs",
+     "summary_lang": "en",
+     "source_url": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-csoai-org-marketing-analytics-ai-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "CSOAI-ORG/marketing-analytics-ai-mcp",
+     "author": "io.github.CSOAI-ORG",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Marketing Analytics Ai MCP Server by MEOK AI Labs",
+       "name": "io.github.CSOAI-ORG/marketing-analytics-ai-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "marketing-analytics-ai-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "1.0.9"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp",
+       "title": null,
+       "version": "1.0.9",
+       "website": null
+      }
+     },
+     "install": "uvx marketing-analytics-ai-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-08",
+      "registry_updated_at": "2026-08-19"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-19T00:13:40Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-csoai-org-marketing-analytics-ai-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-friendlygeorge-posthog-mcp-server",
+     "title": "io.github.friendlygeorge/posthog-mcp-server",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
+     "summary_lang": "en",
+     "source_url": "https://github.com/friendlygeorge/posthog-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md",
+     "upstream_raw_url": null,
+     "repo": "friendlygeorge/posthog-mcp-server",
+     "author": "io.github.friendlygeorge",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/friendlygeorge/posthog-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
+       "name": "io.github.friendlygeorge/posthog-mcp-server",
+       "packages": [
+        {
+         "env": [],
+         "id": "posthog-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/friendlygeorge/posthog-mcp-server",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
+     },
+     "install": "npx -y posthog-mcp-server",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-06-06",
+      "registry_updated_at": "2026-06-06"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-friendlygeorge-posthog-mcp-server/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-ai-saifs-marketing-intelligence",
      "title": "Marketing Intelligence & Optimization",
      "type": "mcp",
@@ -954,6 +1140,53 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-saifs-marketing-intelligence/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-pipeworx-io-posthog",
+     "title": "Posthog",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pipeworx-io/mcp-posthog",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md",
+     "upstream_raw_url": null,
+     "repo": "pipeworx-io/mcp-posthog",
+     "author": "io.github.pipeworx-io",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/pipeworx-io/mcp-posthog/blob/HEAD/README.md"
+     },
+     "install": "remote (streamable-http): https://gateway.pipeworx.io/posthog/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-26",
+      "registry_updated_at": "2026-09-26"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
+     "checked_at": "2026-10-20T01:06:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-posthog/",
      "source": "mcp-registry"
     }
    ]
@@ -1082,8 +1315,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55508,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 55560,
+      "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1127,13 +1360,13 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55508,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 55560,
+      "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-20T01:06:48Z",
      "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
@@ -1172,7 +1405,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1217,7 +1450,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1262,7 +1495,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

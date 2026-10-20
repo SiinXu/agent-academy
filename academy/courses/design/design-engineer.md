@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-19
-updated_at: 2026-10-19T16:59:16Z
+version: 2026-10-20
+updated_at: 2026-10-20T01:06:48Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-engineer/
 ---
 
@@ -46,24 +46,25 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1362 items
-- motion: 643 items
-- 3d: 606 items
-- editorial: 585 items
-- playful: 530 items
+- minimal: 1401 items
+- motion: 642 items
+- 3d: 608 items
+- editorial: 586 items
+- playful: 529 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 106 items
-- glass: 51 items
-- enterprise: 40 items
-- swiss: 25 items
-- soft: 14 items
+- glass: 53 items
+- enterprise: 42 items
+- swiss: 27 items
+- soft: 15 items
 - brutalist: 13 items
-- apple: 11 items
+- apple: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
 - fluent: 3 items
+- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://siinxu.github.io/agent-academy/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -102,83 +103,11 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/skills --skill web-artifacts-builder
   needs_credentials: false, writes_external: false
-- [skill] brandkit. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/brandkit/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brandkit.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill brandkit
-  needs_credentials: false, writes_external: false
 - [skill] design-taste-frontend. tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (idea, composition, typ
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill.md
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill taste-skill
-  needs_credentials: false, writes_external: false
-- [skill] design-taste-frontend-v1. The original taste-skill v1, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v1/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v1.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill taste-skill-v1
-  needs_credentials: false, writes_external: false
-- [skill] design-taste-frontend-v2-experimental. The single-file, dial-driven taste-skill that was the default before v2, kept for projects that depend on its exact behaviour. Opt-in: it runs only when called by name.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill-v2-experimental/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill-v2-experimental.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill taste-skill-v2-experimental
-  needs_credentials: false, writes_external: false
-- [skill] gpt-taste. Classic skill for GPT and Codex, opt-in: it runs only when called by name. Layout variance, a strict AIDA page structure and GSAP scroll motion.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/gpt-tasteskill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-gpt-tasteskill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill gpt-tasteskill
-  needs_credentials: false, writes_external: false
-- [skill] high-end-visual-design. Classic style skill, opt-in: it runs only when called by name. A calm, polished look with soft contrast, generous whitespace and spring motion.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/soft-skill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-soft-skill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill soft-skill
-  needs_credentials: false, writes_external: false
-- [skill] image-to-code. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/image-to-code-skill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-image-to-code-skill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill image-to-code-skill
-  needs_credentials: false, writes_external: false
-- [skill] imagegen-frontend-mobile. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-mobile/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-mobile.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-mobile
-  needs_credentials: false, writes_external: false
-- [skill] imagegen-frontend-web. Moved to github.com/Leonxlnx/imagegen-skills. Runs only when called by name.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/imagegen-frontend-web/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-imagegen-frontend-web.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill imagegen-frontend-web
-  needs_credentials: false, writes_external: false
-- [skill] industrial-brutalist-ui. Classic style skill, opt-in: it runs only when called by name. A hard mechanical look with Swiss type, rigid grids, extreme scale contrast and utilitarian colour.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/brutalist-skill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-brutalist-skill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill brutalist-skill
-  needs_credentials: false, writes_external: false
-- [skill] minimalist-ui. Classic style skill, opt-in: it runs only when called by name. Editorial product UI with a warm monochrome palette, typographic contrast and flat bento grids.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/minimalist-skill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-minimalist-skill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill minimalist-skill
-  needs_credentials: false, writes_external: false
-- [skill] redesign-existing-projects. Retired: redesigns, restyles and design reviews are part of design-taste-frontend. Runs only when called by name.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/redesign-skill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-redesign-skill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill redesign-skill
-  needs_credentials: false, writes_external: false
-- [skill] stitch-design-taste. Classic skill for Google Stitch, opt-in: it runs only when called by name. Writes an agent-friendly DESIGN.md with strict type, colour and layout rules.
-  source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/stitch-skill/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-stitch-skill.md
-  license: MIT
-  install: npx skills add Leonxlnx/taste-skill --skill stitch-skill
   needs_credentials: false, writes_external: false
 - [skill] pick-ui-library. Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly i
   source: https://github.com/emilkowalski/skills/blob/main/skills/pick-ui-library/SKILL.md
@@ -239,6 +168,11 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/pbakaus/adapt
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] addyosmani/agent-skills. Addy Osmani’s engineering skills, including frontend performance and quality
+  source: https://github.com/addyosmani/agent-skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] Ant Design for Agents（MCP + Skill）. Ant Group official: antd mcp and antd setup --client cursor/claude/codex install the MCP and skill in one command
   source: https://ant-design.antgroup.com/docs/react/for-agents
   license: see source (listed via UI Hub)
@@ -247,12 +181,27 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/anthropics/canvas-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] anti-slop. An anti-AI-slop design skill
+  source: https://github.com/miqdadbadjuber/anti-slop
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] apple-design（Emil Kowalski）. Apple-style design
   source: https://www.ui-skills.com/skills/emilkowalski/apple-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] avoid-ai-design. A rule set for avoiding templated AI-looking design
+  source: https://github.com/funboy322/avoid-ai-design
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-avoid-ai-design.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] beautiful-shadows（Meng To）. Beautiful shadows
   source: https://www.ui-skills.com/skills/mengto/beautiful-shadows
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] bencium Claude Code Design Skill. Called “one of the most complete UX design skills” by the community; focused on UX flow and usability
+  source: https://github.com/bencium/bencium-claude-code-design-skill
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-bencium-design.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [skill] better-interface（Jakub Krehel）. Polish interface details
@@ -263,6 +212,40 @@ Read the required skills, prompts and standards in order.
   source: https://prompts.chat/prompts/cmj9yexu6000ns80rshl4m7vr_comprehensive-uiux-mobile-app-analysis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-comprehensive-uiux-mobile-app-analysis.md
   license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [skill] dammyjay93/interface-design. Specialized in admin panels, dashboards and SaaS UIs
+  source: https://www.ui-skills.com/skills/dammyjay93/interface-design
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] design-guide（GrubbyLee）. A design guide written for agents
+  source: https://github.com/GrubbyLee/design-guide
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-grubby-design-guide.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] design-review（superfuture）. Design review
+  source: https://www.ui-skills.com/skills/superfuture/design-review
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] diffusionstudio/text-to-lottie. Generate Lottie animations from text
+  source: https://www.ui-skills.com/skills/diffusionstudio/text-to-lottie
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] Emil Kowalski · skills. Emil's agent skills repo: /mobile-native (native touch feel, no hover) and /break-ui (stress-test UI with extreme data like long names) (from X: @emilkowalski, 4601 likes / 5138 bookmarks, 2026-10-04)
+  source: https://github.com/emilkowalski/skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-x-emilkowalski-skills.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] emil-design-eng（Emil Kowalski）. Design engineering details
+  source: https://www.ui-skills.com/skills/emilkowalski/emil-design-eng
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] emilkowalski/animate. Animate from scratch, deciding in the right order whether and how things move
+  source: https://www.ui-skills.com/skills/emilkowalski/animate
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] emilkowalski/review-animations. Review animation timing, rhythm and consistency
+  source: https://www.ui-skills.com/skills/emilkowalski/review-animations
+  license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it

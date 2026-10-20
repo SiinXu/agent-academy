@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-19
-updated_at: 2026-10-19T16:59:16Z
+version: 2026-10-20
+updated_at: 2026-10-20T01:06:48Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -158,6 +158,12 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill events
   needs_credentials: false, writes_external: false
+- [skill] link-building. When the user wants to earn backlinks or third-party mentions that lift rankings and AI citations. Also use when the user mentions 'link building,' 'linkbuilding,' 'backlinks,' 'get more backlinks,' 'link prospecting,' '
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/link-building/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-link-building.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill link-building
+  needs_credentials: false, writes_external: false
 - [skill] marketing-council. When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hor
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-council/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-council.md
@@ -236,11 +242,6 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-optimize-e-commerce-listing-for-high-ctr-with-holiday-design.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [system-prompt] Sales Funnel Builder from URL. Build a comprehensive sales funnel from a specified URL, leveraging web content to generate effective funnel stages.
-  source: https://prompts.chat/prompts/cmqol0bjx0001ju04gb05jfp8_sales-funnel-builder-from-url
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-sales-funnel-builder-from-url.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
 
@@ -267,11 +268,22 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.24haowan.com/mcp
   needs_credentials: true, writes_external: false
+- [mcp] Agent Marketing Index. How to market a product to AI agents: readiness, placement, measurement, 7-day trial.
+  source: https://github.com/sadri-dridi/named-mcp-utilities
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/agent-marketing-index/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] AIsa Similarweb. Traffic and engagement for any domain: rank, channels, referrers, audience, rivals.
   source: https://aisa.one
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.aisa.one/similarweb/mcp
   needs_credentials: true, writes_external: false
+- [mcp] Ariadne for Therapists. Free Google Business Profile audits and sample posts for therapists in private practice.
+  source: https://github.com/bgrieco22/ariadne-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-ariadnemarketing-therapist-marketing.md
+  license: MIT
+  install: remote (streamable-http): https://therapists.ariadnemarketing.com/mcp
+  needs_credentials: true, writes_external: true
 - [mcp] China Marketing AI Intelligence MCP. Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.
   source: https://www.chinamarketing.ai
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -282,12 +294,27 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://northpoint.fi/api/mcp
   needs_credentials: true, writes_external: false
-- [mcp] Mailchimp MCP by usefulapi. Read audiences, members, campaigns and reports; add, update, tag and archive subscribers.
-  source: https://github.com/m190/usefulapi-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-usefulapi-mailchimp.md
+- [mcp] Hootsuite. MCP server for Hootsuite API integration
+  source: https://github.com/asklokesh/hootsuite-mcp-server
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: uvx hootsuite-mcp-server
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.Autostackup/marketing. Kotler 9-element audit, IMC campaign planning, Meta & Google, audience segmentation for Claude.
+  source: https://github.com/Autostackup/autostackup
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: npx -y @autostackup/marketing
+  needs_credentials: false, writes_external: false
+- [mcp] Marketing Mcp. MCP server for Marketing
+  source: https://github.com/varvararatta/botfactory-mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://marketing-mcp.mcpize.run/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Mixpanel. Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
+  source: https://github.com/pipeworx-io/mcp-mixpanel
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md
   license: MIT
-  install: remote (streamable-http): https://mailchimp.usefulapi.io/mcp
-  needs_credentials: true, writes_external: true
+  install: remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Sendgrid. SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)
   source: https://github.com/pipeworx-io/mcp-sendgrid
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-sendgrid.md
@@ -300,10 +327,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx sendgrid-mcp-secure
   needs_credentials: true, writes_external: true
-- [mcp] uk.co.digitalmarketingagencyswindon/site. Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...
-  source: https://digitalmarketingagencyswindon.co.uk
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp
+- [mcp] The Service Marketing Guys Audit. Read-only audit of any local service business, Open Service Profile conformance first.
+  source: https://github.com/buildmodus/open-service-profile
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
+  license: MIT
+  install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

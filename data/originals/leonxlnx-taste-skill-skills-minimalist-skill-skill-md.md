@@ -1,87 +1,234 @@
----
-name: minimalist-ui
-description: "Classic style skill, opt-in: it runs only when called by name. Editorial product UI with a warm monochrome palette, typographic contrast and flat bento grids."
-disable-model-invocation: true
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/taste-skill-wordmark-dark.png" />
+    <img src="assets/taste-skill-wordmark.png" alt="Taste Skill" width="340" />
+  </picture>
+</p>
 
-# Protocol: Premium Utilitarian Minimalism UI Architect
+<p align="center">
+  <a href="https://tasteskill.dev" title="Visit tasteskill.dev"><img src="https://img.shields.io/badge/website-tasteskill.dev-24292f?style=flat" alt="Visit tasteskill.dev" /></a>
+  &nbsp;
+  <a href="https://tastecode.dev" title="Visit tastecode.dev"><img src="https://img.shields.io/badge/new-TasteCode-ff6b00?style=flat" alt="New: TasteCode" /></a>
+  &nbsp;
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat&amp;logo=github&amp;logoColor=white" alt="MIT License" /></a>
+  &nbsp;
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/changelog-view-24292f?style=flat" alt="Changelog" /></a>
+</p>
 
-## 1. Protocol Overview
-Name: Premium Utilitarian Minimalism & Editorial UI
-Description: An advanced frontend engineering directive for generating highly refined, ultra-minimalist, "document-style" web interfaces analogous to top-tier workspace platforms. This protocol strictly enforces a high-contrast warm monochrome palette, bespoke typographic hierarchies, meticulous structural macro-whitespace, bento-grid layouts, and an ultra-flat component architecture with deliberate muted pastel accents. It actively rejects standard generic SaaS design trends.
+<p align="center">
+  <a href="https://tastecode.dev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/readme-tastecode-dark.webp" />
+      <img src="assets/readme-tastecode.webp" alt="TasteCode is here. Taste Skill as a desktop app, with a design agent built in. Free and open source. Download at tastecode.dev" width="100%" />
+    </picture>
+  </a>
+</p>
 
-## 2. Absolute Negative Constraints (Banned Elements)
-The AI must strictly avoid the following generic web development defaults:
-- DO NOT use the "Inter", "Roboto", or "Open Sans" typefaces.
-- DO NOT use generic, thin-line icon libraries like "Lucide", "Feather", or standard "Heroicons".
-- DO NOT use Tailwind's default heavy drop shadows (e.g., `shadow-md`, `shadow-lg`, `shadow-xl`). Shadows must be practically non-existent or heavily customized to be ultra-diffuse and low opacity (< 0.05).
-- DO NOT use primary colored backgrounds for large elements or sections (e.g., no bright blue, green, or red hero sections).
-- DO NOT use gradients, neon colors, or 3D glassmorphism (beyond subtle navbar blurs).
-- DO NOT use `rounded-full` (pill shapes) for large containers, cards, or primary buttons.
-- DO NOT use emojis anywhere in code, markup, text content, headings, or alt text. Replace with proper icons or clean SVG primitives.
-- DO NOT use generic placeholder names like "John Doe", "Acme Corp", or "Lorem Ipsum". Use realistic, contextual content.
-- DO NOT use AI copywriting clichés: "Elevate", "Seamless", "Unleash", "Next-Gen", "Game-changer", "Delve". Write plain, specific language.
+<h3 align="center">Sponsors</h3>
 
-## 3. Typographic Architecture
-The interface must rely on extreme typographic contrast and premium font selection to establish an editorial feel.
-- Primary Sans-Serif (Body, UI, Buttons): Use clean, geometric, or system-native fonts with character. Target: `font-family: 'SF Pro Display', 'Geist Sans', 'Helvetica Neue', 'Switzer', sans-serif`.
-- Editorial Serif (Hero Headings & Quotes): Target: `font-family: 'Lyon Text', 'Newsreader', 'Playfair Display', 'Instrument Serif', serif`. Apply tight tracking (`letter-spacing: -0.02em` to `-0.04em`) and tight line-height (`1.1`).
-- Monospace (Code, Keystrokes, Meta-data): Target: `font-family: 'Geist Mono', 'SF Mono', 'JetBrains Mono', monospace`.
-- Text Colors: Body text must never be absolute black (`#000000`). Use off-black/charcoal (`#111111` or `#2F3437`) with a generous `line-height` of `1.6` for legibility. Secondary text should be muted gray (`#787774`).
+<table align="center">
+  <tr>
+    <td align="center" width="104">
+      <a href="https://interfaces.dev/?utm_source=tasteskill&utm_medium=sponsorship">
+        <img src="assets/sponsors/interfaces-dev-icon.webp" alt="Interfaces" width="52" height="52" />
+      </a>
+    </td>
+    <td><sub><a href="https://interfaces.dev/?utm_source=tasteskill&utm_medium=sponsorship"><strong>interfaces.dev</strong></a> · A design engineering magazine by <a href="https://github.com/jakubkrehel"><strong>Jakub Krehel</strong></a></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104">
+      <a href="https://reactbits.dev">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/reactbits-icon-dark.svg" />
+          <img src="assets/sponsors/reactbits-icon-light.svg" alt="React Bits" width="52" height="52" />
+        </picture>
+      </a>
+    </td>
+    <td><sub><a href="https://reactbits.dev"><strong>React Bits</strong></a> · animated React components for creative interfaces</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104"><a href="https://img.ly/"><img src="assets/sponsors/imgly-logo.svg" alt="IMG.LY" width="52" height="52" /></a></td>
+    <td><sub><a href="https://img.ly/"><strong>IMG.LY</strong></a> · CreativeEditor SDK</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104"><a href="https://www.sent.dm"><img src="assets/sponsors/sentdm.png" alt="Sent.dm" width="52" height="52" /></a></td>
+    <td><sub><a href="https://www.sent.dm"><strong>Sent.dm</strong></a> · messaging APIs for SMS, WhatsApp, and RCS</sub></td>
+  </tr>
+</table>
 
-## 4. Color Palette (Warm Monochrome + Spot Pastels)
-Color is a scarce resource, utilized only for semantic meaning or subtle accents.
-- Canvas / Background: Pure White `#FFFFFF` or Warm Bone/Off-White `#F7F6F3` / `#FBFBFA`.
-- Primary Surface (Cards): `#FFFFFF` or `#F9F9F8`.
-- Structural Borders / Dividers: Ultra-light gray `#EAEAEA` or `rgba(0,0,0,0.06)`.
-- Accent Colors: Exclusively use highly desaturated, washed-out pastels for tags, inline code backgrounds, or subtle icon backgrounds.
-  - Pale Red: `#FDEBEC` (Text: `#9F2F2D`)
-  - Pale Blue: `#E1F3FE` (Text: `#1F6C9F`)
-  - Pale Green: `#EDF3EC` (Text: `#346538`)
-  - Pale Yellow: `#FBF3DB` (Text: `#956400`)
+<p align="center"><sub><a href="https://github.com/sponsors/Leonxlnx">Become a sponsor</a></sub></p>
 
-## 5. Component Specifications
-- Bento Box Feature Grids:
-  - Utilize asymmetrical CSS Grid layouts.
-  - Cards must have exactly `border: 1px solid #EAEAEA`.
-  - Border-radius must be crisp: `8px` or `12px` maximum.
-  - Internal padding must be generous (e.g., `24px` to `40px`).
-- Primary Call-To-Action (Buttons):
-  - Solid background `#111111`, text `#FFFFFF`. 
-  - Slight border-radius (`4px` to `6px`). No box-shadow. 
-  - Hover state should be a subtle color shift to `#333333` or a micro-scale `transform: scale(0.98)`.
-- Tags & Status Badges:
-  - Pill-shaped (`border-radius: 9999px`), very small typography (`text-xs`), uppercase with wide tracking (`letter-spacing: 0.05em`).
-  - Background must use the defined Muted Pastels.
-- Accordions (FAQ):
-  - Strip all container boxes. Separate items only with a `border-bottom: 1px solid #EAEAEA`.
-  - Use a clean, sharp `+` and `-` icon for the toggle state.
-- Keystroke Micro-UIs:
-  - Render shortcuts as physical keys using `<kbd>` tags: `border: 1px solid #EAEAEA`, `border-radius: 4px`, `background: #F7F6F3`, using the Monospace font.
-- Faux-OS Window Chrome:
-  - When mocking up software, wrap it in a minimalist container with a white top bar containing three small, light gray circles (replicating macOS window controls).
+**Taste Skill** is an Agent Skill that makes coding agents design websites and app screens instead of assembling the average landing page. It gives the agent an art direction, real pictures and a way to check its own work in a real browser.
 
-## 6. Iconography & Imagery Directives
-- System Icons: Use "Phosphor Icons (Bold or Fill weights)" or "Radix UI Icons" for a technical, slightly thicker-stroke aesthetic. Standardize stroke width across all icons.
-- Illustrations: Monochromatic, rough continuous-line ink sketches on a white background, featuring a single offset geometric shape filled with a muted pastel color.
-- Photography: Use high-quality, desaturated images with a warm tone. Apply subtle overlays (`opacity: 0.04` warm grain) to blend photos into the monochrome palette. Never use oversaturated stock photos. Use reliable placeholders like `https://picsum.photos/seed/{context}/1200/800` when real assets are unavailable.
-- Hero & Section Backgrounds: Sections should not feel empty and flat. Use subtle full-width background imagery at very low opacity, soft radial light spots (`radial-gradient` with warm tones at `opacity: 0.03`), or minimal geometric line patterns to add depth without breaking the clean aesthetic.
+Pages it has built, each from one brief:
 
-## 7. Subtle Motion & Micro-Animations
-Motion should feel invisible — present but never distracting. The goal is quiet sophistication, not spectacle.
-- Scroll Entry: Elements fade in gently as they enter the viewport. Use `translateY(12px)` + `opacity: 0` resolving over `600ms` with `cubic-bezier(0.16, 1, 0.3, 1)`. Use `IntersectionObserver`, never `window.addEventListener('scroll')`.
-- Hover States: Cards lift with an ultra-subtle shadow shift (`box-shadow` transitioning from `0 0 0` to `0 2px 8px rgba(0,0,0,0.04)` over `200ms`). Buttons respond with `scale(0.98)` on `:active`.
-- Staggered Reveals: Lists and grid items enter with a cascade delay (`animation-delay: calc(var(--index) * 80ms)`). Never mount everything at once.
-- Background Ambient Motion: Optional. A single, very slow-moving radial gradient blob (`animation-duration: 20s+`, `opacity: 0.02-0.04`) drifting behind hero sections. Must be applied to a `position: fixed; pointer-events: none` layer. Never on scrolling containers.
-- Performance: Animate exclusively via `transform` and `opacity`. No layout-triggering properties (`top`, `left`, `width`, `height`). Use `will-change: transform` sparingly and only on actively animating elements.
-- Reduced Motion (mandatory): Gate scroll-entry, staggered reveals, and ambient background motion behind `@media (prefers-reduced-motion: no-preference)`, and add a `@media (prefers-reduced-motion: reduce)` block that disables them so content appears instantly at rest. Hover and `:active` feedback may remain.
+<table>
+  <tr>
+    <td width="50%"><img src="examples/v2/coffee-storefront.webp" alt="Coffee shop page with a drawn storefront as its hero" /></td>
+    <td width="50%"><img src="examples/v2/night-dates.webp" alt="Techno night page with its dates set into an archive photograph" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="examples/v2/coffee-roast.webp" alt="Coffee shop page section showing the roast in four photographs" /></td>
+    <td width="50%"><img src="examples/v2/coffee-questions.webp" alt="Coffee shop page questions as stacked index cards" /></td>
+  </tr>
+</table>
 
-## 8. Execution Protocol
-When tasked with writing frontend code (HTML, React, Tailwind, Vue) or designing a layout:
-1. Establish the macro-whitespace first. Use massive vertical padding between sections (e.g., `py-24` or `py-32` in Tailwind).
-2. Constrain the main typography content width to `max-w-4xl` or `max-w-5xl`.
-3. Apply the custom typographic hierarchy and monochromatic color variables immediately.
-4. Ensure every card, divider, and border adheres strictly to the `1px solid #EAEAEA` rule.
-5. Add scroll-entry animations to all major content blocks.
-6. Ensure sections have visual depth through imagery, ambient gradients, or subtle textures — no empty flat backgrounds.
-7. Provide code that reflects this high-end, uncluttered, editorial aesthetic natively without requiring manual adjustments.
+The photographs are real, found in open archives and credited by the skill ([credits](examples/v2/CREDITS.md)). Watch the [launch film](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.0.0).
+
+## Install
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
+```
+
+That installs the skill with the [`npx skills`](https://github.com/vercel-labs/agent-skills) CLI.
+
+The skill runs its scripts with **Node 22+** and an installed **Chrome, Edge or Chromium**. It installs nothing and needs no API keys. Finding pictures needs network access.
+
+<details>
+<summary>Claude Code plugin</summary>
+
+Run these inside Claude Code. The skill is namespaced under `taste-skill:`, so it does not collide with your other skills.
+
+```
+/plugin marketplace add Leonxlnx/taste-skill
+/plugin install taste-skill@taste-skill
+```
+
+`/plugin update` upgrades it later.
+
+</details>
+
+<details>
+<summary>Codex plugin</summary>
+
+```bash
+codex plugin marketplace add Leonxlnx/taste-skill
+codex plugin add taste-skill@taste-skill
+```
+
+Start a new Codex session afterwards so the skill is loaded.
+
+</details>
+
+<details>
+<summary>From a clone, linked instead of copied</summary>
+
+`./install.sh` symlinks the skill into Claude Code (`--codex` for Codex, `--all-agents` for both), so a `git pull` updates it in place.
+
+</details>
+
+Already have the skill? Run the install command again; the install name did not change. Looking for one of the older skills? See [Moved skills](#moved-skills).
+
+## How v2 works
+
+The skill is built from a study of 247 curated sites. A build runs in six steps:
+
+1. Reads the brief and lists what only this client has.
+2. A script deals three of 20 researched directions and the agent picks one.
+3. Finds the idea: one sentence tying the client's own material to that direction.
+4. Builds with real pictures and footage from open collections, credited.
+5. Checks the page in a real browser at three widths and fails it on slop.
+6. Looks at its own screenshots and fixes the top three problems, up to three rounds.
+
+A build takes roughly 30 to 45 minutes and a few hundred thousand tokens. Details are in the [changelog](CHANGELOG.md) and the [study](skills/taste-skill/references/research.md).
+
+Dashboards and app screens (v2.1) take their own route: the skill deals one of the app styles distilled from real product screens, builds the shell, the data, the charts and the tables to those numbers, and checks the result with app rules: quiet panels, aligned figures, colour spent on data, a phone layout where the navigation folds away. A product's landing page builds the app it shows the same way, so its screenshots look like a working product.
+
+v2.1 also checks the frame of every page (a clear title on the first screen, equal margins, no section shoved to one side, no random blank stretches) and moves the way strong award sites do, measured on the latest 100 Awwwards Sites of the Day.
+
+## Moved skills
+
+This repo holds one skill, `design-taste-frontend`. The others moved to repos of their own and kept their install names:
+
+| Install name | Where it lives now |
+| --- | --- |
+| `high-end-visual-design`, `minimalist-ui`, `industrial-brutalist-ui`, `gpt-taste`, `stitch-design-taste`, `design-taste-frontend-v1`, `design-taste-frontend-v2-experimental` | **[Leonxlnx/taste-skill-classics](https://github.com/Leonxlnx/taste-skill-classics)** |
+| `imagegen-frontend-web`, `imagegen-frontend-mobile`, `brandkit`, `image-to-code` | **[Leonxlnx/imagegen-skills](https://github.com/Leonxlnx/imagegen-skills)** |
+| `redesign-existing-projects` | Part of `design-taste-frontend`, which audits an existing page in a real browser before changing anything |
+| `full-output-enforcement` | Removed. For the same problem, see **[Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy)** |
+
+Install a moved skill from its new repo under the same name:
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill-classics --skill "high-end-visual-design"
+```
+
+## Common Questions
+
+**What does the skill need?**  
+Node 22 or newer and Chrome, Edge or Chromium. It installs nothing and uses no API keys. It needs the internet only to find pictures.
+
+**Where do the pictures come from, and can I use them?**  
+From open collections such as Wikimedia Commons, Openverse and the Met. Only public domain, CC0, CC BY and CC BY-SA files are offered, and the skill puts the credits on the page. Replace them with your own when you have them.
+
+**Does it work with React, Vue, Svelte, plain HTML?**  
+Yes. The rules are about design, not a framework.
+
+**Is it for dashboards and app screens?**  
+Yes, since v2.1. The skill tells a page from an app screen and builds a dashboard, an admin view or a settings screen with its own run: a style dealt from a study of real product screens, quiet panels, honest data and charts, and its own checks (`inspect.mjs --app`).
+
+## Support the project
+
+If Taste Skill helps you, consider sponsoring:
+
+[Sponsor on GitHub](https://github.com/sponsors/Leonxlnx)
+
+### Open Source Supporters
+
+<table align="center">
+  <tr>
+    <td align="center" width="104"><a href="https://www.kimi.com"><img src="assets/sponsors/kimi-icon.png" alt="Kimi" width="52" height="52" /></a></td>
+    <td><a href="https://www.kimi.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" /><img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="42" /></picture></a><br /><sub><a href="https://platform.kimi.ai?track_id=track-20f0d64bcaba419bb425a3e8c306f65d&aff=taste-skill"><strong>Get a Kimi API key</strong></a>: taste-skill users get 10% bonus API credits on their first purchase.</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="104"><a href="https://vercel.com/open-source-program"><img src="assets/sponsors/vercel-logo.svg" alt="Vercel" width="52" height="52" /></a></td>
+    <td><a href="https://vercel.com/open-source-program"><img src="assets/vercel-oss-program-badge.svg" alt="Vercel Open Source Program" height="28" /></a></td>
+  </tr>
+</table>
+
+### Community Sponsors
+
+<p>
+<a href="https://github.com/dnakov"><img src="https://github.com/dnakov.png" width="40" height="40" style="border-radius:50%" alt="dnakov" title="dnakov" /></a>
+<a href="https://github.com/AkramReshad"><img src="https://github.com/AkramReshad.png" width="40" height="40" style="border-radius:50%" alt="AkramReshad" title="AkramReshad" /></a>
+<a href="https://github.com/ajmalaksar25"><img src="https://github.com/ajmalaksar25.png" width="40" height="40" style="border-radius:50%" alt="ajmalaksar25" title="ajmalaksar25" /></a>
+<a href="https://github.com/krikkkk"><img src="https://github.com/krikkkk.png" width="40" height="40" style="border-radius:50%" alt="krikkkk" title="krikkkk" /></a>
+<a href="https://github.com/navanchauhan"><img src="https://github.com/navanchauhan.png" width="40" height="40" style="border-radius:50%" alt="navanchauhan" title="navanchauhan" /></a>
+<a href="https://github.com/robinebers"><img src="https://github.com/robinebers.png" width="40" height="40" style="border-radius:50%" alt="robinebers" title="robinebers" /></a>
+<a href="https://github.com/JKc66"><img src="https://github.com/JKc66.png" width="40" height="40" style="border-radius:50%" alt="JKc66" title="JKc66" /></a>
+<a href="https://github.com/u2393696078-rgb"><img src="https://github.com/u2393696078-rgb.png" width="40" height="40" style="border-radius:50%" alt="u2393696078-rgb" title="u2393696078-rgb" /></a>
+<a href="https://github.com/a-human-created-this"><img src="https://github.com/a-human-created-this.png" width="40" height="40" style="border-radius:50%" alt="a-human-created-this" title="a-human-created-this" /></a>
+<a href="https://github.com/AtharvaJaiswal005"><img src="https://github.com/AtharvaJaiswal005.png" width="40" height="40" style="border-radius:50%" alt="AtharvaJaiswal005" title="AtharvaJaiswal005" /></a>
+<a href="https://github.com/ghughes7"><img src="https://github.com/ghughes7.png" width="40" height="40" style="border-radius:50%" alt="ghughes7" title="ghughes7" /></a>
+<a href="https://github.com/mccun934"><img src="https://github.com/mccun934.png" width="40" height="40" style="border-radius:50%" alt="mccun934" title="mccun934" /></a>
+<a href="https://github.com/techmedic5"><img src="https://github.com/techmedic5.png" width="40" height="40" style="border-radius:50%" alt="techmedic5" title="techmedic5" /></a>
+<a href="https://github.com/bytewerk-dev"><img src="https://github.com/bytewerk-dev.png" width="40" height="40" style="border-radius:50%" alt="bytewerk-dev" title="bytewerk-dev" /></a>
+<a href="https://github.com/LuisGot"><img src="https://github.com/LuisGot.png" width="40" height="40" style="border-radius:50%" alt="LuisGot" title="LuisGot" /></a>
+<a href="https://github.com/oskar-collab"><img src="https://github.com/oskar-collab.png" width="40" height="40" style="border-radius:50%" alt="oskar-collab" title="oskar-collab" /></a>
+<a href="https://github.com/denvit"><img src="https://github.com/denvit.png" width="40" height="40" style="border-radius:50%" alt="denvit" title="denvit" /></a>
+<a href="https://github.com/onedollarstock"><img src="https://github.com/onedollarstock.png" width="40" height="40" style="border-radius:50%" alt="onedollarstock" title="onedollarstock" /></a>
+<a href="https://github.com/KANA-33"><img src="https://github.com/KANA-33.png" width="40" height="40" style="border-radius:50%" alt="KANA-33" title="KANA-33" /></a>
+<a href="https://github.com/emilkowalski"><img src="https://github.com/emilkowalski.png" width="40" height="40" style="border-radius:50%" alt="emilkowalski" title="emilkowalski" /></a>
+<a href="https://github.com/AnthonyLiuVa"><img src="https://github.com/AnthonyLiuVa.png" width="40" height="40" style="border-radius:50%" alt="AnthonyLiuVa" title="AnthonyLiuVa" /></a>
+<a href="https://github.com/Wolfy18"><img src="https://github.com/Wolfy18.png" width="40" height="40" style="border-radius:50%" alt="Wolfy18" title="Wolfy18" /></a>
+<a href="https://github.com/Gigslol"><img src="https://github.com/Gigslol.png" width="40" height="40" style="border-radius:50%" alt="Gigslol" title="Gigslol" /></a>
+</p>
+
+<p align="center">
+ <a href="https://www.star-history.com/leonxlnx/taste-skill">
+  <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=Leonxlnx/taste-skill&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=Leonxlnx/taste-skill" />
+   <img alt="Star History Rank" src="https://api.star-history.com/badge?repo=Leonxlnx/taste-skill" />
+  </picture>
+ </a>
+</p>
+
+<sub>Feedback: open an issue or pull request, DM [@lexnlin](https://x.com/lexnlin) or [@blueemi99](https://x.com/blueemi99), or email [hello@tasteskill.dev](mailto:hello@tasteskill.dev).</sub>
+
+<sub>Taste Skill has no official token, coin, or crypto project. Any token using my name, image, or project is unaffiliated and not endorsed by me.</sub>
+
+## License
+
+[MIT License](LICENSE) · Copyright (c) 2026 Leonxlnx

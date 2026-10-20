@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-19T16:59:16Z",
+ "updated_at": "2026-10-20T01:06:48Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1329,7 +1329,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182179,
+      "repo_stars": 182240,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1374,7 +1374,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1419,7 +1419,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1464,7 +1464,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1509,7 +1509,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1554,7 +1554,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1599,7 +1599,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1644,7 +1644,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1689,7 +1689,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1734,7 +1734,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1864,7 +1864,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
+       "name": "io.github.AJSMonty/adobe-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Directory for rendered assets, the asset registry, and learned lessons (default: ~/AdobeMCP)",
+           "name": "ADOBE_MCP_WORKSPACE",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@ajsmonty/adobe-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/AJSMonty/adobe-mcp",
+       "title": null,
+       "version": "1.1.1",
+       "website": null
+      }
      },
      "install": "npx -y @ajsmonty/adobe-mcp",
      "security": {
@@ -1885,9 +1910,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-ajsmonty-adobe-mcp/",
      "source": "mcp-registry"
@@ -2205,7 +2230,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137525,
+      "repo_stars": 137622,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2250,7 +2275,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137525,
+      "repo_stars": 137622,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2295,7 +2320,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47593,
+      "repo_stars": 47687,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2340,7 +2365,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2385,7 +2410,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2430,7 +2455,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2475,7 +2500,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41127,
+      "repo_stars": 41164,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2520,7 +2545,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30437,
+      "repo_stars": 30511,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2565,7 +2590,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30437,
+      "repo_stars": 30511,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2610,7 +2635,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30437,
+      "repo_stars": 30511,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2655,16 +2680,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25858,
+      "repo_stars": 25868,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"

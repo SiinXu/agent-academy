@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-19
-updated_at: 2026-10-19T16:59:16Z
+version: 2026-10-20
+updated_at: 2026-10-20T01:06:48Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,24 +94,25 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1362 items
-- motion: 643 items
-- 3d: 606 items
-- editorial: 585 items
-- playful: 530 items
+- minimal: 1401 items
+- motion: 642 items
+- 3d: 608 items
+- editorial: 586 items
+- playful: 529 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 106 items
-- glass: 51 items
-- enterprise: 40 items
-- swiss: 25 items
-- soft: 14 items
+- glass: 53 items
+- enterprise: 42 items
+- swiss: 27 items
+- soft: 15 items
 - brutalist: 13 items
-- apple: 11 items
+- apple: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
 - fluent: 3 items
+- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://siinxu.github.io/agent-academy/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -418,6 +419,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y figma-context-mcp-air
   needs_credentials: true, writes_external: false
+- [tool] 21st-dev/magic-mcp. Use 10k+ React/Tailwind components inside Cursor (21st’s MCP)
+  source: https://github.com/21st-dev/magic-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [tool] 3Dicons. Free 3D icons
   source: https://3dicons.co
   license: see source (listed via UI Hub)
@@ -435,16 +441,14 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://i.allsvgicons.com/mcp
   needs_credentials: true, writes_external: false
+- [mcp] Andorra public sources. Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages
+  source: https://github.com/joalavedra/andorra-fonts-publiques
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md
+  license: CC0-1.0
+  install: uvx fonts-andorra
+  needs_credentials: false, writes_external: false
 - [tool] Bolt. Build apps by chatting, with in-browser code editing
   source: https://bolt.cello.so/ByQ3siiRkMz
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] Claude Code /design、/design-sync. Generate several editable artboards in the terminal, pick one, then build; /design-sync syncs your React design system
-  source: https://code.claude.com/docs/en/commands
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] Claude Design. Anthropic’s design product, now built into Claude chats; outputs HTML prototypes
-  source: https://claude.com/product/design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

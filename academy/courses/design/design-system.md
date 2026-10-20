@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-19
-updated_at: 2026-10-19T16:59:16Z
+version: 2026-10-20
+updated_at: 2026-10-20T01:06:48Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-system/
 ---
 
@@ -46,24 +46,25 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1362 items
-- motion: 643 items
-- 3d: 606 items
-- editorial: 585 items
-- playful: 530 items
+- minimal: 1401 items
+- motion: 642 items
+- 3d: 608 items
+- editorial: 586 items
+- playful: 529 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 106 items
-- glass: 51 items
-- enterprise: 40 items
-- swiss: 25 items
-- soft: 14 items
+- glass: 53 items
+- enterprise: 42 items
+- swiss: 27 items
+- soft: 15 items
 - brutalist: 13 items
-- apple: 11 items
+- apple: 12 items
 - material: 11 items
 - skeuomorphic: 8 items
 - utilitarian: 7 items
 - fluent: 3 items
+- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://siinxu.github.io/agent-academy/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -150,12 +151,12 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://s2.spectrum.adobe.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] WeChat Mini Program design guide. Official interaction and visual principles for WeChat mini-programs
-  source: https://developers.weixin.qq.com/miniprogram/design/
+- [design-system] Twilio Paste. Twilio’s public design system with well-structured component docs
+  source: https://paste.twilio.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [design-system] Zendesk Garden. Zendesk’s public design system; a good SaaS component reference
-  source: https://garden.zendesk.com/
+- [design-system] WeChat Mini Program design guide. Official interaction and visual principles for WeChat mini-programs
+  source: https://developers.weixin.qq.com/miniprogram/design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -269,6 +270,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-strategic-app-design-content-engineering-prompt.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [standard] Adobe Spectrum Design Data（tokens）. Spectrum’s public token data repo (formerly adobe/spectrum-tokens)
+  source: https://github.com/adobe/spectrum-design-data
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-spectrum-design-data.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [standard] Ant Design llms.txt / design.md. Provides llms.txt, llms-full.txt and design.md so you can feed the whole antd spec to an AI
   source: https://ant.design/docs/react/llms
   license: see source (listed via UI Hub)
@@ -299,6 +305,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-consistency-auditor.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [standard] DESIGN.md format spec (Google). Google’s DESIGN.md format: tokens in YAML, design intent in Markdown
+  source: https://github.com/google-labs-code/design.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [standard] DTCG Format 2025.10 stable. The formal token JSON spec followed by Figma, Tokens Studio and Style Dictionary
   source: https://www.designtokens.org/tr/2025.10/format/
   license: see source (listed via UI Hub)
@@ -314,14 +325,6 @@ Read the required skills, prompts and standards in order.
   needs_credentials: false, writes_external: false
 - [standard] Material 3 color roles. The reference for semantic color roles such as primary, on-primary and container
   source: https://m3.material.io/styles/color/roles
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [standard] Material 3 Design Tokens. M3 token layers (ref → sys → comp) and naming
-  source: https://m3.material.io/foundations/design-tokens/overview
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [standard] Open UI. A W3C community group aligning component names and anatomy across libraries
-  source: https://open-ui.org/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -364,6 +367,24 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://manager.shadcndesign.com/api/mcp
   needs_credentials: true, writes_external: true
+- [mcp] io.github.jirayusueb/figma-mcp-rs. Figma/FigJam MCP server with read/write via plugin — no API token, no limits. 78 tools.
+  source: https://github.com/jirayusueb/figma-mcp-rs
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-jirayusueb-figma-mcp-rs.md
+  license: MIT
+  install: npx -y figma-mcp-rs
+  needs_credentials: false, writes_external: true
+- [mcp] io.github.nntoan/figma-mcp-rust. Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.
+  source: https://github.com/nntoan/figma-mcp-rust
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-nntoan-figma-mcp-rust.md
+  license: MIT
+  install: npx -y @nntoan/figma-mcp-rust
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.vola-trebla/tailwind-context-resolver-mcp. Resolves Tailwind CSS design tokens and validates utility classes against the local project config.
+  source: https://github.com/vola-trebla/tailwind-context-resolver-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-vola-trebla-tailwind-context-resolver-mcp.md
+  license: MIT
+  install: npx -y tailwind-context-resolver-mcp
+  needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check
 

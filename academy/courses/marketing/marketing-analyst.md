@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-19
-updated_at: 2026-10-19T16:59:16Z
+version: 2026-10-20
+updated_at: 2026-10-20T01:06:48Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 
@@ -132,11 +132,29 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.jojapi.com/similarweb
   needs_credentials: true, writes_external: false
+- [mcp] io.github.CSOAI-ORG/marketing-analytics-ai-mcp. Marketing Analytics Ai MCP Server by MEOK AI Labs
+  source: https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-csoai-org-marketing-analytics-ai-mcp.md
+  license: MIT
+  install: uvx marketing-analytics-ai-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.friendlygeorge/posthog-mcp-server. MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...
+  source: https://github.com/friendlygeorge/posthog-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md
+  license: MIT
+  install: npx -y posthog-mcp-server
+  needs_credentials: false, writes_external: true
 - [mcp] Marketing Intelligence & Optimization. Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.
   source: https://saifs.ai
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp
   needs_credentials: true, writes_external: false
+- [mcp] Posthog. PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)
+  source: https://github.com/pipeworx-io/mcp-posthog
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md
+  license: MIT
+  install: remote (streamable-http): https://gateway.pipeworx.io/posthog/mcp
+  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 
