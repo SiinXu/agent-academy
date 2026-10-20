@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-20
-updated_at: 2026-10-20T01:06:48Z
+updated_at: 2026-10-20T15:07:01Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1401 items
-- motion: 642 items
+- minimal: 1418 items
+- motion: 644 items
 - 3d: 608 items
-- editorial: 586 items
-- playful: 529 items
+- editorial: 587 items
+- playful: 530 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 106 items
@@ -245,6 +245,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 
 - [case] How this site was designed (Agent Academy design record). source: https://siinxu.github.io/agent-academy/cases/agent-academy-build/. raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md
 
+- [mcp] After Effects MCP Server. Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.
+  source: https://github.com/zachshallbetter/adobe-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects.md
+  license: MIT
+  install: npx -y adobe-mcp-aftereffects
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.AJSMonty/adobe-mcp. Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client
   source: https://github.com/AJSMonty/adobe-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md
@@ -259,10 +265,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 - [tool] Unicorn Studio. Build WebGL effects without code
   source: https://www.unicorn.studio/
   license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [workflow] UI Hub skills.json (recommended design workflow). Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+
-  source: https://siinxu.github.io/ui-resource-hub/api/skills.json
-  license: aggregator
   needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check

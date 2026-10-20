@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-10-20T01:06:48Z",
+ "updated_at": "2026-10-20T15:07:01Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -513,7 +513,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55560,
+      "repo_stars": 55634,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -558,7 +558,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -603,7 +603,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25868,
+      "repo_stars": 25889,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -893,132 +893,6 @@
    "step": "4-do-it",
    "read": [
     {
-     "id": "mcp-uk-co-ppcmarketingcompany-site",
-     "title": "uk.co.ppcmarketingcompany/site",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "PPC marketing company: the site's own MCP server — enquiry (enquiry = a human handoff, not a...",
-     "summary_lang": "en",
-     "source_url": "https://ppcmarketingcompany.co.uk",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "uk.co.ppcmarketingcompany",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.ppcmarketingcompany/site&version=latest",
-      "record": {
-       "description": "PPC marketing company: the site's own MCP server — enquiry (enquiry = a human handoff, not a...",
-       "name": "uk.co.ppcmarketingcompany/site",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://ppcmarketingcompany.co.uk/mcp"
-        }
-       ],
-       "repository": null,
-       "title": null,
-       "version": "1.0.1",
-       "website": "https://ppcmarketingcompany.co.uk"
-      }
-     },
-     "install": "remote (streamable-http): https://ppcmarketingcompany.co.uk/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-10-03"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-19T00:13:40Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-uk-co-ppcmarketingcompany-site/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-marketing-wall-platform",
-     "title": "Wall Marketing",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Book ads on e-paper screens in venues, or earn commission signing venues up as an ambassador.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/WallMarketing/wall-marketing-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-marketing-wall-platform.md",
-     "upstream_raw_url": null,
-     "repo": "WallMarketing/wall-marketing-mcp",
-     "author": "marketing.wall",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/WallMarketing/wall-marketing-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Book ads on e-paper screens in venues, or earn commission signing venues up as an ambassador.",
-       "name": "marketing.wall/platform",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://www.wall.marketing/mcp"
-        }
-       ],
-       "repository": "https://github.com/WallMarketing/wall-marketing-mcp",
-       "title": "Wall Marketing",
-       "version": "1.1.1",
-       "website": "https://www.wall.marketing/developers"
-      }
-     },
-     "install": "remote (streamable-http): https://www.wall.marketing/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-17",
-      "registry_updated_at": "2026-10-17"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-19T00:13:40Z",
-     "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-10-20T01:06:48Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-marketing-wall-platform/",
-     "source": "mcp-registry"
-    },
-    {
      "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag",
      "title": "ai_email_gtm_outreach_agent",
      "type": "case",
@@ -1107,6 +981,96 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
+     "source": "seed"
+    },
+    {
+     "id": "google-adk-recipes-contrib-python-brand-search-optimization",
+     "title": "brand-search-optimization",
+     "type": "workflow",
+     "industry": "marketing",
+     "roles": [
+      "seo-specialist"
+     ],
+     "summary": "This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer Use.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/contrib/python/brand-search-optimization/README.md",
+     "repo": "google/adk-recipes",
+     "author": "google",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 10452,
+      "repo_pushed_at": "2026-10-14"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/google-adk-recipes-contrib-python-brand-search-optimization/",
+     "source": "seed"
+    },
+    {
+     "id": "cyanheads-mailchimp-mcp-server",
+     "title": "Mailchimp MCP server",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image and template directories for authoring. Runs as a stdio process or a local Streama",
+     "summary_lang": "en",
+     "source_url": "https://github.com/cyanheads/mailchimp-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/cyanheads/mailchimp-mcp-server/main/README.md",
+     "repo": "cyanheads/mailchimp-mcp-server",
+     "author": "cyanheads",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/cyanheads/mailchimp-mcp-server"
+     },
+     "install": "see README; needs Mailchimp API key; can SEND campaigns (write access)",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-10-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T16:59:16Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/cyanheads-mailchimp-mcp-server/",
      "source": "seed"
     }
    ]
@@ -1235,7 +1199,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55560,
+      "repo_stars": 55634,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1280,7 +1244,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55560,
+      "repo_stars": 55634,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1325,7 +1289,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1370,7 +1334,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1415,7 +1379,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

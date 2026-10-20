@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-20
-updated_at: 2026-10-20T01:06:48Z
+updated_at: 2026-10-20T15:07:01Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -174,12 +174,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: ISC
   install: npx -y sendgrid-mcp
   needs_credentials: true, writes_external: true
-- [mcp] beehiiv. Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.
-  source: https://github.com/beehiiv/agents
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-beehiiv-beehiiv.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.beehiiv.com/mcp
-  needs_credentials: true, writes_external: true
 - [mcp] SendGrid Transactional. SendGrid transactional email: preflight send, templates, and delivery diagnostics.
   source: https://github.com/Neschadin/sendgrid-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-neschadin-sendgrid-mcp.md
@@ -225,11 +219,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp
   needs_credentials: true, writes_external: true
-- [mcp] Marketing Content Production. Brand-safe ad, email, product description, and social content production.
-  source: https://mcp-payment-site.vercel.app/marketing-content-production
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: uvx marketing-content-production-mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

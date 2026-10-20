@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-20
-updated_at: 2026-10-20T01:06:48Z
+updated_at: 2026-10-20T15:07:01Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -58,16 +58,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s634cb1edf26493e86be2
   needs_credentials: false, writes_external: true
+- [template] Social Sidekick. Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.
+  source: https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
+  needs_credentials: false, writes_external: true
 - [template] Social Media Tracker. Tracks social posts you care about and returns a short digest
   source: https://botsdots.site/templates/social-media-tracker
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N
   needs_credentials: true, writes_external: false
-- [template] Social Sidekick — A Week of Posts, Planned in One Sitting. Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.
-  source: https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
-  needs_credentials: false, writes_external: true
 - [template] UniFlow Social Agent. A social media content strategist that plans your week of posts and writes drafts for X, Instagram, Facebook, LinkedIn, Threads, Bluesky and more.
   source: https://botsdots.site/templates/uniflow-social-agent
   license: template belongs to its creator (catalog CC0)
@@ -161,11 +161,6 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [mcp] GroundedKit Marketing Stats Checker. Check marketing and influencer stats against primary sources: verdict, source, safe wording.
-  source: https://groundedkit.com/agents/
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://groundedkit.com/mcp
-  needs_credentials: true, writes_external: false
 - [case] ai_email_gtm_outreach_agent. An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Market
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
@@ -181,6 +176,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
+  source: https://github.com/cyanheads/mailchimp-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
+  license: Apache-2.0
+  install: see README; needs Mailchimp API key; can SEND campaigns (write access)
+  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

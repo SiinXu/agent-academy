@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-10-20T01:06:48Z",
+ "updated_at": "2026-10-20T15:07:01Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -285,6 +285,72 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-webi",
+     "title": "Webi",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "A web designer and front-end coder that owns your site's look, mockups and HTML/CSS/JS/WordPress code, and proves every change on the live URL.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/webi",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "JaimeBubblehead",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/webi",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/LI80oX1Y_cQ_t9f4LwgxE",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "GrokBot.dev (CC BY 4.0)"
+       ],
+       "category": "coding-shipping",
+       "creator": "JaimeBubblehead",
+       "firstSeen": "2026-10-20",
+       "integrations": [],
+       "name": "Webi",
+       "official": false,
+       "page": "https://botsdots.site/templates/webi",
+       "risk": "low",
+       "summary": "A web designer and front-end coder that owns your site's look, mockups and HTML/CSS/JS/WordPress code, and proves every change on the live URL."
+      }
+     },
+     "install": "https://x.ai/bot/LI80oX1Y_cQ_t9f4LwgxE",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 9,
+      "first_seen_catalog": "2026-10-20"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-20T15:07:01Z",
+     "updated_at": "2026-10-20T15:07:01Z",
+     "checked_at": "2026-10-20T15:07:01Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-webi/",
+     "source": "botsdots"
+    },
+    {
      "id": "apple-hig",
      "title": "Apple Human Interface Guidelines",
      "type": "design-system",
@@ -364,46 +430,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/material-3/",
-     "source": "seed"
-    },
-    {
-     "id": "ui-resource-hub",
-     "title": "UI Hub (Incidental AI UI resource hub) — llms.txt / api",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Curated multilingual directory of ~2,391 public UI resources with visual-style (vs) facets, design KB (specs, skills), JSON endpoints and a recommended design-skill workflow.",
-     "summary_lang": "en",
-     "source_url": "https://siinxu.github.io/ui-resource-hub/llms.txt",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "aggregator; per-item license",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "link"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {},
-     "course_step": "2-pick-style",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/ui-resource-hub/",
      "source": "seed"
     }
    ]
@@ -488,7 +514,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182240,
+      "repo_stars": 182419,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -533,7 +559,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 99367,
+      "repo_stars": 99711,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -578,7 +604,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -623,7 +649,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -668,7 +694,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -713,7 +739,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -758,7 +784,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -803,7 +829,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -848,8 +874,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30511,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 30651,
+      "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -893,7 +919,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25868,
+      "repo_stars": 25889,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1902,7 +1928,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "4-do-it",
@@ -2095,7 +2121,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 159,
+      "repo_stars": 160,
       "repo_pushed_at": "2026-08-25",
       "registry_updated_at": "2026-03-07"
      },
@@ -2342,25 +2368,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/kolganovr/figma-mcp-bridge/blob/HEAD/README.md",
-      "record": {
-       "description": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
-       "name": "io.github.kolganovr/figma-mcp-bridge",
-       "packages": [
-        {
-         "env": [],
-         "id": "@kolganovr/figma-mcp-bridge",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "4.0.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/kolganovr/figma-mcp-bridge",
-       "title": null,
-       "version": "4.0.1",
-       "website": "https://github.com/kolganovr/figma-mcp-bridge#quickstart"
-      }
+      "url": "https://github.com/kolganovr/figma-mcp-bridge/blob/HEAD/README.md"
      },
      "install": "npx -y @kolganovr/figma-mcp-bridge",
      "security": {
@@ -2518,7 +2526,7 @@
      },
      "metrics": {
       "repo_stars": 1,
-      "repo_pushed_at": "2026-10-19",
+      "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2026-09-19"
      },
      "course_step": "4-do-it",
@@ -2822,7 +2830,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137622,
+      "repo_stars": 137866,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2867,7 +2875,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137622,
+      "repo_stars": 137866,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2912,7 +2920,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2957,7 +2965,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3002,7 +3010,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3047,7 +3055,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3092,7 +3100,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3137,8 +3145,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30511,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 30651,
+      "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3182,8 +3190,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30511,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 30651,
+      "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3227,8 +3235,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30511,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 30651,
+      "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3272,7 +3280,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25868,
+      "repo_stars": 25889,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

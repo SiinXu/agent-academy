@@ -199,7 +199,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [OfficeRnD](servers/officernd/) | productivity | 24 | API token | [servers/officernd/](servers/officernd/) |
 | [OptimoRoute](servers/optimoroute/) | shipping | 19 | API token | [servers/optimoroute/](servers/optimoroute/) |
 | [Paymo](servers/paymo/) | project-management | 25 | API token | [servers/paymo/](servers/paymo/) |
-| [Printful](servers/printful/) | ecommerce | 24 | API token | [servers/printful/](servers/printful/) |
+| [Printful](servers/printful/) | ecommerce | 25 | API token | [servers/printful/](servers/printful/) |
 | [Recruitee](servers/recruitee/) | productivity | 26 | API token | [servers/recruitee/](servers/recruitee/) |
 | [Rewardful](servers/rewardful/) | marketing | 24 | API token | [servers/rewardful/](servers/rewardful/) |
 | [sevdesk](servers/sevdesk/) | billing | 24 | API token | [servers/sevdesk/](servers/sevdesk/) |

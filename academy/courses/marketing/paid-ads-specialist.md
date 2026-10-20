@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-20
-updated_at: 2026-10-20T01:06:48Z
+updated_at: 2026-10-20T15:07:01Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -121,17 +121,6 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [mcp] uk.co.ppcmarketingcompany/site. PPC marketing company: the site's own MCP server — enquiry (enquiry = a human handoff, not a...
-  source: https://ppcmarketingcompany.co.uk
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://ppcmarketingcompany.co.uk/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] Wall Marketing. Book ads on e-paper screens in venues, or earn commission signing venues up as an ambassador.
-  source: https://github.com/WallMarketing/wall-marketing-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-marketing-wall-platform.md
-  license: MIT
-  install: remote (streamable-http): https://www.wall.marketing/mcp
-  needs_credentials: true, writes_external: false
 - [case] ai_email_gtm_outreach_agent. An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Market
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
@@ -142,6 +131,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [workflow] brand-search-optimization. This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer 
+  source: https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
+  license: Apache-2.0
+  needs_credentials: false, writes_external: false
+- [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
+  source: https://github.com/cyanheads/mailchimp-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
+  license: Apache-2.0
+  install: see README; needs Mailchimp API key; can SEND campaigns (write access)
+  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

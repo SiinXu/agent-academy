@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-20
-updated_at: 2026-10-20T01:06:48Z
+updated_at: 2026-10-20T15:07:01Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,11 +94,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1401 items
-- motion: 642 items
+- minimal: 1418 items
+- motion: 644 items
 - 3d: 608 items
-- editorial: 586 items
-- playful: 529 items
+- editorial: 587 items
+- playful: 530 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 106 items
@@ -168,6 +168,10 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://18.burocratik.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [style-library] 1st-pouf. Listed in awesome-shadcn-ui: An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4.
+  source: https://1st-pouf.worksonmy.dev
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] 21 Hours on the Moon. Moon render on black with large silver MOON: restrained motion on a space theme (via Awwwards)
   source: https://www.21hrs.space/
   license: see source (listed via UI Hub)
@@ -206,10 +210,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 3D Neon Logos. AI-generated 3D renders transforming iconic brand logos into realistic glowing neon tube signs, showcasing McDonald's, Airbnb, Spotify, and Grok with cinematic studio lighting on black backgrounds.
   source: https://x.com/doganuraldesign/status/2088750386605916429
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 3D Product Explorations. A three-year archive of 3D product concept renders by PeterTarka, spanning gadgets, cameras, wearables, and appliances with meticulous material and lighting craft.
-  source: https://x.com/PeterTarka/status/2087476514413498691
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -359,11 +359,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.webflow.com/mcp
   needs_credentials: true, writes_external: true
-- [mcp] Illustrator MCP Server. Drive Adobe Illustrator from any MCP client: artwork, type, colour, effects, data and export.
+- [mcp] After Effects MCP Server. Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.
   source: https://github.com/zachshallbetter/adobe-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-illustrator.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects.md
   license: MIT
-  install: npx -y adobe-mcp-illustrator
+  install: npx -y adobe-mcp-aftereffects
   needs_credentials: true, writes_external: false
 - [mcp] io.github.neozhehan/figma-edit-mcp. Programmatically read, create, and modify Figma designs via MCP.
   source: https://github.com/neozhehan/figma-edit-mcp

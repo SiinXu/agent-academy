@@ -2,7 +2,7 @@
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-20
-updated_at: 2026-10-20T01:06:48Z
+updated_at: 2026-10-20T15:07:01Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-engineer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1401 items
-- motion: 642 items
+- minimal: 1418 items
+- motion: 644 items
 - 3d: 608 items
-- editorial: 586 items
-- playful: 529 items
+- editorial: 587 items
+- playful: 530 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 106 items
@@ -74,6 +74,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/rT68Jw98kUdeABmvFobN5
   needs_credentials: true, writes_external: false
+- [template] Webi. A web designer and front-end coder that owns your site's look, mockups and HTML/CSS/JS/WordPress code, and proves every change on the live URL.
+  source: https://botsdots.site/templates/webi
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/LI80oX1Y_cQ_t9f4LwgxE
+  needs_credentials: false, writes_external: false
 - [design-system] Apple Human Interface Guidelines. Apple's platform design guidance: foundations, patterns, components, inputs, technologies.
   source: https://developer.apple.com/design/human-interface-guidelines
   license: Apple terms; link only
@@ -81,10 +86,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
 - [design-system] Material Design 3. Google's open-source design system: foundations, styles (color, typography, motion), components.
   source: https://m3.material.io/
   license: Google site terms; link only
-  needs_credentials: false, writes_external: false
-- [style-library] UI Hub (Incidental AI UI resource hub) — llms.txt / api. Curated multilingual directory of ~2,391 public UI resources with visual-style (vs) facets, design KB (specs, skills), JSON endpoints and a recommended design-skill workflow.
-  source: https://siinxu.github.io/ui-resource-hub/llms.txt
-  license: aggregator; per-item license
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

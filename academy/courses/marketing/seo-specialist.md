@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-20
-updated_at: 2026-10-20T01:06:48Z
+updated_at: 2026-10-20T15:07:01Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -255,83 +255,23 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-email-gtm-reachout-a.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
-- [mcp] SEO Skill. Free Google Search Console MCP: your real GSC, Google Analytics and keyword data for AI agents.
-  source: https://github.com/iannuttall/seo
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-seoskill-seo.md
-  license: Apache-2.0
-  install: npx -y seo
+- [mcp] com.jojapi/ahrefs. Ahrefs: Ahrefs API: SEO powerhouse featuring keyword research, backlink analysis, and SERP tracking.
+  source: https://jojapi.com/hub/api/ahrefs
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.jojapi.com/ahrefs
   needs_credentials: true, writes_external: false
-- [mcp] DispatchSEO. Open-source SEO manager for coding agents: keyword research, content PRs, rank + Search Console.
-  source: https://github.com/NeoZi12/dispatchseo
-  license: AGPL-3.0
-  install: remote (streamable-http): https://dispatchseo.com/api/mcp
-  needs_credentials: true, writes_external: true
-- [mcp] SEO Trends MCP. Spot keyword demand rising or fading. Trend volume and growth signals. Free key at trendsmcp.ai
-  source: https://github.com/trendsmcp-ai/Trends-MCP
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-seo.md
+- [mcp] DataForSEO MCP. DataForSEO MCP wrapper: searchable API docs plus normalized calls to the official server. 4 tools.
+  source: https://github.com/scalably-io/dataforseo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-scalably-dataforseo-mcp.md
   license: MIT
-  install: remote (streamable-http): https://seo.api.trendsmcp.ai/mcp
+  install: npx -y @scalably-io/dataforseo-mcp
   needs_credentials: true, writes_external: false
-- [mcp] com.superagnt/seo-data. SEO data for AI agents: Google SERP, keyword research, backlinks, site audits, AI answer visibility.
-  source: https://github.com/superagnt/plugins
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-seo-data.md
+- [mcp] Semrush. Semrush MCP Pack — SEO analytics via the Semrush Analytics API.
+  source: https://github.com/pipeworx-io/mcp-semrush
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-semrush.md
   license: MIT
-  install: remote (streamable-http): https://mcp.superagnt.com/mcp/seo
+  install: remote (streamable-http): https://gateway.pipeworx.io/semrush/mcp
   needs_credentials: true, writes_external: false
-- [mcp] io.github.AutomateLab-tech/ai-seo. MCP server for AI-SEO auditing: schema, robots.txt, llms.txt, citation scoring, and AEO/GEO rewrites
-  source: https://github.com/AutomateLab-tech/ai-seo-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-ai-seo.md
-  license: MIT
-  install: npx -y @automatelab/ai-seo-mcp
-  needs_credentials: false, writes_external: false
-- [mcp] SEO Performance MCP. Per-URL SEO verdicts from GSC, GA4, Matomo, Clarity, AI citations: refresh/expand/merge/kill.
-  source: https://github.com/AutomateLab-tech/seo-performance-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-seo-performance-mcp.md
-  license: MIT
-  install: npx -y @automatelab/seo-performance-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] AfterLaunch: the agentic growth marketing engine. Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.
-  source: https://github.com/afterlaunch/mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-afterlaunch-agentic-growth-marketing.md
-  license: MIT
-  install: remote (streamable-http): https://afterlaunch.io/api/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] Agency Autopilot. Run client marketing from your AI assistant, or let Autopilot: Google Ads, GA4, SEO, Meta, CRM
-  source: https://github.com/harrisonjdahl3/agency-mcp-plugin
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-jiyumarketing-mcp-agency-mcp.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.JvnnDev/seo-webmaster-mcp. Read-only SEO and GEO audits with Google Search Console, Bing, and website crawling.
-  source: https://github.com/JvnnDev/seo-webmaster-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-jvnndev-seo-webmaster-mcp.md
-  license: MIT
-  install: npx -y seo-webmaster-mcp
-  needs_credentials: false, writes_external: false
-- [mcp] VibeSEO. SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.
-  source: https://github.com/sultanlive/vibeseo-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-vibeseo-vibeseo.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.vibeseo.dev/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.dingdawg/dingdawg-marketing-agent. AI content generation, SEO audits, campaign planning & social scheduling.
-  source: https://github.com/dingdawg/dingdawg-agent-1
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dingdawg-dingdawg-marketing-agent.md
-  license: MIT
-  install: npx -y dingdawg-marketing-agent
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.Raffaele86/seo-stack-mcp. The complete open-source SEO data stack for AI agents: 7 sources, 86 tools, one MCP server
-  source: https://github.com/Raffaele86/seo-stack-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-raffaele86-seo-stack-mcp.md
-  license: MIT
-  install: uvx seo-stack-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] SEO & GEO. Audit a page's SEO and its readiness for AI answer engines: meta, schema, robots, sitemaps, AI bots.
-  source: https://github.com/OrtaMarco/seo-geo-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ortamarco-seo-geo-mcp-server.md
-  license: MIT
-  install: npx -y seo-geo-mcp-server
-  needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check
 

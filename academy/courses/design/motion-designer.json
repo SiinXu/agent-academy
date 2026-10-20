@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-20T01:06:48Z",
+ "updated_at": "2026-10-20T15:07:01Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1329,7 +1329,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182240,
+      "repo_stars": 182419,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1374,7 +1374,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1419,7 +1419,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1464,7 +1464,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1509,7 +1509,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1554,7 +1554,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1599,7 +1599,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1644,7 +1644,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1689,7 +1689,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1734,7 +1734,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1844,6 +1844,95 @@
    "step": "4-do-it",
    "read": [
     {
+     "id": "mcp-io-github-zachshallbetter-adobe-mcp-aftereffects",
+     "title": "After Effects MCP Server",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer",
+      "ui-designer"
+     ],
+     "summary": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/zachshallbetter/adobe-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects.md",
+     "upstream_raw_url": null,
+     "repo": "zachshallbetter/adobe-mcp",
+     "author": "io.github.zachshallbetter",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
+       "name": "io.github.zachshallbetter/adobe-mcp-aftereffects",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "macOS only: address a specific copy, e.g. \"Adobe After Effects 2025\". Default: After Effects by bundle id",
+           "name": "AFTEREFFECTS_APP_NAME",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
+           "name": "AFTEREFFECTS_ALLOWED_DIRS",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "How long to wait for After Effects before reporting that a dialog may be open. Default 120000",
+           "name": "AFTEREFFECTS_SCRIPT_TIMEOUT_MS",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "adobe-mcp-aftereffects",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/zachshallbetter/adobe-mcp",
+       "title": "After Effects MCP Server",
+       "version": "0.1.0",
+       "website": null
+      }
+     },
+     "install": "npx -y adobe-mcp-aftereffects",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "AFTEREFFECTS_APP_NAME",
+       "AFTEREFFECTS_ALLOWED_DIRS",
+       "AFTEREFFECTS_SCRIPT_TIMEOUT_MS"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 26,
+      "repo_pushed_at": "2026-10-20",
+      "registry_updated_at": "2026-10-20"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-20T15:07:01Z",
+     "updated_at": "2026-10-20T15:07:01Z",
+     "checked_at": "2026-10-20T15:07:01Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-ajsmonty-adobe-mcp",
      "title": "io.github.AJSMonty/adobe-mcp",
      "type": "mcp",
@@ -1864,32 +1953,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
-       "name": "io.github.AJSMonty/adobe-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Directory for rendered assets, the asset registry, and learned lessons (default: ~/AdobeMCP)",
-           "name": "ADOBE_MCP_WORKSPACE",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "@ajsmonty/adobe-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.1.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/AJSMonty/adobe-mcp",
-       "title": null,
-       "version": "1.1.1",
-       "website": null
-      }
+      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y @ajsmonty/adobe-mcp",
      "security": {
@@ -2025,46 +2089,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-www-unicorn-studio/",
      "source": "ui-hub"
-    },
-    {
-     "id": "ui-resource-hub-skills",
-     "title": "UI Hub skills.json (recommended design workflow)",
-     "type": "workflow",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+dark, mobile.",
-     "summary_lang": "en",
-     "source_url": "https://siinxu.github.io/ui-resource-hub/api/skills.json",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "aggregator",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "link"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {},
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/ui-resource-hub-skills/",
-     "source": "seed"
     }
    ]
   },
@@ -2230,7 +2254,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137622,
+      "repo_stars": 137866,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2275,7 +2299,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137622,
+      "repo_stars": 137866,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2320,7 +2344,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47687,
+      "repo_stars": 47910,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2365,7 +2389,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2410,7 +2434,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2455,7 +2479,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2500,7 +2524,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41164,
+      "repo_stars": 41227,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2545,8 +2569,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30511,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 30651,
+      "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2590,8 +2614,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30511,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 30651,
+      "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2635,8 +2659,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30511,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 30651,
+      "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2680,7 +2704,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25868,
+      "repo_stars": 25889,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
