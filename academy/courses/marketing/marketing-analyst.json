@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-10-21T00:40:03Z",
+ "updated_at": "2026-10-21T15:15:15Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -396,7 +396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -441,7 +441,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -486,7 +486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -531,7 +531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -576,7 +576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -790,7 +790,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 40364,
+      "repo_stars": 40377,
       "repo_pushed_at": "2026-10-21",
       "registry_updated_at": "2026-01-07"
      },
@@ -884,69 +884,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-matjmat-eulerian-marketing-platform-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-jojapi-similarweb",
-     "title": "com.jojapi/similarweb",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "marketing-analyst"
-     ],
-     "summary": "Similarweb: Similarweb API allows you to access powerful insights into web analytics and online.",
-     "summary_lang": "en",
-     "source_url": "https://jojapi.com/hub/api/similarweb",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "com.jojapi",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.jojapi/similarweb&version=latest",
-      "record": {
-       "description": "Similarweb: Similarweb API allows you to access powerful insights into web analytics and online.",
-       "name": "com.jojapi/similarweb",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.jojapi.com/similarweb"
-        }
-       ],
-       "repository": null,
-       "title": null,
-       "version": "1.0.0",
-       "website": "https://jojapi.com/hub/api/similarweb"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.jojapi.com/similarweb",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-08-19"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-jojapi-similarweb/",
      "source": "mcp-registry"
     },
     {
@@ -1089,18 +1026,18 @@
      ],
      "summary": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
      "summary_lang": "en",
-     "source_url": "https://saifs.ai",
-     "raw_url": null,
+     "source_url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-saifs-marketing-intelligence.md",
      "upstream_raw_url": null,
-     "repo": null,
+     "repo": "Saify-Technologies/saifs-ai-mcps-docs",
      "author": "ai.saifs",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.saifs/marketing-intelligence&version=latest",
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs/blob/HEAD/README.md",
       "record": {
        "description": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
        "name": "ai.saifs/marketing-intelligence",
@@ -1112,9 +1049,9 @@
          "url": "https://marketing-analysis-mcp.saifs.ai/mcp"
         }
        ],
-       "repository": null,
+       "repository": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs",
        "title": "Marketing Intelligence & Optimization",
-       "version": "1.0.0",
+       "version": "1.0.1",
        "website": "https://saifs.ai"
       }
      },
@@ -1127,14 +1064,14 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-08-12"
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-21",
+      "registry_updated_at": "2026-10-21"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-21T00:40:03Z",
-     "updated_at": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T15:15:15Z",
      "checked_at": "2026-10-21T00:40:03Z",
      "http_status": {
       "source": 200
@@ -1331,7 +1268,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1376,7 +1313,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1421,7 +1358,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1466,7 +1403,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1511,7 +1448,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

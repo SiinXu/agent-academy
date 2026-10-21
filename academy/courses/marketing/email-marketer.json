@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-10-21T00:40:03Z",
+ "updated_at": "2026-10-21T15:15:15Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -583,6 +583,71 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-sponsor-scout",
+     "title": "Sponsor Scout",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/sponsor-scout",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "MichaelHeckert",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/sponsor-scout",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot.dev (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "MichaelHeckert",
+       "firstSeen": "2026-10-20",
+       "integrations": [],
+       "name": "Sponsor Scout",
+       "official": false,
+       "page": "https://botsdots.site/templates/sponsor-scout",
+       "risk": "low",
+       "summary": "Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators."
+      }
+     },
+     "install": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-20"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-21T15:15:15Z",
+     "updated_at": "2026-10-21T15:15:15Z",
+     "checked_at": "2026-10-21T15:15:15Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-sponsor-scout/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-newsletter-desk-inbox-worthy-j0cu",
      "title": "📰 Newsletter Desk ✦ INBOX-WORTHY",
      "type": "template",
@@ -775,7 +840,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -820,7 +885,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -865,7 +930,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -910,7 +975,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -955,7 +1020,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1000,8 +1065,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30787,
-      "repo_pushed_at": "2026-10-20"
+      "repo_stars": 31069,
+      "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1045,8 +1110,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30787,
-      "repo_pushed_at": "2026-10-20"
+      "repo_stars": 31069,
+      "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1402,7 +1467,7 @@
      },
      "metrics": {
       "repo_stars": 4,
-      "repo_pushed_at": "2026-10-14",
+      "repo_pushed_at": "2026-10-21",
       "registry_updated_at": "2026-09-04"
      },
      "course_step": "4-do-it",
@@ -1414,69 +1479,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-deyikong-sendgrid-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-beehiiv-beehiiv",
-     "title": "beehiiv",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/beehiiv/agents",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-beehiiv-beehiiv.md",
-     "upstream_raw_url": null,
-     "repo": "beehiiv/agents",
-     "author": "com.beehiiv",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md",
-      "record": {
-       "description": "Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.",
-       "name": "com.beehiiv/beehiiv",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.beehiiv.com/mcp"
-        }
-       ],
-       "repository": "https://github.com/beehiiv/agents",
-       "title": "beehiiv",
-       "version": "0.1.0",
-       "website": "https://www.beehiiv.com"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.beehiiv.com/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 1,
-      "repo_pushed_at": "2026-10-13",
-      "registry_updated_at": "2026-10-07"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-21T00:40:03Z",
-     "updated_at": "2026-10-21T00:40:03Z",
-     "checked_at": "2026-10-21T00:40:03Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-beehiiv-beehiiv/",
      "source": "mcp-registry"
     },
     {
@@ -1579,233 +1581,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-neschadin-sendgrid-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker",
-     "title": "com.mambabuilt/mcp-link-in-bio-newsletter-checker",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Follow a creator bio link and report the newsletter, what they sell, and the contact emails.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md",
-     "upstream_raw_url": null,
-     "repo": "mambalabsdev/mcp-link-in-bio-newsletter-checker",
-     "author": "com.mambabuilt",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker/blob/HEAD/README.md",
-      "record": {
-       "description": "Follow a creator bio link and report the newsletter, what they sell, and the contact emails.",
-       "name": "com.mambabuilt/mcp-link-in-bio-newsletter-checker",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Apify API token from https://console.apify.com/account/integrations",
-           "name": "APIFY_TOKEN",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@mambalabsdev/mcp-link-in-bio-newsletter-checker",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker",
-       "title": null,
-       "version": "1.2.0",
-       "website": null
-      }
-     },
-     "install": "npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "APIFY_TOKEN"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-20",
-      "registry_updated_at": "2026-10-16"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:34:04Z",
-     "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-10-20T01:06:48Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-closermethod-newsletter-growth-mcp",
-     "title": "io.github.closermethod/newsletter-growth-mcp",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Newsletter growth loops, welcome-sequence architecture, subject-line and list-metric guidance.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/closermethod/newsletter-growth-mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": "closermethod/newsletter-growth-mcp",
-     "author": "io.github.closermethod",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.closermethod/newsletter-growth-mcp&version=latest",
-      "record": {
-       "description": "Newsletter growth loops, welcome-sequence architecture, subject-line and list-metric guidance.",
-       "name": "io.github.closermethod/newsletter-growth-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "newsletter-growth-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.0.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/closermethod/newsletter-growth-mcp",
-       "title": null,
-       "version": "1.0.1",
-       "website": null
-      }
-     },
-     "install": "npx -y newsletter-growth-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-07-14",
-      "registry_updated_at": "2026-07-14"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:34:04Z",
-     "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-10-20T01:06:48Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-closermethod-newsletter-growth-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-teamsincetoday-newsletter-commerce-mcp",
-     "title": "io.github.teamsincetoday/newsletter-commerce-mcp",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Extract shoppable products from newsletter content with affiliate signals.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/teamsincetoday/newsletter-commerce-mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": "teamsincetoday/newsletter-commerce-mcp",
-     "author": "io.github.teamsincetoday",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.teamsincetoday/newsletter-commerce-mcp&version=latest",
-      "record": {
-       "description": "Extract shoppable products from newsletter content with affiliate signals.",
-       "name": "io.github.teamsincetoday/newsletter-commerce-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "OpenAI API key for GPT-4o-mini product extraction (required)",
-           "name": "OPENAI_API_KEY",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Comma-separated paid API keys for unlimited calls (optional — omit for free tier: 200 calls/day)",
-           "name": "MCP_API_KEYS",
-           "required": null,
-           "secret": true
-          }
-         ],
-         "id": "newsletter-commerce-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.1.3"
-        },
-        {
-         "env": [],
-         "id": "newsletter-commerce-mcp",
-         "transport": "streamable-http",
-         "type": "npm",
-         "version": "0.1.3"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/teamsincetoday/newsletter-commerce-mcp",
-       "title": null,
-       "version": "0.1.3",
-       "website": null
-      }
-     },
-     "install": "npx -y newsletter-commerce-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "OPENAI_API_KEY",
-       "MCP_API_KEYS"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-04-08",
-      "registry_updated_at": "2026-04-04"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:34:04Z",
-     "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-10-20T01:06:48Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-teamsincetoday-newsletter-commerce-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -1967,6 +1742,69 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-com-insightfulpipe-klaviyo",
+     "title": "Klaviyo MCP by InsightfulPipe",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Hosted Klaviyo MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Insightful-Pipe/klaviyo-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-klaviyo.md",
+     "upstream_raw_url": null,
+     "repo": "Insightful-Pipe/klaviyo-mcp-server",
+     "author": "com.insightfulpipe",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Insightful-Pipe/klaviyo-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "Hosted Klaviyo MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
+       "name": "com.insightfulpipe/klaviyo",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://klaviyo.insightfulmcp.com/"
+        }
+       ],
+       "repository": "https://github.com/Insightful-Pipe/klaviyo-mcp-server",
+       "title": "Klaviyo MCP by InsightfulPipe",
+       "version": "1.0.0",
+       "website": "https://insightfulpipe.com/mcp-servers/klaviyo"
+      }
+     },
+     "install": "remote (streamable-http): https://klaviyo.insightfulmcp.com/",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-10",
+      "registry_updated_at": "2026-10-21"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T15:15:15Z",
+     "updated_at": "2026-10-21T15:15:15Z",
+     "checked_at": "2026-10-21T15:15:15Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-insightfulpipe-klaviyo/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-asklokesh-mailchimp-mcp-server",
      "title": "Mailchimp",
      "type": "mcp",
@@ -2068,23 +1906,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/pipeworx-io/mcp-mailchimp/blob/HEAD/README.md",
-      "record": {
-       "description": "Mailchimp MCP Pack — manage audiences, campaigns, and members via Mailchimp Marketing API.",
-       "name": "io.github.pipeworx-io/mailchimp",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://gateway.pipeworx.io/mailchimp/mcp"
-        }
-       ],
-       "repository": "https://github.com/pipeworx-io/mcp-mailchimp",
-       "title": "Mailchimp",
-       "version": "0.1.3",
-       "website": "https://pipeworx.io/packs/mailchimp"
-      }
+      "url": "https://github.com/pipeworx-io/mcp-mailchimp/blob/HEAD/README.md"
      },
      "install": "remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp",
      "security": {
@@ -2108,6 +1930,132 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-mailchimp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-insightfulpipe-mailchimp",
+     "title": "Mailchimp MCP by InsightfulPipe",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Insightful-Pipe/mailchimp-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-mailchimp.md",
+     "upstream_raw_url": null,
+     "repo": "Insightful-Pipe/mailchimp-mcp-server",
+     "author": "com.insightfulpipe",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Insightful-Pipe/mailchimp-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
+       "name": "com.insightfulpipe/mailchimp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mailchimp.insightfulmcp.com/"
+        }
+       ],
+       "repository": "https://github.com/Insightful-Pipe/mailchimp-mcp-server",
+       "title": "Mailchimp MCP by InsightfulPipe",
+       "version": "1.0.0",
+       "website": "https://insightfulpipe.com/mcp-servers/mailchimp"
+      }
+     },
+     "install": "remote (streamable-http): https://mailchimp.insightfulmcp.com/",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-10",
+      "registry_updated_at": "2026-10-21"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T15:15:15Z",
+     "updated_at": "2026-10-21T15:15:15Z",
+     "checked_at": "2026-10-21T15:15:15Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-insightfulpipe-mailchimp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-usefulapi-mailchimp",
+     "title": "Mailchimp MCP by usefulapi",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Read audiences, members, campaigns and reports; add, update, tag and archive subscribers.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/m190/usefulapi-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-usefulapi-mailchimp.md",
+     "upstream_raw_url": null,
+     "repo": "m190/usefulapi-mcp",
+     "author": "io.usefulapi",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/m190/usefulapi-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Read audiences, members, campaigns and reports; add, update, tag and archive subscribers.",
+       "name": "io.usefulapi/mailchimp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mailchimp.usefulapi.io/mcp"
+        }
+       ],
+       "repository": "https://github.com/m190/usefulapi-mcp",
+       "title": "Mailchimp MCP by usefulapi",
+       "version": "1.11.1",
+       "website": "https://usefulapi.io/mailchimp/"
+      }
+     },
+     "install": "remote (streamable-http): https://mailchimp.usefulapi.io/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-21",
+      "registry_updated_at": "2026-10-09"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T15:15:15Z",
+     "updated_at": "2026-10-21T15:15:15Z",
+     "checked_at": "2026-10-21T15:15:15Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-usefulapi-mailchimp/",
      "source": "mcp-registry"
     },
     {
@@ -2331,7 +2279,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2376,7 +2324,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55689,
+      "repo_stars": 55775,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2421,7 +2369,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2466,7 +2414,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2511,7 +2459,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41251,
+      "repo_stars": 41426,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

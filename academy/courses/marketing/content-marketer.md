@@ -2,7 +2,7 @@
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-21
-updated_at: 2026-10-21T00:40:03Z
+updated_at: 2026-10-21T15:15:15Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -247,16 +247,6 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [mcp] GenPark Audio Packet Jitter Resilience Buffer. Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry
-  source: https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alphaparkinc-genpark-audio-packet-jitter-resilience-buffer-skill.md
-  license: MIT
-  needs_credentials: false, writes_external: false
-- [mcp] genpark-jitter-buffer. Packet ordering simulation and inter-arrival jitter telemetry.
-  source: https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md
-  license: MIT
-  needs_credentials: false, writes_external: false
 - [mcp] Monetize Marketing. The Monetize Marketing App as MCP tools: Brain, mission, training, skills, Library, software. OAuth.
   source: https://github.com/monetizemarketing/mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-monetizemarketing-app.md
@@ -272,11 +262,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/sadri-dridi/named-mcp-utilities
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/agent-marketing-index/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] AIsa Similarweb. Traffic and engagement for any domain: rank, channels, referrers, audience, rivals.
-  source: https://aisa.one
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.aisa.one/similarweb/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Ariadne for Therapists. Free Google Business Profile audits and sample posts for therapists in private practice.
   source: https://github.com/bgrieco22/ariadne-mcp
@@ -309,12 +294,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://marketing-mcp.mcpize.run/mcp
   needs_credentials: true, writes_external: false
-- [mcp] Mixpanel. Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
-  source: https://github.com/pipeworx-io/mcp-mixpanel
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md
-  license: MIT
-  install: remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Sendgrid. SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)
   source: https://github.com/pipeworx-io/mcp-sendgrid
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-sendgrid.md
@@ -332,6 +311,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
   license: MIT
   install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] uk.co.digitalmarketingagencyswindon/site. Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...
+  source: https://digitalmarketingagencyswindon.co.uk
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

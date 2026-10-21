@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-21
-updated_at: 2026-10-21T00:40:03Z
+updated_at: 2026-10-21T15:15:15Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -68,6 +68,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1
   needs_credentials: false, writes_external: true
+- [template] Sponsor Scout. Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.
+  source: https://botsdots.site/templates/sponsor-scout
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6
+  needs_credentials: false, writes_external: false
 - [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. 📰 Turn notes and links into a cited newsletter issue with three subject lines, a preheader, sections and one clear call to action.
   source: https://botsdots.site/templates/newsletter-desk-inbox-worthy-j0cu
   license: template belongs to its creator (catalog CC0)
@@ -174,34 +179,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: ISC
   install: npx -y sendgrid-mcp
   needs_credentials: true, writes_external: true
-- [mcp] beehiiv. Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.
-  source: https://github.com/beehiiv/agents
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-beehiiv-beehiiv.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.beehiiv.com/mcp
-  needs_credentials: true, writes_external: true
 - [mcp] SendGrid Transactional. SendGrid transactional email: preflight send, templates, and delivery diagnostics.
   source: https://github.com/Neschadin/sendgrid-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-neschadin-sendgrid-mcp.md
   license: MIT
   install: npx -y @neschadin/sendgrid-mcp
   needs_credentials: true, writes_external: true
-- [mcp] com.mambabuilt/mcp-link-in-bio-newsletter-checker. Follow a creator bio link and report the newsletter, what they sell, and the contact emails.
-  source: https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md
-  license: MIT
-  install: npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.closermethod/newsletter-growth-mcp. Newsletter growth loops, welcome-sequence architecture, subject-line and list-metric guidance.
-  source: https://github.com/closermethod/newsletter-growth-mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y newsletter-growth-mcp
-  needs_credentials: false, writes_external: false
-- [mcp] io.github.teamsincetoday/newsletter-commerce-mcp. Extract shoppable products from newsletter content with affiliate signals.
-  source: https://github.com/teamsincetoday/newsletter-commerce-mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y newsletter-commerce-mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Klaviyo. Klaviyo MCP Pack — wraps the Klaviyo API for email marketing
   source: https://github.com/pipeworx-io/mcp-klaviyo
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-klaviyo.md
@@ -214,6 +197,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @scalably-io/klaviyo-mcp
   needs_credentials: true, writes_external: false
+- [mcp] Klaviyo MCP by InsightfulPipe. Hosted Klaviyo MCP server for Claude, ChatGPT and Cursor, with each action switched per account.
+  source: https://github.com/Insightful-Pipe/klaviyo-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-klaviyo.md
+  license: MIT
+  install: remote (streamable-http): https://klaviyo.insightfulmcp.com/
+  needs_credentials: true, writes_external: false
 - [mcp] Mailchimp. MCP server for Mailchimp API integration
   source: https://github.com/asklokesh/mailchimp-mcp-server
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -224,6 +213,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mailchimp.md
   license: MIT
   install: remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp
+  needs_credentials: true, writes_external: true
+- [mcp] Mailchimp MCP by InsightfulPipe. Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.
+  source: https://github.com/Insightful-Pipe/mailchimp-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-mailchimp.md
+  license: MIT
+  install: remote (streamable-http): https://mailchimp.insightfulmcp.com/
+  needs_credentials: true, writes_external: false
+- [mcp] Mailchimp MCP by usefulapi. Read audiences, members, campaigns and reports; add, update, tag and archive subscribers.
+  source: https://github.com/m190/usefulapi-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-usefulapi-mailchimp.md
+  license: MIT
+  install: remote (streamable-http): https://mailchimp.usefulapi.io/mcp
   needs_credentials: true, writes_external: true
 - [mcp] Marketing Content Production. Brand-safe ad, email, product description, and social content production.
   source: https://mcp-payment-site.vercel.app/marketing-content-production
