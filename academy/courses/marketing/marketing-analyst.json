@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-10-20T15:07:01Z",
+ "updated_at": "2026-10-21T00:40:03Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -396,7 +396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55634,
+      "repo_stars": 55689,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -441,7 +441,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55634,
+      "repo_stars": 55689,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -486,7 +486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -531,7 +531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -576,7 +576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -731,6 +731,162 @@
      "source": "seed"
     },
     {
+     "id": "mcp-io-github-posthog-mcp",
+     "title": "PostHog MCP Server",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/PostHog/posthog",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-posthog-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "PostHog/posthog",
+     "author": "io.github.PostHog",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md",
+      "record": {
+       "description": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
+       "name": "io.github.PostHog/mcp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://mcp.posthog.com/mcp"
+        },
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "sse",
+         "url": "https://mcp.posthog.com/sse"
+        }
+       ],
+       "repository": "https://github.com/PostHog/posthog",
+       "title": "PostHog MCP Server",
+       "version": "1.0.1",
+       "website": null
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.posthog.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "Authorization",
+       "Authorization"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 40364,
+      "repo_pushed_at": "2026-10-21",
+      "registry_updated_at": "2026-01-07"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-posthog-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-matjmat-eulerian-marketing-platform-mcp",
+     "title": "io.github.matjmat/eulerian-marketing-platform-mcp",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-matjmat-eulerian-marketing-platform-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "EulerianTechnologies/eulerian-marketing-platform-mcp",
+     "author": "io.github.matjmat",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.",
+       "name": "io.github.matjmat/eulerian-marketing-platform-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Eulerian Marketing Platform API key",
+           "name": "EMP_API_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Your Eulerian Marketing Platform MCP Endpoint",
+           "name": "EMP_API_ENDPOINT",
+           "required": true,
+           "secret": null
+          }
+         ],
+         "id": "eulerian-marketing-platform",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.9"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
+     },
+     "install": "uvx eulerian-marketing-platform",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "EMP_API_TOKEN",
+       "EMP_API_ENDPOINT"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 1,
+      "repo_pushed_at": "2026-06-13",
+      "registry_updated_at": "2026-02-03"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-matjmat-eulerian-marketing-platform-mcp/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-com-jojapi-similarweb",
      "title": "com.jojapi/similarweb",
      "type": "mcp",
@@ -794,95 +950,260 @@
      "source": "mcp-registry"
     },
     {
-     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag",
-     "title": "ai_email_gtm_outreach_agent",
-     "type": "case",
+     "id": "mcp-io-github-csoai-org-marketing-analytics-ai-mcp",
+     "title": "io.github.CSOAI-ORG/marketing-analytics-ai-mcp",
+     "type": "mcp",
      "industry": "marketing",
      "roles": [
-      "growth-marketer",
-      "email-marketer"
+      "marketing-analyst"
      ],
-     "summary": "An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Marketing), researches website + Reddit insights, and drafts tailored emails in your s",
+     "summary": "Marketing Analytics Ai MCP Server by MEOK AI Labs",
      "summary_lang": "en",
-     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent/README.md",
-     "repo": "Shubhamsaboo/awesome-llm-apps",
-     "author": "Shubhamsaboo",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
+     "source_url": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-csoai-org-marketing-analytics-ai-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "CSOAI-ORG/marketing-analytics-ai-mcp",
+     "author": "io.github.CSOAI-ORG",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
      "original": {
       "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent"
+      "license": "MIT",
+      "url": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Marketing Analytics Ai MCP Server by MEOK AI Labs",
+       "name": "io.github.CSOAI-ORG/marketing-analytics-ai-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "marketing-analytics-ai-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "1.0.9"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp",
+       "title": null,
+       "version": "1.0.9",
+       "website": null
+      }
      },
-     "install": null,
+     "install": "uvx marketing-analytics-ai-mcp",
      "security": {
       "audited": false,
       "executes_code": true,
       "needs_credentials": false,
-      "writes_external": false
+      "writes_external": false,
+      "credential_names": []
      },
      "metrics": {
-      "repo_stars": 141810,
-      "repo_pushed_at": "2026-10-13"
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-10-08",
+      "registry_updated_at": "2026-08-19"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag/",
-     "source": "seed"
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-csoai-org-marketing-analytics-ai-mcp/",
+     "source": "mcp-registry"
     },
     {
-     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit",
-     "title": "ai_seo_audit_team",
-     "type": "case",
+     "id": "mcp-io-github-friendlygeorge-posthog-mcp-server",
+     "title": "io.github.friendlygeorge/posthog-mcp-server",
+     "type": "mcp",
      "industry": "marketing",
      "roles": [
-      "seo-specialist"
+      "marketing-analyst"
      ],
-     "summary": "The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimization report. The app uses **Firecrawl via MCP (Model Context Protocol)** for a",
+     "summary": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
      "summary_lang": "en",
-     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team/README.md",
-     "repo": "Shubhamsaboo/awesome-llm-apps",
-     "author": "Shubhamsaboo",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
+     "source_url": "https://github.com/friendlygeorge/posthog-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md",
+     "upstream_raw_url": null,
+     "repo": "friendlygeorge/posthog-mcp-server",
+     "author": "io.github.friendlygeorge",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
      "original": {
       "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team"
+      "license": "MIT",
+      "url": "https://github.com/friendlygeorge/posthog-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
+       "name": "io.github.friendlygeorge/posthog-mcp-server",
+       "packages": [
+        {
+         "env": [],
+         "id": "posthog-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/friendlygeorge/posthog-mcp-server",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
      },
-     "install": null,
+     "install": "npx -y posthog-mcp-server",
      "security": {
       "audited": false,
       "executes_code": true,
       "needs_credentials": false,
-      "writes_external": false
+      "writes_external": true,
+      "credential_names": []
      },
      "metrics": {
-      "repo_stars": 141810,
-      "repo_pushed_at": "2026-10-13"
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-06-06",
+      "registry_updated_at": "2026-06-06"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
-     "source": "seed"
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-friendlygeorge-posthog-mcp-server/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-ai-saifs-marketing-intelligence",
+     "title": "Marketing Intelligence & Optimization",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
+     "summary_lang": "en",
+     "source_url": "https://saifs.ai",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ai.saifs",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.saifs/marketing-intelligence&version=latest",
+      "record": {
+       "description": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
+       "name": "ai.saifs/marketing-intelligence",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://marketing-analysis-mcp.saifs.ai/mcp"
+        }
+       ],
+       "repository": null,
+       "title": "Marketing Intelligence & Optimization",
+       "version": "1.0.0",
+       "website": "https://saifs.ai"
+      }
+     },
+     "install": "remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-08-12"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-saifs-marketing-intelligence/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-pipeworx-io-posthog",
+     "title": "Posthog",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pipeworx-io/mcp-posthog",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md",
+     "upstream_raw_url": null,
+     "repo": "pipeworx-io/mcp-posthog",
+     "author": "io.github.pipeworx-io",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/pipeworx-io/mcp-posthog/blob/HEAD/README.md",
+      "record": {
+       "description": "PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)",
+       "name": "io.github.pipeworx-io/posthog",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://gateway.pipeworx.io/posthog/mcp"
+        }
+       ],
+       "repository": "https://github.com/pipeworx-io/mcp-posthog",
+       "title": "Posthog",
+       "version": "0.1.2",
+       "website": "https://pipeworx.io/packs/posthog"
+      }
+     },
+     "install": "remote (streamable-http): https://gateway.pipeworx.io/posthog/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-26",
+      "registry_updated_at": "2026-09-26"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-posthog/",
+     "source": "mcp-registry"
     }
    ]
   },
@@ -1010,7 +1331,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55634,
+      "repo_stars": 55689,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1055,7 +1376,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55634,
+      "repo_stars": 55689,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1100,7 +1421,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1145,7 +1466,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1190,7 +1511,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

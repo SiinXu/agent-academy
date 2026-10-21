@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-20T15:07:01Z",
+ "updated_at": "2026-10-21T00:40:03Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30651,
+      "repo_stars": 30787,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "4-do-it",
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182419,
+      "repo_stars": 182497,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182419,
+      "repo_stars": 182497,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,7 +2007,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137866,
+      "repo_stars": 138002,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2772,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142391,
+      "repo_stars": 142430,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "4-do-it",
@@ -2845,7 +2845,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16021,
+      "repo_stars": 16023,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-06-18"
      },
@@ -2909,8 +2909,8 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2090,
-      "repo_pushed_at": "2026-10-19",
+      "repo_stars": 2092,
+      "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2025-10-16"
      },
      "course_step": "4-do-it",
@@ -2945,7 +2945,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/TranHoaiHung/figma-ui-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/TranHoaiHung/figma-ui-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back",
+       "name": "io.github.TranHoaiHung/figma-ui-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "figma-ui-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.5.29"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/TranHoaiHung/figma-ui-mcp",
+       "title": null,
+       "version": "2.5.29",
+       "website": null
+      }
      },
      "install": "npx -y figma-ui-mcp",
      "security": {
@@ -4077,7 +4095,25 @@
      "original": {
       "kind": "full",
       "license": "CC0-1.0",
-      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md"
+      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md",
+      "record": {
+       "description": "Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages",
+       "name": "io.github.joalavedra/andorra-fonts-publiques",
+       "packages": [
+        {
+         "env": [],
+         "id": "fonts-andorra",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/joalavedra/andorra-fonts-publiques",
+       "title": "Andorra public sources",
+       "version": "0.2.0",
+       "website": null
+      }
      },
      "install": "uvx fonts-andorra",
      "security": {
@@ -4313,7 +4349,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137866,
+      "repo_stars": 138002,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4358,7 +4394,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137866,
+      "repo_stars": 138002,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -4403,7 +4439,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4448,7 +4484,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4493,7 +4529,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4538,7 +4574,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4583,7 +4619,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4628,7 +4664,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30651,
+      "repo_stars": 30787,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -4673,7 +4709,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30651,
+      "repo_stars": 30787,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -4718,7 +4754,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30651,
+      "repo_stars": 30787,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -4763,7 +4799,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25889,
+      "repo_stars": 25900,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

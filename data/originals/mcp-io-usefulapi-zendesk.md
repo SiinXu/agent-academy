@@ -181,7 +181,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Deputy](servers/deputy/) | productivity | 25 | API token | [servers/deputy/](servers/deputy/) |
 | [Deskpro](servers/deskpro/) | support | 24 | API token | [servers/deskpro/](servers/deskpro/) |
 | [Elvanto](servers/elvanto/) | membership | 27 | API token | [servers/elvanto/](servers/elvanto/) |
-| [Follow Up Boss](servers/follow-up-boss/) | crm | 26 | API token | [servers/follow-up-boss/](servers/follow-up-boss/) |
+| [Follow Up Boss](servers/follow-up-boss/) | crm | 27 | API token | [servers/follow-up-boss/](servers/follow-up-boss/) |
 | [Formstack](servers/formstack/) | productivity | 24 | API token | [servers/formstack/](servers/formstack/) |
 | [TeamUp](servers/goteamup/) | membership | 24 | API token | [servers/goteamup/](servers/goteamup/) |
 | [HappyFox](servers/happyfox/) | support | 27 | API token | [servers/happyfox/](servers/happyfox/) |
@@ -306,7 +306,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Messente](servers/messente/) | communications | 13 | API token | [servers/messente/](servers/messente/) |
 | [Localazy](servers/localazy/) | localization | 21 | API token | [servers/localazy/](servers/localazy/) |
 | [Adafruit IO](servers/adafruit-io/) | productivity | 21 | API token | [servers/adafruit-io/](servers/adafruit-io/) |
-| [NS1](servers/ns1/) | dns | 22 | API token | [servers/ns1/](servers/ns1/) |
+| [NS1 Connect](servers/ns1/) | dns | 22 | API token | [servers/ns1/](servers/ns1/) |
 | [BulkSMS](servers/bulksms/) | communications | 12 | API token | [servers/bulksms/](servers/bulksms/) |
 | [Taggun](servers/taggun/) | document-ai | 10 | API token | [servers/taggun/](servers/taggun/) |
 | [D7 Networks](servers/d7-networks/) | communications | 10 | API token | [servers/d7-networks/](servers/d7-networks/) |
@@ -342,6 +342,9 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Oblio](servers/oblio/) | billing | 22 | API token | [servers/oblio/](servers/oblio/) |
 | [SmartAccounts](servers/smartaccounts/) | billing | 22 | API token | [servers/smartaccounts/](servers/smartaccounts/) |
 | [Propstack](servers/propstack/) | crm | 22 | API token | [servers/propstack/](servers/propstack/) |
+| [Trumpia](servers/trumpia/) | communications | 26 | API token | [servers/trumpia/](servers/trumpia/) |
+| [Order Desk](servers/order-desk/) | ecommerce | 19 | API token | [servers/order-desk/](servers/order-desk/) |
+| [SimplyRETS](servers/simplyrets/) | real-estate | 14 | API token | [servers/simplyrets/](servers/simplyrets/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

@@ -2,7 +2,7 @@
  "id": "customer-service/customer-success",
  "industry": "customer-service",
  "role": "customer-success",
- "updated_at": "2026-10-20T15:07:01Z",
+ "updated_at": "2026-10-21T00:40:03Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25889,
+      "repo_stars": 25900,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

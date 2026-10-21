@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-20T15:07:01Z",
+ "updated_at": "2026-10-21T00:40:03Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1363,7 +1363,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1683,7 +1683,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142391,
+      "repo_stars": 142430,
       "repo_pushed_at": "2026-10-18"
      },
      "course_step": "4-do-it",
@@ -1728,7 +1728,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30176,
+      "repo_stars": 30184,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "4-do-it",
@@ -1763,44 +1763,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/codespar/mcp-dev-latam/blob/HEAD/README.md",
-      "record": {
-       "description": "MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)",
-       "name": "io.github.codespar/mcp-shopify",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Shopify shop subdomain (e.g. 'acme' for acme.myshopify.com)",
-           "name": "SHOPIFY_SHOP",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "Shopify Admin API access token (private/custom app) sent as X-Shopify-Access-Token header",
-           "name": "SHOPIFY_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Shopify Admin API version. Defaults to 2024-01.",
-           "name": "SHOPIFY_API_VERSION",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "@codespar/mcp-shopify",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.2.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/codespar/mcp-dev-latam",
-       "title": null,
-       "version": "0.2.2",
-       "website": null
-      }
+      "url": "https://github.com/codespar/mcp-dev-latam/blob/HEAD/README.md"
      },
      "install": "npx -y @codespar/mcp-shopify",
      "security": {
@@ -1851,7 +1814,62 @@
      "original": {
       "kind": "full",
       "license": "Apache-2.0",
-      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md"
+      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md",
+      "record": {
+       "description": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
+       "name": "io.github.Servosity/hubspot-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Set the HUBSPOT_ACCESS_TOKEN credential for the HubSpot MCP server.",
+           "name": "HUBSPOT_ACCESS_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Base URL for the HubSpot API. Leave the prefilled default unless your account uses a different regional or self-hosted host.",
+           "name": "HUBSPOT_BASE_URL",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
+           "name": "HUBSPOT_OWNER_EMAIL",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Bearer token required by `hubspot-mcp --transport http`; unused by the default stdio transport.",
+           "name": "HUBSPOT_MCP_HTTP_TOKEN",
+           "required": null,
+           "secret": true
+          },
+          {
+           "description": "Overrides the User-Agent the CLI sends on HubSpot requests.",
+           "name": "HUBSPOT_USER_AGENT",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Binds this MCP server to one tenant-gated client profile, so every call answers for that customer. Leave blank to use the profile configured as default_client_profile.",
+           "name": "PRINTING_PRESS_CLIENT_PROFILE",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.2/hubspot-mcp.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": "0.2.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/servosity/msp-skills",
+       "title": "HubSpot MCP",
+       "version": "0.2.2",
+       "website": null
+      }
      },
      "install": null,
      "security": {
@@ -1977,7 +1995,62 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md"
+      "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md",
+      "record": {
+       "description": "Relays messages between two Claude Code sessions on different machines using the Channels API",
+       "name": "io.github.MuhammadTalhaMT/intercom",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Label for this instance, e.g. backend or frontend. Appears in message tags so the other side knows who is talking.",
+           "name": "MY_ROLE",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Address of the other machine as host:port. A Tailscale address is recommended over a public one.",
+           "name": "REMOTE_HOST",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Shared secret authenticating messages between the two instances. Must match on both sides. There is no default: without it the intercom starts unpaired, binds no port, and refuses to send.",
+           "name": "INTERCOM_SECRET",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Port to listen on for incoming messages. Defaults to 8788.",
+           "name": "INTERCOM_PORT",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Interface to bind the listener to. Defaults to 0.0.0.0. Set 127.0.0.1 when a tunnel fronts the intercom, so only the tunnel can connect.",
+           "name": "INTERCOM_HOST",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "How long an outbound POST may hang before giving up. Defaults to 10000.",
+           "name": "INTERCOM_SEND_TIMEOUT_MS",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "claude-intercom",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/MuhammadTalhaMT/claude-intercom",
+       "title": null,
+       "version": "2.1.0",
+       "website": null
+      }
      },
      "install": "npx -y claude-intercom",
      "security": {
@@ -2011,14 +2084,63 @@
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-io-github-mindstone-mcp-server-freshdesk",
-     "title": "Freshdesk",
+     "id": "mcp-io-github-fruggr-zendesk-mcp-server",
+     "title": "io.github.fruggr/zendesk-mcp-server",
      "type": "mcp",
      "industry": "customer-service",
      "roles": [
       "support-agent"
      ],
-     "summary": "Freshdesk Support MCP server for Model Context Protocol hosts",
+     "summary": "Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/fruggr/zendesk-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md",
+     "upstream_raw_url": null,
+     "repo": "fruggr/zendesk-mcp-server",
+     "author": "io.github.fruggr",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/fruggr/zendesk-mcp-server/blob/HEAD/README.md"
+     },
+     "install": "npx -y @fruggr/zendesk-mcp-server",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "ZENDESK_SUBDOMAIN"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 14,
+      "repo_pushed_at": "2026-10-20",
+      "registry_updated_at": "2026-10-18"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-fruggr-zendesk-mcp-server/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-mindstone-mcp-server-zendesk",
+     "title": "Zendesk",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Zendesk MCP server for Model Context Protocol hosts",
      "summary_lang": "en",
      "source_url": "https://github.com/mindstone/mcp-servers",
      "raw_url": null,
@@ -2029,32 +2151,73 @@
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "link"
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mindstone/mcp-server-zendesk&version=latest",
+      "record": {
+       "description": "Zendesk MCP server for Model Context Protocol hosts",
+       "name": "io.github.mindstone/mcp-server-zendesk",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Path to the config directory containing accounts.json and credentials/",
+           "name": "ZENDESK_CONFIG_PATH",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional OAuth client ID for legacy token refresh flows",
+           "name": "ZENDESK_CLIENT_ID",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional OAuth client secret for legacy token refresh flows",
+           "name": "ZENDESK_CLIENT_SECRET",
+           "required": null,
+           "secret": true
+          }
+         ],
+         "id": "@mindstone/mcp-server-zendesk",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.4.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mindstone/mcp-servers",
+       "title": "Zendesk",
+       "version": "0.4.1",
+       "website": null
+      }
      },
-     "install": "npx -y @mindstone/mcp-server-freshdesk",
+     "install": "npx -y @mindstone/mcp-server-zendesk",
      "security": {
       "audited": false,
       "executes_code": true,
       "needs_credentials": true,
       "writes_external": false,
       "credential_names": [
-       "FRESHDESK_CONFIG_PATH"
+       "ZENDESK_CONFIG_PATH",
+       "ZENDESK_CLIENT_ID",
+       "ZENDESK_CLIENT_SECRET"
       ]
      },
      "metrics": {
       "repo_stars": 13,
-      "repo_pushed_at": "2026-10-15",
+      "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2026-08-09"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-20T15:07:01Z",
-     "updated_at": "2026-10-20T15:07:01Z",
-     "checked_at": "2026-10-20T15:07:01Z",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-mindstone-mcp-server-freshdesk/",
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-mindstone-mcp-server-zendesk/",
      "source": "mcp-registry"
     },
     {
@@ -2156,6 +2319,71 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-michaelrice-zendesk-mcp",
+     "title": "io.github.michaelrice/zendesk-mcp",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Zendesk MCP server for Claude Code and other MCP clients",
+     "summary_lang": "en",
+     "source_url": "https://github.com/michaelrice/zendesk-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "michaelrice/zendesk-mcp",
+     "author": "io.github.michaelrice",
+     "license": "Apache-2.0",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Zendesk MCP server for Claude Code and other MCP clients",
+       "name": "io.github.michaelrice/zendesk-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "zendesk-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.1.6"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/michaelrice/zendesk-mcp",
+       "title": null,
+       "version": "0.1.6",
+       "website": null
+      }
+     },
+     "install": "uvx zendesk-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 7,
+      "repo_pushed_at": "2026-10-08",
+      "registry_updated_at": "2026-10-08"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-michaelrice-zendesk-mcp/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-alex-brecher-shopify-multi-store",
      "title": "io.github.alex-brecher/shopify-multi-store",
      "type": "mcp",
@@ -2176,25 +2404,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md",
-      "record": {
-       "description": "Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.",
-       "name": "io.github.alex-brecher/shopify-multi-store",
-       "packages": [
-        {
-         "env": [],
-         "id": "shopify-multi-store-mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.0.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/alex-brecher/shopify-multi-store",
-       "title": null,
-       "version": "2.0.2",
-       "website": null
-      }
+      "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md"
      },
      "install": "npx -y shopify-multi-store-mcp-server",
      "security": {
@@ -2308,176 +2518,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-jitbit-jitbit-helpdesk/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-miller-joe-shopify-mcp",
-     "title": "io.github.miller-joe/shopify-mcp",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "MCP server for Shopify Admin API with a ComfyUI bridge for AI product image generation.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/miller-joe/shopify-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miller-joe-shopify-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "miller-joe/shopify-mcp",
-     "author": "io.github.miller-joe",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/miller-joe/shopify-mcp/blob/HEAD/README.md"
-     },
-     "install": "npx -y @miller-joe/shopify-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "SHOPIFY_STORE",
-       "SHOPIFY_ACCESS_TOKEN",
-       "SHOPIFY_API_VERSION",
-       "COMFYUI_URL",
-       "COMFYUI_PUBLIC_URL",
-       "COMFYUI_DEFAULT_CKPT"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 2,
-      "repo_pushed_at": "2026-06-08",
-      "registry_updated_at": "2026-04-20"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-20T01:06:48Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-miller-joe-shopify-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-ohneben-hubspot-mcp",
-     "title": "HubSpot",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "HubSpot API: 1,000+ endpoints as safety-categorized, hub- and plan-aware MCP tools, stdio or HTTP.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/ohneben/Hubspot-MCP",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ohneben-hubspot-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "ohneben/Hubspot-MCP",
-     "author": "io.github.ohneben",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/ohneben/Hubspot-MCP/blob/HEAD/README.md",
-      "record": {
-       "description": "HubSpot API: 1,000+ endpoints as safety-categorized, hub- and plan-aware MCP tools, stdio or HTTP.",
-       "name": "io.github.ohneben/hubspot-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Server transport. Set to 'stdio' for local MCP clients; the image otherwise starts the Streamable HTTP transport.",
-           "name": "MCP_TRANSPORT",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "HubSpot service key or legacy private app token (pat-...), from Settings -> Integrations. An OAuth access token also works.",
-           "name": "HUBSPOT_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "API host. Default https://api.hubapi.com; use https://api-eu1.hubapi.com for EU data residency portals.",
-           "name": "HUBSPOT_BASE_URL",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "'discovery' (default) exposes 3 meta-tools that search, inspect and call all 1,076 endpoints; 'all' exposes the ~690 endpoint tools directly.",
-           "name": "HUBSPOT_TOOL_MODE",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Set to 'true' to expose only read-only tools.",
-           "name": "HUBSPOT_READ_ONLY",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Read the token's scopes and probe paid-tier or beta API groups at startup (read-only, up to about 30 API calls). Set to 'false' to skip.",
-           "name": "HUBSPOT_CAPABILITY_CHECK",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Only for MCP_TRANSPORT=http: bearer token required on /mcp. Without it a non-loopback bind refuses to start.",
-           "name": "MCP_AUTH_TOKEN",
-           "required": null,
-           "secret": true
-          }
-         ],
-         "id": "ghcr.io/ohneben/hubspot-mcp:2.0.1",
-         "transport": "stdio",
-         "type": "oci",
-         "version": null
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/ohneben/Hubspot-MCP",
-       "title": "HubSpot",
-       "version": "2.0.1",
-       "website": "https://github.com/ohneben/Hubspot-MCP#readme"
-      }
-     },
-     "install": "docker run -i --rm ghcr.io/ohneben/hubspot-mcp:2.0.1",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "MCP_TRANSPORT",
-       "HUBSPOT_ACCESS_TOKEN",
-       "HUBSPOT_BASE_URL",
-       "HUBSPOT_TOOL_MODE",
-       "HUBSPOT_READ_ONLY",
-       "HUBSPOT_CAPABILITY_CHECK",
-       "MCP_AUTH_TOKEN"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 1,
-      "repo_pushed_at": "2026-10-18",
-      "registry_updated_at": "2026-09-15"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-17T00:33:10Z",
-     "updated_at": "2026-10-17T00:33:10Z",
-     "checked_at": "2026-10-20T01:06:48Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-ohneben-hubspot-mcp/",
      "source": "mcp-registry"
     }
    ]

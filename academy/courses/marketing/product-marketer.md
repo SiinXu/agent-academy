@@ -1,8 +1,8 @@
 ---
 name: marketing-product-marketer
 description: Agent Academy course for Product marketing (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-20
-updated_at: 2026-10-20T15:07:01Z
+version: 2026-10-21
+updated_at: 2026-10-21T00:40:03Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/product-marketer/
 ---
 
@@ -111,6 +111,11 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
+- [mcp] Marketing Scope. Plan campaigns, score offers explainably, and enforce offer-cited tactics before spending.
+  source: https://github.com/AxelVerneBooks/marketing-scope-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-axelvernebooks-marketing-scope-mcp.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [case] ai_email_gtm_outreach_agent. An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Market
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
@@ -126,12 +131,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
-- [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
-  source: https://github.com/cyanheads/mailchimp-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
-  license: Apache-2.0
-  install: see README; needs Mailchimp API key; can SEND campaigns (write access)
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

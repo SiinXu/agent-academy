@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-20T15:07:01Z",
+ "updated_at": "2026-10-21T00:40:03Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1329,7 +1329,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182419,
+      "repo_stars": 182497,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1374,7 +1374,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1419,7 +1419,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1464,7 +1464,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1509,7 +1509,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1554,7 +1554,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1599,7 +1599,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1644,7 +1644,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1689,7 +1689,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1734,7 +1734,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1953,7 +1953,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
+       "name": "io.github.AJSMonty/adobe-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Directory for rendered assets, the asset registry, and learned lessons (default: ~/AdobeMCP)",
+           "name": "ADOBE_MCP_WORKSPACE",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@ajsmonty/adobe-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/AJSMonty/adobe-mcp",
+       "title": null,
+       "version": "1.1.1",
+       "website": null
+      }
      },
      "install": "npx -y @ajsmonty/adobe-mcp",
      "security": {
@@ -2254,7 +2279,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137866,
+      "repo_stars": 138002,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2299,7 +2324,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 137866,
+      "repo_stars": 138002,
       "repo_pushed_at": "2026-10-15"
      },
      "course_step": "3-learn-rules",
@@ -2344,7 +2369,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 47910,
+      "repo_stars": 48054,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2389,7 +2414,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2434,7 +2459,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2479,7 +2504,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2524,7 +2549,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41227,
+      "repo_stars": 41251,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2569,7 +2594,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30651,
+      "repo_stars": 30787,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -2614,7 +2639,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30651,
+      "repo_stars": 30787,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -2659,7 +2684,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30651,
+      "repo_stars": 30787,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -2704,7 +2729,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25889,
+      "repo_stars": 25900,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
