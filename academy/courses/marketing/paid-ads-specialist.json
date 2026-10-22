@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-10-22T00:43:10Z",
+ "updated_at": "2026-10-22T15:17:20Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -513,7 +513,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55838,
+      "repo_stars": 55952,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -558,7 +558,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -603,7 +603,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25934,
+      "repo_stars": 25946,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -893,373 +893,45 @@
    "step": "4-do-it",
    "read": [
     {
-     "id": "mcp-io-github-cesteral-tiktok-mcp",
-     "title": "TikTok Ads MCP Server",
+     "id": "mcp-uk-co-ppcmarketingcompany-site",
+     "title": "uk.co.ppcmarketingcompany/site",
      "type": "mcp",
      "industry": "marketing",
      "roles": [
       "paid-ads-specialist"
      ],
-     "summary": "TikTok Ads management — CRUD, async reports, targeting, and media uploads",
+     "summary": "PPC marketing company: the site's own MCP server — enquiry (enquiry = a human handoff, not a...",
      "summary_lang": "en",
-     "source_url": "https://github.com/cesteral/mcp-open-advertising",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-cesteral-tiktok-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "cesteral/mcp-open-advertising",
-     "author": "io.github.cesteral",
-     "license": "Apache-2.0",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/cesteral/mcp-open-advertising/blob/HEAD/README.md",
-      "record": {
-       "description": "TikTok Ads management — CRUD, async reports, targeting, and media uploads",
-       "name": "io.github.cesteral/tiktok-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "@cesteral/tiktok-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.3.0"
-        }
-       ],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://{host}/tiktok-mcp/mcp"
-        }
-       ],
-       "repository": "https://github.com/cesteral/mcp-open-advertising",
-       "title": "TikTok Ads MCP Server",
-       "version": "1.3.0",
-       "website": null
-      }
-     },
-     "install": "npx -y @cesteral/tiktok-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 8,
-      "repo_pushed_at": "2026-10-21",
-      "registry_updated_at": "2026-06-10"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-cesteral-tiktok-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-buer2333-tiktok-shop-mcp",
-     "title": "TikTok Shop",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Read-only TikTok Shop Partner API: orders, finance, products and analytics across shops.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Buer2333/tiktok-shop-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-shop-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "Buer2333/tiktok-shop-mcp",
-     "author": "io.github.Buer2333",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Buer2333/tiktok-shop-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Read-only TikTok Shop Partner API: orders, finance, products and analytics across shops.",
-       "name": "io.github.Buer2333/tiktok-shop-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Path to shops.json (default ~/.config/tiktok-mcp/shops.json)",
-           "name": "TIKTOK_SHOP_CONFIG",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Shop used by the bestselling tools when seller_name is omitted",
-           "name": "TIKTOK_SHOP_BESTSELLERS_SHOP",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "tiktok-shop-mcp",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "0.3.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/Buer2333/tiktok-shop-mcp",
-       "title": "TikTok Shop",
-       "version": "0.3.0",
-       "website": null
-      }
-     },
-     "install": "uvx tiktok-shop-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "TIKTOK_SHOP_CONFIG",
-       "TIKTOK_SHOP_BESTSELLERS_SHOP"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 7,
-      "repo_pushed_at": "2026-10-19",
-      "registry_updated_at": "2026-10-19"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-buer2333-tiktok-shop-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-davidmosiah-tiktok-agent-publisher",
-     "title": "TikTok Agent Publisher",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/davidmosiah/tiktok-agent-publisher",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-davidmosiah-tiktok-agent-publisher.md",
-     "upstream_raw_url": null,
-     "repo": "davidmosiah/tiktok-agent-publisher",
-     "author": "io.github.davidmosiah",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/davidmosiah/tiktok-agent-publisher/blob/HEAD/README.md",
-      "record": {
-       "description": "Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.",
-       "name": "io.github.davidmosiah/tiktok-agent-publisher",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Set to false only when the agent should perform live TikTok upload operations. Defaults to dry-run behavior.",
-           "name": "TIKTOK_DRY_RUN",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "TikTok developer app client key. Optional until OAuth or live upload flows are used.",
-           "name": "TIKTOK_CLIENT_KEY",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "TikTok developer app client secret. Keep local and do not expose it to agents.",
-           "name": "TIKTOK_CLIENT_SECRET",
-           "required": null,
-           "secret": true
-          }
-         ],
-         "id": "tiktok-agent-publisher",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.1.5"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/davidmosiah/tiktok-agent-publisher",
-       "title": "TikTok Agent Publisher",
-       "version": "0.1.5",
-       "website": "https://github.com/davidmosiah/tiktok-agent-publisher"
-      }
-     },
-     "install": "npx -y tiktok-agent-publisher",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "TIKTOK_DRY_RUN",
-       "TIKTOK_CLIENT_KEY",
-       "TIKTOK_CLIENT_SECRET"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 2,
-      "repo_pushed_at": "2026-10-21",
-      "registry_updated_at": "2026-05-29"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-davidmosiah-tiktok-agent-publisher/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-lanternrow-tiktok-organic-mcp",
-     "title": "io.github.lanternrow/tiktok-organic-mcp",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "TikTok organic analytics — video performance, engagement metrics, and profile insights.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/lanternrow/tiktok-organic-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lanternrow-tiktok-organic-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "lanternrow/tiktok-organic-mcp",
-     "author": "io.github.lanternrow",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/lanternrow/tiktok-organic-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "TikTok organic analytics — video performance, engagement metrics, and profile insights.",
-       "name": "io.github.lanternrow/tiktok-organic-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "TikTok OAuth Access Token from Login Kit flow",
-           "name": "TIKTOK_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "TikTok App Client Key (for token refresh)",
-           "name": "TIKTOK_CLIENT_KEY",
-           "required": null,
-           "secret": true
-          },
-          {
-           "description": "TikTok Refresh Token (for token renewal)",
-           "name": "TIKTOK_REFRESH_TOKEN",
-           "required": null,
-           "secret": true
-          }
-         ],
-         "id": "tiktok-organic-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.1.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/lanternrow/tiktok-organic-mcp",
-       "title": null,
-       "version": "1.1.1",
-       "website": null
-      }
-     },
-     "install": "npx -y tiktok-organic-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "TIKTOK_ACCESS_TOKEN",
-       "TIKTOK_CLIENT_KEY",
-       "TIKTOK_REFRESH_TOKEN"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 1,
-      "repo_pushed_at": "2026-06-29",
-      "registry_updated_at": "2026-06-29"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-lanternrow-tiktok-organic-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-jojapi-tiktok-download-video",
-     "title": "com.jojapi/tiktok-download-video",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "TikTok Download Video: TikTok API 🔥 300/month is free The most powerful Tiktok Api available The.",
-     "summary_lang": "en",
-     "source_url": "https://jojapi.com/hub/api/tiktok-download-video",
+     "source_url": "https://ppcmarketingcompany.co.uk",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "com.jojapi",
+     "author": "uk.co.ppcmarketingcompany",
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
       "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.jojapi/tiktok-download-video&version=latest",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.ppcmarketingcompany/site&version=latest",
       "record": {
-       "description": "TikTok Download Video: TikTok API 🔥 300/month is free The most powerful Tiktok Api available The.",
-       "name": "com.jojapi/tiktok-download-video",
+       "description": "PPC marketing company: the site's own MCP server — enquiry (enquiry = a human handoff, not a...",
+       "name": "uk.co.ppcmarketingcompany/site",
        "packages": [],
        "remotes": [
         {
          "headers": [],
          "type": "streamable-http",
-         "url": "https://mcp.jojapi.com/tiktok-download-video"
+         "url": "https://ppcmarketingcompany.co.uk/mcp"
         }
        ],
        "repository": null,
        "title": null,
-       "version": "1.0.0",
-       "website": "https://jojapi.com/hub/api/tiktok-download-video"
+       "version": "1.0.1",
+       "website": "https://ppcmarketingcompany.co.uk"
       }
      },
-     "install": "remote (streamable-http): https://mcp.jojapi.com/tiktok-download-video",
+     "install": "remote (streamable-http): https://ppcmarketingcompany.co.uk/mcp",
      "security": {
       "audited": false,
       "executes_code": false,
@@ -1270,200 +942,59 @@
      "metrics": {
       "repo_stars": null,
       "repo_pushed_at": null,
-      "registry_updated_at": "2026-08-19"
+      "registry_updated_at": "2026-10-03"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-jojapi-tiktok-download-video/",
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-uk-co-ppcmarketingcompany-site/",
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper",
-     "title": "com.mambabuilt/mcp-tiktok-brand-presence-mapper",
+     "id": "mcp-marketing-wall-platform",
+     "title": "Wall Marketing",
      "type": "mcp",
      "industry": "marketing",
      "roles": [
       "paid-ads-specialist"
      ],
-     "summary": "Resolve a TikTok handle or company domain to the brand account with follower counts.",
+     "summary": "Book ads on e-paper screens in venues, or earn commission signing venues up as an ambassador.",
      "summary_lang": "en",
-     "source_url": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper.md",
+     "source_url": "https://github.com/WallMarketing/wall-marketing-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-marketing-wall-platform.md",
      "upstream_raw_url": null,
-     "repo": "mambalabsdev/mcp-tiktok-brand-presence-mapper",
-     "author": "com.mambabuilt",
+     "repo": "WallMarketing/wall-marketing-mcp",
+     "author": "marketing.wall",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper/blob/HEAD/README.md",
+      "url": "https://github.com/WallMarketing/wall-marketing-mcp/blob/HEAD/README.md",
       "record": {
-       "description": "Resolve a TikTok handle or company domain to the brand account with follower counts.",
-       "name": "com.mambabuilt/mcp-tiktok-brand-presence-mapper",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Apify API token from https://console.apify.com/account/integrations",
-           "name": "APIFY_TOKEN",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@mambalabsdev/mcp-tiktok-brand-presence-mapper",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper",
-       "title": null,
-       "version": "1.2.0",
-       "website": null
-      }
-     },
-     "install": "npx -y @mambalabsdev/mcp-tiktok-brand-presence-mapper",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "APIFY_TOKEN"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-20",
-      "registry_updated_at": "2026-10-16"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-deapi-ai-tiktok-transcript-scraper",
-     "title": "io.github.deapi-ai/tiktok-transcript-scraper",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/deapi-ai/tiktok-transcript-mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": "deapi-ai/tiktok-transcript-mcp",
-     "author": "io.github.deapi-ai",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.deapi-ai/tiktok-transcript-scraper&version=latest",
-      "record": {
-       "description": "AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.",
-       "name": "io.github.deapi-ai/tiktok-transcript-scraper",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://mcp.apify.com?tools=deapi/tiktok-transcript-scraper"
-        }
-       ],
-       "repository": "https://github.com/deapi-ai/tiktok-transcript-mcp",
-       "title": null,
-       "version": "0.1.1",
-       "website": "https://apify.com/deapi/tiktok-transcript-scraper"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.apify.com?tools=deapi/tiktok-transcript-scraper",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-08-27",
-      "registry_updated_at": "2026-08-27"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-deapi-ai-tiktok-transcript-scraper/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-mrocker-tiktok-profile-stats",
-     "title": "io.github.mrocker/tiktok-profile-stats",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "TikTok profiles, video stats and transcripts by handle or URL. No login. Pay per result.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/mrocker/social-data-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mrocker-tiktok-profile-stats.md",
-     "upstream_raw_url": null,
-     "repo": "mrocker/social-data-mcp",
-     "author": "io.github.mrocker",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/mrocker/social-data-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "TikTok profiles, video stats and transcripts by handle or URL. No login. Pay per result.",
-       "name": "io.github.mrocker/tiktok-profile-stats",
+       "description": "Book ads on e-paper screens in venues, or earn commission signing venues up as an ambassador.",
+       "name": "marketing.wall/platform",
        "packages": [],
        "remotes": [
         {
          "headers": [],
          "type": "streamable-http",
-         "url": "https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper"
+         "url": "https://www.wall.marketing/mcp"
         }
        ],
-       "repository": "https://github.com/mrocker/social-data-mcp",
-       "title": null,
-       "version": "1.0.1",
-       "website": "https://apify.com/nick.cheng/tiktok-profile-stats-scraper"
+       "repository": "https://github.com/WallMarketing/wall-marketing-mcp",
+       "title": "Wall Marketing",
+       "version": "1.1.1",
+       "website": "https://www.wall.marketing/developers"
       }
      },
-     "install": "remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper",
+     "install": "remote (streamable-http): https://www.wall.marketing/mcp",
      "security": {
       "audited": false,
       "executes_code": false,
@@ -1473,594 +1004,110 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-18",
+      "repo_pushed_at": "2026-10-17",
       "registry_updated_at": "2026-10-17"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-10-21T00:40:03Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-mrocker-tiktok-profile-stats/",
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-marketing-wall-platform/",
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-cc-ssave-tiktok-instagram-downloader",
-     "title": "ssave.cc — TikTok & Instagram Downloader",
-     "type": "mcp",
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag",
+     "title": "ai_email_gtm_outreach_agent",
+     "type": "case",
      "industry": "marketing",
      "roles": [
-      "paid-ads-specialist"
+      "growth-marketer",
+      "email-marketer"
      ],
-     "summary": "Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export",
+     "summary": "An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Marketing), researches website + Reddit insights, and drafts tailored emails in your s",
      "summary_lang": "en",
-     "source_url": "https://github.com/ssavecc/ssave-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md",
-     "upstream_raw_url": null,
-     "repo": "ssavecc/ssave-mcp-server",
-     "author": "cc.ssave",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/ssavecc/ssave-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export",
-       "name": "cc.ssave/tiktok-instagram-downloader",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Your API key for the service",
-           "name": "YOUR_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@ssavecc/mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.1.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/ssavecc/ssave-mcp-server",
-       "title": "ssave.cc — TikTok & Instagram Downloader",
-       "version": "0.1.1",
-       "website": null
-      }
-     },
-     "install": "npx -y @ssavecc/mcp-server",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "YOUR_API_KEY"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-08-31",
-      "registry_updated_at": "2026-08-22"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-cc-ssave-tiktok-instagram-downloader/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-getmcpads-tiktok-ads",
-     "title": "TikTok Ads",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "TikTok Ads MCP server: 35 read tools, 29 opt-in preview-first writes.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-getmcpads-tiktok-ads.md",
-     "upstream_raw_url": null,
-     "repo": "get-mcp-ads/tiktok-ads-mcp-server",
-     "author": "com.getmcpads",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
      "license": "Apache-2.0",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
      "original": {
       "kind": "full",
       "license": "Apache-2.0",
-      "url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "TikTok Ads MCP server: 35 read tools, 29 opt-in preview-first writes.",
-       "name": "com.getmcpads/tiktok-ads",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "TikTok Business API access token.",
-           "name": "TIKTOK_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "App ID the token belongs to.",
-           "name": "TIKTOK_APP_ID",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "App secret, for endpoints needing app authentication.",
-           "name": "TIKTOK_APP_SECRET",
-           "required": null,
-           "secret": true
-          },
-          {
-           "description": "Default advertiser ID.",
-           "name": "TIKTOK_ADVERTISER_ID",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Set to 1 to expose 27 write tools. Default calls preview; confirm:true applies changes.",
-           "name": "TIKTOK_ENABLE_WRITES",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "API environment: production (default) or sandbox. Use credentials issued for that environment.",
-           "name": "TIKTOK_ENVIRONMENT",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "@getmcpads/tiktok-ads-mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.0.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
-       "title": "TikTok Ads",
-       "version": "2.0.1",
-       "website": "https://www.getmcpads.com/tools/tiktok-ads"
-      }
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent"
      },
-     "install": "npx -y @getmcpads/tiktok-ads-mcp-server",
+     "install": null,
      "security": {
       "audited": false,
       "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "TIKTOK_ACCESS_TOKEN",
-       "TIKTOK_APP_ID",
-       "TIKTOK_APP_SECRET",
-       "TIKTOK_ADVERTISER_ID",
-       "TIKTOK_ENABLE_WRITES",
-       "TIKTOK_ENVIRONMENT"
-      ]
+      "needs_credentials": false,
+      "writes_external": false
      },
      "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-09-26",
-      "registry_updated_at": "2026-09-23"
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-getmcpads-tiktok-ads/",
-     "source": "mcp-registry"
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag/",
+     "source": "seed"
     },
     {
-     "id": "mcp-com-insightfulpipe-tiktok-ads",
-     "title": "TikTok Ads MCP by InsightfulPipe",
-     "type": "mcp",
+     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit",
+     "title": "ai_seo_audit_team",
+     "type": "case",
      "industry": "marketing",
      "roles": [
-      "paid-ads-specialist"
+      "seo-specialist"
      ],
-     "summary": "Hosted TikTok Ads MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
+     "summary": "The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimization report. The app uses **Firecrawl via MCP (Model Context Protocol)** for a",
      "summary_lang": "en",
-     "source_url": "https://github.com/Insightful-Pipe/tiktok-ads-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-tiktok-ads.md",
-     "upstream_raw_url": null,
-     "repo": "Insightful-Pipe/tiktok-ads-mcp-server",
-     "author": "com.insightfulpipe",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
+     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team/README.md",
+     "repo": "Shubhamsaboo/awesome-llm-apps",
+     "author": "Shubhamsaboo",
+     "license": "Apache-2.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
      "original": {
       "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Insightful-Pipe/tiktok-ads-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Hosted TikTok Ads MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-       "name": "com.insightfulpipe/tiktok-ads",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://tiktok-ads.insightfulmcp.com/"
-        }
-       ],
-       "repository": "https://github.com/Insightful-Pipe/tiktok-ads-mcp-server",
-       "title": "TikTok Ads MCP by InsightfulPipe",
-       "version": "1.0.0",
-       "website": "https://insightfulpipe.com/mcp-servers/tiktok-ads"
-      }
+      "license": "Apache-2.0",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team"
      },
-     "install": "remote (streamable-http): https://tiktok-ads.insightfulmcp.com/",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-10",
-      "registry_updated_at": "2026-10-21"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-insightfulpipe-tiktok-ads/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-sh-fetcher-tiktok-mcp",
-     "title": "TikTok data for agents",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "13 TikTok endpoints. Pay per call in USDC via x402.",
-     "summary_lang": "en",
-     "source_url": "https://tiktok.fetcher.sh",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "sh.fetcher.tiktok",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=sh.fetcher.tiktok/mcp&version=latest",
-      "record": {
-       "description": "13 TikTok endpoints. Pay per call in USDC via x402.",
-       "name": "sh.fetcher.tiktok/mcp",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://tiktok.fetcher.sh/mcp"
-        }
-       ],
-       "repository": null,
-       "title": "TikTok data for agents",
-       "version": "1.0.0",
-       "website": "https://tiktok.fetcher.sh"
-      }
-     },
-     "install": "remote (streamable-http): https://tiktok.fetcher.sh/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-08-02"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-sh-fetcher-tiktok-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-buer2333-tiktok-gmvmax-mcp",
-     "title": "TikTok GMV Max",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Read-only TikTok Business API: GMV Max campaigns and reports, ads, BC balances.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Buer2333/tiktok-ads-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-gmvmax-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "Buer2333/tiktok-ads-mcp",
-     "author": "io.github.Buer2333",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Buer2333/tiktok-ads-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Read-only TikTok Business API: GMV Max campaigns and reports, ads, BC balances.",
-       "name": "io.github.Buer2333/tiktok-gmvmax-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "TikTok Business API app ID",
-           "name": "TIKTOK_APP_ID",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "TikTok Business API app secret",
-           "name": "TIKTOK_SECRET",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Long-lived Business API access token",
-           "name": "TIKTOK_ACCESS_TOKEN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Optional second token, tried on permission errors",
-           "name": "TIKTOK_ACCESS_TOKEN_2",
-           "required": null,
-           "secret": true
-          }
-         ],
-         "id": "tiktok-gmvmax-mcp",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "0.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/Buer2333/tiktok-ads-mcp",
-       "title": "TikTok GMV Max",
-       "version": "0.2.0",
-       "website": null
-      }
-     },
-     "install": "uvx tiktok-gmvmax-mcp",
+     "install": null,
      "security": {
       "audited": false,
       "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "TIKTOK_APP_ID",
-       "TIKTOK_SECRET",
-       "TIKTOK_ACCESS_TOKEN",
-       "TIKTOK_ACCESS_TOKEN_2"
-      ]
+      "needs_credentials": false,
+      "writes_external": false
      },
      "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-19",
-      "registry_updated_at": "2026-10-19"
+      "repo_stars": 141810,
+      "repo_pushed_at": "2026-10-13"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-buer2333-tiktok-gmvmax-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-insightfulpipe-tiktok-pages",
-     "title": "TikTok Pages MCP by InsightfulPipe",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Hosted TikTok Pages MCP server, with each action switched on or off per account.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Insightful-Pipe/tiktok-pages-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-tiktok-pages.md",
-     "upstream_raw_url": null,
-     "repo": "Insightful-Pipe/tiktok-pages-mcp-server",
-     "author": "com.insightfulpipe",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Insightful-Pipe/tiktok-pages-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Hosted TikTok Pages MCP server, with each action switched on or off per account.",
-       "name": "com.insightfulpipe/tiktok-pages",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://tiktok-pages.insightfulmcp.com/"
-        }
-       ],
-       "repository": "https://github.com/Insightful-Pipe/tiktok-pages-mcp-server",
-       "title": "TikTok Pages MCP by InsightfulPipe",
-       "version": "1.0.0",
-       "website": "https://insightfulpipe.com/mcp-servers/tiktok-pages"
-      }
-     },
-     "install": "remote (streamable-http): https://tiktok-pages.insightfulmcp.com/",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-10",
-      "registry_updated_at": "2026-10-21"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-insightfulpipe-tiktok-pages/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-fernandoguiraud16-coder-tiktok-transcript-scraper",
-     "title": "TikTok Transcript Scraper",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Transcripts of TikTok videos or whole accounts, with views, likes and dates.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/fernandoguiraud16-coder/data-tools",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fernandoguiraud16-coder-tiktok-transcript-scraper.md",
-     "upstream_raw_url": null,
-     "repo": "fernandoguiraud16-coder/data-tools",
-     "author": "io.github.fernandoguiraud16-coder",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/fernandoguiraud16-coder/data-tools/blob/HEAD/README.md",
-      "record": {
-       "description": "Transcripts of TikTok videos or whole accounts, with views, likes and dates.",
-       "name": "io.github.fernandoguiraud16-coder/tiktok-transcript-scraper",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.apify.com/?tools=fguiraud/tiktok-transcript-scraper"
-        }
-       ],
-       "repository": "https://github.com/fernandoguiraud16-coder/data-tools",
-       "title": "TikTok Transcript Scraper",
-       "version": "1.0.0",
-       "website": "https://apify.com/fguiraud/tiktok-transcript-scraper"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.apify.com/?tools=fguiraud/tiktok-transcript-scraper",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-21",
-      "registry_updated_at": "2026-10-06"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-fernandoguiraud16-coder-tiktok-transcript-scraper/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-saulius876-lgtm-tiktok-transcripts",
-     "title": "TikTok Transcripts & Subtitles",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "TikTok videos to text in bulk: transcripts with timestamps, SRT and VTT. Native captions or Whisper.",
-     "summary_lang": "en",
-     "source_url": "https://apify.com/sauliusautomatesit/tiktok-transcript-scraper",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "io.github.saulius876-lgtm",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "link"
-     },
-     "install": "remote (streamable-http): https://mcp.apify.com/?tools=sauliusautomatesit/tiktok-transcript-scraper",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-10-05"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-22T00:43:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-saulius876-lgtm-tiktok-transcripts/",
-     "source": "mcp-registry"
+     "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
+     "source": "seed"
     }
    ]
   },
@@ -2188,7 +1235,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55838,
+      "repo_stars": 55952,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2233,7 +1280,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55838,
+      "repo_stars": 55952,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2278,7 +1325,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2323,7 +1370,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2368,7 +1415,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

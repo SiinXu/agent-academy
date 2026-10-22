@@ -2,45 +2,52 @@
   <img src="./assets/antislop-banner.png" alt="antislop" width="100%" />
 </p>
 
-<p align="center">
-  <a href="https://trendshift.io/repositories/137042?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-137042" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/137042/daily?language=JavaScript" alt="Trendshift Daily Trending" width="250" height="55"/></a>
-  <a href="https://trendshift.io/repositories/137042?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-137042" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/137042/weekly?language=JavaScript" alt="Trendshift Weekly Trending" width="250" height="55"/></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f" alt="License: MIT"></a>
-  <a href="https://github.com/miqdadbadjuber/anti-slop/releases"><img src="https://img.shields.io/github/v/release/miqdadbadjuber/anti-slop?label=version&color=1f6feb" alt="Version"></a>
-  <a href="https://skills.sh/miqdadbadjuber/anti-slop"><img src="https://skills.sh/b/miqdadbadjuber/anti-slop" alt="Skills.sh"></a>
-</p>
+<a href="https://trendshift.io/repositories/137042?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-137042" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/137042/daily?language=JavaScript" alt="Trendshift Daily Trending" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/137042?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-137042" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/137042/weekly?language=JavaScript" alt="Trendshift Weekly Trending" width="250" height="55"/></a>
 
-<h1 align="center">Anti Slop: Rules for AI Coding Agents</h1>
+[![npm version](https://img.shields.io/npm/v/antislop-ai?style=flat-square&color=cb3837&label=npm)](https://www.npmjs.com/package/antislop-ai)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](cli/package.json)
+[![skills.sh](https://skills.sh/b/miqdadbadjuber/anti-slop?style=flat-square)](https://skills.sh/miqdadbadjuber/anti-slop)
+[![MIT license](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](LICENSE)
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/a3vd6S9z5n)
 
-<p align="center">
-  A rulebook that stops an AI coding agent shipping generic UI, filler copy, and AI-shaped code.<br>
-  A <strong>filter, not a style guide</strong>: no prescribed colors, fonts, or layouts, and direction stays yours.
-</p>
+# Anti Slop: Rules for AI Coding Agents
 
-<p align="center">
-  <strong>New here?</strong> <a href="GUIDE.md">GUIDE.md</a> is the from-zero walkthrough.
-</p>
+### A rulebook that stops an AI coding agent shipping generic UI, text, and AI-shaped code.
 
-## See the difference
+**A filter, not a style guide.** No prescribed colors, fonts, or layouts, and direction stays yours.
 
-The same brief, built four ways. antislop filters and `DESIGN.md` supplies direction. They are different jobs, and these are the four results.
+**[Website](https://antislop.ai.id) · [Guide](GUIDE.md) · [Install](https://antislop.ai.id/install)**
+
+[Before and after](#before-and-after) · [Install](#install) · [What it does](#what-it-does) · [Skills](#skills) · [FAQ](#faq)
+
+<code>npx antislop-ai</code>
+
+</div>
+
+---
+
+## Before and after
+
+The same brief, run more than once, so the difference is visible side by side.
 
 ### UI
 
-| **Nothing at all** | **antislop alone** | **`DESIGN.md` alone** |
-|:--|:--|:--|
-| <a href="assets/compare/ui/without.webp"><img src="assets/compare/ui/without.webp" alt="A generic landing page: a sparkle logo, a NEXT-GEN AI 2.0 beta pill above the headline, and a fake terminal reporting 0.0001ms latency" width="100%"></a> | <a href="assets/compare/ui/w-antislop.webp"><img src="assets/compare/ui/w-antislop.webp" alt="The same page with antislop: honest copy on a restrained dark layout with a single accent color" width="100%"></a> | <a href="assets/compare/ui/w-design.webp"><img src="assets/compare/ui/w-design.webp" alt="The same page with `DESIGN.md` only: a photographic hero, with the stat cards still reading 10,000% ROI Synergy Multiplier and a 5.0 rating from 500,000 founders" width="100%"></a> |
-| Where most AI output starts: a sparkle logo, a beta pill, and a fake terminal. | Honest, because the filter removed the invented numbers. Plain, because beauty is not its job. | The direction lands, but the slop stays, because `DESIGN.md` directs and does not filter. |
+antislop alone is not the after. It removes the slop and stops there; direction comes from `DESIGN.md`. The pair below is the result.
 
-The fourth is the only one of the four that is clean and directed at the same time:
+| **Before: without antislop** | **After: antislop + `DESIGN.md`** |
+|:--|:--|
+| <a href="assets/compare/ui/without.webp"><img src="assets/compare/ui/without.webp" alt="The before: a generic landing page with a sparkle logo, a NEXT-GEN AI 2.0 beta pill above the headline, and a fake terminal reporting 0.0001ms latency" width="100%"></a> | <a href="assets/compare/ui/w-all.webp"><img src="assets/compare/ui/w-all.webp" alt="The after: the same page with antislop and DESIGN.md, a full-bleed illustrated hero with one honest headline and project-specific navigation" width="100%"></a> |
+| Where most AI output starts: a sparkle logo, a beta pill, and a fake terminal. | Honest numbers and a real direction in the same build. The filter removes what should not be there; `DESIGN.md` fills the space it leaves. |
 
-| **antislop + `DESIGN.md`** |
-|:--|
-| <a href="assets/compare/ui/w-all.webp"><img src="assets/compare/ui/w-all.webp" alt="The same page with antislop and `DESIGN.md`: a full-bleed illustrated hero with one honest headline and project-specific navigation" width="100%"></a> |
-| Honest numbers and a real direction in the same build. The filter removes what should not be there; `DESIGN.md` fills the space that leaves, which is the one thing neither manages alone. |
+The two partial states are worth seeing, because each one shows why the other half matters:
+
+| **Partial: antislop alone** | **Partial: `DESIGN.md` alone** |
+|:--|:--|
+| <a href="assets/compare/ui/w-antislop.webp"><img src="assets/compare/ui/w-antislop.webp" alt="Partial result: antislop with no design direction, a plain dark layout with the invented numbers removed" width="100%"></a> | <a href="assets/compare/ui/w-design.webp"><img src="assets/compare/ui/w-design.webp" alt="Partial result: DESIGN.md with no filter, a photographic hero with stat cards still reading 10,000% ROI Synergy Multiplier" width="100%"></a> |
+| Slop removed, direction missing. Honest and plain, which is the most antislop alone can do. | Direction added, slop still there. The layout lands, and the invented numbers and the fake rating survive. |
 
 ### Copy
 
@@ -235,6 +242,12 @@ It clears the slop from your UI, text, and code.<br>
 A beautiful UI is <code>DESIGN.md</code>'s job, and yours.”</em></p>
 
 <hr>
+
+## Disclaimer
+
+Get antislop from [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop), [antislop.ai.id](https://antislop.ai.id), or the [antislop-ai npm package](https://www.npmjs.com/package/antislop-ai). The npm name `antislop` belongs to a different package, so `npx antislop` does not install this project.
+
+There is no antislop coin, token, or fundraise. Any crypto coin, token, NFT, or fundraising that uses the antislop name was not created by this project and is a scam. antislop takes no donations, and nobody is authorized to collect money on its behalf.
 
 ## License
 

@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-22
-updated_at: 2026-10-22T00:43:10Z
+updated_at: 2026-10-22T15:17:20Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -261,17 +261,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: Apache-2.0
   install: npx -y seo
   needs_credentials: true, writes_external: false
-- [mcp] HasData TikTok. Public TikTok profiles, videos, comments and keyword search as JSON. No developer account.
-  source: https://github.com/HasData/tiktok-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-tiktok.md
+- [mcp] SEO Trends MCP. Spot keyword demand rising or fading. Trend volume and growth signals. Free key at trendsmcp.ai
+  source: https://github.com/trendsmcp-ai/Trends-MCP
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-seo.md
   license: MIT
-  install: npx -y @hasdata/tiktok-mcp
+  install: remote (streamable-http): https://seo.api.trendsmcp.ai/mcp
   needs_credentials: true, writes_external: false
-- [mcp] com.superagnt/tiktok-data. TikTok data for AI agents: videos, creators, sounds, hashtags, trends. Content + creator research.
+- [mcp] com.superagnt/seo-data. SEO data for AI agents: Google SERP, keyword research, backlinks, site audits, AI answer visibility.
   source: https://github.com/superagnt/plugins
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-seo-data.md
   license: MIT
-  install: remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok
+  install: remote (streamable-http): https://mcp.superagnt.com/mcp/seo
   needs_credentials: true, writes_external: false
 - [mcp] io.github.AutomateLab-tech/ai-seo. MCP server for AI-SEO auditing: schema, robots.txt, llms.txt, citation scoring, and AEO/GEO rewrites
   source: https://github.com/AutomateLab-tech/ai-seo-mcp

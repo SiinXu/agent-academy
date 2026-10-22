@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-10-22T00:43:10Z",
+ "updated_at": "2026-10-22T15:17:20Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -396,7 +396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55838,
+      "repo_stars": 55952,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -441,7 +441,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55838,
+      "repo_stars": 55952,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -486,7 +486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -531,7 +531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -576,7 +576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -751,32 +751,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md",
-      "record": {
-       "description": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
-       "name": "io.github.PostHog/mcp",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://mcp.posthog.com/mcp"
-        },
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "sse",
-         "url": "https://mcp.posthog.com/sse"
-        }
-       ],
-       "repository": "https://github.com/PostHog/posthog",
-       "title": "PostHog MCP Server",
-       "version": "1.0.1",
-       "website": null
-      }
+      "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md"
      },
      "install": "remote (streamable-http): https://mcp.posthog.com/mcp",
      "security": {
@@ -790,7 +765,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 40379,
+      "repo_stars": 40383,
       "repo_pushed_at": "2026-10-22",
       "registry_updated_at": "2026-01-07"
      },
@@ -1035,25 +1010,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/friendlygeorge/posthog-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
-       "name": "io.github.friendlygeorge/posthog-mcp-server",
-       "packages": [
-        {
-         "env": [],
-         "id": "posthog-mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.0.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/friendlygeorge/posthog-mcp-server",
-       "title": null,
-       "version": "1.0.0",
-       "website": null
-      }
+      "url": "https://github.com/friendlygeorge/posthog-mcp-server/blob/HEAD/README.md"
      },
      "install": "npx -y posthog-mcp-server",
      "security": {
@@ -1128,7 +1085,7 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-21",
+      "repo_pushed_at": "2026-10-22",
       "registry_updated_at": "2026-10-21"
      },
      "course_step": "4-do-it",
@@ -1331,7 +1288,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55838,
+      "repo_stars": 55952,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1376,7 +1333,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55838,
+      "repo_stars": 55952,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1421,7 +1378,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1466,7 +1423,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1511,7 +1468,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-22T00:43:10Z",
+ "updated_at": "2026-10-22T15:17:20Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1363,7 +1363,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1683,8 +1683,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142532,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 142655,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1728,7 +1728,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30203,
+      "repo_stars": 30226,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -1895,16 +1895,16 @@
            "secret": null
           }
          ],
-         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.2/hubspot-mcp.mcpb",
+         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.3/hubspot-mcp.mcpb",
          "transport": "stdio",
          "type": "mcpb",
-         "version": "0.2.2"
+         "version": "0.2.3"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/servosity/msp-skills",
        "title": "HubSpot MCP",
-       "version": "0.2.2",
+       "version": "0.2.3",
        "website": null
       }
      },
@@ -1926,12 +1926,12 @@
      "metrics": {
       "repo_stars": 62,
       "repo_pushed_at": "2026-10-22",
-      "registry_updated_at": "2026-10-16"
+      "registry_updated_at": "2026-10-22"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-22T15:17:20Z",
      "checked_at": "2026-10-22T00:43:10Z",
      "http_status": {
       "source": 200
@@ -2180,7 +2180,7 @@
      },
      "metrics": {
       "repo_stars": 14,
-      "repo_pushed_at": "2026-10-21",
+      "repo_pushed_at": "2026-10-22",
       "registry_updated_at": "2026-10-21"
      },
      "course_step": "4-do-it",
@@ -2268,7 +2268,7 @@
      },
      "metrics": {
       "repo_stars": 13,
-      "repo_pushed_at": "2026-10-21",
+      "repo_pushed_at": "2026-10-22",
       "registry_updated_at": "2026-08-09"
      },
      "course_step": "4-do-it",
@@ -2303,54 +2303,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/HasData/shopify-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "The public product catalogue and collections of any Shopify storefront, as structured JSON.",
-       "name": "com.hasdata/shopify",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
-           "name": "HASDATA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@hasdata/shopify-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.0.3"
-        },
-        {
-         "env": [
-          {
-           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
-           "name": "HASDATA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "hasdata-shopify-mcp",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "1.0.3"
-        }
-       ],
-       "remotes": [
-        {
-         "headers": [
-          "x-api-key"
-         ],
-         "type": "streamable-http",
-         "url": "https://mcp.hasdata.com/mcp?apis=shopify"
-        }
-       ],
-       "repository": "https://github.com/HasData/shopify-mcp",
-       "title": "HasData Shopify",
-       "version": "1.0.3",
-       "website": "https://hasdata.com/apis/shopify-api"
-      }
+      "url": "https://github.com/HasData/shopify-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y @hasdata/shopify-mcp",
      "security": {
@@ -2365,7 +2318,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 8,
+      "repo_stars": 7,
       "repo_pushed_at": "2026-10-12",
       "registry_updated_at": "2026-09-24"
      },
@@ -2466,25 +2419,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md",
-      "record": {
-       "description": "Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.",
-       "name": "io.github.alex-brecher/shopify-multi-store",
-       "packages": [
-        {
-         "env": [],
-         "id": "shopify-multi-store-mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.0.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/alex-brecher/shopify-multi-store",
-       "title": null,
-       "version": "2.0.2",
-       "website": null
-      }
+      "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md"
      },
      "install": "npx -y shopify-multi-store-mcp-server",
      "security": {

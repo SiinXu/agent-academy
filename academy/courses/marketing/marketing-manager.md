@@ -2,7 +2,7 @@
 name: marketing-marketing-manager
 description: Agent Academy course for Marketing manager (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-22
-updated_at: 2026-10-22T00:43:10Z
+updated_at: 2026-10-22T15:17:20Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-manager/
 ---
 

@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-22T00:43:10Z",
+ "updated_at": "2026-10-22T15:17:20Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,8 +876,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31178,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 31379,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182770,
+      "repo_stars": 182950,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182770,
+      "repo_stars": 182950,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,7 +2007,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138493,
+      "repo_stars": 138843,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48426,
+      "repo_stars": 48624,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2772,8 +2772,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142532,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 142655,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2845,7 +2845,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16036,
+      "repo_stars": 16047,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-06-18"
      },
@@ -2909,7 +2909,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2097,
+      "repo_stars": 2101,
       "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2025-10-16"
      },
@@ -3039,7 +3039,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 174,
+      "repo_stars": 175,
       "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2026-10-20"
      },
@@ -3075,23 +3075,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/webflow/mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "AI-powered design and management for Webflow Sites",
-       "name": "com.webflow/mcp",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.webflow.com/mcp"
-        }
-       ],
-       "repository": "https://github.com/webflow/mcp-server",
-       "title": null,
-       "version": "2.0.0",
-       "website": null
-      }
+      "url": "https://github.com/webflow/mcp-server/blob/HEAD/README.md"
      },
      "install": "remote (streamable-http): https://mcp.webflow.com/mcp",
      "security": {
@@ -3600,7 +3584,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 3,
+      "repo_stars": 4,
       "repo_pushed_at": "2026-02-08",
       "registry_updated_at": "2026-02-08"
      },
@@ -3775,32 +3759,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR/blob/HEAD/README.md",
-      "record": {
-       "description": "Figma MCP server for AI agents. 9 tools: design context, variables, screenshots, and FigJam.",
-       "name": "io.github.compassalessandrolorenz/Figma-Context-MCP-AIR",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
-           "name": "FIGMA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "figma-context-mcp-air",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.0.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR",
-       "title": null,
-       "version": "2.0.2",
-       "website": null
-      }
+      "url": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR/blob/HEAD/README.md"
      },
      "install": "npx -y figma-context-mcp-air",
      "security": {
@@ -4349,7 +4308,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138493,
+      "repo_stars": 138843,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -4394,7 +4353,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138493,
+      "repo_stars": 138843,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -4439,7 +4398,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48426,
+      "repo_stars": 48624,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4484,7 +4443,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4529,7 +4488,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4574,7 +4533,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4619,7 +4578,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41477,
+      "repo_stars": 41544,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4664,8 +4623,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31178,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 31379,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4709,8 +4668,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31178,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 31379,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4754,8 +4713,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31178,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 31379,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4799,7 +4758,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25934,
+      "repo_stars": 25946,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
