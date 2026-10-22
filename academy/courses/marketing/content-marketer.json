@@ -2,7 +2,7 @@
  "id": "marketing/content-marketer",
  "industry": "marketing",
  "role": "content-marketer",
- "updated_at": "2026-10-21T15:15:15Z",
+ "updated_at": "2026-10-22T00:43:10Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1170,7 +1170,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182672,
+      "repo_stars": 182770,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1215,7 +1215,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1260,7 +1260,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1305,7 +1305,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1350,7 +1350,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1395,7 +1395,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1440,7 +1440,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1485,7 +1485,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1530,7 +1530,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1575,7 +1575,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1620,7 +1620,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1665,7 +1665,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31069,
+      "repo_stars": 31178,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -1710,7 +1710,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31069,
+      "repo_stars": 31178,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -1755,7 +1755,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31069,
+      "repo_stars": 31178,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -2045,6 +2045,136 @@
    "step": "4-do-it",
    "read": [
     {
+     "id": "mcp-io-github-alphaparkinc-genpark-audio-packet-jitter-resilience-buffer-skill",
+     "title": "GenPark Audio Packet Jitter Resilience Buffer",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry",
+     "summary_lang": "en",
+     "source_url": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alphaparkinc-genpark-audio-packet-jitter-resilience-buffer-skill.md",
+     "upstream_raw_url": null,
+     "repo": "alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
+     "author": "io.github.alphaparkinc",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md",
+      "record": {
+       "description": "Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry",
+       "name": "io.github.alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
+       "packages": [
+        {
+         "env": [],
+         "id": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/releases/download/v1.0.1/genpark-jitter-buffer.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": null
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
+       "title": "GenPark Audio Packet Jitter Resilience Buffer",
+       "version": "1.0.1",
+       "website": "https://genpark.ai/mcp"
+      }
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 7,
+      "repo_pushed_at": "2026-09-27",
+      "registry_updated_at": "2026-10-19"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-22T00:43:10Z",
+     "checked_at": "2026-10-22T00:43:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-alphaparkinc-genpark-audio-packet-jitter-resilience-buffer-skill/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-alpha-park-genpark-jitter-buffer",
+     "title": "genpark-jitter-buffer",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Packet ordering simulation and inter-arrival jitter telemetry.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md",
+     "upstream_raw_url": null,
+     "repo": "Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill",
+     "author": "io.github.Alpha-Park",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md",
+      "record": {
+       "description": "Packet ordering simulation and inter-arrival jitter telemetry.",
+       "name": "io.github.Alpha-Park/genpark-jitter-buffer",
+       "packages": [
+        {
+         "env": [],
+         "id": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/releases/download/v1.0.1/genpark-jitter-buffer.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": null
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill",
+       "title": "genpark-jitter-buffer",
+       "version": "1.0.1",
+       "website": null
+      }
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 7,
+      "repo_pushed_at": "2026-09-28",
+      "registry_updated_at": "2026-09-27"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-22T00:43:10Z",
+     "checked_at": "2026-10-22T00:43:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-alpha-park-genpark-jitter-buffer/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-com-monetizemarketing-app",
      "title": "Monetize Marketing",
      "type": "mcp",
@@ -2236,6 +2366,69 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-sadri-dridi-agent-marketing-index/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-one-aisa-similarweb",
+     "title": "AIsa Similarweb",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Traffic and engagement for any domain: rank, channels, referrers, audience, rivals.",
+     "summary_lang": "en",
+     "source_url": "https://aisa.one",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "one.aisa",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=one.aisa/similarweb&version=latest",
+      "record": {
+       "description": "Traffic and engagement for any domain: rank, channels, referrers, audience, rivals.",
+       "name": "one.aisa/similarweb",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.aisa.one/similarweb/mcp"
+        }
+       ],
+       "repository": null,
+       "title": "AIsa Similarweb",
+       "version": "1.0.1",
+       "website": "https://aisa.one"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.aisa.one/similarweb/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-09-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-22T00:43:10Z",
+     "checked_at": "2026-10-22T00:43:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-one-aisa-similarweb/",
      "source": "mcp-registry"
     },
     {
@@ -2637,6 +2830,69 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-pipeworx-io-mixpanel",
+     "title": "Mixpanel",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pipeworx-io/mcp-mixpanel",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md",
+     "upstream_raw_url": null,
+     "repo": "pipeworx-io/mcp-mixpanel",
+     "author": "io.github.pipeworx-io",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/pipeworx-io/mcp-mixpanel/blob/HEAD/README.md",
+      "record": {
+       "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+       "name": "io.github.pipeworx-io/mixpanel",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://gateway.pipeworx.io/mixpanel/mcp"
+        }
+       ],
+       "repository": "https://github.com/pipeworx-io/mcp-mixpanel",
+       "title": "Mixpanel",
+       "version": "0.1.2",
+       "website": "https://pipeworx.io/packs/mixpanel"
+      }
+     },
+     "install": "remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-26",
+      "registry_updated_at": "2026-09-26"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-22T00:43:10Z",
+     "checked_at": "2026-10-22T00:43:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-mixpanel/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-pipeworx-io-sendgrid",
      "title": "Sendgrid",
      "type": "mcp",
@@ -2836,7 +3092,23 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/buildmodus/open-service-profile/blob/HEAD/README.md"
+      "url": "https://github.com/buildmodus/open-service-profile/blob/HEAD/README.md",
+      "record": {
+       "description": "Read-only audit of any local service business, Open Service Profile conformance first.",
+       "name": "com.theservicemarketingguys/audit",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://www.theservicemarketingguys.com/api/audit-mcp"
+        }
+       ],
+       "repository": "https://github.com/buildmodus/open-service-profile",
+       "title": "The Service Marketing Guys Audit",
+       "version": "0.1.0",
+       "website": "https://www.theservicemarketingguys.com/standards/open-service-profile/v0.1"
+      }
      },
      "install": "remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp",
      "security": {
@@ -2860,69 +3132,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-theservicemarketingguys-audit/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-uk-co-digitalmarketingagencyswindon-site",
-     "title": "uk.co.digitalmarketingagencyswindon/site",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "content-marketer"
-     ],
-     "summary": "Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...",
-     "summary_lang": "en",
-     "source_url": "https://digitalmarketingagencyswindon.co.uk",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "uk.co.digitalmarketingagencyswindon",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.digitalmarketingagencyswindon/site&version=latest",
-      "record": {
-       "description": "Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...",
-       "name": "uk.co.digitalmarketingagencyswindon/site",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://digitalmarketingagencyswindon.co.uk/mcp"
-        }
-       ],
-       "repository": null,
-       "title": null,
-       "version": "1.0.1",
-       "website": "https://digitalmarketingagencyswindon.co.uk"
-      }
-     },
-     "install": "remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-10-03"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-21T00:40:03Z",
-     "updated_at": "2026-10-21T00:40:03Z",
-     "checked_at": "2026-10-21T00:40:03Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-uk-co-digitalmarketingagencyswindon-site/",
      "source": "mcp-registry"
     }
    ]
@@ -3051,7 +3260,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3096,7 +3305,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55775,
+      "repo_stars": 55838,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3141,7 +3350,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3186,7 +3395,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3231,7 +3440,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

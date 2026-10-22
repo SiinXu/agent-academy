@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-21T15:15:15Z",
+ "updated_at": "2026-10-22T00:43:10Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31069,
+      "repo_stars": 31178,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "4-do-it",
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182672,
+      "repo_stars": 182770,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182672,
+      "repo_stars": 182770,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,8 +2007,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138315,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 138493,
+      "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48269,
+      "repo_stars": 48426,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2772,8 +2772,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142500,
-      "repo_pushed_at": "2026-10-18"
+      "repo_stars": 142532,
+      "repo_pushed_at": "2026-10-21"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2845,7 +2845,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16033,
+      "repo_stars": 16036,
       "repo_pushed_at": "2026-10-16",
       "registry_updated_at": "2026-06-18"
      },
@@ -2909,7 +2909,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2096,
+      "repo_stars": 2097,
       "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2025-10-16"
      },
@@ -3010,7 +3010,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/keyline-icons/keyline-icons/blob/HEAD/README.md"
+      "url": "https://github.com/keyline-icons/keyline-icons/blob/HEAD/README.md",
+      "record": {
+       "description": "Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.",
+       "name": "com.keylineicons/mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "@keyline-icons/mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/keyline-icons/keyline-icons",
+       "title": "Keyline Icons",
+       "version": "2.1.0",
+       "website": "https://keylineicons.com"
+      }
      },
      "install": "npx -y @keyline-icons/mcp",
      "security": {
@@ -3084,7 +3102,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 141,
+      "repo_stars": 140,
       "repo_pushed_at": "2026-10-06",
       "registry_updated_at": "2025-10-27"
      },
@@ -3174,7 +3192,7 @@
      },
      "metrics": {
       "repo_stars": 26,
-      "repo_pushed_at": "2026-10-20",
+      "repo_pushed_at": "2026-10-21",
       "registry_updated_at": "2026-10-20"
      },
      "course_step": "4-do-it",
@@ -3274,7 +3292,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/planetabhi/figma-mcp-server/blob/HEAD/README.md"
+      "url": "https://github.com/planetabhi/figma-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "A local MCP server with full Figma REST API coverage.",
+       "name": "io.github.planetabhi/figma-mcp-server",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Figma personal access token",
+           "name": "FIGMA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "figma-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "3.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/planetabhi/figma-mcp-server",
+       "title": "Figma MCP Server",
+       "version": "3.1.1",
+       "website": null
+      }
      },
      "install": "npx -y figma-mcp-server",
      "security": {
@@ -3323,7 +3366,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/dannykeane/figmanage/blob/HEAD/README.md"
+      "url": "https://github.com/dannykeane/figmanage/blob/HEAD/README.md",
+      "record": {
+       "description": "Let agents manage your Figma workspace. 102 tools for seats, teams, offboarding, and cleanup.",
+       "name": "io.github.dannykeane/figmanage",
+       "packages": [
+        {
+         "env": [],
+         "id": "figmanage",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.5.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/dannykeane/figmanage",
+       "title": "figmanage",
+       "version": "1.5.2",
+       "website": null
+      }
      },
      "install": "npx -y figmanage",
      "security": {
@@ -3575,7 +3636,32 @@
      "original": {
       "kind": "full",
       "license": "ISC",
-      "url": "https://github.com/oabolade/figma_mcp_server_actor/blob/HEAD/README.md"
+      "url": "https://github.com/oabolade/figma_mcp_server_actor/blob/HEAD/README.md",
+      "record": {
+       "description": "MCP server enabling AI assistants to interact with Figma designs via natural language commands",
+       "name": "io.github.oabolade/figma_mcp_server_actor",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Figma Personal Access Token for API authentication. Get yours at https://www.figma.com/developers/api#access-tokens",
+           "name": "FIGMA_ACCESS_TOKEN",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@oabolade-pegasus/figma-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/oabolade/figma_mcp_server_actor",
+       "title": "Figma MCP Server",
+       "version": "2.1.0",
+       "website": null
+      }
      },
      "install": "npx -y @oabolade-pegasus/figma-mcp-server",
      "security": {
@@ -3689,7 +3775,32 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR/blob/HEAD/README.md"
+      "url": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma MCP server for AI agents. 9 tools: design context, variables, screenshots, and FigJam.",
+       "name": "io.github.compassalessandrolorenz/Figma-Context-MCP-AIR",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
+           "name": "FIGMA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "figma-context-mcp-air",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.0.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR",
+       "title": null,
+       "version": "2.0.2",
+       "website": null
+      }
      },
      "install": "npx -y figma-context-mcp-air",
      "security": {
@@ -3984,7 +4095,25 @@
      "original": {
       "kind": "full",
       "license": "CC0-1.0",
-      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md"
+      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md",
+      "record": {
+       "description": "Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages",
+       "name": "io.github.joalavedra/andorra-fonts-publiques",
+       "packages": [
+        {
+         "env": [],
+         "id": "fonts-andorra",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/joalavedra/andorra-fonts-publiques",
+       "title": "Andorra public sources",
+       "version": "0.2.0",
+       "website": null
+      }
      },
      "install": "uvx fonts-andorra",
      "security": {
@@ -4220,8 +4349,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138315,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 138493,
+      "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4265,8 +4394,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138315,
-      "repo_pushed_at": "2026-10-15"
+      "repo_stars": 138493,
+      "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4310,7 +4439,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48269,
+      "repo_stars": 48426,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4355,7 +4484,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4400,7 +4529,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4445,7 +4574,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4490,7 +4619,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41426,
+      "repo_stars": 41477,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4535,7 +4664,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31069,
+      "repo_stars": 31178,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -4580,7 +4709,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31069,
+      "repo_stars": 31178,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -4625,7 +4754,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31069,
+      "repo_stars": 31178,
       "repo_pushed_at": "2026-10-21"
      },
      "course_step": "3-learn-rules",
@@ -4670,7 +4799,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25927,
+      "repo_stars": 25934,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-21
-updated_at: 2026-10-21T15:15:15Z
+version: 2026-10-22
+updated_at: 2026-10-22T00:43:10Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 
@@ -126,6 +126,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-matjmat-eulerian-marketing-platform-mcp.md
   license: MIT
   install: uvx eulerian-marketing-platform
+  needs_credentials: true, writes_external: false
+- [mcp] com.jojapi/similarweb. Similarweb: Similarweb API allows you to access powerful insights into web analytics and online.
+  source: https://jojapi.com/hub/api/similarweb
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.jojapi.com/similarweb
   needs_credentials: true, writes_external: false
 - [mcp] io.github.CSOAI-ORG/marketing-analytics-ai-mcp. Marketing Analytics Ai MCP Server by MEOK AI Labs
   source: https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp
