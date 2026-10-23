@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-23
-updated_at: 2026-10-23T00:43:09Z
+updated_at: 2026-10-23T15:04:39Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -141,9 +141,13 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-senior-crypto-yapper-community-strategist.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Social Media Manager. I want my AI to be a professional social media manager where we post all kind of military and combat footage stuff
+  source: https://prompts.chat/prompts/cmvkpwsvt0007jn07x06r5qq5_social-media-manager
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-social-media-manager.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] Social Media Manager. I want you to act as a social media manager. You will be responsible for developing and executing campaigns across all relevant platforms, engage with the audience by responding to questions and comments, monitor convers
   source: https://prompts.chat/prompts/cmj1zb1gf00a0vl0rg9bwbmfh_social-media-manager
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-social-media-manager.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Social Media Post Analyzer. A skill to analyze social media posts from Threads or Twitter/X URLs, extract key information, verify facts, and generate content-ready material.

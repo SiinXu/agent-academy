@@ -181,7 +181,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Deputy](servers/deputy/) | productivity | 25 | API token | [servers/deputy/](servers/deputy/) |
 | [Deskpro](servers/deskpro/) | support | 24 | API token | [servers/deskpro/](servers/deskpro/) |
 | [Elvanto](servers/elvanto/) | membership | 27 | API token | [servers/elvanto/](servers/elvanto/) |
-| [Follow Up Boss](servers/follow-up-boss/) | crm | 27 | API token | [servers/follow-up-boss/](servers/follow-up-boss/) |
+| [Follow Up Boss](servers/follow-up-boss/) | crm | 29 | API token | [servers/follow-up-boss/](servers/follow-up-boss/) |
 | [Formstack](servers/formstack/) | productivity | 24 | API token | [servers/formstack/](servers/formstack/) |
 | [TeamUp](servers/goteamup/) | membership | 24 | API token | [servers/goteamup/](servers/goteamup/) |
 | [HappyFox](servers/happyfox/) | support | 27 | API token | [servers/happyfox/](servers/happyfox/) |
@@ -213,11 +213,12 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Unleashed Software](servers/unleashed-software/) | ecommerce | 24 | API token | [servers/unleashed-software/](servers/unleashed-software/) |
 | [UpCloud](servers/upcloud/) | cloud | 26 | API token | [servers/upcloud/](servers/upcloud/) |
 | [updown.io](servers/updown-io/) | observability | 18 | API token | [servers/updown-io/](servers/updown-io/) |
-| [Virtuous](servers/virtuous-crm/) | fundraising | 24 | API token | [servers/virtuous-crm/](servers/virtuous-crm/) |
+| [Virtuous](servers/virtuous-crm/) | fundraising | 25 | API token | [servers/virtuous-crm/](servers/virtuous-crm/) |
 | [When I Work](servers/when-i-work/) | productivity | 25 | API token | [servers/when-i-work/](servers/when-i-work/) |
 | [Wild Apricot](servers/wild-apricot/) | membership | 25 | API token | [servers/wild-apricot/](servers/wild-apricot/) |
 | [Wufoo](servers/wufoo/) | productivity | 22 | API token | [servers/wufoo/](servers/wufoo/) |
 | [Lightspeed Retail (R-Series)](servers/lightspeed-r-series/) | ecommerce | 21 | OAuth | [servers/lightspeed-r-series/](servers/lightspeed-r-series/) |
+| [Lightspeed Retail (X-Series)](servers/lightspeed-x-series/) | ecommerce | 34 | OAuth | [servers/lightspeed-x-series/](servers/lightspeed-x-series/) |
 | [FreeAgent](servers/freeagent/) | billing | 24 | OAuth | [servers/freeagent/](servers/freeagent/) |
 | [Airbrake](servers/airbrake/) | observability | 17 | API token | [servers/airbrake/](servers/airbrake/) |
 | [ChurchSuite](servers/churchsuite/) | crm | 29 | API token | [servers/churchsuite/](servers/churchsuite/) |
@@ -350,6 +351,12 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Linnworks](servers/linnworks/) | ecommerce | 21 | API token | [servers/linnworks/](servers/linnworks/) |
 | [Employment Hero Payroll](servers/keypay/) | productivity | 30 | API token | [servers/keypay/](servers/keypay/) |
 | [Cratejoy](servers/cratejoy/) | ecommerce | 22 | API token | [servers/cratejoy/](servers/cratejoy/) |
+| [IDX Broker](servers/idx-broker/) | real-estate | 31 | API token | [servers/idx-broker/](servers/idx-broker/) |
+| [Gooten](servers/gooten/) | ecommerce | 21 | API token | [servers/gooten/](servers/gooten/) |
+| [Service Fusion](servers/service-fusion/) | productivity | 30 | API token | [servers/service-fusion/](servers/service-fusion/) |
+| [Brightpearl](servers/brightpearl/) | ecommerce | 29 | API token | [servers/brightpearl/](servers/brightpearl/) |
+| [CharlieHR](servers/charliehr/) | productivity | 31 | API token | [servers/charliehr/](servers/charliehr/) |
+| [FieldPulse](servers/fieldpulse/) | productivity | 47 | API token | [servers/fieldpulse/](servers/fieldpulse/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-23T00:43:09Z",
+ "updated_at": "2026-10-23T15:04:39Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,8 +876,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31592,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 32014,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183038,
+      "repo_stars": 183207,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183038,
+      "repo_stars": 183207,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,8 +2007,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139019,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 139294,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2772,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142731,
+      "repo_stars": 142793,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2807,32 +2807,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/GLips/Figma-Context-MCP/blob/HEAD/README.md",
-      "record": {
-       "description": "Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.",
-       "name": "io.github.GLips/Figma-Context-MCP",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
-           "name": "FIGMA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "figma-developer-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.13.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/GLips/Figma-Context-MCP",
-       "title": null,
-       "version": "0.13.2",
-       "website": null
-      }
+      "url": "https://github.com/GLips/Figma-Context-MCP/blob/HEAD/README.md"
      },
      "install": "npx -y figma-developer-mcp",
      "security": {
@@ -3139,44 +3114,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
-       "name": "io.github.zachshallbetter/adobe-mcp-aftereffects",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "macOS only: address a specific copy, e.g. \"Adobe After Effects 2025\". Default: After Effects by bundle id",
-           "name": "AFTEREFFECTS_APP_NAME",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
-           "name": "AFTEREFFECTS_ALLOWED_DIRS",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "How long to wait for After Effects before reporting that a dialog may be open. Default 120000",
-           "name": "AFTEREFFECTS_SCRIPT_TIMEOUT_MS",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "adobe-mcp-aftereffects",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.1.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/zachshallbetter/adobe-mcp",
-       "title": "After Effects MCP Server",
-       "version": "0.1.0",
-       "website": null
-      }
+      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y adobe-mcp-aftereffects",
      "security": {
@@ -3506,25 +3444,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/cmd8/excalidraw-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Model Context Protocol server for Excalidraw diagrams.",
-       "name": "io.github.cmd8/excalidraw-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "@cmd8/excalidraw-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/cmd8/excalidraw-mcp",
-       "title": null,
-       "version": "1.2.0",
-       "website": null
-      }
+      "url": "https://github.com/cmd8/excalidraw-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y @cmd8/excalidraw-mcp",
      "security": {
@@ -3775,32 +3695,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR/blob/HEAD/README.md",
-      "record": {
-       "description": "Figma MCP server for AI agents. 9 tools: design context, variables, screenshots, and FigJam.",
-       "name": "io.github.compassalessandrolorenz/Figma-Context-MCP-AIR",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
-           "name": "FIGMA_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "figma-context-mcp-air",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "2.0.2"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR",
-       "title": null,
-       "version": "2.0.2",
-       "website": null
-      }
+      "url": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR/blob/HEAD/README.md"
      },
      "install": "npx -y figma-context-mcp-air",
      "security": {
@@ -4095,25 +3990,7 @@
      "original": {
       "kind": "full",
       "license": "CC0-1.0",
-      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md",
-      "record": {
-       "description": "Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages",
-       "name": "io.github.joalavedra/andorra-fonts-publiques",
-       "packages": [
-        {
-         "env": [],
-         "id": "fonts-andorra",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "0.2.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/joalavedra/andorra-fonts-publiques",
-       "title": "Andorra public sources",
-       "version": "0.2.0",
-       "website": null
-      }
+      "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md"
      },
      "install": "uvx fonts-andorra",
      "security": {
@@ -4349,8 +4226,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139019,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 139294,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4394,8 +4271,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139019,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 139294,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4439,7 +4316,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4484,7 +4361,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4529,7 +4406,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4574,7 +4451,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4619,7 +4496,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -4664,8 +4541,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31592,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 32014,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4709,8 +4586,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31592,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 32014,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4754,8 +4631,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31592,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 32014,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4799,7 +4676,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25953,
+      "repo_stars": 25969,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

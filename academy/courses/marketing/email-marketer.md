@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-23
-updated_at: 2026-10-23T00:43:09Z
+updated_at: 2026-10-23T15:04:39Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -77,6 +77,11 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/newsletter-desk-inbox-worthy-j0cu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/j0cuucheuazacyokxtsvh
+  needs_credentials: false, writes_external: false
+- [template] Sponsor Hunter. Helps creators find flat-fee sponsors for a newsletter or X account: media kit from real stats, brands that fit, short fixed-price pitches and one follow-up.
+  source: https://botsdots.site/templates/sponsor-hunter
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

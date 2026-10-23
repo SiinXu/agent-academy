@@ -2,7 +2,7 @@
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-23
-updated_at: 2026-10-23T00:43:09Z
+updated_at: 2026-10-23T15:04:39Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-engineer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1476 items
+- minimal: 1492 items
 - motion: 645 items
-- 3d: 620 items
-- editorial: 589 items
-- playful: 540 items
+- 3d: 621 items
+- editorial: 591 items
+- playful: 542 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 107 items

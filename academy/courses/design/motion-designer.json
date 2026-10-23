@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-23T00:43:09Z",
+ "updated_at": "2026-10-23T15:04:39Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -279,6 +279,71 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-figma-bro-pxnv/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-art-bot",
+     "title": "Art Bot",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Artist and creative director that turns your brands into style guides, on-brand images, animations, video edits with music, decks and design critiques.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/art-bot",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "MikeysMolecules",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/art-bot",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/uMHJk_yjZLpxC0GQfT4aK",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates"
+       ],
+       "category": "content-publishing",
+       "creator": "MikeysMolecules",
+       "firstSeen": "2026-10-23",
+       "integrations": [],
+       "name": "Art Bot",
+       "official": false,
+       "page": "https://botsdots.site/templates/art-bot",
+       "risk": "low",
+       "summary": "Artist and creative director that turns your brands into style guides, on-brand images, animations, video edits with music, decks and design critiques."
+      }
+     },
+     "install": "https://x.ai/bot/uMHJk_yjZLpxC0GQfT4aK",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 5,
+      "first_seen_catalog": "2026-10-23"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-23T15:04:39Z",
+     "updated_at": "2026-10-23T15:04:39Z",
+     "checked_at": "2026-10-23T15:04:39Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-art-bot/",
      "source": "botsdots"
     },
     {
@@ -1200,52 +1265,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-5ebgf49-3d-sphere-phase-demos/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-uuhoew2-404-chicken-flock-animation",
-     "title": "404 Chicken Flock Animation",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "A playful motion piece spelling out 404 using a flock of animated chickens that shuffle and move to maintain the numeral shapes across the loop.",
-     "summary_lang": "en",
-     "source_url": "https://x.com/AnaArsonist/status/2082519448154522077",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@anaarsonist",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-uuhoew2-404-chicken-flock-animation/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1329,7 +1348,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183038,
+      "repo_stars": 183207,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1374,7 +1393,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1419,7 +1438,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1464,7 +1483,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1509,7 +1528,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1554,7 +1573,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1599,7 +1618,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1644,7 +1663,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1689,7 +1708,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1734,7 +1753,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1865,44 +1884,7 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
-       "name": "io.github.zachshallbetter/adobe-mcp-aftereffects",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "macOS only: address a specific copy, e.g. \"Adobe After Effects 2025\". Default: After Effects by bundle id",
-           "name": "AFTEREFFECTS_APP_NAME",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
-           "name": "AFTEREFFECTS_ALLOWED_DIRS",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "How long to wait for After Effects before reporting that a dialog may be open. Default 120000",
-           "name": "AFTEREFFECTS_SCRIPT_TIMEOUT_MS",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "adobe-mcp-aftereffects",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.1.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/zachshallbetter/adobe-mcp",
-       "title": "After Effects MCP Server",
-       "version": "0.1.0",
-       "website": null
-      }
+      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
      },
      "install": "npx -y adobe-mcp-aftereffects",
      "security": {
@@ -2279,8 +2261,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139019,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 139294,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2324,8 +2306,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139019,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 139294,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2369,7 +2351,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48746,
+      "repo_stars": 48939,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2414,7 +2396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2459,7 +2441,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2504,7 +2486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2549,7 +2531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41569,
+      "repo_stars": 41599,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2594,8 +2576,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31592,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 32014,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2639,8 +2621,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31592,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 32014,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2684,8 +2666,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31592,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 32014,
+      "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2729,7 +2711,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25953,
+      "repo_stars": 25969,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

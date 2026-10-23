@@ -2,7 +2,23 @@
 
 Remote MCP servers that give Claude, Cursor, VS Code, ChatGPT and any other MCP client access to [TubeText](https://apify.com/tubetext) tools: video transcripts, comment sentiment, AI video breakdowns, esports match timelines, ad library data, e-commerce prices, reviews, China data and travel prices.
 
-There is nothing to install or host. Each server is a URL on Apify's hosted MCP server (`mcp.apify.com`) that exposes a small, focused set of TubeText Actors as tools. You sign in with your own Apify account (OAuth) or pass your Apify API token. You pay per result at each Actor's Store price, with a free monthly credit on every Apify account.
+There is nothing to install or host. Each server is a URL on Apify's hosted MCP server (`mcp.apify.com`) that exposes a small, focused set of TubeText Actors as tools. You sign in with your own Apify account (OAuth) or pass your Apify API token. Usage is billed under each Actor's current Store pricing and your Apify plan. Review billable events and any optional AI processing before running a tool.
+
+## Choose a bundle by task
+
+Use these routes when you know the result you need, rather than an Actor name. Links open the existing bundle definitions; connect with the matching [server URL](#server-urls) and [client instructions](#connect).
+
+- **Research channels or Shorts:** [YouTube bundle](registry/youtube-transcripts/server.json). Channel Analytics and Social Blade provide creator statistics; Shorts metadata and optional transcripts are separate outputs.
+- **Find competitor video ads:** [Ad Intelligence](registry/ad-intelligence/server.json). Meta Ad Library and Google Ads Transparency discover ads; video and shot analysis are separate tools. Ad presence or time running is not evidence of spend, conversions or ROAS.
+- **Turn episodes or social videos into text:** [Social Video Transcripts](registry/social-video-transcripts/server.json). Choose Podcast Transcript for RSS/Apple Podcasts, or Any Video & Podcast Transcript for its documented mixed-source/direct-media inputs. Public video speech is not tweet, Reddit-comment or private-content scraping; not every URL is supported.
+- **Research Chinese-language sources:** [China Data](registry/china-data/server.json). Bilibili discovery and speech transcription are separate Actors. WeChat covers public Official Account articles, not private chats; trending boards are snapshots, not a historical trend database.
+- **Build a product or supplier shortlist:** [E-commerce Prices](registry/ecommerce-prices/server.json) for marketplace listings; [China Data](registry/china-data/server.json) for Alibaba/Yiwu supplier search from a product photo. Visual similarity does not verify the manufacturer or identical goods.
+- **Analyze customer-review themes:** [Reviews + AI Insights](registry/reviews-insights/server.json) groups Steam, Google Play and Agoda-displayed hotel reviews. Booking.com-sourced reviews displayed by Agoda do not imply direct Booking.com scraping. AI summaries describe the retrieved sample, not every customer.
+- **Build a travel or fuel-price dashboard:** [Travel & Local Prices](registry/travel-local-prices/server.json). Keep dates, currency, fuel grade and source-update timestamps with each comparison. Returned prices are observations, not guaranteed booking or pump prices.
+
+Before calling an Actor, inspect its current input schema and Pricing tab, agree on the input/count and budget, and check Actor Start and optional-processing charges. A bundle definition or directory listing does not verify live tool availability or runtime health.
+
+**Looking for Spotify play counts?** Use the [existing Spotify Actor](https://apify.com/tubetext/spotify-play-count-scraper) directly in Apify. It is not included in the MCP bundles listed here.
 
 ## Servers
 
@@ -10,10 +26,10 @@ There is nothing to install or host. Each server is a URL on Apify's hosted MCP 
 |---|---|---|
 | **TikTok Transcripts, Comments, Video Breakdown & Shot Analysis**<br>`io.github.LMSlay/tubetext-tiktok-transcripts` | TikTok transcripts, comment sentiment by moment, AI breakdowns and director-level shot analysis. | [tiktok-transcript](https://apify.com/tubetext/tiktok-transcript)<br>[youtube-tiktok-comments-api](https://apify.com/tubetext/youtube-tiktok-comments-api)<br>[video-breakdown-ai](https://apify.com/tubetext/video-breakdown-ai)<br>[shot-by-shot-video-analysis](https://apify.com/tubetext/shot-by-shot-video-analysis) |
 | **YouTube Transcripts, Comments & Channel Analytics**<br>`io.github.LMSlay/tubetext-youtube-transcripts` | YouTube transcripts, comment sentiment and the moments viewers react to, plus channel stats. | [youtube-transcript-fast](https://apify.com/tubetext/youtube-transcript-fast)<br>[youtube-shorts-scraper](https://apify.com/tubetext/youtube-shorts-scraper)<br>[youtube-tiktok-comments-api](https://apify.com/tubetext/youtube-tiktok-comments-api)<br>[youtube-channel-analytics](https://apify.com/tubetext/youtube-channel-analytics)<br>[socialblade-scraper](https://apify.com/tubetext/socialblade-scraper)<br>[shot-by-shot-video-analysis](https://apify.com/tubetext/shot-by-shot-video-analysis) |
-| **Instagram, Facebook, X, Reddit & Podcast Transcripts**<br>`io.github.LMSlay/tubetext-social-video-transcripts` | Transcribe Instagram Reels, Facebook, X and Reddit videos, podcasts (RSS, Apple) and any video URL. | [instagram-reels-transcript](https://apify.com/tubetext/instagram-reels-transcript)<br>[facebook-video-transcript](https://apify.com/tubetext/facebook-video-transcript)<br>[twitter-x-video-transcript](https://apify.com/tubetext/twitter-x-video-transcript)<br>[podcast-transcript](https://apify.com/tubetext/podcast-transcript)<br>[any-video-podcast-transcript](https://apify.com/tubetext/any-video-podcast-transcript)<br>[reddit-video-transcript](https://apify.com/tubetext/reddit-video-transcript) |
+| **Instagram, Facebook, X, Reddit & Podcast Transcripts**<br>`io.github.LMSlay/tubetext-social-video-transcripts` | Transcribe Instagram Reels, Facebook, X and Reddit videos, podcasts (RSS, Apple) and supported direct-media URLs. | [instagram-reels-transcript](https://apify.com/tubetext/instagram-reels-transcript)<br>[facebook-video-transcript](https://apify.com/tubetext/facebook-video-transcript)<br>[twitter-x-video-transcript](https://apify.com/tubetext/twitter-x-video-transcript)<br>[podcast-transcript](https://apify.com/tubetext/podcast-transcript)<br>[any-video-podcast-transcript](https://apify.com/tubetext/any-video-podcast-transcript)<br>[reddit-video-transcript](https://apify.com/tubetext/reddit-video-transcript) |
 | **Meta Ad Library, Google Ads Transparency & Video Ad Analyzer**<br>`io.github.LMSlay/tubetext-ad-intelligence` | Meta Ad Library and Google Ads Transparency video ads, plus AI teardowns and shot-by-shot analysis. | [meta-ad-library-videos](https://apify.com/tubetext/meta-ad-library-videos)<br>[google-ads-transparency-video](https://apify.com/tubetext/google-ads-transparency-video)<br>[video-ad-analyzer](https://apify.com/tubetext/video-ad-analyzer)<br>[shot-by-shot-video-analysis](https://apify.com/tubetext/shot-by-shot-video-analysis) |
 | **E-commerce Prices: Amazon, Taobao, AliExpress, Idealo**<br>`io.github.LMSlay/tubetext-ecommerce-prices` | Products, prices and sellers from Amazon, Taobao/Tmall, AliExpress, TikTok Shop and Idealo (EU). | [amazon-product-search-scraper](https://apify.com/tubetext/amazon-product-search-scraper)<br>[taobao-tmall-scraper](https://apify.com/tubetext/taobao-tmall-scraper)<br>[aliexpress-search-scraper](https://apify.com/tubetext/aliexpress-search-scraper)<br>[tiktok-shop-product-scraper](https://apify.com/tubetext/tiktok-shop-product-scraper)<br>[idealo-price-scraper](https://apify.com/tubetext/idealo-price-scraper) |
-| **Reviews + AI Insights: Steam, Agoda, Google Play**<br>`io.github.LMSlay/tubetext-reviews-insights` | Steam game, Agoda/Booking.com hotel and Google Play app reviews with optional AI insight reports. | [steam-reviews-scraper](https://apify.com/tubetext/steam-reviews-scraper)<br>[agoda-reviews-scraper](https://apify.com/tubetext/agoda-reviews-scraper)<br>[google-play-reviews-ai](https://apify.com/tubetext/google-play-reviews-ai) |
+| **Reviews + AI Insights: Steam, Agoda, Google Play**<br>`io.github.LMSlay/tubetext-reviews-insights` | Steam game, Agoda-displayed hotel and Google Play app reviews with optional AI insight reports. | [steam-reviews-scraper](https://apify.com/tubetext/steam-reviews-scraper)<br>[agoda-reviews-scraper](https://apify.com/tubetext/agoda-reviews-scraper)<br>[google-play-reviews-ai](https://apify.com/tubetext/google-play-reviews-ai) |
 | **China Data: Taobao, Bilibili, WeChat, Trending**<br>`io.github.LMSlay/tubetext-china-data` | Taobao/Tmall, Bilibili videos + transcripts, WeChat articles, China hot search, suppliers by photo. | [taobao-tmall-scraper](https://apify.com/tubetext/taobao-tmall-scraper)<br>[bilibili-scraper](https://apify.com/tubetext/bilibili-scraper)<br>[bilibili-video-transcript](https://apify.com/tubetext/bilibili-video-transcript)<br>[china-trending-topics](https://apify.com/tubetext/china-trending-topics)<br>[wechat-articles-scraper](https://apify.com/tubetext/wechat-articles-scraper)<br>[alibaba-yiwu-image-search](https://apify.com/tubetext/alibaba-yiwu-image-search) |
 | **Travel & Local Prices: Flights, Hotels, Gas**<br>`io.github.LMSlay/tubetext-travel-local-prices` | Google Flights fares and price calendar, Google Hotels rates by date, US/Canada gas station prices. | [google-flights-scraper](https://apify.com/tubetext/google-flights-scraper)<br>[google-hotels-scraper](https://apify.com/tubetext/google-hotels-scraper)<br>[gas-prices-scraper](https://apify.com/tubetext/gas-prices-scraper) |
 | **Esports Match Timelines: Valorant & CS2**<br>`io.github.LMSlay/tubetext-esports-match-data` | Round-by-round Valorant and CS2 scores read from public broadcast VODs on YouTube and Twitch. | [esports-match-timeline](https://apify.com/tubetext/esports-match-timeline)<br>[youtube-transcript-fast](https://apify.com/tubetext/youtube-transcript-fast)<br>[youtube-tiktok-comments-api](https://apify.com/tubetext/youtube-tiktok-comments-api) |
@@ -27,7 +43,7 @@ claude mcp add --transport http tubetext-tiktok "https://mcp.apify.com/?tools=fe
 
 **Claude Desktop / claude.ai**: Settings → Connectors → Add custom connector → paste a server URL from the list below, then sign in to Apify.
 
-**Cursor / VS Code / other clients** (`mcp.json`):
+**Remote MCP clients (generic example)**:
 ```json
 {
   "mcpServers": {
@@ -37,6 +53,8 @@ claude mcp add --transport http tubetext-tiktok "https://mcp.apify.com/?tools=fe
   }
 }
 ```
+Client configuration paths and schemas differ. Use the [Apify MCP configurator](https://mcp.apify.com/) for your client rather than assuming this JSON works unchanged everywhere. See the [VS Code configuration reference](https://code.visualstudio.com/docs/agents/reference/mcp-configuration) for its supported format.
+
 Clients without OAuth: add the header `Authorization: Bearer <your Apify API token>` ([get one here](https://console.apify.com/account/integrations)).
 
 ### Server URLs
@@ -50,6 +68,18 @@ Clients without OAuth: add the header `Authorization: Bearer <your Apify API tok
 - **China Data: Taobao, Bilibili, WeChat, Trending**: `https://mcp.apify.com/?tools=fetch-actor-details,tubetext/taobao-tmall-scraper,tubetext/bilibili-scraper,tubetext/bilibili-video-transcript,tubetext/china-trending-topics,tubetext/wechat-articles-scraper,tubetext/alibaba-yiwu-image-search`
 - **Travel & Local Prices: Flights, Hotels, Gas**: `https://mcp.apify.com/?tools=fetch-actor-details,tubetext/google-flights-scraper,tubetext/google-hotels-scraper,tubetext/gas-prices-scraper`
 - **Esports Match Timelines: Valorant & CS2**: `https://mcp.apify.com/?tools=fetch-actor-details,tubetext/esports-match-timeline,tubetext/youtube-transcript-fast,tubetext/youtube-tiktok-comments-api`
+
+## Start with a bounded YouTube use case
+
+Before any paid test, list the available tools and inspect the current input schema for `tubetext/youtube-transcript-fast`. Connecting or seeing a directory listing does not establish that an Actor run will succeed. If a requested tool is absent, stop and check the selected bundle instead of silently substituting another Actor.
+
+For a first captions-only task, ask:
+
+> Get the existing captions for this one public YouTube video: <url>. Set `aiFallback` to false; do not enable AI transcription or run other Actors. Return the transcript with source timestamps, or explain the unsuccessful status without inventing missing text. Show the planned input and cost limit before starting.
+
+AI fallback is enabled by default in the YouTube Actor, so set `aiFallback: false` explicitly for captions-only work. This does not make the run free. After retrieval, retain the run ID, dataset ID and original export before using the text downstream. For a channel-to-RAG workflow, use the [replay-safe caption inbox example](https://github.com/LMSlay/tubetext-examples/tree/main/python/youtube_incremental_rag), which includes synthetic offline tests rather than a live-service benchmark.
+
+For the workflow overview and recovery checklist, read the [YouTube transcript RAG guide](https://tubetext.dev/youtube-transcript-rag/).
 
 ## Example prompts
 
@@ -66,9 +96,9 @@ Clients without OAuth: add the header `Authorization: Bearer <your Apify API tok
 
 ## Costs and safety
 
-- Every tool is a pay-per-event Apify Actor. Each Actor's Store page lists its price. Failed or empty results are not billed.
-- The Actors accept a maximum cost per run and stop cleanly when they reach it. The MCP server sets no cap of its own, so ask your agent to pass `maxTotalChargeUsd` for large jobs.
-- No login or cookies are used. The tools read public pages only.
+- Actor calls can incur charges. Check the selected Actor's live Pricing tab: skipping a transcript or analysis event does not guarantee a zero-cost run. Actor Start, data-fetch events, optional AI work or other charges may still apply.
+- Agree on a budget before starting, not just for large jobs. Inspect the current tool schema for supported run limits. For Apify's generic `call-actor` tool, limits such as `maxTotalChargeUsd` belong in `callOptions`, not in the Actor input ([official reference](https://docs.apify.com/mcp)). Do not assume every Actor wrapper exposes the same fields or that a run limit caps downstream model, storage or integration costs.
+- Apify authentication is required for ordinary account-billed runs. These public-data workflows do not require you to provide a social-network login or cookies. Never paste API tokens into prompts, public issues or committed files.
 
 ## Feedback
 

@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-23
-updated_at: 2026-10-23T00:43:09Z
+updated_at: 2026-10-23T15:04:39Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1476 items
+- minimal: 1492 items
 - motion: 645 items
-- 3d: 620 items
-- editorial: 589 items
-- playful: 540 items
+- 3d: 621 items
+- editorial: 591 items
+- playful: 542 items
 - gradient: 281 items
 - retro: 115 items
 - dark-tech: 107 items
@@ -74,6 +74,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/pXNvc_U2cGyZmheYrUuF_
   needs_credentials: true, writes_external: false
+- [template] Art Bot. Artist and creative director that turns your brands into style guides, on-brand images, animations, video edits with music, decks and design critiques.
+  source: https://botsdots.site/templates/art-bot
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/uMHJk_yjZLpxC0GQfT4aK
+  needs_credentials: false, writes_external: false
 - [style-library] 'kin. ‘kin are a creative commercial interior design, branding and graphic design studio.
   source: https://by-kin.com/
   license: see source (listed via UI Hub)
@@ -152,10 +157,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 3D Sphere Videos. A technical reference sheet comparing 3D sphere renders across multiple animation phases and material states, from glossy white to deep black, annotated with file names and phase values.
   source: https://x.com/kosta4a/status/2086083489418391688
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 404 Chicken Flock Animation. A playful motion piece spelling out 404 using a flock of animated chickens that shuffle and move to maintain the numeral shapes across the loop.
-  source: https://x.com/AnaArsonist/status/2082519448154522077
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
