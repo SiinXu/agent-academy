@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-10-22T15:17:20Z",
+ "updated_at": "2026-10-23T00:43:09Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -840,8 +840,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -885,8 +885,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -930,8 +930,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -975,8 +975,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1020,7 +1020,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1065,7 +1065,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1110,7 +1110,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1421,7 +1421,38 @@
      "original": {
       "kind": "full",
       "license": "ISC",
-      "url": "https://github.com/deyikong/sendgrid-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/deyikong/sendgrid-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "MCP server for SendGrid's v3 API: email marketing, transactional mail, templates, and analytics.",
+       "name": "io.github.deyikong/sendgrid-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your SendGrid API key (must start with 'SG.').",
+           "name": "SENDGRID_API_KEY",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "When true (the default), blocks all write/delete operations at runtime while keeping every tool registered and visible.",
+           "name": "READ_ONLY",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "sendgrid-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.4.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/deyikong/sendgrid-mcp",
+       "title": "SendGrid MCP Server",
+       "version": "1.4.0",
+       "website": "https://github.com/deyikong/sendgrid-mcp#readme"
+      }
      },
      "install": "npx -y sendgrid-mcp",
      "security": {
@@ -1471,7 +1502,23 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md"
+      "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md",
+      "record": {
+       "description": "Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.",
+       "name": "com.beehiiv/beehiiv",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.beehiiv.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/beehiiv/agents",
+       "title": "beehiiv",
+       "version": "0.1.0",
+       "website": "https://www.beehiiv.com"
+      }
      },
      "install": "remote (streamable-http): https://mcp.beehiiv.com/mcp",
      "security": {
@@ -1518,7 +1565,56 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/Neschadin/sendgrid-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/Neschadin/sendgrid-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "SendGrid transactional email: preflight send, templates, and delivery diagnostics.",
+       "name": "io.github.Neschadin/sendgrid-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "SendGrid API key (SG....)",
+           "name": "SENDGRID_API_KEY",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Default From address. Must be a verified sender.",
+           "name": "SENDGRID_FROM_EMAIL",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Default From display name",
+           "name": "SENDGRID_FROM_NAME",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "global (default) or eu",
+           "name": "SENDGRID_REGION",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "When true, send and mutating tools return an error before any SendGrid request",
+           "name": "READ_ONLY",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@neschadin/sendgrid-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "3.0.3"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/Neschadin/sendgrid-mcp",
+       "title": "SendGrid Transactional",
+       "version": "3.0.3",
+       "website": null
+      }
      },
      "install": "npx -y @neschadin/sendgrid-mcp",
      "security": {
@@ -1708,7 +1804,47 @@
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "link"
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.teamsincetoday/newsletter-commerce-mcp&version=latest",
+      "record": {
+       "description": "Extract shoppable products from newsletter content with affiliate signals.",
+       "name": "io.github.teamsincetoday/newsletter-commerce-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "OpenAI API key for GPT-4o-mini product extraction (required)",
+           "name": "OPENAI_API_KEY",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Comma-separated paid API keys for unlimited calls (optional — omit for free tier: 200 calls/day)",
+           "name": "MCP_API_KEYS",
+           "required": null,
+           "secret": true
+          }
+         ],
+         "id": "newsletter-commerce-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.3"
+        },
+        {
+         "env": [],
+         "id": "newsletter-commerce-mcp",
+         "transport": "streamable-http",
+         "type": "npm",
+         "version": "0.1.3"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/teamsincetoday/newsletter-commerce-mcp",
+       "title": null,
+       "version": "0.1.3",
+       "website": null
+      }
      },
      "install": "npx -y newsletter-commerce-mcp",
      "security": {
@@ -1758,7 +1894,23 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/pipeworx-io/mcp-klaviyo/blob/HEAD/README.md"
+      "url": "https://github.com/pipeworx-io/mcp-klaviyo/blob/HEAD/README.md",
+      "record": {
+       "description": "Klaviyo MCP Pack — wraps the Klaviyo API for email marketing",
+       "name": "io.github.pipeworx-io/klaviyo",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://gateway.pipeworx.io/klaviyo/mcp"
+        }
+       ],
+       "repository": "https://github.com/pipeworx-io/mcp-klaviyo",
+       "title": "Klaviyo",
+       "version": "0.1.2",
+       "website": "https://pipeworx.io/packs/klaviyo"
+      }
      },
      "install": "remote (streamable-http): https://gateway.pipeworx.io/klaviyo/mcp",
      "security": {
@@ -2433,8 +2585,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2478,8 +2630,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2523,7 +2675,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2568,7 +2720,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2613,7 +2765,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",

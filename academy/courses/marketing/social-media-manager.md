@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-22
-updated_at: 2026-10-22T15:17:20Z
+version: 2026-10-23
+updated_at: 2026-10-23T00:43:09Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 

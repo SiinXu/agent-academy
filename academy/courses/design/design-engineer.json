@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-10-22T15:17:20Z",
+ "updated_at": "2026-10-23T00:43:09Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -514,7 +514,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182950,
+      "repo_stars": 183038,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -559,7 +559,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 100956,
+      "repo_stars": 101121,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -604,7 +604,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48624,
+      "repo_stars": 48746,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -649,7 +649,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48624,
+      "repo_stars": 48746,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -694,7 +694,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -739,7 +739,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -784,7 +784,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -829,7 +829,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -874,7 +874,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -919,7 +919,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25946,
+      "repo_stars": 25953,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1928,7 +1928,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "4-do-it",
@@ -2092,7 +2092,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/BV-Venky/excalidraw-architect-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/BV-Venky/excalidraw-architect-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Generate beautiful Excalidraw architecture diagrams with auto-layout and component styling",
+       "name": "io.github.BV-Venky/excalidraw-architect-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "excalidraw-architect-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.2.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/BV-Venky/excalidraw-architect-mcp",
+       "title": "Excalidraw Architect",
+       "version": "0.2.2",
+       "website": null
+      }
      },
      "install": "uvx excalidraw-architect-mcp",
      "security": {
@@ -2210,7 +2228,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md"
+      "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md",
+      "record": {
+       "description": "Compact Figma MCP with validated batch ops through a local plugin bridge.",
+       "name": "io.github.sunhome243/figma-mcp-express",
+       "packages": [
+        {
+         "env": [],
+         "id": "figma-mcp-express",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.8.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/sunhome243/figma-mcp-express",
+       "title": null,
+       "version": "2.8.1",
+       "website": null
+      }
      },
      "install": "npx -y figma-mcp-express",
      "security": {
@@ -2812,8 +2848,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138843,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 139019,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2857,8 +2893,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 138843,
-      "repo_pushed_at": "2026-10-21"
+      "repo_stars": 139019,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2902,7 +2938,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48624,
+      "repo_stars": 48746,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2947,7 +2983,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2992,7 +3028,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3037,7 +3073,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3082,7 +3118,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3127,7 +3163,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -3172,7 +3208,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -3217,7 +3253,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -3262,7 +3298,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25946,
+      "repo_stars": 25953,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

@@ -2,7 +2,7 @@
  "id": "marketing/content-marketer",
  "industry": "marketing",
  "role": "content-marketer",
- "updated_at": "2026-10-22T15:17:20Z",
+ "updated_at": "2026-10-23T00:43:09Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1170,7 +1170,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 182950,
+      "repo_stars": 183038,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1215,8 +1215,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1260,8 +1260,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1305,8 +1305,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1350,8 +1350,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1395,8 +1395,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1440,8 +1440,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1485,8 +1485,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1530,8 +1530,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1575,8 +1575,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1620,8 +1620,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1665,7 +1665,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1710,7 +1710,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1755,7 +1755,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 31379,
+      "repo_stars": 31592,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -2065,7 +2065,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md"
+      "url": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md",
+      "record": {
+       "description": "Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry",
+       "name": "io.github.alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
+       "packages": [
+        {
+         "env": [],
+         "id": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/releases/download/v1.0.1/genpark-jitter-buffer.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": null
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
+       "title": "GenPark Audio Packet Jitter Resilience Buffer",
+       "version": "1.0.1",
+       "website": "https://genpark.ai/mcp"
+      }
      },
      "install": null,
      "security": {
@@ -2112,7 +2130,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md"
+      "url": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md",
+      "record": {
+       "description": "Packet ordering simulation and inter-arrival jitter telemetry.",
+       "name": "io.github.Alpha-Park/genpark-jitter-buffer",
+       "packages": [
+        {
+         "env": [],
+         "id": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/releases/download/v1.0.1/genpark-jitter-buffer.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": null
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill",
+       "title": "genpark-jitter-buffer",
+       "version": "1.0.1",
+       "website": null
+      }
      },
      "install": null,
      "security": {
@@ -2814,7 +2850,23 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/pipeworx-io/mcp-mixpanel/blob/HEAD/README.md"
+      "url": "https://github.com/pipeworx-io/mcp-mixpanel/blob/HEAD/README.md",
+      "record": {
+       "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+       "name": "io.github.pipeworx-io/mixpanel",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://gateway.pipeworx.io/mixpanel/mcp"
+        }
+       ],
+       "repository": "https://github.com/pipeworx-io/mcp-mixpanel",
+       "title": "Mixpanel",
+       "version": "0.1.2",
+       "website": "https://pipeworx.io/packs/mixpanel"
+      }
      },
      "install": "remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp",
      "security": {
@@ -2924,7 +2976,68 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/Choppaaahh/sendgrid-mcp-secure/blob/HEAD/README.md"
+      "url": "https://github.com/Choppaaahh/sendgrid-mcp-secure/blob/HEAD/README.md",
+      "record": {
+       "description": "Security-first SendGrid MCP server: dry-run default, recipient allowlists, rate caps, audit log.",
+       "name": "io.github.Choppaaahh/sendgrid-mcp-secure",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "SendGrid API key (use a restricted key with Mail Send scope only)",
+           "name": "SENDGRID_API_KEY",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "dry-run (default) or live",
+           "name": "SENDGRID_MCP_MODE",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Comma-separated recipient addresses/domains allowed to receive mail",
+           "name": "SENDGRID_MCP_RECIPIENT_ALLOWLIST",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Hourly cap on write operations (sends)",
+           "name": "SENDGRID_MCP_WRITES_PER_HOUR",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Max recipients per send",
+           "name": "SENDGRID_MCP_MAX_RECIPIENTS",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Path to the append-only audit log",
+           "name": "SENDGRID_MCP_AUDIT_LOG",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "BCC stays disabled unless explicitly enabled",
+           "name": "SENDGRID_MCP_ALLOW_BCC",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "sendgrid-mcp-secure",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/Choppaaahh/sendgrid-mcp-secure",
+       "title": "SendGrid Secure",
+       "version": "0.1.0",
+       "website": null
+      }
      },
      "install": "uvx sendgrid-mcp-secure",
      "security": {
@@ -3147,8 +3260,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3192,8 +3305,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55952,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 56052,
+      "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3237,7 +3350,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3282,7 +3395,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3327,7 +3440,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41544,
+      "repo_stars": 41569,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
