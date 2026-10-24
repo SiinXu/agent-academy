@@ -3285,13 +3285,13 @@
 "botsdots-tubewright": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "facts-only",
+"license": "CC0-1.0",
 "record": {
 "access": [],
 "add": "https://x.ai/bot/DuELeZImu7B6FXzIs2bMt",
 "cadence": "on-demand",
 "catalog_sources": [
-"Public x.ai share page"
+"majiayu000/awesome-grok-bot"
 ],
 "category": "content-publishing",
 "creator": null,
@@ -3301,7 +3301,7 @@
 "official": false,
 "page": "https://botsdots.site/templates/tubewright",
 "risk": "low",
-"summary": "Turns a finished video's transcript into a draft upload kit: titles in your voice, an SEO description, real-timestamp chapters, thumbnail concepts…"
+"summary": "Turns a finished video's transcript into a draft upload kit: titles, SEO description, timestamped chapters, thumbnail ideas, pinned comment and X clip thread."
 },
 "url": "https://botsdots.site/templates/tubewright"
 },
@@ -4093,22 +4093,6 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
-"record": {
-"description": "Find what to fix on a public website, for search engines and for AI answers.",
-"name": "app.openkrill/seo-audit",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://seoaudit.openkrill.app/mcp"
-}
-],
-"repository": "https://github.com/nguyenhieuec/agent-tools-plugins",
-"title": "SEO Audit",
-"version": "1.7.0",
-"website": "https://tools.openkrill.app/"
-},
 "truncated": false,
 "url": "https://github.com/nguyenhieuec/agent-tools-plugins/blob/HEAD/README.md"
 },
@@ -4615,85 +4599,6 @@
 "kind": "full",
 "label": "readme",
 "license": "Apache-2.0",
-"record": {
-"description": "TikTok Ads MCP server: 35 read tools, 30 opt-in preview-first writes.",
-"name": "com.getmcpads/tiktok-ads",
-"packages": [
-{
-"env": [
-{
-"description": "TikTok Business API access token.",
-"name": "TIKTOK_ACCESS_TOKEN",
-"required": true,
-"secret": true
-},
-{
-"description": "App ID the token belongs to.",
-"name": "TIKTOK_APP_ID",
-"required": true,
-"secret": null
-},
-{
-"description": "Comma-separated advertiser IDs this server may access. Recommended; required from 3.0.0.",
-"name": "TIKTOK_ADVERTISER_IDS",
-"required": null,
-"secret": null
-},
-{
-"description": "App secret, for endpoints needing app authentication.",
-"name": "TIKTOK_APP_SECRET",
-"required": null,
-"secret": true
-},
-{
-"description": "Default advertiser ID. When TIKTOK_ADVERTISER_IDS is set, must be one of them.",
-"name": "TIKTOK_ADVERTISER_ID",
-"required": null,
-"secret": null
-},
-{
-"description": "Default Business Center ID, for Business Center scoped reads.",
-"name": "TIKTOK_BC_ID",
-"required": null,
-"secret": null
-},
-{
-"description": "Alias of TIKTOK_BC_ID, read when TIKTOK_BC_ID is unset.",
-"name": "TIKTOK_BUSINESS_CENTER_ID",
-"required": null,
-"secret": null
-},
-{
-"description": "true exposes 30 write tools. Defaults to false. Calls preview unless confirm is true.",
-"name": "TIKTOK_ENABLE_WRITES",
-"required": null,
-"secret": null
-},
-{
-"description": "production (default) or sandbox. Sandbox binds every call to one advertiser ID.",
-"name": "TIKTOK_ENVIRONMENT",
-"required": null,
-"secret": null
-},
-{
-"description": "debug, info (default), warn or error. Logs go to stderr.",
-"name": "LOG_LEVEL",
-"required": null,
-"secret": null
-}
-],
-"id": "@getmcpads/tiktok-ads-mcp-server",
-"transport": "stdio",
-"type": "npm",
-"version": "2.1.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
-"title": "TikTok Ads",
-"version": "2.1.0",
-"website": "https://www.getmcpads.com/tools/tiktok-ads"
-},
 "truncated": false,
 "url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server/blob/HEAD/README.md"
 },
@@ -6211,30 +6116,6 @@
 "kind": "full",
 "label": "readme",
 "license": "Apache-2.0",
-"record": {
-"description": "Free Google Search Console MCP: your real GSC, Google Analytics and keyword data for AI agents.",
-"name": "dev.seoskill/seo",
-"packages": [
-{
-"env": [],
-"id": "seo",
-"transport": "stdio",
-"type": "npm",
-"version": "0.5.0"
-}
-],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://seoskill.dev/mcp"
-}
-],
-"repository": "https://github.com/iannuttall/seo",
-"title": "SEO Skill",
-"version": "0.5.0",
-"website": "https://seoskill.dev"
-},
 "truncated": false,
 "url": "https://github.com/iannuttall/seo/blob/HEAD/README.md"
 },
@@ -6311,22 +6192,6 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
-"record": {
-"description": "SEO layer for agents: research, content, QA, approvals and publishing via MCP OAuth.",
-"name": "help.odiseo/mcp",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://www.odiseo.help/api/mcp"
-}
-],
-"repository": "https://github.com/odiseohelp-app/cli",
-"title": "Odiseo",
-"version": "0.1.0",
-"website": "https://odiseo.help/mcp"
-},
 "truncated": false,
 "url": "https://github.com/odiseohelp-app/cli/blob/HEAD/README.md"
 },
@@ -6976,16 +6841,6 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
-"record": {
-"description": "Plan campaigns, score offers explainably, and enforce offer-cited tactics before spending.",
-"name": "io.github.AxelVerneBooks/marketing-scope-mcp",
-"packages": [],
-"remotes": [],
-"repository": "https://github.com/AxelVerneBooks/marketing-scope-mcp",
-"title": "Marketing Scope",
-"version": "0.1.0",
-"website": "https://axelverne.com/"
-},
 "truncated": false,
 "url": "https://github.com/AxelVerneBooks/marketing-scope-mcp/blob/HEAD/README.md"
 },
@@ -7577,22 +7432,6 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
-"record": {
-"description": "Full SEO audits, content analysis, and domain overviews - on-page, technical, and authority metrics",
-"name": "io.github.DataLeadsPRO/seo-audit-content",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://data.dataleads.pro/mcp/seo-audit-content"
-}
-],
-"repository": "https://github.com/DataLeadsPRO/seo-audit-content",
-"title": null,
-"version": "1.0.1",
-"website": null
-},
 "truncated": false,
 "url": "https://github.com/DataLeadsPRO/seo-audit-content/blob/HEAD/README.md"
 },
@@ -7988,13 +7827,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.5.0"
+"version": "3.5.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.5.0",
+"version": "3.5.1",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -8605,32 +8444,6 @@
 },
 "truncated": false,
 "url": "https://github.com/kisasa/shopify-mcp/blob/HEAD/README.md"
-},
-"mcp-io-github-kolganovr-figma-mcp-bridge": {
-"file": "data/originals/mcp-io-github-kolganovr-figma-mcp-bridge.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
-"name": "io.github.kolganovr/figma-mcp-bridge",
-"packages": [
-{
-"env": [],
-"id": "@kolganovr/figma-mcp-bridge",
-"transport": "stdio",
-"type": "npm",
-"version": "4.2.7"
-}
-],
-"remotes": [],
-"repository": "https://github.com/kolganovr/figma-mcp-bridge",
-"title": null,
-"version": "4.2.7",
-"website": "https://github.com/kolganovr/figma-mcp-bridge#quickstart"
-},
-"truncated": false,
-"url": "https://github.com/kolganovr/mokido/blob/HEAD/README.md"
 },
 "mcp-io-github-kurious8282-moneybug-shopify-billing-integrity": {
 "kind": "excerpt",
@@ -10650,7 +10463,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.17.0",
+"version": "1.20.0",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": false,
@@ -11033,6 +10846,20 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-aureformui-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-beamline-io": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-better-design-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11048,6 +10875,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-blode-co-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-chewypixel-io-components": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11118,6 +10952,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-ds-interlace-tools": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-eased-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11242,6 +11083,14 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-github-com-f0rextasy-bigbullui": {
+"file": "data/originals/uihub-aw-github-com-f0rextasy-bigbullui.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": true,
+"url": "https://github.com/F0Rextasy/bigbullui/blob/main/README.md"
+},
 "uihub-aw-github-com-h3rmel-guarahooks": {
 "file": "data/originals/uihub-aw-github-com-h3rmel-guarahooks.md",
 "kind": "full",
@@ -11283,6 +11132,14 @@
 },
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-github-com-lbrdev-night-glass": {
+"file": "data/originals/uihub-aw-github-com-lbrdev-night-glass.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/lbrdev/night-glass/blob/main/README.md"
+},
 "uihub-aw-github-com-leancodebox-gooseforum": {
 "file": "data/originals/uihub-aw-github-com-leancodebox-gooseforum.md",
 "kind": "full",
@@ -11306,6 +11163,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/Liamandrew/tetra-ui/blob/main/README.md"
+},
+"uihub-aw-github-com-lirena00-blobz": {
+"file": "data/originals/uihub-aw-github-com-lirena00-blobz.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/lirena00/blobz/blob/main/README.md"
 },
 "uihub-aw-github-com-melromyeah-mixcn": {
 "file": "data/originals/uihub-aw-github-com-melromyeah-mixcn.md",
@@ -11477,6 +11342,13 @@
 "truncated": false,
 "url": "https://github.com/whatisjery/atelier-ui/blob/main/README.md"
 },
+"uihub-aw-glassyui-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-grid-joohyunpark-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11492,6 +11364,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-identityforge-io-kits": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-illos-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11680,6 +11559,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-suiss-app-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-sureui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11688,6 +11574,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-trees-software": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-uaiblocks-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11743,6 +11636,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-ui-watermelon-sh": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-ui-wensity-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11779,6 +11679,20 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-warren-eduard3v-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-we-inc-components": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-wick-charts-eeff-io-integrations-shadcn": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-10-24T00:46:06Z",
+ "updated_at": "2026-10-24T14:01:07Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -514,7 +514,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183298,
+      "repo_stars": 183424,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -559,7 +559,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 101626,
+      "repo_stars": 101848,
       "repo_pushed_at": "2026-10-20"
      },
      "course_step": "3-learn-rules",
@@ -604,7 +604,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49075,
+      "repo_stars": 49251,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -649,7 +649,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49075,
+      "repo_stars": 49251,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -694,8 +694,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -739,8 +739,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -784,8 +784,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -829,8 +829,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -874,8 +874,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32215,
-      "repo_pushed_at": "2026-10-23"
+      "repo_stars": 32516,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -919,7 +919,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25978,
+      "repo_stars": 25989,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1928,8 +1928,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2056,7 +2056,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 270,
+      "repo_stars": 271,
       "repo_pushed_at": "2026-09-07",
       "registry_updated_at": "2026-04-14"
      },
@@ -2333,7 +2333,7 @@
      },
      "metrics": {
       "repo_stars": 7,
-      "repo_pushed_at": "2026-08-28",
+      "repo_pushed_at": "2026-10-24",
       "registry_updated_at": "2026-03-10"
      },
      "course_step": "4-do-it",
@@ -2345,71 +2345,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-felixanhalt-figma-context-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-kolganovr-figma-mcp-bridge",
-     "title": "io.github.kolganovr/figma-mcp-bridge",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/kolganovr/mokido",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-kolganovr-figma-mcp-bridge.md",
-     "upstream_raw_url": null,
-     "repo": "kolganovr/mokido",
-     "author": "io.github.kolganovr",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/kolganovr/mokido/blob/HEAD/README.md",
-      "record": {
-       "description": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
-       "name": "io.github.kolganovr/figma-mcp-bridge",
-       "packages": [
-        {
-         "env": [],
-         "id": "@kolganovr/figma-mcp-bridge",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "4.2.7"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/kolganovr/figma-mcp-bridge",
-       "title": null,
-       "version": "4.2.7",
-       "website": "https://github.com/kolganovr/figma-mcp-bridge#quickstart"
-      }
-     },
-     "install": "npx -y @kolganovr/figma-mcp-bridge",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": true,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 2,
-      "repo_pushed_at": "2026-10-23",
-      "registry_updated_at": "2026-10-23"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-24T00:46:06Z",
-     "checked_at": "2026-10-20T01:06:48Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-kolganovr-figma-mcp-bridge/",
      "source": "mcp-registry"
     },
     {
@@ -2544,7 +2479,7 @@
      },
      "metrics": {
       "repo_stars": 1,
-      "repo_pushed_at": "2026-10-23",
+      "repo_pushed_at": "2026-10-24",
       "registry_updated_at": "2026-09-19"
      },
      "course_step": "4-do-it",
@@ -2848,7 +2783,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139442,
+      "repo_stars": 139740,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2893,7 +2828,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139442,
+      "repo_stars": 139740,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2938,7 +2873,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49075,
+      "repo_stars": 49251,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2983,8 +2918,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3028,8 +2963,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3073,8 +3008,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3118,8 +3053,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41614,
-      "repo_pushed_at": "2026-10-19"
+      "repo_stars": 41627,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3163,8 +3098,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32215,
-      "repo_pushed_at": "2026-10-23"
+      "repo_stars": 32516,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3208,8 +3143,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32215,
-      "repo_pushed_at": "2026-10-23"
+      "repo_stars": 32516,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3253,8 +3188,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32215,
-      "repo_pushed_at": "2026-10-23"
+      "repo_stars": 32516,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3298,7 +3233,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25978,
+      "repo_stars": 25989,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

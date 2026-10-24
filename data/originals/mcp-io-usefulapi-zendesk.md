@@ -358,8 +358,39 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [CharlieHR](servers/charliehr/) | productivity | 31 | API token | [servers/charliehr/](servers/charliehr/) |
 | [FieldPulse](servers/fieldpulse/) | productivity | 47 | API token | [servers/fieldpulse/](servers/fieldpulse/) |
 | [bexio](servers/bexio/) | billing | 32 | OAuth | [servers/bexio/](servers/bexio/) |
-| [Teamleader Focus](servers/teamleader-focus/) | crm | 26 | OAuth | [servers/teamleader-focus/](servers/teamleader-focus/) |
-| [Clio](servers/clio/) | productivity | 24 | OAuth | [servers/clio/](servers/clio/) |
+| [Teamleader Focus](servers/teamleader-focus/) | crm | 40 | OAuth | [servers/teamleader-focus/](servers/teamleader-focus/) |
+| [Clio](servers/clio/) | productivity | 27 | OAuth | [servers/clio/](servers/clio/) |
+| [Chatra](servers/chatra/) | chat | 14 | API token | [servers/chatra/](servers/chatra/) |
+| [Corsizio](servers/corsizio/) | calendar | 10 | API token | [servers/corsizio/](servers/corsizio/) |
+| [DialMyCalls](servers/dialmycalls/) | communications | 32 | API token | [servers/dialmycalls/](servers/dialmycalls/) |
+| [Namely](servers/namely/) | productivity | 21 | API token | [servers/namely/](servers/namely/) |
+| [Papershift](servers/papershift/) | productivity | 30 | API token | [servers/papershift/](servers/papershift/) |
+| [Robly](servers/robly/) | email | 17 | API token | [servers/robly/](servers/robly/) |
+| [Seal Subscriptions](servers/seal-subscriptions/) | payments | 31 | API token | [servers/seal-subscriptions/](servers/seal-subscriptions/) |
+| [SuiteDash](servers/suitedash/) | crm | 20 | API token | [servers/suitedash/](servers/suitedash/) |
+| [UpKeep](servers/upkeep/) | productivity | 33 | API token | [servers/upkeep/](servers/upkeep/) |
+| [AgendaPro](servers/agendapro/) | calendar | 28 | API token | [servers/agendapro/](servers/agendapro/) |
+| [Appointo](servers/appointo/) | calendar | 14 | API token | [servers/appointo/](servers/appointo/) |
+| [Cyberimpact](servers/cyberimpact/) | email | 29 | API token | [servers/cyberimpact/](servers/cyberimpact/) |
+| [Loox](servers/loox/) | ecommerce | 11 | API token | [servers/loox/](servers/loox/) |
+| [Method CRM](servers/method-crm/) | crm | 20 | API token | [servers/method-crm/](servers/method-crm/) |
+| [noCRM.io](servers/nocrm-io/) | crm | 28 | API token | [servers/nocrm-io/](servers/nocrm-io/) |
+| [PHP Point of Sale](servers/php-point-of-sale/) | ecommerce | 30 | API token | [servers/php-point-of-sale/](servers/php-point-of-sale/) |
+| [Tamigo](servers/tamigo/) | productivity | 12 | API token | [servers/tamigo/](servers/tamigo/) |
+| [Precoro](servers/precoro/) | productivity | 28 | API token | [servers/precoro/](servers/precoro/) |
+| [AgencyBloc](servers/agencybloc/) | crm | 26 | API token | [servers/agencybloc/](servers/agencybloc/) |
+| [CiviCRM](servers/civicrm/) | crm | 28 | API token | [servers/civicrm/](servers/civicrm/) |
+| [CustomCat](servers/customcat/) | ecommerce | 16 | API token | [servers/customcat/](servers/customcat/) |
+| [Farmbrite](servers/farmbrite/) | productivity | 48 | API token | [servers/farmbrite/](servers/farmbrite/) |
+| [intelliHR](servers/intellihr/) | productivity | 26 | API token | [servers/intellihr/](servers/intellihr/) |
+| [Lawcus](servers/lawcus/) | productivity | 31 | API token | [servers/lawcus/](servers/lawcus/) |
+| [myPhoner](servers/myphoner/) | crm | 22 | API token | [servers/myphoner/](servers/myphoner/) |
+| [Pobuca Connect](servers/pobuca-connect/) | crm | 21 | API token | [servers/pobuca-connect/](servers/pobuca-connect/) |
+| [Referral Rock](servers/referral-rock/) | marketing | 19 | API token | [servers/referral-rock/](servers/referral-rock/) |
+| [Smartrr](servers/smartrr/) | payments | 25 | API token | [servers/smartrr/](servers/smartrr/) |
+| [AiSensy](servers/aisensy/) | communications | 20 | API token | [servers/aisensy/](servers/aisensy/) |
+| [Shippit](servers/shippit/) | shipping | 16 | API token | [servers/shippit/](servers/shippit/) |
+| [Bilflo](servers/bilflo/) | billing | 30 | API token | [servers/bilflo/](servers/bilflo/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._
