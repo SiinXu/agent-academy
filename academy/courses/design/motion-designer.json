@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-23T15:04:39Z",
+ "updated_at": "2026-10-24T00:46:06Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1348,7 +1348,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183207,
+      "repo_stars": 183298,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1393,7 +1393,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1438,7 +1438,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1483,7 +1483,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1528,7 +1528,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1573,7 +1573,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1618,7 +1618,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1663,7 +1663,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1708,7 +1708,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1753,7 +1753,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1884,7 +1884,44 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
+       "name": "io.github.zachshallbetter/adobe-mcp-aftereffects",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "macOS only: address a specific copy, e.g. \"Adobe After Effects 2025\". Default: After Effects by bundle id",
+           "name": "AFTEREFFECTS_APP_NAME",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
+           "name": "AFTEREFFECTS_ALLOWED_DIRS",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "How long to wait for After Effects before reporting that a dialog may be open. Default 120000",
+           "name": "AFTEREFFECTS_SCRIPT_TIMEOUT_MS",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "adobe-mcp-aftereffects",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/zachshallbetter/adobe-mcp",
+       "title": "After Effects MCP Server",
+       "version": "0.1.0",
+       "website": null
+      }
      },
      "install": "npx -y adobe-mcp-aftereffects",
      "security": {
@@ -2261,7 +2298,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139294,
+      "repo_stars": 139442,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2306,7 +2343,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139294,
+      "repo_stars": 139442,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2351,7 +2388,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2396,7 +2433,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2441,7 +2478,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2486,7 +2523,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2531,7 +2568,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -2576,7 +2613,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2621,7 +2658,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2666,7 +2703,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2711,7 +2748,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25969,
+      "repo_stars": 25978,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

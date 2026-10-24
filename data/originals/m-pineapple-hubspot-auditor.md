@@ -13,7 +13,9 @@
 
 Read-only audit of a HubSpot portal. You get a scored report of what works, what is broken, what is missing, and what still needs a person to confirm, plus a 30/60/90-day fix plan.
 
-The server speaks MCP over stdio. A CLI runs the same audit. It never sends POST, PUT, PATCH, or DELETE to HubSpot.
+The server speaks MCP over stdio. A CLI runs the same audit. It never sends PUT, PATCH, or DELETE to HubSpot. Its only POST is the start-up read of the token's own scopes.
+
+What's new in v1.5.2: a start-up check warns when the token has a write scope and every HubSpot request is held to a read-only allowlist, a new check reports the original source on closed-won deals, checks no longer pass on partly loaded or unsampled data, and closed stages are left out of the stage-probability check. Thanks to @harrisonoconnorhover for four of those fixes. See [CHANGELOG.md](CHANGELOG.md).
 
 What's new in v1.5.1: the unused custom properties check no longer passes, or suggests archiving, when it has no sampled values to go on. Thanks to @harrisonoconnorhover. See [CHANGELOG.md](CHANGELOG.md).
 
@@ -83,8 +85,8 @@ Rules live in versioned YAML under `rules/`. Each file has `version: 1` and a li
 | Forms | Live forms, embedded versus unused, field mapping, GDPR consent, follow-up email, spam protection |
 | Tracking | Tracking code on a public URL, cookie banner, UTM capture, original source |
 | Email | Workflow health, nurture sequence, unengaged contacts, SPF, DKIM, and DMARC, subscription type on each published email |
-| Integrations | Connected apps, webhook subscriptions, sync errors |
-| Reporting | Dashboards, attribution reports, lifecycle funnel |
+| Integrations | Connected apps, webhook subscriptions, sync errors, token scopes |
+| Reporting | Dashboards, attribution reports, lifecycle funnel, closed-won deal attribution |
 | Brand | Published landing pages, title and meta description, tracking script, call to action, logo, favicon, heading, colour palette, optional extra phrases |
 | Journey | A published email or active workflow for each buyer stage you list |
 | Program | Dynamic lists, lead score, email subscription types, campaign links, record owners |
@@ -99,7 +101,9 @@ The score is the percentage of checks that are working. A check that needs opera
 
 These checks stay at `needs_operator_confirmation` on a pass until you set `params.operatorConfirmed: true` for that check: required properties, lifecycle and lead status, stage probabilities, stale deals, required stage fields, and stage automation. The flag means you accept the rule in the YAML. It does not change the portal. A broken or missing result is unchanged.
 
-Live mode reads HubSpot with GET requests and a private app token. If a call is forbidden or the payload has no field for that check, the finding is `missing`. A failed ticket-pipeline read does not hide the deal pipeline. Fill rates count only contact properties that were requested. Demo mode loads `demo/portal.json`, a fictional company called Harbour Glass Co.
+Closed-won deal attribution counts a deal when `hs_is_closed_won` is the string true. When that property is absent, a closed stage at probability 100 counts, and so does probability 100 when the stage has no closed flag. Fewer than five sampled closed-won deals is missing. An original-source share below 0.80 is broken. Where the campaign property is present, the count of deals with a value is evidence only and does not change the status. Ad spend is always `needs_operator_confirmation`. Evidence states the sample size and leaves out deal names, amounts, contacts, and ids.
+
+Live mode reads the private app token's scopes at start-up, then reads HubSpot with allowlisted GET requests. If a call is forbidden or the payload has no field for that check, the finding is `missing`. A failed ticket-pipeline read does not hide the deal pipeline. Fill rates count only contact properties that were requested. Demo mode loads `demo/portal.json`, a fictional company called Harbour Glass Co.
 
 Logo, favicon, heading, and colour checks run on the fetched landing page. Add `params.markers` in `rules/brand.yaml` only when a phrase must appear verbatim. The buyer-stage patterns live in `rules/journey.yaml`. Pass `--site` to judge a specific public page. If you omit it, tracking uses the portal's primary site domain. Landing page checks use the CMS page URL.
 
@@ -116,7 +120,7 @@ You: "Run the Harbour Glass demo and tell me the score."
 
 The server calls `run_audit` with `demo: true`.
 
-You get a score of 30, with 14 working, 21 broken, 11 missing, and 0 that need operator confirmation. The first 30-day items are required properties, workflow health, and form field mapping. Spam protection is also in that plan, after the higher-impact faults.
+You get a score of 33, with 16 working, 21 broken, 11 missing, and 0 that need operator confirmation. The first 30-day items are required properties, workflow health, and form field mapping. Spam protection is also in that plan, after the higher-impact faults.
 
 ## Setup
 
@@ -142,6 +146,8 @@ npm run audit:demo
 
 For a live portal, create a HubSpot private app and copy a token that has read scopes only. Do not grant write scopes. Put the token in the environment. Do not pass it as a tool argument.
 
+At start-up the auditor reads that token's scopes with one POST to `/oauth/v2/private-apps/get/access-token-info`. It warns when a write scope is present. It never sends any other non-GET request.
+
 ```bash
 export HUBSPOT_ACCESS_TOKEN="paste-a-read-only-private-app-token"
 hubspot-auditor --site https://example.com --summary
@@ -156,7 +162,8 @@ No write scope is required. A missing read scope becomes a `missing` finding for
 | Contacts | `crm.objects.contacts.read` | Duplicates, lifecycle, original source |
 | Contact properties | `crm.schemas.contacts.read` | Required fields, unused properties, lead score |
 | Companies | `crm.objects.companies.read` | Duplicate domains |
-| Deals and deal pipelines | `crm.objects.deals.read` | Stale deals, stage probabilities |
+| Deals and deal pipelines | `crm.objects.deals.read` | Stale deals, stage probabilities, closed-won attribution |
+| Campaigns (optional) | `marketing.campaigns.read` | Campaign names and ad-campaign asset counts. Source share still runs when this scope is missing |
 | Ticket pipelines | `crm.objects.tickets.read` | Ticket pipeline |
 | Owners | `crm.objects.owners.read` | Record owners |
 | Lists | `crm.lists.read` | Dynamic lists |
@@ -164,6 +171,10 @@ No write scope is required. A missing read scope becomes a `missing` finding for
 | Pages, domains, marketing emails | `content` | Landing pages, brand, campaigns, default site |
 | Subscription types | `communication_preferences.read` | Subscription types on emails |
 | Workflows | `automation` | Workflow health. HubSpot documents this for Marketing Hub Professional or Enterprise. A ticked box on a lower hub still returns HTTP 403 |
+
+### Sampling
+
+Each of contacts, companies, and deals is read up to 500 records (5 pages of 100). Form detail is read for up to 30 forms. Published pages are read for up to 20 pages for tracking. Campaigns are one page of up to 100. Ad-campaign assets are read for at most 20 of those campaigns. The results describe that sample, not the whole portal.
 
 The audit does not call webhook subscription edits or a connected-app list. Those HubSpot URLs do not return that data for a private app.
 
@@ -204,7 +215,7 @@ npm start
 | | Official HubSpot MCP | HubSpot Auditor |
 | --- | --- | --- |
 | Job | Read and update CRM objects through HubSpot tools | Score the portal and recommend fixes |
-| Writes | Depends on the app scopes you grant | None. Non-GET methods throw |
+| Writes | Depends on the app scopes you grant | None. Every request is checked against a GET allowlist plus one token-info POST |
 | Rules | Not a checklist | Versioned YAML in `rules/` |
 | Sample data | Your portal | Fictional demo portal with no token |
 
@@ -214,18 +225,18 @@ Use the official server when you want an agent to work in the CRM. Use this serv
 
 The full fictional report is [examples/example-report.md](examples/example-report.md). The JSON form is [examples/example-report.json](examples/example-report.json). The PDF is [examples/example-report.pdf](examples/example-report.pdf).
 
-Harbour Glass Co scores **30**. Fourteen checks are working, 21 are broken, 11 are missing, and none need operator confirmation. The public demo form has no captcha and 12 submissions in 30 days, so spam protection is critical. On this sample the passes that would need confirmation are already broken or missing.
+The checked-in sample scores **33** (16 working, 21 broken, 11 missing, and none need operator confirmation). The token-scope check passes, and closed-won attribution passes on the sample. The public demo form has no captcha and 12 submissions in 30 days, so spam protection is critical. On this sample the passes that would need confirmation are already broken or missing.
 
 ```markdown
 # HubSpot audit: Harbour Glass Co
 
 This report uses a fictional sample portal. It is not a customer account.
 
-Score: **30** (share of checks that are working). A check that needs operator confirmation is not a pass.
+Score: **33** (share of checks that are working). A check that needs operator confirmation is not a pass.
 
 | Status | Count |
 | --- | ---: |
-| Working | 14 |
+| Working | 16 |
 | Broken | 21 |
 | Missing | 11 |
 | Needs operator confirmation | 0 |

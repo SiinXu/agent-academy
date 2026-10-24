@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-23
-updated_at: 2026-10-23T15:04:39Z
+version: 2026-10-24
+updated_at: 2026-10-24T00:46:06Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-engineer/
 ---
 
@@ -46,15 +46,15 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1492 items
+- minimal: 1496 items
 - motion: 645 items
-- 3d: 621 items
+- 3d: 623 items
 - editorial: 591 items
-- playful: 542 items
-- gradient: 281 items
-- retro: 115 items
+- playful: 543 items
+- gradient: 283 items
+- retro: 116 items
 - dark-tech: 107 items
-- glass: 55 items
+- glass: 56 items
 - enterprise: 42 items
 - swiss: 27 items
 - soft: 15 items
@@ -296,7 +296,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   install: npx -y @tmegit/figma-developer-mcp
   needs_credentials: true, writes_external: false
 - [mcp] io.github.kolganovr/figma-mcp-bridge. Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.
-  source: https://github.com/kolganovr/figma-mcp-bridge
+  source: https://github.com/kolganovr/mokido
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-kolganovr-figma-mcp-bridge.md
   license: MIT
   install: npx -y @kolganovr/figma-mcp-bridge

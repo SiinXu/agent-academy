@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-10-23T15:04:39Z",
+ "updated_at": "2026-10-24T00:46:06Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1344,7 +1344,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183207,
+      "repo_stars": 183298,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1389,7 +1389,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183207,
+      "repo_stars": 183298,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1434,7 +1434,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139294,
+      "repo_stars": 139442,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1479,7 +1479,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139294,
+      "repo_stars": 139442,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1524,7 +1524,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139294,
+      "repo_stars": 139442,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1569,7 +1569,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1614,7 +1614,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1659,7 +1659,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1704,7 +1704,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1749,7 +1749,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1794,7 +1794,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1839,7 +1839,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -1884,7 +1884,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1929,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1974,7 +1974,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25969,
+      "repo_stars": 25978,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2752,7 +2752,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142793,
+      "repo_stars": 142820,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2797,7 +2797,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "4-do-it",
@@ -2861,7 +2861,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 71,
+      "repo_stars": 72,
       "repo_pushed_at": "2026-10-12",
       "registry_updated_at": "2026-10-12"
      },
@@ -2897,7 +2897,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/tunglt1810/figma-mcp-go/blob/HEAD/README.md"
+      "url": "https://github.com/tunglt1810/figma-mcp-go/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma MCP server with full read/write access via plugin bridge — no API token or rate limits.",
+       "name": "io.github.tunglt1810/figma-mcp-go",
+       "packages": [
+        {
+         "env": [],
+         "id": "@tunglt1810/figma-mcp-go",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.6.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/tunglt1810/figma-mcp-go",
+       "title": null,
+       "version": "0.6.0",
+       "website": null
+      }
      },
      "install": "npx -y @tunglt1810/figma-mcp-go",
      "security": {
@@ -2973,7 +2991,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 14,
+      "repo_stars": 15,
       "repo_pushed_at": "2026-10-09",
       "registry_updated_at": "2026-04-11"
      },
@@ -3072,7 +3090,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/jirayusueb/figma-mcp-rs/blob/HEAD/README.md"
+      "url": "https://github.com/jirayusueb/figma-mcp-rs/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma/FigJam MCP server with read/write via plugin — no API token, no limits. 78 tools.",
+       "name": "io.github.jirayusueb/figma-mcp-rs",
+       "packages": [
+        {
+         "env": [],
+         "id": "figma-mcp-rs",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/jirayusueb/figma-mcp-rs",
+       "title": null,
+       "version": "0.1.0",
+       "website": null
+      }
      },
      "install": "npx -y figma-mcp-rs",
      "security": {
@@ -3119,7 +3155,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/nntoan/figma-mcp-rust/blob/HEAD/README.md"
+      "url": "https://github.com/nntoan/figma-mcp-rust/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.",
+       "name": "io.github.nntoan/figma-mcp-rust",
+       "packages": [
+        {
+         "env": [],
+         "id": "@nntoan/figma-mcp-rust",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/nntoan/figma-mcp-rust",
+       "title": null,
+       "version": "0.1.0",
+       "website": null
+      }
      },
      "install": "npx -y @nntoan/figma-mcp-rust",
      "security": {
@@ -3166,7 +3220,25 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/vola-trebla/tailwind-context-resolver-mcp/blob/HEAD/README.md"
+      "url": "https://github.com/vola-trebla/tailwind-context-resolver-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Resolves Tailwind CSS design tokens and validates utility classes against the local project config.",
+       "name": "io.github.vola-trebla/tailwind-context-resolver-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "tailwind-context-resolver-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/vola-trebla/tailwind-context-resolver-mcp",
+       "title": null,
+       "version": "0.2.0",
+       "website": null
+      }
      },
      "install": "npx -y tailwind-context-resolver-mcp",
      "security": {
@@ -3356,7 +3428,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139294,
+      "repo_stars": 139442,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -3401,7 +3473,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139294,
+      "repo_stars": 139442,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -3446,7 +3518,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 48939,
+      "repo_stars": 49075,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -3491,7 +3563,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3536,7 +3608,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3581,7 +3653,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3626,7 +3698,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41599,
+      "repo_stars": 41614,
       "repo_pushed_at": "2026-10-19"
      },
      "course_step": "3-learn-rules",
@@ -3671,7 +3743,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -3716,7 +3788,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -3761,7 +3833,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32014,
+      "repo_stars": 32215,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -3806,7 +3878,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25969,
+      "repo_stars": 25978,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

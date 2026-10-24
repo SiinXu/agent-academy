@@ -3825,6 +3825,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
+"name": "ai.saifs/marketing-intelligence",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://marketing-analysis-mcp.saifs.ai/mcp"
+}
+],
+"repository": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs",
+"title": "Marketing Intelligence & Optimization",
+"version": "1.0.1",
+"website": "https://saifs.ai"
+},
 "truncated": false,
 "url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs/blob/HEAD/README.md"
 },
@@ -3855,6 +3871,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "SEO agent: GSC, keyword, backlink and AI-visibility insights, plus approval-gated site actions",
+"name": "ai.seomatic/seomatic",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://app.seomatic.ai/api/mcp"
+}
+],
+"repository": "https://github.com/Minh42/seomatic-mcp",
+"title": "SEOmatic",
+"version": "1.0.2",
+"website": "https://seomatic.ai/developers/mcp"
+},
 "truncated": false,
 "url": "https://github.com/Minh42/seomatic-mcp/blob/HEAD/README.md"
 },
@@ -3885,6 +3917,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Discover high-impact keyword ideas across Central and Eastern European and English markets. Analyz…",
+"name": "ai.smithery/lukaskostka99-marketing-miner-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://server.smithery.ai/@lukaskostka99/marketing-miner-mcp/mcp"
+}
+],
+"repository": "https://github.com/lukaskostka99/marketing-miner-mcp",
+"title": null,
+"version": "1.14.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/lukaskostka99/marketing-miner-mcp/blob/HEAD/README.md"
 },
@@ -3915,6 +3965,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Spot keyword demand rising or fading across search and social. Free key at trendsapi.ai",
+"name": "ai.trendsapi/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://seo.api.trendsapi.ai/mcp"
+}
+],
+"repository": "https://github.com/trendsapi-ai/trends-mcp",
+"title": "SEO Trends API",
+"version": "1.0.2",
+"website": "https://trendsapi.ai/trends/google-trends"
+},
 "truncated": false,
 "url": "https://github.com/trendsapi-ai/trends-mcp/blob/HEAD/README.md"
 },
@@ -3923,6 +3991,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai",
+"name": "ai.trendsapi/tiktok",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://tiktok.api.trendsapi.ai/mcp"
+}
+],
+"repository": "https://github.com/trendsapi-ai/tiktok-trends-api",
+"title": "TikTok Trends API",
+"version": "1.0.2",
+"website": "https://trendsapi.ai/trends/tiktok-trends"
+},
 "truncated": false,
 "url": "https://github.com/trendsapi-ai/tiktok-trends-api/blob/HEAD/README.md"
 },
@@ -4007,6 +4093,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Find what to fix on a public website, for search engines and for AI answers.",
+"name": "app.openkrill/seo-audit",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seoaudit.openkrill.app/mcp"
+}
+],
+"repository": "https://github.com/nguyenhieuec/agent-tools-plugins",
+"title": "SEO Audit",
+"version": "1.7.0",
+"website": "https://tools.openkrill.app/"
+},
 "truncated": false,
 "url": "https://github.com/nguyenhieuec/agent-tools-plugins/blob/HEAD/README.md"
 },
@@ -4319,6 +4421,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Free Google Business Profile audits and sample posts for therapists in private practice.",
+"name": "com.ariadnemarketing/therapist-marketing",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://therapists.ariadnemarketing.com/mcp"
+}
+],
+"repository": "https://github.com/bgrieco22/ariadne-mcp",
+"title": "Ariadne for Therapists",
+"version": "1.0.0",
+"website": "https://ariadnemarketing.com/therapists"
+},
 "truncated": false,
 "url": "https://github.com/bgrieco22/ariadne-mcp/blob/HEAD/README.md"
 },
@@ -4327,6 +4445,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.",
+"name": "com.beehiiv/beehiiv",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.beehiiv.com/mcp"
+}
+],
+"repository": "https://github.com/beehiiv/agents",
+"title": "beehiiv",
+"version": "0.1.0",
+"website": "https://www.beehiiv.com"
+},
 "truncated": false,
 "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md"
 },
@@ -4481,6 +4615,85 @@
 "kind": "full",
 "label": "readme",
 "license": "Apache-2.0",
+"record": {
+"description": "TikTok Ads MCP server: 35 read tools, 30 opt-in preview-first writes.",
+"name": "com.getmcpads/tiktok-ads",
+"packages": [
+{
+"env": [
+{
+"description": "TikTok Business API access token.",
+"name": "TIKTOK_ACCESS_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "App ID the token belongs to.",
+"name": "TIKTOK_APP_ID",
+"required": true,
+"secret": null
+},
+{
+"description": "Comma-separated advertiser IDs this server may access. Recommended; required from 3.0.0.",
+"name": "TIKTOK_ADVERTISER_IDS",
+"required": null,
+"secret": null
+},
+{
+"description": "App secret, for endpoints needing app authentication.",
+"name": "TIKTOK_APP_SECRET",
+"required": null,
+"secret": true
+},
+{
+"description": "Default advertiser ID. When TIKTOK_ADVERTISER_IDS is set, must be one of them.",
+"name": "TIKTOK_ADVERTISER_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Default Business Center ID, for Business Center scoped reads.",
+"name": "TIKTOK_BC_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Alias of TIKTOK_BC_ID, read when TIKTOK_BC_ID is unset.",
+"name": "TIKTOK_BUSINESS_CENTER_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "true exposes 30 write tools. Defaults to false. Calls preview unless confirm is true.",
+"name": "TIKTOK_ENABLE_WRITES",
+"required": null,
+"secret": null
+},
+{
+"description": "production (default) or sandbox. Sandbox binds every call to one advertiser ID.",
+"name": "TIKTOK_ENVIRONMENT",
+"required": null,
+"secret": null
+},
+{
+"description": "debug, info (default), warn or error. Logs go to stderr.",
+"name": "LOG_LEVEL",
+"required": null,
+"secret": null
+}
+],
+"id": "@getmcpads/tiktok-ads-mcp-server",
+"transport": "stdio",
+"type": "npm",
+"version": "2.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
+"title": "TikTok Ads",
+"version": "2.1.0",
+"website": "https://www.getmcpads.com/tools/tiktok-ads"
+},
 "truncated": false,
 "url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server/blob/HEAD/README.md"
 },
@@ -4632,6 +4845,53 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Public TikTok profiles, videos, comments and keyword search as JSON. No developer account.",
+"name": "com.hasdata/tiktok",
+"packages": [
+{
+"env": [
+{
+"description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
+"name": "HASDATA_API_KEY",
+"required": true,
+"secret": true
+}
+],
+"id": "@hasdata/tiktok-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.7"
+},
+{
+"env": [
+{
+"description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
+"name": "HASDATA_API_KEY",
+"required": true,
+"secret": true
+}
+],
+"id": "hasdata-tiktok-mcp",
+"transport": "stdio",
+"type": "pypi",
+"version": "1.0.7"
+}
+],
+"remotes": [
+{
+"headers": [
+"x-api-key"
+],
+"type": "streamable-http",
+"url": "https://mcp.hasdata.com/mcp?apis=tiktok"
+}
+],
+"repository": "https://github.com/HasData/tiktok-mcp",
+"title": "HasData TikTok",
+"version": "1.0.7",
+"website": "https://hasdata.com/apis/tiktok-scraper-api"
+},
 "truncated": false,
 "url": "https://github.com/HasData/tiktok-mcp/blob/HEAD/README.md"
 },
@@ -4662,6 +4922,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Hosted DataForSEO MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
+"name": "com.insightfulpipe/dataforseo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://dataforseo.insightfulmcp.com/"
+}
+],
+"repository": "https://github.com/Insightful-Pipe/dataforseo-mcp-server",
+"title": "DataForSEO MCP by InsightfulPipe",
+"version": "1.0.0",
+"website": "https://insightfulpipe.com/mcp-servers/dataforseo"
+},
 "truncated": false,
 "url": "https://github.com/Insightful-Pipe/dataforseo-mcp-server/blob/HEAD/README.md"
 },
@@ -4694,6 +4970,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
+"name": "com.insightfulpipe/mailchimp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mailchimp.insightfulmcp.com/"
+}
+],
+"repository": "https://github.com/Insightful-Pipe/mailchimp-mcp-server",
+"title": "Mailchimp MCP by InsightfulPipe",
+"version": "1.0.0",
+"website": "https://insightfulpipe.com/mcp-servers/mailchimp"
+},
 "truncated": false,
 "url": "https://github.com/Insightful-Pipe/mailchimp-mcp-server/blob/HEAD/README.md"
 },
@@ -4774,6 +5066,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Run client marketing from your AI assistant, or let Autopilot: Google Ads, GA4, SEO, Meta, CRM",
+"name": "com.jiyumarketing.mcp/agency-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.jiyumarketing.com/mcp?src=registry"
+}
+],
+"repository": "https://github.com/harrisonjdahl3/agency-mcp-plugin",
+"title": "Agency Autopilot",
+"version": "1.4.3",
+"website": "https://getagencyautopilot.com"
+},
 "truncated": false,
 "url": "https://github.com/harrisonjdahl3/agency-mcp-plugin/blob/HEAD/README.md"
 },
@@ -4874,6 +5182,31 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Follow a creator bio link and report the newsletter, what they sell, and the contact emails.",
+"name": "com.mambabuilt/mcp-link-in-bio-newsletter-checker",
+"packages": [
+{
+"env": [
+{
+"description": "Apify API token from https://console.apify.com/account/integrations",
+"name": "APIFY_TOKEN",
+"required": true,
+"secret": true
+}
+],
+"id": "@mambalabsdev/mcp-link-in-bio-newsletter-checker",
+"transport": "stdio",
+"type": "npm",
+"version": "1.2.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker",
+"title": null,
+"version": "1.2.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker/blob/HEAD/README.md"
 },
@@ -4882,6 +5215,31 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Resolve a TikTok handle or company domain to the brand account with follower counts.",
+"name": "com.mambabuilt/mcp-tiktok-brand-presence-mapper",
+"packages": [
+{
+"env": [
+{
+"description": "Apify API token from https://console.apify.com/account/integrations",
+"name": "APIFY_TOKEN",
+"required": true,
+"secret": true
+}
+],
+"id": "@mambalabsdev/mcp-tiktok-brand-presence-mapper",
+"transport": "stdio",
+"type": "npm",
+"version": "1.2.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper",
+"title": null,
+"version": "1.2.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper/blob/HEAD/README.md"
 },
@@ -4890,6 +5248,31 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Manage products, orders, customers, inventory, and store configuration",
+"name": "com.mcparmory/shopify-admin",
+"packages": [
+{
+"env": [],
+"id": "mcparmory-shopify-admin",
+"transport": "stdio",
+"type": "pypi",
+"version": "1.0.3"
+},
+{
+"env": [],
+"id": "ghcr.io/mcparmory/shopify-admin:1.0.3",
+"transport": "stdio",
+"type": "oci",
+"version": null
+}
+],
+"remotes": [],
+"repository": "https://github.com/mcparmory/registry",
+"title": null,
+"version": "1.0.3",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/mcparmory/registry/blob/HEAD/README.md"
 },
@@ -4983,6 +5366,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "The Monetize Marketing App as MCP tools: Brain, mission, training, skills, Library, software. OAuth.",
+"name": "com.monetizemarketing/app",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://app.monetizemarketing.com/api/mcp"
+}
+],
+"repository": "https://github.com/monetizemarketing/mcp",
+"title": "Monetize Marketing",
+"version": "1.0.0",
+"website": "https://monetizemarketing.com/mcp"
+},
 "truncated": false,
 "url": "https://github.com/monetizemarketing/mcp/blob/HEAD/README.md"
 },
@@ -5101,6 +5500,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Free SEO & AI-search (AEO) audits for any site or Shopify store, with emailed weekly score reports.",
+"name": "com.seoaix/seo-audit",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seoaix.com/api/mcp"
+}
+],
+"repository": "https://github.com/riverliu8/seoaix-mcp",
+"title": "SeoAiX SEO Audit",
+"version": "1.5.0",
+"website": "https://seoaix.com/mcp"
+},
 "truncated": false,
 "url": "https://github.com/riverliu8/seoaix-mcp/blob/HEAD/README.md"
 },
@@ -5143,11 +5558,66 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoasist/mcp&version=latest"
 },
+"mcp-com-seoclerks-seoclerks": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Find and order SEO services, follow your orders and answer messages on the Seoclerks marketplace.",
+"name": "com.seoclerks/seoclerks",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://www.seoclerks.com/mcp"
+}
+],
+"repository": null,
+"title": "Seoclerks",
+"version": "1.0.0",
+"website": "https://developers.seoclerk.com/connect-ai-agent"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoclerks/seoclerks&version=latest"
+},
 "mcp-com-seocontentmachine-scm": {
 "file": "data/originals/mcp-com-seocontentmachine-scm.md",
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Run SEO Content Machine tasks from an MCP client: scraping, crawls, Google Maps, Workspace pages.",
+"name": "com.seocontentmachine/scm",
+"packages": [
+{
+"env": [
+{
+"description": "SCM API server address. Default http://localhost:8008",
+"name": "SCM_API_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "The key from SCM Settings > App > Api secret key, if you set one",
+"name": "SCM_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "seo-content-machine-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/gitTerebi/seo-content-machine-plugin",
+"title": "SEO Content Machine",
+"version": "1.1.0",
+"website": "https://seocontentmachine.com"
+},
 "truncated": false,
 "url": "https://github.com/gitTerebi/seo-content-machine-plugin/blob/HEAD/README.md"
 },
@@ -5200,6 +5670,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Google Search Console performance and the SEO fixes worth the most clicks, ranked for your sites.",
+"name": "com.seorankfixer/seo-rank-fixer",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seorankfixer.com/api/mcp"
+}
+],
+"repository": "https://github.com/sharikwani/seo-rank-fixer-plugin",
+"title": "SEO Rank Fixer",
+"version": "1.0.0",
+"website": "https://seorankfixer.com/connectors"
+},
 "truncated": false,
 "url": "https://github.com/sharikwani/seo-rank-fixer-plugin/blob/HEAD/README.md"
 },
@@ -5616,6 +6102,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Extracts live product catalogs, pricing tiers, SKU variants, and stock availability from any Shop.",
+"name": "dev.agentdiet/shopify-intel",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://shopify-intel.agentdiet.dev/mcp"
+}
+],
+"repository": "https://github.com/robertoyanguas-ops/assay",
+"title": "AgentDiet Shopify & DTC E-Commerce Store Competitive Intelligence",
+"version": "7.0.17",
+"website": "https://shopify-intel.agentdiet.dev"
+},
 "truncated": false,
 "url": "https://github.com/robertoyanguas-ops/assay/blob/HEAD/README.md"
 },
@@ -5741,6 +6243,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.",
+"name": "dev.vibeseo/vibeseo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.vibeseo.dev/mcp"
+}
+],
+"repository": "https://github.com/sultanlive/vibeseo-mcp",
+"title": "VibeSEO",
+"version": "0.1.4",
+"website": "https://vibeseo.dev/mcp"
+},
 "truncated": false,
 "url": "https://github.com/sultanlive/vibeseo-mcp/blob/HEAD/README.md"
 },
@@ -6223,6 +6741,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Icons for agentic development: search & fetch 366,000+ open-source icons as SVG/PNG. No API key.",
+"name": "io.github.asr-aditya/iconserve",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://icons-for-agents.site/mcp"
+}
+],
+"repository": "https://github.com/asr-aditya/iconserve",
+"title": null,
+"version": "0.1.1",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/asr-aditya/iconserve/blob/HEAD/README.md"
 },
@@ -6307,6 +6841,109 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Per-URL SEO verdicts from GSC, GA4, Matomo, Clarity, AI citations: refresh/expand/merge/kill.",
+"name": "io.github.AutomateLab-tech/seo-performance-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Base64-encoded Google service account JSON with Search Console read access.",
+"name": "GSC_SERVICE_ACCOUNT_JSON",
+"required": null,
+"secret": true
+},
+{
+"description": "Search Console site URL (e.g. sc-domain:example.com or https://example.com/).",
+"name": "GSC_SITE_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Matomo instance URL (e.g. https://example.com/analytics).",
+"name": "MATOMO_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Matomo auth token with view access.",
+"name": "MATOMO_TOKEN",
+"required": null,
+"secret": true
+},
+{
+"description": "Matomo idSite for the site to query.",
+"name": "MATOMO_SITE_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "GA4 property ID (numeric, no G- prefix).",
+"name": "GA4_PROPERTY_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Base64-encoded Google service account JSON with GA4 Data API access.",
+"name": "GA4_SERVICE_ACCOUNT_JSON",
+"required": null,
+"secret": true
+},
+{
+"description": "Microsoft Clarity project ID.",
+"name": "CLARITY_PROJECT_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Microsoft Clarity Data Export API token.",
+"name": "CLARITY_API_TOKEN",
+"required": null,
+"secret": true
+},
+{
+"description": "XML sitemap URL used to enumerate posts. Primary platform-agnostic discovery path.",
+"name": "POSTS_SITEMAP_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Optional JSON array overriding sitemap discovery.",
+"name": "POSTS_LIST",
+"required": null,
+"secret": null
+},
+{
+"description": "Optional. Ghost Admin API base URL. Pair with GHOST_ADMIN_API_KEY for richer metadata.",
+"name": "GHOST_ADMIN_API_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Optional. Ghost Admin API key in the form id:secret.",
+"name": "GHOST_ADMIN_API_KEY",
+"required": null,
+"secret": true
+},
+{
+"description": "Optional URL of a citation-intelligence MCP server to delegate AI-citation queries to.",
+"name": "CITATION_INTELLIGENCE_URL",
+"required": null,
+"secret": null
+}
+],
+"id": "@automatelab/seo-performance-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/AutomateLab-tech/seo-performance-mcp",
+"title": "SEO Performance MCP",
+"version": "1.0.0",
+"website": "https://automatelab.tech/products/mcp/seo-performance-mcp/"
+},
 "truncated": false,
 "url": "https://github.com/AutomateLab-tech/seo-performance-mcp/blob/HEAD/README.md"
 },
@@ -6488,6 +7125,37 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Read-only TikTok Shop Partner API: orders, finance, products and analytics across shops.",
+"name": "io.github.Buer2333/tiktok-shop-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Path to shops.json (default ~/.config/tiktok-mcp/shops.json)",
+"name": "TIKTOK_SHOP_CONFIG",
+"required": null,
+"secret": null
+},
+{
+"description": "Shop used by the bestselling tools when seller_name is omitted",
+"name": "TIKTOK_SHOP_BESTSELLERS_SHOP",
+"required": null,
+"secret": null
+}
+],
+"id": "tiktok-shop-mcp",
+"transport": "stdio",
+"type": "pypi",
+"version": "0.3.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/Buer2333/tiktok-shop-mcp",
+"title": "TikTok Shop",
+"version": "0.3.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/Buer2333/tiktok-shop-mcp/blob/HEAD/README.md"
 },
@@ -6673,6 +7341,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Model Context Protocol server for Excalidraw diagrams.",
+"name": "io.github.cmd8/excalidraw-mcp",
+"packages": [
+{
+"env": [],
+"id": "@cmd8/excalidraw-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.2.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/cmd8/excalidraw-mcp",
+"title": null,
+"version": "1.2.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/cmd8/excalidraw-mcp/blob/HEAD/README.md"
 },
@@ -6681,6 +7367,43 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)",
+"name": "io.github.codespar/mcp-shopify",
+"packages": [
+{
+"env": [
+{
+"description": "Shopify shop subdomain (e.g. 'acme' for acme.myshopify.com)",
+"name": "SHOPIFY_SHOP",
+"required": true,
+"secret": null
+},
+{
+"description": "Shopify Admin API access token (private/custom app) sent as X-Shopify-Access-Token header",
+"name": "SHOPIFY_ACCESS_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "Shopify Admin API version. Defaults to 2024-01.",
+"name": "SHOPIFY_API_VERSION",
+"required": null,
+"secret": null
+}
+],
+"id": "@codespar/mcp-shopify",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/codespar/mcp-dev-latam",
+"title": null,
+"version": "0.2.2",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/codespar/mcp-dev-latam/blob/HEAD/README.md"
 },
@@ -6689,6 +7412,31 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Figma MCP server for AI agents. 9 tools: design context, variables, screenshots, and FigJam.",
+"name": "io.github.compassalessandrolorenz/Figma-Context-MCP-AIR",
+"packages": [
+{
+"env": [
+{
+"description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
+"name": "FIGMA_API_KEY",
+"required": true,
+"secret": true
+}
+],
+"id": "figma-context-mcp-air",
+"transport": "stdio",
+"type": "npm",
+"version": "2.0.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR",
+"title": null,
+"version": "2.0.2",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR/blob/HEAD/README.md"
 },
@@ -6723,6 +7471,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Seo Checker Ai MCP Server by MEOK AI Labs",
+"name": "io.github.CSOAI-ORG/seo-checker-ai-mcp",
+"packages": [
+{
+"env": [],
+"id": "seo-checker-ai-mcp",
+"transport": "stdio",
+"type": "pypi",
+"version": "1.0.8"
+}
+],
+"remotes": [],
+"repository": "https://github.com/CSOAI-ORG/seo-checker-ai-mcp",
+"title": null,
+"version": "1.0.8",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/CSOAI-ORG/seo-checker-ai-mcp/blob/HEAD/README.md"
 },
@@ -6811,6 +7577,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Full SEO audits, content analysis, and domain overviews - on-page, technical, and authority metrics",
+"name": "io.github.DataLeadsPRO/seo-audit-content",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://data.dataleads.pro/mcp/seo-audit-content"
+}
+],
+"repository": "https://github.com/DataLeadsPRO/seo-audit-content",
+"title": null,
+"version": "1.0.1",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/DataLeadsPRO/seo-audit-content/blob/HEAD/README.md"
 },
@@ -6819,6 +7601,43 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.",
+"name": "io.github.davidmosiah/tiktok-agent-publisher",
+"packages": [
+{
+"env": [
+{
+"description": "Set to false only when the agent should perform live TikTok upload operations. Defaults to dry-run behavior.",
+"name": "TIKTOK_DRY_RUN",
+"required": null,
+"secret": null
+},
+{
+"description": "TikTok developer app client key. Optional until OAuth or live upload flows are used.",
+"name": "TIKTOK_CLIENT_KEY",
+"required": null,
+"secret": null
+},
+{
+"description": "TikTok developer app client secret. Keep local and do not expose it to agents.",
+"name": "TIKTOK_CLIENT_SECRET",
+"required": null,
+"secret": true
+}
+],
+"id": "tiktok-agent-publisher",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.5"
+}
+],
+"remotes": [],
+"repository": "https://github.com/davidmosiah/tiktok-agent-publisher",
+"title": "TikTok Agent Publisher",
+"version": "0.1.5",
+"website": "https://github.com/davidmosiah/tiktok-agent-publisher"
+},
 "truncated": false,
 "url": "https://github.com/davidmosiah/tiktok-agent-publisher/blob/HEAD/README.md"
 },
@@ -6967,6 +7786,31 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "AI content generation, SEO audits, campaign planning & social scheduling.",
+"name": "io.github.dingdawg/dingdawg-marketing-agent",
+"packages": [
+{
+"env": [
+{
+"description": "API key for paid tier access — get free at dingdawg.com",
+"name": "DINGDAWG_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "dingdawg-marketing-agent",
+"transport": "stdio",
+"type": "npm",
+"version": "2.0.6"
+}
+],
+"remotes": [],
+"repository": "https://github.com/dingdawg/dingdawg-agent-1",
+"title": null,
+"version": "2.0.6",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/dingdawg/dingdawg-agent-1/blob/HEAD/README.md"
 },
@@ -7017,6 +7861,28 @@
 },
 "truncated": false,
 "url": "https://github.com/dragnoir/Shopify-Theme-Inspector-MCP/blob/HEAD/README.md"
+},
+"mcp-io-github-dunctk-marketing-manager-jobs": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Live marketing manager jobs, remote openings, salary transparency and hiring research.",
+"name": "io.github.dunctk/marketing-manager-jobs",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://marketingmanagerjobs.com/mcp"
+}
+],
+"repository": null,
+"title": "Marketing Manager Jobs",
+"version": "1.0.0",
+"website": "https://marketingmanagerjobs.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.dunctk/marketing-manager-jobs&version=latest"
 },
 "mcp-io-github-felixanhalt-figma-context-mcp": {
 "file": "data/originals/mcp-io-github-felixanhalt-figma-context-mcp.md",
@@ -7106,6 +7972,31 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.",
+"name": "io.github.fruggr/zendesk-mcp-server",
+"packages": [
+{
+"env": [
+{
+"description": "Zendesk subdomain, used when no positional subdomain argument is given.",
+"name": "ZENDESK_SUBDOMAIN",
+"required": null,
+"secret": null
+}
+],
+"id": "@fruggr/zendesk-mcp-server",
+"transport": "stdio",
+"type": "npm",
+"version": "3.5.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/fruggr/zendesk-mcp-server",
+"title": null,
+"version": "3.5.0",
+"website": "https://github.com/fruggr/zendesk-mcp-server#readme"
+},
 "truncated": false,
 "url": "https://github.com/fruggr/zendesk-mcp-server/blob/HEAD/README.md"
 },
@@ -7172,7 +8063,7 @@
 "id": "ga4-seo-mcp",
 "transport": "stdio",
 "type": "pypi",
-"version": "0.1.0"
+"version": "0.1.2"
 },
 {
 "env": [
@@ -7225,7 +8116,7 @@
 "secret": null
 }
 ],
-"id": "ghcr.io/germaniu/ga4-seo-mcp:0.1.0",
+"id": "ghcr.io/germaniu/ga4-seo-mcp:0.1.2",
 "transport": "stdio",
 "type": "oci",
 "version": null
@@ -7234,7 +8125,7 @@
 "remotes": [],
 "repository": "https://github.com/GermaniU/ga4-seo-mcp",
 "title": "GA4 SEO MCP",
-"version": "0.1.0",
+"version": "0.1.2",
 "website": null
 },
 "truncated": false,
@@ -7245,6 +8136,31 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.",
+"name": "io.github.GLips/Figma-Context-MCP",
+"packages": [
+{
+"env": [
+{
+"description": "Your Figma Personal Access Token, learn more here: https://www.figma.com/developers/api#access-tokens",
+"name": "FIGMA_API_KEY",
+"required": true,
+"secret": true
+}
+],
+"id": "figma-developer-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.13.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/GLips/Figma-Context-MCP",
+"title": null,
+"version": "0.13.2",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/GLips/Figma-Context-MCP/blob/HEAD/README.md"
 },
@@ -7279,6 +8195,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Local MCP server: Zendesk + Freshdesk + Help Scout write tools, one vocabulary.",
+"name": "io.github.headlessherm-creator/helpdesk-mender-mcp",
+"packages": [
+{
+"env": [],
+"id": "helpdesk-mender-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/headlessherm-creator/helpdesk-mender-mcp",
+"title": null,
+"version": "0.1.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/headlessherm-creator/helpdesk-mender-mcp/blob/HEAD/README.md"
 },
@@ -7287,6 +8221,37 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Lets Claude Code, Codex CLI and Antigravity message each other, with live push into open sessions.",
+"name": "io.github.iambashar/agent-intercom",
+"packages": [
+{
+"env": [
+{
+"description": "This agent's mailbox name, e.g. claude, codex or gemini",
+"name": "AGENT_NAME",
+"required": true,
+"secret": null
+},
+{
+"description": "Mailbox folder shared by all agents (default ~/.agent-mail)",
+"name": "AGENT_MAIL_DIR",
+"required": null,
+"secret": null
+}
+],
+"id": "agent-intercom",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.5"
+}
+],
+"remotes": [],
+"repository": "https://github.com/iambashar/agent-intercom",
+"title": "agent-intercom",
+"version": "0.2.5",
+"website": "https://github.com/iambashar/agent-intercom"
+},
 "truncated": false,
 "url": "https://github.com/iambashar/agent-intercom/blob/HEAD/README.md"
 },
@@ -7316,6 +8281,32 @@
 "website": "https://7days.unlavsofts.xyz/services/catalog-check/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Ivansky1/shopify-csv-catalog-check&version=latest"
+},
+"mcp-io-github-jeremdecustovox-custovox-ticket-scorer": {
+"file": "data/originals/mcp-io-github-jeremdecustovox-custovox-ticket-scorer.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "custovox.ai support ticket scoring MCP server: priority, category, sentiment, escalation risk",
+"name": "io.github.jeremdecustovox/custovox-ticket-scorer",
+"packages": [
+{
+"env": [],
+"id": "custovox-ticket-scorer",
+"transport": "stdio",
+"type": "pypi",
+"version": "1.0.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/jeremdecustovox/custovox-ai",
+"title": null,
+"version": "1.0.0",
+"website": "https://custovox.ai"
+},
+"truncated": false,
+"url": "https://github.com/jeremdecustovox/custovox-ai/blob/HEAD/README.md"
 },
 "mcp-io-github-jigarkkarangiya-adobe-commerce-docs-mcp": {
 "kind": "excerpt",
@@ -7365,6 +8356,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Figma/FigJam MCP server with read/write via plugin — no API token, no limits. 78 tools.",
+"name": "io.github.jirayusueb/figma-mcp-rs",
+"packages": [
+{
+"env": [],
+"id": "figma-mcp-rs",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/jirayusueb/figma-mcp-rs",
+"title": null,
+"version": "0.1.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/jirayusueb/figma-mcp-rs/blob/HEAD/README.md"
 },
@@ -7373,6 +8382,45 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "MCP server for Jitbit Helpdesk: search, list, read, and reply to support tickets from AI assistants.",
+"name": "io.github.jitbit/jitbit-helpdesk",
+"packages": [
+{
+"env": [
+{
+"description": "Base URL of your Jitbit Helpdesk instance",
+"name": "JITBIT_URL",
+"required": true,
+"secret": null
+},
+{
+"description": "API token from your Jitbit user profile",
+"name": "JITBIT_TOKEN",
+"required": true,
+"secret": true
+}
+],
+"id": "jitbit-helpdesk-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "2.0.0"
+}
+],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://{helpdesk_host}/api/mcp"
+}
+],
+"repository": "https://github.com/jitbit/jitbit-helpdesk-mcp",
+"title": "Jitbit Helpdesk",
+"version": "2.0.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/jitbit/jitbit-helpdesk-mcp/blob/HEAD/README.md"
 },
@@ -7405,6 +8453,24 @@
 "kind": "full",
 "label": "readme",
 "license": "CC0-1.0",
+"record": {
+"description": "Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages",
+"name": "io.github.joalavedra/andorra-fonts-publiques",
+"packages": [
+{
+"env": [],
+"id": "fonts-andorra",
+"transport": "stdio",
+"type": "pypi",
+"version": "0.2.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/joalavedra/andorra-fonts-publiques",
+"title": "Andorra public sources",
+"version": "0.2.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md"
 },
@@ -7413,6 +8479,73 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Safe-write Shopify operations: plan-before-execute writes with out-of-band approval and audit.",
+"name": "io.github.jpka/shopify-operations-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "The myshopify.com store domain, e.g. my-store.myshopify.com. Overrides shopify.storeDomain from the config file.",
+"name": "SHOPIFY_STORE_DOMAIN",
+"required": true,
+"secret": null
+},
+{
+"description": "Shopify Admin API access token. Required and only ever read from the environment — never from the config file.",
+"name": "SHOPIFY_ADMIN_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "Path to a config.json with shopify/plans/approvalServer/protectedTags settings. Defaults to ./config.json in the working directory.",
+"name": "SHOPIFY_CONFIG",
+"required": null,
+"secret": null
+},
+{
+"description": "How long a plan token stays valid before it must be executed or expires, in milliseconds. Default 60000.",
+"name": "SHOPIFY_PLAN_TTL_MS",
+"required": null,
+"secret": null
+},
+{
+"description": "Port the localhost human-approval HTTP server binds to (127.0.0.1 only). Default 4319.",
+"name": "SHOPIFY_APPROVAL_SERVER_PORT",
+"required": null,
+"secret": null
+},
+{
+"description": "Comma-separated tags that plans may never modify; any plan touching an item carrying one is refused. Default do-not-touch.",
+"name": "SHOPIFY_PROTECTED_TAGS",
+"required": null,
+"secret": null
+},
+{
+"description": "Identity recorded as the caller on every audit log row. Default unknown.",
+"name": "SHOPIFY_CALLER_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "File path for the tamper-evident JSONL audit log. Default shopify-operations-audit.jsonl in the working directory.",
+"name": "SHOPIFY_AUDIT_PATH",
+"required": null,
+"secret": null
+}
+],
+"id": "shopify-operations-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/jpka/shopify-operations-mcp",
+"title": "shopify-operations-mcp",
+"version": "0.1.2",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/jpka/shopify-operations-mcp/blob/HEAD/README.md"
 },
@@ -7421,6 +8554,55 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Shopify Admin API tools: products, media, orders, customers, inventory, and sales channels",
+"name": "io.github.kisasa/shopify-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Your store's myshopify.com domain",
+"name": "MYSHOPIFY_DOMAIN",
+"required": true,
+"secret": null
+},
+{
+"description": "Client ID of a Dev Dashboard app (use with SHOPIFY_CLIENT_SECRET, or set SHOPIFY_ACCESS_TOKEN instead)",
+"name": "SHOPIFY_CLIENT_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Client secret of a Dev Dashboard app",
+"name": "SHOPIFY_CLIENT_SECRET",
+"required": null,
+"secret": true
+},
+{
+"description": "Static Admin API access token (shpat_...) for legacy custom apps, instead of client ID/secret",
+"name": "SHOPIFY_ACCESS_TOKEN",
+"required": null,
+"secret": true
+},
+{
+"description": "Shopify Admin API version",
+"name": "SHOPIFY_API_VERSION",
+"required": null,
+"secret": null
+}
+],
+"id": "@kisasa/shopify-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/kisasa/shopify-mcp",
+"title": "Shopify",
+"version": "1.1.0",
+"website": "https://github.com/kisasa/shopify-mcp#readme"
+},
 "truncated": false,
 "url": "https://github.com/kisasa/shopify-mcp/blob/HEAD/README.md"
 },
@@ -7448,7 +8630,7 @@
 "website": "https://github.com/kolganovr/figma-mcp-bridge#quickstart"
 },
 "truncated": false,
-"url": "https://github.com/kolganovr/figma-mcp-bridge/blob/HEAD/README.md"
+"url": "https://github.com/kolganovr/mokido/blob/HEAD/README.md"
 },
 "mcp-io-github-kurious8282-moneybug-shopify-billing-integrity": {
 "kind": "excerpt",
@@ -7499,6 +8681,43 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "TikTok organic analytics — video performance, engagement metrics, and profile insights.",
+"name": "io.github.lanternrow/tiktok-organic-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "TikTok OAuth Access Token from Login Kit flow",
+"name": "TIKTOK_ACCESS_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "TikTok App Client Key (for token refresh)",
+"name": "TIKTOK_CLIENT_KEY",
+"required": null,
+"secret": true
+},
+{
+"description": "TikTok Refresh Token (for token renewal)",
+"name": "TIKTOK_REFRESH_TOKEN",
+"required": null,
+"secret": true
+}
+],
+"id": "tiktok-organic-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.1.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/lanternrow/tiktok-organic-mcp",
+"title": null,
+"version": "1.1.1",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/lanternrow/tiktok-organic-mcp/blob/HEAD/README.md"
 },
@@ -7617,6 +8836,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Customer support, live chat, CRM and helpdesk on Crisp with the full official REST API v1 (api.crisp",
+"name": "io.github.mcp-dir/crisp-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.mcp.ai/p_crisp"
+}
+],
+"repository": "https://github.com/mcp-dir/crisp-mcp",
+"title": "Crisp",
+"version": "0.1.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/mcp-dir/crisp-mcp/blob/HEAD/README.md"
 },
@@ -7690,6 +8925,24 @@
 "kind": "full",
 "label": "readme",
 "license": "Apache-2.0",
+"record": {
+"description": "Zendesk MCP server for Claude Code and other MCP clients",
+"name": "io.github.michaelrice/zendesk-mcp",
+"packages": [
+{
+"env": [],
+"id": "zendesk-mcp",
+"transport": "stdio",
+"type": "pypi",
+"version": "0.1.6"
+}
+],
+"remotes": [],
+"repository": "https://github.com/michaelrice/zendesk-mcp",
+"title": null,
+"version": "0.1.6",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md"
 },
@@ -7698,6 +8951,61 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "MCP server for Shopify Admin API with a ComfyUI bridge for AI product image generation.",
+"name": "io.github.miller-joe/shopify-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Store domain, e.g. 'my-store' or 'my-store.myshopify.com'",
+"name": "SHOPIFY_STORE",
+"required": true,
+"secret": null
+},
+{
+"description": "Admin API access token (shpat_...). See README for how to create a custom app on a dev store.",
+"name": "SHOPIFY_ACCESS_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "Shopify GraphQL Admin API version (default: 2026-04)",
+"name": "SHOPIFY_API_VERSION",
+"required": null,
+"secret": null
+},
+{
+"description": "ComfyUI HTTP URL for bridge tools. When unset, generate_* bridge tools are disabled.",
+"name": "COMFYUI_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Externally-reachable ComfyUI URL (defaults to COMFYUI_URL)",
+"name": "COMFYUI_PUBLIC_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Default ComfyUI checkpoint filename for bridge tools (default: sd_xl_base_1.0.safetensors)",
+"name": "COMFYUI_DEFAULT_CKPT",
+"required": null,
+"secret": null
+}
+],
+"id": "@miller-joe/shopify-mcp",
+"transport": "streamable-http",
+"type": "npm",
+"version": "0.1.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/miller-joe/shopify-mcp",
+"title": null,
+"version": "0.1.2",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/miller-joe/shopify-mcp/blob/HEAD/README.md"
 },
@@ -7773,6 +9081,61 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Relays messages between two Claude Code sessions on different machines using the Channels API",
+"name": "io.github.MuhammadTalhaMT/intercom",
+"packages": [
+{
+"env": [
+{
+"description": "Label for this instance, e.g. backend or frontend. Appears in message tags so the other side knows who is talking.",
+"name": "MY_ROLE",
+"required": true,
+"secret": null
+},
+{
+"description": "Address of the other machine as host:port. A Tailscale address is recommended over a public one.",
+"name": "REMOTE_HOST",
+"required": true,
+"secret": null
+},
+{
+"description": "Shared secret authenticating messages between the two instances. Must match on both sides. There is no default: without it the intercom starts unpaired, binds no port, and refuses to send.",
+"name": "INTERCOM_SECRET",
+"required": true,
+"secret": true
+},
+{
+"description": "Port to listen on for incoming messages. Defaults to 8788.",
+"name": "INTERCOM_PORT",
+"required": null,
+"secret": null
+},
+{
+"description": "Interface to bind the listener to. Defaults to 0.0.0.0. Set 127.0.0.1 when a tunnel fronts the intercom, so only the tunnel can connect.",
+"name": "INTERCOM_HOST",
+"required": null,
+"secret": null
+},
+{
+"description": "How long an outbound POST may hang before giving up. Defaults to 10000.",
+"name": "INTERCOM_SEND_TIMEOUT_MS",
+"required": null,
+"secret": null
+}
+],
+"id": "claude-intercom",
+"transport": "stdio",
+"type": "npm",
+"version": "2.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/MuhammadTalhaMT/claude-intercom",
+"title": null,
+"version": "2.1.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md"
 },
@@ -7890,6 +9253,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.",
+"name": "io.github.nntoan/figma-mcp-rust",
+"packages": [
+{
+"env": [],
+"id": "@nntoan/figma-mcp-rust",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/nntoan/figma-mcp-rust",
+"title": null,
+"version": "0.1.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/nntoan/figma-mcp-rust/blob/HEAD/README.md"
 },
@@ -7931,6 +9312,67 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "HubSpot API: 1,000+ endpoints as safety-categorized, hub- and plan-aware MCP tools, stdio or HTTP.",
+"name": "io.github.ohneben/hubspot-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Server transport. Set to 'stdio' for local MCP clients; the image otherwise starts the Streamable HTTP transport.",
+"name": "MCP_TRANSPORT",
+"required": true,
+"secret": null
+},
+{
+"description": "HubSpot service key or legacy private app token (pat-...), from Settings -> Integrations. An OAuth access token also works.",
+"name": "HUBSPOT_ACCESS_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "API host. Default https://api.hubapi.com; use https://api-eu1.hubapi.com for EU data residency portals.",
+"name": "HUBSPOT_BASE_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "'discovery' (default) exposes 3 meta-tools that search, inspect and call all 1,076 endpoints; 'all' exposes the ~690 endpoint tools directly.",
+"name": "HUBSPOT_TOOL_MODE",
+"required": null,
+"secret": null
+},
+{
+"description": "Set to 'true' to expose only read-only tools.",
+"name": "HUBSPOT_READ_ONLY",
+"required": null,
+"secret": null
+},
+{
+"description": "Read the token's scopes and probe paid-tier or beta API groups at startup (read-only, up to about 30 API calls). Set to 'false' to skip.",
+"name": "HUBSPOT_CAPABILITY_CHECK",
+"required": null,
+"secret": null
+},
+{
+"description": "Only for MCP_TRANSPORT=http: bearer token required on /mcp. Without it a non-loopback bind refuses to start.",
+"name": "MCP_AUTH_TOKEN",
+"required": null,
+"secret": true
+}
+],
+"id": "ghcr.io/ohneben/hubspot-mcp:2.0.1",
+"transport": "stdio",
+"type": "oci",
+"version": null
+}
+],
+"remotes": [],
+"repository": "https://github.com/ohneben/Hubspot-MCP",
+"title": "HubSpot",
+"version": "2.0.1",
+"website": "https://github.com/ohneben/Hubspot-MCP#readme"
+},
 "truncated": false,
 "url": "https://github.com/ohneben/Hubspot-MCP/blob/HEAD/README.md"
 },
@@ -7963,6 +9405,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Freshdesk MCP Pack — helpdesk ticket and contact management via Freshdesk API v2.",
+"name": "io.github.pipeworx-io/freshdesk",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gateway.pipeworx.io/freshdesk/mcp"
+}
+],
+"repository": "https://github.com/pipeworx-io/mcp-freshdesk",
+"title": "Freshdesk",
+"version": "0.1.4",
+"website": "https://pipeworx.io/packs/freshdesk"
+},
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-freshdesk/blob/HEAD/README.md"
 },
@@ -7971,6 +9429,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "HubSpot MCP Pack",
+"name": "io.github.pipeworx-io/hubspot",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gateway.pipeworx.io/hubspot/mcp"
+}
+],
+"repository": "https://github.com/pipeworx-io/mcp-hubspot",
+"title": "Hubspot",
+"version": "0.1.2",
+"website": "https://pipeworx.io/packs/hubspot"
+},
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-hubspot/blob/HEAD/README.md"
 },
@@ -7979,6 +9453,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Intercom MCP Pack — contacts, conversations, companies via OAuth.",
+"name": "io.github.pipeworx-io/intercom",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gateway.pipeworx.io/intercom/mcp"
+}
+],
+"repository": "https://github.com/pipeworx-io/mcp-intercom",
+"title": "Intercom",
+"version": "0.1.2",
+"website": "https://pipeworx.io/packs/intercom"
+},
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-intercom/blob/HEAD/README.md"
 },
@@ -8107,6 +9597,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Semrush MCP Pack — SEO analytics via the Semrush Analytics API.",
+"name": "io.github.pipeworx-io/semrush",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gateway.pipeworx.io/semrush/mcp"
+}
+],
+"repository": "https://github.com/pipeworx-io/mcp-semrush",
+"title": "Semrush",
+"version": "0.1.2",
+"website": "https://pipeworx.io/packs/semrush"
+},
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-semrush/blob/HEAD/README.md"
 },
@@ -8139,6 +9645,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Shopify MCP Pack — wraps the Shopify Admin REST API (2024-01)",
+"name": "io.github.pipeworx-io/shopify",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gateway.pipeworx.io/shopify/mcp"
+}
+],
+"repository": "https://github.com/pipeworx-io/mcp-shopify",
+"title": "Shopify",
+"version": "0.1.2",
+"website": "https://pipeworx.io/packs/shopify"
+},
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-shopify/blob/HEAD/README.md"
 },
@@ -8147,6 +9669,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Twilio MCP Pack — send SMS, list messages, make calls via Twilio REST API.",
+"name": "io.github.pipeworx-io/twilio",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gateway.pipeworx.io/twilio/mcp"
+}
+],
+"repository": "https://github.com/pipeworx-io/mcp-twilio",
+"title": "Twilio",
+"version": "0.1.2",
+"website": "https://pipeworx.io/packs/twilio"
+},
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-twilio/blob/HEAD/README.md"
 },
@@ -8155,6 +9693,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Webflow MCP Pack",
+"name": "io.github.pipeworx-io/webflow",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gateway.pipeworx.io/webflow/mcp"
+}
+],
+"repository": "https://github.com/pipeworx-io/mcp-webflow",
+"title": "Webflow",
+"version": "0.1.2",
+"website": "https://pipeworx.io/packs/webflow"
+},
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-webflow/blob/HEAD/README.md"
 },
@@ -8220,6 +9774,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Plan a social campaign calendar across brands and platforms.",
+"name": "io.github.pooriaarab/agentic-campaign",
+"packages": [
+{
+"env": [],
+"id": "agentic-campaign",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/pooriaarab/agentic-campaign",
+"title": null,
+"version": "0.1.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/pooriaarab/agentic-campaign/blob/HEAD/README.md"
 },
@@ -8228,8 +9800,55 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
+"name": "io.github.PostHog/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.posthog.com/mcp"
+},
+{
+"headers": [
+"Authorization"
+],
+"type": "sse",
+"url": "https://mcp.posthog.com/sse"
+}
+],
+"repository": "https://github.com/PostHog/posthog",
+"title": "PostHog MCP Server",
+"version": "1.0.1",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md"
+},
+"mcp-io-github-projectworks007-shopify-store-audits": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Audit Shopify stores: AI readiness, EU customs SKU/GTIN coverage, ScriptTags ending 1 Mar 2027.",
+"name": "io.github.projectworks007/shopify-store-audits",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=highbrow_fame/shopify-script-tag-checker,highbrow_fame/shopify-ai-readiness-audit"
+}
+],
+"repository": "https://github.com/projectworks007/apify-data-mcp",
+"title": "Shopify Store Audits",
+"version": "1.0.0",
+"website": "https://github.com/projectworks007/apify-data-mcp#shopify-store-audits"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.projectworks007/shopify-store-audits&version=latest"
 },
 "mcp-io-github-prometheusagency-shopify-app-store-scraper": {
 "kind": "excerpt",
@@ -8370,6 +9989,61 @@
 "kind": "full",
 "label": "readme",
 "license": "Apache-2.0",
+"record": {
+"description": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
+"name": "io.github.Servosity/hubspot-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Set the HUBSPOT_ACCESS_TOKEN credential for the HubSpot MCP server.",
+"name": "HUBSPOT_ACCESS_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "Base URL for the HubSpot API. Leave the prefilled default unless your account uses a different regional or self-hosted host.",
+"name": "HUBSPOT_BASE_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
+"name": "HUBSPOT_OWNER_EMAIL",
+"required": null,
+"secret": null
+},
+{
+"description": "Bearer token required by `hubspot-mcp --transport http`; unused by the default stdio transport.",
+"name": "HUBSPOT_MCP_HTTP_TOKEN",
+"required": null,
+"secret": true
+},
+{
+"description": "Overrides the User-Agent the CLI sends on HubSpot requests.",
+"name": "HUBSPOT_USER_AGENT",
+"required": null,
+"secret": null
+},
+{
+"description": "Binds this MCP server to one tenant-gated client profile, so every call answers for that customer. Leave blank to use the profile configured as default_client_profile.",
+"name": "PRINTING_PRESS_CLIENT_PROFILE",
+"required": null,
+"secret": null
+}
+],
+"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.4/hubspot-mcp.mcpb",
+"transport": "stdio",
+"type": "mcpb",
+"version": "0.2.4"
+}
+],
+"remotes": [],
+"repository": "https://github.com/servosity/msp-skills",
+"title": "HubSpot MCP",
+"version": "0.2.4",
+"website": null
+},
 "truncated": true,
 "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md"
 },
@@ -8400,6 +10074,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Help agents automatically write and test stories for your UI components.",
+"name": "io.github.storybookjs/addon-mcp",
+"packages": [
+{
+"env": [],
+"id": "@storybook/addon-mcp",
+"transport": "streamable-http",
+"type": "npm",
+"version": "0.6.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/storybookjs/mcp",
+"title": "Storybook MCP Addon",
+"version": "0.6.0",
+"website": "https://storybook.js.org/docs/ai/mcp/overview"
+},
 "truncated": false,
 "url": "https://github.com/storybookjs/mcp/blob/HEAD/README.md"
 },
@@ -8504,6 +10196,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Figma MCP server with full read/write access via plugin bridge — no API token or rate limits.",
+"name": "io.github.tunglt1810/figma-mcp-go",
+"packages": [
+{
+"env": [],
+"id": "@tunglt1810/figma-mcp-go",
+"transport": "stdio",
+"type": "npm",
+"version": "0.6.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/tunglt1810/figma-mcp-go",
+"title": null,
+"version": "0.6.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/tunglt1810/figma-mcp-go/blob/HEAD/README.md"
 },
@@ -8534,6 +10244,24 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Resolves Tailwind CSS design tokens and validates utility classes against the local project config.",
+"name": "io.github.vola-trebla/tailwind-context-resolver-mcp",
+"packages": [
+{
+"env": [],
+"id": "tailwind-context-resolver-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/vola-trebla/tailwind-context-resolver-mcp",
+"title": null,
+"version": "0.2.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/vola-trebla/tailwind-context-resolver-mcp/blob/HEAD/README.md"
 },
@@ -8542,6 +10270,37 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Let Claude create and edit fully editable vector nodes on the Figma canvas.",
+"name": "io.github.workingmodel/figma-vector-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Channel name the Figma plugin joins on the local socket relay (default: figma-vector-mcp)",
+"name": "FVMCP_CHANNEL",
+"required": null,
+"secret": null
+},
+{
+"description": "Port of the local socket relay (default: 3055)",
+"name": "FVMCP_PORT",
+"required": null,
+"secret": null
+}
+],
+"id": "figma-vector-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.3.3"
+}
+],
+"remotes": [],
+"repository": "https://github.com/workingmodel/wm-figma-vector-mcp",
+"title": "Figma Vector MCP",
+"version": "0.3.3",
+"website": "https://www.workingmodel.co/"
+},
 "truncated": false,
 "url": "https://github.com/workingmodel/wm-figma-vector-mcp/blob/HEAD/README.md"
 },
@@ -8550,6 +10309,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "50+ marketing tools. Lead gen, competitive intel, SEO, content research. Pay-per-use via x402.",
+"name": "io.github.xpaysh/marketing",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://marketing.mcp.xpay.sh/mcp?key={api_key}"
+}
+],
+"repository": "https://github.com/xpaysh/mcp-server",
+"title": "xpay Marketing",
+"version": "1.0.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/xpaysh/mcp-server/blob/HEAD/README.md"
 },
@@ -8558,6 +10333,43 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
+"name": "io.github.zachshallbetter/adobe-mcp-aftereffects",
+"packages": [
+{
+"env": [
+{
+"description": "macOS only: address a specific copy, e.g. \"Adobe After Effects 2025\". Default: After Effects by bundle id",
+"name": "AFTEREFFECTS_APP_NAME",
+"required": null,
+"secret": null
+},
+{
+"description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
+"name": "AFTEREFFECTS_ALLOWED_DIRS",
+"required": null,
+"secret": null
+},
+{
+"description": "How long to wait for After Effects before reporting that a dialog may be open. Default 120000",
+"name": "AFTEREFFECTS_SCRIPT_TIMEOUT_MS",
+"required": null,
+"secret": null
+}
+],
+"id": "adobe-mcp-aftereffects",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/zachshallbetter/adobe-mcp",
+"title": "After Effects MCP Server",
+"version": "0.1.0",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
 },
@@ -8566,6 +10378,43 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "DataForSEO MCP wrapper: searchable API docs plus normalized calls to the official server. 4 tools.",
+"name": "io.scalably/dataforseo-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "DataForSEO account login (email) from the dashboard",
+"name": "DATAFORSEO_USERNAME",
+"required": true,
+"secret": true
+},
+{
+"description": "DataForSEO account API password from the dashboard",
+"name": "DATAFORSEO_PASSWORD",
+"required": true,
+"secret": true
+},
+{
+"description": "Test suite only, with NODE_ENV=test: path of a fake child to spawn instead of the upstream server. Never set it in normal use",
+"name": "DATAFORSEO_PROXY_TEST_CHILD",
+"required": null,
+"secret": null
+}
+],
+"id": "@scalably-io/dataforseo-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/scalably-io/dataforseo-mcp",
+"title": "DataForSEO MCP",
+"version": "1.0.1",
+"website": "https://scalably.io/mcp/dataforseo-mcp"
+},
 "truncated": false,
 "url": "https://github.com/scalably-io/dataforseo-mcp/blob/HEAD/README.md"
 },
@@ -8650,6 +10499,50 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Klaviyo MCP: campaigns, flows, segments, metrics, reports, profiles across many accounts. 24 tools.",
+"name": "io.scalably/klaviyo-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Private API key for your main Klaviyo account. Add more accounts with extra KLAVIYO_KEY_<name> variables.",
+"name": "KLAVIYO_KEY_MAIN",
+"required": true,
+"secret": true
+},
+{
+"description": "Klaviyo API base URL, default https://a.klaviyo.com/api",
+"name": "KLAVIYO_API_BASE",
+"required": null,
+"secret": null
+},
+{
+"description": "Base delay in milliseconds for the retry backoff, default 1000",
+"name": "KLAVIYO_RETRY_BASE_MS",
+"required": null,
+"secret": null
+}
+],
+"id": "@scalably-io/klaviyo-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.0"
+},
+{
+"env": [],
+"id": "https://github.com/scalably-io/klaviyo-mcp/releases/download/v1.0.0/klaviyo-mcp.mcpb",
+"transport": "stdio",
+"type": "mcpb",
+"version": null
+}
+],
+"remotes": [],
+"repository": "https://github.com/scalably-io/klaviyo-mcp",
+"title": "Klaviyo MCP",
+"version": "1.0.0",
+"website": "https://scalably.io/mcp/klaviyo-mcp"
+},
 "truncated": false,
 "url": "https://github.com/scalably-io/klaviyo-mcp/blob/HEAD/README.md"
 },
@@ -8658,6 +10551,62 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Read-only Shopify Admin GraphQL MCP: query, introspect, bulk export, ShopifyQL. 6 tools.",
+"name": "io.scalably/shopify-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "JSON object mapping alias to store config for multi-store setups; holds tokens, treat as a secret",
+"name": "SHOPIFY_STORES",
+"required": null,
+"secret": true
+},
+{
+"description": "Single-store admin domain, '<shop>.myshopify.com'; ignored if SHOPIFY_STORES is set",
+"name": "SHOPIFY_SHOP_DOMAIN",
+"required": null,
+"secret": null
+},
+{
+"description": "Dev Dashboard custom-app Client ID; required unless SHOPIFY_ACCESS_TOKEN is set",
+"name": "SHOPIFY_CLIENT_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Dev Dashboard custom-app Client Secret; required unless SHOPIFY_ACCESS_TOKEN is set",
+"name": "SHOPIFY_CLIENT_SECRET",
+"required": null,
+"secret": true
+},
+{
+"description": "Legacy shpat_ access token; alternative to Client ID/Secret",
+"name": "SHOPIFY_ACCESS_TOKEN",
+"required": null,
+"secret": true
+}
+],
+"id": "scalably-shopify-mcp",
+"transport": "stdio",
+"type": "pypi",
+"version": "1.1.0"
+},
+{
+"env": [],
+"id": "https://github.com/scalably-io/shopify-mcp/releases/download/v1.1.0/shopify-mcp.mcpb",
+"transport": "stdio",
+"type": "mcpb",
+"version": null
+}
+],
+"remotes": [],
+"repository": "https://github.com/scalably-io/shopify-mcp",
+"title": "Shopify MCP",
+"version": "1.1.0",
+"website": "https://scalably.io/mcp/shopify-mcp"
+},
 "truncated": false,
 "url": "https://github.com/scalably-io/shopify-mcp/blob/HEAD/README.md"
 },
@@ -8688,6 +10637,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Read tickets, users, orgs, macros and satisfaction ratings; create, update and comment on tickets.",
+"name": "io.usefulapi/zendesk",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://zendesk.usefulapi.io/mcp"
+}
+],
+"repository": "https://github.com/m190/usefulapi-mcp",
+"title": "Zendesk MCP by usefulapi",
+"version": "1.17.0",
+"website": "https://usefulapi.io/zendesk/"
+},
 "truncated": false,
 "url": "https://github.com/m190/usefulapi-mcp/blob/HEAD/README.md"
 },
@@ -8696,6 +10661,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Helpdesk tickets from your AI: find, reply, take, hold, complete — within your own role. OAuth.",
+"name": "kz.tehprof.support/helpdesk",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://support.tehprof.kz/mcp"
+}
+],
+"repository": "https://github.com/tehprof/support-mcp",
+"title": "TehProf.kz Support",
+"version": "2.4.1",
+"website": "https://support.tehprof.kz/help/guides/mcp-setup"
+},
 "truncated": false,
 "url": "https://github.com/tehprof/support-mcp/blob/HEAD/README.md"
 },
@@ -17400,6 +19381,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-3w11htw-sidebar-design-audit": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-3y33ule-fasting-app-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -18122,6 +20110,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-6wmr7uw-nothing-to-watch": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-6xh77zq-doodle-app-icon-maker": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -20046,6 +22041,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-fw9lnh3-x-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-fwg8bp0-newtab": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20355,6 +22357,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-h5od0i1-illuminated-plinko": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-h5wdwir-apple-hardware-dimension-drawings": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -21209,6 +23218,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-l7p44c8-modern-rad-refresh": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-l9294qq-earth-timeline": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -22280,6 +24296,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-pd1kyjp-liquid-button-hover-effect": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-pf04jr1-ai-image-generation-reveal": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -22672,6 +24695,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-r4nkk3e-ai-simulation-dot-visuals": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-r7lof7q-platinum-card-layer-breakdown": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -22973,6 +25003,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-sf6nnvx-macos-lookaway-orb-interaction": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-sfm76e1-markie-dropdown": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -23037,6 +25074,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-snf2gf0-x-toasts": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-sov8eea-art-input-shape-studies": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

@@ -357,6 +357,9 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Brightpearl](servers/brightpearl/) | ecommerce | 29 | API token | [servers/brightpearl/](servers/brightpearl/) |
 | [CharlieHR](servers/charliehr/) | productivity | 31 | API token | [servers/charliehr/](servers/charliehr/) |
 | [FieldPulse](servers/fieldpulse/) | productivity | 47 | API token | [servers/fieldpulse/](servers/fieldpulse/) |
+| [bexio](servers/bexio/) | billing | 32 | OAuth | [servers/bexio/](servers/bexio/) |
+| [Teamleader Focus](servers/teamleader-focus/) | crm | 26 | OAuth | [servers/teamleader-focus/](servers/teamleader-focus/) |
+| [Clio](servers/clio/) | productivity | 24 | OAuth | [servers/clio/](servers/clio/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

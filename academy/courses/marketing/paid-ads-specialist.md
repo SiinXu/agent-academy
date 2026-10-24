@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-23
-updated_at: 2026-10-23T15:04:39Z
+version: 2026-10-24
+updated_at: 2026-10-24T00:46:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -185,7 +185,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @ssavecc/mcp-server
   needs_credentials: true, writes_external: false
-- [mcp] TikTok Ads. TikTok Ads MCP server: 35 read tools, 29 opt-in preview-first writes.
+- [mcp] TikTok Ads. TikTok Ads MCP server: 35 read tools, 30 opt-in preview-first writes.
   source: https://github.com/get-mcp-ads/tiktok-ads-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-getmcpads-tiktok-ads.md
   license: Apache-2.0
