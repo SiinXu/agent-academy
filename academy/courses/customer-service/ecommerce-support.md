@@ -1,8 +1,8 @@
 ---
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-24
-updated_at: 2026-10-24T14:01:07Z
+version: 2026-10-25
+updated_at: 2026-10-25T00:21:53Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/ecommerce-support/
 ---
 
@@ -122,6 +122,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Legal Document Generator Agent Role. Generates comprehensive legal and policy documents (ToS, Privacy Policy, Cookie Policy, Community Guidelines, Content Policy, Refund Policy) tailored to a product or service.
   source: https://prompts.chat/prompts/cmmx2ya3s000hic04l0i60mil_legal-document-generator-agent-role
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-legal-document-generator-agent-role.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Refund Radar. Spots money you're owed: late deliveries, price drops within adjustment windows, failed services, double charges and unused credits, and drafts the claim for each one.
+  source: https://prompts.chat/prompts/clkkz3cxb5iljnrxntohizeyd_refund-radar
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-refund-radar.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

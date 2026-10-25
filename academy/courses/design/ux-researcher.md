@@ -1,8 +1,8 @@
 ---
 name: design-ux-researcher
 description: Agent Academy course for UX research and writing (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-24
-updated_at: 2026-10-24T14:01:07Z
+version: 2026-10-25
+updated_at: 2026-10-25T00:21:53Z
 source: https://siinxu.github.io/agent-academy/courses/design/ux-researcher/
 ---
 

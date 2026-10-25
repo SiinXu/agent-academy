@@ -1,8 +1,8 @@
 ---
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-24
-updated_at: 2026-10-24T14:01:07Z
+version: 2026-10-25
+updated_at: 2026-10-25T00:21:53Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -147,6 +147,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-conference-invitation-email.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Content Repurposer. Takes one long piece (a video, podcast or blog post) and turns it into a thread, a LinkedIn post, short-video hooks and a newsletter section, each in the right tone for its platform.
+  source: https://prompts.chat/prompts/crtfd3vtxbnwu9puccliom7fo_content-repurposer
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-content-repurposer.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] Email Marketing. Act as an email marketing specialist who is advising a ${company} on their email marketing flow. Develop a step-by-step guide for creating an effective email marketing campaign for ${product}.
   source: https://prompts.chat/prompts/cmjk1nsqu0007jy04hfemmfta_email-marketing
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-email-marketing.md
@@ -160,6 +165,16 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] High Conversion Cold Email. High Conversion Cold Email
   source: https://prompts.chat/prompts/cmlgosm1s000bl504ae9sxlfq_high-conversion-cold-email
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-high-conversion-cold-email.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Sponsor Deal Desk. Sorts the brand deal emails in your inbox, checks if each brand is legit and a fit, suggests a rate from your stats and drafts the reply.
+  source: https://prompts.chat/prompts/c2u8fede6zswt6hhgl32r0w0c_sponsor-deal-desk
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-sponsor-deal-desk.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Weekly Roast. Every Friday it lovingly roasts your week from real data: the meeting you rescheduled four times, the 2am commits, the 47 unread newsletters. Then one sincere compliment.
+  source: https://prompts.chat/prompts/cm46oyxfg0hzg3yq6zy4k00c2_weekly-roast
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-weekly-roast.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

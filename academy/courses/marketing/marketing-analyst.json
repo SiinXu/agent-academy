@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-10-24T14:01:07Z",
+ "updated_at": "2026-10-25T00:21:53Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -396,7 +396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56325,
+      "repo_stars": 56376,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -441,7 +441,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56325,
+      "repo_stars": 56376,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -486,7 +486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41627,
+      "repo_stars": 41643,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -531,7 +531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41627,
+      "repo_stars": 41643,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -576,7 +576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41627,
+      "repo_stars": 41643,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -633,6 +633,141 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-apple-store-aso-expert-guide/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-launch-day-watchtower",
+     "title": "Launch Day Watchtower",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Watches X during your product launch: tracks mentions, quote posts and sentiment hour by hour, surfaces questions you should answer, and catches bug reports before they spread.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/c5xdwywpz4rcdtwn5drcynezw_launch-day-watchtower",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-launch-day-watchtower.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/c5xdwywpz4rcdtwn5drcynezw_launch-day-watchtower"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-24"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T00:21:53Z",
+     "updated_at": "2026-10-25T00:21:53Z",
+     "checked_at": "2026-10-25T00:21:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-launch-day-watchtower/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-reverse-engineering-voxs-hybrid-video-strategy",
+     "title": "Reverse-Engineering Vox's Hybrid Video Strategy",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Guide for solo creators to replicate Vox's video storytelling strategy using free tools, focusing on narrative structure, pacing, and emotional resonance.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmowmlpgf0007jp04a6bw8t27_reverse-engineering-voxs-hybrid-video-strategy",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-reverse-engineering-voxs-hybrid-video-strategy.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "janedmentalist",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmowmlpgf0007jp04a6bw8t27_reverse-engineering-voxs-hybrid-video-strategy"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-05-08"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T00:21:53Z",
+     "updated_at": "2026-10-25T00:21:53Z",
+     "checked_at": "2026-10-25T00:21:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-reverse-engineering-voxs-hybrid-video-strategy/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-space-mention-radar",
+     "title": "Space Mention Radar",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Watches X and the web for links to your Spacefast sites and subdomains, then sends a twice-daily report of who shared what, sentiment, and posts worth replying to.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cnqpedm28f6mg0bo3hwf7fete_space-mention-radar",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-space-mention-radar.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cnqpedm28f6mg0bo3hwf7fete_space-mention-radar"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-25"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T00:21:53Z",
+     "updated_at": "2026-10-25T00:21:53Z",
+     "checked_at": "2026-10-25T00:21:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-space-mention-radar/",
      "source": "prompts.chat"
     },
     {
@@ -790,8 +925,8 @@
       ]
      },
      "metrics": {
-      "repo_stars": 40405,
-      "repo_pushed_at": "2026-10-24",
+      "repo_stars": 40414,
+      "repo_pushed_at": "2026-10-25",
       "registry_updated_at": "2026-01-07"
      },
      "course_step": "4-do-it",
@@ -1331,7 +1466,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56325,
+      "repo_stars": 56376,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1376,7 +1511,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56325,
+      "repo_stars": 56376,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1421,7 +1556,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41627,
+      "repo_stars": 41643,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1466,7 +1601,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41627,
+      "repo_stars": 41643,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1511,7 +1646,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41627,
+      "repo_stars": 41643,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",

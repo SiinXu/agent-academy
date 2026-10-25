@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-24T14:01:07Z",
+ "updated_at": "2026-10-25T00:21:53Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1363,7 +1363,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41627,
+      "repo_stars": 41643,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1423,6 +1423,51 @@
      "source": "prompts.chat"
     },
     {
+     "id": "prompts-chat-comment-section-miner",
+     "title": "Comment Section Miner",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Reads every comment on your videos and posts, and mines them for questions to answer, video ideas, recurring complaints and fans worth thanking.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/c0fq64sthrjspnevjd2j0oyvt_comment-section-miner",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-comment-section-miner.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/c0fq64sthrjspnevjd2j0oyvt_comment-section-miner"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-24"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T00:21:53Z",
+     "updated_at": "2026-10-25T00:21:53Z",
+     "checked_at": "2026-10-25T00:21:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-comment-section-miner/",
+     "source": "prompts.chat"
+    },
+    {
      "id": "prompts-chat-customer-support-reply-drafter-empathy-policy",
      "title": "Customer Support Reply Drafter (Empathy + Policy)",
      "type": "system-prompt",
@@ -1465,6 +1510,51 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-customer-support-reply-drafter-empathy-policy/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-support-inbox-triage",
+     "title": "Support Inbox Triage",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Sorts your customer support inbox by urgency, groups repeat questions, drafts answers from your docs, and sends a daily summary of the top issues customers are hitting.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/c3p8d0x0amnjbqddah3gr2t9m_support-inbox-triage",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-support-inbox-triage.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/c3p8d0x0amnjbqddah3gr2t9m_support-inbox-triage"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-24"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T00:21:53Z",
+     "updated_at": "2026-10-25T00:21:53Z",
+     "checked_at": "2026-10-25T00:21:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-support-inbox-triage/",
      "source": "prompts.chat"
     }
    ]
@@ -1683,7 +1773,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142902,
+      "repo_stars": 142955,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -1728,7 +1818,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30255,
+      "repo_stars": 30261,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2158,13 +2248,13 @@
          "id": "@fruggr/zendesk-mcp-server",
          "transport": "stdio",
          "type": "npm",
-         "version": "3.5.1"
+         "version": "3.5.2"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/fruggr/zendesk-mcp-server",
        "title": null,
-       "version": "3.5.1",
+       "version": "3.5.2",
        "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
       }
      },
@@ -2186,7 +2276,7 @@
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-24T14:01:07Z",
+     "updated_at": "2026-10-25T00:21:53Z",
      "checked_at": "2026-10-22T00:43:10Z",
      "http_status": {
       "source": 200

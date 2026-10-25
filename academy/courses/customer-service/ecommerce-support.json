@@ -2,7 +2,7 @@
  "id": "customer-service/ecommerce-support",
  "industry": "customer-service",
  "role": "ecommerce-support",
- "updated_at": "2026-10-24T14:01:07Z",
+ "updated_at": "2026-10-25T00:21:53Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -907,8 +907,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2309,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 2312,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -952,8 +952,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2309,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 2312,
+      "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1009,6 +1009,51 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-legal-document-generator-agent-role/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-refund-radar",
+     "title": "Refund Radar",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "Spots money you're owed: late deliveries, price drops within adjustment windows, failed services, double charges and unused credits, and drafts the claim for each one.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/clkkz3cxb5iljnrxntohizeyd_refund-radar",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-refund-radar.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/clkkz3cxb5iljnrxntohizeyd_refund-radar"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-24"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T00:21:53Z",
+     "updated_at": "2026-10-25T00:21:53Z",
+     "checked_at": "2026-10-25T00:21:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-refund-radar/",
      "source": "prompts.chat"
     }
    ]

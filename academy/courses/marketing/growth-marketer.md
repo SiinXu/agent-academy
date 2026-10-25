@@ -1,8 +1,8 @@
 ---
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-24
-updated_at: 2026-10-24T14:01:07Z
+version: 2026-10-25
+updated_at: 2026-10-25T00:21:53Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -148,6 +148,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Master Storyteller and Sales Copywriter Prompt. This prompt guides the user to create compelling sales narratives that transform prospects into loyal customers by embedding the product into their identity.
   source: https://prompts.chat/prompts/cmm3yusid0001ie048o71sjvk_master-storyteller-and-sales-copywriter-prompt
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-master-storyteller-and-sales-copywriter-prompt.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Opportunity Validator. Watches X and forums in your niche overnight and each morning brings 3 validated problems people are begging someone to solve, each with a micro-experiment to test demand.
+  source: https://prompts.chat/prompts/cdvuyyq88ii7orppsmcq83ppn_opportunity-validator
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-opportunity-validator.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] sales and marketing strategy. I am the proprietor of a company with an in-house sheet metal manufacturing facility. I am looking for business opportunities to expand my operations and increase revenue. I am interested in lead generation, business dev

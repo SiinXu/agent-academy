@@ -165,7 +165,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Eventbrite](servers/eventbrite/) | ecommerce | 30 | API token | [servers/eventbrite/](servers/eventbrite/) |
 | [Less Annoying CRM](servers/less-annoying-crm/) | crm | 27 | API token | [servers/less-annoying-crm/](servers/less-annoying-crm/) |
 | [Workiz](servers/workiz/) | productivity | 23 | API token | [servers/workiz/](servers/workiz/) |
-| [Depot](servers/depot/) | devops | 26 | API token | [servers/depot/](servers/depot/) |
+| [Depot](servers/depot/) | devops | 28 | API token | [servers/depot/](servers/depot/) |
 | [Mindbody](servers/mindbody/) | calendar | 24 | API token | [servers/mindbody/](servers/mindbody/) |
 | [Buildium](servers/buildium/) | productivity | 27 | API token | [servers/buildium/](servers/buildium/) |
 | [Housecall Pro](servers/housecall-pro/) | productivity | 29 | API token | [servers/housecall-pro/](servers/housecall-pro/) |
@@ -391,6 +391,38 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [AiSensy](servers/aisensy/) | communications | 20 | API token | [servers/aisensy/](servers/aisensy/) |
 | [Shippit](servers/shippit/) | shipping | 16 | API token | [servers/shippit/](servers/shippit/) |
 | [Bilflo](servers/bilflo/) | billing | 30 | API token | [servers/bilflo/](servers/bilflo/) |
+| [Bidsketch](servers/bidsketch/) | productivity | 33 | API token | [servers/bidsketch/](servers/bidsketch/) |
+| [CentralStationCRM](servers/centralstationcrm/) | crm | 37 | API token | [servers/centralstationcrm/](servers/centralstationcrm/) |
+| [Chaport](servers/chaport/) | chat | 18 | API token | [servers/chaport/](servers/chaport/) |
+| [Africa's Talking](servers/africas-talking/) | communications | 14 | API token | [servers/africas-talking/](servers/africas-talking/) |
+| [Awtomic](servers/awtomic/) | ecommerce | 25 | API token | [servers/awtomic/](servers/awtomic/) |
+| [Bind ERP](servers/bind-erp/) | billing | 30 | API token | [servers/bind-erp/](servers/bind-erp/) |
+| [Click2Mail](servers/click2mail/) | direct-mail | 26 | API token | [servers/click2mail/](servers/click2mail/) |
+| [CXT Software](servers/cxt-software/) | shipping | 18 | API token | [servers/cxt-software/](servers/cxt-software/) |
+| [Device Magic](servers/device-magic/) | productivity | 21 | API token | [servers/device-magic/](servers/device-magic/) |
+| [Enginemailer](servers/enginemailer/) | email | 21 | API token | [servers/enginemailer/](servers/enginemailer/) |
+| [Eventee](servers/eventee/) | productivity | 22 | API token | [servers/eventee/](servers/eventee/) |
+| [GivingFuel](servers/givingfuel/) | fundraising | 19 | API token | [servers/givingfuel/](servers/givingfuel/) |
+| [Lalamove](servers/lalamove/) | shipping | 14 | API token | [servers/lalamove/](servers/lalamove/) |
+| [HotelRunner](servers/hotelrunner/) | calendar | 12 | API token | [servers/hotelrunner/](servers/hotelrunner/) |
+| [Jet HR](servers/jet-hr/) | productivity | 37 | API token | [servers/jet-hr/](servers/jet-hr/) |
+| [kiwiHR](servers/kiwihr/) | productivity | 34 | API token | [servers/kiwihr/](servers/kiwihr/) |
+| [MoonClerk](servers/moonclerk/) | payments | 10 | API token | [servers/moonclerk/](servers/moonclerk/) |
+| [ReferralHero](servers/referralhero/) | marketing | 32 | API token | [servers/referralhero/](servers/referralhero/) |
+| [Revamp CRM](servers/revamp-crm/) | crm | 23 | API token | [servers/revamp-crm/](servers/revamp-crm/) |
+| [Rinkel](servers/rinkel/) | communications | 31 | API token | [servers/rinkel/](servers/rinkel/) |
+| [Safefood 360](servers/safefood-360/) | productivity | 21 | API token | [servers/safefood-360/](servers/safefood-360/) |
+| [Schedule it](servers/schedule-it/) | calendar | 19 | API token | [servers/schedule-it/](servers/schedule-it/) |
+| [splose](servers/splose/) | healthcare | 40 | API token | [servers/splose/](servers/splose/) |
+| [StoreRocket](servers/storerocket/) | ecommerce | 10 | API token | [servers/storerocket/](servers/storerocket/) |
+| [vintrace](servers/vintrace/) | productivity | 38 | API token | [servers/vintrace/](servers/vintrace/) |
+| [Vision6](servers/vision6/) | email | 27 | API token | [servers/vision6/](servers/vision6/) |
+| [WaiverFile](servers/waiverfile/) | productivity | 21 | API token | [servers/waiverfile/](servers/waiverfile/) |
+| [Instamojo](servers/instamojo/) | payments | 13 | API token | [servers/instamojo/](servers/instamojo/) |
+| [Stuart](servers/stuart/) | shipping | 19 | API token | [servers/stuart/](servers/stuart/) |
+| [GoCanvas](servers/gocanvas/) | productivity | 27 | API token | [servers/gocanvas/](servers/gocanvas/) |
+| [Axis LMS](servers/axis-lms/) | productivity | 48 | API token | [servers/axis-lms/](servers/axis-lms/) |
+| [Bookingmood](servers/bookingmood/) | calendar | 25 | API token | [servers/bookingmood/](servers/bookingmood/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

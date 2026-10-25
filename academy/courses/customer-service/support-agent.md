@@ -1,8 +1,8 @@
 ---
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-24
-updated_at: 2026-10-24T14:01:07Z
+version: 2026-10-25
+updated_at: 2026-10-25T00:21:53Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -157,9 +157,19 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-ai-customer-support-specialist.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Comment Section Miner. Reads every comment on your videos and posts, and mines them for questions to answer, video ideas, recurring complaints and fans worth thanking.
+  source: https://prompts.chat/prompts/c0fq64sthrjspnevjd2j0oyvt_comment-section-miner
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-comment-section-miner.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] Customer Support Reply Drafter (Empathy + Policy). Drafts support replies that stay warm, accurate, and policy-safe.
   source: https://prompts.chat/prompts/cmuvobkhb0004l307voj326w7_customer-support-reply-drafter-empathy-policy
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-customer-support-reply-drafter-empathy-policy.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Support Inbox Triage. Sorts your customer support inbox by urgency, groups repeat questions, drafts answers from your docs, and sends a daily summary of the top issues customers are hitting.
+  source: https://prompts.chat/prompts/c3p8d0x0amnjbqddah3gr2t9m_support-inbox-triage
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-support-inbox-triage.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

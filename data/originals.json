@@ -4093,6 +4093,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Find what to fix on a public website, for search engines and for AI answers.",
+"name": "app.openkrill/seo-audit",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seoaudit.openkrill.app/mcp"
+}
+],
+"repository": "https://github.com/nguyenhieuec/agent-tools-plugins",
+"title": "SEO Audit",
+"version": "1.7.0",
+"website": "https://tools.openkrill.app/"
+},
 "truncated": false,
 "url": "https://github.com/nguyenhieuec/agent-tools-plugins/blob/HEAD/README.md"
 },
@@ -4599,6 +4615,85 @@
 "kind": "full",
 "label": "readme",
 "license": "Apache-2.0",
+"record": {
+"description": "TikTok Ads MCP server: 35 read tools, 30 opt-in preview-first writes.",
+"name": "com.getmcpads/tiktok-ads",
+"packages": [
+{
+"env": [
+{
+"description": "TikTok Business API access token.",
+"name": "TIKTOK_ACCESS_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "App ID the token belongs to.",
+"name": "TIKTOK_APP_ID",
+"required": true,
+"secret": null
+},
+{
+"description": "Comma-separated advertiser IDs this server may access. Recommended; required from 3.0.0.",
+"name": "TIKTOK_ADVERTISER_IDS",
+"required": null,
+"secret": null
+},
+{
+"description": "App secret, for endpoints needing app authentication.",
+"name": "TIKTOK_APP_SECRET",
+"required": null,
+"secret": true
+},
+{
+"description": "Default advertiser ID. When TIKTOK_ADVERTISER_IDS is set, must be one of them.",
+"name": "TIKTOK_ADVERTISER_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Default Business Center ID, for Business Center scoped reads.",
+"name": "TIKTOK_BC_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Alias of TIKTOK_BC_ID, read when TIKTOK_BC_ID is unset.",
+"name": "TIKTOK_BUSINESS_CENTER_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "true exposes 30 write tools. Defaults to false. Calls preview unless confirm is true.",
+"name": "TIKTOK_ENABLE_WRITES",
+"required": null,
+"secret": null
+},
+{
+"description": "production (default) or sandbox. Sandbox binds every call to one advertiser ID.",
+"name": "TIKTOK_ENVIRONMENT",
+"required": null,
+"secret": null
+},
+{
+"description": "debug, info (default), warn or error. Logs go to stderr.",
+"name": "LOG_LEVEL",
+"required": null,
+"secret": null
+}
+],
+"id": "@getmcpads/tiktok-ads-mcp-server",
+"transport": "stdio",
+"type": "npm",
+"version": "2.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
+"title": "TikTok Ads",
+"version": "2.1.0",
+"website": "https://www.getmcpads.com/tools/tiktok-ads"
+},
 "truncated": false,
 "url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server/blob/HEAD/README.md"
 },
@@ -5311,6 +5406,28 @@
 "website": "https://nuxtseo.com/docs/nuxt-seo/guides/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nuxtseo/nuxt-seo&version=latest"
+},
+"mcp-com-onrender-shopify-launch-watch-shopify-launch-watch": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "See what Shopify competitors launched this week, from products.json. $0.01/store via x402.",
+"name": "com.onrender.shopify-launch-watch/shopify-launch-watch",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://shopify-launch-watch.onrender.com/mcp"
+}
+],
+"repository": null,
+"title": "Shopify launch watch for e-commerce agents (x402)",
+"version": "0.2.0",
+"website": "https://shopify-launch-watch.onrender.com/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.onrender.shopify-launch-watch/shopify-launch-watch&version=latest"
 },
 "mcp-com-oskivo-shopify": {
 "kind": "excerpt",
@@ -6116,6 +6233,30 @@
 "kind": "full",
 "label": "readme",
 "license": "Apache-2.0",
+"record": {
+"description": "Free Google Search Console MCP: your real GSC, Google Analytics and keyword data for AI agents.",
+"name": "dev.seoskill/seo",
+"packages": [
+{
+"env": [],
+"id": "seo",
+"transport": "stdio",
+"type": "npm",
+"version": "0.5.0"
+}
+],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seoskill.dev/mcp"
+}
+],
+"repository": "https://github.com/iannuttall/seo",
+"title": "SEO Skill",
+"version": "0.5.0",
+"website": "https://seoskill.dev"
+},
 "truncated": false,
 "url": "https://github.com/iannuttall/seo/blob/HEAD/README.md"
 },
@@ -6192,6 +6333,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "SEO layer for agents: research, content, QA, approvals and publishing via MCP OAuth.",
+"name": "help.odiseo/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://www.odiseo.help/api/mcp"
+}
+],
+"repository": "https://github.com/odiseohelp-app/cli",
+"title": "Odiseo",
+"version": "0.1.0",
+"website": "https://odiseo.help/mcp"
+},
 "truncated": false,
 "url": "https://github.com/odiseohelp-app/cli/blob/HEAD/README.md"
 },
@@ -6841,6 +6998,16 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Plan campaigns, score offers explainably, and enforce offer-cited tactics before spending.",
+"name": "io.github.AxelVerneBooks/marketing-scope-mcp",
+"packages": [],
+"remotes": [],
+"repository": "https://github.com/AxelVerneBooks/marketing-scope-mcp",
+"title": "Marketing Scope",
+"version": "0.1.0",
+"website": "https://axelverne.com/"
+},
 "truncated": false,
 "url": "https://github.com/AxelVerneBooks/marketing-scope-mcp/blob/HEAD/README.md"
 },
@@ -7432,6 +7599,22 @@
 "kind": "full",
 "label": "readme",
 "license": "MIT",
+"record": {
+"description": "Full SEO audits, content analysis, and domain overviews - on-page, technical, and authority metrics",
+"name": "io.github.DataLeadsPRO/seo-audit-content",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://data.dataleads.pro/mcp/seo-audit-content"
+}
+],
+"repository": "https://github.com/DataLeadsPRO/seo-audit-content",
+"title": null,
+"version": "1.0.1",
+"website": null
+},
 "truncated": false,
 "url": "https://github.com/DataLeadsPRO/seo-audit-content/blob/HEAD/README.md"
 },
@@ -7827,13 +8010,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.5.1"
+"version": "3.5.2"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.5.1",
+"version": "3.5.2",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -10463,7 +10646,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.20.0",
+"version": "1.21.0",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": false,

@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-24
-updated_at: 2026-10-24T14:01:07Z
+version: 2026-10-25
+updated_at: 2026-10-25T00:21:53Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 
@@ -98,6 +98,21 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Apple Store ASO Expert Guide. Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.
   source: https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Launch Day Watchtower. Watches X during your product launch: tracks mentions, quote posts and sentiment hour by hour, surfaces questions you should answer, and catches bug reports before they spread.
+  source: https://prompts.chat/prompts/c5xdwywpz4rcdtwn5drcynezw_launch-day-watchtower
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-launch-day-watchtower.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Reverse-Engineering Vox's Hybrid Video Strategy. Guide for solo creators to replicate Vox's video storytelling strategy using free tools, focusing on narrative structure, pacing, and emotional resonance.
+  source: https://prompts.chat/prompts/cmowmlpgf0007jp04a6bw8t27_reverse-engineering-voxs-hybrid-video-strategy
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-reverse-engineering-voxs-hybrid-video-strategy.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Space Mention Radar. Watches X and the web for links to your Spacefast sites and subdomains, then sends a twice-daily report of who shared what, sentiment, and posts worth replying to.
+  source: https://prompts.chat/prompts/cnqpedm28f6mg0bo3hwf7fete_space-mention-radar
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-space-mention-radar.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] The Lovelyline. Act as an expert brand copywriter and life coach. I am launching a brand called 'Lovely Line'. The core of the brand is a minimalist line-art character that shares daily philosophical thoughts, storytelling, and life-coa
