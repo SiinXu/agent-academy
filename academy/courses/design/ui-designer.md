@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,12 +94,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1510 items
+- minimal: 1525 items
 - motion: 645 items
-- 3d: 623 items
+- 3d: 625 items
 - editorial: 591 items
-- playful: 543 items
-- gradient: 283 items
+- playful: 544 items
+- gradient: 284 items
 - retro: 116 items
 - dark-tech: 107 items
 - glass: 56 items
@@ -176,6 +176,10 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://www.21hrs.space/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [style-library] 21st-dev-agent-elements. Listed in awesome-shadcn-ui: Open-source registry of agent UI primitives — chat shell, tool-call cards (Bash, Edit, Search, Todo, Plan), clarifying questions, input bar, streaming markdown. Built on React 19, Tailwind v4
+  source: https://agent-elements.21st.dev
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] 21st.dev. Community component marketplace
   source: https://21st.dev/
   license: see source (listed via UI Hub)
@@ -206,10 +210,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 3D Image Globe. A floating gallery of polaroid-style images forms an interactive 3D sphere on a white background, letting you upload your own images and project them onto the globe.
   source: https://x.com/gabriell_lab/status/2067542058957406217
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 3D Neon Logos. AI-generated 3D renders transforming iconic brand logos into realistic glowing neon tube signs, showcasing McDonald's, Airbnb, Spotify, and Grok with cinematic studio lighting on black backgrounds.
-  source: https://x.com/doganuraldesign/status/2088750386605916429
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

@@ -2,7 +2,7 @@
 name: marketing-product-marketer
 description: Agent Academy course for Product marketing (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/product-marketer/
 ---
 
@@ -99,6 +99,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Landing Page Copy Architect – Conversion Framework Prompt. Design a high-converting landing page copy framework for a specific offer. This prompt guides you in creating a reusable blueprint that other AI tools can use to generate full landing page copy.
   source: https://prompts.chat/prompts/cmm7aph8m0001le04izoojs6t_landing-page-copy-architect-conversion-framework-prompt
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-landing-page-copy-architect-conversion-framework-prompt.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Launch Checklist Captain. Runs your product launch checklist: assets, copy, channels, owners and day-of timeline.
+  source: https://prompts.chat/prompts/ctlf39upzh2wlklda0txib32p_launch-checklist-captain
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-launch-checklist-captain.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Marketing Mastermind for Product Promotion. Act as a marketing expert to help plan regular marketing activities and agent strategies after receiving product pricing and market value information.

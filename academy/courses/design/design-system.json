@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-10-25T00:21:53Z",
+ "updated_at": "2026-10-25T14:23:36Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -432,6 +432,72 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-documentation-expert/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-art-direction-web-designer",
+     "title": "Art-Direction Web Designer",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Paste your URL or describe your product: it picks a real art direction for your brand, counts every AI-template tell and rebuilds the page so it looks designed.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/art-direction-web-designer",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "SRKDAN",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/art-direction-web-designer",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/Uee0xHoPqejKtkiWYVBYG",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "coding-shipping",
+       "creator": "SRKDAN",
+       "firstSeen": "2026-10-25",
+       "integrations": [],
+       "name": "Art-Direction Web Designer",
+       "official": false,
+       "page": "https://botsdots.site/templates/art-direction-web-designer",
+       "risk": "low",
+       "summary": "Paste your URL or describe your product: it picks a real art direction for your brand, counts every AI-template tell and rebuilds the page so it looks designed."
+      }
+     },
+     "install": "https://x.ai/bot/Uee0xHoPqejKtkiWYVBYG",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 9,
+      "first_seen_catalog": "2026-10-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-art-direction-web-designer/",
      "source": "botsdots"
     },
     {
@@ -1215,52 +1281,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-twilio-paste/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-wx-miniprogram-design",
-     "title": "WeChat Mini Program design guide",
-     "type": "design-system",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "Official interaction and visual principles for WeChat mini-programs",
-     "summary_lang": "en",
-     "source_url": "https://developers.weixin.qq.com/miniprogram/design/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Tencent",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-wx-miniprogram-design/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1344,7 +1364,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183510,
+      "repo_stars": 183665,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1389,7 +1409,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183510,
+      "repo_stars": 183665,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1434,7 +1454,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1479,7 +1499,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1524,7 +1544,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -1569,7 +1589,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1614,7 +1634,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1659,7 +1679,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1704,7 +1724,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1749,7 +1769,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1794,7 +1814,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1839,7 +1859,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1884,7 +1904,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1949,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1974,7 +1994,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25999,
+      "repo_stars": 26027,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2489,6 +2509,51 @@
      "source": "prompts.chat"
     },
     {
+     "id": "prompts-chat-design-system-drift-detector",
+     "title": "Design System Drift Detector",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Finds places in the codebase that ignore your design tokens and components.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cat66kzwum45vqy2lvdbmonh3_design-system-drift-detector",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-drift-detector.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cat66kzwum45vqy2lvdbmonh3_design-system-drift-detector"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-24"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-design-system-drift-detector/",
+     "source": "prompts.chat"
+    },
+    {
      "id": "uihub-ued-google-design-md",
      "title": "DESIGN.md format spec (Google)",
      "type": "standard",
@@ -2669,52 +2734,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-high-end-technology-inspired-website-ui-redesign/",
      "source": "prompts.chat"
-    },
-    {
-     "id": "uihub-ued-m3-color-roles",
-     "title": "Material 3 color roles",
-     "type": "standard",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "The reference for semantic color roles such as primary, on-primary and container",
-     "summary_lang": "en",
-     "source_url": "https://m3.material.io/styles/color/roles",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Google",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-m3-color-roles/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -2752,7 +2771,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142955,
+      "repo_stars": 143001,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2797,7 +2816,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "4-do-it",
@@ -3428,7 +3447,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -3473,7 +3492,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -3518,7 +3537,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -3563,7 +3582,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -3608,7 +3627,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -3653,7 +3672,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -3698,7 +3717,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -3743,7 +3762,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -3788,7 +3807,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -3833,7 +3852,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -3878,7 +3897,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25999,
+      "repo_stars": 26027,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

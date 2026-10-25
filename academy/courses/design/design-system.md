@@ -2,7 +2,7 @@
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-system/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1510 items
+- minimal: 1525 items
 - motion: 645 items
-- 3d: 623 items
+- 3d: 625 items
 - editorial: 591 items
-- playful: 543 items
-- gradient: 283 items
+- playful: 544 items
+- gradient: 284 items
 - retro: 116 items
 - dark-tech: 107 items
 - glass: 56 items
@@ -87,6 +87,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/JjLTs-HzmZyOmhxef2k2l
   needs_credentials: true, writes_external: false
+- [template] Art-Direction Web Designer. Paste your URL or describe your product: it picks a real art direction for your brand, counts every AI-template tell and rebuilds the page so it looks designed.
+  source: https://botsdots.site/templates/art-direction-web-designer
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Uee0xHoPqejKtkiWYVBYG
+  needs_credentials: false, writes_external: false
 - [design-system] Adobe Spectrum. The design language across Adobe’s product suite
   source: https://spectrum.adobe.com/
   license: see source (listed via UI Hub)
@@ -153,10 +158,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [design-system] Twilio Paste. Twilio’s public design system with well-structured component docs
   source: https://paste.twilio.design/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [design-system] WeChat Mini Program design guide. Official interaction and visual principles for WeChat mini-programs
-  source: https://developers.weixin.qq.com/miniprogram/design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -305,6 +306,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-consistency-auditor.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Design System Drift Detector. Finds places in the codebase that ignore your design tokens and components.
+  source: https://prompts.chat/prompts/cat66kzwum45vqy2lvdbmonh3_design-system-drift-detector
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-drift-detector.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [standard] DESIGN.md format spec (Google). Google’s DESIGN.md format: tokens in YAML, design intent in Markdown
   source: https://github.com/google-labs-code/design.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md
@@ -322,10 +328,6 @@ Read the required skills, prompts and standards in order.
   source: https://prompts.chat/prompts/cmobfhjz3000el1043ccbflbw_high-end-technology-inspired-website-ui-redesign
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-high-end-technology-inspired-website-ui-redesign.md
   license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [standard] Material 3 color roles. The reference for semantic color roles such as primary, on-primary and container
-  source: https://m3.material.io/styles/color/roles
-  license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it

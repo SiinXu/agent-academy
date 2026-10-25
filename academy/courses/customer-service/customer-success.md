@@ -2,7 +2,7 @@
 name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/customer-success/
 ---
 
@@ -85,17 +85,16 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-customer-success-ma.md
   license: MIT
   needs_credentials: false, writes_external: false
+- [system-prompt] Churn Signal Spotter. Spots accounts showing early churn signals so customer success can reach out before renewal.
+  source: https://prompts.chat/prompts/csblqtm7ggzgbwdrroo6suh9a_churn-signal-spotter
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-churn-signal-spotter.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [skill] customer-escalation. Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to ch
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-escalation
-  needs_credentials: false, writes_external: false
-- [skill] customer-research. Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously to
-  source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md.md
-  license: Apache-2.0
-  install: npx skills add anthropics/knowledge-work-plugins --skill customer-research
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it

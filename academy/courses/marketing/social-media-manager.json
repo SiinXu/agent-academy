@@ -2,7 +2,7 @@
  "id": "marketing/social-media-manager",
  "industry": "marketing",
  "role": "social-media-manager",
- "updated_at": "2026-10-25T00:21:53Z",
+ "updated_at": "2026-10-25T14:23:36Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -443,6 +443,83 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-social-media-manager-dqao",
+     "title": "Social Media Manager",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Runs your brand's Instagram and X: content calendar, visuals, scheduled posting from a signed-in browser after your approval, and every live link sent back.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-media-manager-dqao",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "vishuu_js",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/social-media-manager-dqao",
+      "record": {
+       "access": [
+        "calendar",
+        "browser",
+        "chat",
+        "publishing"
+       ],
+       "add": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "vishuu_js",
+       "firstSeen": "2026-10-25",
+       "integrations": [
+        "instagram",
+        "browser"
+       ],
+       "name": "Social Media Manager",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-media-manager-dqao",
+       "risk": "high",
+       "summary": "Runs your brand's Instagram and X: content calendar, visuals, scheduled posting from a signed-in browser after your approval, and every live link sent back."
+      }
+     },
+     "install": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": [
+       "instagram",
+       "browser"
+      ]
+     },
+     "metrics": {
+      "score": 9,
+      "first_seen_catalog": "2026-10-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-dqao/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting",
      "title": "Social Sidekick",
      "type": "template",
@@ -583,6 +660,72 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-social-media-manager-jh9r",
+     "title": "Social Media Manager",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Posts in your voice without you living in drafts.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-media-manager-jh9r",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "saburnet33",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/social-media-manager-jh9r",
+      "record": {
+       "access": [
+        "publishing"
+       ],
+       "add": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+       "cadence": "daily",
+       "catalog_sources": [
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "saburnet33",
+       "firstSeen": "2026-10-20",
+       "integrations": [],
+       "name": "Social Media Manager",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-media-manager-jh9r",
+       "risk": "high",
+       "summary": "Posts in your voice without you living in drafts."
+      }
+     },
+     "install": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 5,
+      "first_seen_catalog": "2026-10-20"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-jh9r/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-uniflow-social-agent",
      "title": "UniFlow Social Agent",
      "type": "template",
@@ -609,7 +752,8 @@
        "add": "https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a",
        "cadence": "on-demand",
        "catalog_sources": [
-        "majiayu000/awesome-grok-bot"
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
        ],
        "category": "content-publishing",
        "creator": null,
@@ -636,18 +780,82 @@
       ]
      },
      "metrics": {
-      "score": 2,
+      "score": 5,
       "first_seen_catalog": "2026-10-20"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-19T16:59:16Z",
-     "updated_at": "2026-10-20T15:07:01Z",
+     "updated_at": "2026-10-25T14:23:36Z",
      "checked_at": "2026-10-19T16:59:16Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-uniflow-social-agent/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-social-media-salesperson",
+     "title": "Social Media Salesperson",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-media-salesperson",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "chb2xx",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/social-media-salesperson",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
+       "cadence": "daily",
+       "catalog_sources": [
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "chb2xx",
+       "firstSeen": "2026-10-25",
+       "integrations": [],
+       "name": "Social Media Salesperson",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-media-salesperson",
+       "risk": "low",
+       "summary": "Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review."
+      }
+     },
+     "install": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 4,
+      "first_seen_catalog": "2026-10-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-salesperson/",
      "source": "botsdots"
     }
    ]
@@ -686,7 +894,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56376,
+      "repo_stars": 56455,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -731,7 +939,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56376,
+      "repo_stars": 56455,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -776,7 +984,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56376,
+      "repo_stars": 56455,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -821,7 +1029,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25999,
+      "repo_stars": 26027,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -926,6 +1134,141 @@
      "source": "prompts.chat"
     },
     {
+     "id": "prompts-chat-indie-artist-instagram-caption-generator",
+     "title": "Indie Artist Instagram Caption Generator",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Writes 3 Instagram captions that turn followers into paying fans. Built for indie artists who sell direct to fans on Bandcamp, EVEN.Biz, Bandzoogle, Shopify, or their own site: downloads, vinyl, CDs, merch, and bundles. No streaming links. Built by ArtistVault (artistvault.co), Artist Manager on Autopilot.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmugrhpxr000gjp04di20wcwa_indie-artist-instagram-caption-generator",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-indie-artist-instagram-caption-generator.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "tgainesglobal",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmugrhpxr000gjp04di20wcwa_indie-artist-instagram-caption-generator"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 1,
+      "created_at": "2026-09-25"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-indie-artist-instagram-caption-generator/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-h",
+     "title": "Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And…",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And zero skip rate",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmu0p1286000njl04q18qvg17_act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-hook-engaging-bodyand-st",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-h.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "pmahavir060",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmu0p1286000njl04q18qvg17_act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-hook-engaging-bodyand-st"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-09-14"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-h/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-community-question-router",
+     "title": "Community Question Router",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Watches your Discord or forum for unanswered questions and routes them to the right teammate.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cl6znd1bm7upq1sbcoiujgutn_community-question-router",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-community-question-router.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cl6znd1bm7upq1sbcoiujgutn_community-question-router"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-24"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-community-question-router/",
+     "source": "prompts.chat"
+    },
+    {
      "id": "prompts-chat-create-marketing-videos-for-magnifiscentss",
      "title": "Create Marketing Videos for Magnifiscentss",
      "type": "system-prompt",
@@ -1013,6 +1356,51 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-linkedin-ghostwriter/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-linkedin-summary-crafting-prompt",
+     "title": "LinkedIn Summary Crafting Prompt",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Designed to craft a strong LinkedIn \"About\" section by asking clear questions about your target role, industry, wins, and tone. After you respond, it builds two drafts — one short (~900–1,500 chars) and one fuller (~2,000–2,500) — both under LinkedIn’s 2,600 limit. It can pull from your resume or LinkedIn profile, stays authentic and direct, and adds numbers and keywords naturally for your goals.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cml2q50qo0001l804u0i4t7tk_linkedin-summary-crafting-prompt",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-linkedin-summary-crafting-prompt.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "thanos0000",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cml2q50qo0001l804u0i4t7tk_linkedin-summary-crafting-prompt"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-01-31"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-linkedin-summary-crafting-prompt/",
      "source": "prompts.chat"
     },
     {
@@ -1151,6 +1539,51 @@
      "source": "prompts.chat"
     },
     {
+     "id": "prompts-chat-review-the-social-media-content",
+     "title": "Review the social media content",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "I want to review my social media content. You have 14 years of experience in social media marketing manager. Frame 1: Myth: Pools require massive upfront cash.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmmvu6hq50004kz042d3ua59j_review-the-social-media-content",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-review-the-social-media-content.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "priyalvijay108",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmmvu6hq50004kz042d3ua59j_review-the-social-media-content"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-03-18"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-review-the-social-media-content/",
+     "source": "prompts.chat"
+    },
+    {
      "id": "prompts-chat-senior-crypto-yapper-community-strategist",
      "title": "Senior Crypto Yapper & Community Strategist",
      "type": "system-prompt",
@@ -1193,6 +1626,51 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-senior-crypto-yapper-community-strategist/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-social-media-influencer",
+     "title": "Social Media Influencer",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or YouTube and engage with followers in order to increase brand awareness and promote products or services. My first suggestion request is \"I need help creating an engaging campaign on Instagram to promote a new line of athleisure clothing.\"",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmj1zb1fa009cvl0r6i98q0l9_social-media-influencer",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-social-media-influencer.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "devisasari",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmj1zb1fa009cvl0r6i98q0l9_social-media-influencer"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2025-12-11"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-social-media-influencer/",
      "source": "prompts.chat"
     },
     {
@@ -1329,6 +1807,51 @@
      "source": "prompts.chat"
     },
     {
+     "id": "prompts-chat-text-to-concise-tweets-converter",
+     "title": "Text to Concise Tweets Converter",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "tweetwat",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmtfo4vq10001jl04yem9tu5c_text-to-concise-tweets-converter",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-text-to-concise-tweets-converter.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "kennynah85",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmtfo4vq10001jl04yem9tu5c_text-to-concise-tweets-converter"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-08-30"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-text-to-concise-tweets-converter/",
+     "source": "prompts.chat"
+    },
+    {
      "id": "prompts-chat-vechicle-spareparts-in-sri-lanka",
      "title": "Vechicle Spareparts In sri lanka",
      "type": "system-prompt",
@@ -1371,6 +1894,51 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-vechicle-spareparts-in-sri-lanka/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-youtube-title-tester",
+     "title": "YouTube Title Tester",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Writes and ranks title and thumbnail ideas for your next video.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cff2v2rkfynfa4zrhushwn4xw_youtube-title-tester",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-youtube-title-tester.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cff2v2rkfynfa4zrhushwn4xw_youtube-title-tester"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-25"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-youtube-title-tester/",
      "source": "prompts.chat"
     }
    ]
@@ -1703,7 +2271,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56376,
+      "repo_stars": 56455,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1748,7 +2316,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56376,
+      "repo_stars": 56455,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
@@ -1793,7 +2361,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1838,7 +2406,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1883,7 +2451,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",

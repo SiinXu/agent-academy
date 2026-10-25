@@ -2,7 +2,7 @@
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -38,16 +38,15 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dadANmm6M496kgq3qgBJ3
   needs_credentials: false, writes_external: false
-- [plugin] Marketing plugin (Anthropic knowledge-work-plugins). A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice manag
-  source: https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-marketing.md
-  license: Apache-2.0
-  install: claude plugin marketplace add anthropics/knowledge-work-plugins
-  needs_credentials: false, writes_external: false
-- [template] SEO & AEO Desk. Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Works from a pasted keyword list or your Search Console.
-  source: https://botsdots.site/templates/seo-aeo-desk
+- [template] Dan. Daily marketing manager for a sports fan page: growth plans, ready-to-post text, local fan replies, brand deals and income.
+  source: https://botsdots.site/templates/dan
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
+  install: https://x.ai/bot/7zNjK3LlQ55fGobGVWPQl
+  needs_credentials: false, writes_external: false
+- [template] AI Character Studio. Runs faceless AI influencer characters end to end: scripts with hook options, AI avatar videos, captions, scheduled posting and weekly growth checks.
+  source: https://botsdots.site/templates/ai-character-studio
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/RDa3UxaLxHIts4XVIX73W
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -143,6 +142,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Banner Slogan and Subtext Generator. A senior marketing and art direction assistant that creates minimal, impactful, and conversion-focused banner slogans. It produces a main slogan, an alternative slogan, and subtext for each banner based on the industry, 
   source: https://prompts.chat/prompts/cmue8hu2f0001kz04fqubnkts_banner-slogan-and-subtext-generator
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-banner-slogan-and-subtext-generator.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Content Calendar Keeper. Plans a month of content across channels and reminds you before each post.
+  source: https://prompts.chat/prompts/c86k1sa53c86q8niokz8olek0_content-calendar-keeper
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-content-calendar-keeper.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Master Storyteller and Sales Copywriter Prompt. This prompt guides the user to create compelling sales narratives that transform prospects into loyal customers by embedding the product into their identity.

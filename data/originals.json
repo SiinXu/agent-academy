@@ -204,7 +204,8 @@
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "LadySoleil33",
@@ -217,6 +218,31 @@
 "summary": "Gives your bots an agency team: SEO posts, social posts, client reports, GA4 insights, competitor research and content calendars."
 },
 "url": "https://botsdots.site/templates/agency-pilot"
+},
+"botsdots-ai-character-studio": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"calendar"
+],
+"add": "https://x.ai/bot/RDa3UxaLxHIts4XVIX73W",
+"cadence": "weekly",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot"
+],
+"category": "content-publishing",
+"creator": "jimaggie",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "AI Character Studio",
+"official": false,
+"page": "https://botsdots.site/templates/ai-character-studio",
+"risk": "medium",
+"summary": "Runs faceless AI influencer characters end to end: scripts with hook options, AI avatar videos, captions, scheduled posting and weekly growth checks."
+},
+"url": "https://botsdots.site/templates/ai-character-studio"
 },
 "botsdots-ai-copywriter": {
 "kind": "excerpt",
@@ -249,13 +275,16 @@
 "license": "CC0-1.0",
 "record": {
 "access": [
-"money"
+"chat",
+"money",
+"publishing"
 ],
 "add": "https://x.ai/bot/o4vzg3NeJ18iZj4n64Nop",
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "shawnbuilds",
@@ -268,6 +297,29 @@
 "summary": "Checks how your brand shows up in ChatGPT, Perplexity, Gemini and Google AI Mode, scores every buyer prompt as a win, place or loss."
 },
 "url": "https://botsdots.site/templates/ai-seo-hacker-bot"
+},
+"botsdots-airbnb-host-concierge": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/wa1V3mI4lP2ZodI2frMD-",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot"
+],
+"category": "customer-sales",
+"creator": "Queenity78",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Airbnb Host Concierge",
+"official": false,
+"page": "https://botsdots.site/templates/airbnb-host-concierge",
+"risk": "low",
+"summary": "Five-star guest messaging for short-term rental hosts: welcome and checkout notes, guest replies, house manuals, local guides, listing rewrites, review replies."
+},
+"url": "https://botsdots.site/templates/airbnb-host-concierge"
 },
 "botsdots-ally-k4xn": {
 "kind": "excerpt",
@@ -324,12 +376,15 @@
 "label": "botsdots",
 "license": "CC0-1.0",
 "record": {
-"access": [],
+"access": [
+"publishing"
+],
 "add": "https://x.ai/bot/uMHJk_yjZLpxC0GQfT4aK",
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "MikeysMolecules",
@@ -338,10 +393,35 @@
 "name": "Art Bot",
 "official": false,
 "page": "https://botsdots.site/templates/art-bot",
-"risk": "low",
+"risk": "high",
 "summary": "Artist and creative director that turns your brands into style guides, on-brand images, animations, video edits with music, decks and design critiques."
 },
 "url": "https://botsdots.site/templates/art-bot"
+},
+"botsdots-art-direction-web-designer": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/Uee0xHoPqejKtkiWYVBYG",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "coding-shipping",
+"creator": "SRKDAN",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Art-Direction Web Designer",
+"official": false,
+"page": "https://botsdots.site/templates/art-direction-web-designer",
+"risk": "low",
+"summary": "Paste your URL or describe your product: it picks a real art direction for your brand, counts every AI-template tell and rebuilds the page so it looks designed."
+},
+"url": "https://botsdots.site/templates/art-direction-web-designer"
 },
 "botsdots-av-engineer": {
 "kind": "excerpt",
@@ -381,7 +461,8 @@
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "thejessebarney",
@@ -813,6 +894,29 @@
 },
 "url": "https://botsdots.site/templates/customer-support-idiot-buffer"
 },
+"botsdots-dan": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/7zNjK3LlQ55fGobGVWPQl",
+"cadence": "daily",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "research-briefings",
+"creator": "danseafan",
+"firstSeen": "2026-10-18",
+"integrations": [],
+"name": "Dan",
+"official": false,
+"page": "https://botsdots.site/templates/dan",
+"risk": "low",
+"summary": "Daily marketing manager for a sports fan page: growth plans, ready-to-post text, local fan replies, brand deals and income."
+},
+"url": "https://botsdots.site/templates/dan"
+},
 "botsdots-dex": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -866,6 +970,33 @@
 "summary": "Drop a site, logo, or photo and get finished Figma brand guidelines"
 },
 "url": "https://botsdots.site/templates/documentation-expert"
+},
+"botsdots-family-helpdesk-beta": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"inbox"
+],
+"add": "https://x.ai/bot/tK2_SKTbXA7HgwrM4wALl",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "personal-admin",
+"creator": "hacks_jimm53237",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Family Helpdesk (Beta)",
+"official": false,
+"page": "https://botsdots.site/templates/family-helpdesk-beta",
+"risk": "medium",
+"summary": "Patient help for a parent or grandparent: checks scary texts, emails and letters (scam, real or ignorable), big-print tech steps, alerts you when serious."
+},
+"url": "https://botsdots.site/templates/family-helpdesk-beta"
 },
 "botsdots-family-wordpress-helpdesk": {
 "kind": "excerpt",
@@ -1035,19 +1166,44 @@
 },
 "url": "https://botsdots.site/templates/framecraft"
 },
+"botsdots-fuse": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/XWKWlHRpljLXaBg7jyLXw",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "liam_fallen",
+"firstSeen": "2026-10-18",
+"integrations": [],
+"name": "Fuse",
+"official": false,
+"page": "https://botsdots.site/templates/fuse",
+"risk": "low",
+"summary": "Circuit breaker for paid-media APIs and Ads Manager desktop sessions."
+},
+"url": "https://botsdots.site/templates/fuse"
+},
 "botsdots-geo-blog-desk": {
 "kind": "excerpt",
 "label": "botsdots",
 "license": "CC0-1.0",
 "record": {
 "access": [
-"chat"
+"chat",
+"publishing"
 ],
 "add": "https://x.ai/bot/Dwtuax-TWdmJTveXTke2C",
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "Rananjay_RajW",
@@ -1056,7 +1212,7 @@
 "name": "GEO Blog Desk",
 "official": false,
 "page": "https://botsdots.site/templates/geo-blog-desk",
-"risk": "medium",
+"risk": "high",
 "summary": "Blog desk for founders and marketing teams: researches what your audience asks and writes posts that rank in Google and get cited by AI answer engines."
 },
 "url": "https://botsdots.site/templates/geo-blog-desk"
@@ -1110,6 +1266,31 @@
 },
 "url": "https://botsdots.site/templates/glasser-pyfe"
 },
+"botsdots-glow-picasso-creative-director": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"browser"
+],
+"add": "https://x.ai/bot/FKNsKOj2AaahklQwyI3yr",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot"
+],
+"category": "content-publishing",
+"creator": "Ortix008",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Glow Picasso, Creative Director",
+"official": false,
+"page": "https://botsdots.site/templates/glow-picasso-creative-director",
+"risk": "medium",
+"summary": "Creative director bot that designs premium website visuals (layouts, UI, icons, motion), one polished upgrade per round as desktop and phone mockups."
+},
+"url": "https://botsdots.site/templates/glow-picasso-creative-director"
+},
 "botsdots-google-business-profile-manager": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -1146,7 +1327,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "scottxmetcalf",
@@ -1566,10 +1748,11 @@
 "browser"
 ],
 "add": "https://x.ai/bot/Vept0U8YzUzHHdWCAf2Ri",
-"cadence": "on-demand",
+"cadence": "daily",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "research-briefings",
 "creator": "AlX_SafcN",
@@ -1694,17 +1877,48 @@
 },
 "url": "https://botsdots.site/templates/lobster-agents"
 },
+"botsdots-local-presence-review-desk": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"browser",
+"publishing"
+],
+"add": "https://x.ai/bot/LMA4x9Niu1pwNbbvOgnAb",
+"cadence": "weekly",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "ZyMoProfit",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Local Presence & Review Desk",
+"official": false,
+"page": "https://botsdots.site/templates/local-presence-review-desk",
+"risk": "high",
+"summary": "Weekly check-up for local businesses: your Google profile, new reviews and website basics, with review replies drafted for approval. Never posts on its own."
+},
+"url": "https://botsdots.site/templates/local-presence-review-desk"
+},
 "botsdots-local-seo-specialist": {
 "kind": "excerpt",
 "label": "botsdots",
 "license": "CC0-1.0",
 "record": {
-"access": [],
+"access": [
+"browser"
+],
 "add": "https://x.ai/bot/aIhOidA9l_RZgybHltBNQ",
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "iamjeevanvj",
@@ -1713,7 +1927,7 @@
 "name": "Local SEO Specialist",
 "official": false,
 "page": "https://botsdots.site/templates/local-seo-specialist",
-"risk": "low",
+"risk": "medium",
 "summary": "White-hat local SEO for small businesses: audits your Google Business Profile, reviews, Search Console and site, then gives a ranked action plan."
 },
 "url": "https://botsdots.site/templates/local-seo-specialist"
@@ -2023,6 +2237,29 @@
 },
 "url": "https://botsdots.site/templates/newsletter-desk-inbox-worthy-j0cu"
 },
+"botsdots-newsletter-draft-routine-by-karata": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "research-briefings",
+"creator": "karatademada",
+"firstSeen": "2026-10-23",
+"integrations": [],
+"name": "Newsletter Draft Routine by Karata",
+"official": false,
+"page": "https://botsdots.site/templates/newsletter-draft-routine-by-karata",
+"risk": "low",
+"summary": "Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for you to review."
+},
+"url": "https://botsdots.site/templates/newsletter-draft-routine-by-karata"
+},
 "botsdots-newsletter-writer": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -2078,6 +2315,33 @@
 "summary": "Turns a newsletter issue link into branded social graphics and carousels after you approve the highlights"
 },
 "url": "https://botsdots.site/templates/newsletterbot"
+},
+"botsdots-nichesitewriter": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"inbox"
+],
+"add": "https://x.ai/bot/8vhH00illS1QJRSHK5zXp",
+"cadence": "daily",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "jethrojones",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "NicheSiteWriter",
+"official": false,
+"page": "https://botsdots.site/templates/nichesitewriter",
+"risk": "medium",
+"summary": "Runs your niche content site: researched daily articles, SEO and answer-engine optimization, images, lead-magnet PDFs and newsletter drafts, all after your OK."
+},
+"url": "https://botsdots.site/templates/nichesitewriter"
 },
 "botsdots-noshipsherlock": {
 "kind": "excerpt",
@@ -2401,23 +2665,56 @@
 "label": "botsdots",
 "license": "CC0-1.0",
 "record": {
-"access": [],
+"access": [
+"money"
+],
 "add": "https://x.ai/bot/sYdxK7nHbSR-Ym_N8D3zl",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
-"creator": null,
+"creator": "zekielboii",
 "firstSeen": "2026-10-20",
 "integrations": [],
 "name": "Review Reply Desk",
 "official": false,
 "page": "https://botsdots.site/templates/review-reply-desk",
-"risk": "low",
+"risk": "high",
 "summary": "Drafts honest replies to Google and Facebook reviews in your voice, flags unhappy customers, and drafts review requests after jobs. Never posts without you."
 },
 "url": "https://botsdots.site/templates/review-reply-desk"
+},
+"botsdots-review-reply-desk-adv4": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"code",
+"docs"
+],
+"add": "https://x.ai/bot/-aDV4wi34U-bnLV-mXDG6",
+"cadence": "weekly",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "TheMarkGShow",
+"firstSeen": "2026-10-25",
+"integrations": [
+"notion"
+],
+"name": "Review Reply Desk",
+"official": false,
+"page": "https://botsdots.site/templates/review-reply-desk-adv4",
+"risk": "medium",
+"summary": "Answers every Google and Yelp review for a local business in the owner's voice, flags 1-3 star reviews the same day and sends a weekly trends report."
+},
+"url": "https://botsdots.site/templates/review-reply-desk-adv4"
 },
 "botsdots-review-reply-drafter": {
 "kind": "excerpt",
@@ -2444,6 +2741,33 @@
 "summary": "Draft replies to public reviews from paste."
 },
 "url": "https://botsdots.site/templates/review-reply-drafter"
+},
+"botsdots-roof-ceo": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"code"
+],
+"add": "https://x.ai/bot/mhZNFKgZgtkJmrsK8ucME",
+"cadence": "daily",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "LeeBVining",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Roof CEO",
+"official": false,
+"page": "https://botsdots.site/templates/roof-ceo",
+"risk": "medium",
+"summary": "Marketing team lead for residential roofing companies: runs Meta ad campaigns, creative, lead follow-up and daily storm monitoring through specialist bots."
+},
+"url": "https://botsdots.site/templates/roof-ceo"
 },
 "botsdots-sentinel-nafa": {
 "kind": "excerpt",
@@ -2549,6 +2873,31 @@
 "summary": "Runs the search and AI-answer side of a content program. It finds what people search for and ask, ranks those opportunities into page ideas."
 },
 "url": "https://botsdots.site/templates/seo-aeo-desk-cani"
+},
+"botsdots-seo-content-desk": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [
+"publishing"
+],
+"add": "https://x.ai/bot/TBIgegp1bkoomF5Ivd1Cq",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "RankedAgents",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "SEO Content Desk",
+"official": false,
+"page": "https://botsdots.site/templates/seo-content-desk",
+"risk": "high",
+"summary": "Turns keywords, Search Console data, or a topic into content ideas, writer-ready briefs, and prioritized SEO and AEO fix lists for local bus"
+},
+"url": "https://botsdots.site/templates/seo-content-desk"
 },
 "botsdots-seo-content-desk-seodraft": {
 "kind": "excerpt",
@@ -2760,6 +3109,36 @@
 "summary": "A local SEO specialist that researches SERPs and keyword volumes, finds rank-and-rent opportunities, audits sites for SEO and AEO, and…"
 },
 "url": "https://botsdots.site/templates/serp-specialist-262l"
+},
+"botsdots-shopify-store-assistant": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"inbox",
+"money"
+],
+"add": "https://x.ai/bot/RxSGqoIFihQlRf5vZN5Hi",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "goyabean_eth",
+"firstSeen": "2026-10-25",
+"integrations": [
+"shopify"
+],
+"name": "Shopify Store Assistant",
+"official": false,
+"page": "https://botsdots.site/templates/shopify-store-assistant",
+"risk": "high",
+"summary": "Sets up, runs and grows a Shopify store, from first launch to listings, SEO, email flows, ads, promos, support and fraud checks. Nothing goes live without yes."
+},
+"url": "https://botsdots.site/templates/shopify-store-assistant"
 },
 "botsdots-shopify-store-pulse": {
 "kind": "excerpt",
@@ -2986,6 +3365,113 @@
 },
 "url": "https://botsdots.site/templates/social-media-manager"
 },
+"botsdots-social-media-manager-cfl2": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "dan_spitzwieser",
+"firstSeen": "2026-10-20",
+"integrations": [
+"linkedin",
+"youtube"
+],
+"name": "Social Media Manager",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-manager-cfl2",
+"risk": "low",
+"summary": "Content-Bot für Creator: schreibt kurze Hooks, Text-Posts, Karussell-Entwürfe und Wochenpläne für TikTok, Instagram, YouTube, X und LinkedIn"
+},
+"url": "https://botsdots.site/templates/social-media-manager-cfl2"
+},
+"botsdots-social-media-manager-dqao": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"calendar",
+"browser",
+"chat",
+"publishing"
+],
+"add": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "vishuu_js",
+"firstSeen": "2026-10-25",
+"integrations": [
+"instagram",
+"browser"
+],
+"name": "Social Media Manager",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-manager-dqao",
+"risk": "high",
+"summary": "Runs your brand's Instagram and X: content calendar, visuals, scheduled posting from a signed-in browser after your approval, and every live link sent back."
+},
+"url": "https://botsdots.site/templates/social-media-manager-dqao"
+},
+"botsdots-social-media-manager-jh9r": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [
+"publishing"
+],
+"add": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+"cadence": "daily",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "saburnet33",
+"firstSeen": "2026-10-20",
+"integrations": [],
+"name": "Social Media Manager",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-manager-jh9r",
+"risk": "high",
+"summary": "Posts in your voice without you living in drafts."
+},
+"url": "https://botsdots.site/templates/social-media-manager-jh9r"
+},
+"botsdots-social-media-salesperson": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
+"cadence": "daily",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "chb2xx",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Social Media Salesperson",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-salesperson",
+"risk": "low",
+"summary": "Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review."
+},
+"url": "https://botsdots.site/templates/social-media-salesperson"
+},
 "botsdots-social-media-tracker": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -3041,6 +3527,60 @@
 },
 "url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting"
 },
+"botsdots-socials-henry-manager": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/JKjtbyx4CxCiy-IWjlUQ0",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "Drewfromweb3",
+"firstSeen": "2026-10-25",
+"integrations": [
+"instagram",
+"youtube",
+"tiktok"
+],
+"name": "Socials · Henry - Manager",
+"official": false,
+"page": "https://botsdots.site/templates/socials-henry-manager",
+"risk": "low",
+"summary": "A social media content manager that watches your upload folder for new short-form videos, briefs your TikTok, YouTube Shorts, and Instagram"
+},
+"url": "https://botsdots.site/templates/socials-henry-manager"
+},
+"botsdots-spam-cleaner": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [
+"inbox"
+],
+"add": "https://x.ai/bot/dnqS6y_qSOgmMNZ_dAak1",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "dougdstecklein",
+"firstSeen": "2026-10-25",
+"integrations": [
+"gmail"
+],
+"name": "Spam Cleaner",
+"official": false,
+"page": "https://botsdots.site/templates/spam-cleaner",
+"risk": "medium",
+"summary": "Keeps your Gmail and other webmail free of spam and marketing lists."
+},
+"url": "https://botsdots.site/templates/spam-cleaner"
+},
 "botsdots-sponsor-hunter": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -3052,7 +3592,8 @@
 "add": "https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "karatademada",
@@ -3076,7 +3617,8 @@
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
-"GrokBot.dev (CC BY 4.0)"
+"GrokBot.dev (CC BY 4.0)",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "MichaelHeckert",
@@ -3089,6 +3631,33 @@
 "summary": "Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators."
 },
 "url": "https://botsdots.site/templates/sponsor-scout"
+},
+"botsdots-sponsorship-hunter-tgnk": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"inbox"
+],
+"add": "https://x.ai/bot/t-gNKMTD-GSe0vSRnGDQQ",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "Ved_CJ",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Sponsorship Hunter",
+"official": false,
+"page": "https://botsdots.site/templates/sponsorship-hunter-tgnk",
+"risk": "medium",
+"summary": "Finds verified sponsorship opportunities for creators, newsletter writers, indie hackers and podcasters, ranks them and drafts pitches for you to approve."
+},
+"url": "https://botsdots.site/templates/sponsorship-hunter-tgnk"
 },
 "botsdots-spruce": {
 "kind": "excerpt",
@@ -3291,7 +3860,8 @@
 "add": "https://x.ai/bot/DuELeZImu7B6FXzIs2bMt",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
@@ -3340,7 +3910,8 @@
 "add": "https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
@@ -3394,7 +3965,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"GrokBot.dev (CC BY 4.0)"
+"GrokBot.dev (CC BY 4.0)",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "coding-shipping",
 "creator": "JaimeBubblehead",
@@ -5165,13 +5737,13 @@
 "id": "@keyline-icons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "2.1.0"
+"version": "2.2.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/keyline-icons/keyline-icons",
 "title": "Keyline Icons",
-"version": "2.1.0",
+"version": "2.2.0",
 "website": "https://keylineicons.com"
 },
 "truncated": false,
@@ -5406,28 +5978,6 @@
 "website": "https://nuxtseo.com/docs/nuxt-seo/guides/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nuxtseo/nuxt-seo&version=latest"
-},
-"mcp-com-onrender-shopify-launch-watch-shopify-launch-watch": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "See what Shopify competitors launched this week, from products.json. $0.01/store via x402.",
-"name": "com.onrender.shopify-launch-watch/shopify-launch-watch",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://shopify-launch-watch.onrender.com/mcp"
-}
-],
-"repository": null,
-"title": "Shopify launch watch for e-commerce agents (x402)",
-"version": "0.2.0",
-"website": "https://shopify-launch-watch.onrender.com/"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.onrender.shopify-launch-watch/shopify-launch-watch&version=latest"
 },
 "mcp-com-oskivo-shopify": {
 "kind": "excerpt",
@@ -5664,6 +6214,30 @@
 "website": "https://seogrep.com"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seogrep/seogrep&version=latest"
+},
+"mcp-com-seolyticize-seolyticize": {
+"file": "data/originals/mcp-com-seolyticize-seolyticize.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "SEO for agencies: rank tracking, site audits, Search Console, GA4, backlinks and AI visibility.",
+"name": "com.seolyticize/seolyticize",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seolyticize.com/api/mcp"
+}
+],
+"repository": "https://github.com/Seolyticize/skills",
+"title": "Seolyticize",
+"version": "1.0.0",
+"website": "https://seolyticize.com/docs"
+},
+"truncated": false,
+"url": "https://github.com/Seolyticize/skills/blob/HEAD/README.md"
 },
 "mcp-com-seoperception-mcp": {
 "kind": "excerpt",
@@ -8010,13 +8584,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.5.2"
+"version": "3.5.3"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.5.2",
+"version": "3.5.3",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -10646,7 +11220,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.21.0",
+"version": "1.21.3",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": false,
@@ -10994,6 +11568,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-agent-elements-21st-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-agentcn-vercel-app": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11002,6 +11583,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-aicanvas-me": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-anon-li": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11058,6 +11646,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-blode-co-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-carejobs-now": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11274,6 +11869,15 @@
 "truncated": true,
 "url": "https://github.com/F0Rextasy/bigbullui/blob/main/README.md"
 },
+"uihub-aw-github-com-fclairamb-solidping": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "AGPL-3.0"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-github-com-h3rmel-guarahooks": {
 "file": "data/originals/uihub-aw-github-com-h3rmel-guarahooks.md",
 "kind": "full",
@@ -11354,6 +11958,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/lirena00/blobz/blob/main/README.md"
+},
+"uihub-aw-github-com-loootai-looot-crm": {
+"file": "data/originals/uihub-aw-github-com-loootai-looot-crm.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/loootai/looot-crm/blob/main/README.md"
 },
 "uihub-aw-github-com-melromyeah-mixcn": {
 "file": "data/originals/uihub-aw-github-com-melromyeah-mixcn.md",
@@ -11484,6 +12096,14 @@
 "truncated": false,
 "url": "https://github.com/studiogridpro/saas-dashboard-starter/blob/main/README.md"
 },
+"uihub-aw-github-com-teodoravadani-qodesign-free": {
+"file": "data/originals/uihub-aw-github-com-teodoravadani-qodesign-free.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/teodoravadani/qodesign-free/blob/main/README.md"
+},
 "uihub-aw-github-com-type-zero-labs-ouroboros-ui": {
 "file": "data/originals/uihub-aw-github-com-type-zero-labs-ouroboros-ui.md",
 "kind": "full",
@@ -11595,6 +12215,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-mailmop-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-marmoui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11602,7 +12229,28 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-minigolfspots-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-mizzle-saddy-me": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-motion-lexicon-pages-dev-en": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-movin-design-components": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11617,6 +12265,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-niko-table-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-nxui-geoql-in-docs": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11672,7 +12327,21 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-reactframe-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-registry-soldevelo-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-shadcn-exchange": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -11736,6 +12405,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-snapcn-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-stockexpertai-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -19457,6 +20133,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-3thyap5-illustrated-aerial-world-maps": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-3u43tqc-one-year": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20276,6 +20959,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-762nav7-tash-partner-pack-opening": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-76l5dqr-etch-a-sketch-signature": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20326,6 +21016,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-7ajurjv-personal-site-photo-gallery": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-7bqklue-bloom": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -23056,6 +23753,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-jwc04f4-linear-animation-principle": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-jwd5fyq-grok-bot-upsell-sheet": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

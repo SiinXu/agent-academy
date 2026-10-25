@@ -423,6 +423,16 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [GoCanvas](servers/gocanvas/) | productivity | 27 | API token | [servers/gocanvas/](servers/gocanvas/) |
 | [Axis LMS](servers/axis-lms/) | productivity | 48 | API token | [servers/axis-lms/](servers/axis-lms/) |
 | [Bookingmood](servers/bookingmood/) | calendar | 25 | API token | [servers/bookingmood/](servers/bookingmood/) |
+| [Mail Blaze](servers/mailblaze/) | email | 30 | API token | [servers/mailblaze/](servers/mailblaze/) |
+| [Parsley](servers/parsley/) | productivity | 19 | API token | [servers/parsley/](servers/parsley/) |
+| [Placetel](servers/placetel/) | communications | 32 | API token | [servers/placetel/](servers/placetel/) |
+| [FinerWorks](servers/finerworks/) | ecommerce | 23 | API token | [servers/finerworks/](servers/finerworks/) |
+| [Sakari](servers/sakari/) | communications | 27 | API token | [servers/sakari/](servers/sakari/) |
+| [Funraise](servers/funraise/) | fundraising | 32 | API token | [servers/funraise/](servers/funraise/) |
+| [Hiveage](servers/hiveage/) | billing | 32 | API token | [servers/hiveage/](servers/hiveage/) |
+| [iContact](servers/icontact/) | marketing | 24 | API token | [servers/icontact/](servers/icontact/) |
+| [Freshsales](servers/freshsales/) | crm | 35 | API token | [servers/freshsales/](servers/freshsales/) |
+| [Hiboutik](servers/hiboutik/) | ecommerce | 35 | API token | [servers/hiboutik/](servers/hiboutik/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

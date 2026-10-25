@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-25T00:21:53Z",
+ "updated_at": "2026-10-25T14:23:36Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1127,69 +1127,71 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-google-business-profile-manager",
-     "title": "Google Business Profile Manager",
+     "id": "botsdots-family-helpdesk-beta",
+     "title": "Family Helpdesk (Beta)",
      "type": "template",
      "industry": "customer-service",
      "roles": [
       "support-agent"
      ],
-     "summary": "You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,",
+     "summary": "Patient help for a parent or grandparent: checks scary texts, emails and letters (scam, real or ignorable), big-print tech steps, alerts you when serious.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/google-business-profile-manager",
+     "source_url": "https://botsdots.site/templates/family-helpdesk-beta",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "JimmyFlipHDR",
+     "author": "hacks_jimm53237",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
       "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/google-business-profile-manager",
+      "url": "https://botsdots.site/templates/family-helpdesk-beta",
       "record": {
-       "access": [],
-       "add": "https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT",
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/tK2_SKTbXA7HgwrM4wALl",
        "cadence": "on-demand",
        "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
         "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates"
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
        ],
-       "category": "customer-sales",
-       "creator": "JimmyFlipHDR",
-       "firstSeen": "2026-09-29",
+       "category": "personal-admin",
+       "creator": "hacks_jimm53237",
+       "firstSeen": "2026-10-25",
        "integrations": [],
-       "name": "Google Business Profile Manager",
+       "name": "Family Helpdesk (Beta)",
        "official": false,
-       "page": "https://botsdots.site/templates/google-business-profile-manager",
-       "risk": "low",
-       "summary": "You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,"
+       "page": "https://botsdots.site/templates/family-helpdesk-beta",
+       "risk": "medium",
+       "summary": "Patient help for a parent or grandparent: checks scary texts, emails and letters (scam, real or ignorable), big-print tech steps, alerts you when serious."
       }
      },
-     "install": "https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT",
+     "install": "https://x.ai/bot/tK2_SKTbXA7HgwrM4wALl",
      "security": {
       "audited": false,
       "executes_code": false,
       "needs_credentials": false,
       "writes_external": false,
-      "risk_label": "low",
+      "risk_label": "medium",
       "integrations": []
      },
      "metrics": {
-      "score": 8,
-      "first_seen_catalog": "2026-09-29"
+      "score": 9,
+      "first_seen_catalog": "2026-10-25"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-19T16:59:16Z",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-google-business-profile-manager/",
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-family-helpdesk-beta/",
      "source": "botsdots"
     }
    ]
@@ -1363,7 +1365,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1773,7 +1775,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142955,
+      "repo_stars": 143001,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -1818,7 +1820,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30261,
+      "repo_stars": 30273,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2014,7 +2016,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 62,
+      "repo_stars": 63,
       "repo_pushed_at": "2026-10-24",
       "registry_updated_at": "2026-10-23"
      },
@@ -2248,13 +2250,13 @@
          "id": "@fruggr/zendesk-mcp-server",
          "transport": "stdio",
          "type": "npm",
-         "version": "3.5.2"
+         "version": "3.5.3"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/fruggr/zendesk-mcp-server",
        "title": null,
-       "version": "3.5.2",
+       "version": "3.5.3",
        "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
       }
      },
@@ -2270,13 +2272,13 @@
      },
      "metrics": {
       "repo_stars": 14,
-      "repo_pushed_at": "2026-10-24",
-      "registry_updated_at": "2026-10-24"
+      "repo_pushed_at": "2026-10-25",
+      "registry_updated_at": "2026-10-25"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-25T00:21:53Z",
+     "updated_at": "2026-10-25T14:23:36Z",
      "checked_at": "2026-10-22T00:43:10Z",
      "http_status": {
       "source": 200

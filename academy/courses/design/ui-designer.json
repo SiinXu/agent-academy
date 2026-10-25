@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-25T00:21:53Z",
+ "updated_at": "2026-10-25T14:23:36Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "4-do-it",
@@ -1468,6 +1468,52 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-aw-agent-elements-21st-dev",
+     "title": "21st-dev-agent-elements",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Listed in awesome-shadcn-ui: Open-source registry of agent UI primitives — chat shell, tool-call cards (Bash, Edit, Search, Todo, Plan), clarifying questions, input bar, streaming markdown. Built on React 19, Tailwind v4, and the",
+     "summary_lang": "en",
+     "source_url": "https://agent-elements.21st.dev",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "awesome-shadcn-ui",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/uihub-aw-agent-elements-21st-dev/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-21st-dev",
      "title": "21st.dev",
      "type": "style-library",
@@ -1834,52 +1880,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-mkozhk7-3d-image-globe/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-49ta02w-3d-neon-logo-signs",
-     "title": "3D Neon Logos",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "AI-generated 3D renders transforming iconic brand logos into realistic glowing neon tube signs, showcasing McDonald's, Airbnb, Spotify, and Grok with cinematic studio lighting on black backgrounds.",
-     "summary_lang": "en",
-     "source_url": "https://x.com/doganuraldesign/status/2088750386605916429",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@doganuraldesign",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-49ta02w-3d-neon-logo-signs/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1917,7 +1917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183510,
+      "repo_stars": 183665,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1962,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183510,
+      "repo_stars": 183665,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,7 +2007,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2052,7 +2052,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2097,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2142,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2187,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2772,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142955,
+      "repo_stars": 143001,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2845,7 +2845,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16064,
+      "repo_stars": 16069,
       "repo_pushed_at": "2026-10-24",
       "registry_updated_at": "2026-06-18"
      },
@@ -2909,7 +2909,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2108,
+      "repo_stars": 2112,
       "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2025-10-16"
      },
@@ -3020,13 +3020,13 @@
          "id": "@keyline-icons/mcp",
          "transport": "stdio",
          "type": "npm",
-         "version": "2.1.0"
+         "version": "2.2.0"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/keyline-icons/keyline-icons",
        "title": "Keyline Icons",
-       "version": "2.1.0",
+       "version": "2.2.0",
        "website": "https://keylineicons.com"
       }
      },
@@ -3039,14 +3039,14 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 178,
-      "repo_pushed_at": "2026-10-20",
-      "registry_updated_at": "2026-10-20"
+      "repo_stars": 180,
+      "repo_pushed_at": "2026-10-25",
+      "registry_updated_at": "2026-10-25"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-19T00:13:40Z",
-     "updated_at": "2026-10-20T15:07:01Z",
+     "updated_at": "2026-10-25T14:23:36Z",
      "checked_at": "2026-10-20T01:06:48Z",
      "http_status": {
       "source": 200
@@ -4349,7 +4349,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -4394,7 +4394,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -4439,7 +4439,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4484,7 +4484,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -4529,7 +4529,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -4574,7 +4574,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -4619,7 +4619,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -4664,7 +4664,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -4709,7 +4709,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -4754,7 +4754,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -4799,7 +4799,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25999,
+      "repo_stars": 26027,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

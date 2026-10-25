@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -48,6 +48,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s5d2839123b973b4480f9
   needs_credentials: false, writes_external: false
+- [template] Sponsor Scout. Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.
+  source: https://botsdots.site/templates/sponsor-scout
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6
+  needs_credentials: false, writes_external: false
+- [template] Sponsorship Hunter. Finds verified sponsorship opportunities for creators, newsletter writers, indie hackers and podcasters, ranks them and drafts pitches for you to approve.
+  source: https://botsdots.site/templates/sponsorship-hunter-tgnk
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/t-gNKMTD-GSe0vSRnGDQQ
+  needs_credentials: false, writes_external: false
 - [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. Cited newsletter issue with three subject lines and one clear CTA
   source: https://botsdots.site/templates/newsletter-desk-inbox-worthy
   license: template belongs to its creator (catalog CC0)
@@ -68,20 +78,20 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1
   needs_credentials: false, writes_external: true
-- [template] Sponsor Scout. Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.
-  source: https://botsdots.site/templates/sponsor-scout
+- [template] Sponsor Hunter. Helps creators find flat-fee sponsors for a newsletter or X account: media kit from real stats, brands that fit, short fixed-price pitches and one follow-up.
+  source: https://botsdots.site/templates/sponsor-hunter
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6
+  install: https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ
   needs_credentials: false, writes_external: false
 - [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. 📰 Turn notes and links into a cited newsletter issue with three subject lines, a preheader, sections and one clear call to action.
   source: https://botsdots.site/templates/newsletter-desk-inbox-worthy-j0cu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/j0cuucheuazacyokxtsvh
   needs_credentials: false, writes_external: false
-- [template] Sponsor Hunter. Helps creators find flat-fee sponsors for a newsletter or X account: media kit from real stats, brands that fit, short fixed-price pitches and one follow-up.
-  source: https://botsdots.site/templates/sponsor-hunter
+- [template] Newsletter Draft Routine by Karata. Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for you to review.
+  source: https://botsdots.site/templates/newsletter-draft-routine-by-karata
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ
+  install: https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -157,6 +167,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-email-marketing.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Email Newsletter Editor. Helps write your weekly newsletter from saved links and notes.
+  source: https://prompts.chat/prompts/cz1lp616nfpt3ve6u5heh0yh7_email-newsletter-editor
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-email-newsletter-editor.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] EMAIL SEQUENCE WITH STORYTELLING. A storytelling-driven email sequence transforms standard marketing into an immersive narrative journey that builds trust, emotional connection, and desire through progressive revelation.
   source: https://prompts.chat/prompts/cmlgo5w7j0001ju04jph7gcc3_email-sequence-with-storytelling
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-email-sequence-with-storytelling.md
@@ -167,9 +182,19 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-high-conversion-cold-email.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Newsletter Unsubscribe Butler. Finds newsletters you never open and prepares a one-click unsubscribe list.
+  source: https://prompts.chat/prompts/cojgd19flvs7mswtuikr6gh2d_newsletter-unsubscribe-butler
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-newsletter-unsubscribe-butler.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] Sponsor Deal Desk. Sorts the brand deal emails in your inbox, checks if each brand is legit and a fit, suggests a rate from your stats and drafts the reply.
   source: https://prompts.chat/prompts/c2u8fede6zswt6hhgl32r0w0c_sponsor-deal-desk
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-sponsor-deal-desk.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Webinar Follow-Up Engine. Turns a webinar into follow-up emails, a recap post and clips list within an hour of ending.
+  source: https://prompts.chat/prompts/cee6zcqlgpod4ktjjr1gx7ti6_webinar-follow-up-engine
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-webinar-follow-up-engine.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Weekly Roast. Every Friday it lovingly roasts your week from real data: the meeting you rescheduled four times, the 2am commits, the 47 unread newsletters. Then one sincere compliment.

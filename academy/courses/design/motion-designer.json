@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-25T00:21:53Z",
+ "updated_at": "2026-10-25T14:23:36Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -304,12 +304,15 @@
       "license": "CC0-1.0",
       "url": "https://botsdots.site/templates/art-bot",
       "record": {
-       "access": [],
+       "access": [
+        "publishing"
+       ],
        "add": "https://x.ai/bot/uMHJk_yjZLpxC0GQfT4aK",
        "cadence": "on-demand",
        "catalog_sources": [
         "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates"
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
        ],
        "category": "content-publishing",
        "creator": "MikeysMolecules",
@@ -318,7 +321,7 @@
        "name": "Art Bot",
        "official": false,
        "page": "https://botsdots.site/templates/art-bot",
-       "risk": "low",
+       "risk": "high",
        "summary": "Artist and creative director that turns your brands into style guides, on-brand images, animations, video edits with music, decks and design critiques."
       }
      },
@@ -327,23 +330,89 @@
       "audited": false,
       "executes_code": false,
       "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
+      "writes_external": true,
+      "risk_label": "high",
       "integrations": []
      },
      "metrics": {
-      "score": 5,
+      "score": 9,
       "first_seen_catalog": "2026-10-23"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-23T15:04:39Z",
-     "updated_at": "2026-10-23T15:04:39Z",
+     "updated_at": "2026-10-25T14:23:36Z",
      "checked_at": "2026-10-23T15:04:39Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-art-bot/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-glow-picasso-creative-director",
+     "title": "Glow Picasso, Creative Director",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Creative director bot that designs premium website visuals (layouts, UI, icons, motion), one polished upgrade per round as desktop and phone mockups.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/glow-picasso-creative-director",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Ortix008",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/glow-picasso-creative-director",
+      "record": {
+       "access": [
+        "browser"
+       ],
+       "add": "https://x.ai/bot/FKNsKOj2AaahklQwyI3yr",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot"
+       ],
+       "category": "content-publishing",
+       "creator": "Ortix008",
+       "firstSeen": "2026-10-25",
+       "integrations": [],
+       "name": "Glow Picasso, Creative Director",
+       "official": false,
+       "page": "https://botsdots.site/templates/glow-picasso-creative-director",
+       "risk": "medium",
+       "summary": "Creative director bot that designs premium website visuals (layouts, UI, icons, motion), one polished upgrade per round as desktop and phone mockups."
+      }
+     },
+     "install": "https://x.ai/bot/FKNsKOj2AaahklQwyI3yr",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 3,
+      "first_seen_catalog": "2026-10-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-25T14:23:36Z",
+     "checked_at": "2026-10-25T14:23:36Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-glow-picasso-creative-director/",
      "source": "botsdots"
     },
     {
@@ -1219,52 +1288,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-ejnine8-3d-knot/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-5ebgf49-3d-sphere-phase-demos",
-     "title": "3D Sphere Videos",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "A technical reference sheet comparing 3D sphere renders across multiple animation phases and material states, from glossy white to deep black, annotated with file names and phase values.",
-     "summary_lang": "en",
-     "source_url": "https://x.com/kosta4a/status/2086083489418391688",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@kosta4a",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-19T16:59:16Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-5ebgf49-3d-sphere-phase-demos/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1348,7 +1371,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183510,
+      "repo_stars": 183665,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1393,7 +1416,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1438,7 +1461,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1483,7 +1506,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1528,7 +1551,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1573,7 +1596,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1618,7 +1641,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1663,7 +1686,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1708,7 +1731,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -1753,7 +1776,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2298,7 +2321,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2343,7 +2366,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 139928,
+      "repo_stars": 140207,
       "repo_pushed_at": "2026-10-23"
      },
      "course_step": "3-learn-rules",
@@ -2388,7 +2411,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 49379,
+      "repo_stars": 49524,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2433,7 +2456,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2478,7 +2501,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2523,7 +2546,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2568,7 +2591,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41643,
+      "repo_stars": 41681,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2613,7 +2636,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2658,7 +2681,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2703,7 +2726,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 32623,
+      "repo_stars": 32847,
       "repo_pushed_at": "2026-10-24"
      },
      "course_step": "3-learn-rules",
@@ -2748,7 +2771,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 25999,
+      "repo_stars": 26027,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

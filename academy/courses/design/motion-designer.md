@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1510 items
+- minimal: 1525 items
 - motion: 645 items
-- 3d: 623 items
+- 3d: 625 items
 - editorial: 591 items
-- playful: 543 items
-- gradient: 283 items
+- playful: 544 items
+- gradient: 284 items
 - retro: 116 items
 - dark-tech: 107 items
 - glass: 56 items
@@ -78,6 +78,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://botsdots.site/templates/art-bot
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/uMHJk_yjZLpxC0GQfT4aK
+  needs_credentials: false, writes_external: true
+- [template] Glow Picasso, Creative Director. Creative director bot that designs premium website visuals (layouts, UI, icons, motion), one polished upgrade per round as desktop and phone mockups.
+  source: https://botsdots.site/templates/glow-picasso-creative-director
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/FKNsKOj2AaahklQwyI3yr
   needs_credentials: false, writes_external: false
 - [style-library] 'kin. ‘kin are a creative commercial interior design, branding and graphic design studio.
   source: https://by-kin.com/
@@ -153,10 +158,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 3D Knot. A pastel rainbow-colored 3D knot object continuously rotates and morphs through different configurations in this smooth motion study.
   source: https://jlongster.com
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 3D Sphere Videos. A technical reference sheet comparing 3D sphere renders across multiple animation phases and material states, from glossy white to deep black, annotated with file names and phase values.
-  source: https://x.com/kosta4a/status/2086083489418391688
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

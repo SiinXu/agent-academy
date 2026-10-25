@@ -2,7 +2,7 @@
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -54,6 +54,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/XECw-q9SY0rMprOq66UTt
   needs_credentials: false, writes_external: false
+- [template] Grok Bot. Clones marketing GTM templates, picks on-brand layouts, and fills a customer deck for review
+  source: https://botsdots.site/templates/grok-bot-uy2o
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Uy2oK9854UViaiO0rQ6nC
+  needs_credentials: false, writes_external: false
 - [template] Krishna — Head of Marketing. Head of Marketing for a digital agency: briefs, QC, channel owners
   source: https://botsdots.site/templates/krishna-head-of-marketing
   license: template belongs to its creator (catalog CC0)
@@ -79,6 +84,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Qn3J8hO5gAMc_7BVzYm-p
   needs_credentials: true, writes_external: false
+- [template] BDC Brand Strategist. A brand strategy guide for small business owners and brand pros.
+  source: https://botsdots.site/templates/bdc-brand-strategist
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Oe7gk0Zk0K7UO3Od5-nMZ
+  needs_credentials: false, writes_external: false
 - [template] Ally. Partner marketing and channel GTM advisor with a BD mindset. Builds partner programs from sales data, separates strategic vs tactical partners, and
   source: https://botsdots.site/templates/ally-k4xn
   license: template belongs to its creator (catalog CC0)
@@ -88,16 +98,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/business-b7c9
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/B7C9a8QJSUSUJLKtHtze4
-  needs_credentials: false, writes_external: false
-- [template] Grok Bot. Clones marketing GTM templates, picks on-brand layouts, and fills a customer deck for review
-  source: https://botsdots.site/templates/grok-bot-uy2o
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/Uy2oK9854UViaiO0rQ6nC
-  needs_credentials: false, writes_external: false
-- [template] Mason. Intake desk (The Incorporator). Drop a link, post, product, paper, repo, clip, or tool — it opens the original, separates marketing from function
-  source: https://botsdots.site/templates/mason
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/P4UiFNUcfH-751NuybyV1
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

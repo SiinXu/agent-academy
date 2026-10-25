@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -119,10 +119,10 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO
   needs_credentials: false, writes_external: false
-- [template] Google Business Profile Manager. You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,
-  source: https://botsdots.site/templates/google-business-profile-manager
+- [template] Family Helpdesk (Beta). Patient help for a parent or grandparent: checks scary texts, emails and letters (scam, real or ignorable), big-print tech steps, alerts you when serious.
+  source: https://botsdots.site/templates/family-helpdesk-beta
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT
+  install: https://x.ai/bot/tK2_SKTbXA7HgwrM4wALl
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

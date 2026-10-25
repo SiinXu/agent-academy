@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -53,11 +53,31 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/bAGe8vsdblitlsmH-z0ys
   needs_credentials: false, writes_external: false
+- [template] Roof CEO. Marketing team lead for residential roofing companies: runs Meta ad campaigns, creative, lead follow-up and daily storm monitoring through specialist bots.
+  source: https://botsdots.site/templates/roof-ceo
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/mhZNFKgZgtkJmrsK8ucME
+  needs_credentials: false, writes_external: false
 - [template] Social Media GTM Bot. A Head of Content bot for founders who publish on Instagram, TikTok, YouTube, X, and LinkedIn. It recycles winning posts, prepares comment-to-DM lead magnets, keeps a per-platform calendar, and publishes through PlugKit 
   source: https://botsdots.site/templates/social-media-gtm-bot
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ
   needs_credentials: true, writes_external: true
+- [template] Fuse. Circuit breaker for paid-media APIs and Ads Manager desktop sessions.
+  source: https://botsdots.site/templates/fuse
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/XWKWlHRpljLXaBg7jyLXw
+  needs_credentials: false, writes_external: false
+- [template] Social Media Manager. Content-Bot für Creator: schreibt kurze Hooks, Text-Posts, Karussell-Entwürfe und Wochenpläne für TikTok, Instagram, YouTube, X und LinkedIn
+  source: https://botsdots.site/templates/social-media-manager-cfl2
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA
+  needs_credentials: true, writes_external: false
+- [template] Socials · Henry - Manager. A social media content manager that watches your upload folder for new short-form videos, briefs your TikTok, YouTube Shorts, and Instagram
+  source: https://botsdots.site/templates/socials-henry-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/JKjtbyx4CxCiy-IWjlUQ0
+  needs_credentials: true, writes_external: false
 
 ## Step 3: Learn the rules
 
@@ -114,6 +134,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] TikTok Marketing Visual Designer Agent. Create engaging and innovative visuals for TikTok marketing campaigns.
   source: https://prompts.chat/prompts/cmj8n3sxv000jvj0rvb1jueki_tiktok-marketing-visual-designer-agent
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-tiktok-marketing-visual-designer-agent.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] TikTok Video Style Prompt Generator. https://vt.tiktok.com/ZSbQrYHAw/ generate a prompt i can use to make such vidoes
+  source: https://prompts.chat/prompts/cmuv68ad30001l804q8tet05l_tiktok-video-style-prompt-generator
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-tiktok-video-style-prompt-generator.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -321,17 +321,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y dingdawg-marketing-agent
   needs_credentials: true, writes_external: false
+- [mcp] SEO Rank Fixer. Google Search Console performance and the SEO fixes worth the most clicks, ranked for your sites.
+  source: https://github.com/sharikwani/seo-rank-fixer-plugin
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-seorankfixer-seo-rank-fixer.md
+  license: MIT
+  install: remote (streamable-http): https://seorankfixer.com/api/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] SEO-IntentRank (Antigravity MCP). Human search intent keywords, Core Web Vitals, technical SEO & on-page audit MCP server.
   source: https://github.com/AI-BuildInfra/SEO-intentrank
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ai-buildinfra-seo-intentrank.md
   license: MIT
   needs_credentials: false, writes_external: false
-- [mcp] SEOmatic. SEO agent: GSC, keyword, backlink and AI-visibility insights, plus approval-gated site actions
-  source: https://github.com/Minh42/seomatic-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seomatic-seomatic.md
-  license: MIT
-  install: remote (streamable-http): https://app.seomatic.ai/api/mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

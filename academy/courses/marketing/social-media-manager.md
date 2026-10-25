@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-25
-updated_at: 2026-10-25T00:21:53Z
+updated_at: 2026-10-25T14:23:36Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -58,6 +58,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s634cb1edf26493e86be2
   needs_credentials: false, writes_external: true
+- [template] Social Media Manager. Runs your brand's Instagram and X: content calendar, visuals, scheduled posting from a signed-in browser after your approval, and every live link sent back.
+  source: https://botsdots.site/templates/social-media-manager-dqao
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
+  needs_credentials: true, writes_external: true
 - [template] Social Sidekick. Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.
   source: https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting
   license: template belongs to its creator (catalog CC0)
@@ -68,11 +73,21 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N
   needs_credentials: true, writes_external: false
+- [template] Social Media Manager. Posts in your voice without you living in drafts.
+  source: https://botsdots.site/templates/social-media-manager-jh9r
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+  needs_credentials: false, writes_external: true
 - [template] UniFlow Social Agent. A social media content strategist that plans your week of posts and writes drafts for X, Instagram, Facebook, LinkedIn, Threads, Bluesky and more.
   source: https://botsdots.site/templates/uniflow-social-agent
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a
   needs_credentials: true, writes_external: false
+- [template] Social Media Salesperson. Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review.
+  source: https://botsdots.site/templates/social-media-salesperson
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e
+  needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
 
@@ -111,6 +126,21 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-content-creation-prompts-for-e-commerce-and-social-platforms.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Indie Artist Instagram Caption Generator. Writes 3 Instagram captions that turn followers into paying fans. Built for indie artists who sell direct to fans on Bandcamp, EVEN.Biz, Bandzoogle, Shopify, or their own site: downloads, vinyl, CDs, merch, and bundles. 
+  source: https://prompts.chat/prompts/cmugrhpxr000gjp04di20wcwa_indie-artist-instagram-caption-generator
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-indie-artist-instagram-caption-generator.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And…. Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And zero skip rate
+  source: https://prompts.chat/prompts/cmu0p1286000njl04q18qvg17_act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-hook-engaging-bodyand-st
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-h.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Community Question Router. Watches your Discord or forum for unanswered questions and routes them to the right teammate.
+  source: https://prompts.chat/prompts/cl6znd1bm7upq1sbcoiujgutn_community-question-router
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-community-question-router.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] Create Marketing Videos for Magnifiscentss. Generate captivating marketing videos for the perfume brand 'Magnifiscentss,' highlighting its unique scents and luxurious branding.
   source: https://prompts.chat/prompts/cmqdswzwv0001l504h8hxh0of_create-marketing-videos-for-magnifiscentss
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-create-marketing-videos-for-magnifiscentss.md
@@ -119,6 +149,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] LinkedIn Ghostwriter. With advancement in models (LLMs), this prompt need to be updated too to generate better and personalize results.
   source: https://prompts.chat/prompts/cmj1zb2a700novl0rabkdkpoi_linkedin-ghostwriter
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-linkedin-ghostwriter.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] LinkedIn Summary Crafting Prompt. Designed to craft a strong LinkedIn "About" section by asking clear questions about your target role, industry, wins, and tone. After you respond, it builds two drafts — one short (~900–1,500 chars) and one fuller (~2,00
+  source: https://prompts.chat/prompts/cml2q50qo0001l804u0i4t7tk_linkedin-summary-crafting-prompt
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-linkedin-summary-crafting-prompt.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Market plan. Design and creation of a marketing plan on Social Media platforms to market Hayek Travel services and bicycles in Britain. The target segment is Gulf students and Arab tourists.
@@ -136,9 +171,19 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-pest-control-social-media-content-calendar.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Review the social media content. I want to review my social media content. You have 14 years of experience in social media marketing manager. Frame 1: Myth: Pools require massive upfront cash.
+  source: https://prompts.chat/prompts/cmmvu6hq50004kz042d3ua59j_review-the-social-media-content
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-review-the-social-media-content.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] Senior Crypto Yapper & Community Strategist. Act as a Senior Crypto Yapper and Community Strategist to craft viral narratives and foster high-retention discussions in crypto communities on X (Twitter), Discord, and Telegram.
   source: https://prompts.chat/prompts/cmjjetvss0001jy04pwf5d6c6_senior-crypto-yapper-community-strategist
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-senior-crypto-yapper-community-strategist.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Social Media Influencer. I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or YouTube and engage with followers in order to increase brand awareness and promote products or s
+  source: https://prompts.chat/prompts/cmj1zb1fa009cvl0r6i98q0l9_social-media-influencer
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-social-media-influencer.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Social Media Manager. I want my AI to be a professional social media manager where we post all kind of military and combat footage stuff
@@ -155,9 +200,19 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-social-media-post-analyzer.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Text to Concise Tweets Converter. tweetwat
+  source: https://prompts.chat/prompts/cmtfo4vq10001jl04yem9tu5c_text-to-concise-tweets-converter
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-text-to-concise-tweets-converter.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] Vechicle Spareparts In sri lanka. spare parts sales company marketing video in sri lanka
   source: https://prompts.chat/prompts/cmtto3lub0004jq048mus1e5j_vechicle-spareparts-in-sri-lanka
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-vechicle-spareparts-in-sri-lanka.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] YouTube Title Tester. Writes and ranks title and thumbnail ideas for your next video.
+  source: https://prompts.chat/prompts/cff2v2rkfynfa4zrhushwn4xw_youtube-title-tester
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-youtube-title-tester.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 
