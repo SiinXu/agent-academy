@@ -35,19 +35,19 @@ The same brief, run more than once, so the difference is visible side by side.
 
 ### UI
 
-antislop alone is not the after. It removes the slop and stops there; direction comes from `DESIGN.md`. The pair below is the result.
+antislop alone is not the after. It removes the slop and stops there; direction comes from `DESIGN.md`. For UI work you intend to ship, that file is mandatory: without it the result is labelled a draft without direction. The pair below is the result.
 
 | **Before: without antislop** | **After: antislop + `DESIGN.md`** |
 |:--|:--|
 | <a href="assets/compare/ui/without.webp"><img src="assets/compare/ui/without.webp" alt="The before: a generic landing page with a sparkle logo, a NEXT-GEN AI 2.0 beta pill above the headline, and a fake terminal reporting 0.0001ms latency" width="100%"></a> | <a href="assets/compare/ui/w-all.webp"><img src="assets/compare/ui/w-all.webp" alt="The after: the same page with antislop and DESIGN.md, a full-bleed illustrated hero with one honest headline and project-specific navigation" width="100%"></a> |
-| Where most AI output starts: a sparkle logo, a beta pill, and a fake terminal. | Honest numbers and a real direction in the same build. The filter removes what should not be there; `DESIGN.md` fills the space it leaves. |
+| This is what most AI output looks like: slop everywhere once you take a closer look. | Much better. antislop kills the slop, and `DESIGN.md` gives it a real visual direction. |
 
 The two partial states are worth seeing, because each one shows why the other half matters:
 
 | **Partial: antislop alone** | **Partial: `DESIGN.md` alone** |
 |:--|:--|
 | <a href="assets/compare/ui/w-antislop.webp"><img src="assets/compare/ui/w-antislop.webp" alt="Partial result: antislop with no design direction, a plain dark layout with the invented numbers removed" width="100%"></a> | <a href="assets/compare/ui/w-design.webp"><img src="assets/compare/ui/w-design.webp" alt="Partial result: DESIGN.md with no filter, a photographic hero with stat cards still reading 10,000% ROI Synergy Multiplier" width="100%"></a> |
-| Slop removed, direction missing. Honest and plain, which is the most antislop alone can do. | Direction added, slop still there. The layout lands, and the invented numbers and the fake rating survive. |
+| The slop is gone, but so is the direction. That is why antislop needs a `DESIGN.md`. | The direction is there, but honestly it is still far from good: the slop still shows. |
 
 ### Copy
 

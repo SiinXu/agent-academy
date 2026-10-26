@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-25
-updated_at: 2026-10-25T14:23:36Z
+version: 2026-10-26
+updated_at: 2026-10-26T00:26:39Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -428,6 +428,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://3dicons.co
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [mcp] Adobe Commerce MCP. Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding
+  source: https://github.com/zeluizr/adobe-commerce-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zeluizr-adobe-commerce-mcp.md
+  license: MIT
+  install: npx -y adobe-commerce-mcp
+  needs_credentials: false, writes_external: false
 - [tool] Adobe Leonardo. Generates accessible color scales by target contrast; open source from Adobe
   source: https://leonardocolor.io/
   license: see source (listed via UI Hub)
@@ -446,10 +452,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md
   license: CC0-1.0
   install: uvx fonts-andorra
-  needs_credentials: false, writes_external: false
-- [tool] Bolt. Build apps by chatting, with in-browser code editing
-  source: https://bolt.cello.so/ByQ3siiRkMz
-  license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check

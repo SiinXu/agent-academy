@@ -230,7 +230,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Nookal](servers/nookal/) | healthcare | 15 | API token | [servers/nookal/](servers/nookal/) |
 | [Ordoro](servers/ordoro/) | shipping | 22 | API token | [servers/ordoro/](servers/ordoro/) |
 | [Photon Health](servers/photon-health/) | healthcare | 25 | API token | [servers/photon-health/](servers/photon-health/) |
-| [RotaCloud](servers/rotacloud/) | productivity | 30 | API token | [servers/rotacloud/](servers/rotacloud/) |
+| [RotaCloud](servers/rotacloud/) | productivity | 32 | API token | [servers/rotacloud/](servers/rotacloud/) |
 | [Shiftbase](servers/shiftbase/) | productivity | 26 | API token | [servers/shiftbase/](servers/shiftbase/) |
 | [Shipday](servers/shipday/) | shipping | 18 | API token | [servers/shipday/](servers/shipday/) |
 | [SlickText](servers/slicktext/) | communications | 28 | API token | [servers/slicktext/](servers/slicktext/) |
@@ -433,6 +433,27 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [iContact](servers/icontact/) | marketing | 24 | API token | [servers/icontact/](servers/icontact/) |
 | [Freshsales](servers/freshsales/) | crm | 35 | API token | [servers/freshsales/](servers/freshsales/) |
 | [Hiboutik](servers/hiboutik/) | ecommerce | 35 | API token | [servers/hiboutik/](servers/hiboutik/) |
+| [Feefo](servers/feefo/) | marketing | 9 | API token | [servers/feefo/](servers/feefo/) |
+| [inv.bg](servers/inv-bg/) | billing | 31 | API token | [servers/inv-bg/](servers/inv-bg/) |
+| [KashFlow](servers/kashflow/) | billing | 42 | API token | [servers/kashflow/](servers/kashflow/) |
+| [Papierkram](servers/papierkram/) | billing | 37 | API token | [servers/papierkram/](servers/papierkram/) |
+| [PaySpace](servers/payspace/) | billing | 25 | API token | [servers/payspace/](servers/payspace/) |
+| [Sapo](servers/sapo/) | ecommerce | 24 | API token | [servers/sapo/](servers/sapo/) |
+| [Sarbacane](servers/sarbacane/) | email | 23 | API token | [servers/sarbacane/](servers/sarbacane/) |
+| [Sellsy](servers/sellsy/) | crm | 48 | API token | [servers/sellsy/](servers/sellsy/) |
+| [smallinvoice](servers/smallinvoice/) | billing | 31 | API token | [servers/smallinvoice/](servers/smallinvoice/) |
+| [Smaregi](servers/smaregi/) | ecommerce | 24 | API token | [servers/smaregi/](servers/smaregi/) |
+| [Street.co.uk](servers/street-co-uk/) | real-estate | 58 | API token | [servers/street-co-uk/](servers/street-co-uk/) |
+| [TicketSpice](servers/ticketspice/) | ecommerce | 19 | API token | [servers/ticketspice/](servers/ticketspice/) |
+| [Upper Route Planner](servers/upper-route-planner/) | shipping | 16 | API token | [servers/upper-route-planner/](servers/upper-route-planner/) |
+| [Spoke Phone](servers/spoke-phone/) | communications | 31 | API token | [servers/spoke-phone/](servers/spoke-phone/) |
+| [Laposta](servers/laposta/) | email | 22 | API token | [servers/laposta/](servers/laposta/) |
+| [Appointedd](servers/appointedd/) | calendar | 24 | API token | [servers/appointedd/](servers/appointedd/) |
+| [Ticketsauce](servers/ticketsauce/) | ecommerce | 9 | API token | [servers/ticketsauce/](servers/ticketsauce/) |
+| [Evenium](servers/evenium/) | ecommerce | 23 | API token | [servers/evenium/](servers/evenium/) |
+| [GoFormz](servers/goformz/) | documents | 27 | API token | [servers/goformz/](servers/goformz/) |
+| [FastBill](servers/fastbill/) | billing | 26 | API token | [servers/fastbill/](servers/fastbill/) |
+| [Halaxy](servers/halaxy/) | healthcare | 39 | API token | [servers/halaxy/](servers/halaxy/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

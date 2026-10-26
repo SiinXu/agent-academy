@@ -6478,7 +6478,7 @@
 ],
 "repository": null,
 "title": "stillindexed SEO checkers",
-"version": "1.0.0",
+"version": "1.1.0",
 "website": "https://stillindexed.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.stillindexed/seo-checkers&version=latest"
@@ -8584,148 +8584,17 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.5.3"
+"version": "3.6.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.5.3",
+"version": "3.6.0",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
 "url": "https://github.com/fruggr/zendesk-mcp-server/blob/HEAD/README.md"
-},
-"mcp-io-github-germaniu-ga4-seo-mcp": {
-"file": "data/originals/mcp-io-github-germaniu-ga4-seo-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Set up and audit site measurement: GA4, Search Console and PageSpeed. Read-only unless enabled.",
-"name": "io.github.GermaniU/ga4-seo-mcp",
-"packages": [
-{
-"env": [
-{
-"description": "Path to a service account key file. Leave unset to use Application Default Credentials from gcloud.",
-"name": "GOOGLE_APPLICATION_CREDENTIALS",
-"required": null,
-"secret": null
-},
-{
-"description": "Comma-separated toolsets: admin,data,gsc,psi,dataforseo,ads.",
-"name": "GA4SEO_TOOLSETS",
-"required": null,
-"secret": null
-},
-{
-"description": "Set to 1 to register tools that create, update, delete, submit or verify. Off by default.",
-"name": "GA4SEO_ENABLE_WRITES",
-"required": null,
-"secret": null
-},
-{
-"description": "PageSpeed Insights API key. Recommended: the anonymous quota is shared and often exhausted.",
-"name": "PAGESPEED_API_KEY",
-"required": null,
-"secret": true
-},
-{
-"description": "DataForSEO login, for the dataforseo toolset.",
-"name": "DATAFORSEO_LOGIN",
-"required": null,
-"secret": null
-},
-{
-"description": "DataForSEO password, for the dataforseo toolset.",
-"name": "DATAFORSEO_PASSWORD",
-"required": null,
-"secret": true
-},
-{
-"description": "Google Ads developer token, for the ads toolset.",
-"name": "GOOGLE_ADS_DEVELOPER_TOKEN",
-"required": null,
-"secret": true
-},
-{
-"description": "Manager (MCC) customer ID, only when operating through a manager account.",
-"name": "GOOGLE_ADS_LOGIN_CUSTOMER_ID",
-"required": null,
-"secret": null
-}
-],
-"id": "ga4-seo-mcp",
-"transport": "stdio",
-"type": "pypi",
-"version": "0.1.2"
-},
-{
-"env": [
-{
-"description": "Path of the mounted credentials file inside the container.",
-"name": "GOOGLE_APPLICATION_CREDENTIALS",
-"required": true,
-"secret": null
-},
-{
-"description": "Comma-separated toolsets: admin,data,gsc,psi,dataforseo,ads.",
-"name": "GA4SEO_TOOLSETS",
-"required": null,
-"secret": null
-},
-{
-"description": "Set to 1 to register tools that create, update, delete, submit or verify. Off by default.",
-"name": "GA4SEO_ENABLE_WRITES",
-"required": null,
-"secret": null
-},
-{
-"description": "PageSpeed Insights API key. Recommended: the anonymous quota is shared and often exhausted.",
-"name": "PAGESPEED_API_KEY",
-"required": null,
-"secret": true
-},
-{
-"description": "DataForSEO login, for the dataforseo toolset.",
-"name": "DATAFORSEO_LOGIN",
-"required": null,
-"secret": null
-},
-{
-"description": "DataForSEO password, for the dataforseo toolset.",
-"name": "DATAFORSEO_PASSWORD",
-"required": null,
-"secret": true
-},
-{
-"description": "Google Ads developer token, for the ads toolset.",
-"name": "GOOGLE_ADS_DEVELOPER_TOKEN",
-"required": null,
-"secret": true
-},
-{
-"description": "Manager (MCC) customer ID, only when operating through a manager account.",
-"name": "GOOGLE_ADS_LOGIN_CUSTOMER_ID",
-"required": null,
-"secret": null
-}
-],
-"id": "ghcr.io/germaniu/ga4-seo-mcp:0.1.2",
-"transport": "stdio",
-"type": "oci",
-"version": null
-}
-],
-"remotes": [],
-"repository": "https://github.com/GermaniU/ga4-seo-mcp",
-"title": "GA4 SEO MCP",
-"version": "0.1.2",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/GermaniU/ga4-seo-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-glips-figma-context-mcp": {
 "file": "data/originals/mcp-io-github-glips-figma-context-mcp.md",
@@ -9964,7 +9833,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-figma",
 "title": "Figma",
-"version": "0.1.3",
+"version": "0.1.4",
 "website": "https://pipeworx.io/packs/figma"
 },
 "truncated": false,
@@ -10943,6 +10812,32 @@
 "truncated": false,
 "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
 },
+"mcp-io-github-zeluizr-adobe-commerce-mcp": {
+"file": "data/originals/mcp-io-github-zeluizr-adobe-commerce-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding",
+"name": "io.github.zeluizr/adobe-commerce-mcp",
+"packages": [
+{
+"env": [],
+"id": "adobe-commerce-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/zeluizr/adobe-commerce-mcp",
+"title": "Adobe Commerce MCP",
+"version": "0.1.0",
+"website": "https://github.com/zeluizr/adobe-commerce-mcp#readme"
+},
+"truncated": false,
+"url": "https://github.com/zeluizr/adobe-commerce-mcp/blob/HEAD/README.md"
+},
 "mcp-io-scalably-dataforseo-mcp": {
 "file": "data/originals/mcp-io-scalably-dataforseo-mcp.md",
 "kind": "full",
@@ -11220,7 +11115,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.21.3",
+"version": "1.24.0",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": false,

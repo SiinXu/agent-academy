@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-25
-updated_at: 2026-10-25T14:23:36Z
+version: 2026-10-26
+updated_at: 2026-10-26T00:26:39Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -309,12 +309,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.vibeseo.dev/mcp
   needs_credentials: true, writes_external: false
-- [mcp] GA4 SEO MCP. Set up and audit site measurement: GA4, Search Console and PageSpeed. Read-only unless enabled.
-  source: https://github.com/GermaniU/ga4-seo-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-germaniu-ga4-seo-mcp.md
-  license: MIT
-  install: uvx ga4-seo-mcp
-  needs_credentials: true, writes_external: false
 - [mcp] io.github.dingdawg/dingdawg-marketing-agent. AI content generation, SEO audits, campaign planning & social scheduling.
   source: https://github.com/dingdawg/dingdawg-agent-1
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dingdawg-dingdawg-marketing-agent.md
@@ -332,6 +326,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ai-buildinfra-seo-intentrank.md
   license: MIT
   needs_credentials: false, writes_external: false
+- [mcp] SEOmatic. SEO agent: GSC, keyword, backlink and AI-visibility insights, plus approval-gated site actions
+  source: https://github.com/Minh42/seomatic-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seomatic-seomatic.md
+  license: MIT
+  install: remote (streamable-http): https://app.seomatic.ai/api/mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 
