@@ -2,7 +2,7 @@
  "id": "customer-service/knowledge-base-editor",
  "industry": "customer-service",
  "role": "knowledge-base-editor",
- "updated_at": "2026-10-26T00:26:39Z",
+ "updated_at": "2026-10-26T16:48:06Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -57,7 +57,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -102,7 +102,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -147,7 +147,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -192,7 +192,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -243,7 +243,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -313,11 +313,79 @@
      "status": "active",
      "first_seen": "2026-10-15T10:41:56Z",
      "updated_at": "2026-10-15T10:41:56Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-faqt/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-call-faq-miner",
+     "title": "Call FAQ Miner",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "knowledge-base-editor"
+     ],
+     "summary": "Keep enablement current from real calls. Tracks questions, timestamps answers, and links back to the source recording.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/call-faq-miner",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "DenisLabelle",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/call-faq-miner",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/s297976f738dc390d23df",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "coding-shipping",
+       "creator": "DenisLabelle",
+       "firstSeen": "2026-09-24",
+       "integrations": [],
+       "name": "Call FAQ Miner",
+       "official": false,
+       "page": "https://botsdots.site/templates/call-faq-miner",
+       "risk": "low",
+       "summary": "Keep enablement current from real calls. Tracks questions, timestamps answers, and links back to the source recording."
+      }
+     },
+     "install": "https://x.ai/bot/s297976f738dc390d23df",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 12,
+      "first_seen_catalog": "2026-09-24"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:41:56Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-call-faq-miner/",
      "source": "botsdots"
     },
     {
@@ -382,78 +450,11 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-ticket-desk/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-call-faq-miner",
-     "title": "Call FAQ Miner",
-     "type": "template",
-     "industry": "customer-service",
-     "roles": [
-      "knowledge-base-editor"
-     ],
-     "summary": "Keep enablement current from real calls. Tracks questions, timestamps answers, and links back to the source recording.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/call-faq-miner",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "DenisLabelle",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/call-faq-miner",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/s297976f738dc390d23df",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot.dev (CC BY 4.0)"
-       ],
-       "category": "coding-shipping",
-       "creator": "DenisLabelle",
-       "firstSeen": "2026-09-24",
-       "integrations": [],
-       "name": "Call FAQ Miner",
-       "official": false,
-       "page": "https://botsdots.site/templates/call-faq-miner",
-       "risk": "low",
-       "summary": "Keep enablement current from real calls. Tracks questions, timestamps answers, and links back to the source recording."
-      }
-     },
-     "install": "https://x.ai/bot/s297976f738dc390d23df",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 10,
-      "first_seen_catalog": "2026-09-24"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:41:56Z",
-     "updated_at": "2026-10-15T10:41:56Z",
-     "checked_at": "2026-10-26T00:26:39Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-call-faq-miner/",
      "source": "botsdots"
     },
     {
@@ -518,7 +519,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -568,7 +569,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -613,7 +614,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -658,7 +659,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -703,7 +704,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -753,7 +754,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -798,7 +799,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -843,7 +844,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -888,7 +889,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -938,7 +939,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -983,7 +984,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },

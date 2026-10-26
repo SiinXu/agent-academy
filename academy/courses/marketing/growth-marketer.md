@@ -2,7 +2,7 @@
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -38,15 +38,15 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dadANmm6M496kgq3qgBJ3
   needs_credentials: false, writes_external: false
-- [template] Dan. Daily marketing manager for a sports fan page: growth plans, ready-to-post text, local fan replies, brand deals and income.
-  source: https://botsdots.site/templates/dan
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/7zNjK3LlQ55fGobGVWPQl
-  needs_credentials: false, writes_external: false
 - [template] AI Character Studio. Runs faceless AI influencer characters end to end: scripts with hook options, AI avatar videos, captions, scheduled posting and weekly growth checks.
   source: https://botsdots.site/templates/ai-character-studio
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/RDa3UxaLxHIts4XVIX73W
+  needs_credentials: false, writes_external: false
+- [template] Dan. Daily marketing manager for a sports fan page: growth plans, ready-to-post text, local fan replies, brand deals and income.
+  source: https://botsdots.site/templates/dan
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/7zNjK3LlQ55fGobGVWPQl
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -144,19 +144,9 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-banner-slogan-and-subtext-generator.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [system-prompt] Content Calendar Keeper. Plans a month of content across channels and reminds you before each post.
-  source: https://prompts.chat/prompts/c86k1sa53c86q8niokz8olek0_content-calendar-keeper
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-content-calendar-keeper.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
 - [system-prompt] Master Storyteller and Sales Copywriter Prompt. This prompt guides the user to create compelling sales narratives that transform prospects into loyal customers by embedding the product into their identity.
   source: https://prompts.chat/prompts/cmm3yusid0001ie048o71sjvk_master-storyteller-and-sales-copywriter-prompt
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-master-storyteller-and-sales-copywriter-prompt.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Opportunity Validator. Watches X and forums in your niche overnight and each morning brings 3 validated problems people are begging someone to solve, each with a micro-experiment to test demand.
-  source: https://prompts.chat/prompts/cdvuyyq88ii7orppsmcq83ppn_opportunity-validator
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-opportunity-validator.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] sales and marketing strategy. I am the proprietor of a company with an in-house sheet metal manufacturing facility. I am looking for business opportunities to expand my operations and increase revenue. I am interested in lead generation, business dev
@@ -174,12 +164,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
-- [mcp] io.github.pooriaarab/agentic-campaign. Plan a social campaign calendar across brands and platforms.
-  source: https://github.com/pooriaarab/agentic-campaign
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pooriaarab-agentic-campaign.md
-  license: MIT
-  install: npx -y agentic-campaign
-  needs_credentials: false, writes_external: false
 - [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
@@ -190,6 +174,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [mcp] Mailchimp MCP server. Mailchimp campaign management over the Mailchimp Marketing API v3. Draft, test, and send email campaigns, manage audiences and subscribers, and review post-send analytics from any MCP client, with optional local image an
+  source: https://github.com/cyanheads/mailchimp-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/cyanheads-mailchimp-mcp-server.md
+  license: Apache-2.0
+  install: see README; needs Mailchimp API key; can SEND campaigns (write access)
+  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

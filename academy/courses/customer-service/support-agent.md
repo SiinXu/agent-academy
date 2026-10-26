@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -109,20 +109,20 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/YELCIJ_5UrbwjP-4pm_Fx
   needs_credentials: true, writes_external: false
+- [template] Google Business Profile Manager. You run one Google Business Profile for a local business: draft posts and review replies, audit the listing, clear Needs Attention → 100% Completeness,
+  source: https://botsdots.site/templates/google-business-profile-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/IylsiGKgYwXYOOZ99_CwT
+  needs_credentials: false, writes_external: false
+- [template] Review Reply Craft. Helps small local businesses write human-sounding Google review replies and turn goodwill into paid reply packs
+  source: https://botsdots.site/templates/review-reply-craft
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/wjIrg0RP6NeJOFVduz6n6
+  needs_credentials: false, writes_external: false
 - [template] Review Reply Drafter. Draft replies to public reviews from paste.
   source: https://botsdots.site/templates/review-reply-drafter
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/RFZWV8682hykNKF8UJf44
-  needs_credentials: false, writes_external: false
-- [template] Support Reply Drafter. Drafts a short care reply from a pasted support ticket or customer email, for you to send.
-  source: https://botsdots.site/templates/support-reply-drafter
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO
-  needs_credentials: false, writes_external: false
-- [template] Family Helpdesk (Beta). Patient help for a parent or grandparent: checks scary texts, emails and letters (scam, real or ignorable), big-print tech steps, alerts you when serious.
-  source: https://botsdots.site/templates/family-helpdesk-beta
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/tK2_SKTbXA7HgwrM4wALl
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -157,19 +157,9 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-ai-customer-support-specialist.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [system-prompt] Comment Section Miner. Reads every comment on your videos and posts, and mines them for questions to answer, video ideas, recurring complaints and fans worth thanking.
-  source: https://prompts.chat/prompts/c0fq64sthrjspnevjd2j0oyvt_comment-section-miner
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-comment-section-miner.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
 - [system-prompt] Customer Support Reply Drafter (Empathy + Policy). Drafts support replies that stay warm, accurate, and policy-safe.
   source: https://prompts.chat/prompts/cmuvobkhb0004l307voj326w7_customer-support-reply-drafter-empathy-policy
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-customer-support-reply-drafter-empathy-policy.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Support Inbox Triage. Sorts your customer support inbox by urgency, groups repeat questions, drafts answers from your docs, and sends a daily summary of the top issues customers are hitting.
-  source: https://prompts.chat/prompts/c3p8d0x0amnjbqddah3gr2t9m_support-inbox-triage
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-support-inbox-triage.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

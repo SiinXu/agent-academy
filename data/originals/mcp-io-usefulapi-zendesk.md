@@ -454,6 +454,16 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [GoFormz](servers/goformz/) | documents | 27 | API token | [servers/goformz/](servers/goformz/) |
 | [FastBill](servers/fastbill/) | billing | 26 | API token | [servers/fastbill/](servers/fastbill/) |
 | [Halaxy](servers/halaxy/) | healthcare | 39 | API token | [servers/halaxy/](servers/halaxy/) |
+| [Semble](servers/semble/) | healthcare | 23 | API token | [servers/semble/](servers/semble/) |
+| [Yuki](servers/yuki/) | billing | 20 | API token | [servers/yuki/](servers/yuki/) |
+| [KiotViet](servers/kiotviet/) | ecommerce | 33 | API token | [servers/kiotviet/](servers/kiotviet/) |
+| [Bukku](servers/bukku/) | billing | 27 | API token | [servers/bukku/](servers/bukku/) |
+| [Laudus](servers/laudus/) | billing | 42 | API token | [servers/laudus/](servers/laudus/) |
+| [NewsMAN](servers/newsman/) | email | 30 | API token | [servers/newsman/](servers/newsman/) |
+| [Sellasist](servers/sellasist/) | ecommerce | 31 | API token | [servers/sellasist/](servers/sellasist/) |
+| [Vtiger](servers/vtiger/) | crm | 17 | API token | [servers/vtiger/](servers/vtiger/) |
+| [Cogmento](servers/cogmento/) | crm | 30 | API token | [servers/cogmento/](servers/cogmento/) |
+| [SafetyChain](servers/safetychain/) | productivity | 33 | API token | [servers/safetychain/](servers/safetychain/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

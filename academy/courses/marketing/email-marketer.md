@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -38,16 +38,31 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/LZLr3E1ySm7HzuMSKB18s
   needs_credentials: true, writes_external: false
-- [template] NewsletterBot. Turns a newsletter issue link into branded social graphics and carousels after you approve the highlights
-  source: https://botsdots.site/templates/newsletterbot
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/aZktlS8No2Ur9nlhKRcy8
-  needs_credentials: false, writes_external: false
 - [template] Newsletter Writer. Pulls what shipped from launches, wins and your calendar, writes the issue in your voice, and parks it for you to send.
   source: https://botsdots.site/templates/newsletter-writer
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s5d2839123b973b4480f9
   needs_credentials: false, writes_external: false
+- [template] NewsletterBot. Turns a newsletter issue link into branded social graphics and carousels after you approve the highlights
+  source: https://botsdots.site/templates/newsletterbot
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/aZktlS8No2Ur9nlhKRcy8
+  needs_credentials: false, writes_external: false
+- [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. Cited newsletter issue with three subject lines and one clear CTA
+  source: https://botsdots.site/templates/newsletter-desk-inbox-worthy
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/J0CuUCheuaZacyOKXTSVH
+  needs_credentials: false, writes_external: true
+- [template] Paste → Post Pack. Paste one article, notes, or transcript. Get ready-to-post drafts: 3 X posts, a LinkedIn post, a newsletter blurb, and a short thread. Draft-only - you
+  source: https://botsdots.site/templates/paste-post-pack
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/EAonX-eBCN0lXDz7gEpi7
+  needs_credentials: true, writes_external: true
+- [template] Social Media Manager. Turns your daily news emails and your own story into short, high-hook posts for X and Threads, publishes through Buffer and tunes hooks on real results.
+  source: https://botsdots.site/templates/social-media-manager-en9f
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+  needs_credentials: true, writes_external: true
 - [template] Sponsor Scout. Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.
   source: https://botsdots.site/templates/sponsor-scout
   license: template belongs to its creator (catalog CC0)
@@ -58,21 +73,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/t-gNKMTD-GSe0vSRnGDQQ
   needs_credentials: false, writes_external: false
-- [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. Cited newsletter issue with three subject lines and one clear CTA
-  source: https://botsdots.site/templates/newsletter-desk-inbox-worthy
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/J0CuUCheuaZacyOKXTSVH
-  needs_credentials: false, writes_external: true
 - [template] AI Copywriter. Writes blogs, landing pages, emails, ads, social posts, and campaign briefs in Dan Koe's voice. Every draft goes through Humanizer. Not for video scripts
   source: https://botsdots.site/templates/ai-copywriter
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/ZpEX6-GmuMH-4ctEpfyka
   needs_credentials: false, writes_external: false
-- [template] Paste → Post Pack. Paste one article, notes, or transcript. Get ready-to-post drafts: 3 X posts, a LinkedIn post, a newsletter blurb, and a short thread. Draft-only - you
-  source: https://botsdots.site/templates/paste-post-pack
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/EAonX-eBCN0lXDz7gEpi7
-  needs_credentials: true, writes_external: true
 - [template] Sentinel. Compliance officer for insurance marketing copy. Reviews outbound emails, site pages, and blog posts before publish
   source: https://botsdots.site/templates/sentinel-nafa
   license: template belongs to its creator (catalog CC0)
@@ -83,15 +88,15 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ
   needs_credentials: false, writes_external: false
+- [template] Newsletter Draft Routine by Karata. Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for review.
+  source: https://botsdots.site/templates/newsletter-draft-routine-by-karata
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1
+  needs_credentials: false, writes_external: false
 - [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. 📰 Turn notes and links into a cited newsletter issue with three subject lines, a preheader, sections and one clear call to action.
   source: https://botsdots.site/templates/newsletter-desk-inbox-worthy-j0cu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/j0cuucheuazacyokxtsvh
-  needs_credentials: false, writes_external: false
-- [template] Newsletter Draft Routine by Karata. Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for you to review.
-  source: https://botsdots.site/templates/newsletter-draft-routine-by-karata
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -157,19 +162,9 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-conference-invitation-email.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [system-prompt] Content Repurposer. Takes one long piece (a video, podcast or blog post) and turns it into a thread, a LinkedIn post, short-video hooks and a newsletter section, each in the right tone for its platform.
-  source: https://prompts.chat/prompts/crtfd3vtxbnwu9puccliom7fo_content-repurposer
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-content-repurposer.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
 - [system-prompt] Email Marketing. Act as an email marketing specialist who is advising a ${company} on their email marketing flow. Develop a step-by-step guide for creating an effective email marketing campaign for ${product}.
   source: https://prompts.chat/prompts/cmjk1nsqu0007jy04hfemmfta_email-marketing
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-email-marketing.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Email Newsletter Editor. Helps write your weekly newsletter from saved links and notes.
-  source: https://prompts.chat/prompts/cz1lp616nfpt3ve6u5heh0yh7_email-newsletter-editor
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-email-newsletter-editor.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] EMAIL SEQUENCE WITH STORYTELLING. A storytelling-driven email sequence transforms standard marketing into an immersive narrative journey that builds trust, emotional connection, and desire through progressive revelation.
@@ -180,26 +175,6 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] High Conversion Cold Email. High Conversion Cold Email
   source: https://prompts.chat/prompts/cmlgosm1s000bl504ae9sxlfq_high-conversion-cold-email
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-high-conversion-cold-email.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Newsletter Unsubscribe Butler. Finds newsletters you never open and prepares a one-click unsubscribe list.
-  source: https://prompts.chat/prompts/cojgd19flvs7mswtuikr6gh2d_newsletter-unsubscribe-butler
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-newsletter-unsubscribe-butler.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Sponsor Deal Desk. Sorts the brand deal emails in your inbox, checks if each brand is legit and a fit, suggests a rate from your stats and drafts the reply.
-  source: https://prompts.chat/prompts/c2u8fede6zswt6hhgl32r0w0c_sponsor-deal-desk
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-sponsor-deal-desk.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Webinar Follow-Up Engine. Turns a webinar into follow-up emails, a recap post and clips list within an hour of ending.
-  source: https://prompts.chat/prompts/cee6zcqlgpod4ktjjr1gx7ti6_webinar-follow-up-engine
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-webinar-follow-up-engine.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Weekly Roast. Every Friday it lovingly roasts your week from real data: the meeting you rescheduled four times, the 2am commits, the 47 unread newsletters. Then one sincere compliment.
-  source: https://prompts.chat/prompts/cm46oyxfg0hzg3yq6zy4k00c2_weekly-roast
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-weekly-roast.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 
@@ -236,21 +211,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @neschadin/sendgrid-mcp
   needs_credentials: true, writes_external: true
-- [mcp] com.mambabuilt/mcp-link-in-bio-newsletter-checker. Follow a creator bio link and report the newsletter, what they sell, and the contact emails.
-  source: https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md
+- [mcp] com.mambabuilt/mcp-newsletter-sponsor-tracker. Who sponsors a newsletter, or which newsletters a brand sponsors, from public archives.
+  source: https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-newsletter-sponsor-tracker.md
   license: MIT
-  install: npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.closermethod/newsletter-growth-mcp. Newsletter growth loops, welcome-sequence architecture, subject-line and list-metric guidance.
-  source: https://github.com/closermethod/newsletter-growth-mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y newsletter-growth-mcp
-  needs_credentials: false, writes_external: false
-- [mcp] io.github.teamsincetoday/newsletter-commerce-mcp. Extract shoppable products from newsletter content with affiliate signals.
-  source: https://github.com/teamsincetoday/newsletter-commerce-mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: npx -y newsletter-commerce-mcp
+  install: npx -y @mambalabsdev/mcp-newsletter-sponsor-tracker
   needs_credentials: true, writes_external: false
 - [mcp] Klaviyo. Klaviyo MCP Pack — wraps the Klaviyo API for email marketing
   source: https://github.com/pipeworx-io/mcp-klaviyo

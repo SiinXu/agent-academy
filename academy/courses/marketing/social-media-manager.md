@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -43,6 +43,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/4vmlCUGEy8sWSWsj2j5tz
   needs_credentials: false, writes_external: false
+- [template] Social Media Manager. Studies your posting history, drafts when something noteworthy ships, and parks the post for you to publish.
+  source: https://botsdots.site/templates/social-media-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/s634cb1edf26493e86be2
+  needs_credentials: false, writes_external: true
 - [template] Small Business Social Media Manager. Your own social media manager for a small business. It writes on-brand captions, makes Instagram and Facebook graphics from your logo and photos.
   source: https://botsdots.site/templates/small-business-social-media-manager
   license: template belongs to its creator (catalog CC0)
@@ -53,11 +58,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/gWaVjPTfktx831mfsXPcH
   needs_credentials: false, writes_external: true
-- [template] Social Media Manager. Studies your posting history, drafts when something noteworthy ships, and parks the post for you to publish.
-  source: https://botsdots.site/templates/social-media-manager
+- [template] Social Media Tracker. Tracks social posts you care about and returns a short digest
+  source: https://botsdots.site/templates/social-media-tracker
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/s634cb1edf26493e86be2
-  needs_credentials: false, writes_external: true
+  install: https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N
+  needs_credentials: true, writes_external: false
 - [template] Social Media Manager. Runs your brand's Instagram and X: content calendar, visuals, scheduled posting from a signed-in browser after your approval, and every live link sent back.
   source: https://botsdots.site/templates/social-media-manager-dqao
   license: template belongs to its creator (catalog CC0)
@@ -68,25 +73,25 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
   needs_credentials: false, writes_external: true
-- [template] Social Media Tracker. Tracks social posts you care about and returns a short digest
-  source: https://botsdots.site/templates/social-media-tracker
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N
-  needs_credentials: true, writes_external: false
-- [template] Social Media Manager. Posts in your voice without you living in drafts.
+- [template] Social Media Manager. Learns from your real post history, posts in your voice through Buffer and can auto-post a daily verse, quote or tip.
   source: https://botsdots.site/templates/social-media-manager-jh9r
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
   needs_credentials: false, writes_external: true
+- [template] Social Media Salesperson. Runs a small business's socials: posts about your product, checks messages and sends an easy-to-read daily review.
+  source: https://botsdots.site/templates/social-media-salesperson
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e
+  needs_credentials: false, writes_external: false
 - [template] UniFlow Social Agent. A social media content strategist that plans your week of posts and writes drafts for X, Instagram, Facebook, LinkedIn, Threads, Bluesky and more.
   source: https://botsdots.site/templates/uniflow-social-agent
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a
   needs_credentials: true, writes_external: false
-- [template] Social Media Salesperson. Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review.
-  source: https://botsdots.site/templates/social-media-salesperson
+- [template] Social Media Manager Template. A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.
+  source: https://botsdots.site/templates/social-media-manager-template
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e
+  install: https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -134,11 +139,6 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And…. Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And zero skip rate
   source: https://prompts.chat/prompts/cmu0p1286000njl04q18qvg17_act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-hook-engaging-bodyand-st
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-h.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Community Question Router. Watches your Discord or forum for unanswered questions and routes them to the right teammate.
-  source: https://prompts.chat/prompts/cl6znd1bm7upq1sbcoiujgutn_community-question-router
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-community-question-router.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Create Marketing Videos for Magnifiscentss. Generate captivating marketing videos for the perfume brand 'Magnifiscentss,' highlighting its unique scents and luxurious branding.
@@ -210,9 +210,9 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-vechicle-spareparts-in-sri-lanka.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [system-prompt] YouTube Title Tester. Writes and ranks title and thumbnail ideas for your next video.
-  source: https://prompts.chat/prompts/cff2v2rkfynfa4zrhushwn4xw_youtube-title-tester
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-youtube-title-tester.md
+- [system-prompt] YouTube Video Analyst. I want you to act as an expert YouTube video analyst. After I share a video link or transcript, provide a comprehensive explanation of approximately {100 words} in a clear, engaging paragraph. Include a concise chronolog
+  source: https://prompts.chat/prompts/cmj1zb25f00lovl0rkedtorh7_youtube-video-analyst
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-youtube-video-analyst.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

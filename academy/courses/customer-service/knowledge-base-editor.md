@@ -2,7 +2,7 @@
 name: customer-service-knowledge-base-editor
 description: Agent Academy course for Knowledge base editor (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/knowledge-base-editor/
 ---
 
@@ -59,15 +59,15 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/lLH9eC9XM05hWxSQgL6qj
   needs_credentials: false, writes_external: false
-- [template] Ticket Desk. Flags urgent support tickets, drafts replies from your docs, and turns gaps into help-article drafts; never sends
-  source: https://botsdots.site/templates/ticket-desk
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/47iWfw0I5xxt6uPqKj52G
-  needs_credentials: false, writes_external: false
 - [template] Call FAQ Miner. Keep enablement current from real calls. Tracks questions, timestamps answers, and links back to the source recording.
   source: https://botsdots.site/templates/call-faq-miner
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s297976f738dc390d23df
+  needs_credentials: false, writes_external: false
+- [template] Ticket Desk. Flags urgent support tickets, drafts replies from your docs, and turns gaps into help-article drafts; never sends
+  source: https://botsdots.site/templates/ticket-desk
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/47iWfw0I5xxt6uPqKj52G
   needs_credentials: false, writes_external: false
 - [template] Customer Support Desk. Sorts your support inbox, drafts replies in your voice, builds an FAQ from repeat questions, and watches for churn signals
   source: https://botsdots.site/templates/customer-support-desk

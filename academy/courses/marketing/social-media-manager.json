@@ -2,7 +2,7 @@
  "id": "marketing/social-media-manager",
  "industry": "marketing",
  "role": "social-media-manager",
- "updated_at": "2026-10-26T00:26:39Z",
+ "updated_at": "2026-10-26T16:48:06Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -90,7 +90,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -158,7 +158,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -226,11 +226,81 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-social-media-manager",
+     "title": "Social Media Manager",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Studies your posting history, drafts when something noteworthy ships, and parks the post for you to publish.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-media-manager",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "DenisLabelle",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/social-media-manager",
+      "record": {
+       "access": [
+        "publishing"
+       ],
+       "add": "https://x.ai/bot/s634cb1edf26493e86be2",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot.dev (CC BY 4.0)",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "DenisLabelle",
+       "firstSeen": "2026-09-24",
+       "integrations": [],
+       "name": "Social Media Manager",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-media-manager",
+       "risk": "high",
+       "summary": "Studies your posting history, drafts when something noteworthy ships, and parks the post for you to publish."
+      }
+     },
+     "install": "https://x.ai/bot/s634cb1edf26493e86be2",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 13,
+      "first_seen_catalog": "2026-09-24"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager/",
      "source": "botsdots"
     },
     {
@@ -297,7 +367,7 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-18T14:01:50Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -366,7 +436,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -374,72 +444,76 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-social-media-manager",
-     "title": "Social Media Manager",
+     "id": "botsdots-social-media-tracker",
+     "title": "Social Media Tracker",
      "type": "template",
      "industry": "marketing",
      "roles": [
       "social-media-manager"
      ],
-     "summary": "Studies your posting history, drafts when something noteworthy ships, and parks the post for you to publish.",
+     "summary": "Tracks social posts you care about and returns a short digest",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/social-media-manager",
+     "source_url": "https://botsdots.site/templates/social-media-tracker",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "DenisLabelle",
+     "author": "dan_spitzwieser",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
       "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/social-media-manager",
+      "url": "https://botsdots.site/templates/social-media-tracker",
       "record": {
-       "access": [
-        "publishing"
-       ],
-       "add": "https://x.ai/bot/s634cb1edf26493e86be2",
+       "access": [],
+       "add": "https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N",
        "cadence": "on-demand",
        "catalog_sources": [
         "kydlikebtc/awesome-grokbot",
         "majiayu000/awesome-grok-bot",
         "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot.dev (CC BY 4.0)"
+        "GrokBot HQ (CC BY 4.0)"
        ],
-       "category": "customer-sales",
-       "creator": "DenisLabelle",
-       "firstSeen": "2026-09-24",
-       "integrations": [],
-       "name": "Social Media Manager",
+       "category": "content-publishing",
+       "creator": "dan_spitzwieser",
+       "firstSeen": "2026-09-28",
+       "integrations": [
+        "linkedin",
+        "youtube"
+       ],
+       "name": "Social Media Tracker",
        "official": false,
-       "page": "https://botsdots.site/templates/social-media-manager",
-       "risk": "high",
-       "summary": "Studies your posting history, drafts when something noteworthy ships, and parks the post for you to publish."
+       "page": "https://botsdots.site/templates/social-media-tracker",
+       "risk": "low",
+       "summary": "Tracks social posts you care about and returns a short digest"
       }
      },
-     "install": "https://x.ai/bot/s634cb1edf26493e86be2",
+     "install": "https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N",
      "security": {
       "audited": false,
       "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": true,
-      "risk_label": "high",
-      "integrations": []
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": [
+       "linkedin",
+       "youtube"
+      ]
      },
      "metrics": {
-      "score": 11,
-      "first_seen_catalog": "2026-09-24"
+      "score": 10,
+      "first_seen_catalog": "2026-09-28"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager/",
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-tracker/",
      "source": "botsdots"
     },
     {
@@ -512,7 +586,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -580,83 +654,11 @@
      "status": "active",
      "first_seen": "2026-10-17T13:43:47Z",
      "updated_at": "2026-10-20T15:07:01Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-social-media-tracker",
-     "title": "Social Media Tracker",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "social-media-manager"
-     ],
-     "summary": "Tracks social posts you care about and returns a short digest",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/social-media-tracker",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "dan_spitzwieser",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/social-media-tracker",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates"
-       ],
-       "category": "content-publishing",
-       "creator": "dan_spitzwieser",
-       "firstSeen": "2026-09-28",
-       "integrations": [
-        "linkedin",
-        "youtube"
-       ],
-       "name": "Social Media Tracker",
-       "official": false,
-       "page": "https://botsdots.site/templates/social-media-tracker",
-       "risk": "low",
-       "summary": "Tracks social posts you care about and returns a short digest"
-      }
-     },
-     "install": "https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": [
-       "linkedin",
-       "youtube"
-      ]
-     },
-     "metrics": {
-      "score": 8,
-      "first_seen_catalog": "2026-09-28"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-tracker/",
      "source": "botsdots"
     },
     {
@@ -667,7 +669,7 @@
      "roles": [
       "social-media-manager"
      ],
-     "summary": "Posts in your voice without you living in drafts.",
+     "summary": "Learns from your real post history, posts in your voice through Buffer and can auto-post a daily verse, quote or tip.",
      "summary_lang": "en",
      "source_url": "https://botsdots.site/templates/social-media-manager-jh9r",
      "raw_url": null,
@@ -679,7 +681,7 @@
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "CC-BY-4.0",
+      "license": "CC0-1.0",
       "url": "https://botsdots.site/templates/social-media-manager-jh9r",
       "record": {
        "access": [
@@ -688,17 +690,18 @@
        "add": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
        "cadence": "daily",
        "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
         "GrokBot HQ (CC BY 4.0)"
        ],
-       "category": "customer-sales",
+       "category": "content-publishing",
        "creator": "saburnet33",
-       "firstSeen": "2026-10-20",
+       "firstSeen": "2026-10-25",
        "integrations": [],
        "name": "Social Media Manager",
        "official": false,
        "page": "https://botsdots.site/templates/social-media-manager-jh9r",
        "risk": "high",
-       "summary": "Posts in your voice without you living in drafts."
+       "summary": "Learns from your real post history, posts in your voice through Buffer and can auto-post a daily verse, quote or tip."
       }
      },
      "install": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
@@ -711,18 +714,83 @@
       "integrations": []
      },
      "metrics": {
-      "score": 5,
-      "first_seen_catalog": "2026-10-20"
+      "score": 7,
+      "first_seen_catalog": "2026-10-25"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
-     "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-jh9r/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-social-media-salesperson",
+     "title": "Social Media Salesperson",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "Runs a small business's socials: posts about your product, checks messages and sends an easy-to-read daily review.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-media-salesperson",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "chb2xx",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/social-media-salesperson",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
+       "cadence": "daily",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "chb2xx",
+       "firstSeen": "2026-10-25",
+       "integrations": [],
+       "name": "Social Media Salesperson",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-media-salesperson",
+       "risk": "low",
+       "summary": "Runs a small business's socials: posts about your product, checks messages and sends an easy-to-read daily review."
+      }
+     },
+     "install": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-25T14:23:36Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-salesperson/",
      "source": "botsdots"
     },
     {
@@ -787,7 +855,7 @@
      "status": "active",
      "first_seen": "2026-10-19T16:59:16Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -795,46 +863,46 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-social-media-salesperson",
-     "title": "Social Media Salesperson",
+     "id": "botsdots-social-media-manager-template",
+     "title": "Social Media Manager Template",
      "type": "template",
      "industry": "marketing",
      "roles": [
       "social-media-manager"
      ],
-     "summary": "Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review.",
+     "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/social-media-salesperson",
+     "source_url": "https://botsdots.site/templates/social-media-manager-template",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "chb2xx",
+     "author": "Jennifer",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "CC-BY-4.0",
-      "url": "https://botsdots.site/templates/social-media-salesperson",
+      "license": "facts-only",
+      "url": "https://botsdots.site/templates/social-media-manager-template",
       "record": {
        "access": [],
-       "add": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
-       "cadence": "daily",
+       "add": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
+       "cadence": "on-demand",
        "catalog_sources": [
-        "GrokBot HQ (CC BY 4.0)"
+        "Public x.ai share page"
        ],
-       "category": "customer-sales",
-       "creator": "chb2xx",
-       "firstSeen": "2026-10-25",
+       "category": "content-publishing",
+       "creator": null,
+       "firstSeen": "2026-10-26",
        "integrations": [],
-       "name": "Social Media Salesperson",
+       "name": "Social Media Manager Template",
        "official": false,
-       "page": "https://botsdots.site/templates/social-media-salesperson",
+       "page": "https://botsdots.site/templates/social-media-manager-template",
        "risk": "low",
-       "summary": "Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review."
+       "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
       }
      },
-     "install": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
+     "install": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
      "security": {
       "audited": false,
       "executes_code": false,
@@ -844,18 +912,18 @@
       "integrations": []
      },
      "metrics": {
-      "score": 4,
-      "first_seen_catalog": "2026-10-25"
+      "score": 3,
+      "first_seen_catalog": "2026-10-26"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-25T14:23:36Z",
-     "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "first_seen": "2026-10-26T16:48:06Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-salesperson/",
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-template/",
      "source": "botsdots"
     }
    ]
@@ -894,14 +962,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -939,14 +1007,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -984,14 +1052,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1029,16 +1097,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26051,
+      "repo_stars": 26085,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-content-quality-edi/",
      "source": "github"
@@ -1081,7 +1149,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1126,7 +1194,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1171,7 +1239,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1216,56 +1284,11 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-h/",
-     "source": "prompts.chat"
-    },
-    {
-     "id": "prompts-chat-community-question-router",
-     "title": "Community Question Router",
-     "type": "system-prompt",
-     "industry": "marketing",
-     "roles": [
-      "social-media-manager"
-     ],
-     "summary": "Watches your Discord or forum for unanswered questions and routes them to the right teammate.",
-     "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cl6znd1bm7upq1sbcoiujgutn_community-question-router",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-community-question-router.md",
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "f",
-     "license": "CC0-1.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cl6znd1bm7upq1sbcoiujgutn_community-question-router"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "votes": 0,
-      "created_at": "2026-10-24"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-25T14:23:36Z",
-     "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-community-question-router/",
      "source": "prompts.chat"
     },
     {
@@ -1306,7 +1329,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1351,7 +1374,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1396,7 +1419,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1441,7 +1464,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1486,7 +1509,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1531,7 +1554,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1576,7 +1599,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1621,7 +1644,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1666,7 +1689,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1711,7 +1734,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-23T15:04:39Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1754,7 +1777,7 @@
      "status": "active",
      "first_seen": "2026-10-23T15:04:39Z",
      "updated_at": "2026-10-23T15:04:39Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1799,7 +1822,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1844,7 +1867,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1889,7 +1912,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1897,27 +1920,27 @@
      "source": "prompts.chat"
     },
     {
-     "id": "prompts-chat-youtube-title-tester",
-     "title": "YouTube Title Tester",
+     "id": "prompts-chat-youtube-video-analyst",
+     "title": "YouTube Video Analyst",
      "type": "system-prompt",
      "industry": "marketing",
      "roles": [
       "social-media-manager"
      ],
-     "summary": "Writes and ranks title and thumbnail ideas for your next video.",
+     "summary": "I want you to act as an expert YouTube video analyst. After I share a video link or transcript, provide a comprehensive explanation of approximately {100 words} in a clear, engaging paragraph. Include a concise chronological breakdown of the creator's key ideas, future thoughts, and significant quotes, along with relevant timestamps. Focus on the core messages of the video, ensuring explanation is",
      "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cff2v2rkfynfa4zrhushwn4xw_youtube-title-tester",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-youtube-title-tester.md",
+     "source_url": "https://prompts.chat/prompts/cmj1zb25f00lovl0rkedtorh7_youtube-video-analyst",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-youtube-video-analyst.md",
      "upstream_raw_url": null,
      "repo": null,
-     "author": "f",
+     "author": "aviral-trivedi",
      "license": "CC0-1.0",
      "redistributable": true,
      "content_policy": "mirror-with-attribution",
      "original": {
       "kind": "full",
       "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cff2v2rkfynfa4zrhushwn4xw_youtube-title-tester"
+      "url": "https://prompts.chat/prompts/cmj1zb25f00lovl0rkedtorh7_youtube-video-analyst"
      },
      "install": null,
      "security": {
@@ -1928,17 +1951,17 @@
      },
      "metrics": {
       "votes": 0,
-      "created_at": "2026-10-25"
+      "created_at": "2025-12-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-youtube-title-tester/",
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-youtube-video-analyst/",
      "source": "prompts.chat"
     }
    ]
@@ -2002,7 +2025,7 @@
      "status": "active",
      "first_seen": "2026-10-21T00:40:03Z",
      "updated_at": "2026-10-21T00:40:03Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2048,7 +2071,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2093,7 +2116,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2138,7 +2161,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2188,7 +2211,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2233,7 +2256,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2271,14 +2294,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2316,14 +2339,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2361,14 +2384,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41706,
-      "repo_pushed_at": "2026-10-24"
+      "repo_stars": 41769,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2406,14 +2429,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41706,
-      "repo_pushed_at": "2026-10-24"
+      "repo_stars": 41769,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2451,14 +2474,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41706,
-      "repo_pushed_at": "2026-10-24"
+      "repo_stars": 41769,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2503,7 +2526,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },

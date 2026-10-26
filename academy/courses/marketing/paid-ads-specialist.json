@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-10-26T00:26:39Z",
+ "updated_at": "2026-10-26T16:48:06Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -82,7 +82,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -149,7 +149,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -216,7 +216,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -283,7 +283,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -350,7 +350,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -418,7 +418,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -493,11 +493,145 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-gtm-bot/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-amazon-ads-manager",
+     "title": "Amazon Ads Manager",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "Monitors and reports on Amazon Sponsored Products, Brands and Display ads from native reports, and proposes changes for you to approve.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/amazon-ads-manager",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "brandonhino50",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/amazon-ads-manager",
+      "record": {
+       "access": [
+        "code"
+       ],
+       "add": "https://x.ai/bot/oOnro0nYdAP6AaiEnUBG6",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "brandonhino50",
+       "firstSeen": "2026-10-25",
+       "integrations": [],
+       "name": "Amazon Ads Manager",
+       "official": false,
+       "page": "https://botsdots.site/templates/amazon-ads-manager",
+       "risk": "medium",
+       "summary": "Monitors and reports on Amazon Sponsored Products, Brands and Display ads from native reports, and proposes changes for you to approve."
+      }
+     },
+     "install": "https://x.ai/bot/oOnro0nYdAP6AaiEnUBG6",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-26T16:48:06Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-amazon-ads-manager/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-chatgpt-ads-openai-billing",
+     "title": "ChatGPT Ads & OpenAI Billing",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "Monitors ChatGPT Ads performance and OpenAI API usage and billing, writes native-report reviews and makes owner-approved campaign changes.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/chatgpt-ads-openai-billing",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "brandonhino50",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/chatgpt-ads-openai-billing",
+      "record": {
+       "access": [
+        "code"
+       ],
+       "add": "https://x.ai/bot/ColgVDqeUV6CNR11Sk4U6",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "brandonhino50",
+       "firstSeen": "2026-10-25",
+       "integrations": [],
+       "name": "ChatGPT Ads & OpenAI Billing",
+       "official": false,
+       "page": "https://botsdots.site/templates/chatgpt-ads-openai-billing",
+       "risk": "medium",
+       "summary": "Monitors ChatGPT Ads performance and OpenAI API usage and billing, writes native-report reviews and makes owner-approved campaign changes."
+      }
+     },
+     "install": "https://x.ai/bot/ColgVDqeUV6CNR11Sk4U6",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-25"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-26T16:48:06Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-chatgpt-ads-openai-billing/",
      "source": "botsdots"
     },
     {
@@ -508,7 +642,7 @@
      "roles": [
       "paid-ads-specialist"
      ],
-     "summary": "Circuit breaker for paid-media APIs and Ads Manager desktop sessions.",
+     "summary": "A circuit breaker for paid-media APIs and Ads Manager sessions: says GO, PAUSE or NO and throttles bots so ad accounts don't get banned.",
      "summary_lang": "en",
      "source_url": "https://botsdots.site/templates/fuse",
      "raw_url": null,
@@ -520,24 +654,25 @@
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "CC-BY-4.0",
+      "license": "CC0-1.0",
       "url": "https://botsdots.site/templates/fuse",
       "record": {
        "access": [],
        "add": "https://x.ai/bot/XWKWlHRpljLXaBg7jyLXw",
        "cadence": "on-demand",
        "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
         "GrokBot HQ (CC BY 4.0)"
        ],
-       "category": "content-publishing",
+       "category": "customer-sales",
        "creator": "liam_fallen",
-       "firstSeen": "2026-10-18",
+       "firstSeen": "2026-10-25",
        "integrations": [],
        "name": "Fuse",
        "official": false,
        "page": "https://botsdots.site/templates/fuse",
        "risk": "low",
-       "summary": "Circuit breaker for paid-media APIs and Ads Manager desktop sessions."
+       "summary": "A circuit breaker for paid-media APIs and Ads Manager sessions: says GO, PAUSE or NO and throttles bots so ad accounts don't get banned."
       }
      },
      "install": "https://x.ai/bot/XWKWlHRpljLXaBg7jyLXw",
@@ -550,14 +685,14 @@
       "integrations": []
      },
      "metrics": {
-      "score": 5,
-      "first_seen_catalog": "2026-10-18"
+      "score": 7,
+      "first_seen_catalog": "2026-10-25"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
-     "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -572,7 +707,7 @@
      "roles": [
       "paid-ads-specialist"
      ],
-     "summary": "Content-Bot für Creator: schreibt kurze Hooks, Text-Posts, Karussell-Entwürfe und Wochenpläne für TikTok, Instagram, YouTube, X und LinkedIn",
+     "summary": "German-language content bot for creators: hooks, text posts, carousel drafts and weekly plans for TikTok, Instagram, YouTube, X and LinkedIn.",
      "summary_lang": "en",
      "source_url": "https://botsdots.site/templates/social-media-manager-cfl2",
      "raw_url": null,
@@ -584,18 +719,19 @@
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "CC-BY-4.0",
+      "license": "CC0-1.0",
       "url": "https://botsdots.site/templates/social-media-manager-cfl2",
       "record": {
        "access": [],
        "add": "https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA",
-       "cadence": "on-demand",
+       "cadence": "weekly",
        "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
         "GrokBot HQ (CC BY 4.0)"
        ],
-       "category": "customer-sales",
+       "category": "content-publishing",
        "creator": "dan_spitzwieser",
-       "firstSeen": "2026-10-20",
+       "firstSeen": "2026-10-25",
        "integrations": [
         "linkedin",
         "youtube"
@@ -604,7 +740,7 @@
        "official": false,
        "page": "https://botsdots.site/templates/social-media-manager-cfl2",
        "risk": "low",
-       "summary": "Content-Bot für Creator: schreibt kurze Hooks, Text-Posts, Karussell-Entwürfe und Wochenpläne für TikTok, Instagram, YouTube, X und LinkedIn"
+       "summary": "German-language content bot for creators: hooks, text posts, carousel drafts and weekly plans for TikTok, Instagram, YouTube, X and LinkedIn."
       }
      },
      "install": "https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA",
@@ -620,90 +756,18 @@
       ]
      },
      "metrics": {
-      "score": 5,
-      "first_seen_catalog": "2026-10-20"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-25T14:23:36Z",
-     "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-cfl2/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-socials-henry-manager",
-     "title": "Socials · Henry - Manager",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "A social media content manager that watches your upload folder for new short-form videos, briefs your TikTok, YouTube Shorts, and Instagram",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/socials-henry-manager",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Drewfromweb3",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC-BY-4.0",
-      "url": "https://botsdots.site/templates/socials-henry-manager",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/JKjtbyx4CxCiy-IWjlUQ0",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "customer-sales",
-       "creator": "Drewfromweb3",
-       "firstSeen": "2026-10-25",
-       "integrations": [
-        "instagram",
-        "youtube",
-        "tiktok"
-       ],
-       "name": "Socials · Henry - Manager",
-       "official": false,
-       "page": "https://botsdots.site/templates/socials-henry-manager",
-       "risk": "low",
-       "summary": "A social media content manager that watches your upload folder for new short-form videos, briefs your TikTok, YouTube Shorts, and Instagram"
-      }
-     },
-     "install": "https://x.ai/bot/JKjtbyx4CxCiy-IWjlUQ0",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": [
-       "instagram",
-       "youtube",
-       "tiktok"
-      ]
-     },
-     "metrics": {
-      "score": 5,
+      "score": 7,
       "first_seen_catalog": "2026-10-25"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
-     "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-socials-henry-manager/",
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-cfl2/",
      "source": "botsdots"
     }
    ]
@@ -749,7 +813,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -787,14 +851,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -832,14 +896,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41706,
-      "repo_pushed_at": "2026-10-24"
+      "repo_stars": 41769,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -877,16 +941,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26051,
+      "repo_stars": 26085,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-telegram-ads-analys/",
      "source": "github"
@@ -929,7 +993,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -974,7 +1038,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1019,7 +1083,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1064,7 +1128,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1109,7 +1173,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1154,7 +1218,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1199,7 +1263,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1275,9 +1339,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-cesteral-tiktok-mcp/",
      "source": "mcp-registry"
@@ -1356,9 +1420,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-buer2333-tiktok-shop-mcp/",
      "source": "mcp-registry"
@@ -1444,9 +1508,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-davidmosiah-tiktok-agent-publisher/",
      "source": "mcp-registry"
@@ -1511,9 +1575,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-trendsapi-tiktok/",
      "source": "mcp-registry"
@@ -1599,9 +1663,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-lanternrow-tiktok-organic-mcp/",
      "source": "mcp-registry"
@@ -1666,9 +1730,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-trendsmcp-tiktok/",
      "source": "mcp-registry"
@@ -1729,7 +1793,7 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -1803,9 +1867,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper/",
      "source": "mcp-registry"
@@ -1870,9 +1934,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-deapi-ai-tiktok-transcript-scraper/",
      "source": "mcp-registry"
@@ -1933,11 +1997,109 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-mrocker-tiktok-profile-stats/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-probativegrowth-legal-marketing-data",
+     "title": "Probative legal-marketing data",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "US lawyer ad rules, bar ad filing, ethics opinions, ad-platform policies, fee caps, MDLs. CC BY 4.0.",
+     "summary_lang": "en",
+     "source_url": "https://probativegrowth.com/resources/rules-api/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "com.probativegrowth",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.probativegrowth/legal-marketing-data&version=latest",
+      "record": {
+       "description": "US lawyer ad rules, bar ad filing, ethics opinions, ad-platform policies, fee caps, MDLs. CC BY 4.0.",
+       "name": "com.probativegrowth/legal-marketing-data",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp/rules"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp/filing"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp/opinions"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp/platforms"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp/language"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp/fees"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://probativegrowth.com/mcp/mdl"
+        }
+       ],
+       "repository": null,
+       "title": "Probative legal-marketing data",
+       "version": "1.1.0",
+       "website": "https://probativegrowth.com/resources/rules-api/"
+      }
+     },
+     "install": "remote (streamable-http): https://probativegrowth.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-10-26"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-26T16:48:06Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-probativegrowth-legal-marketing-data/",
      "source": "mcp-registry"
     },
     {
@@ -2007,9 +2169,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-cc-ssave-tiktok-instagram-downloader/",
      "source": "mcp-registry"
@@ -2106,13 +2268,13 @@
          "id": "@getmcpads/tiktok-ads-mcp-server",
          "transport": "stdio",
          "type": "npm",
-         "version": "2.1.0"
+         "version": "2.1.1"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
        "title": "TikTok Ads",
-       "version": "2.1.0",
+       "version": "2.1.1",
        "website": "https://www.getmcpads.com/tools/tiktok-ads"
       }
      },
@@ -2137,16 +2299,16 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-23",
-      "registry_updated_at": "2026-10-23"
+      "repo_pushed_at": "2026-10-26",
+      "registry_updated_at": "2026-10-26"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
-     "updated_at": "2026-10-24T00:46:06Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-getmcpads-tiktok-ads/",
      "source": "mcp-registry"
@@ -2207,9 +2369,9 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-insightfulpipe-tiktok-ads/",
      "source": "mcp-registry"
@@ -2270,7 +2432,7 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2365,74 +2527,11 @@
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
      "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-buer2333-tiktok-gmvmax-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-insightfulpipe-tiktok-pages",
-     "title": "TikTok Pages MCP by InsightfulPipe",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Hosted TikTok Pages MCP server, with each action switched on or off per account.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Insightful-Pipe/tiktok-pages-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-tiktok-pages.md",
-     "upstream_raw_url": null,
-     "repo": "Insightful-Pipe/tiktok-pages-mcp-server",
-     "author": "com.insightfulpipe",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Insightful-Pipe/tiktok-pages-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Hosted TikTok Pages MCP server, with each action switched on or off per account.",
-       "name": "com.insightfulpipe/tiktok-pages",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://tiktok-pages.insightfulmcp.com/"
-        }
-       ],
-       "repository": "https://github.com/Insightful-Pipe/tiktok-pages-mcp-server",
-       "title": "TikTok Pages MCP by InsightfulPipe",
-       "version": "1.0.0",
-       "website": "https://insightfulpipe.com/mcp-servers/tiktok-pages"
-      }
-     },
-     "install": "remote (streamable-http): https://tiktok-pages.insightfulmcp.com/",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-10",
-      "registry_updated_at": "2026-10-21"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-23T00:43:09Z",
-     "updated_at": "2026-10-23T00:43:09Z",
-     "checked_at": "2026-10-26T00:26:39Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-insightfulpipe-tiktok-pages/",
      "source": "mcp-registry"
     }
    ]
@@ -2478,7 +2577,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2523,7 +2622,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2561,14 +2660,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2606,14 +2705,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56525,
+      "repo_stars": 56638,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2651,14 +2750,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41706,
-      "repo_pushed_at": "2026-10-24"
+      "repo_stars": 41769,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2696,14 +2795,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41706,
-      "repo_pushed_at": "2026-10-24"
+      "repo_stars": 41769,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2741,14 +2840,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41706,
-      "repo_pushed_at": "2026-10-24"
+      "repo_stars": 41769,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },
@@ -2793,7 +2892,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T00:26:39Z",
+     "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
      },

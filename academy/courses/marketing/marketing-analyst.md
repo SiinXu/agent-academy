@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 
@@ -100,19 +100,9 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
-- [system-prompt] Launch Day Watchtower. Watches X during your product launch: tracks mentions, quote posts and sentiment hour by hour, surfaces questions you should answer, and catches bug reports before they spread.
-  source: https://prompts.chat/prompts/c5xdwywpz4rcdtwn5drcynezw_launch-day-watchtower
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-launch-day-watchtower.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
 - [system-prompt] Reverse-Engineering Vox's Hybrid Video Strategy. Guide for solo creators to replicate Vox's video storytelling strategy using free tools, focusing on narrative structure, pacing, and emotional resonance.
   source: https://prompts.chat/prompts/cmowmlpgf0007jp04a6bw8t27_reverse-engineering-voxs-hybrid-video-strategy
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-reverse-engineering-voxs-hybrid-video-strategy.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Space Mention Radar. Watches X and the web for links to your Spacefast sites and subdomains, then sends a twice-daily report of who shared what, sentiment, and posts worth replying to.
-  source: https://prompts.chat/prompts/cnqpedm28f6mg0bo3hwf7fete_space-mention-radar
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-space-mention-radar.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] The Lovelyline. Act as an expert brand copywriter and life coach. I am launching a brand called 'Lovely Line'. The core of the brand is a minimalist line-art character that shares daily philosophical thoughts, storytelling, and life-coa
@@ -153,24 +143,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx marketing-analytics-ai-mcp
   needs_credentials: false, writes_external: false
-- [mcp] io.github.friendlygeorge/posthog-mcp-server. MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...
-  source: https://github.com/friendlygeorge/posthog-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md
-  license: MIT
-  install: npx -y posthog-mcp-server
-  needs_credentials: false, writes_external: true
 - [mcp] Marketing Intelligence & Optimization. Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.
   source: https://github.com/Saify-Technologies/saifs-ai-mcps-docs
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-saifs-marketing-intelligence.md
   license: MIT
   install: remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp
   needs_credentials: true, writes_external: false
-- [mcp] Posthog. PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)
-  source: https://github.com/pipeworx-io/mcp-posthog
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md
-  license: MIT
-  install: remote (streamable-http): https://gateway.pipeworx.io/posthog/mcp
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

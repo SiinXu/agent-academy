@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -58,6 +58,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/gadc3bVOsg9iIwmzAGRve
   needs_credentials: false, writes_external: false
+- [template] Site Audit. SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics
+  source: https://botsdots.site/templates/site-audit-rzrr
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q
+  needs_credentials: false, writes_external: false
 - [template] AEO/SEO Bot. Weekday pipeline that picks, lays out, and grades search-visibility pages
   source: https://botsdots.site/templates/aeoseo-bot
   license: template belongs to its creator (catalog CC0)
@@ -73,6 +78,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Viv2NbC5skPslV1WH9Fs7
   needs_credentials: false, writes_external: false
+- [template] SEO / AEO Auditor. Tracks keyword, technical, AI-prompt and competitor movement in one place, and flags the site issues worth fixing.
+  source: https://botsdots.site/templates/seo-aeo-auditor
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/sb6d579c33f7a32d0e7af
+  needs_credentials: false, writes_external: false
 - [template] SEO & GEO Bot. Finds what your buyers search on Google and ask AI assistants, then turns it into ranked ideas, writer briefs.
   source: https://botsdots.site/templates/seo-geo-bot
   license: template belongs to its creator (catalog CC0)
@@ -87,16 +97,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/seo-expert
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/sg2dZMjlprpit0y0PNyhL
-  needs_credentials: false, writes_external: false
-- [template] SERP SPECIALIST. Local SEO bot: keyword volumes SERPs rank plan and preview site for a niche plus towns
-  source: https://botsdots.site/templates/serp-specialist
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/262LyEVXcAKuQuohFeXop
-  needs_credentials: false, writes_external: false
-- [template] Site Audit. One-pass site audit across SEO, speed, accessibility, CRO and schema
-  source: https://botsdots.site/templates/site-audit
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

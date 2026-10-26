@@ -2,7 +2,7 @@
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -74,6 +74,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/MF7q-FTm3QaN7oIIFr3Hv
   needs_credentials: false, writes_external: false
+- [template] Ally. Partner marketing and channel GTM advisor with a BD mindset. Builds partner programs from sales data, separates strategic vs tactical partners, and
+  source: https://botsdots.site/templates/ally-k4xn
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/K4xNPsHhEMOnjN55Au-hf
+  needs_credentials: false, writes_external: false
+- [template] Business. Business, management, and marketing seat. Looks up CIP 52 from official sources, keeps local-first books, and never invents money balances.
+  source: https://botsdots.site/templates/business-b7c9
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/B7C9a8QJSUSUJLKtHtze4
+  needs_credentials: false, writes_external: false
 - [template] Trendspotter. Weekday digest of sports, entertainment, and culture trends plus AI-in-marketing signals
   source: https://botsdots.site/templates/trendspotter
   license: template belongs to its creator (catalog CC0)
@@ -88,16 +98,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/bdc-brand-strategist
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Oe7gk0Zk0K7UO3Od5-nMZ
-  needs_credentials: false, writes_external: false
-- [template] Ally. Partner marketing and channel GTM advisor with a BD mindset. Builds partner programs from sales data, separates strategic vs tactical partners, and
-  source: https://botsdots.site/templates/ally-k4xn
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/K4xNPsHhEMOnjN55Au-hf
-  needs_credentials: false, writes_external: false
-- [template] Business. Business, management, and marketing seat. Looks up CIP 52 from official sources, keeps local-first books, and never invents money balances.
-  source: https://botsdots.site/templates/business-b7c9
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/B7C9a8QJSUSUJLKtHtze4
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -309,12 +309,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://marketing-mcp.mcpize.run/mcp
   needs_credentials: true, writes_external: false
-- [mcp] Mixpanel. Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
-  source: https://github.com/pipeworx-io/mcp-mixpanel
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md
-  license: MIT
-  install: remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Sendgrid. SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)
   source: https://github.com/pipeworx-io/mcp-sendgrid
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-sendgrid.md
@@ -332,6 +326,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
   license: MIT
   install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] uk.co.digitalmarketingagencyswindon/site. Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...
+  source: https://digitalmarketingagencyswindon.co.uk
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

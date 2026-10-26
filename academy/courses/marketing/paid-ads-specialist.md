@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-26
-updated_at: 2026-10-26T00:26:39Z
+updated_at: 2026-10-26T16:48:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -63,20 +63,25 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ
   needs_credentials: true, writes_external: true
-- [template] Fuse. Circuit breaker for paid-media APIs and Ads Manager desktop sessions.
+- [template] Amazon Ads Manager. Monitors and reports on Amazon Sponsored Products, Brands and Display ads from native reports, and proposes changes for you to approve.
+  source: https://botsdots.site/templates/amazon-ads-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/oOnro0nYdAP6AaiEnUBG6
+  needs_credentials: false, writes_external: false
+- [template] ChatGPT Ads & OpenAI Billing. Monitors ChatGPT Ads performance and OpenAI API usage and billing, writes native-report reviews and makes owner-approved campaign changes.
+  source: https://botsdots.site/templates/chatgpt-ads-openai-billing
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/ColgVDqeUV6CNR11Sk4U6
+  needs_credentials: false, writes_external: false
+- [template] Fuse. A circuit breaker for paid-media APIs and Ads Manager sessions: says GO, PAUSE or NO and throttles bots so ad accounts don't get banned.
   source: https://botsdots.site/templates/fuse
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/XWKWlHRpljLXaBg7jyLXw
   needs_credentials: false, writes_external: false
-- [template] Social Media Manager. Content-Bot für Creator: schreibt kurze Hooks, Text-Posts, Karussell-Entwürfe und Wochenpläne für TikTok, Instagram, YouTube, X und LinkedIn
+- [template] Social Media Manager. German-language content bot for creators: hooks, text posts, carousel drafts and weekly plans for TikTok, Instagram, YouTube, X and LinkedIn.
   source: https://botsdots.site/templates/social-media-manager-cfl2
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA
-  needs_credentials: true, writes_external: false
-- [template] Socials · Henry - Manager. A social media content manager that watches your upload folder for new short-form videos, briefs your TikTok, YouTube Shorts, and Instagram
-  source: https://botsdots.site/templates/socials-henry-manager
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/JKjtbyx4CxCiy-IWjlUQ0
   needs_credentials: true, writes_external: false
 
 ## Step 3: Learn the rules
@@ -204,6 +209,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper
   needs_credentials: true, writes_external: false
+- [mcp] Probative legal-marketing data. US lawyer ad rules, bar ad filing, ethics opinions, ad-platform policies, fee caps, MDLs. CC BY 4.0.
+  source: https://probativegrowth.com/resources/rules-api/
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://probativegrowth.com/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] ssave.cc — TikTok & Instagram Downloader. Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export
   source: https://github.com/ssavecc/ssave-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md
@@ -232,12 +242,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-gmvmax-mcp.md
   license: MIT
   install: uvx tiktok-gmvmax-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] TikTok Pages MCP by InsightfulPipe. Hosted TikTok Pages MCP server, with each action switched on or off per account.
-  source: https://github.com/Insightful-Pipe/tiktok-pages-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-tiktok-pages.md
-  license: MIT
-  install: remote (streamable-http): https://tiktok-pages.insightfulmcp.com/
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

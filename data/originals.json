@@ -230,7 +230,8 @@
 "add": "https://x.ai/bot/RDa3UxaLxHIts4XVIX73W",
 "cadence": "weekly",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "jimaggie",
@@ -307,7 +308,8 @@
 "add": "https://x.ai/bot/wa1V3mI4lP2ZodI2frMD-",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "Queenity78",
@@ -332,7 +334,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "MikeCast",
@@ -345,6 +348,56 @@
 "summary": "Partner marketing and channel GTM advisor with a BD mindset. Builds partner programs from sales data, separates strategic vs tactical partners, and"
 },
 "url": "https://botsdots.site/templates/ally-k4xn"
+},
+"botsdots-amazon-ads-manager": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"code"
+],
+"add": "https://x.ai/bot/oOnro0nYdAP6AaiEnUBG6",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "brandonhino50",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Amazon Ads Manager",
+"official": false,
+"page": "https://botsdots.site/templates/amazon-ads-manager",
+"risk": "medium",
+"summary": "Monitors and reports on Amazon Sponsored Products, Brands and Display ads from native reports, and proposes changes for you to approve."
+},
+"url": "https://botsdots.site/templates/amazon-ads-manager"
+},
+"botsdots-app-review-replier": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/75U9cE3KLTeMiLs0VFjso",
+"cadence": "weekly",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "honeycombpixel",
+"firstSeen": "2026-10-26",
+"integrations": [],
+"name": "App Review Replier",
+"official": false,
+"page": "https://botsdots.site/templates/app-review-replier",
+"risk": "low",
+"summary": "Sorts new App Store and Google Play reviews, drafts short replies in your voice for approval and flags recurring complaints weekly."
+},
+"url": "https://botsdots.site/templates/app-review-replier"
 },
 "botsdots-apple-search-ads-review": {
 "kind": "excerpt",
@@ -514,7 +567,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "research-briefings",
 "creator": "TRV_Architech",
@@ -540,7 +594,8 @@
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
 "cs68614-hash/awesome-grokbot-templates",
-"GrokBot.dev (CC BY 4.0)"
+"GrokBot.dev (CC BY 4.0)",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "coding-shipping",
 "creator": "DenisLabelle",
@@ -553,6 +608,32 @@
 "summary": "Keep enablement current from real calls. Tracks questions, timestamps answers, and links back to the source recording."
 },
 "url": "https://botsdots.site/templates/call-faq-miner"
+},
+"botsdots-chatgpt-ads-openai-billing": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"code"
+],
+"add": "https://x.ai/bot/ColgVDqeUV6CNR11Sk4U6",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "brandonhino50",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "ChatGPT Ads & OpenAI Billing",
+"official": false,
+"page": "https://botsdots.site/templates/chatgpt-ads-openai-billing",
+"risk": "medium",
+"summary": "Monitors ChatGPT Ads performance and OpenAI API usage and billing, writes native-report reviews and makes owner-approved campaign changes."
+},
+"url": "https://botsdots.site/templates/chatgpt-ads-openai-billing"
 },
 "botsdots-churn-retention-manager": {
 "kind": "excerpt",
@@ -612,6 +693,30 @@
 "summary": "Digs through your inbox receipts for refunds, settlements and unclaimed money"
 },
 "url": "https://botsdots.site/templates/claims-finder"
+},
+"botsdots-coffee-bot": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/486_LeAm6SWbftHgTT5Y8",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "personal-admin",
+"creator": "CodyLibolt",
+"firstSeen": "2026-10-26",
+"integrations": [],
+"name": "Coffee Bot",
+"official": false,
+"page": "https://botsdots.site/templates/coffee-bot",
+"risk": "low",
+"summary": "A warm coffee companion you visit to chat about whatever's on your mind. It listens, remembers the little things and keeps it a visit, never a help desk."
+},
+"url": "https://botsdots.site/templates/coffee-bot"
 },
 "botsdots-colombia-move": {
 "kind": "excerpt",
@@ -897,17 +1002,18 @@
 "botsdots-dan": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "CC-BY-4.0",
+"license": "CC0-1.0",
 "record": {
 "access": [],
 "add": "https://x.ai/bot/7zNjK3LlQ55fGobGVWPQl",
 "cadence": "daily",
 "catalog_sources": [
+"majiayu000/awesome-grok-bot",
 "GrokBot HQ (CC BY 4.0)"
 ],
-"category": "research-briefings",
+"category": "content-publishing",
 "creator": "danseafan",
-"firstSeen": "2026-10-18",
+"firstSeen": "2026-10-25",
 "integrations": [],
 "name": "Dan",
 "official": false,
@@ -1093,7 +1199,8 @@
 "cadence": "on-demand",
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
@@ -1169,23 +1276,24 @@
 "botsdots-fuse": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "CC-BY-4.0",
+"license": "CC0-1.0",
 "record": {
 "access": [],
 "add": "https://x.ai/bot/XWKWlHRpljLXaBg7jyLXw",
 "cadence": "on-demand",
 "catalog_sources": [
+"majiayu000/awesome-grok-bot",
 "GrokBot HQ (CC BY 4.0)"
 ],
-"category": "content-publishing",
+"category": "customer-sales",
 "creator": "liam_fallen",
-"firstSeen": "2026-10-18",
+"firstSeen": "2026-10-25",
 "integrations": [],
 "name": "Fuse",
 "official": false,
 "page": "https://botsdots.site/templates/fuse",
 "risk": "low",
-"summary": "Circuit breaker for paid-media APIs and Ads Manager desktop sessions."
+"summary": "A circuit breaker for paid-media APIs and Ads Manager sessions: says GO, PAUSE or NO and throttles bots so ad accounts don't get banned."
 },
 "url": "https://botsdots.site/templates/fuse"
 },
@@ -1277,7 +1385,9 @@
 "add": "https://x.ai/bot/FKNsKOj2AaahklQwyI3yr",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "Ortix008",
@@ -1291,6 +1401,32 @@
 },
 "url": "https://botsdots.site/templates/glow-picasso-creative-director"
 },
+"botsdots-google-ads-manager": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"code"
+],
+"add": "https://x.ai/bot/uiZ14mTUcGFlGaU5rJaCb",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "brandonhino50",
+"firstSeen": "2026-10-25",
+"integrations": [],
+"name": "Google Ads Manager",
+"official": false,
+"page": "https://botsdots.site/templates/google-ads-manager",
+"risk": "medium",
+"summary": "Manages and reports on a Google Ads account (campaigns, keywords, search terms, budgets, policy issues) with evidence-first recommendations."
+},
+"url": "https://botsdots.site/templates/google-ads-manager"
+},
 "botsdots-google-business-profile-manager": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -1302,7 +1438,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "JimmyFlipHDR",
@@ -1427,6 +1564,35 @@
 "summary": "Reviews ads, search and Shopify performance from a single place"
 },
 "url": "https://botsdots.site/templates/grok-for-seo-geo-paid-ads-and-shopify"
+},
+"botsdots-head-of-content": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"code"
+],
+"add": "https://x.ai/bot/WWdl6r61XsoZR3nyXwLzj",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "grok",
+"firstSeen": "2026-10-26",
+"integrations": [
+"x"
+],
+"name": "Head of Content",
+"official": false,
+"page": "https://botsdots.site/templates/head-of-content",
+"risk": "medium",
+"summary": "An AI head of content for growing on X: builds your brand strategy, connects tools, writes content skills and deploys 10+ content bots; you stay the editor."
+},
+"url": "https://botsdots.site/templates/head-of-content"
 },
 "botsdots-helios": {
 "kind": "excerpt",
@@ -2031,7 +2197,8 @@
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
 "cs68614-hash/awesome-grokbot-templates",
-"GrokBot.dev (CC BY 4.0)"
+"GrokBot.dev (CC BY 4.0)",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "DenisLabelle",
@@ -2198,7 +2365,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "Cypher0x9",
@@ -2240,23 +2408,26 @@
 "botsdots-newsletter-draft-routine-by-karata": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "CC-BY-4.0",
+"license": "CC0-1.0",
 "record": {
-"access": [],
+"access": [
+"inbox"
+],
 "add": "https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1",
 "cadence": "on-demand",
 "catalog_sources": [
+"majiayu000/awesome-grok-bot",
 "GrokBot HQ (CC BY 4.0)"
 ],
-"category": "research-briefings",
+"category": "content-publishing",
 "creator": "karatademada",
-"firstSeen": "2026-10-23",
+"firstSeen": "2026-10-25",
 "integrations": [],
 "name": "Newsletter Draft Routine by Karata",
 "official": false,
 "page": "https://botsdots.site/templates/newsletter-draft-routine-by-karata",
-"risk": "low",
-"summary": "Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for you to review."
+"risk": "medium",
+"summary": "Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for review."
 },
 "url": "https://botsdots.site/templates/newsletter-draft-routine-by-karata"
 },
@@ -2275,7 +2446,8 @@
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
 "cs68614-hash/awesome-grokbot-templates",
-"GrokBot.dev (CC BY 4.0)"
+"GrokBot.dev (CC BY 4.0)",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "DenisLabelle",
@@ -2434,7 +2606,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "MisledFan",
@@ -2646,7 +2819,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "Omenfinancial",
@@ -2808,7 +2982,8 @@
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
 "cs68614-hash/awesome-grokbot-templates",
-"GrokBot.dev (CC BY 4.0)"
+"GrokBot.dev (CC BY 4.0)",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "research-briefings",
 "creator": "DenisLabelle",
@@ -2877,7 +3052,7 @@
 "botsdots-seo-content-desk": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "CC-BY-4.0",
+"license": "CC0-1.0",
 "record": {
 "access": [
 "publishing"
@@ -2885,9 +3060,10 @@
 "add": "https://x.ai/bot/TBIgegp1bkoomF5Ivd1Cq",
 "cadence": "on-demand",
 "catalog_sources": [
+"majiayu000/awesome-grok-bot",
 "GrokBot HQ (CC BY 4.0)"
 ],
-"category": "customer-sales",
+"category": "content-publishing",
 "creator": "RankedAgents",
 "firstSeen": "2026-10-25",
 "integrations": [],
@@ -2895,7 +3071,7 @@
 "official": false,
 "page": "https://botsdots.site/templates/seo-content-desk",
 "risk": "high",
-"summary": "Turns keywords, Search Console data, or a topic into content ideas, writer-ready briefs, and prioritized SEO and AEO fix lists for local bus"
+"summary": "Turns keywords, Search Console data or a topic into content ideas, writer-ready briefs and prioritized SEO and AEO fixes for local businesses."
 },
 "url": "https://botsdots.site/templates/seo-content-desk"
 },
@@ -3209,7 +3385,8 @@
 "cadence": "monthly",
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
@@ -3250,6 +3427,30 @@
 "summary": "Your own social media manager for a small business. It writes on-brand captions, makes Instagram and Facebook graphics from your logo and photos."
 },
 "url": "https://botsdots.site/templates/small-business-social-media-manager"
+},
+"botsdots-snap-flip": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/Gc9F_A9k2bFnWAgYNP3-z",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "customer-sales",
+"creator": "LisaMAUSA",
+"firstSeen": "2026-10-26",
+"integrations": [],
+"name": "Snap & Flip",
+"official": false,
+"page": "https://botsdots.site/templates/snap-flip",
+"risk": "low",
+"summary": "Snap a photo of any item to get real eBay sold-price comps, shipping picks and a ready-to-paste 80-character SEO listing title. Never auto-lists."
+},
+"url": "https://botsdots.site/templates/snap-flip"
 },
 "botsdots-social-media": {
 "kind": "excerpt",
@@ -3351,7 +3552,8 @@
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
 "cs68614-hash/awesome-grokbot-templates",
-"GrokBot.dev (CC BY 4.0)"
+"GrokBot.dev (CC BY 4.0)",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "DenisLabelle",
@@ -3368,17 +3570,18 @@
 "botsdots-social-media-manager-cfl2": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "CC-BY-4.0",
+"license": "CC0-1.0",
 "record": {
 "access": [],
 "add": "https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA",
-"cadence": "on-demand",
+"cadence": "weekly",
 "catalog_sources": [
+"majiayu000/awesome-grok-bot",
 "GrokBot HQ (CC BY 4.0)"
 ],
-"category": "customer-sales",
+"category": "content-publishing",
 "creator": "dan_spitzwieser",
-"firstSeen": "2026-10-20",
+"firstSeen": "2026-10-25",
 "integrations": [
 "linkedin",
 "youtube"
@@ -3387,7 +3590,7 @@
 "official": false,
 "page": "https://botsdots.site/templates/social-media-manager-cfl2",
 "risk": "low",
-"summary": "Content-Bot für Creator: schreibt kurze Hooks, Text-Posts, Karussell-Entwürfe und Wochenpläne für TikTok, Instagram, YouTube, X und LinkedIn"
+"summary": "German-language content bot for creators: hooks, text posts, carousel drafts and weekly plans for TikTok, Instagram, YouTube, X and LinkedIn."
 },
 "url": "https://botsdots.site/templates/social-media-manager-cfl2"
 },
@@ -3424,10 +3627,40 @@
 },
 "url": "https://botsdots.site/templates/social-media-manager-dqao"
 },
+"botsdots-social-media-manager-en9f": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"inbox",
+"publishing"
+],
+"add": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+"cadence": "daily",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "upeshinmars",
+"firstSeen": "2026-10-26",
+"integrations": [
+"threads"
+],
+"name": "Social Media Manager",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-manager-en9f",
+"risk": "high",
+"summary": "Turns your daily news emails and your own story into short, high-hook posts for X and Threads, publishes through Buffer and tunes hooks on real results."
+},
+"url": "https://botsdots.site/templates/social-media-manager-en9f"
+},
 "botsdots-social-media-manager-jh9r": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "CC-BY-4.0",
+"license": "CC0-1.0",
 "record": {
 "access": [
 "publishing"
@@ -3435,29 +3668,54 @@
 "add": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
 "cadence": "daily",
 "catalog_sources": [
+"majiayu000/awesome-grok-bot",
 "GrokBot HQ (CC BY 4.0)"
 ],
-"category": "customer-sales",
+"category": "content-publishing",
 "creator": "saburnet33",
-"firstSeen": "2026-10-20",
+"firstSeen": "2026-10-25",
 "integrations": [],
 "name": "Social Media Manager",
 "official": false,
 "page": "https://botsdots.site/templates/social-media-manager-jh9r",
 "risk": "high",
-"summary": "Posts in your voice without you living in drafts."
+"summary": "Learns from your real post history, posts in your voice through Buffer and can auto-post a daily verse, quote or tip."
 },
 "url": "https://botsdots.site/templates/social-media-manager-jh9r"
+},
+"botsdots-social-media-manager-template": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "facts-only",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
+"cadence": "on-demand",
+"catalog_sources": [
+"Public x.ai share page"
+],
+"category": "content-publishing",
+"creator": null,
+"firstSeen": "2026-10-26",
+"integrations": [],
+"name": "Social Media Manager Template",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-manager-template",
+"risk": "low",
+"summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
+},
+"url": "https://botsdots.site/templates/social-media-manager-template"
 },
 "botsdots-social-media-salesperson": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "CC-BY-4.0",
+"license": "CC0-1.0",
 "record": {
 "access": [],
 "add": "https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e",
 "cadence": "daily",
 "catalog_sources": [
+"majiayu000/awesome-grok-bot",
 "GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
@@ -3468,7 +3726,7 @@
 "official": false,
 "page": "https://botsdots.site/templates/social-media-salesperson",
 "risk": "low",
-"summary": "Runs your small business's socials: posts about your product, checks your messages, and sends you an easy-to-read daily review."
+"summary": "Runs a small business's socials: posts about your product, checks messages and sends an easy-to-read daily review."
 },
 "url": "https://botsdots.site/templates/social-media-salesperson"
 },
@@ -3483,7 +3741,8 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "dan_spitzwieser",
@@ -3526,60 +3785,6 @@
 "summary": "Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes."
 },
 "url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting"
-},
-"botsdots-socials-henry-manager": {
-"kind": "excerpt",
-"label": "botsdots",
-"license": "CC-BY-4.0",
-"record": {
-"access": [],
-"add": "https://x.ai/bot/JKjtbyx4CxCiy-IWjlUQ0",
-"cadence": "on-demand",
-"catalog_sources": [
-"GrokBot HQ (CC BY 4.0)"
-],
-"category": "customer-sales",
-"creator": "Drewfromweb3",
-"firstSeen": "2026-10-25",
-"integrations": [
-"instagram",
-"youtube",
-"tiktok"
-],
-"name": "Socials · Henry - Manager",
-"official": false,
-"page": "https://botsdots.site/templates/socials-henry-manager",
-"risk": "low",
-"summary": "A social media content manager that watches your upload folder for new short-form videos, briefs your TikTok, YouTube Shorts, and Instagram"
-},
-"url": "https://botsdots.site/templates/socials-henry-manager"
-},
-"botsdots-spam-cleaner": {
-"kind": "excerpt",
-"label": "botsdots",
-"license": "CC-BY-4.0",
-"record": {
-"access": [
-"inbox"
-],
-"add": "https://x.ai/bot/dnqS6y_qSOgmMNZ_dAak1",
-"cadence": "on-demand",
-"catalog_sources": [
-"GrokBot HQ (CC BY 4.0)"
-],
-"category": "customer-sales",
-"creator": "dougdstecklein",
-"firstSeen": "2026-10-25",
-"integrations": [
-"gmail"
-],
-"name": "Spam Cleaner",
-"official": false,
-"page": "https://botsdots.site/templates/spam-cleaner",
-"risk": "medium",
-"summary": "Keeps your Gmail and other webmail free of spam and marketing lists."
-},
-"url": "https://botsdots.site/templates/spam-cleaner"
 },
 "botsdots-sponsor-hunter": {
 "kind": "excerpt",
@@ -3861,10 +4066,11 @@
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
 "GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
-"creator": null,
+"creator": "CaliLumberJack",
 "firstSeen": "2026-10-23",
 "integrations": [],
 "name": "Tubewright",
@@ -3926,6 +4132,31 @@
 "summary": "A social media content strategist that plans your week of posts and writes drafts for X, Instagram, Facebook, LinkedIn, Threads, Bluesky and more."
 },
 "url": "https://botsdots.site/templates/uniflow-social-agent"
+},
+"botsdots-vendoo-bot": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/DhYb85wjUB7513hXEi2BM",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "ProfitToTheMax1",
+"firstSeen": "2026-10-26",
+"integrations": [],
+"name": "Vendoo Bot",
+"official": false,
+"page": "https://botsdots.site/templates/vendoo-bot",
+"risk": "low",
+"summary": "Crosslisting helper for resellers: fills Vendoo item forms with SEO tags, categories, colors, shipping and per-marketplace presets, then saves for review."
+},
+"url": "https://botsdots.site/templates/vendoo-bot"
 },
 "botsdots-webby": {
 "kind": "excerpt",
@@ -4279,22 +4510,6 @@
 "license": "Apache-2.0",
 "truncated": false,
 "url": "https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/product-search/SKILL.md"
-},
-"leonxlnx-taste-skill-skills-minimalist-skill-skill-md": {
-"file": "data/originals/leonxlnx-taste-skill-skills-minimalist-skill-skill-md.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/leonxlnx/taste-skill/blob/HEAD/README.md"
-},
-"leonxlnx-taste-skill-skills-redesign-skill-skill-md": {
-"file": "data/originals/leonxlnx-taste-skill-skills-redesign-skill-skill-md.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/leonxlnx/taste-skill/blob/HEAD/README.md"
 },
 "m-pineapple-hubspot-auditor": {
 "file": "data/originals/m-pineapple-hubspot-auditor.md",
@@ -5257,13 +5472,13 @@
 "id": "@getmcpads/tiktok-ads-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "2.1.0"
+"version": "2.1.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
 "title": "TikTok Ads",
-"version": "2.1.0",
+"version": "2.1.1",
 "website": "https://www.getmcpads.com/tools/tiktok-ads"
 },
 "truncated": false,
@@ -5488,30 +5703,6 @@
 "website": "https://icons8.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.icons8/icons8&version=latest"
-},
-"mcp-com-insightfulpipe-dataforseo": {
-"file": "data/originals/mcp-com-insightfulpipe-dataforseo.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Hosted DataForSEO MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-"name": "com.insightfulpipe/dataforseo",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://dataforseo.insightfulmcp.com/"
-}
-],
-"repository": "https://github.com/Insightful-Pipe/dataforseo-mcp-server",
-"title": "DataForSEO MCP by InsightfulPipe",
-"version": "1.0.0",
-"website": "https://insightfulpipe.com/mcp-servers/dataforseo"
-},
-"truncated": false,
-"url": "https://github.com/Insightful-Pipe/dataforseo-mcp-server/blob/HEAD/README.md"
 },
 "mcp-com-insightfulpipe-klaviyo": {
 "file": "data/originals/mcp-com-insightfulpipe-klaviyo.md",
@@ -5749,14 +5940,14 @@
 "truncated": false,
 "url": "https://github.com/keyline-icons/keyline-icons/blob/HEAD/README.md"
 },
-"mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker": {
-"file": "data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md",
+"mcp-com-mambabuilt-mcp-newsletter-sponsor-tracker": {
+"file": "data/originals/mcp-com-mambabuilt-mcp-newsletter-sponsor-tracker.md",
 "kind": "full",
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "Follow a creator bio link and report the newsletter, what they sell, and the contact emails.",
-"name": "com.mambabuilt/mcp-link-in-bio-newsletter-checker",
+"description": "Who sponsors a newsletter, or which newsletters a brand sponsors, from public archives.",
+"name": "com.mambabuilt/mcp-newsletter-sponsor-tracker",
 "packages": [
 {
 "env": [
@@ -5767,20 +5958,20 @@
 "secret": true
 }
 ],
-"id": "@mambalabsdev/mcp-link-in-bio-newsletter-checker",
+"id": "@mambalabsdev/mcp-newsletter-sponsor-tracker",
 "transport": "stdio",
 "type": "npm",
-"version": "1.2.0"
+"version": "1.0.0"
 }
 ],
 "remotes": [],
-"repository": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker",
+"repository": "https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker",
 "title": null,
-"version": "1.2.0",
+"version": "1.0.0",
 "website": null
 },
 "truncated": false,
-"url": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker/blob/HEAD/README.md"
+"url": "https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker/blob/HEAD/README.md"
 },
 "mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper": {
 "file": "data/originals/mcp-com-mambabuilt-mcp-tiktok-brand-presence-mapper.md",
@@ -6023,6 +6214,63 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.penguindriver/seo&version=latest"
 },
+"mcp-com-probativegrowth-legal-marketing-data": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "US lawyer ad rules, bar ad filing, ethics opinions, ad-platform policies, fee caps, MDLs. CC BY 4.0.",
+"name": "com.probativegrowth/legal-marketing-data",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp/rules"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp/filing"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp/opinions"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp/platforms"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp/language"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp/fees"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://probativegrowth.com/mcp/mdl"
+}
+],
+"repository": null,
+"title": "Probative legal-marketing data",
+"version": "1.1.0",
+"website": "https://probativegrowth.com/resources/rules-api/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.probativegrowth/legal-marketing-data&version=latest"
+},
 "mcp-com-roasexpert-tools-seo-audit": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -6240,11 +6488,12 @@
 "url": "https://github.com/Seolyticize/skills/blob/HEAD/README.md"
 },
 "mcp-com-seoperception-mcp": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
+"file": "data/originals/mcp-com-seoperception-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
 "record": {
-"description": "Search Console, crawl and SEO to-dos, read-only inside Cursor and Claude.",
+"description": "Search Console, crawl, and SEO to-dos in Cursor and Claude. OAuth or token; close to-dos optionally.",
 "name": "com.seoperception/mcp",
 "packages": [],
 "remotes": [
@@ -6254,12 +6503,13 @@
 "url": "https://seoperception.com/mcp"
 }
 ],
-"repository": null,
+"repository": "https://github.com/lkoudal/seoperception-mcp",
 "title": "SEO Perception",
-"version": "1.0.0",
+"version": "2.1.0",
 "website": "https://seoperception.com/mcp-integration"
 },
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoperception/mcp&version=latest"
+"truncated": false,
+"url": "https://github.com/lkoudal/seoperception-mcp/blob/HEAD/README.md"
 },
 "mcp-com-seorankfixer-seo-rank-fixer": {
 "file": "data/originals/mcp-com-seorankfixer-seo-rank-fixer.md",
@@ -6506,30 +6756,6 @@
 },
 "truncated": false,
 "url": "https://github.com/superagnt/plugins/blob/HEAD/README.md"
-},
-"mcp-com-svgicons-mcp": {
-"file": "data/originals/mcp-com-svgicons-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "320K+ open-source SVG icons: 12 tools, anonymous metadata search; SVG, exports, collections via Pro.",
-"name": "com.svgicons/mcp",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://svgicons.com/mcp"
-}
-],
-"repository": "https://github.com/svgicons-com/mcp",
-"title": "Svg/icons MCP",
-"version": "0.3.2",
-"website": "https://svgicons.com/developers/mcp"
-},
-"truncated": false,
-"url": "https://github.com/svgicons-com/mcp/blob/HEAD/README.md"
 },
 "mcp-com-swifteq-zendesk-mcp-server": {
 "kind": "excerpt",
@@ -7332,30 +7558,6 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.asklokesh/mailchimp-mcp-server&version=latest"
 },
-"mcp-io-github-asr-aditya-iconserve": {
-"file": "data/originals/mcp-io-github-asr-aditya-iconserve.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Icons for agentic development: search & fetch 366,000+ open-source icons as SVG/PNG. No API key.",
-"name": "io.github.asr-aditya/iconserve",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://icons-for-agents.site/mcp"
-}
-],
-"repository": "https://github.com/asr-aditya/iconserve",
-"title": null,
-"version": "0.1.1",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/asr-aditya/iconserve/blob/HEAD/README.md"
-},
 "mcp-io-github-atul0016-marketing-content-production": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -7907,30 +8109,6 @@
 },
 "truncated": false,
 "url": "https://github.com/Choppaaahh/sendgrid-mcp-secure/blob/HEAD/README.md"
-},
-"mcp-io-github-closermethod-newsletter-growth-mcp": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Newsletter growth loops, welcome-sequence architecture, subject-line and list-metric guidance.",
-"name": "io.github.closermethod/newsletter-growth-mcp",
-"packages": [
-{
-"env": [],
-"id": "newsletter-growth-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "1.0.1"
-}
-],
-"remotes": [],
-"repository": "https://github.com/closermethod/newsletter-growth-mcp",
-"title": null,
-"version": "1.0.1",
-"website": null
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.closermethod/newsletter-growth-mcp&version=latest"
 },
 "mcp-io-github-cmd8-excalidraw-mcp": {
 "file": "data/originals/mcp-io-github-cmd8-excalidraw-mcp.md",
@@ -8537,32 +8715,6 @@
 "truncated": false,
 "url": "https://github.com/fernandoguiraud16-coder/data-tools/blob/HEAD/README.md"
 },
-"mcp-io-github-friendlygeorge-posthog-mcp-server": {
-"file": "data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...",
-"name": "io.github.friendlygeorge/posthog-mcp-server",
-"packages": [
-{
-"env": [],
-"id": "posthog-mcp-server",
-"transport": "stdio",
-"type": "npm",
-"version": "1.0.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/friendlygeorge/posthog-mcp-server",
-"title": null,
-"version": "1.0.0",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/friendlygeorge/posthog-mcp-server/blob/HEAD/README.md"
-},
 "mcp-io-github-fruggr-zendesk-mcp-server": {
 "file": "data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md",
 "kind": "full",
@@ -8773,75 +8925,6 @@
 "truncated": false,
 "url": "https://github.com/jeremdecustovox/custovox-ai/blob/HEAD/README.md"
 },
-"mcp-io-github-jigarkkarangiya-adobe-commerce-docs-mcp": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "MCP server for Adobe Commerce / Magento 2 documentation — search, browse, and read official docs.",
-"name": "io.github.jigarkkarangiya/adobe-commerce-docs-mcp",
-"packages": [
-{
-"env": [
-{
-"description": "Directory for the on-disk sitemap and page cache. Defaults to ~/.cache/adobe-commerce-docs-mcp.",
-"name": "CACHE_DIR",
-"required": null,
-"secret": null
-},
-{
-"description": "Override the Adobe Experience League sitemap URL to index. Defaults to https://experienceleague.adobe.com/en/sitemap.xml.",
-"name": "SITEMAP_URL",
-"required": null,
-"secret": null
-},
-{
-"description": "Comma-separated list of extra Experience League product slugs to index beyond the auto-detected commerce/commerce-* sections.",
-"name": "EXTRA_COMMERCE_SLUGS",
-"required": null,
-"secret": null
-}
-],
-"id": "adobe-commerce-docs-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "2.0.3"
-}
-],
-"remotes": [],
-"repository": "https://github.com/jigarkkarangiya/adobe-commerce-docs-mcp",
-"title": null,
-"version": "2.0.3",
-"website": null
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.jigarkkarangiya/adobe-commerce-docs-mcp&version=latest"
-},
-"mcp-io-github-jirayusueb-figma-mcp-rs": {
-"file": "data/originals/mcp-io-github-jirayusueb-figma-mcp-rs.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Figma/FigJam MCP server with read/write via plugin — no API token, no limits. 78 tools.",
-"name": "io.github.jirayusueb/figma-mcp-rs",
-"packages": [
-{
-"env": [],
-"id": "figma-mcp-rs",
-"transport": "stdio",
-"type": "npm",
-"version": "0.1.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/jirayusueb/figma-mcp-rs",
-"title": null,
-"version": "0.1.0",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/jirayusueb/figma-mcp-rs/blob/HEAD/README.md"
-},
 "mcp-io-github-jitbit-jitbit-helpdesk": {
 "file": "data/originals/mcp-io-github-jitbit-jitbit-helpdesk.md",
 "kind": "full",
@@ -8912,32 +8995,6 @@
 "website": null
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.jmshinhwa/tailwind-v4-upgrade-blocker-lint&version=latest"
-},
-"mcp-io-github-joalavedra-andorra-fonts-publiques": {
-"file": "data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md",
-"kind": "full",
-"label": "readme",
-"license": "CC0-1.0",
-"record": {
-"description": "Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages",
-"name": "io.github.joalavedra/andorra-fonts-publiques",
-"packages": [
-{
-"env": [],
-"id": "fonts-andorra",
-"transport": "stdio",
-"type": "pypi",
-"version": "0.2.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/joalavedra/andorra-fonts-publiques",
-"title": "Andorra public sources",
-"version": "0.2.0",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md"
 },
 "mcp-io-github-jpka-shopify-operations-mcp": {
 "file": "data/originals/mcp-io-github-jpka-shopify-operations-mcp.md",
@@ -9687,32 +9744,6 @@
 "truncated": false,
 "url": "https://github.com/Neschadin/sendgrid-mcp/blob/HEAD/README.md"
 },
-"mcp-io-github-nntoan-figma-mcp-rust": {
-"file": "data/originals/mcp-io-github-nntoan-figma-mcp-rust.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.",
-"name": "io.github.nntoan/figma-mcp-rust",
-"packages": [
-{
-"env": [],
-"id": "@nntoan/figma-mcp-rust",
-"transport": "stdio",
-"type": "npm",
-"version": "0.1.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/nntoan/figma-mcp-rust",
-"title": null,
-"version": "0.1.0",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/nntoan/figma-mcp-rust/blob/HEAD/README.md"
-},
 "mcp-io-github-oabolade-figma-mcp-server-actor": {
 "file": "data/originals/mcp-io-github-oabolade-figma-mcp-server-actor.md",
 "kind": "full",
@@ -9815,30 +9846,6 @@
 "truncated": false,
 "url": "https://github.com/ohneben/Hubspot-MCP/blob/HEAD/README.md"
 },
-"mcp-io-github-pipeworx-io-figma": {
-"file": "data/originals/mcp-io-github-pipeworx-io-figma.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Figma MCP Pack",
-"name": "io.github.pipeworx-io/figma",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://gateway.pipeworx.io/figma/mcp"
-}
-],
-"repository": "https://github.com/pipeworx-io/mcp-figma",
-"title": "Figma",
-"version": "0.1.4",
-"website": "https://pipeworx.io/packs/figma"
-},
-"truncated": false,
-"url": "https://github.com/pipeworx-io/mcp-figma/blob/HEAD/README.md"
-},
 "mcp-io-github-pipeworx-io-freshdesk": {
 "file": "data/originals/mcp-io-github-pipeworx-io-freshdesk.md",
 "kind": "full",
@@ -9857,7 +9864,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-freshdesk",
 "title": "Freshdesk",
-"version": "0.1.4",
+"version": "0.1.5",
 "website": "https://pipeworx.io/packs/freshdesk"
 },
 "truncated": false,
@@ -9959,30 +9966,6 @@
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-mailchimp/blob/HEAD/README.md"
 },
-"mcp-io-github-pipeworx-io-mixpanel": {
-"file": "data/originals/mcp-io-github-pipeworx-io-mixpanel.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
-"name": "io.github.pipeworx-io/mixpanel",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://gateway.pipeworx.io/mixpanel/mcp"
-}
-],
-"repository": "https://github.com/pipeworx-io/mcp-mixpanel",
-"title": "Mixpanel",
-"version": "0.1.2",
-"website": "https://pipeworx.io/packs/mixpanel"
-},
-"truncated": false,
-"url": "https://github.com/pipeworx-io/mcp-mixpanel/blob/HEAD/README.md"
-},
 "mcp-io-github-pipeworx-io-pipeworx-faq": {
 "file": "data/originals/mcp-io-github-pipeworx-io-pipeworx-faq.md",
 "kind": "full",
@@ -10006,30 +9989,6 @@
 },
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-pipeworx-faq/blob/HEAD/README.md"
-},
-"mcp-io-github-pipeworx-io-posthog": {
-"file": "data/originals/mcp-io-github-pipeworx-io-posthog.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)",
-"name": "io.github.pipeworx-io/posthog",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://gateway.pipeworx.io/posthog/mcp"
-}
-],
-"repository": "https://github.com/pipeworx-io/mcp-posthog",
-"title": "Posthog",
-"version": "0.1.2",
-"website": "https://pipeworx.io/packs/posthog"
-},
-"truncated": false,
-"url": "https://github.com/pipeworx-io/mcp-posthog/blob/HEAD/README.md"
 },
 "mcp-io-github-pipeworx-io-semrush": {
 "file": "data/originals/mcp-io-github-pipeworx-io-semrush.md",
@@ -10127,30 +10086,6 @@
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-twilio/blob/HEAD/README.md"
 },
-"mcp-io-github-pipeworx-io-webflow": {
-"file": "data/originals/mcp-io-github-pipeworx-io-webflow.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Webflow MCP Pack",
-"name": "io.github.pipeworx-io/webflow",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://gateway.pipeworx.io/webflow/mcp"
-}
-],
-"repository": "https://github.com/pipeworx-io/mcp-webflow",
-"title": "Webflow",
-"version": "0.1.2",
-"website": "https://pipeworx.io/packs/webflow"
-},
-"truncated": false,
-"url": "https://github.com/pipeworx-io/mcp-webflow/blob/HEAD/README.md"
-},
 "mcp-io-github-pipeworx-io-zendesk": {
 "file": "data/originals/mcp-io-github-pipeworx-io-zendesk.md",
 "kind": "full",
@@ -10207,32 +10142,6 @@
 },
 "truncated": false,
 "url": "https://github.com/planetabhi/figma-mcp-server/blob/HEAD/README.md"
-},
-"mcp-io-github-pooriaarab-agentic-campaign": {
-"file": "data/originals/mcp-io-github-pooriaarab-agentic-campaign.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Plan a social campaign calendar across brands and platforms.",
-"name": "io.github.pooriaarab/agentic-campaign",
-"packages": [
-{
-"env": [],
-"id": "agentic-campaign",
-"transport": "stdio",
-"type": "npm",
-"version": "0.1.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/pooriaarab/agentic-campaign",
-"title": null,
-"version": "0.1.0",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/pooriaarab/agentic-campaign/blob/HEAD/README.md"
 },
 "mcp-io-github-posthog-mcp": {
 "file": "data/originals/mcp-io-github-posthog-mcp.md",
@@ -10560,50 +10469,6 @@
 "truncated": false,
 "url": "https://github.com/sunhome243/figma-mcp-express/blob/HEAD/README.md"
 },
-"mcp-io-github-teamsincetoday-newsletter-commerce-mcp": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Extract shoppable products from newsletter content with affiliate signals.",
-"name": "io.github.teamsincetoday/newsletter-commerce-mcp",
-"packages": [
-{
-"env": [
-{
-"description": "OpenAI API key for GPT-4o-mini product extraction (required)",
-"name": "OPENAI_API_KEY",
-"required": true,
-"secret": true
-},
-{
-"description": "Comma-separated paid API keys for unlimited calls (optional — omit for free tier: 200 calls/day)",
-"name": "MCP_API_KEYS",
-"required": null,
-"secret": true
-}
-],
-"id": "newsletter-commerce-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "0.1.3"
-},
-{
-"env": [],
-"id": "newsletter-commerce-mcp",
-"transport": "streamable-http",
-"type": "npm",
-"version": "0.1.3"
-}
-],
-"remotes": [],
-"repository": "https://github.com/teamsincetoday/newsletter-commerce-mcp",
-"title": null,
-"version": "0.1.3",
-"website": null
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.teamsincetoday/newsletter-commerce-mcp&version=latest"
-},
 "mcp-io-github-tranhoaihung-figma-ui-mcp": {
 "file": "data/originals/mcp-io-github-tranhoaihung-figma-ui-mcp.md",
 "kind": "full",
@@ -10618,13 +10483,13 @@
 "id": "figma-ui-mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "2.5.29"
+"version": "2.5.30"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/TranHoaiHung/figma-ui-mcp",
 "title": null,
-"version": "2.5.29",
+"version": "2.5.30",
 "website": null
 },
 "truncated": false,
@@ -10677,71 +10542,6 @@
 "website": null
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.varvararatta/marketing_mcp&version=latest"
-},
-"mcp-io-github-vola-trebla-tailwind-context-resolver-mcp": {
-"file": "data/originals/mcp-io-github-vola-trebla-tailwind-context-resolver-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Resolves Tailwind CSS design tokens and validates utility classes against the local project config.",
-"name": "io.github.vola-trebla/tailwind-context-resolver-mcp",
-"packages": [
-{
-"env": [],
-"id": "tailwind-context-resolver-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "0.2.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/vola-trebla/tailwind-context-resolver-mcp",
-"title": null,
-"version": "0.2.0",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/vola-trebla/tailwind-context-resolver-mcp/blob/HEAD/README.md"
-},
-"mcp-io-github-workingmodel-figma-vector-mcp": {
-"file": "data/originals/mcp-io-github-workingmodel-figma-vector-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Let Claude create and edit fully editable vector nodes on the Figma canvas.",
-"name": "io.github.workingmodel/figma-vector-mcp",
-"packages": [
-{
-"env": [
-{
-"description": "Channel name the Figma plugin joins on the local socket relay (default: figma-vector-mcp)",
-"name": "FVMCP_CHANNEL",
-"required": null,
-"secret": null
-},
-{
-"description": "Port of the local socket relay (default: 3055)",
-"name": "FVMCP_PORT",
-"required": null,
-"secret": null
-}
-],
-"id": "figma-vector-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "0.3.3"
-}
-],
-"remotes": [],
-"repository": "https://github.com/workingmodel/wm-figma-vector-mcp",
-"title": "Figma Vector MCP",
-"version": "0.3.3",
-"website": "https://www.workingmodel.co/"
-},
-"truncated": false,
-"url": "https://github.com/workingmodel/wm-figma-vector-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-xpaysh-marketing": {
 "file": "data/originals/mcp-io-github-xpaysh-marketing.md",
@@ -10811,153 +10611,6 @@
 },
 "truncated": false,
 "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
-},
-"mcp-io-github-zeluizr-adobe-commerce-mcp": {
-"file": "data/originals/mcp-io-github-zeluizr-adobe-commerce-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding",
-"name": "io.github.zeluizr/adobe-commerce-mcp",
-"packages": [
-{
-"env": [],
-"id": "adobe-commerce-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "0.1.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/zeluizr/adobe-commerce-mcp",
-"title": "Adobe Commerce MCP",
-"version": "0.1.0",
-"website": "https://github.com/zeluizr/adobe-commerce-mcp#readme"
-},
-"truncated": false,
-"url": "https://github.com/zeluizr/adobe-commerce-mcp/blob/HEAD/README.md"
-},
-"mcp-io-scalably-dataforseo-mcp": {
-"file": "data/originals/mcp-io-scalably-dataforseo-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "DataForSEO MCP wrapper: searchable API docs plus normalized calls to the official server. 4 tools.",
-"name": "io.scalably/dataforseo-mcp",
-"packages": [
-{
-"env": [
-{
-"description": "DataForSEO account login (email) from the dashboard",
-"name": "DATAFORSEO_USERNAME",
-"required": true,
-"secret": true
-},
-{
-"description": "DataForSEO account API password from the dashboard",
-"name": "DATAFORSEO_PASSWORD",
-"required": true,
-"secret": true
-},
-{
-"description": "Test suite only, with NODE_ENV=test: path of a fake child to spawn instead of the upstream server. Never set it in normal use",
-"name": "DATAFORSEO_PROXY_TEST_CHILD",
-"required": null,
-"secret": null
-}
-],
-"id": "@scalably-io/dataforseo-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "1.0.1"
-}
-],
-"remotes": [],
-"repository": "https://github.com/scalably-io/dataforseo-mcp",
-"title": "DataForSEO MCP",
-"version": "1.0.1",
-"website": "https://scalably.io/mcp/dataforseo-mcp"
-},
-"truncated": false,
-"url": "https://github.com/scalably-io/dataforseo-mcp/blob/HEAD/README.md"
-},
-"mcp-io-scalably-figma-mcp": {
-"file": "data/originals/mcp-io-scalably-figma-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Figma MCP: list frames in a file and fetch one frame's JSON and image safely. 2 tools.",
-"name": "io.scalably/figma-mcp",
-"packages": [
-{
-"env": [
-{
-"description": "Figma personal access token with file_content:read",
-"name": "FIGMA_TOKEN",
-"required": true,
-"secret": true
-},
-{
-"description": "Figma REST API base URL, default https://api.figma.com/v1",
-"name": "FIGMA_API_BASE_URL",
-"required": null,
-"secret": null
-},
-{
-"description": "Per-request timeout in milliseconds, default 60000",
-"name": "FIGMA_REQUEST_TIMEOUT_MS",
-"required": null,
-"secret": null
-},
-{
-"description": "Upper bound on a Figma JSON response in bytes, default 104857600",
-"name": "FIGMA_MAX_JSON_BYTES",
-"required": null,
-"secret": null
-},
-{
-"description": "Upper bound on a downloaded frame PNG in bytes, default 104857600",
-"name": "FIGMA_MAX_FRAME_BYTES",
-"required": null,
-"secret": null
-},
-{
-"description": "Directory that all fetch_frame output directories must stay below, default ./figma-output",
-"name": "FIGMA_OUTPUT_ROOT",
-"required": null,
-"secret": null
-},
-{
-"description": "Test suite only: set to 1 to allow a plain-HTTP loopback API base. Never set it in normal use",
-"name": "FIGMA_ALLOW_HTTP_FOR_TESTS",
-"required": null,
-"secret": null
-}
-],
-"id": "@scalably-io/figma-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "1.0.1"
-},
-{
-"env": [],
-"id": "https://github.com/scalably-io/figma-mcp/releases/download/v1.0.1/figma-mcp.mcpb",
-"transport": "stdio",
-"type": "mcpb",
-"version": null
-}
-],
-"remotes": [],
-"repository": "https://github.com/scalably-io/figma-mcp",
-"title": "Figma MCP",
-"version": "1.0.1",
-"website": "https://scalably.io/mcp/figma-mcp"
-},
-"truncated": false,
-"url": "https://github.com/scalably-io/figma-mcp/blob/HEAD/README.md"
 },
 "mcp-io-scalably-klaviyo-mcp": {
 "file": "data/originals/mcp-io-scalably-klaviyo-mcp.md",
@@ -11512,6 +11165,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-auditzap-io": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-aureformui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11603,6 +11263,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-dialectcn-xyz": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-diarmuradi-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11652,6 +11319,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-fluid-functionalism-vercel-app": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-forui-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -11674,6 +11348,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/7ovr/shadcn-vite-starter/blob/master/README.md"
+},
+"uihub-aw-github-com-abderrahimghazali-shadcn-fintech": {
+"file": "data/originals/uihub-aw-github-com-abderrahimghazali-shadcn-fintech.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/abderrahimghazali/shadcn-fintech/blob/main/README.md"
 },
 "uihub-aw-github-com-amanshakya0018-forgeui": {
 "kind": "excerpt",
@@ -11773,6 +11455,15 @@
 },
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-github-com-gluer-space-calendar": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "NOASSERTION"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-github-com-h3rmel-guarahooks": {
 "file": "data/originals/uihub-aw-github-com-h3rmel-guarahooks.md",
 "kind": "full",
@@ -11813,14 +11504,6 @@
 "repo_license": "none"
 },
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-aw-github-com-lbrdev-night-glass": {
-"file": "data/originals/uihub-aw-github-com-lbrdev-night-glass.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/lbrdev/night-glass/blob/main/README.md"
 },
 "uihub-aw-github-com-leancodebox-gooseforum": {
 "file": "data/originals/uihub-aw-github-com-leancodebox-gooseforum.md",
@@ -11878,6 +11561,22 @@
 "truncated": false,
 "url": "https://github.com/mrdogeco/docs/blob/main/README.md"
 },
+"uihub-aw-github-com-nikunjsonigara-create-next-shadcn-kit": {
+"file": "data/originals/uihub-aw-github-com-nikunjsonigara-create-next-shadcn-kit.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/NikunjSonigara/create-next-shadcn-kit/blob/main/README.md"
+},
+"uihub-aw-github-com-nikunjsonigara-create-react-shadcn-kit": {
+"file": "data/originals/uihub-aw-github-com-nikunjsonigara-create-react-shadcn-kit.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/NikunjSonigara/create-react-shadcn-kit/blob/main/README.md"
+},
 "uihub-aw-github-com-openstatushq-data-table-filters": {
 "file": "data/originals/uihub-aw-github-com-openstatushq-data-table-filters.md",
 "kind": "full",
@@ -11901,6 +11600,15 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/RMahammad/motiq/blob/main/README.md"
+},
+"uihub-aw-github-com-s5sajid-next-dashcommerce": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "AGPL-3.0"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-github-com-sadmann7-diceui": {
 "file": "data/originals/uihub-aw-github-com-sadmann7-diceui.md",
@@ -12040,6 +11748,14 @@
 "truncated": false,
 "url": "https://github.com/whatisjery/atelier-ui/blob/main/README.md"
 },
+"uihub-aw-github-com-yaminncco-deska-dashboard-template": {
+"file": "data/originals/uihub-aw-github-com-yaminncco-deska-dashboard-template.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/yaminncco/deska-dashboard-template/blob/main/README.md"
+},
 "uihub-aw-glassyui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -12076,6 +11792,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-kairoui-online": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-keyzen-theshiva-xyz": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -12236,6 +11959,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-remocn-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-shadcn-exchange": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -12251,6 +11981,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-shadcn-rjsf-form-builder-noowah-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-shadcnadmin-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -12321,6 +12058,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-sureui-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-termcn-vercel-app": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -12447,6 +12191,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-wick-charts-eeff-io-integrations-shadcn": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-xquik-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -14147,13 +13898,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-awd-flow-party": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-awd-flowfest-2025": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -15191,13 +14935,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-marie-antoinette": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-awd-mario-roudil": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -17654,13 +17391,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-awd-weekend-max-mara-holiday-edit": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-awd-wembi": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -17983,14 +17713,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-gh-caho1-open-claude-ui": {
-"file": "data/originals/uihub-gh-caho1-open-claude-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/Caho1/open-claude-ui/blob/main/README.md"
-},
 "uihub-gh-cruxgarden-plasma-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -18018,14 +17740,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-gh-guiguiyan930-source-game-ui-design-workflow": {
-"file": "data/originals/uihub-gh-guiguiyan930-source-game-ui-design-workflow.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/guiguiyan930-source/game-ui-design-workflow/blob/main/README.md"
 },
 "uihub-gh-jbetancur-react-data-table-component": {
 "kind": "excerpt",
@@ -18083,22 +17797,7 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-gh-nateherkai-scroll-craft": {
-"file": "data/originals/uihub-gh-nateherkai-scroll-craft.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/nateherkai/scroll-craft/blob/main/README.md"
-},
 "uihub-gh-necolas-react-native-web": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-gh-nexu-io-codex-slides": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -18154,14 +17853,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-gh-shadcn-ui-lint": {
-"file": "data/originals/uihub-gh-shadcn-ui-lint.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/shadcn-ui/lint/blob/main/README.md"
-},
 "uihub-gh-theorcdev-shadscan": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -18196,30 +17887,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-github-com-huggingface-chat-ui": {
-"file": "data/originals/uihub-github-com-huggingface-chat-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/huggingface/chat-ui/blob/main/README.md"
-},
-"uihub-github-com-langchain-ai-agent-chat-ui": {
-"file": "data/originals/uihub-github-com-langchain-ai-agent-chat-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/langchain-ai/agent-chat-ui/blob/main/README.md"
-},
-"uihub-github-com-rdev-liquid-glass-react": {
-"file": "data/originals/uihub-github-com-rdev-liquid-glass-react.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/rdev/liquid-glass-react/blob/master/README.md"
 },
 "uihub-hashbrown-dev": {
 "kind": "excerpt",
@@ -18451,14 +18118,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-lib-github-com-dip-cmdk": {
-"file": "data/originals/uihub-lib-github-com-dip-cmdk.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/dip/cmdk/blob/main/README.md"
 },
 "uihub-lib-gluestack-io": {
 "kind": "excerpt",
@@ -20953,6 +20612,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-7gvb244-co-watch": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-7h73fxn-crumpled-receipt-component": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -27330,14 +26996,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-addy-agent-skills": {
-"file": "data/originals/uihub-ued-addy-agent-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
-},
 "uihub-ued-adobe-leonardo": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27408,14 +27066,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-anti-slop": {
-"file": "data/originals/uihub-ued-anti-slop.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/miqdadbadjuber/anti-slop/blob/main/README.md"
-},
 "uihub-ued-appica-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27465,22 +27115,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-avoid-ai-design": {
-"file": "data/originals/uihub-ued-avoid-ai-design.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/funboy322/avoid-ai-design/blob/main/README.md"
-},
-"uihub-ued-awesome-design-md": {
-"file": "data/originals/uihub-ued-awesome-design-md.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md"
-},
 "uihub-ued-base-web": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27488,28 +27122,11 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-bencium-design": {
-"file": "data/originals/uihub-ued-bencium-design.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/bencium/bencium-marketplace/blob/main/README.md"
-},
 "uihub-ued-carbon-themes": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-cc-frontend-toolkit": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-circle-loaders": {
@@ -27561,28 +27178,12 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-dembrandt": {
-"file": "data/originals/uihub-ued-dembrandt.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/dembrandt/dembrandt/blob/main/README.md"
-},
 "uihub-ued-desengs": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-design-extract": {
-"file": "data/originals/uihub-ued-design-extract.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/Manavarya09/design-extract/blob/main/README.md"
 },
 "uihub-ued-design-system-guide": {
 "kind": "excerpt",
@@ -27752,14 +27353,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-google-design-md": {
-"file": "data/originals/uihub-ued-google-design-md.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/google-labs-code/design.md/blob/main/README.md"
-},
 "uihub-ued-govuk-ds": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27781,22 +27374,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-grubby-design-guide": {
-"file": "data/originals/uihub-ued-grubby-design-guide.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/GrubbyLee/design-guide/blob/main/README.md"
-},
-"uihub-ued-gsap-skills": {
-"file": "data/originals/uihub-ued-gsap-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/greensock/gsap-skills/blob/main/README.md"
-},
 "uihub-ued-harmonyos-design": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27817,14 +27394,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-huashu-design": {
-"file": "data/originals/uihub-ued-huashu-design.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
 },
 "uihub-ued-huds-guis": {
 "kind": "excerpt",
@@ -27952,14 +27521,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-magic-mcp": {
-"file": "data/originals/uihub-ued-magic-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "ISC",
-"truncated": false,
-"url": "https://github.com/21st-dev/magic-mcp/blob/main/README.md"
-},
 "uihub-ued-mapcn": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27980,14 +27541,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-mcpcn": {
-"file": "data/originals/uihub-ued-mcpcn.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/shadcn-labs/mcpcn/blob/main/README.md"
 },
 "uihub-ued-microkit": {
 "kind": "excerpt",
@@ -28038,31 +27591,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-netxeo-skill-design": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-no-slop-ui": {
-"file": "data/originals/uihub-ued-no-slop-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/LeoStehlik/no-slop-ui/blob/master/README.md"
-},
-"uihub-ued-nothing-design-skill": {
-"file": "data/originals/uihub-ued-nothing-design-skill.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/dominikmartn/nothing-design-skill/blob/main/README.md"
-},
 "uihub-ued-nutui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28077,22 +27605,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-oil-frontend": {
-"file": "data/originals/uihub-ued-oil-frontend.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/oil-oil/oil-frontend/blob/main/README.md"
-},
-"uihub-ued-onlook": {
-"file": "data/originals/uihub-ued-onlook.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/onlook-dev/onlook/blob/main/README.md"
-},
 "uihub-ued-open-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28100,37 +27612,11 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-openai-apps-sdk-ui": {
-"file": "data/originals/uihub-ued-openai-apps-sdk-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/openai/apps-sdk-ui/blob/main/README.md"
-},
-"uihub-ued-openai-plugins": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-ued-paper-design": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-penpot": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "MPL-2.0"
-},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-polaris-wc": {
@@ -28210,14 +27696,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-screenshot-to-code": {
-"file": "data/originals/uihub-ued-screenshot-to-code.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/abi/screenshot-to-code/blob/main/README.md"
-},
 "uihub-ued-scrolltide": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28253,14 +27731,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-spectrum-design-data": {
-"file": "data/originals/uihub-ued-spectrum-design-data.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/adobe/spectrum-design-data/blob/main/README.md"
-},
 "uihub-ued-spectrum-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28289,14 +27759,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-stitch-skills": {
-"file": "data/originals/uihub-ued-stitch-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/google-labs-code/stitch-skills/blob/main/README.md"
-},
 "uihub-ued-style-dictionary": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28311,14 +27773,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-taste-skill-repo": {
-"file": "data/originals/uihub-ued-taste-skill-repo.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md"
-},
 "uihub-ued-text-effects": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28327,13 +27781,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-tokens-studio-docs": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-twilio-paste": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28375,29 +27822,12 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-vercel-agent-skills": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-ued-vercel-guidelines": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-vercel-guidelines-repo": {
-"file": "data/originals/uihub-ued-vercel-guidelines-repo.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/vercel-labs/web-interface-guidelines/blob/main/README.md"
 },
 "uihub-ued-vibeprompts": {
 "kind": "excerpt",
@@ -28427,15 +27857,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-web-design-skills": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-ued-webdev-learn-a11y": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28448,15 +27869,6 @@
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-weui": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "NOASSERTION"
-},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-whichai-dev": {
@@ -30986,14 +30398,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-x-emilkowalski-skills": {
-"file": "data/originals/uihub-x-emilkowalski-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/emilkowalski/skills/blob/main/README.md"
-},
 "uihub-x-getlayers": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -31028,14 +30432,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-x-jakubkrehel-skills": {
-"file": "data/originals/uihub-x-jakubkrehel-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/jakubkrehel/skills/blob/main/README.md"
 },
 "uihub-x-kobra-systems": {
 "kind": "excerpt",
@@ -31101,6 +30497,384 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-x-vue-bits": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-creative-tim": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-flowbite-blocks": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-hover-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-launch-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-mambaui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-merakiui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-preline": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-shadcn-io": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-shadcn-studio": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-shadcnblocks": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-tailgrids": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-tailwind-kit": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-tailwindflex": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-tw-elements": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-uiverse": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026-pricing-untitled-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-bootstrap-example": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-freefrontend-css": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-freefrontend-tw": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-landingfolio": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-lukacho": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-magicui-pro": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-pricingpages-design": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-saasframe": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-saaslandingpage": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-saasui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-1": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-10": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-11": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-12": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-13": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-14": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-15": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-3": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-4": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-5": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-6": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-7": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-8": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-shadcnblocks-9": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-tailwindcomponents": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-brown-bird-6": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-curvy-robin-66": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-foolish-husky-65": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-loud-baboon-79": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-mean-vampirebat-50": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-old-cat-57": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-orange-cougar-98": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-popular-gecko-2": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-rotten-dolphin-86": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-serious-eagle-83": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-splendid-eagle-61": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-splendid-firefox-37": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x1026b-pricing-uiverse-swift-sloth-95": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
