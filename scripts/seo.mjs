@@ -22,7 +22,7 @@ export function seoHead({ SITE, LOCALES, rel, title, desc, ld = [], og = 'websit
    + `<script type="application/ld+json">${json}</script>`
    + `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${CF_TOKEN}"}'></script><script defer src="https://stats.incidental.site/events.js" data-site="academy"></script><script defer src="https://stats.incidental.site/subscribe.js"></script>`;
 }
-export const ROBOTS = (SITE) => `User-agent: *\nAllow: /\n\n# AI / generative search crawlers are welcome\n${['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web', 'PerplexityBot', 'Google-Extended', 'Applebot-Extended'].map((b) => `User-agent: ${b}\nAllow: /`).join('\n')}\n\nSitemap: ${SITE}/sitemap.xml\n`;
+export const ROBOTS = (SITE) => `User-agent: *\nAllow: /\n\n# 2026-10-26: heavy non-citing crawlers - skip ?lang= / query duplicates (each page x10 locales); Crawl-delay only honored by SemrushBot\nUser-agent: Amazonbot\nUser-agent: meta-externalagent\nUser-agent: SemrushBot\nDisallow: /*?\nCrawl-delay: 10\n\n# AI / generative search crawlers are welcome\n${['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web', 'PerplexityBot', 'Google-Extended', 'Applebot-Extended'].map((b) => `User-agent: ${b}\nAllow: /`).join('\n')}\n\nSitemap: ${SITE}/sitemap.xml\n`;
 export function sitemaps(SITE, LOCALES, defaultXml) {
   const locs = [...defaultXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   const today = new Date().toISOString().slice(0, 10);
