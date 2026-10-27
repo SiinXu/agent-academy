@@ -2,7 +2,7 @@
  "id": "marketing/content-marketer",
  "industry": "marketing",
  "role": "content-marketer",
- "updated_at": "2026-10-26T16:48:06Z",
+ "updated_at": "2026-10-27T01:21:14Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1171,7 +1171,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183928,
+      "repo_stars": 183997,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1216,8 +1216,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1261,8 +1261,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1306,8 +1306,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1351,8 +1351,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1396,8 +1396,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1441,8 +1441,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1486,8 +1486,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1531,8 +1531,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1576,8 +1576,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1621,8 +1621,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1666,8 +1666,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33165,
-      "repo_pushed_at": "2026-10-26"
+      "repo_stars": 33218,
+      "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1711,8 +1711,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33165,
-      "repo_pushed_at": "2026-10-26"
+      "repo_stars": 33218,
+      "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1756,8 +1756,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33165,
-      "repo_pushed_at": "2026-10-26"
+      "repo_stars": 33218,
+      "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2831,6 +2831,69 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-pipeworx-io-mixpanel",
+     "title": "Mixpanel",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/pipeworx-io/mcp-mixpanel",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md",
+     "upstream_raw_url": null,
+     "repo": "pipeworx-io/mcp-mixpanel",
+     "author": "io.github.pipeworx-io",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/pipeworx-io/mcp-mixpanel/blob/HEAD/README.md",
+      "record": {
+       "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
+       "name": "io.github.pipeworx-io/mixpanel",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://gateway.pipeworx.io/mixpanel/mcp"
+        }
+       ],
+       "repository": "https://github.com/pipeworx-io/mcp-mixpanel",
+       "title": "Mixpanel",
+       "version": "0.1.2",
+       "website": "https://pipeworx.io/packs/mixpanel"
+      }
+     },
+     "install": "remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-09-26",
+      "registry_updated_at": "2026-09-26"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-27T01:21:14Z",
+     "checked_at": "2026-10-27T01:21:14Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-pipeworx-io-mixpanel/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-pipeworx-io-sendgrid",
      "title": "Sendgrid",
      "type": "mcp",
@@ -3071,69 +3134,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-theservicemarketingguys-audit/",
      "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-uk-co-digitalmarketingagencyswindon-site",
-     "title": "uk.co.digitalmarketingagencyswindon/site",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "content-marketer"
-     ],
-     "summary": "Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...",
-     "summary_lang": "en",
-     "source_url": "https://digitalmarketingagencyswindon.co.uk",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "uk.co.digitalmarketingagencyswindon",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=uk.co.digitalmarketingagencyswindon/site&version=latest",
-      "record": {
-       "description": "Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...",
-       "name": "uk.co.digitalmarketingagencyswindon/site",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://digitalmarketingagencyswindon.co.uk/mcp"
-        }
-       ],
-       "repository": null,
-       "title": null,
-       "version": "1.0.1",
-       "website": "https://digitalmarketingagencyswindon.co.uk"
-      }
-     },
-     "install": "remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-10-03"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-21T00:40:03Z",
-     "updated_at": "2026-10-21T00:40:03Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-uk-co-digitalmarketingagencyswindon-site/",
-     "source": "mcp-registry"
     }
    ]
   },
@@ -3261,8 +3261,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3306,8 +3306,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56638,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 56701,
+      "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3351,7 +3351,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41769,
+      "repo_stars": 41812,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -3396,7 +3396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41769,
+      "repo_stars": 41812,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -3441,7 +3441,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41769,
+      "repo_stars": 41812,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",

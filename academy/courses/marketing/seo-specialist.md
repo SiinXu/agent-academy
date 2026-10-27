@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-26
-updated_at: 2026-10-26T16:48:06Z
+version: 2026-10-27
+updated_at: 2026-10-27T01:21:14Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 

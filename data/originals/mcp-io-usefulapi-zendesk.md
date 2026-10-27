@@ -203,7 +203,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Recruitee](servers/recruitee/) | productivity | 26 | API token | [servers/recruitee/](servers/recruitee/) |
 | [Rewardful](servers/rewardful/) | marketing | 24 | API token | [servers/rewardful/](servers/rewardful/) |
 | [sevdesk](servers/sevdesk/) | billing | 24 | API token | [servers/sevdesk/](servers/sevdesk/) |
-| [Shopmonkey](servers/shopmonkey/) | productivity | 27 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
+| [Shopmonkey](servers/shopmonkey/) | productivity | 32 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
 | [Smile.io](servers/smile-io/) | ecommerce | 18 | API token | [servers/smile-io/](servers/smile-io/) |
 | [Smoobu](servers/smoobu/) | productivity | 24 | API token | [servers/smoobu/](servers/smoobu/) |
 | [Sortly](servers/sortly/) | productivity | 24 | API token | [servers/sortly/](servers/sortly/) |

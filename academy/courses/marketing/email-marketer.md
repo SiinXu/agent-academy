@@ -1,8 +1,8 @@
 ---
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-26
-updated_at: 2026-10-26T16:48:06Z
+version: 2026-10-27
+updated_at: 2026-10-27T01:21:14Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -211,11 +211,27 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @neschadin/sendgrid-mcp
   needs_credentials: true, writes_external: true
+- [mcp] com.mambabuilt/mcp-link-in-bio-newsletter-checker. Follow a creator bio link and report the newsletter, what they sell, and the contact emails.
+  source: https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md
+  license: MIT
+  install: npx -y @mambalabsdev/mcp-link-in-bio-newsletter-checker
+  needs_credentials: true, writes_external: false
 - [mcp] com.mambabuilt/mcp-newsletter-sponsor-tracker. Who sponsors a newsletter, or which newsletters a brand sponsors, from public archives.
   source: https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-newsletter-sponsor-tracker.md
   license: MIT
   install: npx -y @mambalabsdev/mcp-newsletter-sponsor-tracker
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.closermethod/newsletter-growth-mcp. Newsletter growth loops, welcome-sequence architecture, subject-line and list-metric guidance.
+  source: https://github.com/closermethod/newsletter-growth-mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: npx -y newsletter-growth-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.teamsincetoday/newsletter-commerce-mcp. Extract shoppable products from newsletter content with affiliate signals.
+  source: https://github.com/teamsincetoday/newsletter-commerce-mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: npx -y newsletter-commerce-mcp
   needs_credentials: true, writes_external: false
 - [mcp] Klaviyo. Klaviyo MCP Pack — wraps the Klaviyo API for email marketing
   source: https://github.com/pipeworx-io/mcp-klaviyo
@@ -256,11 +272,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://mcp-payment-site.vercel.app/marketing-content-production
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: uvx marketing-content-production-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] Newsletter. Listas, edições, rascunhos e envio de teste
-  source: https://ciromaciel.click/mcp/newsletter
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://newsletter.worker.mymarketing.click/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

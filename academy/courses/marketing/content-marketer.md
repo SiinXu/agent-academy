@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-26
-updated_at: 2026-10-26T16:48:06Z
+version: 2026-10-27
+updated_at: 2026-10-27T01:21:14Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -309,6 +309,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://marketing-mcp.mcpize.run/mcp
   needs_credentials: true, writes_external: false
+- [mcp] Mixpanel. Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)
+  source: https://github.com/pipeworx-io/mcp-mixpanel
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md
+  license: MIT
+  install: remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Sendgrid. SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)
   source: https://github.com/pipeworx-io/mcp-sendgrid
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-sendgrid.md
@@ -326,11 +332,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
   license: MIT
   install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] uk.co.digitalmarketingagencyswindon/site. Digital marketing agency Swindon: the site's own MCP server — enquiry (enquiry = a human...
-  source: https://digitalmarketingagencyswindon.co.uk
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://digitalmarketingagencyswindon.co.uk/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

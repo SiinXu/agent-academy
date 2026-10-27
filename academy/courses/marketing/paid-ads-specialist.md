@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-26
-updated_at: 2026-10-26T16:48:06Z
+version: 2026-10-27
+updated_at: 2026-10-27T01:21:14Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -181,6 +181,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y tiktok-organic-mcp
   needs_credentials: true, writes_external: false
+- [mcp] TikTok Transcripts, Comments, Video Breakdown & Shot Analysis. TikTok transcripts, comment sentiment by moment, AI breakdowns and director-level shot analysis.
+  source: https://github.com/LMSlay/tubetext-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lmslay-tubetext-tiktok-transcripts.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/youtube-tiktok-comments-api,tubetext/video-breakdown-ai,tubetext/shot-by-shot-video-analysis
+  needs_credentials: true, writes_external: false
 - [mcp] TikTok Trends MCP. TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsmcp.ai
   source: https://github.com/trendsmcp-ai/tiktok-trends-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-tiktok.md
@@ -236,12 +242,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://tiktok.fetcher.sh
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://tiktok.fetcher.sh/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] TikTok GMV Max. Read-only TikTok Business API: GMV Max campaigns and reports, ads, BC balances.
-  source: https://github.com/Buer2333/tiktok-ads-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-gmvmax-mcp.md
-  license: MIT
-  install: uvx tiktok-gmvmax-mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
