@@ -2,7 +2,7 @@
  "id": "customer-service/knowledge-base-editor",
  "industry": "customer-service",
  "role": "knowledge-base-editor",
- "updated_at": "2026-10-27T01:21:14Z",
+ "updated_at": "2026-10-27T01:30:53Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -577,6 +577,51 @@
      "source": "seed"
     },
     {
+     "id": "prompts-chat-customer-complaint-reply-system",
+     "title": "Customer Complaint Reply System",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "knowledge-base-editor"
+     ],
+     "summary": "Designed for businesses and support teams that need calm, professional responses to unhappy customers without escalating tension. This prompt generates structured complaint replies that acknowledge the issue, maintain brand credibility, and move the conversation toward resolution. Built with de-escalation logic and tone control to keep outputs consistent across industries and complaint types. The final response is…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmp3infd60004kv04amyiigtj_customer-complaint-reply-system",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-customer-complaint-reply-system.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "archairez85",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmp3infd60004kv04amyiigtj_customer-complaint-reply-system"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-05-13"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-27T01:30:53Z",
+     "updated_at": "2026-10-27T01:30:53Z",
+     "checked_at": "2026-10-27T01:30:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-customer-complaint-reply-system/",
+     "source": "prompts.chat"
+    },
+    {
      "id": "coreyhaines31-marketingskills-skills-churn-prevention-skill-md",
      "title": "churn-prevention",
      "type": "skill",
@@ -664,51 +709,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md/",
-     "source": "seed"
-    },
-    {
-     "id": "anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md",
-     "title": "customer-research",
-     "type": "skill",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously told to a specific account, or gathering background before drafting a response.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-research/SKILL.md",
-     "repo": "anthropics/knowledge-work-plugins",
-     "author": "anthropics",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md"
-     },
-     "install": "npx skills add anthropics/knowledge-work-plugins --skill customer-research",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 29728,
-      "repo_pushed_at": "2026-10-15"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md/",
      "source": "seed"
     }
    ]

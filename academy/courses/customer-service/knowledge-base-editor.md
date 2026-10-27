@@ -2,7 +2,7 @@
 name: customer-service-knowledge-base-editor
 description: Agent Academy course for Knowledge base editor (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:21:14Z
+updated_at: 2026-10-27T01:30:53Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/knowledge-base-editor/
 ---
 
@@ -85,6 +85,11 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill kb-article
   needs_credentials: false, writes_external: false
+- [system-prompt] Customer Complaint Reply System. Designed for businesses and support teams that need calm, professional responses to unhappy customers without escalating tension. This prompt generates structured complaint replies that acknowledge the issue, maintain br
+  source: https://prompts.chat/prompts/cmp3infd60004kv04amyiigtj_customer-complaint-reply-system
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-customer-complaint-reply-system.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [skill] churn-prevention. When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save 
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/churn-prevention/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-churn-prevention-skill-md.md
@@ -96,12 +101,6 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-escalation
-  needs_credentials: false, writes_external: false
-- [skill] customer-research. Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, checking what was previously to
-  source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md.md
-  license: Apache-2.0
-  install: npx skills add anthropics/knowledge-work-plugins --skill customer-research
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
