@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:30:53Z
+updated_at: 2026-10-27T15:53:32Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -53,6 +53,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/J0CuUCheuaZacyOKXTSVH
   needs_credentials: false, writes_external: true
+- [template] Sponsor Scout. Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.
+  source: https://botsdots.site/templates/sponsor-scout
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6
+  needs_credentials: false, writes_external: false
 - [template] Paste → Post Pack. Paste one article, notes, or transcript. Get ready-to-post drafts: 3 X posts, a LinkedIn post, a newsletter blurb, and a short thread. Draft-only - you
   source: https://botsdots.site/templates/paste-post-pack
   license: template belongs to its creator (catalog CC0)
@@ -63,11 +68,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
   needs_credentials: true, writes_external: true
-- [template] Sponsor Scout. Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.
-  source: https://botsdots.site/templates/sponsor-scout
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6
-  needs_credentials: false, writes_external: false
 - [template] Sponsorship Hunter. Finds verified sponsorship opportunities for creators, newsletter writers, indie hackers and podcasters, ranks them and drafts pitches for you to approve.
   source: https://botsdots.site/templates/sponsorship-hunter-tgnk
   license: template belongs to its creator (catalog CC0)
@@ -77,6 +77,11 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/ai-copywriter
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/ZpEX6-GmuMH-4ctEpfyka
+  needs_credentials: false, writes_external: false
+- [template] Side Hustle CEO. An autonomous CEO that finds, builds and runs a small website business for you, like a directory or tracker with a newsletter and affiliate income.
+  source: https://botsdots.site/templates/side-hustle-ceo-q150
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/-Q150uwypm_hR4MF3IokP
   needs_credentials: false, writes_external: false
 - [template] Sentinel. Compliance officer for insurance marketing copy. Reviews outbound emails, site pages, and blog posts before publish
   source: https://botsdots.site/templates/sentinel-nafa
@@ -92,11 +97,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/newsletter-draft-routine-by-karata
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1
-  needs_credentials: false, writes_external: false
-- [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. 📰 Turn notes and links into a cited newsletter issue with three subject lines, a preheader, sections and one clear call to action.
-  source: https://botsdots.site/templates/newsletter-desk-inbox-worthy-j0cu
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/j0cuucheuazacyokxtsvh
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -211,6 +211,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @neschadin/sendgrid-mcp
   needs_credentials: true, writes_external: true
+- [mcp] Chipp Newsletters. Chipp: newsletter topics, audiences, contacts, campaigns and sends
+  source: https://chipp.ai/docs/guides/mcp/sub-mcps
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.chipp.ai/mcp/newsletters
+  needs_credentials: true, writes_external: true
 - [mcp] com.mambabuilt/mcp-link-in-bio-newsletter-checker. Follow a creator bio link and report the newsletter, what they sell, and the contact emails.
   source: https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md
@@ -267,11 +272,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-mailchimp.md
   license: MIT
   install: remote (streamable-http): https://mailchimp.insightfulmcp.com/
-  needs_credentials: true, writes_external: false
-- [mcp] Marketing Content Production. Brand-safe ad, email, product description, and social content production.
-  source: https://mcp-payment-site.vercel.app/marketing-content-production
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: uvx marketing-content-production-mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

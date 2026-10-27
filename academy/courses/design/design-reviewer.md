@@ -2,7 +2,7 @@
 name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:30:53Z
+updated_at: 2026-10-27T15:53:32Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-reviewer/
 ---
 
@@ -46,13 +46,13 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1577 items
-- motion: 645 items
-- 3d: 625 items
-- editorial: 590 items
-- playful: 557 items
+- minimal: 1591 items
+- motion: 647 items
+- 3d: 627 items
+- editorial: 592 items
+- playful: 560 items
 - gradient: 284 items
-- retro: 116 items
+- retro: 117 items
 - dark-tech: 111 items
 - glass: 56 items
 - enterprise: 45 items
@@ -79,13 +79,14 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/ZNsaQzOsVBBe_8oGSoXAX
   needs_credentials: false, writes_external: false
+- [template] Web Designer. Redesigns and maintains your business website: mobile-first, fast, accessible pages built only from true facts, with previews before anything goes live.
+  source: https://botsdots.site/templates/web-designer
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/5knsZnIHZUKPYw3H3aW0_
+  needs_credentials: false, writes_external: false
 - [design-system] Apple Human Interface Guidelines. Apple's platform design guidance: foundations, patterns, components, inputs, technologies.
   source: https://developer.apple.com/design/human-interface-guidelines
   license: Apple terms; link only
-  needs_credentials: false, writes_external: false
-- [design-system] Material Design 3. Google's open-source design system: foundations, styles (color, typography, motion), components.
-  source: https://m3.material.io/
-  license: Google site terms; link only
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

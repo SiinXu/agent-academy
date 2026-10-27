@@ -2,7 +2,7 @@
  "id": "design/design-reviewer",
  "industry": "design",
  "role": "design-reviewer",
- "updated_at": "2026-10-27T01:30:53Z",
+ "updated_at": "2026-10-27T15:53:32Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -354,6 +354,72 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-web-designer",
+     "title": "Web Designer",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Redesigns and maintains your business website: mobile-first, fast, accessible pages built only from true facts, with previews before anything goes live.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/web-designer",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Marcell",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/web-designer",
+      "record": {
+       "access": [
+        "browser"
+       ],
+       "add": "https://x.ai/bot/5knsZnIHZUKPYw3H3aW0_",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot"
+       ],
+       "category": "coding-shipping",
+       "creator": null,
+       "firstSeen": "2026-10-27",
+       "integrations": [],
+       "name": "Web Designer",
+       "official": false,
+       "page": "https://botsdots.site/templates/web-designer",
+       "risk": "medium",
+       "summary": "Redesigns and maintains your business website: mobile-first, fast, accessible pages built only from true facts, with previews before anything goes live."
+      }
+     },
+     "install": "https://x.ai/bot/5knsZnIHZUKPYw3H3aW0_",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 2,
+      "first_seen_catalog": "2026-10-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-27T15:53:32Z",
+     "updated_at": "2026-10-27T15:53:32Z",
+     "checked_at": "2026-10-27T15:53:32Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-web-designer/",
+     "source": "botsdots"
+    },
+    {
      "id": "apple-hig",
      "title": "Apple Human Interface Guidelines",
      "type": "design-system",
@@ -392,47 +458,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/apple-hig/",
-     "source": "seed"
-    },
-    {
-     "id": "material-3",
-     "title": "Material Design 3",
-     "type": "design-system",
-     "industry": "design",
-     "roles": [
-      "design-system-engineer",
-      "design-system"
-     ],
-     "summary": "Google's open-source design system: foundations, styles (color, typography, motion), components.",
-     "summary_lang": "en",
-     "source_url": "https://m3.material.io/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "Google site terms; link only",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "link"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {},
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/material-3/",
      "source": "seed"
     }
    ]
@@ -599,7 +624,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 140943,
+      "repo_stars": 141406,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -644,7 +669,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 140943,
+      "repo_stars": 141406,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -689,7 +714,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 50144,
+      "repo_stars": 50552,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -734,7 +759,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -779,7 +804,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -824,7 +849,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -869,7 +894,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -914,7 +939,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -959,7 +984,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1004,7 +1029,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1049,7 +1074,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26092,
+      "repo_stars": 26106,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1234,7 +1259,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "4-do-it",
@@ -1279,7 +1304,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "4-do-it",
@@ -1324,7 +1349,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "4-do-it",
@@ -1573,7 +1598,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 140943,
+      "repo_stars": 141406,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1618,7 +1643,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 140943,
+      "repo_stars": 141406,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1663,7 +1688,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 50144,
+      "repo_stars": 50552,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -1708,7 +1733,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1753,7 +1778,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1798,7 +1823,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1843,7 +1868,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1888,7 +1913,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1933,7 +1958,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1978,7 +2003,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -2023,7 +2048,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26092,
+      "repo_stars": 26106,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

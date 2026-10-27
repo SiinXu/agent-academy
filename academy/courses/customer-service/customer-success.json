@@ -2,7 +2,7 @@
  "id": "customer-service/customer-success",
  "industry": "customer-service",
  "role": "customer-success",
- "updated_at": "2026-10-27T01:30:53Z",
+ "updated_at": "2026-10-27T15:53:32Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -344,6 +344,74 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-refund-renewal-tracker",
+     "title": "Refund & Renewal Tracker",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "customer-success"
+     ],
+     "summary": "Watches your inbox for charges, plan switches, and refunds you're owed, nudges you when a promised refund is late, and warns you before annual renewals hit.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/refund-renewal-tracker",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "RumNCodeDev",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/refund-renewal-tracker",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/wjfSNLEQBOthTC1MZFdDn",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "inbox-calendar",
+       "creator": "RumNCodeDev",
+       "firstSeen": "2026-10-27",
+       "integrations": [],
+       "name": "Refund & Renewal Tracker",
+       "official": false,
+       "page": "https://botsdots.site/templates/refund-renewal-tracker",
+       "risk": "medium",
+       "summary": "Watches your inbox for charges, plan switches, and refunds you're owed, nudges you when a promised refund is late, and warns you before annual renewals hit."
+      }
+     },
+     "install": "https://x.ai/bot/wjfSNLEQBOthTC1MZFdDn",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-27T15:53:32Z",
+     "updated_at": "2026-10-27T15:53:32Z",
+     "checked_at": "2026-10-27T15:53:32Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-refund-renewal-tracker/",
+     "source": "botsdots"
+    },
+    {
      "id": "anthropics-knowledge-work-plugins-customer-support",
      "title": "Customer Support plugin (Anthropic knowledge-work-plugins)",
      "type": "plugin",
@@ -387,51 +455,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support/",
-     "source": "seed"
-    },
-    {
-     "id": "google-adk-recipes-plugins-retail",
-     "title": "ADK retail plugin",
-     "type": "plugin",
-     "industry": "customer-service",
-     "roles": [
-      "ecommerce-support"
-     ],
-     "summary": "The **Retail AI Plugin** bundles two end-to-end Google Cloud retail skills for AI coding assistants (Gemini CLI, Claude Code, Antigravity, Codex) following the [Google Agent Plugins v1.0.0 specification][spec] (`plugin.json` + `skills/<skill-name>/SKILL.md`):",
-     "summary_lang": "en",
-     "source_url": "https://github.com/google/adk-recipes/tree/main/plugins/retail",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-plugins-retail.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/plugins/retail/README.md",
-     "repo": "google/adk-recipes",
-     "author": "google",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/google/adk-recipes/tree/main/plugins/retail"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 10452,
-      "repo_pushed_at": "2026-10-14"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/google-adk-recipes-plugins-retail/",
      "source": "seed"
     }
    ]
@@ -515,7 +538,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26092,
+      "repo_stars": 26106,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

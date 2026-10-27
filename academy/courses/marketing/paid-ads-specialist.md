@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:30:53Z
+updated_at: 2026-10-27T15:53:32Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -83,6 +83,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA
   needs_credentials: true, writes_external: false
+- [template] Agency Lead. Marketing agency manager for founders: positioning, offers, ad strategy, copy and lead gen. Never spends, publishes or contacts anyone without approval.
+  source: https://botsdots.site/templates/agency-lead
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/d92J6SU_mk1kaOn3m-Qrs
+  needs_credentials: false, writes_external: true
 
 ## Step 3: Learn the rules
 
@@ -215,7 +220,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper
   needs_credentials: true, writes_external: false
-- [mcp] Probative legal-marketing data. US lawyer ad rules, bar ad filing, ethics opinions, ad-platform policies, fee caps, MDLs. CC BY 4.0.
+- [mcp] Probative legal-marketing data. US lawyer ad rules, ad filing fees, fee caps, MDLs, ethics opinions, ad policies, CA courts. CC BY.
   source: https://probativegrowth.com/resources/rules-api/
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://probativegrowth.com/mcp

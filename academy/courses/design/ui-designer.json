@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-27T01:30:53Z",
+ "updated_at": "2026-10-27T15:53:32Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "4-do-it",
@@ -1165,6 +1165,72 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-spruce/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-iphone-screenshot-bot",
+     "title": "iPhone Screenshot Bot",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Send app screenshots and get clean iPhone mockups back on white, dark glow, gradient or custom backgrounds, optionally with your logo.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/iphone-screenshot-bot",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "RyDawg42",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/iphone-screenshot-bot",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/BlzS2Llj7_9VSmi3TjX0r",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "RyDawg42",
+       "firstSeen": "2026-10-27",
+       "integrations": [],
+       "name": "iPhone Screenshot Bot",
+       "official": false,
+       "page": "https://botsdots.site/templates/iphone-screenshot-bot",
+       "risk": "low",
+       "summary": "Send app screenshots and get clean iPhone mockups back on white, dark glow, gradient or custom backgrounds, optionally with your logo."
+      }
+     },
+     "install": "https://x.ai/bot/BlzS2Llj7_9VSmi3TjX0r",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-10-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-27T15:53:32Z",
+     "updated_at": "2026-10-27T15:53:32Z",
+     "checked_at": "2026-10-27T15:53:32Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-iphone-screenshot-bot/",
      "source": "botsdots"
     },
     {
@@ -1834,52 +1900,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-awd-35mm/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-mkozhk7-3d-image-globe",
-     "title": "3D Image Globe",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "A floating gallery of polaroid-style images forms an interactive 3D sphere on a white background, letting you upload your own images and project them onto the globe.",
-     "summary_lang": "en",
-     "source_url": "https://x.com/gabriell_lab/status/2067542058957406217",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@gabriell_lab",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-mkozhk7-3d-image-globe/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1917,7 +1937,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183999,
+      "repo_stars": 184166,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1962,7 +1982,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 183999,
+      "repo_stars": 184166,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2007,7 +2027,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 140943,
+      "repo_stars": 141406,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2052,7 +2072,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 50144,
+      "repo_stars": 50552,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2097,7 +2117,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2142,7 +2162,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2187,7 +2207,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2792,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143169,
+      "repo_stars": 143223,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2845,8 +2865,8 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16073,
-      "repo_pushed_at": "2026-10-25",
+      "repo_stars": 16078,
+      "repo_pushed_at": "2026-10-27",
       "registry_updated_at": "2026-06-18"
      },
      "course_step": "4-do-it",
@@ -2909,7 +2929,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2119,
+      "repo_stars": 2123,
       "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2025-10-16"
      },
@@ -4368,7 +4388,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 140943,
+      "repo_stars": 141406,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4413,7 +4433,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 140943,
+      "repo_stars": 141406,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4458,7 +4478,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 50144,
+      "repo_stars": 50552,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4503,7 +4523,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4548,7 +4568,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4593,7 +4613,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4638,7 +4658,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4683,7 +4703,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -4728,7 +4748,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -4773,7 +4793,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33220,
+      "repo_stars": 33379,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -4818,7 +4838,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26092,
+      "repo_stars": 26106,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

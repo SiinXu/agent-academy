@@ -2,7 +2,7 @@
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:30:53Z
+updated_at: 2026-10-27T15:53:32Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -47,6 +47,11 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/dan
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/7zNjK3LlQ55fGobGVWPQl
+  needs_credentials: false, writes_external: false
+- [template] Marketing Lead. A sellable marketing strategy bot, part of the 'Founder's Back Office' package of public Grok Bot templates.
+  source: https://botsdots.site/templates/marketing-lead
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/mP9VpuCPU4iU9r5o0MiAM
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

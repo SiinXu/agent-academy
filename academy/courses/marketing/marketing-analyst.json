@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-10-27T01:30:53Z",
+ "updated_at": "2026-10-27T15:53:32Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -23,6 +23,73 @@
   {
    "step": "2-pick-direction",
    "read": [
+    {
+     "id": "botsdots-scrollstopper-social-media-manager-mmcvs",
+     "title": "Scrollstopper · Social Media Manager",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Pick any platforms, one brand or several. It learns your voice, drafts platform-native posts, schedules them, checks they went live, and sends a weekly what-worked report. Draft-only by default.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "_DanielWilson",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "submitted",
+      "url": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs",
+      "record": {
+       "access": [
+        "code",
+        "publishing"
+       ],
+       "add": "https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw",
+       "cadence": "weekly",
+       "catalog_sources": [
+        "Submitted by the creator"
+       ],
+       "category": "content-publishing",
+       "creator": "_DanielWilson",
+       "firstSeen": "2026-10-27",
+       "integrations": [],
+       "name": "Scrollstopper · Social Media Manager",
+       "official": false,
+       "page": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs",
+       "risk": "high",
+       "summary": "Pick any platforms, one brand or several. It learns your voice, drafts platform-native posts, schedules them, checks they went live, and sends a weekly what-worked report. Draft-only by default."
+      }
+     },
+     "install": "https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 4,
+      "first_seen_catalog": "2026-10-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-27T15:53:32Z",
+     "updated_at": "2026-10-27T15:53:32Z",
+     "checked_at": "2026-10-27T15:53:32Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-scrollstopper-social-media-manager-mmcvs/",
+     "source": "botsdots"
+    },
     {
      "id": "anthropics-knowledge-work-plugins-marketing",
      "title": "Marketing plugin (Anthropic knowledge-work-plugins)",
@@ -203,72 +270,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-market-researcher/",
      "source": "botsdots"
-    },
-    {
-     "id": "botsdots-project-manager",
-     "title": "Project Manager",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "seo-specialist"
-     ],
-     "summary": "Marketing project manager that coordinates research, positioning, landing pages, ads",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/project-manager",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "joshkim",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/project-manager",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/AMa1ig4YyoxfYtWFe7PLi",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "research-briefings",
-       "creator": "joshkim",
-       "firstSeen": "2026-10-09",
-       "integrations": [],
-       "name": "Project Manager",
-       "official": true,
-       "page": "https://botsdots.site/templates/project-manager",
-       "risk": "low",
-       "summary": "Marketing project manager that coordinates research, positioning, landing pages, ads"
-      }
-     },
-     "install": "https://x.ai/bot/AMa1ig4YyoxfYtWFe7PLi",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 17,
-      "first_seen_catalog": "2026-10-09"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-project-manager/",
-     "source": "botsdots"
     }
    ]
   },
@@ -396,7 +397,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56703,
+      "repo_stars": 56838,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -441,7 +442,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56703,
+      "repo_stars": 56838,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -486,7 +487,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -531,7 +532,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -576,7 +577,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -835,7 +836,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 40459,
+      "repo_stars": 40470,
       "repo_pushed_at": "2026-10-27",
       "registry_updated_at": "2026-01-07"
      },
@@ -929,6 +930,69 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-matjmat-eulerian-marketing-platform-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-ai-saifs-marketing-intelligence",
+     "title": "Marketing Intelligence & Optimization",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-saifs-marketing-intelligence.md",
+     "upstream_raw_url": null,
+     "repo": "Saify-Technologies/saifs-ai-mcps-docs",
+     "author": "ai.saifs",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs/blob/HEAD/README.md",
+      "record": {
+       "description": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
+       "name": "ai.saifs/marketing-intelligence",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://marketing-analysis-mcp.saifs.ai/mcp"
+        }
+       ],
+       "repository": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs",
+       "title": "Marketing Intelligence & Optimization",
+       "version": "1.0.1",
+       "website": "https://saifs.ai"
+      }
+     },
+     "install": "remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 1,
+      "repo_pushed_at": "2026-10-22",
+      "registry_updated_at": "2026-10-21"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T15:15:15Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-saifs-marketing-intelligence/",
      "source": "mcp-registry"
     },
     {
@@ -1125,69 +1189,6 @@
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-ai-saifs-marketing-intelligence",
-     "title": "Marketing Intelligence & Optimization",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "marketing-analyst"
-     ],
-     "summary": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-saifs-marketing-intelligence.md",
-     "upstream_raw_url": null,
-     "repo": "Saify-Technologies/saifs-ai-mcps-docs",
-     "author": "ai.saifs",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs/blob/HEAD/README.md",
-      "record": {
-       "description": "Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.",
-       "name": "ai.saifs/marketing-intelligence",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://marketing-analysis-mcp.saifs.ai/mcp"
-        }
-       ],
-       "repository": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs",
-       "title": "Marketing Intelligence & Optimization",
-       "version": "1.0.1",
-       "website": "https://saifs.ai"
-      }
-     },
-     "install": "remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-22",
-      "registry_updated_at": "2026-10-21"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-21T00:40:03Z",
-     "updated_at": "2026-10-21T15:15:15Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-ai-saifs-marketing-intelligence/",
-     "source": "mcp-registry"
-    },
-    {
      "id": "mcp-io-github-pipeworx-io-posthog",
      "title": "Posthog",
      "type": "mcp",
@@ -1376,7 +1377,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56703,
+      "repo_stars": 56838,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1421,7 +1422,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56703,
+      "repo_stars": 56838,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1466,7 +1467,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1511,7 +1512,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1556,7 +1557,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41815,
+      "repo_stars": 41870,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",

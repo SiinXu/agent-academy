@@ -2,7 +2,7 @@
 name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:30:53Z
+updated_at: 2026-10-27T15:53:32Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/customer-success/
 ---
 
@@ -58,16 +58,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/p0OIZUJK5sRFImh_DMujf
   needs_credentials: false, writes_external: true
+- [template] Refund & Renewal Tracker. Watches your inbox for charges, plan switches, and refunds you're owed, nudges you when a promised refund is late, and warns you before annual renewals hit.
+  source: https://botsdots.site/templates/refund-renewal-tracker
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/wjfSNLEQBOthTC1MZFdDn
+  needs_credentials: false, writes_external: false
 - [plugin] Customer Support plugin (Anthropic knowledge-work-plugins). A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, 
   source: https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-customer-support.md
   license: Apache-2.0
   install: claude plugin marketplace add anthropics/knowledge-work-plugins
-  needs_credentials: false, writes_external: false
-- [plugin] ADK retail plugin. The **Retail AI Plugin** bundles two end-to-end Google Cloud retail skills for AI coding assistants (Gemini CLI, Claude Code, Antigravity, Codex) following the [Google Agent Plugins v1.0.0 specification][spec] (`plugin.j
-  source: https://github.com/google/adk-recipes/tree/main/plugins/retail
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-plugins-retail.md
-  license: Apache-2.0
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

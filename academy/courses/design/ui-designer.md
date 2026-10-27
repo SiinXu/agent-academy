@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:30:53Z
+updated_at: 2026-10-27T15:53:32Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,13 +94,13 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1577 items
-- motion: 645 items
-- 3d: 625 items
-- editorial: 590 items
-- playful: 557 items
+- minimal: 1591 items
+- motion: 647 items
+- 3d: 627 items
+- editorial: 592 items
+- playful: 560 items
 - gradient: 284 items
-- retro: 116 items
+- retro: 117 items
 - dark-tech: 111 items
 - glass: 56 items
 - enterprise: 45 items
@@ -150,6 +150,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://botsdots.site/templates/spruce
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/NVpdpaSAKHtd1qH6VH9vc
+  needs_credentials: false, writes_external: false
+- [template] iPhone Screenshot Bot. Send app screenshots and get clean iPhone mockups back on white, dark glow, gradient or custom backgrounds, optionally with your logo.
+  source: https://botsdots.site/templates/iphone-screenshot-bot
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/BlzS2Llj7_9VSmi3TjX0r
   needs_credentials: false, writes_external: false
 - [template] Photomosaic. Builds 3-panel X photomosaics in Figma from a reference post plus background and hero assets. On-demand design ops — drop a post and get export-ready panels
   source: https://botsdots.site/templates/photomosaic
@@ -206,10 +211,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 35mm. 35mm is a website showcasing film photography through the lenses of the iconic Cannon F1 !
   source: https://35mm-one.vercel.app/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 3D Image Globe. A floating gallery of polaroid-style images forms an interactive 3D sphere on a white background, letting you upload your own images and project them onto the globe.
-  source: https://x.com/gabriell_lab/status/2067542058957406217
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

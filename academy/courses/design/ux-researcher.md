@@ -2,7 +2,7 @@
 name: design-ux-researcher
 description: Agent Academy course for UX research and writing (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-27
-updated_at: 2026-10-27T01:30:53Z
+updated_at: 2026-10-27T15:53:32Z
 source: https://siinxu.github.io/agent-academy/courses/design/ux-researcher/
 ---
 
@@ -46,13 +46,13 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1577 items
-- motion: 645 items
-- 3d: 625 items
-- editorial: 590 items
-- playful: 557 items
+- minimal: 1591 items
+- motion: 647 items
+- 3d: 627 items
+- editorial: 592 items
+- playful: 560 items
 - gradient: 284 items
-- retro: 116 items
+- retro: 117 items
 - dark-tech: 111 items
 - glass: 56 items
 - enterprise: 45 items
