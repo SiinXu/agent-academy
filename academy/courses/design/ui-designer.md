@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-27
-updated_at: 2026-10-27T15:53:32Z
+version: 2026-10-28
+updated_at: 2026-10-28T01:26:45Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,12 +94,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1591 items
+- minimal: 1594 items
 - motion: 647 items
-- 3d: 627 items
+- 3d: 631 items
 - editorial: 592 items
-- playful: 560 items
-- gradient: 284 items
+- playful: 561 items
+- gradient: 285 items
 - retro: 117 items
 - dark-tech: 111 items
 - glass: 56 items

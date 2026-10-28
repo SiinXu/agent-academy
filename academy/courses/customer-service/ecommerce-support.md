@@ -1,8 +1,8 @@
 ---
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-10-27
-updated_at: 2026-10-27T15:53:32Z
+version: 2026-10-28
+updated_at: 2026-10-28T01:26:45Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/ecommerce-support/
 ---
 
