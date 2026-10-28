@@ -203,7 +203,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Recruitee](servers/recruitee/) | productivity | 26 | API token | [servers/recruitee/](servers/recruitee/) |
 | [Rewardful](servers/rewardful/) | marketing | 24 | API token | [servers/rewardful/](servers/rewardful/) |
 | [sevdesk](servers/sevdesk/) | billing | 24 | API token | [servers/sevdesk/](servers/sevdesk/) |
-| [Shopmonkey](servers/shopmonkey/) | productivity | 32 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
+| [Shopmonkey](servers/shopmonkey/) | productivity | 34 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
 | [Smile.io](servers/smile-io/) | ecommerce | 18 | API token | [servers/smile-io/](servers/smile-io/) |
 | [Smoobu](servers/smoobu/) | productivity | 24 | API token | [servers/smoobu/](servers/smoobu/) |
 | [Sortly](servers/sortly/) | productivity | 24 | API token | [servers/sortly/](servers/sortly/) |
@@ -464,6 +464,13 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Vtiger](servers/vtiger/) | crm | 17 | API token | [servers/vtiger/](servers/vtiger/) |
 | [Cogmento](servers/cogmento/) | crm | 30 | API token | [servers/cogmento/](servers/cogmento/) |
 | [SafetyChain](servers/safetychain/) | productivity | 33 | API token | [servers/safetychain/](servers/safetychain/) |
+| [Fakturowo](servers/fakturowo/) | billing | 13 | API token | [servers/fakturowo/](servers/fakturowo/) |
+| [Propertyware](servers/propertyware/) | productivity | 25 | API token | [servers/propertyware/](servers/propertyware/) |
+| [WuBook](servers/wubook/) | productivity | 23 | API token | [servers/wubook/](servers/wubook/) |
+| [Saldeo](servers/saldeo/) | billing | 14 | API token | [servers/saldeo/](servers/saldeo/) |
+| [Plutio](servers/plutio/) | project-management | 41 | API token | [servers/plutio/](servers/plutio/) |
+| [Workyard](servers/workyard/) | time-tracking | 16 | API token | [servers/workyard/](servers/workyard/) |
+| [Hub Planner](servers/hub-planner/) | project-management | 20 | API token | [servers/hub-planner/](servers/hub-planner/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

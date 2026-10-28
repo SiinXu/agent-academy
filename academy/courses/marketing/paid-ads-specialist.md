@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-28
-updated_at: 2026-10-28T01:26:45Z
+updated_at: 2026-10-28T16:38:31Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -63,6 +63,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ
   needs_credentials: true, writes_external: true
+- [template] Agency Lead. Marketing agency manager for founders: positioning, offers, ad strategy, copy and lead gen. Never spends, publishes or contacts anyone without approval.
+  source: https://botsdots.site/templates/agency-lead
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/d92J6SU_mk1kaOn3m-Qrs
+  needs_credentials: false, writes_external: true
 - [template] Amazon Ads Manager. Monitors and reports on Amazon Sponsored Products, Brands and Display ads from native reports, and proposes changes for you to approve.
   source: https://botsdots.site/templates/amazon-ads-manager
   license: template belongs to its creator (catalog CC0)
@@ -83,11 +88,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA
   needs_credentials: true, writes_external: false
-- [template] Agency Lead. Marketing agency manager for founders: positioning, offers, ad strategy, copy and lead gen. Never spends, publishes or contacts anyone without approval.
-  source: https://botsdots.site/templates/agency-lead
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/d92J6SU_mk1kaOn3m-Qrs
-  needs_credentials: false, writes_external: true
 
 ## Step 3: Learn the rules
 

@@ -202,7 +202,8 @@
 "add": "https://x.ai/bot/d92J6SU_mk1kaOn3m-Qrs",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
 "creator": "benoitbarnaby",
@@ -580,6 +581,29 @@
 "summary": "Your enforcer against AI customer service. Big Tony handles cancellations that weren't honored, ghost charges, retention traps, fraud cleanup, and"
 },
 "url": "https://botsdots.site/templates/big-tony"
+},
+"botsdots-brand-voice-writer": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/mr5U4RLWVjnZdNuQBipeq",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": null,
+"firstSeen": "2026-10-27",
+"integrations": [],
+"name": "brand voice writer",
+"official": false,
+"page": "https://botsdots.site/templates/brand-voice-writer",
+"risk": "low",
+"summary": "Writes posts, emails and articles that sound like you. It builds your voice profile in Ellora from your past writing, then checks every…"
+},
+"url": "https://botsdots.site/templates/brand-voice-writer"
 },
 "botsdots-business-b7c9": {
 "kind": "excerpt",
@@ -2269,11 +2293,16 @@
 "label": "botsdots",
 "license": "CC0-1.0",
 "record": {
-"access": [],
+"access": [
+"inbox",
+"browser",
+"publishing"
+],
 "add": "https://x.ai/bot/mP9VpuCPU4iU9r5o0MiAM",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
@@ -2282,7 +2311,7 @@
 "name": "Marketing Lead",
 "official": false,
 "page": "https://botsdots.site/templates/marketing-lead",
-"risk": "low",
+"risk": "high",
 "summary": "A sellable marketing strategy bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
 },
 "url": "https://botsdots.site/templates/marketing-lead"
@@ -2342,6 +2371,33 @@
 "summary": "Intake desk (The Incorporator). Drop a link, post, product, paper, repo, clip, or tool — it opens the original, separates marketing from function"
 },
 "url": "https://botsdots.site/templates/mason"
+},
+"botsdots-master-max": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/jHk8GG6HRbGN6pxfrfrMf",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "ozone2016",
+"firstSeen": "2026-10-27",
+"integrations": [
+"chatgpt"
+],
+"name": "Master Max",
+"official": false,
+"page": "https://botsdots.site/templates/master-max",
+"risk": "low",
+"summary": "SEO and AI-visibility bot that gets a business found on Google and recommended by AI assistants like Grok and ChatGPT. For web agencies and small businesses."
+},
+"url": "https://botsdots.site/templates/master-max"
 },
 "botsdots-media": {
 "kind": "excerpt",
@@ -2697,6 +2753,30 @@
 },
 "url": "https://botsdots.site/templates/paste-post-pack"
 },
+"botsdots-philosopher-bot": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/CULd42u_wtEycB_Xyep14",
+"cadence": "daily",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "research-briefings",
+"creator": "MetanoiaMetamrf",
+"firstSeen": "2026-10-28",
+"integrations": [],
+"name": "Philosopher Bot",
+"official": false,
+"page": "https://botsdots.site/templates/philosopher-bot",
+"risk": "low",
+"summary": "A student of human nature that studies psychology, behavioral science, marketing and ethical persuasion."
+},
+"url": "https://botsdots.site/templates/philosopher-bot"
+},
 "botsdots-photomosaic": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -2801,6 +2881,35 @@
 },
 "url": "https://botsdots.site/templates/project-manager"
 },
+"botsdots-rank": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"browser",
+"money"
+],
+"add": "https://x.ai/bot/5RIX2aYLkHJz303goBCwC",
+"cadence": "daily",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "austindixson_",
+"firstSeen": "2026-10-28",
+"integrations": [
+"chatgpt"
+],
+"name": "Rank",
+"official": false,
+"page": "https://botsdots.site/templates/rank",
+"risk": "high",
+"summary": "An SEO and AI-search visibility owner for one website. It measures Search Console and analytics daily."
+},
+"url": "https://botsdots.site/templates/rank"
+},
 "botsdots-refund-renewal-tracker": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -2854,6 +2963,30 @@
 "summary": "Turns a marketing brief into previewable video scenes and social cutdowns"
 },
 "url": "https://botsdots.site/templates/replay"
+},
+"botsdots-research-visibility-desk": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/sQOKnRbZ_iqdcliZA70Mm",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "research-briefings",
+"creator": "0xarewah",
+"firstSeen": "2026-10-28",
+"integrations": [],
+"name": "Research & Visibility Desk",
+"official": false,
+"page": "https://botsdots.site/templates/research-visibility-desk",
+"risk": "low",
+"summary": "Research & Visibility Desk. One job: research and findings that help you sell and get found, covering account research, SEO/AEO content briefs."
+},
+"url": "https://botsdots.site/templates/research-visibility-desk"
 },
 "botsdots-reva": {
 "kind": "excerpt",
@@ -3043,19 +3176,19 @@
 },
 "url": "https://botsdots.site/templates/roof-ceo"
 },
-"botsdots-scrollstopper-social-media-manager-mmcvs": {
+"botsdots-scrollstopper-social-media-manager": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "submitted",
+"license": "CC0-1.0",
 "record": {
 "access": [
-"code",
-"publishing"
+"calendar",
+"code"
 ],
 "add": "https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw",
 "cadence": "weekly",
 "catalog_sources": [
-"Submitted by the creator"
+"majiayu000/awesome-grok-bot"
 ],
 "category": "content-publishing",
 "creator": "_DanielWilson",
@@ -3063,11 +3196,11 @@
 "integrations": [],
 "name": "Scrollstopper · Social Media Manager",
 "official": false,
-"page": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs",
-"risk": "high",
-"summary": "Pick any platforms, one brand or several. It learns your voice, drafts platform-native posts, schedules them, checks they went live, and sends a weekly what-worked report. Draft-only by default."
+"page": "https://botsdots.site/templates/scrollstopper-social-media-manager",
+"risk": "medium",
+"summary": "Social media manager for one or more brands: learns each voice, writes native posts, schedules, replies to comments, weekly report. Draft-only by default."
 },
-"url": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs"
+"url": "https://botsdots.site/templates/scrollstopper-social-media-manager"
 },
 "botsdots-sentinel-nafa": {
 "kind": "excerpt",
@@ -3845,20 +3978,26 @@
 "label": "botsdots",
 "license": "CC0-1.0",
 "record": {
-"access": [],
+"access": [
+"calendar"
+],
 "add": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
-"cadence": "on-demand",
+"cadence": "daily",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
 "firstSeen": "2026-10-27",
-"integrations": [],
+"integrations": [
+"linkedin",
+"youtube"
+],
 "name": "Social Media Manager Template",
 "official": false,
 "page": "https://botsdots.site/templates/social-media-manager-template",
-"risk": "low",
+"risk": "medium",
 "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
 },
 "url": "https://botsdots.site/templates/social-media-manager-template"
@@ -4134,6 +4273,30 @@
 },
 "url": "https://botsdots.site/templates/support-triage-bot"
 },
+"botsdots-tess-design-desk-promo-studio": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/s5Lrs_B4IcI169QRiQAan",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "wjenson",
+"firstSeen": "2026-10-28",
+"integrations": [],
+"name": "Tess — Design Desk & Promo Studio",
+"official": false,
+"page": "https://botsdots.site/templates/tess-design-desk-promo-studio",
+"risk": "low",
+"summary": "UI & dashboard mockups, 1280x720 + 390x844 social screenshot packs, luxury emblem/avatar sets, stills-first promo videos, and print/travel guides."
+},
+"url": "https://botsdots.site/templates/tess-design-desk-promo-studio"
+},
 "botsdots-ticket-desk": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -4291,6 +4454,34 @@
 },
 "url": "https://botsdots.site/templates/uniflow-social-agent"
 },
+"botsdots-unsubscribed": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [
+"inbox",
+"destructive"
+],
+"add": "https://x.ai/bot/skjw7snZQR8WzWNrFbzYW",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": null,
+"firstSeen": "2026-10-28",
+"integrations": [
+"gmail"
+],
+"name": "Unsubscribed",
+"official": false,
+"page": "https://botsdots.site/templates/unsubscribed",
+"risk": "high",
+"summary": "Scans connected Gmail for recurring paid subscriptions and marketing newsletters, then helps you unsubscribe or cancel — only after you appr"
+},
+"url": "https://botsdots.site/templates/unsubscribed"
+},
 "botsdots-vendoo-bot": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -4327,7 +4518,8 @@
 "add": "https://x.ai/bot/5knsZnIHZUKPYw3H3aW0_",
 "cadence": "on-demand",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "coding-shipping",
 "creator": null,
@@ -8645,6 +8837,50 @@
 "truncated": false,
 "url": "https://github.com/curlymolelabs/supericons/blob/HEAD/README.md"
 },
+"mcp-io-github-dancerdan15-shopify-store-catalog-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Shopify store catalog, SKU/price/availability & collections",
+"name": "io.github.dancerdan15/shopify-store-catalog-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mutualistic-housing--shopify-store-catalog-mcp.apify.actor/mcp"
+}
+],
+"repository": null,
+"title": "Shopify Store Catalog MCP",
+"version": "0.1.0",
+"website": "https://apify.com/mutualistic_housing/shopify-store-catalog-mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.dancerdan15/shopify-store-catalog-mcp&version=latest"
+},
+"mcp-io-github-dancerdan15-substack-newsletter-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Substack newsletter, posts & podcast search",
+"name": "io.github.dancerdan15/substack-newsletter-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mutualistic-housing--substack-newsletter-mcp.apify.actor/mcp"
+}
+],
+"repository": null,
+"title": "Substack Newsletter MCP",
+"version": "0.1.0",
+"website": "https://apify.com/mutualistic_housing/substack-newsletter-mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.dancerdan15/substack-newsletter-mcp&version=latest"
+},
 "mcp-io-github-danielpopamd-hubspot-mcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8692,30 +8928,6 @@
 },
 "truncated": false,
 "url": "https://github.com/dannykeane/figmanage/blob/HEAD/README.md"
-},
-"mcp-io-github-dataleadspro-seo-audit-content": {
-"file": "data/originals/mcp-io-github-dataleadspro-seo-audit-content.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Full SEO audits, content analysis, and domain overviews - on-page, technical, and authority metrics",
-"name": "io.github.DataLeadsPRO/seo-audit-content",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://data.dataleads.pro/mcp/seo-audit-content"
-}
-],
-"repository": "https://github.com/DataLeadsPRO/seo-audit-content",
-"title": null,
-"version": "1.0.1",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/DataLeadsPRO/seo-audit-content/blob/HEAD/README.md"
 },
 "mcp-io-github-davidmosiah-tiktok-agent-publisher": {
 "file": "data/originals/mcp-io-github-davidmosiah-tiktok-agent-publisher.md",
@@ -10197,6 +10409,28 @@
 "truncated": false,
 "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md"
 },
+"mcp-io-github-myworkingmemory-shopify-store-extractor": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Get Shopify product prices, variants and stock availability for competitor monitoring and exports.",
+"name": "io.github.myworkingmemory/shopify-store-extractor",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=myworkingmemory/shopify-store-extractor"
+}
+],
+"repository": null,
+"title": "Shopify Product Scraper — Prices, Variants & Availability",
+"version": "2026.10.29",
+"website": "https://apify.com/myworkingmemory/shopify-store-extractor"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.myworkingmemory/shopify-store-extractor&version=latest"
+},
 "mcp-io-github-nbhey-figma-vault": {
 "file": "data/originals/mcp-io-github-nbhey-figma-vault.md",
 "kind": "full",
@@ -10954,6 +11188,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sadri-dridi/agent-marketing-index&version=latest"
 },
+"mcp-io-github-sandeepkelvadi-marketing-skills-directory": {
+"file": "data/originals/mcp-io-github-sandeepkelvadi-marketing-skills-directory.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Search, browse & read 340+ Claude Code marketing & SEO skills from any MCP client.",
+"name": "io.github.sandeepkelvadi/marketing-skills-directory",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://marketingskills.directory/wp-json/mkt/v1/mcp"
+}
+],
+"repository": "https://github.com/sandeepkelvadi/mkt-skills",
+"title": "Marketing Skills Directory",
+"version": "1.0.1",
+"website": "https://marketingskills.directory/"
+},
+"truncated": false,
+"url": "https://github.com/sandeepkelvadi/mkt-skills/blob/HEAD/README.md"
+},
 "mcp-io-github-saulius876-lgtm-shopify-price-monitor": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -11152,6 +11410,30 @@
 },
 "truncated": false,
 "url": "https://github.com/storybookjs/mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-sumitrmardy-shopify-store-products": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Public Shopify catalog products, prices, SKUs and variants. Classic storefronts only; failures free.",
+"name": "io.github.sumitrmardy/shopify-store-products",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=sumitr_mardy/shopify-store-products"
+}
+],
+"repository": null,
+"title": "Shopify Store Products Scraper",
+"version": "1.0.0",
+"website": "https://apify.com/sumitr_mardy/shopify-store-products"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sumitrmardy/shopify-store-products&version=latest"
 },
 "mcp-io-github-sunhome243-figma-mcp-express": {
 "file": "data/originals/mcp-io-github-sunhome243-figma-mcp-express.md",
@@ -12103,6 +12385,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-anishshobithps-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-anon-li": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -12174,6 +12463,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-carejobs-now": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-chanhdai-com-components": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -12345,6 +12641,14 @@
 "truncated": false,
 "url": "https://github.com/agmmnn/tauri-ui/blob/master/README.md"
 },
+"uihub-aw-github-com-akii09-pdfx": {
+"file": "data/originals/uihub-aw-github-com-akii09-pdfx.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/akii09/pdfx/blob/main/README.md"
+},
 "uihub-aw-github-com-amanshakya0018-forgeui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -12436,6 +12740,15 @@
 "truncated": false,
 "url": "https://github.com/domidex01/tour-kit/blob/main/README.md"
 },
+"uihub-aw-github-com-ephraimduncan-shadcn-play": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "none"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-github-com-extension-js-examples-tree-main-examples-sidebar": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -12484,6 +12797,23 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/harshjdhv/componentry/blob/main/README.md"
+},
+"uihub-aw-github-com-iscale-llc-agentic-react-nextjs-shadcn": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "none"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-github-com-jacksonkasi1-tablecraft": {
+"file": "data/originals/uihub-aw-github-com-jacksonkasi1-tablecraft.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/jacksonkasi1/TableCraft/blob/main/README.md"
 },
 "uihub-aw-github-com-jakejarvis-cn": {
 "file": "data/originals/uihub-aw-github-com-jakejarvis-cn.md",
@@ -12697,6 +13027,14 @@
 },
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-github-com-shadcnspace-shadcnspace": {
+"file": "data/originals/uihub-aw-github-com-shadcnspace-shadcnspace.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/shadcnspace/shadcnspace/blob/main/README.md"
+},
 "uihub-aw-github-com-shadcnstore-shadcn-dashboard-landing-template": {
 "file": "data/originals/uihub-aw-github-com-shadcnstore-shadcn-dashboard-landing-template.md",
 "kind": "full",
@@ -12803,6 +13141,20 @@
 "url": "https://github.com/yaminncco/deska-dashboard-template/blob/main/README.md"
 },
 "uihub-aw-glassyui-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-glitchcn-ui-vercel-app": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-goey-toast-vercel-app": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -13089,6 +13441,20 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-shoogle-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-siddz-com-components": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-signoff-ui-vercel-app": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -13097,6 +13463,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-skrewww-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-smui-statico-io": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -13244,6 +13617,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-usva-build": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-warcraftcn-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -18781,6 +19161,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-appllama-liquid-glass-chat-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-arla6ka-design-how": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -26636,6 +27023,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-sknzklq-dessn-logo-explorations": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-slwg0ri-minimal-invoice-design": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27463,6 +27857,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-x2upzuw-fully-charged-poster": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-x35tdwz-agentic-data-company-branding": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

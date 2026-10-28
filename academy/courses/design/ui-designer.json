@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-28T01:26:45Z",
+ "updated_at": "2026-10-28T16:38:31Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33437,
+      "repo_stars": 33582,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "4-do-it",
@@ -1301,6 +1301,71 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-photomosaic/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-tess-design-desk-promo-studio",
+     "title": "Tess — Design Desk & Promo Studio",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "UI & dashboard mockups, 1280x720 + 390x844 social screenshot packs, luxury emblem/avatar sets, stills-first promo videos, and print/travel guides.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/tess-design-desk-promo-studio",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "wjenson",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/tess-design-desk-promo-studio",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/s5Lrs_B4IcI169QRiQAan",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "wjenson",
+       "firstSeen": "2026-10-28",
+       "integrations": [],
+       "name": "Tess — Design Desk & Promo Studio",
+       "official": false,
+       "page": "https://botsdots.site/templates/tess-design-desk-promo-studio",
+       "risk": "low",
+       "summary": "UI & dashboard mockups, 1280x720 + 390x844 social screenshot packs, luxury emblem/avatar sets, stills-first promo videos, and print/travel guides."
+      }
+     },
+     "install": "https://x.ai/bot/s5Lrs_B4IcI169QRiQAan",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 6,
+      "first_seen_catalog": "2026-10-28"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-28T16:38:31Z",
+     "updated_at": "2026-10-28T16:38:31Z",
+     "checked_at": "2026-10-28T16:38:31Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-tess-design-desk-promo-studio/",
      "source": "botsdots"
     },
     {
@@ -1854,52 +1919,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-3c42eif-30-japanese-typography-studies/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-awd-35mm",
-     "title": "35mm",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "35mm is a website showcasing film photography through the lenses of the iconic Cannon F1 !",
-     "summary_lang": "en",
-     "source_url": "https://35mm-one.vercel.app/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Chakib Mazouni",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-awd-35mm/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1937,7 +1956,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 184262,
+      "repo_stars": 184449,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -1982,7 +2001,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 184262,
+      "repo_stars": 184449,
       "repo_pushed_at": "2026-10-09"
      },
      "course_step": "3-learn-rules",
@@ -2027,7 +2046,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 141594,
+      "repo_stars": 141961,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2072,7 +2091,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 50730,
+      "repo_stars": 50990,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2117,7 +2136,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2162,7 +2181,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2207,7 +2226,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2792,7 +2811,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143248,
+      "repo_stars": 143317,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2865,7 +2884,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16081,
+      "repo_stars": 16094,
       "repo_pushed_at": "2026-10-27",
       "registry_updated_at": "2026-06-18"
      },
@@ -2929,8 +2948,8 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2124,
-      "repo_pushed_at": "2026-10-20",
+      "repo_stars": 2126,
+      "repo_pushed_at": "2026-10-28",
       "registry_updated_at": "2025-10-16"
      },
      "course_step": "4-do-it",
@@ -3059,7 +3078,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 184,
+      "repo_stars": 185,
       "repo_pushed_at": "2026-10-26",
       "registry_updated_at": "2026-10-25"
      },
@@ -4388,7 +4407,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 141594,
+      "repo_stars": 141961,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4433,7 +4452,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 141594,
+      "repo_stars": 141961,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4478,7 +4497,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 50730,
+      "repo_stars": 50990,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -4523,7 +4542,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4568,7 +4587,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4613,7 +4632,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4658,7 +4677,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4703,7 +4722,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33437,
+      "repo_stars": 33582,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -4748,7 +4767,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33437,
+      "repo_stars": 33582,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -4793,7 +4812,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33437,
+      "repo_stars": 33582,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -4838,7 +4857,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26116,
+      "repo_stars": 26141,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",

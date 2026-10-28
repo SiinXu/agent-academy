@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-28
-updated_at: 2026-10-28T01:26:45Z
+updated_at: 2026-10-28T16:38:31Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -83,16 +83,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e
   needs_credentials: false, writes_external: false
+- [template] Social Media Manager Template. A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.
+  source: https://botsdots.site/templates/social-media-manager-template
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT
+  needs_credentials: true, writes_external: false
 - [template] UniFlow Social Agent. A social media content strategist that plans your week of posts and writes drafts for X, Instagram, Facebook, LinkedIn, Threads, Bluesky and more.
   source: https://botsdots.site/templates/uniflow-social-agent
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a
   needs_credentials: true, writes_external: false
-- [template] Social Media Manager Template. A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.
-  source: https://botsdots.site/templates/social-media-manager-template
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT
-  needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
 

@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-28
-updated_at: 2026-10-28T01:26:45Z
+updated_at: 2026-10-28T16:38:31Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 
@@ -28,11 +28,11 @@ Read course.md: the job, the permissions it needs, and what good output looks li
 
 Choose one style, platform or channel from the reference library. Only one.
 
-- [template] Scrollstopper · Social Media Manager. Pick any platforms, one brand or several. It learns your voice, drafts platform-native posts, schedules them, checks they went live, and sends a weekly what-worked report. Draft-only by default.
-  source: https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs
+- [template] Scrollstopper · Social Media Manager. Social media manager for one or more brands: learns each voice, writes native posts, schedules, replies to comments, weekly report. Draft-only by default.
+  source: https://botsdots.site/templates/scrollstopper-social-media-manager
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw
-  needs_credentials: false, writes_external: true
+  needs_credentials: false, writes_external: false
 - [plugin] Marketing plugin (Anthropic knowledge-work-plugins). A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice manag
   source: https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-marketing.md

@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-28T01:26:45Z",
+ "updated_at": "2026-10-28T16:38:31Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1682,7 +1682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143248,
+      "repo_stars": 143317,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -1727,7 +1727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30339,
+      "repo_stars": 30354,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "4-do-it",
@@ -1923,8 +1923,8 @@
       ]
      },
      "metrics": {
-      "repo_stars": 63,
-      "repo_pushed_at": "2026-10-27",
+      "repo_stars": 64,
+      "repo_pushed_at": "2026-10-28",
       "registry_updated_at": "2026-10-23"
      },
      "course_step": "4-do-it",
@@ -2267,7 +2267,7 @@
      },
      "metrics": {
       "repo_stars": 13,
-      "repo_pushed_at": "2026-10-27",
+      "repo_pushed_at": "2026-10-28",
       "registry_updated_at": "2026-08-09"
      },
      "course_step": "4-do-it",
@@ -2693,6 +2693,51 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md/",
      "source": "seed"
+    },
+    {
+     "id": "prompts-chat-faulty-purchase-refund-and-dispute-escalation-plan-json",
+     "title": "Faulty Purchase Refund and Dispute Escalation Plan (JSON)",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "support-lead"
+     ],
+     "summary": "Describe a faulty product or an undelivered service and get a strict JSON plan: a case summary with the remedy to ask for, a timeline, an evidence checklist, deadlines to confirm officially, an escalation ladder from seller support to card disputes and consumer bodies, polite message drafts for each step, a call script, and a follow-up schedule.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmvrrz2qk0005jt07g328hl54_faulty-purchase-refund-and-dispute-escalation-plan-json",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-faulty-purchase-refund-and-dispute-escalation-plan-json.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmvrrz2qk0005jt07g328hl54_faulty-purchase-refund-and-dispute-escalation-plan-json"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-10-28"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-28T16:38:31Z",
+     "updated_at": "2026-10-28T16:38:31Z",
+     "checked_at": "2026-10-28T16:38:31Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-faulty-purchase-refund-and-dispute-escalation-plan-json/",
+     "source": "prompts.chat"
     }
    ]
   }

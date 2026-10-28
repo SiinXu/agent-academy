@@ -1,0 +1,69 @@
+# PDFx
+
+![Beta](https://img.shields.io/badge/status-beta-blue?style=flat-square)
+![npm](https://img.shields.io/npm/v/pdfx-cli?style=flat-square&label=cli)
+
+Pre-built PDF components for React. Copy them into your project, own them completely. Built on [@react-pdf/renderer](https://react-pdf.org/). No runtime dependency on PDFx.
+
+[![PDFx Demo](https://getpdfx.dev/og-image.png)](https://getpdfx.dev/)
+
+## Get started
+
+```bash
+npx pdfx-cli init
+npx pdfx-cli add heading text badge
+```
+
+Already using shadcn? Same components, namespaced so they never collide with `heading` / `table` from shadcn/ui. Requires an existing `components.json` (`npx shadcn@latest init` first). Leave `{name}` as a placeholder:
+
+```bash
+npx shadcn@latest registry add @pdfx=https://getpdfx.dev/r/shadcn/{name}.json
+npx shadcn@latest add @pdfx/heading @pdfx/text @pdfx/badge
+```
+
+```tsx
+import { Document, Page } from '@react-pdf/renderer';
+import { Heading, Text, Badge } from './components/pdfx';
+
+export default () => (
+  <Document>
+    <Page>
+      <Heading level={1}>Invoice #1042</Heading>
+      <Badge label="Paid" variant="success" />
+      <Text>Thank you for your business.</Text>
+    </Page>
+  </Document>
+);
+```
+
+## Documentation
+
+Visit [getpdfx.dev](https://getpdfx.dev/docs) for the full docs, component previews, and block templates.
+
+## Releases
+
+- User-facing release notes: [getpdfx.dev/releases](https://getpdfx.dev/releases)
+- CLI changelog: [packages/cli/CHANGELOG.md](./packages/cli/CHANGELOG.md)
+- GitHub Releases: [github.com/akii09/pdfx/releases](https://github.com/akii09/pdfx/releases)
+
+## Contributing
+
+Please read the [contributing guide](./CONTRIBUTING.md) before opening a PR.
+
+## License
+
+MIT © [Akii](https://github.com/akii09)
+
+## Sponsors
+
+PDFx is proudly sponsored by:
+
+<a href="http://pdfxbuilder.com/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/pdfxbuilder-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset=".github/assets/pdfxbuilder-light.png">
+    <img src=".github/assets/pdfxbuilder-light.png" alt="PDFx Builder" height="40">
+  </picture>
+</a>
+
+Interested in sponsoring? [Open an issue](https://github.com/akii09/pdfx/issues) to get in touch.

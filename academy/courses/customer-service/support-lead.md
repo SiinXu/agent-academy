@@ -2,7 +2,7 @@
 name: customer-service-support-lead
 description: Agent Academy course for Escalations and lead (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-28
-updated_at: 2026-10-28T01:26:45Z
+updated_at: 2026-10-28T16:38:31Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-lead/
 ---
 
@@ -80,6 +80,11 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-escalation
   needs_credentials: false, writes_external: false
+- [system-prompt] Faulty Purchase Refund and Dispute Escalation Plan (JSON). Describe a faulty product or an undelivered service and get a strict JSON plan: a case summary with the remedy to ask for, a timeline, an evidence checklist, deadlines to confirm officially, an escalation ladder from sel
+  source: https://prompts.chat/prompts/cmvrrz2qk0005jt07g328hl54_faulty-purchase-refund-and-dispute-escalation-plan-json
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-faulty-purchase-refund-and-dispute-escalation-plan-json.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [skill] churn-prevention. When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save 
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/churn-prevention/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-churn-prevention-skill-md.md
@@ -91,12 +96,6 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-research
-  needs_credentials: false, writes_external: false
-- [skill] draft-response. Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, decli
-  source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md.md
-  license: Apache-2.0
-  install: npx skills add anthropics/knowledge-work-plugins --skill draft-response
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
@@ -140,6 +139,11 @@ Go through the checklist and report the result to your owner.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-escalation
+  needs_credentials: false, writes_external: false
+- [system-prompt] Faulty Purchase Refund and Dispute Escalation Plan (JSON). Describe a faulty product or an undelivered service and get a strict JSON plan: a case summary with the remedy to ask for, a timeline, an evidence checklist, deadlines to confirm officially, an escalation ladder from sel
+  source: https://prompts.chat/prompts/cmvrrz2qk0005jt07g328hl54_faulty-purchase-refund-and-dispute-escalation-plan-json
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-faulty-purchase-refund-and-dispute-escalation-plan-json.md
+  license: CC0-1.0
   needs_credentials: false, writes_external: false
 
 ### Checklist

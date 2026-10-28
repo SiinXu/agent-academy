@@ -2,7 +2,7 @@
 name: customer-service-knowledge-base-editor
 description: Agent Academy course for Knowledge base editor (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-28
-updated_at: 2026-10-28T01:26:45Z
+updated_at: 2026-10-28T16:38:31Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/knowledge-base-editor/
 ---
 
@@ -144,6 +144,11 @@ Go through the checklist and report the result to your owner.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-escalation
+  needs_credentials: false, writes_external: false
+- [system-prompt] Faulty Purchase Refund and Dispute Escalation Plan (JSON). Describe a faulty product or an undelivered service and get a strict JSON plan: a case summary with the remedy to ask for, a timeline, an evidence checklist, deadlines to confirm officially, an escalation ladder from sel
+  source: https://prompts.chat/prompts/cmvrrz2qk0005jt07g328hl54_faulty-purchase-refund-and-dispute-escalation-plan-json
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-faulty-purchase-refund-and-dispute-escalation-plan-json.md
+  license: CC0-1.0
   needs_credentials: false, writes_external: false
 
 ### Checklist

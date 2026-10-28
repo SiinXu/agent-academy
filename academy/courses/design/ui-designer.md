@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-28
-updated_at: 2026-10-28T01:26:45Z
+updated_at: 2026-10-28T16:38:31Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -94,13 +94,13 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1594 items
+- minimal: 1609 items
 - motion: 647 items
 - 3d: 631 items
 - editorial: 592 items
 - playful: 561 items
 - gradient: 285 items
-- retro: 117 items
+- retro: 118 items
 - dark-tech: 111 items
 - glass: 56 items
 - enterprise: 45 items
@@ -161,6 +161,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dYpPe1PCZv2WJDVTYDwhc
   needs_credentials: true, writes_external: false
+- [template] Tess — Design Desk & Promo Studio. UI & dashboard mockups, 1280x720 + 390x844 social screenshot packs, luxury emblem/avatar sets, stills-first promo videos, and print/travel guides.
+  source: https://botsdots.site/templates/tess-design-desk-promo-studio
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/s5Lrs_B4IcI169QRiQAan
+  needs_credentials: false, writes_external: false
 - [style-library] /zeroz official site. Fashion photography on white with an oversized slash wordmark /zeroz: Japanese whitespace and sharpness (via Awwwards)
   source: https://otsuka-air.jp/
   license: see source (listed via UI Hub)
@@ -207,10 +212,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 30 Japanese Typography Studies. A series of 30 experimental Japanese typography pieces exploring kanji and kana through bold stylistic treatments including dot-matrix, contour lines, calligraphy, and pixel forms.
   source: https://x.com/hiro000509/status/2076637780097028105
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 35mm. 35mm is a website showcasing film photography through the lenses of the iconic Cannon F1 !
-  source: https://35mm-one.vercel.app/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

@@ -2,7 +2,7 @@
  "id": "marketing/social-media-manager",
  "industry": "marketing",
  "role": "social-media-manager",
- "updated_at": "2026-10-28T01:26:45Z",
+ "updated_at": "2026-10-28T16:38:31Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -794,6 +794,79 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-social-media-manager-template",
+     "title": "Social Media Manager Template",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-media-manager-template",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Jennifer",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/social-media-manager-template",
+      "record": {
+       "access": [
+        "calendar"
+       ],
+       "add": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
+       "cadence": "daily",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": null,
+       "firstSeen": "2026-10-27",
+       "integrations": [
+        "linkedin",
+        "youtube"
+       ],
+       "name": "Social Media Manager Template",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-media-manager-template",
+       "risk": "medium",
+       "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
+      }
+     },
+     "install": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "linkedin",
+       "youtube"
+      ]
+     },
+     "metrics": {
+      "score": 6,
+      "first_seen_catalog": "2026-10-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-26T16:48:06Z",
+     "updated_at": "2026-10-28T16:38:31Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-template/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-uniflow-social-agent",
      "title": "UniFlow Social Agent",
      "type": "template",
@@ -861,70 +934,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-uniflow-social-agent/",
      "source": "botsdots"
-    },
-    {
-     "id": "botsdots-social-media-manager-template",
-     "title": "Social Media Manager Template",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "social-media-manager"
-     ],
-     "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/social-media-manager-template",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Jennifer",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/social-media-manager-template",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot"
-       ],
-       "category": "content-publishing",
-       "creator": null,
-       "firstSeen": "2026-10-27",
-       "integrations": [],
-       "name": "Social Media Manager Template",
-       "official": false,
-       "page": "https://botsdots.site/templates/social-media-manager-template",
-       "risk": "low",
-       "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
-      }
-     },
-     "install": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 2,
-      "first_seen_catalog": "2026-10-27"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-26T16:48:06Z",
-     "updated_at": "2026-10-27T15:53:32Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-social-media-manager-template/",
-     "source": "botsdots"
     }
    ]
   },
@@ -957,12 +966,12 @@
      "install": "npx skills add coreyhaines31/marketingskills --skill image",
      "security": {
       "audited": false,
-      "executes_code": true,
+      "executes_code": false,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1007,7 +1016,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1052,7 +1061,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1097,7 +1106,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26116,
+      "repo_stars": 26141,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
@@ -2294,7 +2303,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -2339,7 +2348,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -2384,7 +2393,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2429,7 +2438,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2474,7 +2483,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",

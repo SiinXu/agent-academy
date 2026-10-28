@@ -2,7 +2,7 @@
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-28
-updated_at: 2026-10-28T01:26:45Z
+updated_at: 2026-10-28T16:38:31Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -52,7 +52,7 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/marketing-lead
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/mP9VpuCPU4iU9r5o0MiAM
-  needs_credentials: false, writes_external: false
+  needs_credentials: false, writes_external: true
 
 ## Step 3: Learn the rules
 

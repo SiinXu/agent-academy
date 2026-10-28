@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-10-28T01:26:45Z",
+ "updated_at": "2026-10-28T16:38:31Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -24,16 +24,16 @@
    "step": "2-pick-direction",
    "read": [
     {
-     "id": "botsdots-scrollstopper-social-media-manager-mmcvs",
+     "id": "botsdots-scrollstopper-social-media-manager",
      "title": "Scrollstopper · Social Media Manager",
      "type": "template",
      "industry": "marketing",
      "roles": [
       "marketing-analyst"
      ],
-     "summary": "Pick any platforms, one brand or several. It learns your voice, drafts platform-native posts, schedules them, checks they went live, and sends a weekly what-worked report. Draft-only by default.",
+     "summary": "Social media manager for one or more brands: learns each voice, writes native posts, schedules, replies to comments, weekly report. Draft-only by default.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs",
+     "source_url": "https://botsdots.site/templates/scrollstopper-social-media-manager",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
@@ -43,17 +43,17 @@
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "submitted",
-      "url": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/scrollstopper-social-media-manager",
       "record": {
        "access": [
-        "code",
-        "publishing"
+        "calendar",
+        "code"
        ],
        "add": "https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw",
        "cadence": "weekly",
        "catalog_sources": [
-        "Submitted by the creator"
+        "majiayu000/awesome-grok-bot"
        ],
        "category": "content-publishing",
        "creator": "_DanielWilson",
@@ -61,9 +61,9 @@
        "integrations": [],
        "name": "Scrollstopper · Social Media Manager",
        "official": false,
-       "page": "https://botsdots.site/templates/scrollstopper-social-media-manager-mmcvs",
-       "risk": "high",
-       "summary": "Pick any platforms, one brand or several. It learns your voice, drafts platform-native posts, schedules them, checks they went live, and sends a weekly what-worked report. Draft-only by default."
+       "page": "https://botsdots.site/templates/scrollstopper-social-media-manager",
+       "risk": "medium",
+       "summary": "Social media manager for one or more brands: learns each voice, writes native posts, schedules, replies to comments, weekly report. Draft-only by default."
       }
      },
      "install": "https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw",
@@ -71,23 +71,23 @@
       "audited": false,
       "executes_code": true,
       "needs_credentials": false,
-      "writes_external": true,
-      "risk_label": "high",
+      "writes_external": false,
+      "risk_label": "medium",
       "integrations": []
      },
      "metrics": {
-      "score": 4,
+      "score": 3,
       "first_seen_catalog": "2026-10-27"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-27T15:53:32Z",
-     "updated_at": "2026-10-27T15:53:32Z",
-     "checked_at": "2026-10-27T15:53:32Z",
+     "first_seen": "2026-10-28T16:38:31Z",
+     "updated_at": "2026-10-28T16:38:31Z",
+     "checked_at": "2026-10-28T16:38:31Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-scrollstopper-social-media-manager-mmcvs/",
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-scrollstopper-social-media-manager/",
      "source": "botsdots"
     },
     {
@@ -397,7 +397,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -442,7 +442,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -487,7 +487,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -532,7 +532,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -577,7 +577,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -836,7 +836,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 40481,
+      "repo_stars": 40492,
       "repo_pushed_at": "2026-10-28",
       "registry_updated_at": "2026-01-07"
      },
@@ -1377,7 +1377,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1422,7 +1422,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56921,
+      "repo_stars": 57054,
       "repo_pushed_at": "2026-10-27"
      },
      "course_step": "3-learn-rules",
@@ -1467,7 +1467,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1512,7 +1512,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1557,7 +1557,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41885,
+      "repo_stars": 41917,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
