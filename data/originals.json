@@ -1502,6 +1502,29 @@
 },
 "url": "https://botsdots.site/templates/google-business-profile-manager"
 },
+"botsdots-grok-bot-replies": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "facts-only",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/PeH2QA0pYFIVdmy5XLc6K",
+"cadence": "on-demand",
+"catalog_sources": [
+"Public x.ai share page"
+],
+"category": "content-publishing",
+"creator": null,
+"firstSeen": "2026-10-29",
+"integrations": [],
+"name": "Grok Bot: Replies",
+"official": false,
+"page": "https://botsdots.site/templates/grok-bot-replies",
+"risk": "low",
+"summary": "Drafts social media replies in your voice, with 2 or 3 options per post or comment that you pick from and post yourself."
+},
+"url": "https://botsdots.site/templates/grok-bot-replies"
+},
 "botsdots-grok-bot-uy2o": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -1614,6 +1637,31 @@
 },
 "url": "https://botsdots.site/templates/grok-for-seo-geo-paid-ads-and-shopify"
 },
+"botsdots-haven": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"inbox"
+],
+"add": "https://x.ai/bot/FtIQh4JK6inQzsuux_HFg",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "inbox-calendar",
+"creator": "realJosephF1288",
+"firstSeen": "2026-10-29",
+"integrations": [],
+"name": "Haven",
+"official": false,
+"page": "https://botsdots.site/templates/haven",
+"risk": "medium",
+"summary": "A personal assistant with its own computer that chases support tickets, drafts firm follow-ups for you to approve, and watches your inbox for replies."
+},
+"url": "https://botsdots.site/templates/haven"
+},
 "botsdots-head-of-content": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -1668,6 +1716,29 @@
 "summary": "Meta Ads intelligence for Facebook and Instagram. Runs Ads Manager in signed-in Chrome, posts a morning flight board, pauses losers under your written"
 },
 "url": "https://botsdots.site/templates/helios"
+},
+"botsdots-helpdesk": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/QRlE_6dqqnXr_WRGr2eMU",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "content-publishing",
+"creator": "moondough",
+"firstSeen": "2026-10-29",
+"integrations": [],
+"name": "helpdesk",
+"official": false,
+"page": "https://botsdots.site/templates/helpdesk",
+"risk": "low",
+"summary": "Tech broke? From Starlink dishes to laptops, describe it or send a photo and helpdesk walks you through the fix step by step, safest first."
+},
+"url": "https://botsdots.site/templates/helpdesk"
 },
 "botsdots-holly-helpdesk": {
 "kind": "excerpt",
@@ -2963,6 +3034,31 @@
 "summary": "Turns a marketing brief into previewable video scenes and social cutdowns"
 },
 "url": "https://botsdots.site/templates/replay"
+},
+"botsdots-research-ruby": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"publishing"
+],
+"add": "https://x.ai/bot/bcVY9sJKoeZSzFcfNlhVW",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "research-briefings",
+"creator": "jimaggie",
+"firstSeen": "2026-10-29",
+"integrations": [],
+"name": "Research Ruby",
+"official": false,
+"page": "https://botsdots.site/templates/research-ruby",
+"risk": "high",
+"summary": "A research and fact-check desk that runs on live web search. Paste or link a social media post to have each claim rated true, false, misleading."
+},
+"url": "https://botsdots.site/templates/research-ruby"
 },
 "botsdots-research-visibility-desk": {
 "kind": "excerpt",
@@ -4916,6 +5012,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.b77/seo-content-factory&version=latest"
 },
+"mcp-ai-budgetseo-budget-seo-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Affordable SEO & GEO data: rank tracking, keywords, competitors, AI visibility.",
+"name": "ai.budgetseo/budget-seo-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://www.budgetseo.ai/api/mcp"
+}
+],
+"repository": null,
+"title": "budgetSEO",
+"version": "1.0.0",
+"website": "https://budgetseo.ai"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.budgetseo/budget-seo-mcp&version=latest"
+},
 "mcp-ai-chinamarketing-intelligence": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -5056,7 +5176,7 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "SEO agent: GSC, keyword, backlink and AI-visibility insights, plus approval-gated site actions",
+"description": "SEO agent: GSC, keywords, local rank tracking, Business Profile, AI visibility, approval-gated fixes",
 "name": "ai.seomatic/seomatic",
 "packages": [],
 "remotes": [
@@ -5068,7 +5188,7 @@
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.0.2",
+"version": "1.0.3",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -5143,6 +5263,28 @@
 "website": "https://api-docs.tailwind.ai/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.tailwind/tailwind-mcp&version=latest"
+},
+"mcp-ai-trendhaus-tiktok": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Live TikTok data for AI agents: trends, posts, creators, comments, sounds, hooks, video analysis.",
+"name": "ai.trendhaus/tiktok",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.trendhaus.ai/mcp"
+}
+],
+"repository": null,
+"title": "Trendhaus TikTok Data & Trends",
+"version": "1.0.1",
+"website": "https://trendhaus.ai/docs?ref=mcp-registry"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.trendhaus/tiktok&version=latest"
 },
 "mcp-ai-trendsapi-seo": {
 "file": "data/originals/mcp-ai-trendsapi-seo.md",
@@ -6673,7 +6815,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "US lawyer ad rules, ad filing fees, fee caps, MDLs, ethics opinions, ad policies, CA courts. CC BY.",
+"description": "Open US legal-marketing datasets with sources and DOIs, one server per dataset. CC BY 4.0.",
 "name": "com.probativegrowth/legal-marketing-data",
 "packages": [],
 "remotes": [
@@ -6685,8 +6827,8 @@
 ],
 "repository": null,
 "title": "Probative legal-marketing data",
-"version": "1.3.0",
-"website": "https://probativegrowth.com/resources/rules-api/"
+"version": "1.4.0",
+"website": "https://probativegrowth.com/data/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.probativegrowth/legal-marketing-data&version=latest"
 },
@@ -7160,7 +7302,7 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "TikTok data for AI agents: videos, creators, sounds, hashtags, trends. Content + creator research.",
+"description": "superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.",
 "name": "com.superagnt/tiktok-data",
 "packages": [],
 "remotes": [
@@ -7172,7 +7314,7 @@
 ],
 "repository": "https://github.com/superagnt/plugins",
 "title": null,
-"version": "0.1.0",
+"version": "0.2.0",
 "website": "https://superagnt.com/r/reg-tiktok-data-docs"
 },
 "truncated": false,
@@ -7223,6 +7365,28 @@
 "website": "https://www.swifteq.com/zendesk-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.swifteq/zendesk-mcp-server&version=latest"
+},
+"mcp-com-tabbygolf-marketing": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Golf group software: games, scoring, features, pricing, demos, and a 30-day free trial.",
+"name": "com.tabbygolf/marketing",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://tabbygolf.com/mcp"
+}
+],
+"repository": null,
+"title": "Grey Tabby Golf",
+"version": "1.0.0",
+"website": "https://tabbygolf.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tabbygolf/marketing&version=latest"
 },
 "mcp-com-thatseoagent-seo": {
 "kind": "excerpt",
@@ -8624,6 +8788,30 @@
 },
 "truncated": false,
 "url": "https://github.com/Choppaaahh/sendgrid-mcp-secure/blob/HEAD/README.md"
+},
+"mcp-io-github-cleandata-labs-seo-keyword-research-for-agents": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Keyword ideas from Google Autocomplete plus Google Trends interest and rising queries. No API key.",
+"name": "io.github.CleanData-Labs/seo-keyword-research-for-agents",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com?tools=cleandata-labs/seo-keyword-research-for-agents"
+}
+],
+"repository": null,
+"title": "Keyword Research for AI Agents",
+"version": "1.0.0",
+"website": "https://apify.com/cleandata-labs/seo-keyword-research-for-agents"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.CleanData-Labs/seo-keyword-research-for-agents&version=latest"
 },
 "mcp-io-github-closermethod-newsletter-growth-mcp": {
 "kind": "excerpt",
@@ -10700,7 +10888,22 @@
 "record": {
 "description": "Freshdesk MCP Pack — helpdesk ticket and contact management via Freshdesk API v2.",
 "name": "io.github.pipeworx-io/freshdesk",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-freshdesk",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10710,7 +10913,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-freshdesk",
 "title": "Freshdesk",
-"version": "0.1.5",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/freshdesk"
 },
 "truncated": false,
@@ -10724,7 +10927,22 @@
 "record": {
 "description": "HubSpot MCP Pack",
 "name": "io.github.pipeworx-io/hubspot",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-hubspot",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10734,7 +10952,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-hubspot",
 "title": "Hubspot",
-"version": "0.1.3",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/hubspot"
 },
 "truncated": false,
@@ -10748,7 +10966,22 @@
 "record": {
 "description": "Intercom MCP Pack — contacts, conversations, companies via OAuth.",
 "name": "io.github.pipeworx-io/intercom",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-intercom",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10758,7 +10991,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-intercom",
 "title": "Intercom",
-"version": "0.1.3",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/intercom"
 },
 "truncated": false,
@@ -10772,7 +11005,22 @@
 "record": {
 "description": "Klaviyo MCP Pack — wraps the Klaviyo API for email marketing",
 "name": "io.github.pipeworx-io/klaviyo",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-klaviyo",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10782,7 +11030,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-klaviyo",
 "title": "Klaviyo",
-"version": "0.1.3",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/klaviyo"
 },
 "truncated": false,
@@ -10796,7 +11044,22 @@
 "record": {
 "description": "Mailchimp MCP Pack — manage audiences, campaigns, and members via Mailchimp Marketing API.",
 "name": "io.github.pipeworx-io/mailchimp",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-mailchimp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10806,7 +11069,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-mailchimp",
 "title": "Mailchimp",
-"version": "0.1.4",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/mailchimp"
 },
 "truncated": false,
@@ -10820,7 +11083,22 @@
 "record": {
 "description": "Mixpanel MCP — wraps Mixpanel Data Export API (mixpanel.com/api)",
 "name": "io.github.pipeworx-io/mixpanel",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-mixpanel",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10830,7 +11108,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-mixpanel",
 "title": "Mixpanel",
-"version": "0.1.3",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/mixpanel"
 },
 "truncated": false,
@@ -10842,9 +11120,24 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "Pipeworx FAQ MCP — curated answers to questions ABOUT Pipeworx itself",
+"description": "Pipeworx FAQ MCP — curated answers to questions ABOUT Pipeworx itself (what it is, pricing…",
 "name": "io.github.pipeworx-io/pipeworx-faq",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-pipeworx-faq",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10854,7 +11147,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-pipeworx-faq",
 "title": "Pipeworx Faq",
-"version": "0.1.1",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/pipeworx-faq"
 },
 "truncated": false,
@@ -10868,7 +11161,22 @@
 "record": {
 "description": "PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)",
 "name": "io.github.pipeworx-io/posthog",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-posthog",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10878,7 +11186,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-posthog",
 "title": "Posthog",
-"version": "0.1.2",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/posthog"
 },
 "truncated": false,
@@ -10892,7 +11200,22 @@
 "record": {
 "description": "Semrush MCP Pack — SEO analytics via the Semrush Analytics API.",
 "name": "io.github.pipeworx-io/semrush",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-semrush",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10902,7 +11225,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-semrush",
 "title": "Semrush",
-"version": "0.1.2",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/semrush"
 },
 "truncated": false,
@@ -10916,7 +11239,22 @@
 "record": {
 "description": "SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)",
 "name": "io.github.pipeworx-io/sendgrid",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-sendgrid",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10926,7 +11264,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-sendgrid",
 "title": "Sendgrid",
-"version": "0.1.2",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/sendgrid"
 },
 "truncated": false,
@@ -10940,7 +11278,22 @@
 "record": {
 "description": "Shopify MCP Pack — wraps the Shopify Admin REST API (2024-01)",
 "name": "io.github.pipeworx-io/shopify",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-shopify",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10950,7 +11303,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-shopify",
 "title": "Shopify",
-"version": "0.1.2",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/shopify"
 },
 "truncated": false,
@@ -10964,7 +11317,22 @@
 "record": {
 "description": "Twilio MCP Pack — send SMS, list messages, make calls via Twilio REST API.",
 "name": "io.github.pipeworx-io/twilio",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-twilio",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10974,7 +11342,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-twilio",
 "title": "Twilio",
-"version": "0.1.2",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/twilio"
 },
 "truncated": false,
@@ -10988,7 +11356,22 @@
 "record": {
 "description": "Webflow MCP Pack",
 "name": "io.github.pipeworx-io/webflow",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-webflow",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10998,7 +11381,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-webflow",
 "title": "Webflow",
-"version": "0.1.2",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/webflow"
 },
 "truncated": false,
@@ -11012,7 +11395,22 @@
 "record": {
 "description": "Zendesk MCP Pack — tickets, users, organizations via OAuth.",
 "name": "io.github.pipeworx-io/zendesk",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-zendesk",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -11022,7 +11420,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-zendesk",
 "title": "Zendesk",
-"version": "0.1.2",
+"version": "0.2.0",
 "website": "https://pipeworx.io/packs/zendesk"
 },
 "truncated": false,
@@ -11299,6 +11697,28 @@
 "website": "https://apify.com/sauliusautomatesit/trustpilot-review-followup"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.saulius876-lgtm/trustpilot-reviews&version=latest"
+},
+"mcp-io-github-serenido-tiktok-shop-product-details": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "TikTok Shop products by link or id, no login: price, sold count, rating, variant stock, shipping.",
+"name": "io.github.serenido/tiktok-shop-product-details",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=serenido/tiktok-shop-product-details"
+}
+],
+"repository": null,
+"title": "TikTok Shop Product Details: Price, Sold Count & Reviews",
+"version": "1.0.0",
+"website": "https://apify.com/serenido/tiktok-shop-product-details"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.serenido/tiktok-shop-product-details&version=latest"
 },
 "mcp-io-github-servosity-hubspot-mcp": {
 "file": "data/originals/mcp-io-github-servosity-hubspot-mcp.md",
@@ -12016,7 +12436,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.25.0",
+"version": "1.29.0",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": false,
@@ -12658,6 +13078,15 @@
 },
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-github-com-arnaudvolp-shadcnship": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "none"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-github-com-arsenehuot-openhive": {
 "file": "data/originals/uihub-aw-github-com-arsenehuot-openhive.md",
 "kind": "full",
@@ -12706,6 +13135,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/bitjaru/styleseed/blob/main/README.md"
+},
+"uihub-aw-github-com-bradgroux-veritas-kanban": {
+"file": "data/originals/uihub-aw-github-com-bradgroux-veritas-kanban.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/BradGroux/veritas-kanban/blob/main/README.md"
 },
 "uihub-aw-github-com-codedthemes-uiable": {
 "file": "data/originals/uihub-aw-github-com-codedthemes-uiable.md",
@@ -12840,6 +13277,14 @@
 },
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-github-com-johuniq-jolyui": {
+"file": "data/originals/uihub-aw-github-com-johuniq-jolyui.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/Johuniq/jolyui/blob/main/README.md"
+},
 "uihub-aw-github-com-lbrdev-night-glass": {
 "file": "data/originals/uihub-aw-github-com-lbrdev-night-glass.md",
 "kind": "full",
@@ -12896,6 +13341,14 @@
 "truncated": false,
 "url": "https://github.com/melromyeah/MixCN/blob/main/README.md"
 },
+"uihub-aw-github-com-mnove-carouselcn": {
+"file": "data/originals/uihub-aw-github-com-mnove-carouselcn.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/mnove/carouselcn/blob/main/README.md"
+},
 "uihub-aw-github-com-mrdogeco-docs": {
 "file": "data/originals/uihub-aw-github-com-mrdogeco-docs.md",
 "kind": "full",
@@ -12935,6 +13388,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/orwa-mahmoud/adapttable/blob/main/README.md"
+},
+"uihub-aw-github-com-pittaya-ui-ui-kit": {
+"file": "data/originals/uihub-aw-github-com-pittaya-ui-ui-kit.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/pittaya-ui/ui-kit/blob/main/README.md"
 },
 "uihub-aw-github-com-rmahammad-motiq": {
 "file": "data/originals/uihub-aw-github-com-rmahammad-motiq.md",
@@ -13051,6 +13512,14 @@
 "truncated": false,
 "url": "https://github.com/sopo/shadcn-animated/blob/main/README.md"
 },
+"uihub-aw-github-com-ssshooter-mindmapcn": {
+"file": "data/originals/uihub-aw-github-com-ssshooter-mindmapcn.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/SSShooter/mindmapcn/blob/master/README.md"
+},
 "uihub-aw-github-com-studiogridpro-saas-dashboard-starter": {
 "file": "data/originals/uihub-aw-github-com-studiogridpro-saas-dashboard-starter.md",
 "kind": "full",
@@ -13140,6 +13609,14 @@
 "truncated": false,
 "url": "https://github.com/yaminncco/deska-dashboard-template/blob/main/README.md"
 },
+"uihub-aw-github-com-zippystarter-template-devstarter": {
+"file": "data/originals/uihub-aw-github-com-zippystarter-template-devstarter.md",
+"kind": "full",
+"label": "readme",
+"license": "Apache-2.0",
+"truncated": false,
+"url": "https://github.com/zippystarter/template-devstarter/blob/main/README.md"
+},
 "uihub-aw-glassyui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -13162,6 +13639,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-grid-joohyunpark-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-heroicons-animated-vercel-app": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -13260,6 +13744,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-mizzle-saddy-me": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-more-shadcn-noair-fun": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -13469,6 +13960,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-slidytabs-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-smui-statico-io": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -13505,6 +14003,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-termcn-vercel-app": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-thegridcn-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -17074,6 +17579,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-otsea": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-ottografie-2025": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20568,6 +21080,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-0l89gp5-shopify-expo-mode": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-0lj68ni-fastino-labs-brand-identity": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -21863,6 +22382,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-6jgiv46-fold-toolbar-interaction": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-6k2s8wq-hairline-isometric-icon-library": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -22179,6 +22705,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-7h73fxn-crumpled-receipt-component": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-7ieh532-poster-series-reel": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -24565,6 +25098,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-i6vcqw4-x-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-i7wow0d-ando": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26877,6 +27417,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-s21xh1n-x-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-s2zrpka-keycap-ascii-fish": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

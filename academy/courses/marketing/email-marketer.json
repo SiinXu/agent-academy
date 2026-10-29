@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-10-28T16:38:31Z",
+ "updated_at": "2026-10-29T16:56:22Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1123,8 +1123,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1168,8 +1168,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1213,8 +1213,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1258,8 +1258,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1303,7 +1303,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41917,
+      "repo_stars": 41978,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1348,8 +1348,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33582,
-      "repo_pushed_at": "2026-10-28"
+      "repo_stars": 33796,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1393,8 +1393,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33582,
-      "repo_pushed_at": "2026-10-28"
+      "repo_stars": 33796,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2126,7 +2126,7 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-26",
+      "repo_pushed_at": "2026-10-29",
       "registry_updated_at": "2026-10-26"
      },
      "course_step": "4-do-it",
@@ -2318,7 +2318,22 @@
       "record": {
        "description": "Klaviyo MCP Pack — wraps the Klaviyo API for email marketing",
        "name": "io.github.pipeworx-io/klaviyo",
-       "packages": [],
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+           "name": "PIPEWORX_API_KEY",
+           "required": null,
+           "secret": true
+          }
+         ],
+         "id": "@pipeworx/mcp-klaviyo",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.0"
+        }
+       ],
        "remotes": [
         {
          "headers": [],
@@ -2328,27 +2343,29 @@
        ],
        "repository": "https://github.com/pipeworx-io/mcp-klaviyo",
        "title": "Klaviyo",
-       "version": "0.1.3",
+       "version": "0.2.0",
        "website": "https://pipeworx.io/packs/klaviyo"
       }
      },
-     "install": "remote (streamable-http): https://gateway.pipeworx.io/klaviyo/mcp",
+     "install": "npx -y @pipeworx/mcp-klaviyo",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": true,
       "writes_external": false,
-      "credential_names": []
+      "credential_names": [
+       "PIPEWORX_API_KEY"
+      ]
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-27",
-      "registry_updated_at": "2026-10-27"
+      "repo_pushed_at": "2026-10-29",
+      "registry_updated_at": "2026-10-29"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-27T15:53:32Z",
+     "updated_at": "2026-10-29T16:56:22Z",
      "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
@@ -2620,7 +2637,22 @@
       "record": {
        "description": "Mailchimp MCP Pack — manage audiences, campaigns, and members via Mailchimp Marketing API.",
        "name": "io.github.pipeworx-io/mailchimp",
-       "packages": [],
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+           "name": "PIPEWORX_API_KEY",
+           "required": null,
+           "secret": true
+          }
+         ],
+         "id": "@pipeworx/mcp-mailchimp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.0"
+        }
+       ],
        "remotes": [
         {
          "headers": [],
@@ -2630,27 +2662,29 @@
        ],
        "repository": "https://github.com/pipeworx-io/mcp-mailchimp",
        "title": "Mailchimp",
-       "version": "0.1.4",
+       "version": "0.2.0",
        "website": "https://pipeworx.io/packs/mailchimp"
       }
      },
-     "install": "remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp",
+     "install": "npx -y @pipeworx/mcp-mailchimp",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": true,
       "writes_external": true,
-      "credential_names": []
+      "credential_names": [
+       "PIPEWORX_API_KEY"
+      ]
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-27",
-      "registry_updated_at": "2026-10-27"
+      "repo_pushed_at": "2026-10-29",
+      "registry_updated_at": "2026-10-29"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-27T15:53:32Z",
+     "updated_at": "2026-10-29T16:56:22Z",
      "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
@@ -2847,8 +2881,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2892,8 +2926,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2937,7 +2971,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41917,
+      "repo_stars": 41978,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2982,7 +3016,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41917,
+      "repo_stars": 41978,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -3027,7 +3061,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41917,
+      "repo_stars": 41978,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",

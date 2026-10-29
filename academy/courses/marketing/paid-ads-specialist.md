@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-28
-updated_at: 2026-10-28T16:38:31Z
+version: 2026-10-29
+updated_at: 2026-10-29T16:56:22Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
 ---
 
@@ -168,6 +168,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx tiktok-shop-mcp
   needs_credentials: true, writes_external: false
+- [mcp] com.superagnt/tiktok-data. superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.
+  source: https://github.com/superagnt/plugins
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok
+  needs_credentials: true, writes_external: false
 - [mcp] TikTok Agent Publisher. Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.
   source: https://github.com/davidmosiah/tiktok-agent-publisher
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-davidmosiah-tiktok-agent-publisher.md
@@ -219,11 +225,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mrocker-tiktok-profile-stats.md
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper
-  needs_credentials: true, writes_external: false
-- [mcp] Probative legal-marketing data. US lawyer ad rules, ad filing fees, fee caps, MDLs, ethics opinions, ad policies, CA courts. CC BY.
-  source: https://probativegrowth.com/resources/rules-api/
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://probativegrowth.com/mcp
   needs_credentials: true, writes_external: false
 - [mcp] ssave.cc — TikTok & Instagram Downloader. Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export
   source: https://github.com/ssavecc/ssave-mcp-server

@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-28
-updated_at: 2026-10-28T16:38:31Z
+version: 2026-10-29
+updated_at: 2026-10-29T16:56:22Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -93,6 +93,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a
   needs_credentials: true, writes_external: false
+- [template] Grok Bot: Replies. Drafts social media replies in your voice, with 2 or 3 options per post or comment that you pick from and post yourself.
+  source: https://botsdots.site/templates/grok-bot-replies
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/PeH2QA0pYFIVdmy5XLc6K
+  needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
 

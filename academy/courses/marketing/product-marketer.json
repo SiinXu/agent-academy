@@ -2,7 +2,7 @@
  "id": "marketing/product-marketer",
  "industry": "marketing",
  "role": "product-marketer",
- "updated_at": "2026-10-28T16:38:31Z",
+ "updated_at": "2026-10-29T16:56:22Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -410,8 +410,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -455,8 +455,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -500,8 +500,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -545,8 +545,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -590,8 +590,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -699,6 +699,69 @@
   {
    "step": "4-do-it",
    "read": [
+    {
+     "id": "mcp-com-tabbygolf-marketing",
+     "title": "Grey Tabby Golf",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "product-marketer"
+     ],
+     "summary": "Golf group software: games, scoring, features, pricing, demos, and a 30-day free trial.",
+     "summary_lang": "en",
+     "source_url": "https://tabbygolf.com",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "com.tabbygolf",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tabbygolf/marketing&version=latest",
+      "record": {
+       "description": "Golf group software: games, scoring, features, pricing, demos, and a 30-day free trial.",
+       "name": "com.tabbygolf/marketing",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://tabbygolf.com/mcp"
+        }
+       ],
+       "repository": null,
+       "title": "Grey Tabby Golf",
+       "version": "1.0.0",
+       "website": "https://tabbygolf.com"
+      }
+     },
+     "install": "remote (streamable-http): https://tabbygolf.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-10-29"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-29T16:56:22Z",
+     "updated_at": "2026-10-29T16:56:22Z",
+     "checked_at": "2026-10-29T16:56:22Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-tabbygolf-marketing/",
+     "source": "mcp-registry"
+    },
     {
      "id": "mcp-io-github-axelvernebooks-marketing-scope-mcp",
      "title": "Marketing Scope",
@@ -846,51 +909,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
      "source": "seed"
-    },
-    {
-     "id": "google-adk-recipes-contrib-python-brand-search-optimization",
-     "title": "brand-search-optimization",
-     "type": "workflow",
-     "industry": "marketing",
-     "roles": [
-      "seo-specialist"
-     ],
-     "summary": "This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer Use.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/contrib/python/brand-search-optimization/README.md",
-     "repo": "google/adk-recipes",
-     "author": "google",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 10452,
-      "repo_pushed_at": "2026-10-14"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/google-adk-recipes-contrib-python-brand-search-optimization/",
-     "source": "seed"
     }
    ]
   },
@@ -1018,8 +1036,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1063,8 +1081,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57054,
-      "repo_pushed_at": "2026-10-27"
+      "repo_stars": 57268,
+      "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1108,7 +1126,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41917,
+      "repo_stars": 41978,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1153,7 +1171,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41917,
+      "repo_stars": 41978,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1198,7 +1216,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41917,
+      "repo_stars": 41978,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",

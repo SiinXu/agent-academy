@@ -123,7 +123,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Plausible](servers/plausible-analytics/) | analytics | 12 | API token | [servers/plausible-analytics/](servers/plausible-analytics/) |
 | [Polar](servers/polar-sh/) | billing | 30 | API token | [servers/polar-sh/](servers/polar-sh/) |
 | [Portkey](servers/portkey/) | ai-infra | 20 | API token | [servers/portkey/](servers/portkey/) |
-| [Printify](servers/printify/) | ecommerce | 18 | API token | [servers/printify/](servers/printify/) |
+| [Printify](servers/printify/) | ecommerce | 21 | API token | [servers/printify/](servers/printify/) |
 | [Quaderno](servers/quaderno/) | tax | 27 | API token | [servers/quaderno/](servers/quaderno/) |
 | [Raisely](servers/raisely/) | fundraising | 27 | API token | [servers/raisely/](servers/raisely/) |
 | [Re:amaze](servers/re-amaze/) | support | 21 | API token | [servers/re-amaze/](servers/re-amaze/) |
@@ -203,7 +203,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Recruitee](servers/recruitee/) | productivity | 26 | API token | [servers/recruitee/](servers/recruitee/) |
 | [Rewardful](servers/rewardful/) | marketing | 24 | API token | [servers/rewardful/](servers/rewardful/) |
 | [sevdesk](servers/sevdesk/) | billing | 24 | API token | [servers/sevdesk/](servers/sevdesk/) |
-| [Shopmonkey](servers/shopmonkey/) | productivity | 34 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
+| [Shopmonkey](servers/shopmonkey/) | productivity | 43 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
 | [Smile.io](servers/smile-io/) | ecommerce | 18 | API token | [servers/smile-io/](servers/smile-io/) |
 | [Smoobu](servers/smoobu/) | productivity | 24 | API token | [servers/smoobu/](servers/smoobu/) |
 | [Sortly](servers/sortly/) | productivity | 24 | API token | [servers/sortly/](servers/sortly/) |
@@ -471,6 +471,13 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Plutio](servers/plutio/) | project-management | 41 | API token | [servers/plutio/](servers/plutio/) |
 | [Workyard](servers/workyard/) | time-tracking | 16 | API token | [servers/workyard/](servers/workyard/) |
 | [Hub Planner](servers/hub-planner/) | project-management | 20 | API token | [servers/hub-planner/](servers/hub-planner/) |
+| [CourtReserve](servers/courtreserve/) | sports | 27 | API token | [servers/courtreserve/](servers/courtreserve/) |
+| [Emma](servers/emma/) | email-marketing | 23 | API token | [servers/emma/](servers/emma/) |
+| [OKSign](servers/oksign/) | e-sign | 18 | API token | [servers/oksign/](servers/oksign/) |
+| [HireHop](servers/hirehop/) | rental | 13 | API token | [servers/hirehop/](servers/hirehop/) |
+| [TOConline](servers/toconline/) | billing | 24 | API token | [servers/toconline/](servers/toconline/) |
+| [Vision Helpdesk](servers/vision-helpdesk/) | support | 23 | API token | [servers/vision-helpdesk/](servers/vision-helpdesk/) |
+| [SMS Everyone](servers/sms-everyone/) | communications | 15 | API token | [servers/sms-everyone/](servers/sms-everyone/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

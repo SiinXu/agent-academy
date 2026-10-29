@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-28
-updated_at: 2026-10-28T16:38:31Z
+version: 2026-10-29
+updated_at: 2026-10-29T16:56:22Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -318,13 +318,13 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/pipeworx-io/mcp-mixpanel
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mixpanel.md
   license: MIT
-  install: remote (streamable-http): https://gateway.pipeworx.io/mixpanel/mcp
+  install: npx -y @pipeworx/mcp-mixpanel
   needs_credentials: true, writes_external: false
 - [mcp] Sendgrid. SendGrid MCP — wraps SendGrid v3 API (api.sendgrid.com/v3)
   source: https://github.com/pipeworx-io/mcp-sendgrid
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-sendgrid.md
   license: MIT
-  install: remote (streamable-http): https://gateway.pipeworx.io/sendgrid/mcp
+  install: npx -y @pipeworx/mcp-sendgrid
   needs_credentials: true, writes_external: true
 - [mcp] SendGrid Secure. Security-first SendGrid MCP server: dry-run default, recipient allowlists, rate caps, audit log.
   source: https://github.com/Choppaaahh/sendgrid-mcp-secure

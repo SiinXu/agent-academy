@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-28
-updated_at: 2026-10-28T16:38:31Z
+version: 2026-10-29
+updated_at: 2026-10-29T16:56:22Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/seo-specialist/
 ---
 
@@ -273,23 +273,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @hasdata/tiktok-mcp
   needs_credentials: true, writes_external: false
-- [mcp] com.superagnt/tiktok-data. TikTok data for AI agents: videos, creators, sounds, hashtags, trends. Content + creator research.
+- [mcp] com.superagnt/tiktok-data. superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.
   source: https://github.com/superagnt/plugins
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md
   license: MIT
   install: remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.AutomateLab-tech/ai-seo. MCP server for AI-SEO auditing: schema, robots.txt, llms.txt, citation scoring, and AEO/GEO rewrites
-  source: https://github.com/AutomateLab-tech/ai-seo-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-ai-seo.md
-  license: MIT
-  install: npx -y @automatelab/ai-seo-mcp
-  needs_credentials: false, writes_external: false
-- [mcp] SEO Performance MCP. Per-URL SEO verdicts from GSC, GA4, Matomo, Clarity, AI citations: refresh/expand/merge/kill.
-  source: https://github.com/AutomateLab-tech/seo-performance-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-seo-performance-mcp.md
-  license: MIT
-  install: npx -y @automatelab/seo-performance-mcp
   needs_credentials: true, writes_external: false
 - [mcp] AfterLaunch: the agentic growth marketing engine. Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.
   source: https://github.com/afterlaunch/mcp
@@ -302,6 +290,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-jiyumarketing-mcp-agency-mcp.md
   license: MIT
   install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.AutomateLab-tech/ai-seo. MCP server for AI-SEO auditing: schema, robots.txt, llms.txt, citation scoring, and AEO/GEO rewrites
+  source: https://github.com/AutomateLab-tech/ai-seo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-ai-seo.md
+  license: MIT
+  install: npx -y @automatelab/ai-seo-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] SEO Performance MCP. Per-URL SEO verdicts from GSC, GA4, Matomo, Clarity, AI citations: refresh/expand/merge/kill.
+  source: https://github.com/AutomateLab-tech/seo-performance-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-automatelab-tech-seo-performance-mcp.md
+  license: MIT
+  install: npx -y @automatelab/seo-performance-mcp
   needs_credentials: true, writes_external: false
 - [mcp] VibeSEO. SEO research, keyword discovery, site audits, Search Console, backlinks and content workflow.
   source: https://github.com/sultanlive/vibeseo-mcp
@@ -326,7 +326,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ai-buildinfra-seo-intentrank.md
   license: MIT
   needs_credentials: false, writes_external: false
-- [mcp] SEOmatic. SEO agent: GSC, keyword, backlink and AI-visibility insights, plus approval-gated site actions
+- [mcp] SEOmatic. SEO agent: GSC, keywords, local rank tracking, Business Profile, AI visibility, approval-gated fixes
   source: https://github.com/Minh42/seomatic-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seomatic-seomatic.md
   license: MIT

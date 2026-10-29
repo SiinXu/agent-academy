@@ -1,8 +1,8 @@
 ---
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-28
-updated_at: 2026-10-28T16:38:31Z
+version: 2026-10-29
+updated_at: 2026-10-29T16:56:22Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -242,7 +242,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/pipeworx-io/mcp-klaviyo
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-klaviyo.md
   license: MIT
-  install: remote (streamable-http): https://gateway.pipeworx.io/klaviyo/mcp
+  install: npx -y @pipeworx/mcp-klaviyo
   needs_credentials: true, writes_external: false
 - [mcp] Klaviyo MCP. Klaviyo MCP: campaigns, flows, segments, metrics, reports, profiles across many accounts. 24 tools.
   source: https://github.com/scalably-io/klaviyo-mcp
@@ -265,7 +265,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/pipeworx-io/mcp-mailchimp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mailchimp.md
   license: MIT
-  install: remote (streamable-http): https://gateway.pipeworx.io/mailchimp/mcp
+  install: npx -y @pipeworx/mcp-mailchimp
   needs_credentials: true, writes_external: true
 - [mcp] Mailchimp MCP by InsightfulPipe. Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.
   source: https://github.com/Insightful-Pipe/mailchimp-mcp-server

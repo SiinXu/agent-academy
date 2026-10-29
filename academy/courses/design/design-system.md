@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-28
-updated_at: 2026-10-28T16:38:31Z
+version: 2026-10-29
+updated_at: 2026-10-29T16:56:22Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-system/
 ---
 
@@ -46,10 +46,10 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1609 items
-- motion: 647 items
-- 3d: 631 items
-- editorial: 592 items
+- minimal: 1623 items
+- motion: 648 items
+- 3d: 633 items
+- editorial: 593 items
 - playful: 561 items
 - gradient: 285 items
 - retro: 118 items
