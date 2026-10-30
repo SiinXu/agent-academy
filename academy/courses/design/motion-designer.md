@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-10-30
-updated_at: 2026-10-30T02:00:19Z
+updated_at: 2026-10-30T16:42:21Z
 source: https://siinxu.github.io/agent-academy/courses/design/motion-designer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1623 items
+- minimal: 1624 items
 - motion: 648 items
-- 3d: 633 items
+- 3d: 634 items
 - editorial: 593 items
-- playful: 561 items
+- playful: 562 items
 - gradient: 285 items
 - retro: 118 items
 - dark-tech: 111 items
@@ -83,6 +83,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   source: https://botsdots.site/templates/glow-picasso-creative-director
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/FKNsKOj2AaahklQwyI3yr
+  needs_credentials: false, writes_external: false
+- [template] Design. Background design specialist for UI, front-end look, CSS and animation, three.js scenes, charts, icons, mockups, and image generation.
+  source: https://botsdots.site/templates/design-df3y
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/dF-3_YZzohRdycguTTUwA
   needs_credentials: false, writes_external: false
 - [style-library] 'kin. ‘kin are a creative commercial interior design, branding and graphic design studio.
   source: https://by-kin.com/
@@ -154,10 +159,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [style-library] 3D Fashion Models. A series of stylized 3D character renders in normal-map shading, featuring diverse streetwear and futuristic fashion outfits set against a vivid green background.
   source: https://x.com/ingi_erlingsson/status/2086274940861329645
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 3D Knot. A pastel rainbow-colored 3D knot object continuously rotates and morphs through different configurations in this smooth motion study.
-  source: https://jlongster.com
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

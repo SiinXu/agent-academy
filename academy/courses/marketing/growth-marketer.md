@@ -2,7 +2,7 @@
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-30
-updated_at: 2026-10-30T02:00:19Z
+updated_at: 2026-10-30T16:42:21Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/growth-marketer/
 ---
 
@@ -176,8 +176,9 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   install: npx -y agentic-campaign
   needs_credentials: false, writes_external: false
 - [mcp] Probative legal-marketing data. Open US legal-marketing datasets with sources and DOIs, one server per dataset. CC BY 4.0.
-  source: https://probativegrowth.com/data/
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  source: https://github.com/ops864/legal-marketing-data
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-probativegrowth-legal-marketing-data.md
+  license: CC-BY-4.0
   install: remote (streamable-http): https://probativegrowth.com/mcp
   needs_credentials: true, writes_external: false
 - [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi

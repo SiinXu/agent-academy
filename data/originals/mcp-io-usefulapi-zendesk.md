@@ -203,7 +203,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Recruitee](servers/recruitee/) | productivity | 26 | API token | [servers/recruitee/](servers/recruitee/) |
 | [Rewardful](servers/rewardful/) | marketing | 24 | API token | [servers/rewardful/](servers/rewardful/) |
 | [sevdesk](servers/sevdesk/) | billing | 24 | API token | [servers/sevdesk/](servers/sevdesk/) |
-| [Shopmonkey](servers/shopmonkey/) | productivity | 43 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
+| [Shopmonkey](servers/shopmonkey/) | productivity | 47 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
 | [Smile.io](servers/smile-io/) | ecommerce | 18 | API token | [servers/smile-io/](servers/smile-io/) |
 | [Smoobu](servers/smoobu/) | productivity | 24 | API token | [servers/smoobu/](servers/smoobu/) |
 | [Sortly](servers/sortly/) | productivity | 24 | API token | [servers/sortly/](servers/sortly/) |
@@ -492,6 +492,22 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [ViralSweep](servers/viralsweep/) | marketing | 8 | API token | [servers/viralsweep/](servers/viralsweep/) |
 | [BounceBan](servers/bounceban/) | email-validation | 10 | API token | [servers/bounceban/](servers/bounceban/) |
 | [MillionVerifier](servers/millionverifier/) | email-validation | 8 | API token | [servers/millionverifier/](servers/millionverifier/) |
+| [Formspree](servers/formspree/) | forms-surveys | 7 | API token | [servers/formspree/](servers/formspree/) |
+| [Bookafy](servers/bookafy/) | scheduling | 19 | API token | [servers/bookafy/](servers/bookafy/) |
+| [Collmex](servers/collmex/) | accounting | 19 | API token | [servers/collmex/](servers/collmex/) |
+| [Senta](servers/senta/) | accounting-practice | 11 | API token | [servers/senta/](servers/senta/) |
+| [Talenox](servers/talenox/) | hr | 32 | API token | [servers/talenox/](servers/talenox/) |
+| [PlentyONE](servers/plentymarkets/) | ecommerce | 22 | Backend credentials | [servers/plentymarkets/](servers/plentymarkets/) |
+| [InnoVint](servers/innovint/) | winery-production | 31 | API token | [servers/innovint/](servers/innovint/) |
+| [Famly](servers/famly/) | childcare-administration | 16 | API token | [servers/famly/](servers/famly/) |
+| [Cliento](servers/cliento/) | business-operations | 22 | API token | [servers/cliento/](servers/cliento/) |
+| [Open To Close](servers/open-to-close/) | real-estate-transactions | 24 | API token | [servers/open-to-close/](servers/open-to-close/) |
+| [Zylvie](servers/zylvie/) | digital-commerce | 8 | API token | [servers/zylvie/](servers/zylvie/) |
+| [Fitssey](servers/fitssey/) | membership | 19 | API token | [servers/fitssey/](servers/fitssey/) |
+| [Prodigi](servers/prodigi/) | ecommerce | 10 | API token | [servers/prodigi/](servers/prodigi/) |
+| [Bokio](servers/bokio/) | billing | 27 | OAuth | [servers/bokio/](servers/bokio/) |
+| [SOS Inventory](servers/sos-inventory/) | ecommerce | 23 | OAuth | [servers/sos-inventory/](servers/sos-inventory/) |
+| [Arthur Online](servers/arthur-online/) | real-estate | 24 | OAuth | [servers/arthur-online/](servers/arthur-online/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

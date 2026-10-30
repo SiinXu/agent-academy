@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-10-30T02:00:19Z",
+ "updated_at": "2026-10-30T16:42:21Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -416,6 +416,70 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-glow-picasso-creative-director/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-design-df3y",
+     "title": "Design",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Background design specialist for UI, front-end look, CSS and animation, three.js scenes, charts, icons, mockups, and image generation.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/design-df3y",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "lu",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "facts-only",
+      "url": "https://botsdots.site/templates/design-df3y",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/dF-3_YZzohRdycguTTUwA",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "Public x.ai share page"
+       ],
+       "category": "content-publishing",
+       "creator": null,
+       "firstSeen": "2026-10-30",
+       "integrations": [],
+       "name": "Design",
+       "official": false,
+       "page": "https://botsdots.site/templates/design-df3y",
+       "risk": "low",
+       "summary": "Background design specialist for UI, front-end look, CSS and animation, three.js scenes, charts, icons, mockups, and image generation."
+      }
+     },
+     "install": "https://x.ai/bot/dF-3_YZzohRdycguTTUwA",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 3,
+      "first_seen_catalog": "2026-10-30"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-30T16:42:21Z",
+     "updated_at": "2026-10-30T16:42:21Z",
+     "checked_at": "2026-10-30T16:42:21Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-design-df3y/",
      "source": "botsdots"
     },
     {
@@ -1245,52 +1309,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-dd1ae7l-3d-character-fashion-models/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-ejnine8-3d-knot",
-     "title": "3D Knot",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "A pastel rainbow-colored 3D knot object continuously rotates and morphs through different configurations in this smooth motion study.",
-     "summary_lang": "en",
-     "source_url": "https://jlongster.com",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@jlongster",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-rd-ejnine8-3d-knot/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1374,7 +1392,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 184811,
+      "repo_stars": 185085,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1419,7 +1437,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1464,7 +1482,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1509,7 +1527,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1554,7 +1572,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1599,7 +1617,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1644,7 +1662,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1689,7 +1707,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1734,7 +1752,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41990,
+      "repo_stars": 42008,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -1779,7 +1797,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41990,
+      "repo_stars": 42008,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2324,7 +2342,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142570,
+      "repo_stars": 142927,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2369,7 +2387,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142570,
+      "repo_stars": 142927,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2414,7 +2432,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51457,
+      "repo_stars": 51811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2459,7 +2477,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41990,
+      "repo_stars": 42008,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2504,7 +2522,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41990,
+      "repo_stars": 42008,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2549,7 +2567,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41990,
+      "repo_stars": 42008,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2594,7 +2612,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41990,
+      "repo_stars": 42008,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2639,8 +2657,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33861,
-      "repo_pushed_at": "2026-10-29"
+      "repo_stars": 33981,
+      "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2684,8 +2702,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33861,
-      "repo_pushed_at": "2026-10-29"
+      "repo_stars": 33981,
+      "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2729,8 +2747,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33861,
-      "repo_pushed_at": "2026-10-29"
+      "repo_stars": 33981,
+      "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2774,8 +2792,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26190,
-      "repo_pushed_at": "2026-10-11"
+      "repo_stars": 26205,
+      "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
      "status": "active",
