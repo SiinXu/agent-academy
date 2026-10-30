@@ -478,6 +478,20 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [TOConline](servers/toconline/) | billing | 24 | API token | [servers/toconline/](servers/toconline/) |
 | [Vision Helpdesk](servers/vision-helpdesk/) | support | 23 | API token | [servers/vision-helpdesk/](servers/vision-helpdesk/) |
 | [SMS Everyone](servers/sms-everyone/) | communications | 15 | API token | [servers/sms-everyone/](servers/sms-everyone/) |
+| [Reoon Email Verifier](servers/reoon-email-verifier/) | email-validation | 8 | API token | [servers/reoon-email-verifier/](servers/reoon-email-verifier/) |
+| [Weatherbit](servers/weatherbit/) | data | 16 | API token | [servers/weatherbit/](servers/weatherbit/) |
+| [ScrapeOwl](servers/scrapeowl/) | data | 8 | API token | [servers/scrapeowl/](servers/scrapeowl/) |
+| [SendPost](servers/sendpost/) | email | 19 | API token | [servers/sendpost/](servers/sendpost/) |
+| [ScrapeNinja](servers/scrapeninja/) | data | 6 | API token | [servers/scrapeninja/](servers/scrapeninja/) |
+| [Infoplus](servers/infoplus/) | shipping | 14 | API token | [servers/infoplus/](servers/infoplus/) |
+| [MailerCheck](servers/mailercheck/) | email-validation | 10 | API token | [servers/mailercheck/](servers/mailercheck/) |
+| [IPDetective](servers/ipdetective/) | fraud-detection | 7 | API token | [servers/ipdetective/](servers/ipdetective/) |
+| [Bouncify](servers/bouncify/) | email-validation | 9 | API token | [servers/bouncify/](servers/bouncify/) |
+| [SalesBinder](servers/salesbinder/) | ecommerce | 11 | API token | [servers/salesbinder/](servers/salesbinder/) |
+| [Rackbeat](servers/rackbeat/) | ecommerce | 11 | API token | [servers/rackbeat/](servers/rackbeat/) |
+| [ViralSweep](servers/viralsweep/) | marketing | 8 | API token | [servers/viralsweep/](servers/viralsweep/) |
+| [BounceBan](servers/bounceban/) | email-validation | 10 | API token | [servers/bounceban/](servers/bounceban/) |
+| [MillionVerifier](servers/millionverifier/) | email-validation | 8 | API token | [servers/millionverifier/](servers/millionverifier/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._

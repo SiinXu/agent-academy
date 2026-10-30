@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-29
-updated_at: 2026-10-29T16:56:22Z
+version: 2026-10-30
+updated_at: 2026-10-30T02:00:19Z
 source: https://siinxu.github.io/agent-academy/courses/design/ui-designer/
 ---
 
@@ -431,10 +431,10 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [mcp] Adobe Commerce MCP. Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding
-  source: https://github.com/zeluizr/adobe-commerce-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zeluizr-adobe-commerce-mcp.md
+  source: https://github.com/commentemeapp/adobe-commerce-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-commentemeapp-adobe-commerce-mcp.md
   license: MIT
-  install: npx -y adobe-commerce-mcp
+  install: npx -y @commenteme/adobe-commerce-mcp
   needs_credentials: false, writes_external: false
 - [tool] Adobe Leonardo. Generates accessible color scales by target contrast; open source from Adobe
   source: https://leonardocolor.io/

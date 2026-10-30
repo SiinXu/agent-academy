@@ -6827,7 +6827,7 @@
 ],
 "repository": null,
 "title": "Probative legal-marketing data",
-"version": "1.4.0",
+"version": "1.5.0",
 "website": "https://probativegrowth.com/data/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.probativegrowth/legal-marketing-data&version=latest"
@@ -8908,6 +8908,32 @@
 "truncated": false,
 "url": "https://github.com/codespar/mcp-dev-latam/blob/HEAD/README.md"
 },
+"mcp-io-github-commentemeapp-adobe-commerce-mcp": {
+"file": "data/originals/mcp-io-github-commentemeapp-adobe-commerce-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding",
+"name": "io.github.commentemeapp/adobe-commerce-mcp",
+"packages": [
+{
+"env": [],
+"id": "@commenteme/adobe-commerce-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/commentemeapp/adobe-commerce-mcp",
+"title": "Adobe Commerce MCP",
+"version": "0.2.0",
+"website": "https://github.com/commentemeapp/adobe-commerce-mcp#readme"
+},
+"truncated": false,
+"url": "https://github.com/commentemeapp/adobe-commerce-mcp/blob/HEAD/README.md"
+},
 "mcp-io-github-compassalessandrolorenz-figma-context-mcp-air": {
 "file": "data/originals/mcp-io-github-compassalessandrolorenz-figma-context-mcp-air.md",
 "kind": "full",
@@ -10864,7 +10890,22 @@
 "record": {
 "description": "Figma MCP Pack",
 "name": "io.github.pipeworx-io/figma",
-"packages": [],
+"packages": [
+{
+"env": [
+{
+"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
+"name": "PIPEWORX_API_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@pipeworx/mcp-figma",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.1"
+}
+],
 "remotes": [
 {
 "headers": [],
@@ -10874,7 +10915,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-figma",
 "title": "Figma",
-"version": "0.1.4",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/figma"
 },
 "truncated": false,
@@ -12132,32 +12173,6 @@
 },
 "truncated": false,
 "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
-},
-"mcp-io-github-zeluizr-adobe-commerce-mcp": {
-"file": "data/originals/mcp-io-github-zeluizr-adobe-commerce-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding",
-"name": "io.github.zeluizr/adobe-commerce-mcp",
-"packages": [
-{
-"env": [],
-"id": "adobe-commerce-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "0.1.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/zeluizr/adobe-commerce-mcp",
-"title": "Adobe Commerce MCP",
-"version": "0.1.0",
-"website": "https://github.com/zeluizr/adobe-commerce-mcp#readme"
-},
-"truncated": false,
-"url": "https://github.com/zeluizr/adobe-commerce-mcp/blob/HEAD/README.md"
 },
 "mcp-io-scalably-dataforseo-mcp": {
 "file": "data/originals/mcp-io-scalably-dataforseo-mcp.md",

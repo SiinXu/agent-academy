@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-10-29T16:56:22Z",
+ "updated_at": "2026-10-30T02:00:19Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33796,
+      "repo_stars": 33861,
       "repo_pushed_at": "2026-10-29"
      },
      "course_step": "4-do-it",
@@ -1956,7 +1956,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 184711,
+      "repo_stars": 184811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2001,7 +2001,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 184711,
+      "repo_stars": 184811,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2046,7 +2046,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142433,
+      "repo_stars": 142570,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2091,7 +2091,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51347,
+      "repo_stars": 51457,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2136,7 +2136,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41978,
+      "repo_stars": 41990,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2181,7 +2181,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41978,
+      "repo_stars": 41990,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2226,7 +2226,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41978,
+      "repo_stars": 41990,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -2811,7 +2811,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143418,
+      "repo_stars": 143445,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2884,7 +2884,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16100,
+      "repo_stars": 16106,
       "repo_pushed_at": "2026-10-27",
       "registry_updated_at": "2026-06-18"
      },
@@ -2948,7 +2948,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2128,
+      "repo_stars": 2129,
       "repo_pushed_at": "2026-10-28",
       "registry_updated_at": "2025-10-16"
      },
@@ -3959,7 +3959,7 @@
      "source": "ui-hub"
     },
     {
-     "id": "mcp-io-github-zeluizr-adobe-commerce-mcp",
+     "id": "mcp-io-github-commentemeapp-adobe-commerce-mcp",
      "title": "Adobe Commerce MCP",
      "type": "mcp",
      "industry": "design",
@@ -3968,38 +3968,38 @@
      ],
      "summary": "Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding",
      "summary_lang": "en",
-     "source_url": "https://github.com/zeluizr/adobe-commerce-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zeluizr-adobe-commerce-mcp.md",
+     "source_url": "https://github.com/commentemeapp/adobe-commerce-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-commentemeapp-adobe-commerce-mcp.md",
      "upstream_raw_url": null,
-     "repo": "zeluizr/adobe-commerce-mcp",
-     "author": "io.github.zeluizr",
+     "repo": "commentemeapp/adobe-commerce-mcp",
+     "author": "io.github.commentemeapp",
      "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/zeluizr/adobe-commerce-mcp/blob/HEAD/README.md",
+      "url": "https://github.com/commentemeapp/adobe-commerce-mcp/blob/HEAD/README.md",
       "record": {
        "description": "Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding",
-       "name": "io.github.zeluizr/adobe-commerce-mcp",
+       "name": "io.github.commentemeapp/adobe-commerce-mcp",
        "packages": [
         {
          "env": [],
-         "id": "adobe-commerce-mcp",
+         "id": "@commenteme/adobe-commerce-mcp",
          "transport": "stdio",
          "type": "npm",
-         "version": "0.1.0"
+         "version": "0.2.0"
         }
        ],
        "remotes": [],
-       "repository": "https://github.com/zeluizr/adobe-commerce-mcp",
+       "repository": "https://github.com/commentemeapp/adobe-commerce-mcp",
        "title": "Adobe Commerce MCP",
-       "version": "0.1.0",
-       "website": "https://github.com/zeluizr/adobe-commerce-mcp#readme"
+       "version": "0.2.0",
+       "website": "https://github.com/commentemeapp/adobe-commerce-mcp#readme"
       }
      },
-     "install": "npx -y adobe-commerce-mcp",
+     "install": "npx -y @commenteme/adobe-commerce-mcp",
      "security": {
       "audited": false,
       "executes_code": true,
@@ -4009,18 +4009,18 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-26",
-      "registry_updated_at": "2026-10-25"
+      "repo_pushed_at": "2026-10-29",
+      "registry_updated_at": "2026-10-29"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-26T00:26:39Z",
-     "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-10-27T01:21:14Z",
+     "first_seen": "2026-10-30T02:00:19Z",
+     "updated_at": "2026-10-30T02:00:19Z",
+     "checked_at": "2026-10-30T02:00:19Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-zeluizr-adobe-commerce-mcp/",
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-commentemeapp-adobe-commerce-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -4407,7 +4407,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142433,
+      "repo_stars": 142570,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4452,7 +4452,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 142433,
+      "repo_stars": 142570,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4497,7 +4497,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 51347,
+      "repo_stars": 51457,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -4542,7 +4542,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41978,
+      "repo_stars": 41990,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4587,7 +4587,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41978,
+      "repo_stars": 41990,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4632,7 +4632,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41978,
+      "repo_stars": 41990,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4677,7 +4677,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 41978,
+      "repo_stars": 41990,
       "repo_pushed_at": "2026-10-26"
      },
      "course_step": "3-learn-rules",
@@ -4722,7 +4722,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33796,
+      "repo_stars": 33861,
       "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
@@ -4767,7 +4767,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33796,
+      "repo_stars": 33861,
       "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
@@ -4812,7 +4812,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 33796,
+      "repo_stars": 33861,
       "repo_pushed_at": "2026-10-29"
      },
      "course_step": "3-learn-rules",
@@ -4857,7 +4857,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26178,
+      "repo_stars": 26190,
       "repo_pushed_at": "2026-10-11"
      },
      "course_step": "3-learn-rules",
