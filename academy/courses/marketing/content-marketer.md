@@ -2,7 +2,7 @@
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-31
-updated_at: 2026-10-31T01:38:06Z
+updated_at: 2026-10-31T15:44:42Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -223,6 +223,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-master-app-store-localization-aso-prompt-2025-full-metadata-generator.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Product Image Highlight Extraction. Extract key selling points from product images using AI analysis.
+  source: https://prompts.chat/prompts/cmj9l3pkq0001u10s1a0x9lcm_product-image-highlight-extraction
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-product-image-highlight-extraction.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] The Ultimate Podcast Format & Audio Branding Architect. A structural blueprint generator for new podcasts. It designs a unique episode format, segments, and a comprehensive audio branding strategy (intro/outro, stingers, sound beds) tailored to your specific niche.
   source: https://prompts.chat/prompts/cmlu806kl0001jy04d5886mhk_the-ultimate-podcast-format-audio-branding-architect
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-the-ultimate-podcast-format-audio-branding-architect.md
@@ -236,11 +241,6 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Brotherhood Pressure — CN→EN & EN→EN Street Rewrite. Translate Chinese into English or rewrite English into a stronger, street-coded brotherhood voice. Responses are long-form, grounded, and carry collective pressure without giving instructions or closing the situation.
   source: https://prompts.chat/prompts/cmlbyh7xt0001jx04ivlbsqk8_brotherhood-pressure-cnen-enen-street-rewrite
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-brotherhood-pressure-cnen-enen-street-rewrite.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Nevik Wright x 7 Gods Album. 👑 SEVEN GOD — THE ALBUM By Nevik Wright Genre: Spiritual Hip-Hop / Soul R&B ✨ THE STORY — FROM THE DARK INTO THE LIGHT This isn’t just music. This is my journey, laid bare — seven layers, seven truths, seven stages of r
-  source: https://prompts.chat/prompts/cmut4qsgb0001oz06irkjbjz5_nevik-wright-x-7-gods-album
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-nevik-wright-x-7-gods-album.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

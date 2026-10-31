@@ -2,7 +2,7 @@
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-10-31
-updated_at: 2026-10-31T01:38:06Z
+updated_at: 2026-10-31T15:44:42Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/ecommerce-support/
 ---
 
@@ -122,6 +122,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Legal Document Generator Agent Role. Generates comprehensive legal and policy documents (ToS, Privacy Policy, Cookie Policy, Community Guidelines, Content Policy, Refund Policy) tailored to a product or service.
   source: https://prompts.chat/prompts/cmmx2ya3s000hic04l0i60mil_legal-document-generator-agent-role
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-legal-document-generator-agent-role.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Shared Expense Bill Splitter and Settle-Up Planner. Splits a CSV ledger of shared costs for a trip, flat or event - equal, shares, exact, percent and itemized bills with tax/tip pro rata, 'all except' exclusions, several payers, refunds, repayments and multiple currencies
+  source: https://prompts.chat/prompts/cmvw36uun0001jw07xu4uz2md_shared-expense-bill-splitter-and-settle-up-planner
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-shared-expense-bill-splitter-and-settle-up-planner.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

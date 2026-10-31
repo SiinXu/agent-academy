@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-10-31T01:38:06Z",
+ "updated_at": "2026-10-31T15:44:42Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -307,76 +307,6 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-newsletter-desk-inbox-worthy",
-     "title": "📰 Newsletter Desk ✦ INBOX-WORTHY",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Cited newsletter issue with three subject lines and one clear CTA",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/newsletter-desk-inbox-worthy",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Cypher0x9",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/newsletter-desk-inbox-worthy",
-      "record": {
-       "access": [
-        "inbox",
-        "publishing"
-       ],
-       "add": "https://x.ai/bot/J0CuUCheuaZacyOKXTSVH",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "Cypher0x9",
-       "firstSeen": "2026-09-30",
-       "integrations": [],
-       "name": "📰 Newsletter Desk ✦ INBOX-WORTHY",
-       "official": false,
-       "page": "https://botsdots.site/templates/newsletter-desk-inbox-worthy",
-       "risk": "high",
-       "summary": "Cited newsletter issue with three subject lines and one clear CTA"
-      }
-     },
-     "install": "https://x.ai/bot/J0CuUCheuaZacyOKXTSVH",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": true,
-      "risk_label": "high",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 11,
-      "first_seen_catalog": "2026-09-30"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-newsletter-desk-inbox-worthy/",
-     "source": "botsdots"
-    },
-    {
      "id": "botsdots-sponsor-scout",
      "title": "Sponsor Scout",
      "type": "template",
@@ -657,6 +587,75 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-sponsorship-hunter-tgnk/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-newsletter-desk-inbox-worthy",
+     "title": "📰 Newsletter Desk ✦ INBOX-WORTHY",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Cited newsletter issue with three subject lines and one clear CTA",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/newsletter-desk-inbox-worthy",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Cypher0x9",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/newsletter-desk-inbox-worthy",
+      "record": {
+       "access": [
+        "inbox",
+        "publishing"
+       ],
+       "add": "https://x.ai/bot/J0CuUCheuaZacyOKXTSVH",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "kydlikebtc/awesome-grokbot",
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates"
+       ],
+       "category": "content-publishing",
+       "creator": "Cypher0x9",
+       "firstSeen": "2026-09-30",
+       "integrations": [],
+       "name": "📰 Newsletter Desk ✦ INBOX-WORTHY",
+       "official": false,
+       "page": "https://botsdots.site/templates/newsletter-desk-inbox-worthy",
+       "risk": "high",
+       "summary": "Cited newsletter issue with three subject lines and one clear CTA"
+      }
+     },
+     "install": "https://x.ai/bot/J0CuUCheuaZacyOKXTSVH",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-09-30"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-31T15:44:42Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-newsletter-desk-inbox-worthy/",
      "source": "botsdots"
     },
     {
@@ -1123,7 +1122,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1168,7 +1167,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1213,7 +1212,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1258,7 +1257,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1303,7 +1302,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1348,8 +1347,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34040,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 34145,
+      "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1393,8 +1392,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34040,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 34145,
+      "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2881,7 +2880,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2926,7 +2925,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2971,7 +2970,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3016,7 +3015,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3061,7 +3060,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",

@@ -2,7 +2,7 @@
  "id": "marketing/social-media-manager",
  "industry": "marketing",
  "role": "social-media-manager",
- "updated_at": "2026-10-31T01:38:06Z",
+ "updated_at": "2026-10-31T15:44:42Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -936,46 +936,46 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-grok-bot-replies",
-     "title": "Grok Bot: Replies",
+     "id": "botsdots-draft-doctor",
+     "title": "Draft Doctor",
      "type": "template",
      "industry": "marketing",
      "roles": [
       "social-media-manager"
      ],
-     "summary": "Drafts social media replies in your voice, with 2 or 3 options per post or comment that you pick from and post yourself.",
+     "summary": "A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/grok-bot-replies",
+     "source_url": "https://botsdots.site/templates/draft-doctor",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "Joseph",
+     "author": "GreenleafDeFi",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "facts-only",
-      "url": "https://botsdots.site/templates/grok-bot-replies",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/draft-doctor",
       "record": {
        "access": [],
-       "add": "https://x.ai/bot/PeH2QA0pYFIVdmy5XLc6K",
+       "add": "https://x.ai/bot/Vu4hBeb6zFOVpNluSscaO",
        "cadence": "on-demand",
        "catalog_sources": [
-        "Public x.ai share page"
+        "cs68614-hash/awesome-grokbot-templates"
        ],
        "category": "content-publishing",
-       "creator": null,
-       "firstSeen": "2026-10-29",
+       "creator": "GreenleafDeFi",
+       "firstSeen": "2026-10-31",
        "integrations": [],
-       "name": "Grok Bot: Replies",
+       "name": "Draft Doctor",
        "official": false,
-       "page": "https://botsdots.site/templates/grok-bot-replies",
+       "page": "https://botsdots.site/templates/draft-doctor",
        "risk": "low",
-       "summary": "Drafts social media replies in your voice, with 2 or 3 options per post or comment that you pick from and post yourself."
+       "summary": "A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks."
       }
      },
-     "install": "https://x.ai/bot/PeH2QA0pYFIVdmy5XLc6K",
+     "install": "https://x.ai/bot/Vu4hBeb6zFOVpNluSscaO",
      "security": {
       "audited": false,
       "executes_code": false,
@@ -986,17 +986,17 @@
      },
      "metrics": {
       "score": 3,
-      "first_seen_catalog": "2026-10-29"
+      "first_seen_catalog": "2026-10-31"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-29T16:56:22Z",
-     "updated_at": "2026-10-29T16:56:22Z",
-     "checked_at": "2026-10-29T16:56:22Z",
+     "first_seen": "2026-10-31T15:44:42Z",
+     "updated_at": "2026-10-31T15:44:42Z",
+     "checked_at": "2026-10-31T15:44:42Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-grok-bot-replies/",
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-draft-doctor/",
      "source": "botsdots"
     }
    ]
@@ -1035,7 +1035,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1080,7 +1080,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1125,7 +1125,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1170,7 +1170,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26216,
+      "repo_stars": 26230,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -2367,7 +2367,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2412,7 +2412,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2457,7 +2457,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -2502,7 +2502,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -2547,7 +2547,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",

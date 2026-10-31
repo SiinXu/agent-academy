@@ -2,7 +2,7 @@
  "id": "marketing/content-marketer",
  "industry": "marketing",
  "role": "content-marketer",
- "updated_at": "2026-10-31T01:38:06Z",
+ "updated_at": "2026-10-31T15:44:42Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1171,7 +1171,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 185338,
+      "repo_stars": 185759,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1216,7 +1216,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1261,7 +1261,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1306,7 +1306,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1351,7 +1351,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1396,7 +1396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1441,7 +1441,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1486,7 +1486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1531,7 +1531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1576,7 +1576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1621,7 +1621,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1661,12 +1661,12 @@
      "install": "npx skills add coreyhaines31/marketingskills --skill reverse-engineer-marketing",
      "security": {
       "audited": false,
-      "executes_code": true,
+      "executes_code": false,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1711,8 +1711,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34040,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 34145,
+      "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1756,8 +1756,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34040,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 34145,
+      "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1801,8 +1801,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34040,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 34145,
+      "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1858,6 +1858,51 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-master-app-store-localization-aso-prompt-2025-full-metadata-generator/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-product-image-highlight-extraction",
+     "title": "Product Image Highlight Extraction",
+     "type": "system-prompt",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "Extract key selling points from product images using AI analysis.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmj9l3pkq0001u10s1a0x9lcm_product-image-highlight-extraction",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-product-image-highlight-extraction.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ganbing419",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmj9l3pkq0001u10s1a0x9lcm_product-image-highlight-extraction"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 3,
+      "created_at": "2025-12-17"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-31T15:44:42Z",
+     "updated_at": "2026-10-31T15:44:42Z",
+     "checked_at": "2026-10-31T15:44:42Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-product-image-highlight-extraction/",
      "source": "prompts.chat"
     },
     {
@@ -1993,51 +2038,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-brotherhood-pressure-cnen-enen-street-rewrite/",
-     "source": "prompts.chat"
-    },
-    {
-     "id": "prompts-chat-nevik-wright-x-7-gods-album",
-     "title": "Nevik Wright x 7 Gods Album",
-     "type": "system-prompt",
-     "industry": "marketing",
-     "roles": [
-      "content-marketer"
-     ],
-     "summary": "👑 SEVEN GOD — THE ALBUM By Nevik Wright Genre: Spiritual Hip-Hop / Soul R&B ✨ THE STORY — FROM THE DARK INTO THE LIGHT This isn’t just music. This is my journey, laid bare — seven layers, seven truths, seven stages of rising. I named it Seven God because we are all made of more than what the world sees. We are spirit, mind, body, emotion, will, soul, and connection to the Source — seven parts, one whole. And every…",
-     "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cmut4qsgb0001oz06irkjbjz5_nevik-wright-x-7-gods-album",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-nevik-wright-x-7-gods-album.md",
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "nevikwright09",
-     "license": "CC0-1.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cmut4qsgb0001oz06irkjbjz5_nevik-wright-x-7-gods-album"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "votes": 1,
-      "created_at": "2026-10-04"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/prompts-chat-nevik-wright-x-7-gods-album/",
      "source": "prompts.chat"
     }
    ]
@@ -3313,7 +3313,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -3358,7 +3358,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57524,
+      "repo_stars": 57635,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -3403,7 +3403,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3448,7 +3448,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3493,7 +3493,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",

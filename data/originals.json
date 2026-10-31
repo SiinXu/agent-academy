@@ -226,6 +226,7 @@
 "cadence": "on-demand",
 "catalog_sources": [
 "majiayu000/awesome-grok-bot",
+"cs68614-hash/awesome-grokbot-templates",
 "GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
@@ -1195,6 +1196,29 @@
 },
 "url": "https://botsdots.site/templates/documentation-expert"
 },
+"botsdots-draft-doctor": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/Vu4hBeb6zFOVpNluSscaO",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "content-publishing",
+"creator": "GreenleafDeFi",
+"firstSeen": "2026-10-31",
+"integrations": [],
+"name": "Draft Doctor",
+"official": false,
+"page": "https://botsdots.site/templates/draft-doctor",
+"risk": "low",
+"summary": "A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks."
+},
+"url": "https://botsdots.site/templates/draft-doctor"
+},
 "botsdots-family-helpdesk-beta": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -1402,7 +1426,8 @@
 "add": "https://x.ai/bot/OLEh3dJE_hXSrhlJsibAq",
 "cadence": "daily",
 "catalog_sources": [
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "DotComParker",
@@ -1599,17 +1624,17 @@
 "botsdots-grok-bot-replies": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "facts-only",
+"license": "CC-BY-4.0",
 "record": {
 "access": [],
 "add": "https://x.ai/bot/PeH2QA0pYFIVdmy5XLc6K",
 "cadence": "on-demand",
 "catalog_sources": [
-"Public x.ai share page"
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
-"firstSeen": "2026-10-29",
+"firstSeen": "2026-10-31",
 "integrations": [],
 "name": "Grok Bot: Replies",
 "official": false,
@@ -1820,7 +1845,8 @@
 "add": "https://x.ai/bot/QRlE_6dqqnXr_WRGr2eMU",
 "cadence": "on-demand",
 "catalog_sources": [
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "moondough",
@@ -2709,8 +2735,7 @@
 "catalog_sources": [
 "kydlikebtc/awesome-grokbot",
 "majiayu000/awesome-grok-bot",
-"cs68614-hash/awesome-grokbot-templates",
-"GrokBot HQ (CC BY 4.0)"
+"cs68614-hash/awesome-grokbot-templates"
 ],
 "category": "content-publishing",
 "creator": "Cypher0x9",
@@ -3044,6 +3069,31 @@
 },
 "url": "https://botsdots.site/templates/premium-financial-newsletter-research-drip-link"
 },
+"botsdots-press-request-desk": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "content-publishing",
+"creator": "grokbotspot",
+"firstSeen": "2026-10-31",
+"integrations": [
+"x"
+],
+"name": "Press Request Desk",
+"official": false,
+"page": "https://botsdots.site/templates/press-request-desk",
+"risk": "low",
+"summary": "Catches journalist source requests on X and in free request newsletters that fit your expertise."
+},
+"url": "https://botsdots.site/templates/press-request-desk"
+},
 "botsdots-product-support-inbox-assistant": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -3190,7 +3240,8 @@
 "add": "https://x.ai/bot/bcVY9sJKoeZSzFcfNlhVW",
 "cadence": "on-demand",
 "catalog_sources": [
-"cs68614-hash/awesome-grokbot-templates"
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "research-briefings",
 "creator": "jimaggie",
@@ -3423,12 +3474,14 @@
 "record": {
 "access": [
 "calendar",
-"code"
+"code",
+"publishing"
 ],
 "add": "https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw",
 "cadence": "weekly",
 "catalog_sources": [
-"majiayu000/awesome-grok-bot"
+"majiayu000/awesome-grok-bot",
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": "_DanielWilson",
@@ -3437,7 +3490,7 @@
 "name": "Scrollstopper · Social Media Manager",
 "official": false,
 "page": "https://botsdots.site/templates/scrollstopper-social-media-manager",
-"risk": "medium",
+"risk": "high",
 "summary": "Social media manager for one or more brands: learns each voice, writes native posts, schedules, replies to comments, weekly report. Draft-only by default."
 },
 "url": "https://botsdots.site/templates/scrollstopper-social-media-manager"
@@ -4008,6 +4061,32 @@
 "summary": "Queues the finished posts and pushes each one live at the right local hour"
 },
 "url": "https://botsdots.site/templates/social-media"
+},
+"botsdots-social-media-by-eclincher": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "facts-only",
+"record": {
+"access": [
+"inbox",
+"publishing"
+],
+"add": "https://x.ai/bot/xp5k82r21uvtani1ndv-b",
+"cadence": "on-demand",
+"catalog_sources": [
+"Public x.ai share page"
+],
+"category": "content-publishing",
+"creator": null,
+"firstSeen": "2026-10-01",
+"integrations": [],
+"name": "Social Media by Eclincher",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-by-eclincher",
+"risk": "high",
+"summary": "Your social media AI agent - schedule and publish posts, receive and reply to every social inbox interactions (messages, comments and reviews), and…"
+},
+"url": "https://botsdots.site/templates/social-media-by-eclincher"
 },
 "botsdots-social-media-creator-bot": {
 "kind": "excerpt",
@@ -4776,7 +4855,7 @@
 "botsdots-webbuilder-website-seo-expert": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "facts-only",
+"license": "CC-BY-4.0",
 "record": {
 "access": [
 "browser",
@@ -4785,17 +4864,17 @@
 "add": "https://x.ai/bot/MEbNrSxgkvSnBMrgwpUBB",
 "cadence": "daily",
 "catalog_sources": [
-"Public x.ai share page"
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "content-publishing",
 "creator": null,
-"firstSeen": "2026-10-30",
+"firstSeen": "2026-10-31",
 "integrations": [],
 "name": "WebBuilder · Website / SEO Expert",
 "official": false,
 "page": "https://botsdots.site/templates/webbuilder-website-seo-expert",
 "risk": "high",
-"summary": "Runs a small business's website end to end: design, page builds, blog publishing, SEO, daily visitor stats and Google Ads checks, always read-only…"
+"summary": "Runs a small business's website end to end: design, page builds, blog publishing, SEO, daily visitor stats and Google Ads checks…"
 },
 "url": "https://botsdots.site/templates/webbuilder-website-seo-expert"
 },
@@ -4904,6 +4983,34 @@
 "summary": "Every Monday, a five-line brief of what changed in your Google Search Console and what to do this week"
 },
 "url": "https://botsdots.site/templates/weekly-seo-brief"
+},
+"botsdots-x-cmo-social-media-manager": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"calendar",
+"docs"
+],
+"add": "https://x.ai/bot/x0lQBpfikxNIYVDWzYCWt",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "research-briefings",
+"creator": "TeslaAIBot",
+"firstSeen": "2026-10-31",
+"integrations": [
+"google-sheets"
+],
+"name": "𝕏 CMO & Social Media Manager",
+"official": false,
+"page": "https://botsdots.site/templates/x-cmo-social-media-manager",
+"risk": "medium",
+"summary": "Your X social media manager: drafts posts and replies in your voice, runs a Google Sheets content calendar."
+},
+"url": "https://botsdots.site/templates/x-cmo-social-media-manager"
 },
 "botsdots-x-marketing-bot": {
 "kind": "excerpt",
@@ -8199,13 +8306,13 @@
 "id": "mcp-shopify-admin",
 "transport": "stdio",
 "type": "npm",
-"version": "1.1.0"
+"version": "1.2.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/A1-x-Tech/mcp-shopify-admin",
 "title": "Shopify Admin MCP",
-"version": "1.1.0",
+"version": "1.2.0",
 "website": "https://github.com/A1-x-Tech/mcp-shopify-admin#readme"
 },
 "truncated": false,
@@ -9738,13 +9845,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.6.0"
+"version": "3.7.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.6.0",
+"version": "3.7.0",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -12654,10 +12761,10 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.29.2",
+"version": "1.30.0",
 "website": "https://usefulapi.io/zendesk/"
 },
-"truncated": false,
+"truncated": true,
 "url": "https://github.com/m190/usefulapi-mcp/blob/HEAD/README.md"
 },
 "mcp-kz-tehprof-support-helpdesk": {
@@ -17132,6 +17239,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-mario-roudil": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-mark-clennon": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20132,6 +20246,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-vmc-inner-circle-k-style-ui-ux": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-gh-voltagent-official-design-md": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -22853,6 +22974,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-77bdpts-black-hole-typography": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-792e5r8-the-blue-hour-newspaper": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -27242,6 +27370,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-q9ctcrf-halloween-ghost-animation": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-q9v84cb-doodles-character-ensemble": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28509,6 +28644,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-vzr4zlr-lucky-air-balloon-brand-identity": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-w2vz8gw-sheep-grazing-scene-editor": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28587,6 +28729,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-wkk2oui-edible-button-microinteraction": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-wnq20jp-crestora-footer-design": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

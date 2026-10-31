@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-10-31T01:38:06Z",
+ "updated_at": "2026-10-31T15:44:42Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42021,
+      "repo_stars": 42038,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1682,7 +1682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143521,
+      "repo_stars": 143566,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -1727,7 +1727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30400,
+      "repo_stars": 30415,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "4-do-it",
@@ -2157,13 +2157,13 @@
          "id": "@fruggr/zendesk-mcp-server",
          "transport": "stdio",
          "type": "npm",
-         "version": "3.6.0"
+         "version": "3.7.0"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/fruggr/zendesk-mcp-server",
        "title": null,
-       "version": "3.6.0",
+       "version": "3.7.0",
        "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
       }
      },
@@ -2179,13 +2179,13 @@
      },
      "metrics": {
       "repo_stars": 14,
-      "repo_pushed_at": "2026-10-30",
-      "registry_updated_at": "2026-10-25"
+      "repo_pushed_at": "2026-10-31",
+      "registry_updated_at": "2026-10-31"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-26T00:26:39Z",
+     "updated_at": "2026-10-31T15:44:42Z",
      "checked_at": "2026-10-26T16:48:06Z",
      "http_status": {
       "source": 200
@@ -2495,7 +2495,7 @@
      },
      "metrics": {
       "repo_stars": 5,
-      "repo_pushed_at": "2026-10-23",
+      "repo_pushed_at": "2026-10-31",
       "registry_updated_at": "2026-10-23"
      },
      "course_step": "4-do-it",

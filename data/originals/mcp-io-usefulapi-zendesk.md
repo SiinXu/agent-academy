@@ -105,7 +105,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Modern Treasury](servers/modern-treasury/) | payment-operations | 21 | API token | [servers/modern-treasury/](servers/modern-treasury/) |
 | [NexHealth](servers/nexhealth/) | healthcare | 20 | API token | [servers/nexhealth/](servers/nexhealth/) |
 | [Nomic Atlas](servers/nomic-atlas/) | ai-infra | 13 | API token | [servers/nomic-atlas/](servers/nomic-atlas/) |
-| [Northflank](servers/northflank/) | devops | 21 | API token | [servers/northflank/](servers/northflank/) |
+| [Northflank](servers/northflank/) | devops | 24 | API token | [servers/northflank/](servers/northflank/) |
 | [NPPES NPI Registry](servers/nppes-npi-registry/) | health-data | 8 | API token | [servers/nppes-npi-registry/](servers/nppes-npi-registry/) |
 | [Numeral](servers/numeral/) | tax | 15 | API token | [servers/numeral/](servers/numeral/) |
 | [Nylas](servers/nylas/) | email | 19 | API token | [servers/nylas/](servers/nylas/) |
@@ -436,7 +436,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Feefo](servers/feefo/) | marketing | 9 | API token | [servers/feefo/](servers/feefo/) |
 | [inv.bg](servers/inv-bg/) | billing | 31 | API token | [servers/inv-bg/](servers/inv-bg/) |
 | [KashFlow](servers/kashflow/) | billing | 42 | API token | [servers/kashflow/](servers/kashflow/) |
-| [Papierkram](servers/papierkram/) | billing | 37 | API token | [servers/papierkram/](servers/papierkram/) |
+| [Papierkram](servers/papierkram/) | billing | 42 | API token | [servers/papierkram/](servers/papierkram/) |
 | [PaySpace](servers/payspace/) | billing | 25 | API token | [servers/payspace/](servers/payspace/) |
 | [Sapo](servers/sapo/) | ecommerce | 24 | API token | [servers/sapo/](servers/sapo/) |
 | [Sarbacane](servers/sarbacane/) | email | 23 | API token | [servers/sarbacane/](servers/sarbacane/) |
@@ -521,16 +521,46 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Taleez](servers/taleez/) | hr | 29 | OAuth | [servers/taleez/](servers/taleez/) |
 | [Desk365](servers/desk365/) | support | 17 | OAuth | [servers/desk365/](servers/desk365/) |
 | [RemoteLock](servers/remotelock/) | property-management | 24 | OAuth | [servers/remotelock/](servers/remotelock/) |
-
-_More servers land here as they launch — each is a folder with its own README + `server.json`,
-and a tile on the [portal](https://usefulapi.io)._
-
-## What's in each folder
-
-- `README.md` — what the server does, tools, pricing, the "Add to Claude" snippet
-- `server.json` — the [official MCP Registry](https://registry.modelcontextprotocol.io) record
-  (namespace `io.usefulapi/*`), pointing at the hosted endpoint
-
-## License
-
-MIT — see [LICENSE](LICENSE). Documentation only; servers are hosted.
+| [LingoHub](servers/lingohub/) | localization | 18 | OAuth | [servers/lingohub/](servers/lingohub/) |
+| [MarketTime](servers/markettime/) | commerce | 22 | OAuth | [servers/markettime/](servers/markettime/) |
+| [Getfly CRM](servers/getfly-crm/) | crm | 33 | OAuth | [servers/getfly-crm/](servers/getfly-crm/) |
+| [SkuVault](servers/skuvault/) | inventory | 26 | OAuth | [servers/skuvault/](servers/skuvault/) |
+| [Talenta](servers/talenta/) | hr | 34 | OAuth | [servers/talenta/](servers/talenta/) |
+| [Shoprocket](servers/shoprocket/) | commerce | 30 | OAuth | [servers/shoprocket/](servers/shoprocket/) |
+| [Builder Prime](servers/builder-prime/) | crm | 18 | API token | [servers/builder-prime/](servers/builder-prime/) |
+| [ServiceMonster](servers/servicemonster/) | crm | 33 | API token | [servers/servicemonster/](servers/servicemonster/) |
+| [EZRentOut](servers/ezrentout/) | rental | 63 | OAuth | [servers/ezrentout/](servers/ezrentout/) |
+| [Mekari Jurnal](servers/jurnal/) | accounting | 42 | OAuth | [servers/jurnal/](servers/jurnal/) |
+| [ExakTime / Arcoro](servers/exaktime/) | hr | 36 | OAuth | [servers/exaktime/](servers/exaktime/) |
+| [SmartHR](servers/smarthr/) | hr | 27 | OAuth | [servers/smarthr/](servers/smarthr/) |
+| [ABRA Flexi](servers/abra-flexi/) | accounting | 23 | OAuth | [servers/abra-flexi/](servers/abra-flexi/) |
+| [NeverBounce](servers/neverbounce/) | email | 12 | OAuth | [servers/neverbounce/](servers/neverbounce/) |
+| [SuperPhone](servers/superphone/) | messaging | 21 | OAuth | [servers/superphone/](servers/superphone/) |
+| [currencylayer](servers/currencylayer/) | Finance | 9 | OAuth | [servers/currencylayer/](servers/currencylayer/) |
+| [ReciPal](servers/recipal/) | Food & Beverage | 34 | OAuth | [servers/recipal/](servers/recipal/) |
+| [Aryeo](servers/aryeo/) | real-estate | 28 | OAuth | [servers/aryeo/](servers/aryeo/) |
+| [Jisr](servers/jisr/) | productivity | 20 | OAuth | [servers/jisr/](servers/jisr/) |
+| [Feegow](servers/feegow/) | healthcare | 30 | OAuth | [servers/feegow/](servers/feegow/) |
+| [Stamped](servers/stamped/) | ecommerce | 15 | OAuth | [servers/stamped/](servers/stamped/) |
+| [Channable](servers/channable/) | ecommerce | 17 | OAuth | [servers/channable/](servers/channable/) |
+| [DecoNetwork](servers/deconetwork/) | ecommerce | 9 | OAuth | [servers/deconetwork/](servers/deconetwork/) |
+| [e-Courier](servers/e-courier/) | logistics | 21 | OAuth | [servers/e-courier/](servers/e-courier/) |
+| [TalentHR](servers/talenthr/) | hr | 33 | OAuth | [servers/talenthr/](servers/talenthr/) |
+| [Rex Software](servers/rex-software/) | crm | 37 | OAuth | [servers/rex-software/](servers/rex-software/) |
+| [Shipcloud](servers/shipcloud/) | shipping | 26 | OAuth | [servers/shipcloud/](servers/shipcloud/) |
+| [A-Cube](servers/acube/) | accounting | 28 | OAuth | [servers/acube/](servers/acube/) |
+| [Recurpay](servers/recurpay/) | ecommerce | 22 | OAuth | [servers/recurpay/](servers/recurpay/) |
+| [Forms On Fire / Appenate](servers/forms-on-fire/) | forms | 15 | OAuth | [servers/forms-on-fire/](servers/forms-on-fire/) |
+| [Sorry](servers/sorry-app/) | monitoring | 25 | OAuth | [servers/sorry-app/](servers/sorry-app/) |
+| [Workfeed](servers/workfeed/) | scheduling | 21 | API token | [servers/workfeed/](servers/workfeed/) |
+| [Smartplan](servers/smartplan/) | scheduling | 18 | API token | [servers/smartplan/](servers/smartplan/) |
+| [Quinyx](servers/quinyx/) | hr | 14 | API token | [servers/quinyx/](servers/quinyx/) |
+| [RepairDesk](servers/repairdesk/) | business-operations | 21 | API token | [servers/repairdesk/](servers/repairdesk/) |
+| [Shop Boss](servers/shop-boss/) | business-operations | 19 | API token | [servers/shop-boss/](servers/shop-boss/) |
+| [ConstructionOnline](servers/constructiononline/) | project-management | 10 | API token | [servers/constructiononline/](servers/constructiononline/) |
+| [Text Request](servers/text-request/) | messaging | 23 | API token | [servers/text-request/](servers/text-request/) |
+| [SMSGlobal](servers/smsglobal/) | messaging | 22 | API token | [servers/smsglobal/](servers/smsglobal/) |
+| [Givecloud](servers/givecloud/) | fundraising | 14 | API token | [servers/givecloud/](servers/givecloud/) |
+| [TimeTap](servers/timetap/) | scheduling | 13 | API token | [servers/timetap/](servers/timetap/) |
+| [CATS](servers/cats-ats/) | productivity | 38 | OAuth | [servers/cats-ats/](servers/cats-ats/) |
+| [Gladly](servers/gladly/) | support | 20 | API token |

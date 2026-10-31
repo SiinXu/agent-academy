@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-31
-updated_at: 2026-10-31T01:38:06Z
+updated_at: 2026-10-31T15:44:42Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 
@@ -32,7 +32,7 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/scrollstopper-social-media-manager
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/MMCVsJ0cyBuZD-4tD7dKw
-  needs_credentials: false, writes_external: false
+  needs_credentials: false, writes_external: true
 - [plugin] Marketing plugin (Anthropic knowledge-work-plugins). A marketing plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Content creation, campaign planning, brand voice manag
   source: https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-marketing.md

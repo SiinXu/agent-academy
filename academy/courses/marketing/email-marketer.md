@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-10-31
-updated_at: 2026-10-31T01:38:06Z
+updated_at: 2026-10-31T15:44:42Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -48,11 +48,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/aZktlS8No2Ur9nlhKRcy8
   needs_credentials: false, writes_external: false
-- [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. Cited newsletter issue with three subject lines and one clear CTA
-  source: https://botsdots.site/templates/newsletter-desk-inbox-worthy
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/J0CuUCheuaZacyOKXTSVH
-  needs_credentials: false, writes_external: true
 - [template] Sponsor Scout. Finds brands already sponsoring people like you, the real way in, and drafts the pitch for you to send. For fighters, athletes, newsletter writers and creators.
   source: https://botsdots.site/templates/sponsor-scout
   license: template belongs to its creator (catalog CC0)
@@ -73,6 +68,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/t-gNKMTD-GSe0vSRnGDQQ
   needs_credentials: false, writes_external: false
+- [template] 📰 Newsletter Desk ✦ INBOX-WORTHY. Cited newsletter issue with three subject lines and one clear CTA
+  source: https://botsdots.site/templates/newsletter-desk-inbox-worthy
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/J0CuUCheuaZacyOKXTSVH
+  needs_credentials: false, writes_external: true
 - [template] AI Copywriter. Writes blogs, landing pages, emails, ads, social posts, and campaign briefs in Dan Koe's voice. Every draft goes through Humanizer. Not for video scripts
   source: https://botsdots.site/templates/ai-copywriter
   license: template belongs to its creator (catalog CC0)
