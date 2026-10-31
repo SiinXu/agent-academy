@@ -5160,6 +5160,28 @@
 "truncated": false,
 "url": "https://github.com/M-Pineapple/hubspot-auditor"
 },
+"mcp-ai-alvinsclub-studio-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "SEO audit and AI visibility check for your website, plus Search Console keyword opportunities.",
+"name": "ai.alvinsclub.studio/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://studio.alvinsclub.ai/seo/mcp"
+}
+],
+"repository": null,
+"title": "SEO & GEO by Alvin's Club",
+"version": "1.0.0",
+"website": "https://seo.alvinsclub.ai/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.alvinsclub.studio/seo&version=latest"
+},
 "mcp-ai-b77-seo-content-factory": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8994,30 +9016,6 @@
 "truncated": false,
 "url": "https://github.com/Choppaaahh/sendgrid-mcp-secure/blob/HEAD/README.md"
 },
-"mcp-io-github-cleandata-labs-seo-keyword-research-for-agents": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Keyword ideas from Google Autocomplete plus Google Trends interest and rising queries. No API key.",
-"name": "io.github.CleanData-Labs/seo-keyword-research-for-agents",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"Authorization"
-],
-"type": "streamable-http",
-"url": "https://mcp.apify.com?tools=cleandata-labs/seo-keyword-research-for-agents"
-}
-],
-"repository": null,
-"title": "Keyword Research Tool — Autocomplete & Trends",
-"version": "1.0.1",
-"website": "https://apify.com/cleandata-labs/seo-keyword-research-for-agents"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.CleanData-Labs/seo-keyword-research-for-agents&version=latest"
-},
 "mcp-io-github-closermethod-newsletter-growth-mcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -10241,13 +10239,13 @@
 "id": "@kisasa/shopify-mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "1.1.0"
+"version": "1.2.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/kisasa/shopify-mcp",
 "title": "Shopify",
-"version": "1.1.0",
+"version": "1.2.0",
 "website": "https://github.com/kisasa/shopify-mcp#readme"
 },
 "truncated": false,
@@ -21685,6 +21683,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-2q002o2-geist-serif-release-posters": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-2qggxml-ray-traced-webgl-shader": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27980,6 +27985,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ticqkv8-tactile-webgl-shader-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-tiv2vzr-geist-serif-font": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

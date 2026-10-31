@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-30
-updated_at: 2026-10-30T16:42:21Z
+version: 2026-10-31
+updated_at: 2026-10-31T01:38:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/marketing-analyst/
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-10-30
-updated_at: 2026-10-30T16:42:21Z
+version: 2026-10-31
+updated_at: 2026-10-31T01:38:06Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/content-marketer/
 ---
 
@@ -194,6 +194,12 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill public-relations
   needs_credentials: false, writes_external: false
+- [skill] reverse-engineer-marketing. When the user wants to reverse engineer how another company grew and copy what worked. Also use when the user mentions 'reverse engineer,' 'how did X grow,' 'how does X get customers,' 'growth teardown,' 'marketing teard
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/reverse-engineer-marketing/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-reverse-engineer-marketing.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill reverse-engineer-marketing
+  needs_credentials: false, writes_external: false
 - [skill] brand-voice-enforcement. This skill applies brand guidelines to content creation. It should be used when the user asks to "write an email", "draft a proposal", "create a pitch deck", "write a LinkedIn post", "draft a presentation", "write a Slac
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement.md
@@ -235,11 +241,6 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Nevik Wright x 7 Gods Album. 👑 SEVEN GOD — THE ALBUM By Nevik Wright Genre: Spiritual Hip-Hop / Soul R&B ✨ THE STORY — FROM THE DARK INTO THE LIGHT This isn’t just music. This is my journey, laid bare — seven layers, seven truths, seven stages of r
   source: https://prompts.chat/prompts/cmut4qsgb0001oz06irkjbjz5_nevik-wright-x-7-gods-album
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-nevik-wright-x-7-gods-album.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Optimize E-commerce Listing for High CTR with Holiday Design. Design a high-CTR e-commerce listing for a white women's medical suit with a New Year theme, focusing on visual appeal and strategic content.
-  source: https://prompts.chat/prompts/cmjjyrkce000dl704jbyci77e_optimize-e-commerce-listing-for-high-ctr-with-holiday-design
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-optimize-e-commerce-listing-for-high-ctr-with-holiday-design.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

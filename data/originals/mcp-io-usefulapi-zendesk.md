@@ -182,7 +182,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Deskpro](servers/deskpro/) | support | 24 | API token | [servers/deskpro/](servers/deskpro/) |
 | [Elvanto](servers/elvanto/) | membership | 27 | API token | [servers/elvanto/](servers/elvanto/) |
 | [Follow Up Boss](servers/follow-up-boss/) | crm | 29 | API token | [servers/follow-up-boss/](servers/follow-up-boss/) |
-| [Formstack](servers/formstack/) | productivity | 24 | API token | [servers/formstack/](servers/formstack/) |
+| [Formstack](servers/formstack/) | productivity | 25 | API token | [servers/formstack/](servers/formstack/) |
 | [TeamUp](servers/goteamup/) | membership | 24 | API token | [servers/goteamup/](servers/goteamup/) |
 | [HappyFox](servers/happyfox/) | support | 27 | API token | [servers/happyfox/](servers/happyfox/) |
 | [Hostfully](servers/hostfully/) | productivity | 24 | API token | [servers/hostfully/](servers/hostfully/) |
@@ -508,6 +508,19 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Bokio](servers/bokio/) | billing | 27 | OAuth | [servers/bokio/](servers/bokio/) |
 | [SOS Inventory](servers/sos-inventory/) | ecommerce | 23 | OAuth | [servers/sos-inventory/](servers/sos-inventory/) |
 | [Arthur Online](servers/arthur-online/) | real-estate | 24 | OAuth | [servers/arthur-online/](servers/arthur-online/) |
+| [pretix](servers/pretix/) | ecommerce | 22 | OAuth | [servers/pretix/](servers/pretix/) |
+| [EasyStore](servers/easystore/) | ecommerce | 33 | OAuth | [servers/easystore/](servers/easystore/) |
+| [bol.com](servers/bol-com/) | ecommerce | 22 | OAuth | [servers/bol-com/](servers/bol-com/) |
+| [Pin Payments](servers/pin-payments/) | payments | 39 | OAuth | [servers/pin-payments/](servers/pin-payments/) |
+| [Tillhub](servers/tillhub/) | retail | 31 | OAuth | [servers/tillhub/](servers/tillhub/) |
+| [Jackrabbit Class](servers/jackrabbit-class/) | education | 28 | OAuth | [servers/jackrabbit-class/](servers/jackrabbit-class/) |
+| [Bsale](servers/bsale/) | retail | 29 | OAuth | [servers/bsale/](servers/bsale/) |
+| [Glue Up](servers/glue-up/) | crm | 17 | OAuth | [servers/glue-up/](servers/glue-up/) |
+| [Extensiv](servers/extensiv/) | inventory | 20 | OAuth | [servers/extensiv/](servers/extensiv/) |
+| [Zenfulfillment](servers/zenfulfillment/) | shipping | 13 | OAuth | [servers/zenfulfillment/](servers/zenfulfillment/) |
+| [Taleez](servers/taleez/) | hr | 29 | OAuth | [servers/taleez/](servers/taleez/) |
+| [Desk365](servers/desk365/) | support | 17 | OAuth | [servers/desk365/](servers/desk365/) |
+| [RemoteLock](servers/remotelock/) | property-management | 24 | OAuth | [servers/remotelock/](servers/remotelock/) |
 
 _More servers land here as they launch — each is a folder with its own README + `server.json`,
 and a tile on the [portal](https://usefulapi.io)._
