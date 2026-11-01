@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-31
-updated_at: 2026-10-31T15:44:42Z
+version: 2026-11-01
+updated_at: 2026-11-01T01:16:15Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-system/
 ---
 

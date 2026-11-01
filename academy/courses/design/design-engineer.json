@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-10-31T15:44:42Z",
+ "updated_at": "2026-11-01T01:16:15Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 185759,
+      "repo_stars": 185901,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -560,7 +560,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 106772,
+      "repo_stars": 107053,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -605,7 +605,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52290,
+      "repo_stars": 52449,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -650,7 +650,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52290,
+      "repo_stars": 52449,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -695,7 +695,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -740,7 +740,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -785,7 +785,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -830,7 +830,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -875,7 +875,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34145,
+      "repo_stars": 34198,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -920,7 +920,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26230,
+      "repo_stars": 26239,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1929,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "4-do-it",
@@ -1992,7 +1992,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2135,
+      "repo_stars": 2137,
       "repo_pushed_at": "2026-10-28",
       "registry_updated_at": "2025-10-16"
      },
@@ -2495,6 +2495,71 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-com-nodoicons-nodo-icons",
+     "title": "com.nodoicons/nodo-icons",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Search 5,000 Nodo icons, get SVG, React or Vue code. Free Linear style, Pro styles with a license.",
+     "summary_lang": "en",
+     "source_url": "https://nodoicons.com/docs/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "com.nodoicons",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nodoicons/nodo-icons&version=latest",
+      "record": {
+       "description": "Search 5,000 Nodo icons, get SVG, React or Vue code. Free Linear style, Pro styles with a license.",
+       "name": "com.nodoicons/nodo-icons",
+       "packages": [
+        {
+         "env": [],
+         "id": "@nodo-icons/mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": null,
+       "title": null,
+       "version": "0.1.1",
+       "website": "https://nodoicons.com/docs/"
+      }
+     },
+     "install": "npx -y @nodo-icons/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-10-31"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-01T01:16:15Z",
+     "updated_at": "2026-11-01T01:16:15Z",
+     "checked_at": "2026-11-01T01:16:15Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-com-nodoicons-nodo-icons/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-si40code-super-excalidraw",
      "title": "Draw40",
      "type": "mcp",
@@ -2784,8 +2849,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143285,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 143427,
+      "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2829,8 +2894,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143285,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 143427,
+      "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2874,7 +2939,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52290,
+      "repo_stars": 52449,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2919,7 +2984,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -2964,7 +3029,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3009,7 +3074,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3054,7 +3119,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42038,
+      "repo_stars": 42053,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3099,7 +3164,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34145,
+      "repo_stars": 34198,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -3144,7 +3209,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34145,
+      "repo_stars": 34198,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -3189,7 +3254,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34145,
+      "repo_stars": 34198,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -3234,7 +3299,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26230,
+      "repo_stars": 26239,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",

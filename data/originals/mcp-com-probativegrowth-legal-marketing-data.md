@@ -40,6 +40,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [What US state bars charge, and require, to file or review lawyer advertising](https://probativegrowth.com/research/lawyer-ad-filing-fees/) | `data/filing/` | [10.5281/zenodo.23721409](https://doi.org/10.5281/zenodo.23721409) |
 | [The US legal market in numbers: headline findings from Probative's open datasets](https://probativegrowth.com/research/us-legal-market-in-numbers/) | `data/findings/` | [10.5281/zenodo.23748830](https://doi.org/10.5281/zenodo.23748830) |
 | [US law firm websites: practices, Spanish, intake, by state, county and practice area](https://probativegrowth.com/data/firm-web-census/) | `data/firm-web-census/` | [10.5281/zenodo.23750638](https://doi.org/10.5281/zenodo.23750638) |
+| [Flood insurance claims by county and year (FEMA NFIP, OpenFEMA), 1978 to 2026](https://probativegrowth.com/data/flood-claims/) | `data/flood-claims/` | [10.5281/zenodo.23845801](https://doi.org/10.5281/zenodo.23845801) |
 | [New green cards (lawful permanent residents) by county, country of birth and class of admission](https://probativegrowth.com/data/green-cards/) | `data/green-cards/` | [10.5281/zenodo.23753002](https://doi.org/10.5281/zenodo.23753002) |
 | [Hospital patient-safety ratings by state and county: PSI 90 and healthcare-associated infections (CMS Care Compare)](https://probativegrowth.com/data/hospital-safety/) | `data/hospital-safety/` | [10.5281/zenodo.23792821](https://doi.org/10.5281/zenodo.23792821) |
 | [How long federal civil cases take: outcomes, class actions and pro se share by district, nature of suit and year](https://probativegrowth.com/research/how-long-federal-civil-cases-take/) | `data/idb-civil/` | [10.5281/zenodo.23739969](https://doi.org/10.5281/zenodo.23739969) |
@@ -50,29 +51,33 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [Law offices, jobs and pay by county, with solo-practice counts: BLS QCEW, Census CBP and Nonemployer Statistics](https://probativegrowth.com/research/law-firm-competition-by-county/) | `data/law-offices/` | [10.5281/zenodo.23721415](https://doi.org/10.5281/zenodo.23721415) |
 | [Lawyer, paralegal and legal-staff pay by state and metro (BLS OEWS)](https://probativegrowth.com/data/lawyer-wages/) | `data/lawyer-wages/` | [10.5281/zenodo.23734840](https://doi.org/10.5281/zenodo.23734840) |
 | [Legal-aid, public-interest-law and civil-rights nonprofits by county, from the IRS exempt-organization list](https://probativegrowth.com/data/legal-aid-orgs/) | `data/legal-aid-orgs/` | [10.5281/zenodo.23782867](https://doi.org/10.5281/zenodo.23782867) |
-| [Legal need by county: who may need a lawyer, from the American Community Survey](https://probativegrowth.com/data/legal-need/) | `data/legal-need/` | [10.5281/zenodo.23741886](https://doi.org/10.5281/zenodo.23741886) |
+| [Legal need by county: who may need a lawyer, from the American Community Survey](https://probativegrowth.com/data/legal-need/) | `data/legal-need/` | [10.5281/zenodo.23845845](https://doi.org/10.5281/zenodo.23845845) |
 | [Legal-services prices and jobs, monthly (BLS CPI, PPI and CES)](https://probativegrowth.com/data/legal-prices/) | `data/legal-prices/` | [10.5281/zenodo.23734854](https://doi.org/10.5281/zenodo.23734854) |
 | [Statutes of limitations by state: personal injury, medical malpractice, wrongful death, product liability and property damage](https://probativegrowth.com/research/statute-of-limitations-by-state/) | `data/limitations/` | [10.5281/zenodo.23743673](https://doi.org/10.5281/zenodo.23743673) |
+| [Marriage and divorce rates by state (CDC NCHS), 1990 to 2024](https://probativegrowth.com/data/marriage-divorce/) | `data/marriage-divorce/` | [10.5281/zenodo.23845898](https://doi.org/10.5281/zenodo.23845898) |
 | [Mass-tort docket tracker, federal MDL pending actions by month since 2019](https://probativegrowth.com/research/mass-tort-mdl-tracker/) | `data/mdl/` | [10.5281/zenodo.23720737](https://doi.org/10.5281/zenodo.23720737) |
 | [Mine accidents, injuries and illnesses by state, county and degree of injury (MSHA), 2000 to 2026](https://probativegrowth.com/data/mine-accidents/) | `data/mine-accidents/` | [10.5281/zenodo.23792833](https://doi.org/10.5281/zenodo.23792833) |
+| [Mortgage delinquency by county and state (CFPB Mortgage Performance Trends), monthly from 2008](https://probativegrowth.com/data/mortgage-delinquency/) | `data/mortgage-delinquency/` | [10.5281/zenodo.23845905](https://doi.org/10.5281/zenodo.23845905) |
 | [Mortgage applications, loans and denials by county: home purchase and refinance lending from HMDA](https://probativegrowth.com/data/mortgage-lending/) | `data/mortgage-lending/` | [10.5281/zenodo.23782874](https://doi.org/10.5281/zenodo.23782874) |
 | [Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations](https://probativegrowth.com/data/nursing-homes/) | `data/nursing-homes/` | [10.5281/zenodo.23741901](https://doi.org/10.5281/zenodo.23741901) |
 | [Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)](https://probativegrowth.com/data/ny-attorneys/) | `data/ny-attorneys/` | [10.5281/zenodo.23753008](https://doi.org/10.5281/zenodo.23753008) |
 | [New York workers' compensation claims by county and accident year](https://probativegrowth.com/data/ny-workers-comp/) | `data/ny-workers-comp/` | [10.5281/zenodo.23753012](https://doi.org/10.5281/zenodo.23753012) |
 | [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | `data/opinions/` | [10.5281/zenodo.23734859](https://doi.org/10.5281/zenodo.23734859) |
 | [Legal ad-platform policy tracker](https://probativegrowth.com/data/platforms/) | `data/platforms/` | [10.5281/zenodo.23716831](https://doi.org/10.5281/zenodo.23716831) |
+| [Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025](https://probativegrowth.com/data/population-change/) | `data/population-change/` | [10.5281/zenodo.23845912](https://doi.org/10.5281/zenodo.23845912) |
 | [Official public statistics behind the practice and state pages: bankruptcy, employment, immigration and personal injury](https://probativegrowth.com/data/practice-official/) | `data/practice-official/` | [10.5281/zenodo.23782885](https://doi.org/10.5281/zenodo.23782885) |
 | [Consumer product recalls by year and hazard (CPSC recall notices)](https://probativegrowth.com/data/product-recalls/) | `data/product-recalls/` | [10.5281/zenodo.23779145](https://doi.org/10.5281/zenodo.23779145) |
 | [Railroad casualties and crossing incidents by county (FRA Forms 55a, 57 and 54)](https://probativegrowth.com/data/rail-casualties/) | `data/rail-casualties/` | [10.5281/zenodo.23753016](https://doi.org/10.5281/zenodo.23753016) |
 | [Referral-fee and fee-splitting rules for lawyers, by state](https://probativegrowth.com/resources/attorney-referral-fee-rules-by-state/) | `data/referral/` | [10.5281/zenodo.23747113](https://doi.org/10.5281/zenodo.23747113) |
 | [Unwanted-call and text-message complaints to the FCC, by state and month](https://probativegrowth.com/data/robocall-complaints/) | `data/robocall-complaints/` | [10.5281/zenodo.23733010](https://doi.org/10.5281/zenodo.23733010) |
 | [State civil-rights agency complaints and charges: figures printed in state annual reports](https://probativegrowth.com/data/state-civil-rights/) | `data/state-civil-rights/` | [10.5281/zenodo.23753029](https://doi.org/10.5281/zenodo.23753029) |
-| [State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine and California](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23777048](https://doi.org/10.5281/zenodo.23777048) |
+| [State trial-court case filings by county, court level and case type: Texas, Washington, Maryland, Indiana, Wisconsin, Virginia, Pennsylvania, Oregon, West Virginia, Nebraska, Maine, California, Louisiana and Hawaii](https://probativegrowth.com/data/state-courts/) | `data/state-courts/` | [10.5281/zenodo.23777048](https://doi.org/10.5281/zenodo.23777048) |
 | [State labor agency wage claims: figures printed in state reports](https://probativegrowth.com/data/state-wage-claims/) | `data/state-wage-claims/` | [10.5281/zenodo.23753046](https://doi.org/10.5281/zenodo.23753046) |
 | [Toxic chemical releases by county (EPA Toxics Release Inventory)](https://probativegrowth.com/data/toxic-releases/) | `data/toxic-releases/` | [10.5281/zenodo.23753052](https://doi.org/10.5281/zenodo.23753052) |
 | [Truck and bus crashes by county, state and year (FMCSA crash file)](https://probativegrowth.com/data/truck-crashes/) | `data/truck-crashes/` | [10.5281/zenodo.23743677](https://doi.org/10.5281/zenodo.23743677) |
 | [Texas employers without workers' compensation coverage (non-subscribers), by county](https://probativegrowth.com/data/tx-nonsubscribers/) | `data/tx-nonsubscribers/` | [10.5281/zenodo.23792847](https://doi.org/10.5281/zenodo.23792847) |
 | [County and state unemployment: BLS Local Area Unemployment Statistics, annual averages and latest month](https://probativegrowth.com/data/unemployment/) | `data/unemployment/` | [10.5281/zenodo.23753061](https://doi.org/10.5281/zenodo.23753061) |
+| [Union membership and representation by state (BLS Union Members), 2024 and 2025](https://probativegrowth.com/data/union-membership/) | `data/union-membership/` | [10.5281/zenodo.23845987](https://doi.org/10.5281/zenodo.23845987) |
 | [USCIS naturalization and green card applications by field office](https://probativegrowth.com/data/uscis-offices/) | `data/uscis-offices/` | [10.5281/zenodo.23753086](https://doi.org/10.5281/zenodo.23753086) |
 | [VA disability compensation recipients by county and combined rating](https://probativegrowth.com/data/va-compensation/) | `data/va-compensation/` | [10.5281/zenodo.23744210](https://doi.org/10.5281/zenodo.23744210) |
 | [VA disability compensation, pension and survivor dollars by county (VA GDX report)](https://probativegrowth.com/data/va-spending/) | `data/va-spending/` | [10.5281/zenodo.23753088](https://doi.org/10.5281/zenodo.23753088) |
@@ -80,7 +85,7 @@ Every record quotes its primary source and the date it was checked. Each dataset
 | [VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation](https://probativegrowth.com/data/veterans-representation/) | `data/veterans-representation/` | [10.5281/zenodo.23740008](https://doi.org/10.5281/zenodo.23740008) |
 | [Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)](https://probativegrowth.com/data/wage-enforcement/) | `data/wage-enforcement/` | [10.5281/zenodo.23744226](https://doi.org/10.5281/zenodo.23744226) |
 | [WARN Act layoff and closure notices by county: California and Texas](https://probativegrowth.com/data/warn-layoffs/) | `data/warn-layoffs/` | [10.5281/zenodo.23753097](https://doi.org/10.5281/zenodo.23753097) |
-| [Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state](https://probativegrowth.com/data/wc-benefits/) | `data/wc-benefits/` | [10.5281/zenodo.23792850](https://doi.org/10.5281/zenodo.23792850) |
+| [Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state](https://probativegrowth.com/data/wc-benefits/) | `data/wc-benefits/` | [10.5281/zenodo.23844619](https://doi.org/10.5281/zenodo.23844619) |
 | [Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)](https://probativegrowth.com/data/work-injuries/) | `data/work-injuries/` | [10.5281/zenodo.23740010](https://doi.org/10.5281/zenodo.23740010) |
 
 Each folder holds the full CSV and JSON, a `README.txt` with the fields, `changes.json` (the change log), `openapi.json`, and `CITATION.cff`. The root has a `CITATION.cff` (GitHub's "Cite this repository" button) and a [Frictionless](https://frictionlessdata.io/) `datapackage.json` that describes every CSV and its fields. Each dataset version has a tagged release.
@@ -141,6 +146,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.
 - `https://probativegrowth.com/mcp/findings`: Headline US legal-market counts, each with its denominator, limits and source dataset DOI.
 - `https://probativegrowth.com/mcp/firm-web-census`: US law firms by state, county and practice: firms per practice, Spanish pages, 24/7 intake, coverage vs Census counts.
+- `https://probativegrowth.com/mcp/flood-claims`: FEMA NFIP flood insurance claims and dollars paid by county, state and year of loss, 1978-2026, with the top storm since 2016.
 - `https://probativegrowth.com/mcp/green-cards`: New green cards (lawful permanent residents) in the top 200 counties by class of admission and country of birth, with state totals.
 - `https://probativegrowth.com/mcp/hospital-safety`: CMS Care Compare hospital patient-safety (PSI 90) and infection ratings by state and county, rated against the national benchmark.
 - `https://probativegrowth.com/mcp/idb-civil`: Federal civil case outcomes (FJC IDB): time to disposition, how cases end, class actions and pro se share, by district and type.
@@ -151,29 +157,33 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/law-offices`: Law offices, jobs and pay by county, with solo-practice counts (BLS, Census).
 - `https://probativegrowth.com/mcp/lawyer-wages`: Lawyer and paralegal pay by state and metro from BLS OEWS: employment, mean and median wages and percentiles.
 - `https://probativegrowth.com/mcp/legal-aid-orgs`: Legal-aid, public-interest-law and civil-rights nonprofits per county, state and US, by type and revenue band (IRS EO BMF).
-- `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, noncitizens, LEP, divorced, veterans, renters.
+- `https://probativegrowth.com/mcp/legal-need`: Who may need a lawyer in every US county (Census ACS): 65+, 75+, 85+, living alone, noncitizens, LEP, divorced, veterans, renters.
 - `https://probativegrowth.com/mcp/legal-prices`: Legal-services prices and jobs, monthly from BLS: the CPI and PPI legal-services indexes and legal-services employment.
 - `https://probativegrowth.com/mcp/limitations`: Statutes of limitations by state for five kinds of civil claim, quoted from the code.
+- `https://probativegrowth.com/mcp/marriage-divorce`: CDC NCHS divorce and marriage rates per 1,000 residents by state, 1990-2024, and national divorce and marriage counts since 2000.
 - `https://probativegrowth.com/mcp/mdl`: Pending actions in every federal MDL, monthly since 2019.
 - `https://probativegrowth.com/mcp/mine-accidents`: MSHA mine accident, injury and illness reports by state, county and degree of injury, 2000 to 2026, coal and metal/nonmetal.
+- `https://probativegrowth.com/mcp/mortgage-delinquency`: CFPB share of mortgages 90+ and 30-89 days delinquent by county and state, monthly since 2008, with the change and the 2008-2025 high.
 - `https://probativegrowth.com/mcp/mortgage-lending`: HMDA home-purchase and refinance applications, loans, dollars and denial rates by county, state and US.
 - `https://probativegrowth.com/mcp/nursing-homes`: Nursing home fines, harm and abuse citations by county and state, from CMS, monthly.
 - `https://probativegrowth.com/mcp/ny-attorneys`: New York attorneys by county of office, registration status and admission decade, per 10,000 residents, from the court registry.
 - `https://probativegrowth.com/mcp/ny-workers-comp`: New York workers' compensation claims by county and accident year: attorney share, controverted, hearings, permanent disability.
 - `https://probativegrowth.com/mcp/opinions`: State and ABA ethics opinions on lawyer advertising and marketing, 2015 to 2026.
 - `https://probativegrowth.com/mcp/platforms`: Ad-platform policies that touch law-firm ads: Google, Microsoft, Meta, LinkedIn, YouTube, ChatGPT.
+- `https://probativegrowth.com/mcp/population-change`: Census county deaths, births, international and domestic migration, and residents 65+, 75+ and 85+, Vintage 2025 (years 2020 to 2025).
 - `https://probativegrowth.com/mcp/practice-official`: Official statistics (U.S. Courts, EEOC, EOIR, NHTSA FARS) quoted on the practice x state pages, one sourced sentence per record.
 - `https://probativegrowth.com/mcp/product-recalls`: CPSC consumer product recalls by year and hazard class, with the notices that report an injury or a death.
 - `https://probativegrowth.com/mcp/rail-casualties`: Railroad casualties, crossing incidents and train accidents by county from FRA Forms 55a, 57 and 54, by who was hurt.
 - `https://probativegrowth.com/mcp/referral`: Referral-fee and fee-splitting rules for lawyers, by state.
 - `https://probativegrowth.com/mcp/robocall-complaints`: FCC complaints about unwanted calls and texts, by state and month.
 - `https://probativegrowth.com/mcp/state-civil-rights`: State civil-rights agency complaint and charge counts with the source document and quote for each figure.
-- `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX WA MD IN WI VA PA OR WV NE ME CA), by practice area, with county FIPS.
+- `https://probativegrowth.com/mcp/state-courts`: State trial-court case filings by county and case type (TX WA MD IN WI VA PA OR WV NE ME CA LA HI), by practice area, with county FIPS.
 - `https://probativegrowth.com/mcp/state-wage-claims`: State labor agency wage claim counts with the source document and quote for each figure.
 - `https://probativegrowth.com/mcp/toxic-releases`: EPA TRI toxic chemical releases by county: facilities, pounds on site, carcinogens, PFAS, benzene, lead, ethylene oxide.
 - `https://probativegrowth.com/mcp/truck-crashes`: FMCSA truck and bus crashes by county, state and year: fatal and injury crashes, deaths and injuries, ten years.
 - `https://probativegrowth.com/mcp/tx-nonsubscribers`: Texas employers with no workers' compensation coverage (DWC Form-005 filings), counted by county, 2024 to 2026.
 - `https://probativegrowth.com/mcp/unemployment`: BLS county and state unemployment rate, unemployed and labor force, annual averages and the latest month.
+- `https://probativegrowth.com/mcp/union-membership`: BLS union members and workers represented by unions by state, 2024-2025: thousands and percent of employed wage and salary workers.
 - `https://probativegrowth.com/mcp/uscis-offices`: USCIS naturalization (N-400) and green card (I-485) applications received, decided and pending, by field office and quarter.
 - `https://probativegrowth.com/mcp/va-compensation`: VA disability compensation recipients by county and combined rating (0-20% to 100%), age, sex, FY2025 vs FY2024.
 - `https://probativegrowth.com/mcp/va-spending`: VA compensation, pension and survivor benefit dollars by county, FY2025, with the year-earlier change.

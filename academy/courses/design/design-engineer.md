@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-10-31
-updated_at: 2026-10-31T15:44:42Z
+version: 2026-11-01
+updated_at: 2026-11-01T01:16:15Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-engineer/
 ---
 
@@ -305,6 +305,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/jmshinhwa/readystack-themes
   license: proprietary
   install: npx -y @readystack/tailwind-v4-upgrade-blocker-lint
+  needs_credentials: false, writes_external: false
+- [mcp] com.nodoicons/nodo-icons. Search 5,000 Nodo icons, get SVG, React or Vue code. Free Linear style, Pro styles with a license.
+  source: https://nodoicons.com/docs/
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: npx -y @nodo-icons/mcp
   needs_credentials: false, writes_external: false
 - [mcp] Draw40. Draw40 is an independent diagram workspace with an interactive MCP Apps canvas. OAuth sign-in.
   source: https://draw.404040.net/

@@ -436,7 +436,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Feefo](servers/feefo/) | marketing | 9 | API token | [servers/feefo/](servers/feefo/) |
 | [inv.bg](servers/inv-bg/) | billing | 31 | API token | [servers/inv-bg/](servers/inv-bg/) |
 | [KashFlow](servers/kashflow/) | billing | 42 | API token | [servers/kashflow/](servers/kashflow/) |
-| [Papierkram](servers/papierkram/) | billing | 42 | API token | [servers/papierkram/](servers/papierkram/) |
+| [Papierkram](servers/papierkram/) | billing | 43 | API token | [servers/papierkram/](servers/papierkram/) |
 | [PaySpace](servers/payspace/) | billing | 25 | API token | [servers/payspace/](servers/payspace/) |
 | [Sapo](servers/sapo/) | ecommerce | 24 | API token | [servers/sapo/](servers/sapo/) |
 | [Sarbacane](servers/sarbacane/) | email | 23 | API token | [servers/sarbacane/](servers/sarbacane/) |

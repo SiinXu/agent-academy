@@ -7076,6 +7076,30 @@
 "truncated": false,
 "url": "https://github.com/monetizemarketing/mcp/blob/HEAD/README.md"
 },
+"mcp-com-nodoicons-nodo-icons": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Search 5,000 Nodo icons, get SVG, React or Vue code. Free Linear style, Pro styles with a license.",
+"name": "com.nodoicons/nodo-icons",
+"packages": [
+{
+"env": [],
+"id": "@nodo-icons/mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.1"
+}
+],
+"remotes": [],
+"repository": null,
+"title": null,
+"version": "0.1.1",
+"website": "https://nodoicons.com/docs/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nodoicons/nodo-icons&version=latest"
+},
 "mcp-com-nuxtseo-nuxt-seo": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8306,13 +8330,13 @@
 "id": "mcp-shopify-admin",
 "transport": "stdio",
 "type": "npm",
-"version": "1.2.0"
+"version": "1.2.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/A1-x-Tech/mcp-shopify-admin",
 "title": "Shopify Admin MCP",
-"version": "1.2.0",
+"version": "1.2.1",
 "website": "https://github.com/A1-x-Tech/mcp-shopify-admin#readme"
 },
 "truncated": false,
@@ -12761,7 +12785,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.30.0",
+"version": "1.33.0",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
