@@ -2,7 +2,7 @@
 name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-01
-updated_at: 2026-11-01T01:16:15Z
+updated_at: 2026-11-01T16:48:58Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-reviewer/
 ---
 
@@ -49,11 +49,11 @@ Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/
 - minimal: 1628 items
 - motion: 649 items
 - 3d: 636 items
-- editorial: 595 items
+- editorial: 596 items
 - playful: 564 items
 - gradient: 285 items
 - retro: 118 items
-- dark-tech: 111 items
+- dark-tech: 112 items
 - glass: 56 items
 - enterprise: 45 items
 - swiss: 27 items

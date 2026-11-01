@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-01
-updated_at: 2026-11-01T01:16:15Z
+updated_at: 2026-11-01T16:48:58Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-agent/
 ---
 
@@ -233,18 +233,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: NOASSERTION
   install: npx -y @mindstone/mcp-server-zendesk
   needs_credentials: true, writes_external: false
-- [mcp] HasData Shopify. The public product catalogue and collections of any Shopify storefront, as structured JSON.
-  source: https://github.com/HasData/shopify-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md
-  license: MIT
-  install: npx -y @hasdata/shopify-mcp
-  needs_credentials: true, writes_external: false
 - [mcp] io.github.michaelrice/zendesk-mcp. Zendesk MCP server for Claude Code and other MCP clients
   source: https://github.com/michaelrice/zendesk-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md
   license: Apache-2.0
   install: uvx zendesk-mcp
   needs_credentials: false, writes_external: false
+- [mcp] HasData Shopify. The public product catalogue and collections of any Shopify storefront, as structured JSON.
+  source: https://github.com/HasData/shopify-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md
+  license: MIT
+  install: npx -y @hasdata/shopify-mcp
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.alex-brecher/shopify-multi-store. Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.
   source: https://github.com/alex-brecher/shopify-multi-store
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alex-brecher-shopify-multi-store.md

@@ -2,7 +2,7 @@
 name: customer-service-support-lead
 description: Agent Academy course for Escalations and lead (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-01
-updated_at: 2026-11-01T01:16:15Z
+updated_at: 2026-11-01T16:48:58Z
 source: https://siinxu.github.io/agent-academy/courses/customer-service/support-lead/
 ---
 

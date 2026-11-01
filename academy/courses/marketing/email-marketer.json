@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-11-01T01:16:15Z",
+ "updated_at": "2026-11-01T16:48:58Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -794,6 +794,75 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-press-request-desk",
+     "title": "Press Request Desk",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Catches journalist source requests on X and in free request newsletters that fit your expertise.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/press-request-desk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "grokbotspot",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/press-request-desk",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "grokbotspot",
+       "firstSeen": "2026-10-31",
+       "integrations": [
+        "x"
+       ],
+       "name": "Press Request Desk",
+       "official": false,
+       "page": "https://botsdots.site/templates/press-request-desk",
+       "risk": "low",
+       "summary": "Catches journalist source requests on X and in free request newsletters that fit your expertise."
+      }
+     },
+     "install": "https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": [
+       "x"
+      ]
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-10-31"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-31T15:44:42Z",
+     "updated_at": "2026-11-01T16:48:58Z",
+     "checked_at": "2026-10-31T15:44:42Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-press-request-desk/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-sentinel-nafa",
      "title": "Sentinel",
      "type": "template",
@@ -927,73 +996,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-sponsor-hunter/",
      "source": "botsdots"
-    },
-    {
-     "id": "botsdots-newsletter-draft-routine-by-karata",
-     "title": "Newsletter Draft Routine by Karata",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for review.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/newsletter-draft-routine-by-karata",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "karatademada",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/newsletter-draft-routine-by-karata",
-      "record": {
-       "access": [
-        "inbox"
-       ],
-       "add": "https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "karatademada",
-       "firstSeen": "2026-10-25",
-       "integrations": [],
-       "name": "Newsletter Draft Routine by Karata",
-       "official": false,
-       "page": "https://botsdots.site/templates/newsletter-draft-routine-by-karata",
-       "risk": "medium",
-       "summary": "Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for review."
-      }
-     },
-     "install": "https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "medium",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 6,
-      "first_seen_catalog": "2026-10-25"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-25T14:23:36Z",
-     "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/botsdots-newsletter-draft-routine-by-karata/",
-     "source": "botsdots"
     }
    ]
   },
@@ -1122,7 +1124,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57689,
+      "repo_stars": 57800,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1167,7 +1169,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57689,
+      "repo_stars": 57800,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1212,7 +1214,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57689,
+      "repo_stars": 57800,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1257,7 +1259,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57689,
+      "repo_stars": 57800,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1302,7 +1304,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1347,8 +1349,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34198,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 34321,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1392,8 +1394,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34198,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 34321,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2880,7 +2882,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57689,
+      "repo_stars": 57800,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2925,7 +2927,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57689,
+      "repo_stars": 57800,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2970,7 +2972,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3015,7 +3017,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3060,7 +3062,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",

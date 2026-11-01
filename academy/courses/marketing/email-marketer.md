@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-01
-updated_at: 2026-11-01T01:16:15Z
+updated_at: 2026-11-01T16:48:58Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/email-marketer/
 ---
 
@@ -83,6 +83,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/-Q150uwypm_hR4MF3IokP
   needs_credentials: false, writes_external: false
+- [template] Press Request Desk. Catches journalist source requests on X and in free request newsletters that fit your expertise.
+  source: https://botsdots.site/templates/press-request-desk
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv
+  needs_credentials: true, writes_external: false
 - [template] Sentinel. Compliance officer for insurance marketing copy. Reviews outbound emails, site pages, and blog posts before publish
   source: https://botsdots.site/templates/sentinel-nafa
   license: template belongs to its creator (catalog CC0)
@@ -92,11 +97,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/sponsor-hunter
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ
-  needs_credentials: false, writes_external: false
-- [template] Newsletter Draft Routine by Karata. Drafts your next newsletter issue the day before it goes out, in your own style, and saves it as a draft for review.
-  source: https://botsdots.site/templates/newsletter-draft-routine-by-karata
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/nQEgiP-R4IZE_qkx5ZSw1
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

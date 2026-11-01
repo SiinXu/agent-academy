@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-01T01:16:15Z",
+ "updated_at": "2026-11-01T16:48:58Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1682,7 +1682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143599,
+      "repo_stars": 143653,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -1727,8 +1727,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30425,
-      "repo_pushed_at": "2026-10-30"
+      "repo_stars": 30434,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2179,7 +2179,7 @@
      },
      "metrics": {
       "repo_stars": 14,
-      "repo_pushed_at": "2026-10-31",
+      "repo_pushed_at": "2026-11-01",
       "registry_updated_at": "2026-10-31"
      },
      "course_step": "4-do-it",
@@ -2282,6 +2282,71 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-michaelrice-zendesk-mcp",
+     "title": "io.github.michaelrice/zendesk-mcp",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Zendesk MCP server for Claude Code and other MCP clients",
+     "summary_lang": "en",
+     "source_url": "https://github.com/michaelrice/zendesk-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "michaelrice/zendesk-mcp",
+     "author": "io.github.michaelrice",
+     "license": "Apache-2.0",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Zendesk MCP server for Claude Code and other MCP clients",
+       "name": "io.github.michaelrice/zendesk-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "zendesk-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.1.6"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/michaelrice/zendesk-mcp",
+       "title": null,
+       "version": "0.1.6",
+       "website": null
+      }
+     },
+     "install": "uvx zendesk-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 8,
+      "repo_pushed_at": "2026-10-08",
+      "registry_updated_at": "2026-10-08"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-22T00:43:10Z",
+     "checked_at": "2026-10-26T16:48:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-michaelrice-zendesk-mcp/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-com-hasdata-shopify",
      "title": "HasData Shopify",
      "type": "mcp",
@@ -2377,71 +2442,6 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/mcp-com-hasdata-shopify/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-michaelrice-zendesk-mcp",
-     "title": "io.github.michaelrice/zendesk-mcp",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Zendesk MCP server for Claude Code and other MCP clients",
-     "summary_lang": "en",
-     "source_url": "https://github.com/michaelrice/zendesk-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "michaelrice/zendesk-mcp",
-     "author": "io.github.michaelrice",
-     "license": "Apache-2.0",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Zendesk MCP server for Claude Code and other MCP clients",
-       "name": "io.github.michaelrice/zendesk-mcp",
-       "packages": [
-        {
-         "env": [],
-         "id": "zendesk-mcp",
-         "transport": "stdio",
-         "type": "pypi",
-         "version": "0.1.6"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/michaelrice/zendesk-mcp",
-       "title": null,
-       "version": "0.1.6",
-       "website": null
-      }
-     },
-     "install": "uvx zendesk-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 7,
-      "repo_pushed_at": "2026-10-08",
-      "registry_updated_at": "2026-10-08"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-10-26T16:48:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/mcp-io-github-michaelrice-zendesk-mcp/",
      "source": "mcp-registry"
     },
     {

@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-01
-updated_at: 2026-11-01T01:16:15Z
+updated_at: 2026-11-01T16:48:58Z
 source: https://siinxu.github.io/agent-academy/courses/marketing/social-media-manager/
 ---
 
@@ -73,6 +73,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
   needs_credentials: false, writes_external: true
+- [template] Draft Doctor. A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks.
+  source: https://botsdots.site/templates/draft-doctor
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Vu4hBeb6zFOVpNluSscaO
+  needs_credentials: false, writes_external: false
+- [template] Knox. Your X expert strategist and social media intelligence, born on X.
+  source: https://botsdots.site/templates/knox
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/sXL-UTPMuaJem4bZMuugH
+  needs_credentials: true, writes_external: false
 - [template] Social Media Manager. Learns from your real post history, posts in your voice through Buffer and can auto-post a daily verse, quote or tip.
   source: https://botsdots.site/templates/social-media-manager-jh9r
   license: template belongs to its creator (catalog CC0)
@@ -83,21 +93,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e
   needs_credentials: false, writes_external: false
-- [template] Social Media Manager Template. A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.
-  source: https://botsdots.site/templates/social-media-manager-template
+- [template] 𝕏 CMO & Social Media Manager. Your X social media manager: drafts posts and replies in your voice, runs a Google Sheets content calendar.
+  source: https://botsdots.site/templates/x-cmo-social-media-manager
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT
+  install: https://x.ai/bot/x0lQBpfikxNIYVDWzYCWt
   needs_credentials: true, writes_external: false
-- [template] UniFlow Social Agent. A social media content strategist that plans your week of posts and writes drafts for X, Instagram, Facebook, LinkedIn, Threads, Bluesky and more.
-  source: https://botsdots.site/templates/uniflow-social-agent
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/l7teR_Bwnhh4kTSb-S97a
-  needs_credentials: true, writes_external: false
-- [template] Draft Doctor. A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks.
-  source: https://botsdots.site/templates/draft-doctor
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/Vu4hBeb6zFOVpNluSscaO
-  needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
 

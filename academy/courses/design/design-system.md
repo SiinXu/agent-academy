@@ -2,7 +2,7 @@
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-01
-updated_at: 2026-11-01T01:16:15Z
+updated_at: 2026-11-01T16:48:58Z
 source: https://siinxu.github.io/agent-academy/courses/design/design-system/
 ---
 
@@ -49,11 +49,11 @@ Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/
 - minimal: 1628 items
 - motion: 649 items
 - 3d: 636 items
-- editorial: 595 items
+- editorial: 596 items
 - playful: 564 items
 - gradient: 285 items
 - retro: 118 items
-- dark-tech: 111 items
+- dark-tech: 112 items
 - glass: 56 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -92,6 +92,11 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Uee0xHoPqejKtkiWYVBYG
   needs_credentials: false, writes_external: false
+- [template] Brand Guardian. Holds your brand kit and reviews posts, decks, videos and designs against it, returning a pass or exact fixes.
+  source: https://botsdots.site/templates/brand-guardian
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/kUdKaZJJ2_WhEcssQABhA
+  needs_credentials: false, writes_external: true
 - [design-system] Adobe Spectrum. The design language across Adobe’s product suite
   source: https://spectrum.adobe.com/
   license: see source (listed via UI Hub)
@@ -154,10 +159,6 @@ First case to read: how this site was designed by an agent: https://siinxu.githu
   needs_credentials: false, writes_external: false
 - [design-system] Spectrum 2. The next generation of Spectrum visuals and components
   source: https://s2.spectrum.adobe.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [design-system] Twilio Paste. Twilio’s public design system with well-structured component docs
-  source: https://paste.twilio.design/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

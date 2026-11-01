@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-11-01T01:16:15Z",
+ "updated_at": "2026-11-01T16:48:58Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -498,6 +498,72 @@
       "source": 200
      },
      "page": "https://siinxu.github.io/agent-academy/r/botsdots-art-direction-web-designer/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-brand-guardian",
+     "title": "Brand Guardian",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Holds your brand kit and reviews posts, decks, videos and designs against it, returning a pass or exact fixes.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/brand-guardian",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "buckleyplanet",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/brand-guardian",
+      "record": {
+       "access": [
+        "publishing"
+       ],
+       "add": "https://x.ai/bot/kUdKaZJJ2_WhEcssQABhA",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "buckleyplanet",
+       "firstSeen": "2026-10-31",
+       "integrations": [],
+       "name": "Brand Guardian",
+       "official": false,
+       "page": "https://botsdots.site/templates/brand-guardian",
+       "risk": "high",
+       "summary": "Holds your brand kit and reviews posts, decks, videos and designs against it, returning a pass or exact fixes."
+      }
+     },
+     "install": "https://x.ai/bot/kUdKaZJJ2_WhEcssQABhA",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 5,
+      "first_seen_catalog": "2026-10-31"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-01T16:48:58Z",
+     "updated_at": "2026-11-01T16:48:58Z",
+     "checked_at": "2026-11-01T16:48:58Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://siinxu.github.io/agent-academy/r/botsdots-brand-guardian/",
      "source": "botsdots"
     },
     {
@@ -1235,52 +1301,6 @@
      },
      "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-adobe-spectrum-2/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-twilio-paste",
-     "title": "Twilio Paste",
-     "type": "design-system",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "Twilio’s public design system with well-structured component docs",
-     "summary_lang": "en",
-     "source_url": "https://paste.twilio.design/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Twilio",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-10-27T01:21:14Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://siinxu.github.io/agent-academy/r/uihub-ued-twilio-paste/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1364,7 +1384,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 185901,
+      "repo_stars": 186209,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1409,7 +1429,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 185901,
+      "repo_stars": 186209,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1454,8 +1474,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143427,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 143712,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1499,8 +1519,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143427,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 143712,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1544,8 +1564,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143427,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 143712,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1589,7 +1609,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1634,7 +1654,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1679,7 +1699,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1724,7 +1744,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1769,7 +1789,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1814,7 +1834,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1859,7 +1879,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -1904,8 +1924,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34198,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 34321,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1949,8 +1969,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34198,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 34321,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1994,7 +2014,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26239,
+      "repo_stars": 26248,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -2772,7 +2792,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143599,
+      "repo_stars": 143653,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2817,7 +2837,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "4-do-it",
@@ -3448,8 +3468,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143427,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 143712,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3493,8 +3513,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143427,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 143712,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3538,7 +3558,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52449,
+      "repo_stars": 52658,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -3583,7 +3603,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3628,7 +3648,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3673,7 +3693,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3718,7 +3738,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42053,
+      "repo_stars": 42073,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
@@ -3763,8 +3783,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34198,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 34321,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3808,8 +3828,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34198,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 34321,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3853,8 +3873,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34198,
-      "repo_pushed_at": "2026-10-31"
+      "repo_stars": 34321,
+      "repo_pushed_at": "2026-11-01"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3898,7 +3918,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26239,
+      "repo_stars": 26248,
       "repo_pushed_at": "2026-10-30"
      },
      "course_step": "3-learn-rules",
