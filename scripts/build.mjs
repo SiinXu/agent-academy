@@ -5,7 +5,7 @@ import { SITE_MAP, MODULES } from '../directions/mapping.mjs';
 import { seoHead, ROBOTS, sitemaps, ORG } from './seo.mjs';
 
 const BASE = (process.env.BASE || '/agent-academy/').replace(/\/?$/, '/');
-const SITE = (process.env.SITE || 'https://siinxu.github.io/agent-academy').replace(/\/$/, '');
+const SITE = (process.env.SITE || 'https://academy.incidental.site').replace(/\/$/, '');
 const REPO = process.env.REPO || 'SiinXu/agent-academy';
 const RAW = `https://raw.githubusercontent.com/${REPO}/main`;
 const DIST = path.join(ROOT, 'dist');
