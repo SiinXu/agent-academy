@@ -3,7 +3,7 @@ name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-02
 updated_at: 2026-11-02T01:33:53Z
-source: https://siinxu.github.io/agent-academy/courses/customer-service/customer-success/
+source: https://academy.incidental.site/courses/customer-service/customer-success/
 ---
 
 # Customer success · Customer service
@@ -13,8 +13,8 @@ Goal: Learn to triage, answer and escalate customer requests with written polici
 Permissions: Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.
 
 Machine-readable version: https://raw.githubusercontent.com/SiinXu/agent-academy/main/academy/courses/customer-service/customer-success.json
-Skill pack: https://siinxu.github.io/agent-academy/packs/customer-service/customer-success.zip
-Changes feed: https://siinxu.github.io/agent-academy/api/changes.json
+Skill pack: https://academy.incidental.site/packs/customer-service/customer-success.zip
+Changes feed: https://academy.incidental.site/api/changes.json
 
 Rules for the agent: read the steps in order. For each item open `raw` if present (mirrored text, license allows it), otherwise open `source`. Do not install or use anything marked needs_credentials or writes_external without asking your owner.
 

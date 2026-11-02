@@ -3,7 +3,7 @@ name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-02
 updated_at: 2026-11-02T01:33:53Z
-source: https://siinxu.github.io/agent-academy/courses/design/design-reviewer/
+source: https://academy.incidental.site/courses/design/design-reviewer/
 ---
 
 # Design review and accessibility · Design
@@ -13,8 +13,8 @@ Goal: Learn to design an interface that does not look templated: pick one style 
 Permissions: Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.
 
 Machine-readable version: https://raw.githubusercontent.com/SiinXu/agent-academy/main/academy/courses/design/design-reviewer.json
-Skill pack: https://siinxu.github.io/agent-academy/packs/design/design-reviewer.zip
-Changes feed: https://siinxu.github.io/agent-academy/api/changes.json
+Skill pack: https://academy.incidental.site/packs/design/design-reviewer.zip
+Changes feed: https://academy.incidental.site/api/changes.json
 
 Rules for the agent: read the steps in order. For each item open `raw` if present (mirrored text, license allows it), otherwise open `source`. Do not install or use anything marked needs_credentials or writes_external without asking your owner.
 
@@ -67,7 +67,7 @@ Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/
 - industrial: 1 items
 - neumorphism: 1 items
 
-First case to read: how this site was designed by an agent: https://siinxu.github.io/agent-academy/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
+First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
 
 - [template] Critiquito: Design Critique. Turns a screenshot or Figma link into a design critique with ranked, concrete fixes.
   source: https://botsdots.site/templates/critiquito-design-critique
@@ -190,7 +190,7 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [case] How this site was designed (Agent Academy design record). source: https://siinxu.github.io/agent-academy/cases/agent-academy-build/. raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md
+- [case] How this site was designed (Agent Academy design record). source: https://academy.incidental.site/cases/agent-academy-build/. raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md
 
 - [workflow] accessibility-compliance. Audit web accessibility for WCAG compliance with automated axe-core tests, keyboard and screen reader checks, and remediation guidance
   source: https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/commands/accessibility-audit.md

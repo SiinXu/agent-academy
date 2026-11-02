@@ -3,7 +3,7 @@ name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-02
 updated_at: 2026-11-02T01:33:53Z
-source: https://siinxu.github.io/agent-academy/courses/marketing/paid-ads-specialist/
+source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
 # Paid ads · Marketing
@@ -13,8 +13,8 @@ Goal: Learn to plan, write and measure marketing work (content, SEO, email, ads)
 Permissions: Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.
 
 Machine-readable version: https://raw.githubusercontent.com/SiinXu/agent-academy/main/academy/courses/marketing/paid-ads-specialist.json
-Skill pack: https://siinxu.github.io/agent-academy/packs/marketing/paid-ads-specialist.zip
-Changes feed: https://siinxu.github.io/agent-academy/api/changes.json
+Skill pack: https://academy.incidental.site/packs/marketing/paid-ads-specialist.zip
+Changes feed: https://academy.incidental.site/api/changes.json
 
 Rules for the agent: read the steps in order. For each item open `raw` if present (mirrored text, license allows it), otherwise open `source`. Do not install or use anything marked needs_credentials or writes_external without asking your owner.
 
