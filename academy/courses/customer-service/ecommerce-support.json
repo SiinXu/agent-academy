@@ -2,7 +2,7 @@
  "id": "customer-service/ecommerce-support",
  "industry": "customer-service",
  "role": "ecommerce-support",
- "updated_at": "2026-11-02T01:33:53Z",
+ "updated_at": "2026-11-02T20:22:18Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -57,7 +57,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -102,7 +102,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -147,7 +147,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -192,7 +192,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -242,7 +242,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -312,7 +312,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -382,7 +382,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -450,7 +450,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -520,7 +520,7 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -587,7 +587,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -660,7 +660,7 @@
      "status": "active",
      "first_seen": "2026-10-16T14:52:06Z",
      "updated_at": "2026-10-19T16:59:16Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -729,11 +729,77 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-money-finder-xjfl/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-amazon-late",
+     "title": "Amazon Late",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "Watches your shopping email for late Amazon deliveries and drafts compensation requests to Amazon Customer Service, pushing for refunds to your…",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/amazon-late",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Alex",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "facts-only",
+      "url": "https://botsdots.site/templates/amazon-late",
+      "record": {
+       "access": [
+        "inbox"
+       ],
+       "add": "https://x.ai/bot/RlPVwGxOM9pN7s0BBL6kd",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "Public x.ai share page"
+       ],
+       "category": "inbox-calendar",
+       "creator": null,
+       "firstSeen": "2026-11-02",
+       "integrations": [],
+       "name": "Amazon Late",
+       "official": false,
+       "page": "https://botsdots.site/templates/amazon-late",
+       "risk": "medium",
+       "summary": "Watches your shopping email for late Amazon deliveries and drafts compensation requests to Amazon Customer Service, pushing for refunds to your…"
+      }
+     },
+     "install": "https://x.ai/bot/RlPVwGxOM9pN7s0BBL6kd",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 2,
+      "first_seen_catalog": "2026-11-02"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-02T20:22:18Z",
+     "updated_at": "2026-11-02T20:22:18Z",
+     "checked_at": "2026-11-02T20:22:18Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-amazon-late/",
      "source": "botsdots"
     }
    ]
@@ -779,7 +845,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -824,147 +890,12 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/sierra-research-tau2-bench-data-tau2-domains-retail-policy-md/",
      "source": "seed"
-    },
-    {
-     "id": "google-adk-recipes-plugins-retail-skills-virtual-tryon",
-     "title": "retail-virtual-tryon",
-     "type": "skill",
-     "industry": "customer-service",
-     "roles": [
-      "ecommerce-support"
-     ],
-     "summary": "Creates virtual try-on agents supporting image and video (catwalk animation) try-ons on Google Cloud (Gemini image models and Veo on Gemini Enterprise Agent Platform). Handles resource setup, user photo uploading, image/video generation pipelines, local testing, and evaluation.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/virtual-tryon/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/google-adk-recipes-plugins-retail-skills-virtual-tryon.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/plugins/retail/skills/virtual-tryon/SKILL.md",
-     "repo": "google/adk-recipes",
-     "author": "google",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/virtual-tryon/SKILL.md"
-     },
-     "install": "npx skills add google/adk-recipes --skill virtual-tryon",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 10567,
-      "repo_pushed_at": "2026-11-01"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/google-adk-recipes-plugins-retail-skills-virtual-tryon/",
-     "source": "github"
-    },
-    {
-     "id": "sierra-research-tau2-bench-data-tau2-domains-airline-policy",
-     "title": "tau2-bench airline agent policy",
-     "type": "system-prompt",
-     "industry": "customer-service",
-     "roles": [
-      "ecommerce-support"
-     ],
-     "summary": "The current time is 2024-05-15 15:00:00 EST.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/airline/policy.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/sierra-research-tau2-bench-data-tau2-domains-airline-policy.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/data/tau2/domains/airline/policy.md",
-     "repo": "sierra-research/tau2-bench",
-     "author": "sierra-research",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/airline/policy.md"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 2368,
-      "repo_pushed_at": "2026-10-30"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/sierra-research-tau2-bench-data-tau2-domains-airline-policy/",
-     "source": "github"
-    },
-    {
-     "id": "sierra-research-tau2-bench-data-tau2-domains-telecom-main-policy",
-     "title": "tau2-bench telecom agent policy",
-     "type": "system-prompt",
-     "industry": "customer-service",
-     "roles": [
-      "ecommerce-support"
-     ],
-     "summary": "The current time is 2025-02-25 12:08:00 EST.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/telecom/main_policy.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/sierra-research-tau2-bench-data-tau2-domains-telecom-main-policy.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/data/tau2/domains/telecom/main_policy.md",
-     "repo": "sierra-research/tau2-bench",
-     "author": "sierra-research",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/telecom/main_policy.md"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 2368,
-      "repo_pushed_at": "2026-10-30"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/sierra-research-tau2-bench-data-tau2-domains-telecom-main-policy/",
-     "source": "github"
     },
     {
      "id": "prompts-chat-legal-document-generator-agent-role",
@@ -1004,7 +935,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1049,7 +980,7 @@
      "status": "active",
      "first_seen": "2026-10-31T15:44:42Z",
      "updated_at": "2026-10-31T15:44:42Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1099,7 +1030,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1144,7 +1075,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1189,7 +1120,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1234,7 +1165,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1284,7 +1215,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1329,7 +1260,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1374,7 +1305,7 @@
      "status": "active",
      "first_seen": "2026-10-28T16:38:31Z",
      "updated_at": "2026-10-28T16:38:31Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },

@@ -2,7 +2,7 @@
  "id": "marketing/email-marketer",
  "industry": "marketing",
  "role": "email-marketer",
- "updated_at": "2026-11-02T01:33:53Z",
+ "updated_at": "2026-11-02T20:22:18Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -84,7 +84,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -160,7 +160,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -231,7 +231,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -299,7 +299,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -366,7 +366,7 @@
      "status": "active",
      "first_seen": "2026-10-21T15:15:15Z",
      "updated_at": "2026-10-27T15:53:32Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -441,11 +441,81 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-paste-post-pack/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-press-request-desk",
+     "title": "Press Request Desk",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Catches journalist source requests on X and in free request newsletters that fit your expertise.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/press-request-desk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "grokbotspot",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/press-request-desk",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "grokbotspot",
+       "firstSeen": "2026-11-02",
+       "integrations": [
+        "x"
+       ],
+       "name": "Press Request Desk",
+       "official": false,
+       "page": "https://botsdots.site/templates/press-request-desk",
+       "risk": "low",
+       "summary": "Catches journalist source requests on X and in free request newsletters that fit your expertise."
+      }
+     },
+     "install": "https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": [
+       "x"
+      ]
+     },
+     "metrics": {
+      "score": 9,
+      "first_seen_catalog": "2026-11-02"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-31T15:44:42Z",
+     "updated_at": "2026-11-02T20:22:18Z",
+     "checked_at": "2026-11-02T20:22:18Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-press-request-desk/",
      "source": "botsdots"
     },
     {
@@ -514,7 +584,7 @@
      "status": "active",
      "first_seen": "2026-10-26T16:48:06Z",
      "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -582,7 +652,7 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -651,7 +721,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-31T15:44:42Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -717,11 +787,83 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-ai-copywriter/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-newsletter-editor",
+     "title": "Newsletter Editor",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "email-marketer"
+     ],
+     "summary": "Writes a daily, data-backed X Article newsletter for any crypto token you choose, plus optional morning and evening crypto market snapshots.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/newsletter-editor",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Spinerazor1",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/newsletter-editor",
+      "record": {
+       "access": [
+        "money"
+       ],
+       "add": "https://x.ai/bot/FY3fh36XzhLj8G_ZPKfyN",
+       "cadence": "daily",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "Spinerazor1",
+       "firstSeen": "2026-11-02",
+       "integrations": [
+        "crypto"
+       ],
+       "name": "Newsletter Editor",
+       "official": false,
+       "page": "https://botsdots.site/templates/newsletter-editor",
+       "risk": "high",
+       "summary": "Writes a daily, data-backed X Article newsletter for any crypto token you choose, plus optional morning and evening crypto market snapshots."
+      }
+     },
+     "install": "https://x.ai/bot/FY3fh36XzhLj8G_ZPKfyN",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": [
+       "crypto"
+      ]
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-11-02"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-02T20:22:18Z",
+     "updated_at": "2026-11-02T20:22:18Z",
+     "checked_at": "2026-11-02T20:22:18Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-newsletter-editor/",
      "source": "botsdots"
     },
     {
@@ -786,80 +928,11 @@
      "status": "active",
      "first_seen": "2026-10-27T15:53:32Z",
      "updated_at": "2026-10-27T15:53:32Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-side-hustle-ceo-q150/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-press-request-desk",
-     "title": "Press Request Desk",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Catches journalist source requests on X and in free request newsletters that fit your expertise.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/press-request-desk",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "grokbotspot",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/press-request-desk",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "grokbotspot",
-       "firstSeen": "2026-10-31",
-       "integrations": [
-        "x"
-       ],
-       "name": "Press Request Desk",
-       "official": false,
-       "page": "https://botsdots.site/templates/press-request-desk",
-       "risk": "low",
-       "summary": "Catches journalist source requests on X and in free request newsletters that fit your expertise."
-      }
-     },
-     "install": "https://x.ai/bot/ZSkikZ_8cTAcMJXZPVdGv",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": [
-       "x"
-      ]
-     },
-     "metrics": {
-      "score": 7,
-      "first_seen_catalog": "2026-10-31"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-31T15:44:42Z",
-     "updated_at": "2026-11-01T16:48:58Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/botsdots-press-request-desk/",
      "source": "botsdots"
     },
     {
@@ -923,78 +996,11 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-sentinel-nafa/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-sponsor-hunter",
-     "title": "Sponsor Hunter",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Helps creators find flat-fee sponsors for a newsletter or X account: media kit from real stats, brands that fit, short fixed-price pitches and one follow-up.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/sponsor-hunter",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "karatademada",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/sponsor-hunter",
-      "record": {
-       "access": [
-        "inbox"
-       ],
-       "add": "https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "karatademada",
-       "firstSeen": "2026-10-23",
-       "integrations": [],
-       "name": "Sponsor Hunter",
-       "official": false,
-       "page": "https://botsdots.site/templates/sponsor-hunter",
-       "risk": "medium",
-       "summary": "Helps creators find flat-fee sponsors for a newsletter or X account: media kit from real stats, brands that fit, short fixed-price pitches and one follow-up."
-      }
-     },
-     "install": "https://x.ai/bot/8V3bRj3MJ3gSqPRVwuZGZ",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "medium",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 7,
-      "first_seen_catalog": "2026-10-23"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-23T15:04:39Z",
-     "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/botsdots-sponsor-hunter/",
      "source": "botsdots"
     }
    ]
@@ -1041,7 +1047,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1086,7 +1092,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1124,14 +1130,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57862,
+      "repo_stars": 58072,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1169,14 +1175,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57862,
+      "repo_stars": 58072,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-28T01:26:45Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1214,14 +1220,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57862,
+      "repo_stars": 58072,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-28T01:26:45Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1259,14 +1265,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57862,
+      "repo_stars": 58072,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1304,14 +1310,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1349,14 +1355,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1394,14 +1400,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1446,7 +1452,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1491,7 +1497,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1536,7 +1542,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1581,7 +1587,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1632,7 +1638,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1677,258 +1683,12 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/cyanheads-mailchimp-mcp-server/",
      "source": "seed"
-    },
-    {
-     "id": "mcp-io-github-deyikong-sendgrid-mcp",
-     "title": "SendGrid MCP Server",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "MCP server for SendGrid's v3 API: email marketing, transactional mail, templates, and analytics.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/deyikong/sendgrid-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-deyikong-sendgrid-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "deyikong/sendgrid-mcp",
-     "author": "io.github.deyikong",
-     "license": "ISC",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "ISC",
-      "url": "https://github.com/deyikong/sendgrid-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "MCP server for SendGrid's v3 API: email marketing, transactional mail, templates, and analytics.",
-       "name": "io.github.deyikong/sendgrid-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Your SendGrid API key (must start with 'SG.').",
-           "name": "SENDGRID_API_KEY",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "When true (the default), blocks all write/delete operations at runtime while keeping every tool registered and visible.",
-           "name": "READ_ONLY",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "sendgrid-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.4.0"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/deyikong/sendgrid-mcp",
-       "title": "SendGrid MCP Server",
-       "version": "1.4.0",
-       "website": "https://github.com/deyikong/sendgrid-mcp#readme"
-      }
-     },
-     "install": "npx -y sendgrid-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "SENDGRID_API_KEY",
-       "READ_ONLY"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 4,
-      "repo_pushed_at": "2026-10-28",
-      "registry_updated_at": "2026-09-04"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:41:56Z",
-     "updated_at": "2026-10-15T10:41:56Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-github-deyikong-sendgrid-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-beehiiv-beehiiv",
-     "title": "beehiiv",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/beehiiv/agents",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-beehiiv-beehiiv.md",
-     "upstream_raw_url": null,
-     "repo": "beehiiv/agents",
-     "author": "com.beehiiv",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md",
-      "record": {
-       "description": "Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.",
-       "name": "com.beehiiv/beehiiv",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.beehiiv.com/mcp"
-        }
-       ],
-       "repository": "https://github.com/beehiiv/agents",
-       "title": "beehiiv",
-       "version": "0.1.0",
-       "website": "https://www.beehiiv.com"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.beehiiv.com/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 1,
-      "repo_pushed_at": "2026-10-13",
-      "registry_updated_at": "2026-10-07"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/mcp-com-beehiiv-beehiiv/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-neschadin-sendgrid-mcp",
-     "title": "SendGrid Transactional",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "SendGrid transactional email: preflight send, templates, and delivery diagnostics.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Neschadin/sendgrid-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-neschadin-sendgrid-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "Neschadin/sendgrid-mcp",
-     "author": "io.github.Neschadin",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Neschadin/sendgrid-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "SendGrid transactional email: preflight send, templates, and delivery diagnostics.",
-       "name": "io.github.Neschadin/sendgrid-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "SendGrid API key (SG....)",
-           "name": "SENDGRID_API_KEY",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Default From address. Must be a verified sender.",
-           "name": "SENDGRID_FROM_EMAIL",
-           "required": true,
-           "secret": null
-          },
-          {
-           "description": "Default From display name",
-           "name": "SENDGRID_FROM_NAME",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "global (default) or eu",
-           "name": "SENDGRID_REGION",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "When true, send and mutating tools return an error before any SendGrid request",
-           "name": "READ_ONLY",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "@neschadin/sendgrid-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "3.0.3"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/Neschadin/sendgrid-mcp",
-       "title": "SendGrid Transactional",
-       "version": "3.0.3",
-       "website": null
-      }
-     },
-     "install": "npx -y @neschadin/sendgrid-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "SENDGRID_API_KEY",
-       "SENDGRID_FROM_EMAIL",
-       "SENDGRID_FROM_NAME",
-       "SENDGRID_REGION",
-       "READ_ONLY"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 1,
-      "repo_pushed_at": "2026-10-12",
-      "registry_updated_at": "2026-10-12"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:41:56Z",
-     "updated_at": "2026-10-15T10:41:56Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-github-neschadin-sendgrid-mcp/",
-     "source": "mcp-registry"
     },
     {
      "id": "mcp-ai-chipp-chipp-newsletters",
@@ -1986,7 +1746,7 @@
      "status": "active",
      "first_seen": "2026-10-27T15:53:32Z",
      "updated_at": "2026-10-27T15:53:32Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -2053,16 +1813,16 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-27",
+      "repo_pushed_at": "2026-11-02",
       "registry_updated_at": "2026-10-16"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker/",
      "source": "mcp-registry"
@@ -2127,16 +1887,16 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-10-29",
+      "repo_pushed_at": "2026-11-02",
       "registry_updated_at": "2026-10-26"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-26T16:48:06Z",
      "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-mambabuilt-mcp-newsletter-sponsor-tracker/",
      "source": "mcp-registry"
@@ -2199,9 +1959,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-closermethod-newsletter-growth-mcp/",
      "source": "mcp-registry"
@@ -2287,452 +2047,148 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-teamsincetoday-newsletter-commerce-mcp/",
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-io-github-pipeworx-io-klaviyo",
-     "title": "Klaviyo",
+     "id": "mcp-io-github-atul0016-marketing-content-production",
+     "title": "Marketing Content Production",
      "type": "mcp",
      "industry": "marketing",
      "roles": [
       "email-marketer"
      ],
-     "summary": "Klaviyo MCP Pack — wraps the Klaviyo API for email marketing",
+     "summary": "Brand-safe ad, email, product description, and social content production.",
      "summary_lang": "en",
-     "source_url": "https://github.com/pipeworx-io/mcp-klaviyo",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-klaviyo.md",
-     "upstream_raw_url": null,
-     "repo": "pipeworx-io/mcp-klaviyo",
-     "author": "io.github.pipeworx-io",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/pipeworx-io/mcp-klaviyo/blob/HEAD/README.md",
-      "record": {
-       "description": "Klaviyo MCP Pack — wraps the Klaviyo API for email marketing",
-       "name": "io.github.pipeworx-io/klaviyo",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
-           "name": "PIPEWORX_API_KEY",
-           "required": null,
-           "secret": true
-          }
-         ],
-         "id": "@pipeworx/mcp-klaviyo",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.2.0"
-        }
-       ],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://gateway.pipeworx.io/klaviyo/mcp"
-        }
-       ],
-       "repository": "https://github.com/pipeworx-io/mcp-klaviyo",
-       "title": "Klaviyo",
-       "version": "0.2.0",
-       "website": "https://pipeworx.io/packs/klaviyo"
-      }
-     },
-     "install": "npx -y @pipeworx/mcp-klaviyo",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "PIPEWORX_API_KEY"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-29",
-      "registry_updated_at": "2026-10-29"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-29T16:56:22Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-github-pipeworx-io-klaviyo/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-scalably-klaviyo-mcp",
-     "title": "Klaviyo MCP",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Klaviyo MCP: campaigns, flows, segments, metrics, reports, profiles across many accounts. 24 tools.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/scalably-io/klaviyo-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-scalably-klaviyo-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "scalably-io/klaviyo-mcp",
-     "author": "io.scalably",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/scalably-io/klaviyo-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Klaviyo MCP: campaigns, flows, segments, metrics, reports, profiles across many accounts. 24 tools.",
-       "name": "io.scalably/klaviyo-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Private API key for your main Klaviyo account. Add more accounts with extra KLAVIYO_KEY_<name> variables.",
-           "name": "KLAVIYO_KEY_MAIN",
-           "required": true,
-           "secret": true
-          },
-          {
-           "description": "Klaviyo API base URL, default https://a.klaviyo.com/api",
-           "name": "KLAVIYO_API_BASE",
-           "required": null,
-           "secret": null
-          },
-          {
-           "description": "Base delay in milliseconds for the retry backoff, default 1000",
-           "name": "KLAVIYO_RETRY_BASE_MS",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "@scalably-io/klaviyo-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.0.0"
-        },
-        {
-         "env": [],
-         "id": "https://github.com/scalably-io/klaviyo-mcp/releases/download/v1.0.0/klaviyo-mcp.mcpb",
-         "transport": "stdio",
-         "type": "mcpb",
-         "version": null
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/scalably-io/klaviyo-mcp",
-       "title": "Klaviyo MCP",
-       "version": "1.0.0",
-       "website": "https://scalably.io/mcp/klaviyo-mcp"
-      }
-     },
-     "install": "npx -y @scalably-io/klaviyo-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "KLAVIYO_KEY_MAIN",
-       "KLAVIYO_API_BASE",
-       "KLAVIYO_RETRY_BASE_MS"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-27",
-      "registry_updated_at": "2026-09-09"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-scalably-klaviyo-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-insightfulpipe-klaviyo",
-     "title": "Klaviyo MCP by InsightfulPipe",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Hosted Klaviyo MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Insightful-Pipe/klaviyo-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-klaviyo.md",
-     "upstream_raw_url": null,
-     "repo": "Insightful-Pipe/klaviyo-mcp-server",
-     "author": "com.insightfulpipe",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Insightful-Pipe/klaviyo-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Hosted Klaviyo MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-       "name": "com.insightfulpipe/klaviyo",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://klaviyo.insightfulmcp.com/"
-        }
-       ],
-       "repository": "https://github.com/Insightful-Pipe/klaviyo-mcp-server",
-       "title": "Klaviyo MCP by InsightfulPipe",
-       "version": "1.0.0",
-       "website": "https://insightfulpipe.com/mcp-servers/klaviyo"
-      }
-     },
-     "install": "remote (streamable-http): https://klaviyo.insightfulmcp.com/",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-10",
-      "registry_updated_at": "2026-10-21"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-21T15:15:15Z",
-     "updated_at": "2026-10-21T15:15:15Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/mcp-com-insightfulpipe-klaviyo/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-asklokesh-mailchimp-mcp-server",
-     "title": "Mailchimp",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "MCP server for Mailchimp API integration",
-     "summary_lang": "en",
-     "source_url": "https://github.com/asklokesh/mailchimp-mcp-server",
+     "source_url": "https://mcp-payment-site.vercel.app/marketing-content-production",
      "raw_url": null,
      "upstream_raw_url": null,
-     "repo": "asklokesh/mailchimp-mcp-server",
-     "author": "io.github.asklokesh",
+     "repo": null,
+     "author": "io.github.atul0016",
      "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
       "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.asklokesh/mailchimp-mcp-server&version=latest",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.atul0016/marketing-content-production&version=latest",
       "record": {
-       "description": "MCP server for Mailchimp API integration",
-       "name": "io.github.asklokesh/mailchimp-mcp-server",
+       "description": "Brand-safe ad, email, product description, and social content production.",
+       "name": "io.github.atul0016/marketing-content-production",
        "packages": [
         {
          "env": [
           {
-           "description": "API Key for MAILCHIMP",
-           "name": "MAILCHIMP_API_KEY",
+           "description": "License key from AtulHritik-Mcp-Marketing-Content-Production purchase page.",
+           "name": "EARNALL_MCP_LICENSE_KEY",
            "required": true,
            "secret": true
           },
           {
-           "description": "API URL for MAILCHIMP",
-           "name": "MAILCHIMP_API_URL",
+           "description": "Optional stable private install ID for this user/device.",
+           "name": "EARNALL_MCP_ACTIVATION_ID",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "License validation endpoint.",
+           "name": "EARNALL_MCP_LICENSE_API",
            "required": null,
            "secret": null
           }
          ],
-         "id": "mailchimp-mcp-server",
+         "id": "marketing-content-production-mcp",
          "transport": "stdio",
          "type": "pypi",
-         "version": "0.1.0"
+         "version": "0.1.1"
+        },
+        {
+         "env": [],
+         "id": "docker.io/atulhritik/marketing-content-production-mcp:0.1.0",
+         "transport": "stdio",
+         "type": "oci",
+         "version": null
         }
        ],
        "remotes": [],
-       "repository": "https://github.com/asklokesh/mailchimp-mcp-server",
-       "title": "Mailchimp",
-       "version": "0.1.0",
-       "website": null
+       "repository": null,
+       "title": "Marketing Content Production",
+       "version": "0.1.1",
+       "website": "https://mcp-payment-site.vercel.app/marketing-content-production"
       }
      },
-     "install": "uvx mailchimp-mcp-server",
+     "install": "uvx marketing-content-production-mcp",
      "security": {
       "audited": false,
       "executes_code": true,
       "needs_credentials": true,
       "writes_external": false,
       "credential_names": [
-       "MAILCHIMP_API_KEY",
-       "MAILCHIMP_API_URL"
+       "EARNALL_MCP_LICENSE_KEY",
+       "EARNALL_MCP_ACTIVATION_ID",
+       "EARNALL_MCP_LICENSE_API"
       ]
      },
      "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2025-12-31",
-      "registry_updated_at": "2025-12-31"
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-05-14"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-10-21T00:40:03Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-io-github-asklokesh-mailchimp-mcp-server/",
+     "page": "https://academy.incidental.site/r/mcp-io-github-atul0016-marketing-content-production/",
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-io-github-pipeworx-io-mailchimp",
-     "title": "Mailchimp",
+     "id": "mcp-click-mymarketing-newsletter",
+     "title": "Newsletter",
      "type": "mcp",
      "industry": "marketing",
      "roles": [
       "email-marketer"
      ],
-     "summary": "Mailchimp MCP Pack — manage audiences, campaigns, and members via Mailchimp Marketing API.",
+     "summary": "Listas, edições, rascunhos e envio de teste",
      "summary_lang": "en",
-     "source_url": "https://github.com/pipeworx-io/mcp-mailchimp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mailchimp.md",
+     "source_url": "https://ciromaciel.click/mcp/newsletter",
+     "raw_url": null,
      "upstream_raw_url": null,
-     "repo": "pipeworx-io/mcp-mailchimp",
-     "author": "io.github.pipeworx-io",
-     "license": "MIT",
+     "repo": null,
+     "author": "click.mymarketing",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/pipeworx-io/mcp-mailchimp/blob/HEAD/README.md",
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=click.mymarketing/newsletter&version=latest",
       "record": {
-       "description": "Mailchimp MCP Pack — manage audiences, campaigns, and members via Mailchimp Marketing API.",
-       "name": "io.github.pipeworx-io/mailchimp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
-           "name": "PIPEWORX_API_KEY",
-           "required": null,
-           "secret": true
-          }
-         ],
-         "id": "@pipeworx/mcp-mailchimp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.2.0"
-        }
-       ],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://gateway.pipeworx.io/mailchimp/mcp"
-        }
-       ],
-       "repository": "https://github.com/pipeworx-io/mcp-mailchimp",
-       "title": "Mailchimp",
-       "version": "0.2.0",
-       "website": "https://pipeworx.io/packs/mailchimp"
-      }
-     },
-     "install": "npx -y @pipeworx/mcp-mailchimp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "PIPEWORX_API_KEY"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-29",
-      "registry_updated_at": "2026-10-29"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-29T16:56:22Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-github-pipeworx-io-mailchimp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-insightfulpipe-mailchimp",
-     "title": "Mailchimp MCP by InsightfulPipe",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "email-marketer"
-     ],
-     "summary": "Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Insightful-Pipe/mailchimp-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-mailchimp.md",
-     "upstream_raw_url": null,
-     "repo": "Insightful-Pipe/mailchimp-mcp-server",
-     "author": "com.insightfulpipe",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/Insightful-Pipe/mailchimp-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-       "name": "com.insightfulpipe/mailchimp",
+       "description": "Listas, edições, rascunhos e envio de teste",
+       "name": "click.mymarketing/newsletter",
        "packages": [],
        "remotes": [
         {
          "headers": [],
          "type": "streamable-http",
-         "url": "https://mailchimp.insightfulmcp.com/"
+         "url": "https://newsletter.worker.mymarketing.click/mcp"
         }
        ],
-       "repository": "https://github.com/Insightful-Pipe/mailchimp-mcp-server",
-       "title": "Mailchimp MCP by InsightfulPipe",
-       "version": "1.0.0",
-       "website": "https://insightfulpipe.com/mcp-servers/mailchimp"
+       "repository": null,
+       "title": "Newsletter",
+       "version": "1.0.1",
+       "website": "https://ciromaciel.click/mcp/newsletter"
       }
      },
-     "install": "remote (streamable-http): https://mailchimp.insightfulmcp.com/",
+     "install": "remote (streamable-http): https://newsletter.worker.mymarketing.click/mcp",
      "security": {
       "audited": false,
       "executes_code": false,
@@ -2741,19 +2197,19 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-10-10",
+      "repo_stars": null,
+      "repo_pushed_at": null,
       "registry_updated_at": "2026-10-21"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-21T15:15:15Z",
-     "updated_at": "2026-10-21T15:15:15Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-10-22T00:43:10Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-com-insightfulpipe-mailchimp/",
+     "page": "https://academy.incidental.site/r/mcp-click-mymarketing-newsletter/",
      "source": "mcp-registry"
     }
    ]
@@ -2799,7 +2255,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -2844,7 +2300,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -2882,14 +2338,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57862,
+      "repo_stars": 58072,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-30T02:00:19Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -2927,14 +2383,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57862,
+      "repo_stars": 58072,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -2972,14 +2428,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -3017,14 +2473,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -3062,14 +2518,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -3114,7 +2570,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },

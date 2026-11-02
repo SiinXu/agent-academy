@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-02
-updated_at: 2026-11-02T01:33:53Z
+updated_at: 2026-11-02T20:22:18Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -63,6 +63,16 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N
   needs_credentials: true, writes_external: false
+- [template] Draft Doctor. A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks.
+  source: https://botsdots.site/templates/draft-doctor
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Vu4hBeb6zFOVpNluSscaO
+  needs_credentials: false, writes_external: false
+- [template] Knox. Your X expert strategist and social media intelligence, born on X.
+  source: https://botsdots.site/templates/knox
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/sXL-UTPMuaJem4bZMuugH
+  needs_credentials: true, writes_external: false
 - [template] Social Media Manager. Runs your brand's Instagram and X: content calendar, visuals, scheduled posting from a signed-in browser after your approval, and every live link sent back.
   source: https://botsdots.site/templates/social-media-manager-dqao
   license: template belongs to its creator (catalog CC0)
@@ -73,15 +83,10 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
   needs_credentials: false, writes_external: true
-- [template] Draft Doctor. A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks.
-  source: https://botsdots.site/templates/draft-doctor
+- [template] 𝕏 CMO & Social Media Manager. Your X social media manager: drafts posts and replies in your voice, runs a Google Sheets content calendar.
+  source: https://botsdots.site/templates/x-cmo-social-media-manager
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/Vu4hBeb6zFOVpNluSscaO
-  needs_credentials: false, writes_external: false
-- [template] Knox. Your X expert strategist and social media intelligence, born on X.
-  source: https://botsdots.site/templates/knox
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/sXL-UTPMuaJem4bZMuugH
+  install: https://x.ai/bot/x0lQBpfikxNIYVDWzYCWt
   needs_credentials: true, writes_external: false
 - [template] Social Media Manager. Learns from your real post history, posts in your voice through Buffer and can auto-post a daily verse, quote or tip.
   source: https://botsdots.site/templates/social-media-manager-jh9r
@@ -93,11 +98,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e
   needs_credentials: false, writes_external: false
-- [template] 𝕏 CMO & Social Media Manager. Your X social media manager: drafts posts and replies in your voice, runs a Google Sheets content calendar.
-  source: https://botsdots.site/templates/x-cmo-social-media-manager
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/x0lQBpfikxNIYVDWzYCWt
-  needs_credentials: true, writes_external: false
 
 ## Step 3: Learn the rules
 
@@ -120,11 +120,6 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-social.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill social
-  needs_credentials: false, writes_external: false
-- [system-prompt] content-quality-editor. Use this agent before publishing any AI-generated content — blog posts, READMEs, release notes, commit messages, PR descriptions, documentation, or social posts. Strips AI writing patterns using unslop, then performs a f
-  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-quality-editor.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-content-quality-edi.md
-  license: MIT
   needs_credentials: false, writes_external: false
 - [system-prompt] Comprehensive Digital Marketing Strategy for Fashion Brand. Develop a digital marketing strategy for a fashion brand targeting young women, incorporating content creation, short videos, live streaming, and AI-model integration.
   source: https://prompts.chat/prompts/cmjpusher000elj04qoply1t3_comprehensive-digital-marketing-strategy-for-fashion-brand
@@ -225,6 +220,11 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
+- [mcp] Campaign Magic. Build and run AI image and video campaign flows on your Campaign Magic team's canvas.
+  source: https://campaignmagic.ai/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://campaignmagic.ai/api/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] GroundedKit Marketing Stats Checker. Check marketing and influencer stats against primary sources: verdict, source, safe wording.
   source: https://groundedkit.com/agents/
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -238,11 +238,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 - [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [workflow] brand-search-optimization. This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer 
-  source: https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 

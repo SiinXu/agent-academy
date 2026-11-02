@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-02
-updated_at: 2026-11-02T01:33:53Z
+updated_at: 2026-11-02T20:22:18Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,14 +46,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1628 items
-- motion: 648 items
-- 3d: 636 items
-- editorial: 595 items
-- playful: 563 items
+- minimal: 1621 items
+- motion: 645 items
+- 3d: 633 items
+- editorial: 592 items
+- playful: 560 items
 - gradient: 285 items
 - retro: 118 items
-- dark-tech: 111 items
+- dark-tech: 110 items
 - glass: 56 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -248,18 +248,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 
 - [case] How this site was designed (Agent Academy design record). source: https://academy.incidental.site/cases/agent-academy-build/. raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md
 
-- [mcp] After Effects MCP Server. Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.
-  source: https://github.com/zachshallbetter/adobe-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects.md
-  license: MIT
-  install: npx -y adobe-mcp-aftereffects
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.AJSMonty/adobe-mcp. Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client
-  source: https://github.com/AJSMonty/adobe-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md
-  license: MIT
-  install: npx -y @ajsmonty/adobe-mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Icons8. Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.
   source: https://icons8.com/mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -268,6 +256,15 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 - [tool] Unicorn Studio. Build WebGL effects without code
   source: https://www.unicorn.studio/
   license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [workflow] UI Hub skills.json (recommended design workflow). Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+
+  source: https://siinxu.github.io/ui-resource-hub/api/skills.json
+  license: aggregator
+  needs_credentials: false, writes_external: false
+- [case] Ai Game Design Agent Team. The AI Game Design Agent Team is a collaborative game design system powered by AG2(formerly AutoGen)'s AI Agent framework. This app generates comprehensive game concepts through the coordination of multiple specialized A
+  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi.md
+  license: Apache-2.0
   needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check
@@ -346,11 +343,6 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill ux-copy
   needs_credentials: false, writes_external: false
-- [system-prompt] ui-ux-tester. Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.
-  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md
-  license: MIT
-  needs_credentials: false, writes_external: false
 - [system-prompt] Frontend Developer. Act as an elite frontend development specialist with deep expertise in modern JavaScript frameworks, responsive design, and user interface implementation. Your role encompasses designing reusable components, optimizing p
   source: https://prompts.chat/prompts/cmkb4dsp20009l404yrtmh4a4_frontend-developer
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer.md
@@ -359,6 +351,11 @@ Go through the checklist and report the result to your owner.
 - [system-prompt] Frontend Developer Skill. This prompt is designed for an elite frontend development specialist. It outlines responsibilities and skills required for building high-performance, responsive, and accessible user interfaces using modern JavaScript fra
   source: https://prompts.chat/prompts/cmjhdytu00001jm04yooccuhl_frontend-developer-skill
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer-skill.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Architecture & UI/UX Audit. It asks an AI to assume the persona of a Senior Frontend Engineer & Product Reviewer to perform a high-level critique of a Next.js (App Router) project. Instead of writing code, the prompt focuses on evaluating the archi
+  source: https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-architecture-uiux-audit.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

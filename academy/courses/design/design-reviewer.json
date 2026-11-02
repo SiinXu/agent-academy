@@ -2,7 +2,7 @@
  "id": "design/design-reviewer",
  "industry": "design",
  "role": "design-reviewer",
- "updated_at": "2026-11-02T01:33:53Z",
+ "updated_at": "2026-11-02T20:22:18Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -62,7 +62,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -108,7 +108,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -154,7 +154,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -200,7 +200,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -277,7 +277,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -346,7 +346,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -413,7 +413,7 @@
      "status": "active",
      "first_seen": "2026-10-27T15:53:32Z",
      "updated_at": "2026-10-28T16:38:31Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -454,7 +454,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -504,7 +504,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -547,7 +547,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -587,7 +587,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -625,14 +625,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143841,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 144228,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -665,19 +665,19 @@
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143841,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 144228,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "updated_at": "2026-11-02T20:22:18Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -715,14 +715,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52760,
-      "repo_pushed_at": "2026-10-28"
+      "repo_stars": 52985,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -760,14 +760,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -805,14 +805,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -850,14 +850,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -895,14 +895,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -940,14 +940,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -985,14 +985,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1030,63 +1030,18 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-design-skills-ux-copy/",
-     "source": "github"
-    },
-    {
-     "id": "voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester",
-     "title": "ui-ux-tester",
-     "type": "system-prompt",
-     "industry": "design",
-     "roles": [
-      "design-reviewer"
-     ],
-     "summary": "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/04-quality-security/ui-ux-tester.md",
-     "repo": "VoltAgent/awesome-claude-code-subagents",
-     "author": "VoltAgent",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 26257,
-      "repo_pushed_at": "2026-10-30"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"
     },
     {
@@ -1127,7 +1082,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1172,7 +1127,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1217,7 +1172,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1260,14 +1215,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1305,14 +1260,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1350,14 +1305,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1365,75 +1320,44 @@
      "source": "github"
     },
     {
-     "id": "mcp-io-github-curlymolelabs-supericons",
-     "title": "Supericons",
-     "type": "mcp",
+     "id": "ui-resource-hub-skills",
+     "title": "UI Hub skills.json (recommended design workflow)",
+     "type": "workflow",
      "industry": "design",
      "roles": [
-      "design-reviewer"
+      "ui-designer"
      ],
-     "summary": "Multilingual semantic SVG icon search with previews for AI coding agents. 20,000+ icons.",
+     "summary": "Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+dark, mobile.",
      "summary_lang": "en",
-     "source_url": "https://github.com/curlymolelabs/supericons",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-curlymolelabs-supericons.md",
+     "source_url": "https://siinxu.github.io/ui-resource-hub/api/skills.json",
+     "raw_url": null,
      "upstream_raw_url": null,
-     "repo": "curlymolelabs/supericons",
-     "author": "io.github.curlymolelabs",
-     "license": "MIT",
+     "repo": null,
+     "author": null,
+     "license": "aggregator",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/curlymolelabs/supericons/blob/HEAD/README.md",
-      "record": {
-       "description": "Multilingual semantic SVG icon search with previews for AI coding agents. 20,000+ icons.",
-       "name": "io.github.curlymolelabs/supericons",
-       "packages": [
-        {
-         "env": [],
-         "id": "@supericons/mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.4.22"
-        }
-       ],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.supericons.dev/mcp"
-        }
-       ],
-       "repository": "https://github.com/curlymolelabs/supericons",
-       "title": "Supericons",
-       "version": "0.4.22",
-       "website": null
-      }
+      "kind": "link"
      },
-     "install": "npx -y @supericons/mcp",
+     "install": null,
      "security": {
       "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
      },
-     "metrics": {
-      "repo_stars": 2,
-      "repo_pushed_at": "2026-08-04",
-      "registry_updated_at": "2026-07-27"
-     },
-     "course_step": "4-do-it",
+     "metrics": {},
+     "course_step": "3-learn-rules",
      "status": "active",
-     "first_seen": "2026-10-19T00:13:40Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-io-github-curlymolelabs-supericons/",
-     "source": "mcp-registry"
+     "page": "https://academy.incidental.site/r/ui-resource-hub-skills/",
+     "source": "seed"
     }
    ]
   },
@@ -1478,7 +1402,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1521,7 +1445,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1561,7 +1485,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1599,14 +1523,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143841,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 144228,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1639,19 +1563,19 @@
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143841,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 144228,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "updated_at": "2026-11-02T20:22:18Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1689,14 +1613,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52760,
-      "repo_pushed_at": "2026-10-28"
+      "repo_stars": 52985,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1734,14 +1658,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1779,14 +1703,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1824,14 +1748,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1869,14 +1793,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42082,
+      "repo_stars": 42110,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1914,14 +1838,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -1959,14 +1883,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -2004,63 +1928,18 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34371,
-      "repo_pushed_at": "2026-11-01"
+      "repo_stars": 34474,
+      "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-design-skills-ux-copy/",
-     "source": "github"
-    },
-    {
-     "id": "voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester",
-     "title": "ui-ux-tester",
-     "type": "system-prompt",
-     "industry": "design",
-     "roles": [
-      "design-reviewer"
-     ],
-     "summary": "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/04-quality-security/ui-ux-tester.md",
-     "repo": "VoltAgent/awesome-claude-code-subagents",
-     "author": "VoltAgent",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 26257,
-      "repo_pushed_at": "2026-10-30"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
-     "http_status": {
-      "source": 429
-     },
-     "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"
     },
     {
@@ -2101,7 +1980,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
@@ -2146,11 +2025,56 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T01:33:53Z",
+     "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/prompts-chat-frontend-developer-skill/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-architecture-uiux-audit",
+     "title": "Architecture & UI/UX Audit",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "It asks an AI to assume the persona of a Senior Frontend Engineer & Product Reviewer to perform a high-level critique of a Next.js (App Router) project. Instead of writing code, the prompt focuses on evaluating the architecture (folder structure, scalability), UI/UX (hierarchy, consistency), and design system (component reuse) of a developer community platform to identify anti-patterns and suggest high-impact…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-architecture-uiux-audit.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "surendharnadh280709",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 3,
+      "created_at": "2026-03-28"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-11-02T20:22:18Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/prompts-chat-architecture-uiux-audit/",
      "source": "prompts.chat"
     }
    ]

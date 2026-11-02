@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-02
-updated_at: 2026-11-02T01:33:53Z
+updated_at: 2026-11-02T20:22:18Z
 source: https://academy.incidental.site/courses/customer-service/support-agent/
 ---
 
@@ -194,69 +194,62 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-voice-ai-agents-customer-support-voice-agent.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
-- [case] Customer Service. from __future__ import annotations as _annotations
-  source: https://github.com/openai/openai-agents-python/tree/main/examples/customer_service
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/openai-openai-agents-python-examples-customer-service-main-py.md
-  license: MIT
-  needs_credentials: false, writes_external: false
-- [mcp] io.github.codespar/mcp-shopify. MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)
-  source: https://github.com/codespar/mcp-dev-latam
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-codespar-mcp-shopify.md
-  license: MIT
-  install: npx -y @codespar/mcp-shopify
+- [mcp] BestAppify — Shopify App Store Intelligence. Shopify App Store intelligence: keyword ranks, competitors, reviews, revenue. Free tier.
+  source: https://bestappify.com/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://bestappify.app/api/mcp
   needs_credentials: true, writes_external: false
-- [mcp] HubSpot MCP. Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history
-  source: https://github.com/Servosity/msp-skills
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md
+- [mcp] Chatwoot (Mojood Connect). Chatwoot inbox in Claude: find conversations, add private notes, hand over after a yes.
+  source: https://github.com/askmojood/chatwoot-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-askmojood-chatwoot-mcp.md
   license: Apache-2.0
+  install: uvx mojood-chatwoot-mcp
   needs_credentials: true, writes_external: false
-- [mcp] com.mcparmory/shopify-admin. Manage products, orders, customers, inventory, and store configuration
-  source: https://github.com/mcparmory/registry
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mcparmory-shopify-admin.md
-  license: MIT
-  install: uvx mcparmory-shopify-admin
-  needs_credentials: false, writes_external: true
-- [mcp] io.github.MuhammadTalhaMT/intercom. Relays messages between two Claude Code sessions on different machines using the Channels API
-  source: https://github.com/MuhammadTalhaMT/claude-intercom
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md
-  license: MIT
-  install: npx -y claude-intercom
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
-  source: https://github.com/fruggr/zendesk-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
-  license: MIT
-  install: npx -y @fruggr/zendesk-mcp-server
+- [mcp] HubSpot MCP by AdPlug. HubSpot MCP server: 9 tools, every client portal on one connector. Writes preview first.
+  source: https://adplug.app/integrations/hubspot?src=mcp-registry
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://api.adplug.app/mcp/hubspot
   needs_credentials: true, writes_external: true
-- [mcp] Zendesk. Zendesk MCP server for Model Context Protocol hosts
-  source: https://github.com/mindstone/mcp-servers
-  license: NOASSERTION
-  install: npx -y @mindstone/mcp-server-zendesk
+- [mcp] inbrix. AI-native helpdesk hosted in Germany: tickets, replies, KPIs and knowledge base over MCP.
+  source: https://www.inbrix.ai/en
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://app.inbrix.ai/api/mcp
   needs_credentials: true, writes_external: false
-- [mcp] io.github.michaelrice/zendesk-mcp. Zendesk MCP server for Claude Code and other MCP clients
-  source: https://github.com/michaelrice/zendesk-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md
-  license: Apache-2.0
-  install: uvx zendesk-mcp
-  needs_credentials: false, writes_external: false
-- [mcp] HasData Shopify. The public product catalogue and collections of any Shopify storefront, as structured JSON.
-  source: https://github.com/HasData/shopify-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md
-  license: MIT
-  install: npx -y @hasdata/shopify-mcp
+- [mcp] io.github.PrometheusAgency/shopify-app-store-scraper. Scrape Shopify App Store apps, full review histories and catalog. E-commerce market research.
+  source: https://apify.com/prometheusagency/shopify-app-store-scraper
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.apify.com/?actors=prometheusagency/shopify-app-store-scraper
   needs_credentials: true, writes_external: false
-- [mcp] io.github.alex-brecher/shopify-multi-store. Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.
-  source: https://github.com/alex-brecher/shopify-multi-store
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alex-brecher-shopify-multi-store.md
-  license: MIT
-  install: npx -y shopify-multi-store-mcp-server
-  needs_credentials: false, writes_external: true
-- [mcp] Jitbit Helpdesk. MCP server for Jitbit Helpdesk: search, list, read, and reply to support tickets from AI assistants.
-  source: https://github.com/jitbit/jitbit-helpdesk-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-jitbit-jitbit-helpdesk.md
-  license: MIT
-  install: npx -y jitbit-helpdesk-mcp
-  needs_credentials: true, writes_external: true
+- [mcp] MoneyBug Shopify Billing Integrity. Shopify usage billing guard: App Events idempotency, retry risk, and cycle reconciliation.
+  source: https://apify.com/moneybug/shopify-billing-integrity-api
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,moneybug/shopify-billing-integrity-api
+  needs_credentials: true, writes_external: false
+- [mcp] MoneyBug Shopify Monetization Intelligence. Shopify app monetization: pricing, usage fees, percentage billing, and M&A fingerprints.
+  source: https://apify.com/moneybug/shopify-app-monetization-intelligence
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,moneybug/shopify-app-monetization-intelligence
+  needs_credentials: true, writes_external: false
+- [mcp] Oskivo for Shopify. Ask your AI about your Shopify shop: commissions, production, shipping, line sheets, materials.
+  source: https://oskivo.com/ai/
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.oskivo.com/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Shopify Price and Stock Monitor. Prices, stock and variants of products on any public Shopify store, with change and margin checks.
+  source: https://apify.com/sauliusautomatesit/shopify-price-margin-monitor
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.apify.com/?tools=sauliusautomatesit/shopify-price-margin-monitor
+  needs_credentials: true, writes_external: false
+- [mcp] Shopify Product Scraper — Prices, Variants & Availability. Get Shopify product prices, variants and stock availability for competitor monitoring and exports.
+  source: https://apify.com/myworkingmemory/shopify-store-extractor
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.apify.com/?tools=myworkingmemory/shopify-store-extractor
+  needs_credentials: true, writes_external: false
+- [mcp] Shopify Speed Check. Shopify speed, Core Web Vitals and fee checks by Skai Digital, a Shopify Select Partner in Oslo.
+  source: https://www.skaidigital.com/tools/shopify-speed-test
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://tools.skaidigital.com/mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 
