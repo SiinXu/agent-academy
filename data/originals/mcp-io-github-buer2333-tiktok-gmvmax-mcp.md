@@ -6,7 +6,7 @@ A read-only [Model Context Protocol](https://modelcontextprotocol.io) server for
 
 It runs daily in production behind a multi-shop TikTok Shop reporting stack, so most of the code beyond plain API wrappers handles things the raw API gets wrong. Report days are realigned from the ad account's timezone to the shop's. Non-USD accounts are converted at that day's rate. TikTok's transient `51010` timeouts are retried.
 
-> Started as a fork of [ysntony/tiktok-ads-mcp](https://github.com/ysntony/tiktok-ads-mcp) (MIT), which covers the six core campaign/report tools. This project adds GMV Max, timezone-aligned and range reports, creatives, Business Center finance and trending hashtags, and is published separately as `tiktok-gmvmax-mcp`. The Python import package is still `tiktok_ads_mcp`, so don't install both distributions into the same environment.
+> The Python import package `tiktok_ads_mcp` has the same name as the one in the `tiktok-ads-mcp` PyPI distribution, so don't install both into the same environment.
 
 ## Tools (24, all read-only)
 
@@ -113,7 +113,7 @@ Claude Desktop / Claude Code (`mcpServers`):
 ## Development
 
 ```bash
-git clone https://github.com/Buer2333/tiktok-ads-mcp && cd tiktok-ads-mcp
+git clone https://github.com/Buer2333/tiktok-gmvmax-mcp && cd tiktok-gmvmax-mcp
 python -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m pytest tests -q
 ```
@@ -123,15 +123,19 @@ Issues and PRs are welcome. Please include a test with any behavior change.
 ## Changelog
 
 ### 0.2.0
-- Published as `tiktok-gmvmax-mcp` (the PyPI name `tiktok-ads-mcp` belongs to the upstream project).
+- Published as `tiktok-gmvmax-mcp`.
 - Generic `TIKTOK_ACCESS_TOKEN` / `TIKTOK_ACCESS_TOKEN_2`. The legacy names still work.
 - CLI logs go to stderr, so stdout stays clean for the stdio protocol.
 - FX: a fallback rate used during an API outage is no longer cached permanently.
-- 18 tools added since the fork: GMV Max, aligned and range reports, creatives, Business Center finance, identities, trending. Also added: account discovery, 51010 retry, USD conversion, mcp 2.x compatibility.
+- 18 tools added since 0.1.x: GMV Max, aligned and range reports, creatives, Business Center finance, identities, trending. Also added: account discovery, 51010 retry, USD conversion, mcp 2.x compatibility.
 
-### 0.1.x (upstream)
-- Six core tools, async `httpx` client, FastMCP server. See [ysntony/tiktok-ads-mcp](https://github.com/ysntony/tiktok-ads-mcp).
+### 0.1.x
+- Six core tools, async `httpx` client, FastMCP server.
 
 ## License
 
-MIT. See [LICENSE](https://github.com/Buer2333/tiktok-ads-mcp/blob/main/LICENSE).
+MIT. See [LICENSE](https://github.com/Buer2333/tiktok-gmvmax-mcp/blob/main/LICENSE).
+
+## Credits
+
+The six core campaign/report tools are based on [ysntony/tiktok-ads-mcp](https://github.com/ysntony/tiktok-ads-mcp) (MIT).
