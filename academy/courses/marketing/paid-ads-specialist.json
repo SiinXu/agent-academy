@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-11-03T03:29:34Z",
+ "updated_at": "2026-11-03T17:52:01Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -990,7 +990,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58127,
+      "repo_stars": 58264,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1035,7 +1035,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42121,
+      "repo_stars": 42150,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1080,7 +1080,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26286,
+      "repo_stars": 26307,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1719,6 +1719,73 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-ai-trendsapi-tiktok",
+     "title": "TikTok Trends API",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai",
+     "summary_lang": "en",
+     "source_url": "https://github.com/trendsapi-ai/tiktok-trends-api",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsapi-tiktok.md",
+     "upstream_raw_url": null,
+     "repo": "trendsapi-ai/tiktok-trends-api",
+     "author": "ai.trendsapi",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/trendsapi-ai/tiktok-trends-api/blob/HEAD/README.md",
+      "record": {
+       "description": "TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai",
+       "name": "ai.trendsapi/tiktok",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://tiktok.api.trendsapi.ai/mcp"
+        }
+       ],
+       "repository": "https://github.com/trendsapi-ai/tiktok-trends-api",
+       "title": "TikTok Trends API",
+       "version": "1.0.2",
+       "website": "https://trendsapi.ai/trends/tiktok-trends"
+      }
+     },
+     "install": "remote (streamable-http): https://tiktok.api.trendsapi.ai/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "Authorization"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 3,
+      "repo_pushed_at": "2026-10-16",
+      "registry_updated_at": "2026-10-21"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-23T00:43:09Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-ai-trendsapi-tiktok/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-lmslay-tubetext-tiktok-transcripts",
      "title": "TikTok Transcripts, Comments, Video Breakdown & Shot Analysis",
      "type": "mcp",
@@ -1783,73 +1850,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-lmslay-tubetext-tiktok-transcripts/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-ai-trendsapi-tiktok",
-     "title": "TikTok Trends API",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai",
-     "summary_lang": "en",
-     "source_url": "https://github.com/trendsapi-ai/tiktok-trends-api",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsapi-tiktok.md",
-     "upstream_raw_url": null,
-     "repo": "trendsapi-ai/tiktok-trends-api",
-     "author": "ai.trendsapi",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/trendsapi-ai/tiktok-trends-api/blob/HEAD/README.md",
-      "record": {
-       "description": "TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai",
-       "name": "ai.trendsapi/tiktok",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://tiktok.api.trendsapi.ai/mcp"
-        }
-       ],
-       "repository": "https://github.com/trendsapi-ai/tiktok-trends-api",
-       "title": "TikTok Trends API",
-       "version": "1.0.2",
-       "website": "https://trendsapi.ai/trends/tiktok-trends"
-      }
-     },
-     "install": "remote (streamable-http): https://tiktok.api.trendsapi.ai/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 2,
-      "repo_pushed_at": "2026-10-16",
-      "registry_updated_at": "2026-10-21"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-23T00:43:09Z",
-     "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-03T03:29:34Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-ai-trendsapi-tiktok/",
      "source": "mcp-registry"
     },
     {
@@ -2737,7 +2737,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58127,
+      "repo_stars": 58264,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2782,7 +2782,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58127,
+      "repo_stars": 58264,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -2827,7 +2827,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42121,
+      "repo_stars": 42150,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2872,7 +2872,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42121,
+      "repo_stars": 42150,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2917,7 +2917,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42121,
+      "repo_stars": 42150,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

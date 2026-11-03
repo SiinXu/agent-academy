@@ -2,7 +2,7 @@
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-03
-updated_at: 2026-11-03T03:29:34Z
+updated_at: 2026-11-03T17:52:01Z
 source: https://academy.incidental.site/courses/marketing/content-marketer/
 ---
 
@@ -295,8 +295,8 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://api.chinamarketing.ai/mcp
   needs_credentials: true, writes_external: false
-- [mcp] fi.northpoint/marketing-compliance. Crypto marketing compliance rulesets over MCP: MiCA, FCA, GDPR, SEC, MAS, VARA. Not legal advice.
-  source: https://northpoint.fi
+- [mcp] fi.northpoint/marketing-compliance. Crypto marketing compliance: MiCA, FCA, GDPR, SEC, MAS, VARA rules with citations. Not legal advice.
+  source: https://github.com/jukkablomberg/northpoint-website
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://northpoint.fi/api/mcp
   needs_credentials: true, writes_external: false

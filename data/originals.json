@@ -350,6 +350,29 @@
 },
 "url": "https://botsdots.site/templates/ai-seo-hacker-bot"
 },
+"botsdots-ai-weekly-digest-curator": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/5L5-pT_M03LwyVWdwPAA8",
+"cadence": "weekly",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": "12birb",
+"firstSeen": "2026-11-03",
+"integrations": [],
+"name": "AI Weekly Digest Curator",
+"official": false,
+"page": "https://botsdots.site/templates/ai-weekly-digest-curator",
+"risk": "low",
+"summary": "Compiles a week of scouted AI launches into a newsletter, roundup or X Article draft."
+},
+"url": "https://botsdots.site/templates/ai-weekly-digest-curator"
+},
 "botsdots-airbnb-host-concierge": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -6329,6 +6352,32 @@
 "truncated": false,
 "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md"
 },
+"mcp-com-callaiapi-seo": {
+"file": "data/originals/mcp-com-callaiapi-seo.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Live SEO data: Google/Bing SERP, AI Overview sources, keyword difficulty, backlinks, page audits.",
+"name": "com.callaiapi/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://api.callaiapi.com/mcp"
+}
+],
+"repository": "https://github.com/hanshengcc/callai-seo-mcp",
+"title": "CallAI SEO",
+"version": "1.0.0",
+"website": "https://callaiapi.com/en/integrations/seo-mcp"
+},
+"truncated": false,
+"url": "https://github.com/hanshengcc/callai-seo-mcp/blob/HEAD/README.md"
+},
 "mcp-com-clearpostplugin-wordpress-seo": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8414,7 +8463,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Crypto marketing compliance rulesets over MCP: MiCA, FCA, GDPR, SEC, MAS, VARA. Not legal advice.",
+"description": "Crypto marketing compliance: MiCA, FCA, GDPR, SEC, MAS, VARA rules with citations. Not legal advice.",
 "name": "fi.northpoint/marketing-compliance",
 "packages": [],
 "remotes": [
@@ -8424,9 +8473,9 @@
 "url": "https://northpoint.fi/api/mcp"
 }
 ],
-"repository": null,
+"repository": "https://github.com/jukkablomberg/northpoint-website",
 "title": null,
-"version": "1.0.0",
+"version": "1.1.0",
 "website": "https://northpoint.fi"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=fi.northpoint/marketing-compliance&version=latest"
@@ -12860,7 +12909,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.34.0",
+"version": "1.35.0",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -15561,6 +15610,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-cosmos-studio": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-crav-burgers": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -20132,6 +20188,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-enmerasoftware-ai-design-check": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-gh-flohoeller-affectui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -21406,6 +21469,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-0b15gj9-interactive-terrain-sculpting": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-0d560an-family": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -21701,6 +21771,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-1skbny1-seoul-biennale-identity": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-1sr9bt9-stock-ticker-card-interaction": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -23073,6 +23150,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-7ajurjv-personal-site-photo-gallery": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-7blmeso-motion-inspo-008": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -25522,6 +25606,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-i50sj5g-deimos-designer-encyclopedia": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-i5rpqy2-ai-avatar-character": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27161,6 +27252,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-p3q14g1-retell-brand-identity": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-p46iyix-cyberguard-labs-identity": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28218,6 +28316,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-tquycvu-light-motion-study": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-tr9wgma-otp-input-component": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -29052,6 +29157,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-xul4aeh-sixfold-logo-animation": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-xvkom6p-blissful-studio-posters": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

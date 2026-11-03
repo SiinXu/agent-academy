@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-03
-updated_at: 2026-11-03T03:29:34Z
+updated_at: 2026-11-03T17:52:01Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -185,17 +185,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y tiktok-agent-publisher
   needs_credentials: true, writes_external: true
-- [mcp] TikTok Transcripts, Comments, Video Breakdown & Shot Analysis. TikTok transcripts, comment sentiment by moment, AI breakdowns and director-level shot analysis.
-  source: https://github.com/LMSlay/tubetext-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lmslay-tubetext-tiktok-transcripts.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/youtube-tiktok-comments-api,tubetext/video-breakdown-ai,tubetext/shot-by-shot-video-analysis
-  needs_credentials: true, writes_external: false
 - [mcp] TikTok Trends API. TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsapi.ai
   source: https://github.com/trendsapi-ai/tiktok-trends-api
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsapi-tiktok.md
   license: MIT
   install: remote (streamable-http): https://tiktok.api.trendsapi.ai/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] TikTok Transcripts, Comments, Video Breakdown & Shot Analysis. TikTok transcripts, comment sentiment by moment, AI breakdowns and director-level shot analysis.
+  source: https://github.com/LMSlay/tubetext-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-lmslay-tubetext-tiktok-transcripts.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/youtube-tiktok-comments-api,tubetext/video-breakdown-ai,tubetext/shot-by-shot-video-analysis
   needs_credentials: true, writes_external: false
 - [mcp] io.github.lanternrow/tiktok-organic-mcp. TikTok organic analytics — video performance, engagement metrics, and profile insights.
   source: https://github.com/lanternrow/tiktok-organic-mcp
