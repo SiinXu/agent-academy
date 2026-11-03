@@ -1,8 +1,8 @@
 ---
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/marketing/growth-marketer/
 ---
 
@@ -129,6 +129,16 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-social-publishing-agents-social-publishing-publisher.md
   license: MIT
   needs_credentials: false, writes_external: false
+- [system-prompt] growth-loops. Use when the user wants to design a growth loop, understand PLG mechanics, or build sustainable acquisition. Triggers on: 'growth loop', 'flywheel', 'viral loop', 'PLG growth', 'product-led growth', 'growth mechanics', '
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/growth-loops.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-growth-loops.md
+  license: MIT
+  needs_credentials: false, writes_external: false
+- [system-prompt] landing-page-copywriter. Use this agent when writing or optimizing landing page copy, hero sections, CTAs, or conversion-focused funnel content for a specific audience and offer.
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/landing-page-copywriter.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-landing-page-copywr.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [system-prompt] RIP McKinsey: Here are 10 prompts to replace expensive business consultants. "RIP McKinsey: Here are 10 prompts to replace expensive business consultants." focuses on using AI to handle strategic business tasks. RIP McKinsey. Here are 10 prompts to replace expensive business consultants: 1. SWOT 
   source: https://prompts.chat/prompts/cmjirfi450008jx04zg2kwvml_rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-rip-mckinsey-here-are-10-prompts-to-replace-expensive-business-consultants.md
@@ -159,6 +169,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [mcp] Probative legal-marketing data. Open US legal-marketing datasets with sources and DOIs, one server per dataset. CC BY 4.0.
+  source: https://github.com/ops864/legal-marketing-data
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-probativegrowth-legal-marketing-data.md
+  license: CC-BY-4.0
+  install: remote (streamable-http): https://probativegrowth.com/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.pooriaarab/agentic-campaign. Plan a social campaign calendar across brands and platforms.
   source: https://github.com/pooriaarab/agentic-campaign
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pooriaarab-agentic-campaign.md
@@ -168,11 +184,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 - [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [workflow] brand-search-optimization. This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer 
-  source: https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 

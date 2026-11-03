@@ -1,8 +1,8 @@
 ---
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/customer-service/ecommerce-support/
 ---
 
@@ -106,6 +106,22 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] tau2 retail agent policy. At the beginning of the conversation, you have to authenticate the user identity by locating their user id via email, or via name + zip code. This has to be done even when the user already provides the user id.
   source: https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/retail/policy.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/sierra-research-tau2-bench-data-tau2-domains-retail-policy-md.md
+  license: MIT
+  needs_credentials: false, writes_external: false
+- [skill] retail-virtual-tryon. Creates virtual try-on agents supporting image and video (catwalk animation) try-ons on Google Cloud (Gemini image models and Veo on Gemini Enterprise Agent Platform). Handles resource setup, user photo uploading, image/
+  source: https://github.com/google/adk-recipes/blob/main/plugins/retail/skills/virtual-tryon/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/google-adk-recipes-plugins-retail-skills-virtual-tryon.md
+  license: Apache-2.0
+  install: npx skills add google/adk-recipes --skill virtual-tryon
+  needs_credentials: false, writes_external: false
+- [system-prompt] tau2-bench airline agent policy. The current time is 2024-05-15 15:00:00 EST.
+  source: https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/airline/policy.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/sierra-research-tau2-bench-data-tau2-domains-airline-policy.md
+  license: MIT
+  needs_credentials: false, writes_external: false
+- [system-prompt] tau2-bench telecom agent policy. The current time is 2025-02-25 12:08:00 EST.
+  source: https://github.com/sierra-research/tau2-bench/blob/main/data/tau2/domains/telecom/main_policy.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/sierra-research-tau2-bench-data-tau2-domains-telecom-main-policy.md
   license: MIT
   needs_credentials: false, writes_external: false
 - [system-prompt] Legal Document Generator Agent Role. Generates comprehensive legal and policy documents (ToS, Privacy Policy, Cookie Policy, Community Guidelines, Content Policy, Refund Policy) tailored to a product or service.

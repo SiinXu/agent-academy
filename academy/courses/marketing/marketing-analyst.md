@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -125,11 +125,35 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/m-pineapple-hubspot-auditor.md
   license: MIT
   needs_credentials: true, writes_external: false
+- [mcp] PostHog MCP Server. Official PostHog MCP Server for product analytics, feature flags, experiments, and more.
+  source: https://github.com/PostHog/posthog
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-posthog-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.posthog.com/mcp
+  needs_credentials: true, writes_external: true
+- [mcp] Marketing Intelligence & Optimization. Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.
+  source: https://github.com/Saify-Technologies/saifs-ai-mcps-docs
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-saifs-marketing-intelligence.md
+  license: MIT
+  install: remote (streamable-http): https://marketing-analysis-mcp.saifs.ai/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.matjmat/eulerian-marketing-platform-mcp. Provides access to the Eulerian Marketing Platform: analytics, attribution & data activation.
+  source: https://github.com/EulerianTechnologies/eulerian-marketing-platform-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-matjmat-eulerian-marketing-platform-mcp.md
+  license: MIT
+  install: uvx eulerian-marketing-platform
+  needs_credentials: true, writes_external: false
 - [mcp] com.jojapi/similarweb. Similarweb: Similarweb API allows you to access powerful insights into web analytics and online.
   source: https://jojapi.com/hub/api/similarweb
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.jojapi.com/similarweb
   needs_credentials: true, writes_external: false
+- [mcp] io.github.CSOAI-ORG/marketing-analytics-ai-mcp. Marketing Analytics Ai MCP Server by MEOK AI Labs
+  source: https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-csoai-org-marketing-analytics-ai-mcp.md
+  license: MIT
+  install: uvx marketing-analytics-ai-mcp
+  needs_credentials: false, writes_external: false
 - [mcp] io.github.friendlygeorge/posthog-mcp-server. MCP server for PostHog — product analytics for AI assistants. Query events, persons, insights, da...
   source: https://github.com/friendlygeorge/posthog-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md

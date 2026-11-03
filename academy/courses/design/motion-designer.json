@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-11-02T20:22:18Z",
+ "updated_at": "2026-11-03T03:29:34Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1392,7 +1392,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 186721,
+      "repo_stars": 186816,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1437,7 +1437,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1482,7 +1482,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1527,7 +1527,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1572,7 +1572,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1617,7 +1617,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1662,7 +1662,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1707,7 +1707,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1752,7 +1752,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1797,7 +1797,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1907,6 +1907,232 @@
    "step": "4-do-it",
    "read": [
     {
+     "id": "mcp-io-github-zachshallbetter-adobe-mcp-aftereffects",
+     "title": "After Effects MCP Server",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer",
+      "ui-designer"
+     ],
+     "summary": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/zachshallbetter/adobe-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects.md",
+     "upstream_raw_url": null,
+     "repo": "zachshallbetter/adobe-mcp",
+     "author": "io.github.zachshallbetter",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.",
+       "name": "io.github.zachshallbetter/adobe-mcp-aftereffects",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "macOS only: address a specific copy, e.g. \"Adobe After Effects 2025\". Default: After Effects by bundle id",
+           "name": "AFTEREFFECTS_APP_NAME",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Extra directories allowed for file operations (':' on macOS, ';' on Windows)",
+           "name": "AFTEREFFECTS_ALLOWED_DIRS",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "How long to wait for After Effects before reporting that a dialog may be open. Default 120000",
+           "name": "AFTEREFFECTS_SCRIPT_TIMEOUT_MS",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "adobe-mcp-aftereffects",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/zachshallbetter/adobe-mcp",
+       "title": "After Effects MCP Server",
+       "version": "0.1.0",
+       "website": null
+      }
+     },
+     "install": "npx -y adobe-mcp-aftereffects",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "AFTEREFFECTS_APP_NAME",
+       "AFTEREFFECTS_ALLOWED_DIRS",
+       "AFTEREFFECTS_SCRIPT_TIMEOUT_MS"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 28,
+      "repo_pushed_at": "2026-10-21",
+      "registry_updated_at": "2026-10-20"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-20T15:07:01Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-ajsmonty-adobe-mcp",
+     "title": "io.github.AJSMonty/adobe-mcp",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
+     "summary_lang": "en",
+     "source_url": "https://github.com/AJSMonty/adobe-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "AJSMonty/adobe-mcp",
+     "author": "io.github.AJSMonty",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
+       "name": "io.github.AJSMonty/adobe-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Directory for rendered assets, the asset registry, and learned lessons (default: ~/AdobeMCP)",
+           "name": "ADOBE_MCP_WORKSPACE",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@ajsmonty/adobe-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/AJSMonty/adobe-mcp",
+       "title": null,
+       "version": "1.1.1",
+       "website": null
+      }
+     },
+     "install": "npx -y @ajsmonty/adobe-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "ADOBE_MCP_WORKSPACE"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 8,
+      "repo_pushed_at": "2026-09-24",
+      "registry_updated_at": "2026-07-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-ajsmonty-adobe-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-lottiefiles-creator",
+     "title": "Creator MCP",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Hosted motion engine for agents. Builds layers and keyframes, exports MP4, WebM or Lottie.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/LottieFiles/creator-agent-plugin",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-creator.md",
+     "upstream_raw_url": null,
+     "repo": "LottieFiles/creator-agent-plugin",
+     "author": "com.lottiefiles",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/LottieFiles/creator-agent-plugin/blob/HEAD/README.md",
+      "record": {
+       "description": "Hosted motion engine for agents. Builds layers and keyframes, exports MP4, WebM or Lottie.",
+       "name": "com.lottiefiles/creator",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://creator.mcp.lottiefiles.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/LottieFiles/creator-agent-plugin",
+       "title": "Creator MCP",
+       "version": "1.0.0",
+       "website": null
+      }
+     },
+     "install": "remote (streamable-http): https://creator.mcp.lottiefiles.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-09-05",
+      "registry_updated_at": "2026-11-03"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-03T03:29:34Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-creator/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-com-icons8-icons8",
      "title": "Icons8",
      "type": "mcp",
@@ -2014,91 +2240,6 @@
      },
      "page": "https://academy.incidental.site/r/uihub-www-unicorn-studio/",
      "source": "ui-hub"
-    },
-    {
-     "id": "ui-resource-hub-skills",
-     "title": "UI Hub skills.json (recommended design workflow)",
-     "type": "workflow",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+dark, mobile.",
-     "summary_lang": "en",
-     "source_url": "https://siinxu.github.io/ui-resource-hub/api/skills.json",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": null,
-     "license": "aggregator",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "link"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {},
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/ui-resource-hub-skills/",
-     "source": "seed"
-    },
-    {
-     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi",
-     "title": "Ai Game Design Agent Team",
-     "type": "case",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "The AI Game Design Agent Team is a collaborative game design system powered by AG2(formerly AutoGen)'s AI Agent framework. This app generates comprehensive game concepts through the coordination of multiple specialized AI agents, each focusing on different aspects of game design based on user inputs such as game type, target audience, art style, and technical requirements. This is built on AG2's n",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team/README.md",
-     "repo": "Shubhamsaboo/awesome-llm-apps",
-     "author": "Shubhamsaboo",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 143753,
-      "repo_pushed_at": "2026-10-22"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi/",
-     "source": "github"
     }
    ]
   },
@@ -2264,7 +2405,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144228,
+      "repo_stars": 144344,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2304,12 +2445,12 @@
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
-      "executes_code": true,
+      "executes_code": false,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144228,
+      "repo_stars": 144344,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2354,7 +2495,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2399,7 +2540,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2444,7 +2585,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2489,7 +2630,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2534,7 +2675,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2579,7 +2720,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2624,7 +2765,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2669,7 +2810,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2681,6 +2822,51 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-design-skills-ux-copy/",
+     "source": "github"
+    },
+    {
+     "id": "voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester",
+     "title": "ui-ux-tester",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/04-quality-security/ui-ux-tester.md",
+     "repo": "VoltAgent/awesome-claude-code-subagents",
+     "author": "VoltAgent",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 26286,
+      "repo_pushed_at": "2026-11-02"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"
     },
     {
@@ -2771,51 +2957,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/prompts-chat-frontend-developer-skill/",
-     "source": "prompts.chat"
-    },
-    {
-     "id": "prompts-chat-architecture-uiux-audit",
-     "title": "Architecture & UI/UX Audit",
-     "type": "system-prompt",
-     "industry": "design",
-     "roles": [
-      "design-reviewer"
-     ],
-     "summary": "It asks an AI to assume the persona of a Senior Frontend Engineer & Product Reviewer to perform a high-level critique of a Next.js (App Router) project. Instead of writing code, the prompt focuses on evaluating the architecture (folder structure, scalability), UI/UX (hierarchy, consistency), and design system (component reuse) of a developer community platform to identify anti-patterns and suggest high-impact…",
-     "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-architecture-uiux-audit.md",
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "surendharnadh280709",
-     "license": "CC0-1.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "votes": 3,
-      "created_at": "2026-03-28"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/prompts-chat-architecture-uiux-audit/",
      "source": "prompts.chat"
     }
    ]

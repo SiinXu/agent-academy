@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,14 +46,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1621 items
+- minimal: 1626 items
 - motion: 645 items
 - 3d: 633 items
-- editorial: 592 items
+- editorial: 591 items
 - playful: 560 items
 - gradient: 285 items
 - retro: 118 items
-- dark-tech: 110 items
+- dark-tech: 109 items
 - glass: 56 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -252,6 +252,11 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill research-synthesis
   needs_credentials: false, writes_external: false
+- [system-prompt] ui-designer. Use this agent when designing visual interfaces, creating design systems, building component libraries, or refining user-facing aesthetics requiring expert visual design, interaction patterns, and accessibility considera
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/ui-designer.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-01-core-development-ui-designer.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [system-prompt] Create STYLE_GUIDE.md. This prompt assists users in creating a comprehensive STYLE_GUIDE.md for their projects. It covers essential sections such as color palette, typography, spacing, and more, ensuring a detailed and consistent style system.
   source: https://prompts.chat/prompts/cmj8fn09j000bwj0qj8c1d38p_create-style-guidemd
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-create-style-guidemd.md
@@ -324,10 +329,6 @@ Read the required skills, prompts and standards in order.
   source: https://m3.material.io/styles/color/roles
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [standard] Material 3 Design Tokens. M3 token layers (ref → sys → comp) and naming
-  source: https://m3.material.io/foundations/design-tokens/overview
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
 
@@ -344,6 +345,24 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/wshobson/agents/blob/main/plugins/ui-design/commands/design-system-setup.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-ui-design-commands-design-system-setup.md
   license: MIT
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.alvinindra/figma-mcp-rust. Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.
+  source: https://github.com/alvinindra/figma-mcp-rust
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alvinindra-figma-mcp-rust.md
+  license: MIT
+  install: npx -y @alvinindra/figma-mcp-rust
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.tunglt1810/figma-mcp-go. Figma MCP server with full read/write access via plugin bridge — no API token or rate limits.
+  source: https://github.com/tunglt1810/figma-mcp-go
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-tunglt1810-figma-mcp-go.md
+  license: MIT
+  install: npx -y @tunglt1810/figma-mcp-go
+  needs_credentials: false, writes_external: true
+- [mcp] HTML to Figma — Design System. Translate HTML prototypes into Figma using your design system's real components and tokens.
+  source: https://github.com/miapre/mimic-ai
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miapre-html-to-figma-design-system.md
+  license: MIT
+  install: npx -y html-to-figma-design-system
   needs_credentials: false, writes_external: false
 - [mcp] DS Manager. Design System Manager for shadcn/ui: tokens, fonts, radius, components, icons, blocks, Figma sync.
   source: https://www.shadcndesign.com/docs/ds-manager-mcp
@@ -445,6 +464,11 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill ux-copy
   needs_credentials: false, writes_external: false
+- [system-prompt] ui-ux-tester. Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [system-prompt] Frontend Developer. Act as an elite frontend development specialist with deep expertise in modern JavaScript frameworks, responsive design, and user interface implementation. Your role encompasses designing reusable components, optimizing p
   source: https://prompts.chat/prompts/cmkb4dsp20009l404yrtmh4a4_frontend-developer
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer.md
@@ -453,11 +477,6 @@ Go through the checklist and report the result to your owner.
 - [system-prompt] Frontend Developer Skill. This prompt is designed for an elite frontend development specialist. It outlines responsibilities and skills required for building high-performance, responsive, and accessible user interfaces using modern JavaScript fra
   source: https://prompts.chat/prompts/cmjhdytu00001jm04yooccuhl_frontend-developer-skill
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer-skill.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Architecture & UI/UX Audit. It asks an AI to assume the persona of a Senior Frontend Engineer & Product Reviewer to perform a high-level critique of a Next.js (App Router) project. Instead of writing code, the prompt focuses on evaluating the archi
-  source: https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-architecture-uiux-audit.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

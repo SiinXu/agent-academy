@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -46,14 +46,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1621 items
+- minimal: 1626 items
 - motion: 645 items
 - 3d: 633 items
-- editorial: 592 items
+- editorial: 591 items
 - playful: 560 items
 - gradient: 285 items
 - retro: 118 items
-- dark-tech: 110 items
+- dark-tech: 109 items
 - glass: 56 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -152,6 +152,11 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill design-handoff
   needs_credentials: false, writes_external: false
+- [system-prompt] design-bridge. Use this agent when you need to translate a DESIGN.md from the VoltAgent/awesome-design-md repository into polished Claude Code instructions for building user interfaces that faithfully match the chosen brand. Invoke thi
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/design-bridge.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-01-core-development-design-bridge.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [skill] 0xdesign/design-lab. A design exploration flow: interview, multiple options, iterate on feedback
   source: https://www.ui-skills.com/skills/0xdesign/design-lab
   license: see source (listed via UI Hub)
@@ -243,10 +248,6 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/emilkowalski/review-animations
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [skill] frontend-design（Anthropic）. Anthropic's official frontend design skill
-  source: https://www.ui-skills.com/skills/anthropics/frontend-design
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
 
@@ -258,6 +259,52 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/wshobson/agents/blob/main/plugins/ui-design/commands/create-component.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-ui-design-commands-create-component.md
   license: MIT
+  needs_credentials: false, writes_external: false
+- [mcp] Figma MCP Server. The Figma MCP server brings Figma design context directly into your AI workflow.
+  source: https://github.com/figma/mcp-server-guide
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.figma.com/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Storybook MCP Addon. Help agents automatically write and test stories for your UI components.
+  source: https://github.com/storybookjs/mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-storybookjs-addon-mcp.md
+  license: MIT
+  install: npx -y @storybook/addon-mcp
+  needs_credentials: false, writes_external: true
+- [mcp] Excalidraw Architect. Generate beautiful Excalidraw architecture diagrams with auto-layout and component styling
+  source: https://github.com/BV-Venky/excalidraw-architect-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-bv-venky-excalidraw-architect-mcp.md
+  license: MIT
+  install: uvx excalidraw-architect-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] Tailwind Shades. Tailwind CSS palettes (50-950) from any color, the closest Tailwind color, and Tailwind's defaults
+  source: https://github.com/bourhaouta/vscode-tailwindshades
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-bourhaouta-tailwindshades.md
+  license: MIT
+  install: npx -y tailwindshades-mcp
+  needs_credentials: true, writes_external: true
+- [mcp] io.github.sunhome243/figma-mcp-express. Compact Figma MCP with validated batch ops through a local plugin bridge.
+  source: https://github.com/sunhome243/figma-mcp-express
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-sunhome243-figma-mcp-express.md
+  license: MIT
+  install: npx -y figma-mcp-express
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.felixAnhalt/Figma-Context-MCP. LLM-optimized Figma MCP server.
+  source: https://github.com/felixAnhalt/figma-to-code-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-felixanhalt-figma-context-mcp.md
+  license: MIT
+  install: npx -y @tmegit/figma-developer-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Figma CodeKit MCP. Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.
+  source: https://github.com/Mehmoodqureshi/figma-codekit-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-codekit-mcp.md
+  license: MIT
+  install: npx -y figma-codekit-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.jmshinhwa/tailwind-v4-upgrade-blocker-lint. 19 rules that find the Tailwind v3 syntax Tailwind v4 removed or silently redefined, in the file you
+  source: https://github.com/jmshinhwa/readystack-themes
+  license: proprietary
+  install: npx -y @readystack/tailwind-v4-upgrade-blocker-lint
   needs_credentials: false, writes_external: false
 - [mcp] com.nodoicons/nodo-icons. Search 5,000 Nodo icons, get SVG, React or Vue code. Free Linear style, Pro styles with a license.
   source: https://nodoicons.com/docs/
@@ -351,6 +398,11 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill ux-copy
   needs_credentials: false, writes_external: false
+- [system-prompt] ui-ux-tester. Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [system-prompt] Frontend Developer. Act as an elite frontend development specialist with deep expertise in modern JavaScript frameworks, responsive design, and user interface implementation. Your role encompasses designing reusable components, optimizing p
   source: https://prompts.chat/prompts/cmkb4dsp20009l404yrtmh4a4_frontend-developer
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer.md
@@ -359,11 +411,6 @@ Go through the checklist and report the result to your owner.
 - [system-prompt] Frontend Developer Skill. This prompt is designed for an elite frontend development specialist. It outlines responsibilities and skills required for building high-performance, responsive, and accessible user interfaces using modern JavaScript fra
   source: https://prompts.chat/prompts/cmjhdytu00001jm04yooccuhl_frontend-developer-skill
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer-skill.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Architecture & UI/UX Audit. It asks an AI to assume the persona of a Senior Frontend Engineer & Product Reviewer to perform a high-level critique of a Next.js (App Router) project. Instead of writing code, the prompt focuses on evaluating the archi
-  source: https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-architecture-uiux-audit.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

@@ -2,7 +2,7 @@
  "id": "marketing/product-marketer",
  "industry": "marketing",
  "role": "product-marketer",
- "updated_at": "2026-11-02T20:22:18Z",
+ "updated_at": "2026-11-03T03:29:34Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -410,7 +410,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58072,
+      "repo_stars": 58127,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -455,7 +455,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58072,
+      "repo_stars": 58127,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -500,7 +500,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58072,
+      "repo_stars": 58127,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -545,7 +545,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58072,
+      "repo_stars": 58127,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -590,7 +590,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58072,
+      "repo_stars": 58127,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -763,6 +763,63 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-axelvernebooks-marketing-scope-mcp",
+     "title": "Marketing Scope",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "product-marketer"
+     ],
+     "summary": "Plan campaigns, score offers explainably, and enforce offer-cited tactics before spending.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/AxelVerneBooks/marketing-scope-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-axelvernebooks-marketing-scope-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "AxelVerneBooks/marketing-scope-mcp",
+     "author": "io.github.AxelVerneBooks",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/AxelVerneBooks/marketing-scope-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Plan campaigns, score offers explainably, and enforce offer-cited tactics before spending.",
+       "name": "io.github.AxelVerneBooks/marketing-scope-mcp",
+       "packages": [],
+       "remotes": [],
+       "repository": "https://github.com/AxelVerneBooks/marketing-scope-mcp",
+       "title": "Marketing Scope",
+       "version": "0.1.0",
+       "website": "https://axelverne.com/"
+      }
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-02",
+      "registry_updated_at": "2026-10-20"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-21T00:40:03Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-axelvernebooks-marketing-scope-mcp/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag",
      "title": "ai_email_gtm_outreach_agent",
      "type": "case",
@@ -851,51 +908,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
-     "source": "seed"
-    },
-    {
-     "id": "google-adk-recipes-contrib-python-brand-search-optimization",
-     "title": "brand-search-optimization",
-     "type": "workflow",
-     "industry": "marketing",
-     "roles": [
-      "seo-specialist"
-     ],
-     "summary": "This recipe is an Agent Development Kit (ADK) multi-agent workflow that helps e-commerce brands optimize product titles for search visibility and recover zero/low-result retail queries using BigQuery and Gemini Computer Use.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/google-adk-recipes-contrib-python-brand-search-optimization.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/google/adk-recipes/main/contrib/python/brand-search-optimization/README.md",
-     "repo": "google/adk-recipes",
-     "author": "google",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/google/adk-recipes/tree/main/contrib/python/brand-search-optimization"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 10452,
-      "repo_pushed_at": "2026-10-14"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/google-adk-recipes-contrib-python-brand-search-optimization/",
      "source": "seed"
     }
    ]
@@ -1024,7 +1036,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58072,
+      "repo_stars": 58127,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1069,7 +1081,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58072,
+      "repo_stars": 58127,
       "repo_pushed_at": "2026-10-31"
      },
      "course_step": "3-learn-rules",
@@ -1114,7 +1126,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1159,7 +1171,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1204,7 +1216,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

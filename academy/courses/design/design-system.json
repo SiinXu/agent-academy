@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-11-02T20:22:18Z",
+ "updated_at": "2026-11-03T03:29:34Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1384,7 +1384,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 186721,
+      "repo_stars": 186816,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1429,7 +1429,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 186721,
+      "repo_stars": 186816,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1474,7 +1474,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144228,
+      "repo_stars": 144344,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1519,7 +1519,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144228,
+      "repo_stars": 144344,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1564,7 +1564,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144228,
+      "repo_stars": 144344,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1609,7 +1609,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1654,7 +1654,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1699,7 +1699,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1744,7 +1744,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1789,7 +1789,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1834,7 +1834,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1879,7 +1879,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1924,7 +1924,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1969,7 +1969,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1981,6 +1981,51 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-design-skills-research-synthesis/",
+     "source": "github"
+    },
+    {
+     "id": "voltagent-awesome-claude-code-subagents-categories-01-core-development-ui-designer",
+     "title": "ui-designer",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Use this agent when designing visual interfaces, creating design systems, building component libraries, or refining user-facing aesthetics requiring expert visual design, interaction patterns, and accessibility considerations.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/ui-designer.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-01-core-development-ui-designer.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/01-core-development/ui-designer.md",
+     "repo": "VoltAgent/awesome-claude-code-subagents",
+     "author": "VoltAgent",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/ui-designer.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 26286,
+      "repo_pushed_at": "2026-11-02"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-01-core-development-ui-designer/",
      "source": "github"
     },
     {
@@ -2710,52 +2755,6 @@
      },
      "page": "https://academy.incidental.site/r/uihub-ued-m3-color-roles/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-m3-tokens",
-     "title": "Material 3 Design Tokens",
-     "type": "standard",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "M3 token layers (ref → sys → comp) and naming",
-     "summary_lang": "en",
-     "source_url": "https://m3.material.io/foundations/design-tokens/overview",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Google",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-ued-m3-tokens/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -2793,7 +2792,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143753,
+      "repo_stars": 143764,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2838,7 +2837,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "4-do-it",
@@ -2851,6 +2850,201 @@
      },
      "page": "https://academy.incidental.site/r/wshobson-agents-plugins-ui-design-commands-design-system-setup/",
      "source": "github"
+    },
+    {
+     "id": "mcp-io-github-alvinindra-figma-mcp-rust",
+     "title": "io.github.alvinindra/figma-mcp-rust",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/alvinindra/figma-mcp-rust",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alvinindra-figma-mcp-rust.md",
+     "upstream_raw_url": null,
+     "repo": "alvinindra/figma-mcp-rust",
+     "author": "io.github.alvinindra",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/alvinindra/figma-mcp-rust/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.",
+       "name": "io.github.alvinindra/figma-mcp-rust",
+       "packages": [
+        {
+         "env": [],
+         "id": "@alvinindra/figma-mcp-rust",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/alvinindra/figma-mcp-rust",
+       "title": null,
+       "version": "0.2.1",
+       "website": null
+      }
+     },
+     "install": "npx -y @alvinindra/figma-mcp-rust",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 77,
+      "repo_pushed_at": "2026-10-12",
+      "registry_updated_at": "2026-10-12"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-alvinindra-figma-mcp-rust/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-tunglt1810-figma-mcp-go",
+     "title": "io.github.tunglt1810/figma-mcp-go",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Figma MCP server with full read/write access via plugin bridge — no API token or rate limits.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/tunglt1810/figma-mcp-go",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-tunglt1810-figma-mcp-go.md",
+     "upstream_raw_url": null,
+     "repo": "tunglt1810/figma-mcp-go",
+     "author": "io.github.tunglt1810",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/tunglt1810/figma-mcp-go/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma MCP server with full read/write access via plugin bridge — no API token or rate limits.",
+       "name": "io.github.tunglt1810/figma-mcp-go",
+       "packages": [
+        {
+         "env": [],
+         "id": "@tunglt1810/figma-mcp-go",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.6.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/tunglt1810/figma-mcp-go",
+       "title": null,
+       "version": "0.6.0",
+       "website": null
+      }
+     },
+     "install": "npx -y @tunglt1810/figma-mcp-go",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 18,
+      "repo_pushed_at": "2026-10-14",
+      "registry_updated_at": "2026-10-14"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-tunglt1810-figma-mcp-go/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-miapre-html-to-figma-design-system",
+     "title": "HTML to Figma — Design System",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Translate HTML prototypes into Figma using your design system's real components and tokens.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/miapre/mimic-ai",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-miapre-html-to-figma-design-system.md",
+     "upstream_raw_url": null,
+     "repo": "miapre/mimic-ai",
+     "author": "io.github.miapre",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/miapre/mimic-ai/blob/HEAD/README.md",
+      "record": {
+       "description": "Translate HTML prototypes into Figma using your design system's real components and tokens.",
+       "name": "io.github.miapre/html-to-figma-design-system",
+       "packages": [
+        {
+         "env": [],
+         "id": "html-to-figma-design-system",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/miapre/html-to-figma-design-system",
+       "title": "HTML to Figma — Design System",
+       "version": "1.1.0",
+       "website": "https://github.com/miapre/html-to-figma-design-system"
+      }
+     },
+     "install": "npx -y html-to-figma-design-system",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 15,
+      "repo_pushed_at": "2026-10-09",
+      "registry_updated_at": "2026-04-11"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-miapre-html-to-figma-design-system/",
+     "source": "mcp-registry"
     },
     {
      "id": "mcp-com-shadcndesign-manager-ds-manager",
@@ -3274,7 +3468,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144228,
+      "repo_stars": 144344,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3314,12 +3508,12 @@
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
-      "executes_code": true,
+      "executes_code": false,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144228,
+      "repo_stars": 144344,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3364,7 +3558,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 52985,
+      "repo_stars": 53058,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3409,7 +3603,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3454,7 +3648,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3499,7 +3693,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3544,7 +3738,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42110,
+      "repo_stars": 42121,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3589,7 +3783,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3634,7 +3828,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3679,7 +3873,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34474,
+      "repo_stars": 34503,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3691,6 +3885,51 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-design-skills-ux-copy/",
+     "source": "github"
+    },
+    {
+     "id": "voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester",
+     "title": "ui-ux-tester",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "design-reviewer"
+     ],
+     "summary": "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/04-quality-security/ui-ux-tester.md",
+     "repo": "VoltAgent/awesome-claude-code-subagents",
+     "author": "VoltAgent",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 26286,
+      "repo_pushed_at": "2026-11-02"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"
     },
     {
@@ -3781,51 +4020,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/prompts-chat-frontend-developer-skill/",
-     "source": "prompts.chat"
-    },
-    {
-     "id": "prompts-chat-architecture-uiux-audit",
-     "title": "Architecture & UI/UX Audit",
-     "type": "system-prompt",
-     "industry": "design",
-     "roles": [
-      "design-reviewer"
-     ],
-     "summary": "It asks an AI to assume the persona of a Senior Frontend Engineer & Product Reviewer to perform a high-level critique of a Next.js (App Router) project. Instead of writing code, the prompt focuses on evaluating the architecture (folder structure, scalability), UI/UX (hierarchy, consistency), and design system (component reuse) of a developer community platform to identify anti-patterns and suggest high-impact…",
-     "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-architecture-uiux-audit.md",
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "surendharnadh280709",
-     "license": "CC0-1.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "votes": 3,
-      "created_at": "2026-03-28"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/prompts-chat-architecture-uiux-audit/",
      "source": "prompts.chat"
     }
    ]

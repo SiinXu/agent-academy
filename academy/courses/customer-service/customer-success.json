@@ -2,7 +2,7 @@
  "id": "customer-service/customer-success",
  "industry": "customer-service",
  "role": "customer-success",
- "updated_at": "2026-11-02T20:22:18Z",
+ "updated_at": "2026-11-03T03:29:34Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -508,6 +508,51 @@
      "source": "seed"
     },
     {
+     "id": "voltagent-awesome-claude-code-subagents-categories-08-business-product-customer-success-ma",
+     "title": "customer-success-manager",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "customer-success"
+     ],
+     "summary": "Use this agent when you need to assess customer health, develop retention strategies, identify upsell opportunities, or maximize customer lifetime value. Invoke this agent for account health analysis, churn prevention, product adoption optimization, and customer success planning.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/customer-success-manager.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-customer-success-ma.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/VoltAgent/awesome-claude-code-subagents/main/categories/08-business-product/customer-success-manager.md",
+     "repo": "VoltAgent/awesome-claude-code-subagents",
+     "author": "VoltAgent",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/customer-success-manager.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 26286,
+      "repo_pushed_at": "2026-11-02"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-03T03:29:34Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-customer-success-ma/",
+     "source": "github"
+    },
+    {
      "id": "anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md",
      "title": "customer-escalation",
      "type": "skill",
@@ -595,51 +640,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md/",
-     "source": "seed"
-    },
-    {
-     "id": "anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md",
-     "title": "draft-response",
-     "type": "skill",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, declining a feature request, or replying to a billing issue.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/draft-response/SKILL.md",
-     "repo": "anthropics/knowledge-work-plugins",
-     "author": "anthropics",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md"
-     },
-     "install": "npx skills add anthropics/knowledge-work-plugins --skill draft-response",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 29728,
-      "repo_pushed_at": "2026-10-15"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md/",
      "source": "seed"
     }
    ]

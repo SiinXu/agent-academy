@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -120,6 +120,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-social.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill social
+  needs_credentials: false, writes_external: false
+- [system-prompt] content-quality-editor. Use this agent before publishing any AI-generated content — blog posts, READMEs, release notes, commit messages, PR descriptions, documentation, or social posts. Strips AI writing patterns using unslop, then performs a f
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-quality-editor.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-content-quality-edi.md
+  license: MIT
   needs_credentials: false, writes_external: false
 - [system-prompt] Comprehensive Digital Marketing Strategy for Fashion Brand. Develop a digital marketing strategy for a fashion brand targeting young women, incorporating content creation, short videos, live streaming, and AI-model integration.
   source: https://prompts.chat/prompts/cmjpusher000elj04qoply1t3_comprehensive-digital-marketing-strategy-for-fashion-brand

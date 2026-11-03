@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -94,14 +94,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1621 items
+- minimal: 1626 items
 - motion: 645 items
 - 3d: 633 items
-- editorial: 592 items
+- editorial: 591 items
 - playful: 560 items
 - gradient: 285 items
 - retro: 118 items
-- dark-tech: 110 items
+- dark-tech: 109 items
 - glass: 56 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -332,6 +332,95 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-multimodal-d.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [mcp] io.github.GLips/Figma-Context-MCP. Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.
+  source: https://github.com/GLips/Figma-Context-MCP
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-glips-figma-context-mcp.md
+  license: MIT
+  install: npx -y figma-developer-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Figma MCP Server. The Figma MCP server brings Figma design context directly into your AI workflow.
+  source: https://github.com/figma/mcp-server-guide
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.figma.com/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.TranHoaiHung/figma-ui-mcp. Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back
+  source: https://github.com/TranHoaiHung/figma-ui-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-tranhoaihung-figma-ui-mcp.md
+  license: MIT
+  install: npx -y figma-ui-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] Keyline Icons. Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.
+  source: https://github.com/keyline-icons/keyline-icons
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-keylineicons-mcp.md
+  license: MIT
+  install: npx -y @keyline-icons/mcp
+  needs_credentials: false, writes_external: false
+- [mcp] com.webflow/mcp. AI-powered design and management for Webflow Sites
+  source: https://github.com/webflow/mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-webflow-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.webflow.com/mcp
+  needs_credentials: true, writes_external: true
+- [mcp] After Effects MCP Server. Drive Adobe After Effects from any MCP client: compositions, layers, animation and rendering.
+  source: https://github.com/zachshallbetter/adobe-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects.md
+  license: MIT
+  install: npx -y adobe-mcp-aftereffects
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.neozhehan/figma-edit-mcp. Programmatically read, create, and modify Figma designs via MCP.
+  source: https://github.com/neozhehan/figma-edit-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-neozhehan-figma-edit-mcp.md
+  license: MIT
+  install: npx -y figma-edit-mcp
+  needs_credentials: false, writes_external: true
+- [mcp] Figma MCP Server. A local MCP server with full Figma REST API coverage.
+  source: https://github.com/planetabhi/figma-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-planetabhi-figma-mcp-server.md
+  license: MIT
+  install: npx -y figma-mcp-server
+  needs_credentials: true, writes_external: false
+- [mcp] figmanage. Let agents manage your Figma workspace. 102 tools for seats, teams, offboarding, and cleanup.
+  source: https://github.com/dannykeane/figmanage
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dannykeane-figmanage.md
+  license: MIT
+  install: npx -y figmanage
+  needs_credentials: false, writes_external: true
+- [mcp] io.github.felixAnhalt/Figma-Context-MCP. LLM-optimized Figma MCP server.
+  source: https://github.com/felixAnhalt/figma-to-code-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-felixanhalt-figma-context-mcp.md
+  license: MIT
+  install: npx -y @tmegit/figma-developer-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.cmd8/excalidraw-mcp. Model Context Protocol server for Excalidraw diagrams.
+  source: https://github.com/cmd8/excalidraw-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-cmd8-excalidraw-mcp.md
+  license: MIT
+  install: npx -y @cmd8/excalidraw-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.debu-sinha/excalidraw. Security-hardened Excalidraw MCP server with auth, rate limiting, and 14 tools
+  source: https://github.com/debu-sinha/excalidraw-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-debu-sinha-excalidraw.md
+  license: MIT
+  install: npx -y excalidraw-mcp-server
+  needs_credentials: false, writes_external: false
+- [mcp] Figma MCP Server. MCP server enabling AI assistants to interact with Figma designs via natural language commands
+  source: https://github.com/oabolade/figma_mcp_server_actor
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-oabolade-figma-mcp-server-actor.md
+  license: ISC
+  install: npx -y @oabolade-pegasus/figma-mcp-server
+  needs_credentials: true, writes_external: false
+- [mcp] figma-vault. Figma designs pulled once into a local vault; AI agents read them offline with no rate limits
+  source: https://github.com/NBhey/figma-vault
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-nbhey-figma-vault.md
+  license: MIT
+  install: npx -y figma-vault
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.compassalessandrolorenz/Figma-Context-MCP-AIR. Figma MCP server for AI agents. 9 tools: design context, variables, screenshots, and FigJam.
+  source: https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-compassalessandrolorenz-figma-context-mcp-air.md
+  license: MIT
+  install: npx -y figma-context-mcp-air
+  needs_credentials: true, writes_external: false
 - [tool] 21st-dev/magic-mcp. Use 10k+ React/Tailwind components inside Cursor (21st’s MCP)
   source: https://github.com/21st-dev/magic-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md
@@ -365,75 +454,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md
   license: CC0-1.0
   install: uvx fonts-andorra
-  needs_credentials: false, writes_external: false
-- [tool] Bolt. Build apps by chatting, with in-browser code editing
-  source: https://bolt.cello.so/ByQ3siiRkMz
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] Claude Code /design、/design-sync. Generate several editable artboards in the terminal, pick one, then build; /design-sync syncs your React design system
-  source: https://code.claude.com/docs/en/commands
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] Claude Design. Anthropic’s design product, now built into Claude chats; outputs HTML prototypes
-  source: https://claude.com/product/design
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] dembrandt. Enter a URL and extract its design system (color, type, spacing, shadows) in seconds; also works as an MCP for Claude
-  source: https://github.com/dembrandt/dembrandt
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-dembrandt.md
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] design-extract. Extract any website’s design system with one command
-  source: https://github.com/Manavarya09/design-extract
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-design-extract.md
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [mcp] Figma. Figma MCP Pack
-  source: https://github.com/pipeworx-io/mcp-figma
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-figma.md
-  license: MIT
-  install: npx -y @pipeworx/mcp-figma
-  needs_credentials: true, writes_external: false
-- [tool] Figma Make. AI-generated interactive prototypes
-  source: https://www.figma.com/make/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [mcp] Figma MCP. Figma MCP: list frames in a file and fetch one frame's JSON and image safely. 2 tools.
-  source: https://github.com/scalably-io/figma-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-scalably-figma-mcp.md
-  license: MIT
-  install: npx -y @scalably-io/figma-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] Figma Vector MCP. Let Claude create and edit fully editable vector nodes on the Figma canvas.
-  source: https://github.com/workingmodel/wm-figma-vector-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-workingmodel-figma-vector-mcp.md
-  license: MIT
-  install: npx -y figma-vector-mcp
-  needs_credentials: true, writes_external: true
-- [tool] Fontshare. Free fonts for commercial use
-  source: https://fontshare.com
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [mcp] FramerToNextJS. Edit text, layout and CMS on your FramerToNextJS sites (converted Framer or AI-built), then publish.
-  source: https://framertonextjs.com/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://framertonextjs.com/api/mcp
-  needs_credentials: true, writes_external: true
-- [tool] Google Stitch. Turn text into designs, exportable to Figma
-  source: https://stitch.withgoogle.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] Google Stitch CLI. npm i -g @google/stitch brings Stitch to the terminal to generate pages and design systems with Claude Code, Cursor or Codex
-  source: https://x.com/i/status/2105695155164741984
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] Hugeicons. A huge icon library
-  source: https://hugeicons.com
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [tool] Iconsax. A line icon library
-  source: https://app.iconsax.io
-  license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check
@@ -512,6 +532,11 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill ux-copy
   needs_credentials: false, writes_external: false
+- [system-prompt] ui-ux-tester. Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [system-prompt] Frontend Developer. Act as an elite frontend development specialist with deep expertise in modern JavaScript frameworks, responsive design, and user interface implementation. Your role encompasses designing reusable components, optimizing p
   source: https://prompts.chat/prompts/cmkb4dsp20009l404yrtmh4a4_frontend-developer
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer.md
@@ -520,11 +545,6 @@ Go through the checklist and report the result to your owner.
 - [system-prompt] Frontend Developer Skill. This prompt is designed for an elite frontend development specialist. It outlines responsibilities and skills required for building high-performance, responsive, and accessible user interfaces using modern JavaScript fra
   source: https://prompts.chat/prompts/cmjhdytu00001jm04yooccuhl_frontend-developer-skill
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-frontend-developer-skill.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Architecture & UI/UX Audit. It asks an AI to assume the persona of a Senior Frontend Engineer & Product Reviewer to perform a high-level critique of a Next.js (App Router) project. Instead of writing code, the prompt focuses on evaluating the archi
-  source: https://prompts.chat/prompts/cmnae3hr70001jl044hvyilyj_architecture-uiux-audit
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-architecture-uiux-audit.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 

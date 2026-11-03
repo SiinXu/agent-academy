@@ -1,8 +1,8 @@
 ---
 name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-02
-updated_at: 2026-11-02T20:22:18Z
+version: 2026-11-03
+updated_at: 2026-11-03T03:29:34Z
 source: https://academy.incidental.site/courses/customer-service/customer-success/
 ---
 
@@ -80,6 +80,11 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill churn-prevention
   needs_credentials: false, writes_external: false
+- [system-prompt] customer-success-manager. Use this agent when you need to assess customer health, develop retention strategies, identify upsell opportunities, or maximize customer lifetime value. Invoke this agent for account health analysis, churn prevention, p
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/customer-success-manager.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-customer-success-ma.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [skill] customer-escalation. Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a customer is threatening to ch
   source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-escalation-skill-md.md
@@ -91,12 +96,6 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-customer-research-skill-md.md
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill customer-research
-  needs_credentials: false, writes_external: false
-- [skill] draft-response. Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news like a delay or won't-fix, decli
-  source: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/anthropics-knowledge-work-plugins-customer-support-skills-draft-response-skill-md.md
-  license: Apache-2.0
-  install: npx skills add anthropics/knowledge-work-plugins --skill draft-response
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
