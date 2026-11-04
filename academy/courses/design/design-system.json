@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-11-03T17:52:01Z",
+ "updated_at": "2026-11-04T02:24:06Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1384,7 +1384,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187032,
+      "repo_stars": 187143,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1429,7 +1429,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187032,
+      "repo_stars": 187143,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1474,7 +1474,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144685,
+      "repo_stars": 144802,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1519,7 +1519,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144685,
+      "repo_stars": 144802,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1564,7 +1564,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144685,
+      "repo_stars": 144802,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1609,7 +1609,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1654,7 +1654,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1699,7 +1699,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1744,7 +1744,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1789,7 +1789,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1834,7 +1834,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1879,7 +1879,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1924,7 +1924,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34582,
+      "repo_stars": 34629,
       "repo_pushed_at": "2026-11-03"
      },
      "course_step": "3-learn-rules",
@@ -1969,7 +1969,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34582,
+      "repo_stars": 34629,
       "repo_pushed_at": "2026-11-03"
      },
      "course_step": "3-learn-rules",
@@ -2014,7 +2014,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26307,
+      "repo_stars": 26318,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2792,7 +2792,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143825,
+      "repo_stars": 143852,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2837,7 +2837,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "4-do-it",
@@ -3107,6 +3107,94 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-shadcndesign-manager-ds-manager/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-freevectoricons-fvi-mcp",
+     "title": "FreeVectorIcons",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Read and write a FreeVectorIcons design collection: briefs, DESIGN.md, icons and brand assets.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/FreeVectorIcons/fvi-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-freevectoricons-fvi-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "FreeVectorIcons/fvi-mcp",
+     "author": "io.github.FreeVectorIcons",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/FreeVectorIcons/fvi-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Read and write a FreeVectorIcons design collection: briefs, DESIGN.md, icons and brand assets.",
+       "name": "io.github.FreeVectorIcons/fvi-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Collection-scoped token (fvi_col_…) from FreeVectorIcons → your collection → Integrations → Setup MCP. The collection is derived from this token. Never commit this value.",
+           "name": "FVI_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "API origin including /api. Leave the default for production.",
+           "name": "FVI_API_URL",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Set true to hide write tools (park, upload, version).",
+           "name": "FVI_READ_ONLY",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@freevectoricons/mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.3.0-beta.2"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/FreeVectorIcons/fvi-mcp",
+       "title": "FreeVectorIcons",
+       "version": "0.3.0-beta.2",
+       "website": "https://freevectoricons.com/mcp"
+      }
+     },
+     "install": "npx -y @freevectoricons/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "FVI_TOKEN",
+       "FVI_API_URL",
+       "FVI_READ_ONLY"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-03",
+      "registry_updated_at": "2026-11-03"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-04T02:24:06Z",
+     "updated_at": "2026-11-04T02:24:06Z",
+     "checked_at": "2026-11-04T02:24:06Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-freevectoricons-fvi-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -3468,7 +3556,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144685,
+      "repo_stars": 144802,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3513,7 +3601,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144685,
+      "repo_stars": 144802,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3558,7 +3646,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 53226,
+      "repo_stars": 53299,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3603,7 +3691,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3648,7 +3736,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3693,7 +3781,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3738,7 +3826,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42150,
+      "repo_stars": 42163,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -3783,7 +3871,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34582,
+      "repo_stars": 34629,
       "repo_pushed_at": "2026-11-03"
      },
      "course_step": "3-learn-rules",
@@ -3828,7 +3916,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34582,
+      "repo_stars": 34629,
       "repo_pushed_at": "2026-11-03"
      },
      "course_step": "3-learn-rules",
@@ -3873,7 +3961,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34582,
+      "repo_stars": 34629,
       "repo_pushed_at": "2026-11-03"
      },
      "course_step": "3-learn-rules",
@@ -3918,7 +4006,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26307,
+      "repo_stars": 26318,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

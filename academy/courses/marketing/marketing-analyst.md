@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-03
-updated_at: 2026-11-03T17:52:01Z
+version: 2026-11-04
+updated_at: 2026-11-04T02:24:06Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 

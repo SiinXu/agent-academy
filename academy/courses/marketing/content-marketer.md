@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-03
-updated_at: 2026-11-03T17:52:01Z
+version: 2026-11-04
+updated_at: 2026-11-04T02:24:06Z
 source: https://academy.incidental.site/courses/marketing/content-marketer/
 ---
 
@@ -248,16 +248,6 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [mcp] GenPark Audio Packet Jitter Resilience Buffer. Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry
-  source: https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alphaparkinc-genpark-audio-packet-jitter-resilience-buffer-skill.md
-  license: MIT
-  needs_credentials: false, writes_external: false
-- [mcp] genpark-jitter-buffer. Packet ordering simulation and inter-arrival jitter telemetry.
-  source: https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md
-  license: MIT
-  needs_credentials: false, writes_external: false
 - [mcp] Monetize Marketing. The Monetize Marketing App as MCP tools: Brain, mission, training, skills, Library, software. OAuth.
   source: https://github.com/monetizemarketing/mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-monetizemarketing-app.md
@@ -300,6 +290,15 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://northpoint.fi/api/mcp
   needs_credentials: true, writes_external: false
+- [mcp] GenPark Audio Packet Jitter Resilience Buffer. Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry
+  source: https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  needs_credentials: false, writes_external: false
+- [mcp] genpark-jitter-buffer. Packet ordering simulation and inter-arrival jitter telemetry.
+  source: https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md
+  license: MIT
+  needs_credentials: false, writes_external: false
 - [mcp] Hootsuite. MCP server for Hootsuite API integration
   source: https://github.com/asklokesh/hootsuite-mcp-server
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)

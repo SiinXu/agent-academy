@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-03
-updated_at: 2026-11-03T17:52:01Z
+version: 2026-11-04
+updated_at: 2026-11-04T02:24:06Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,9 +46,9 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1633 items
+- minimal: 1638 items
 - motion: 646 items
-- 3d: 633 items
+- 3d: 634 items
 - editorial: 594 items
 - playful: 561 items
 - gradient: 285 items
@@ -368,6 +368,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://www.shadcndesign.com/docs/ds-manager-mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://manager.shadcndesign.com/api/mcp
+  needs_credentials: true, writes_external: true
+- [mcp] FreeVectorIcons. Read and write a FreeVectorIcons design collection: briefs, DESIGN.md, icons and brand assets.
+  source: https://github.com/FreeVectorIcons/fvi-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-freevectoricons-fvi-mcp.md
+  license: MIT
+  install: npx -y @freevectoricons/mcp
   needs_credentials: true, writes_external: true
 - [mcp] io.github.jirayusueb/figma-mcp-rs. Figma/FigJam MCP server with read/write via plugin — no API token, no limits. 78 tools.
   source: https://github.com/jirayusueb/figma-mcp-rs

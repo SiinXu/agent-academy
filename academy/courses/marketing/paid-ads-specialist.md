@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-03
-updated_at: 2026-11-03T17:52:01Z
+version: 2026-11-04
+updated_at: 2026-11-04T02:24:06Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -220,6 +220,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @mambalabsdev/mcp-tiktok-brand-presence-mapper
   needs_credentials: true, writes_external: false
+- [mcp] Deep Thought Marketing. Done-for-you digital marketing for small businesses: plan, launch and manage ads across 22 channels.
+  source: https://deepthought.marketing/claude-connector.html
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://deepthought-chat.shajan.workers.dev/mcp
+  needs_credentials: true, writes_external: true
 - [mcp] io.github.deapi-ai/tiktok-transcript-scraper. AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.
   source: https://github.com/deapi-ai/tiktok-transcript-mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -249,12 +254,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://tiktok-ads.insightfulmcp.com/
   needs_credentials: true, writes_external: false
-- [mcp] TikTok by 1Social. Publish and schedule TikTok videos and photo posts from your AI assistant.
-  source: https://github.com/sultanlive/1social-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-1social-tiktok.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.1social.dev/mcp/tiktok
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

@@ -8673,10 +8673,9 @@
 "url": "https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md"
 },
 "mcp-io-github-alphaparkinc-genpark-audio-packet-jitter-resilience-buffer-skill": {
-"file": "data/originals/mcp-io-github-alphaparkinc-genpark-audio-packet-jitter-resilience-buffer-skill.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
 "record": {
 "description": "Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry",
 "name": "io.github.alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
@@ -8695,8 +8694,7 @@
 "version": "1.0.1",
 "website": "https://genpark.ai/mcp"
 },
-"truncated": false,
-"url": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill/blob/HEAD/README.md"
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill&version=latest"
 },
 "mcp-io-github-alvinindra-figma-mcp-rust": {
 "file": "data/originals/mcp-io-github-alvinindra-figma-mcp-rust.md",
@@ -9945,6 +9943,51 @@
 },
 "truncated": false,
 "url": "https://github.com/fernandoguiraud16-coder/data-tools/blob/HEAD/README.md"
+},
+"mcp-io-github-freevectoricons-fvi-mcp": {
+"file": "data/originals/mcp-io-github-freevectoricons-fvi-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Read and write a FreeVectorIcons design collection: briefs, DESIGN.md, icons and brand assets.",
+"name": "io.github.FreeVectorIcons/fvi-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Collection-scoped token (fvi_col_…) from FreeVectorIcons → your collection → Integrations → Setup MCP. The collection is derived from this token. Never commit this value.",
+"name": "FVI_TOKEN",
+"required": true,
+"secret": true
+},
+{
+"description": "API origin including /api. Leave the default for production.",
+"name": "FVI_API_URL",
+"required": null,
+"secret": null
+},
+{
+"description": "Set true to hide write tools (park, upload, version).",
+"name": "FVI_READ_ONLY",
+"required": null,
+"secret": null
+}
+],
+"id": "@freevectoricons/mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.3.0-beta.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/FreeVectorIcons/fvi-mcp",
+"title": "FreeVectorIcons",
+"version": "0.3.0-beta.2",
+"website": "https://freevectoricons.com/mcp"
+},
+"truncated": false,
+"url": "https://github.com/FreeVectorIcons/fvi-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-friendlygeorge-posthog-mcp-server": {
 "file": "data/originals/mcp-io-github-friendlygeorge-posthog-mcp-server.md",
@@ -11595,7 +11638,7 @@
 "id": "@pipeworx/mcp-mixpanel",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.2"
 }
 ],
 "remotes": [
@@ -11607,7 +11650,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-mixpanel",
 "title": "Mixpanel",
-"version": "0.2.0",
+"version": "0.2.2",
 "website": "https://pipeworx.io/packs/mixpanel"
 },
 "truncated": false,
@@ -11634,7 +11677,7 @@
 "id": "@pipeworx/mcp-pipeworx-faq",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -11646,7 +11689,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-pipeworx-faq",
 "title": "Pipeworx Faq",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/pipeworx-faq"
 },
 "truncated": false,
@@ -12282,6 +12325,28 @@
 "truncated": true,
 "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md"
 },
+"mcp-io-github-shajan-factor42-deep-thought-marketing": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Done-for-you digital marketing for small businesses: plan, launch and manage ads across 22 channels.",
+"name": "io.github.shajan-Factor42/deep-thought-marketing",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://deepthought-chat.shajan.workers.dev/mcp"
+}
+],
+"repository": null,
+"title": "Deep Thought Marketing",
+"version": "1.0.0",
+"website": "https://deepthought.marketing/claude-connector.html"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.shajan-Factor42/deep-thought-marketing&version=latest"
+},
 "mcp-io-github-si40code-super-excalidraw": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -12909,7 +12974,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.35.0",
+"version": "1.35.1",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -18024,6 +18089,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-osklen-digital-flagship": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-osmo-1": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20182,13 +20254,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-dgesteves-onsystem": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-gh-enmerasoftware-ai-design-check": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -25872,6 +25937,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-jc9jje6-account-deletion-fire-effect": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-jd5xf5j-loot-app-onboarding": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26474,6 +26546,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-lzy2xnr-emoji-picker-globe": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-m0h2cm6-splat": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26959,6 +27038,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-o5c504w-not-boring-camera": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-o5w1k5q-physical-texture-web-experiments": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28379,6 +28465,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-tzsn9ci-liquid-bubble-buttons": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-u1g29vl-basement-studio": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -29072,6 +29165,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-xfbfnbj-milkshake-identity-motion": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-xgyjs7h-tour-merch-graphics": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -29304,6 +29404,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-yow89e1-beside-icon-set": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ypfehbv-grew-up-unfortunately": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
