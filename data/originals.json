@@ -449,31 +449,6 @@
 },
 "url": "https://botsdots.site/templates/amazon-ads-manager"
 },
-"botsdots-amazon-late": {
-"kind": "excerpt",
-"label": "botsdots",
-"license": "facts-only",
-"record": {
-"access": [
-"inbox"
-],
-"add": "https://x.ai/bot/RlPVwGxOM9pN7s0BBL6kd",
-"cadence": "on-demand",
-"catalog_sources": [
-"Public x.ai share page"
-],
-"category": "inbox-calendar",
-"creator": null,
-"firstSeen": "2026-11-02",
-"integrations": [],
-"name": "Amazon Late",
-"official": false,
-"page": "https://botsdots.site/templates/amazon-late",
-"risk": "medium",
-"summary": "Watches your shopping email for late Amazon deliveries and drafts compensation requests to Amazon Customer Service, pushing for refunds to your…"
-},
-"url": "https://botsdots.site/templates/amazon-late"
-},
 "botsdots-app-review-replier": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -781,6 +756,32 @@
 },
 "url": "https://botsdots.site/templates/call-faq-miner"
 },
+"botsdots-call-runner": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"code"
+],
+"add": "https://x.ai/bot/yU4QeXl4-SRxS8p3G86dP",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates",
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "customer-sales",
+"creator": "agents_studio",
+"firstSeen": "2026-11-04",
+"integrations": [],
+"name": "Call Runner",
+"official": false,
+"page": "https://botsdots.site/templates/call-runner",
+"risk": "medium",
+"summary": "Makes outbound phone calls for you: reservations, appointments, follow-ups, customer service, and order or billing questions."
+},
+"url": "https://botsdots.site/templates/call-runner"
+},
 "botsdots-chatgpt-ads-openai-billing": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -836,6 +837,29 @@
 "summary": "Steps in on cancellations and failed payments before you lose the customer"
 },
 "url": "https://botsdots.site/templates/churn-retention-manager"
+},
+"botsdots-civic-filter": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/kn21ZTH4G0J-Day9zNt6l",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "research-briefings",
+"creator": "lutefiskguy",
+"firstSeen": "2026-11-04",
+"integrations": [],
+"name": "Civic Filter",
+"official": false,
+"page": "https://botsdots.site/templates/civic-filter",
+"risk": "low",
+"summary": "Cuts the noise from election news and political social media and tells you only what matters to you and what you can act on."
+},
+"url": "https://botsdots.site/templates/civic-filter"
 },
 "botsdots-claims-finder": {
 "kind": "excerpt",
@@ -6260,6 +6284,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.abbyseo/mcp-server&version=latest"
 },
+"mcp-com-ahrefs-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Official Ahrefs MCP server. Access SEO data, including backlinks, keywords, and competitor research.",
+"name": "com.ahrefs/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.ahrefs.com/mcp/mcp"
+}
+],
+"repository": null,
+"title": "Ahrefs",
+"version": "1.0.0",
+"website": "https://ahrefs.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ahrefs/mcp&version=latest"
+},
 "mcp-com-allsvgicons-icons": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -7069,7 +7115,7 @@
 "website": "https://getagencyautopilot.com"
 },
 "truncated": false,
-"url": "https://github.com/harrisonjdahl3/agency-mcp-plugin/blob/HEAD/README.md"
+"url": "https://github.com/agency-autopilot/agency-mcp-plugin/blob/HEAD/README.md"
 },
 "mcp-com-jojapi-ahrefs": {
 "kind": "excerpt",
@@ -7460,6 +7506,30 @@
 },
 "truncated": false,
 "url": "https://github.com/monetizemarketing/mcp/blob/HEAD/README.md"
+},
+"mcp-com-neaticons-icons": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Search 1,104 UI icons in plain words and get them as SVG or React, in four styles.",
+"name": "com.neaticons/icons",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.neaticons.com/mcp"
+}
+],
+"repository": null,
+"title": "Neat Icons",
+"version": "1.0.0",
+"website": "https://neaticons.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.neaticons/icons&version=latest"
 },
 "mcp-com-nodoicons-nodo-icons": {
 "kind": "excerpt",
@@ -8358,7 +8428,7 @@
 "id": "@agentseo/mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "0.1.3"
+"version": "0.1.4"
 }
 ],
 "remotes": [
@@ -8374,7 +8444,7 @@
 ],
 "repository": "https://github.com/AgentSEO-dev/agentseo-clients",
 "title": "AgentSEO",
-"version": "0.1.4",
+"version": "0.1.5",
 "website": "https://www.agentseo.dev"
 },
 "truncated": false,
@@ -8645,6 +8715,28 @@
 },
 "truncated": false,
 "url": "https://github.com/alex-brecher/shopify-multi-store/blob/HEAD/README.md"
+},
+"mcp-io-github-alexblogoodf-glyfiq-medical-icons": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Hand-drawn medical and health icons for AI agents. Search by tag, get clean SVG.",
+"name": "io.github.alexblogoodf/glyfiq-medical-icons",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://glyfiq.link/mcp"
+}
+],
+"repository": null,
+"title": "Glyfiq Medical Icons",
+"version": "1.4.0",
+"website": "https://glyfiq.link"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.alexblogoodf/glyfiq-medical-icons&version=latest"
 },
 "mcp-io-github-alpha-park-genpark-jitter-buffer": {
 "file": "data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md",
@@ -15317,6 +15409,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-benoit-marzouvanlian": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-better-off-r": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20452,6 +20551,14 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-zacharyzhang-ny-ely-gpui-components": {
+"file": "data/originals/uihub-gh-zacharyzhang-ny-ely-gpui-components.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components/blob/main/README.md"
+},
 "uihub-github-com-huggingface-chat-ui": {
 "file": "data/originals/uihub-github-com-huggingface-chat-ui.md",
 "kind": "full",
@@ -22508,6 +22615,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-4ix7zss-walking-figure-animation": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-4ldtkhb-dumbcaptcha-puzzle-widget": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

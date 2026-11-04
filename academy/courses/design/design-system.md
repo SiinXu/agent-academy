@@ -2,7 +2,7 @@
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-04
-updated_at: 2026-11-04T02:24:06Z
+updated_at: 2026-11-04T17:59:03Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1638 items
-- motion: 646 items
+- minimal: 1639 items
+- motion: 647 items
 - 3d: 634 items
 - editorial: 594 items
-- playful: 561 items
+- playful: 562 items
 - gradient: 285 items
 - retro: 118 items
 - dark-tech: 109 items
@@ -307,6 +307,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-consistency-auditor.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Design System taste. Opinionated conventions for building accessible, themeable and well-versioned design systems and component libraries.
+  source: https://prompts.chat/prompts/cmw1tjxb9000cl808x8314cqr_design-system-taste
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-taste.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [standard] DESIGN.md format spec (Google). Google’s DESIGN.md format: tokens in YAML, design intent in Markdown
   source: https://github.com/google-labs-code/design.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md
@@ -324,10 +329,6 @@ Read the required skills, prompts and standards in order.
   source: https://prompts.chat/prompts/cmobfhjz3000el1043ccbflbw_high-end-technology-inspired-website-ui-redesign
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-high-end-technology-inspired-website-ui-redesign.md
   license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [standard] Material 3 color roles. The reference for semantic color roles such as primary, on-primary and container
-  source: https://m3.material.io/styles/color/roles
-  license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it

@@ -2,7 +2,7 @@
  "id": "customer-service/ecommerce-support",
  "industry": "customer-service",
  "role": "ecommerce-support",
- "updated_at": "2026-11-04T02:24:06Z",
+ "updated_at": "2026-11-04T17:59:03Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -737,69 +737,70 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-amazon-late",
-     "title": "Amazon Late",
+     "id": "botsdots-call-runner",
+     "title": "Call Runner",
      "type": "template",
      "industry": "customer-service",
      "roles": [
       "ecommerce-support"
      ],
-     "summary": "Watches your shopping email for late Amazon deliveries and drafts compensation requests to Amazon Customer Service, pushing for refunds to your…",
+     "summary": "Makes outbound phone calls for you: reservations, appointments, follow-ups, customer service, and order or billing questions.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/amazon-late",
+     "source_url": "https://botsdots.site/templates/call-runner",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "Alex",
+     "author": "agents_studio",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "facts-only",
-      "url": "https://botsdots.site/templates/amazon-late",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/call-runner",
       "record": {
        "access": [
-        "inbox"
+        "code"
        ],
-       "add": "https://x.ai/bot/RlPVwGxOM9pN7s0BBL6kd",
+       "add": "https://x.ai/bot/yU4QeXl4-SRxS8p3G86dP",
        "cadence": "on-demand",
        "catalog_sources": [
-        "Public x.ai share page"
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
        ],
-       "category": "inbox-calendar",
-       "creator": null,
-       "firstSeen": "2026-11-02",
+       "category": "customer-sales",
+       "creator": "agents_studio",
+       "firstSeen": "2026-11-04",
        "integrations": [],
-       "name": "Amazon Late",
+       "name": "Call Runner",
        "official": false,
-       "page": "https://botsdots.site/templates/amazon-late",
+       "page": "https://botsdots.site/templates/call-runner",
        "risk": "medium",
-       "summary": "Watches your shopping email for late Amazon deliveries and drafts compensation requests to Amazon Customer Service, pushing for refunds to your…"
+       "summary": "Makes outbound phone calls for you: reservations, appointments, follow-ups, customer service, and order or billing questions."
       }
      },
-     "install": "https://x.ai/bot/RlPVwGxOM9pN7s0BBL6kd",
+     "install": "https://x.ai/bot/yU4QeXl4-SRxS8p3G86dP",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false,
       "risk_label": "medium",
       "integrations": []
      },
      "metrics": {
-      "score": 2,
-      "first_seen_catalog": "2026-11-02"
+      "score": 7,
+      "first_seen_catalog": "2026-11-04"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-11-02T20:22:18Z",
-     "updated_at": "2026-11-02T20:22:18Z",
-     "checked_at": "2026-11-02T20:22:18Z",
+     "first_seen": "2026-11-04T17:59:03Z",
+     "updated_at": "2026-11-04T17:59:03Z",
+     "checked_at": "2026-11-04T17:59:03Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/botsdots-amazon-late/",
+     "page": "https://academy.incidental.site/r/botsdots-call-runner/",
      "source": "botsdots"
     }
    ]
@@ -928,8 +929,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 10576,
-      "repo_pushed_at": "2026-11-03"
+      "repo_stars": 10579,
+      "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -973,8 +974,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2389,
-      "repo_pushed_at": "2026-11-02"
+      "repo_stars": 2394,
+      "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1018,8 +1019,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2389,
-      "repo_pushed_at": "2026-11-02"
+      "repo_stars": 2394,
+      "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1075,6 +1076,51 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/prompts-chat-legal-document-generator-agent-role/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-home-internet-outage-and-slow-speed-credit-claim-json",
+     "title": "Home Internet Outage and Slow Speed Credit Claim (JSON)",
+     "type": "system-prompt",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "Deal with broadband outages and slow speeds, as strict JSON: an incident evidence log, a fair speed test plan on cable and Wi-Fi, a troubleshooting order from your own devices to the provider's line, a fault report checklist, a credit or refund claim with the formula shown, items to confirm in your contract, polite and firm letters, an escalation path, a deadline timeline, and next steps. Practical help, not legal…",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmw1s7r9q0004jk08cqt6z8dp_home-internet-outage-and-slow-speed-credit-claim-json",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-home-internet-outage-and-slow-speed-credit-claim-json.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "f",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmw1s7r9q0004jk08cqt6z8dp_home-internet-outage-and-slow-speed-credit-claim-json"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 0,
+      "created_at": "2026-11-04"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-11-04T17:59:03Z",
+     "updated_at": "2026-11-04T17:59:03Z",
+     "checked_at": "2026-11-04T17:59:03Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/prompts-chat-home-internet-outage-and-slow-speed-credit-claim-json/",
      "source": "prompts.chat"
     },
     {

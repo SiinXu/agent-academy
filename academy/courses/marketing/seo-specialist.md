@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-04
-updated_at: 2026-11-04T02:24:06Z
+updated_at: 2026-11-04T17:59:03Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -286,7 +286,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   install: remote (streamable-http): https://afterlaunch.io/api/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Agency Autopilot. Run client marketing from your AI assistant, or let Autopilot: Google Ads, GA4, SEO, Meta, CRM
-  source: https://github.com/harrisonjdahl3/agency-mcp-plugin
+  source: https://github.com/agency-autopilot/agency-mcp-plugin
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-jiyumarketing-mcp-agency-mcp.md
   license: MIT
   install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
@@ -321,16 +321,15 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @agentseo/mcp-server
   needs_credentials: true, writes_external: false
+- [mcp] Ahrefs. Official Ahrefs MCP server. Access SEO data, including backlinks, keywords, and competitor research.
+  source: https://ahrefs.com/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://api.ahrefs.com/mcp/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] ai.openhelm/seo-growth. Autonomous SEO + GEO growth: keyword research, audits, content, AI answer-engine visibility.
   source: https://openhelm.ai
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.openhelm.ai/seo/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] ai.smithery/lukaskostka99-marketing-miner-mcp. Discover high-impact keyword ideas across Central and Eastern European and English markets. Analyz…
-  source: https://github.com/lukaskostka99/marketing-miner-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-smithery-lukaskostka99-marketing-miner-mcp.md
-  license: MIT
-  install: remote (streamable-http): https://server.smithery.ai/@lukaskostka99/marketing-miner-mcp/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

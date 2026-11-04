@@ -217,7 +217,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [When I Work](servers/when-i-work/) | productivity | 25 | API token | [servers/when-i-work/](servers/when-i-work/) |
 | [Wild Apricot](servers/wild-apricot/) | membership | 25 | API token | [servers/wild-apricot/](servers/wild-apricot/) |
 | [Wufoo](servers/wufoo/) | productivity | 22 | API token | [servers/wufoo/](servers/wufoo/) |
-| [Lightspeed Retail (R-Series)](servers/lightspeed-r-series/) | ecommerce | 21 | OAuth | [servers/lightspeed-r-series/](servers/lightspeed-r-series/) |
+| [Lightspeed Retail (R-Series)](servers/lightspeed-r-series/) | ecommerce | 22 | OAuth | [servers/lightspeed-r-series/](servers/lightspeed-r-series/) |
 | [Lightspeed Retail (X-Series)](servers/lightspeed-x-series/) | ecommerce | 34 | OAuth | [servers/lightspeed-x-series/](servers/lightspeed-x-series/) |
 | [FreeAgent](servers/freeagent/) | billing | 24 | OAuth | [servers/freeagent/](servers/freeagent/) |
 | [Airbrake](servers/airbrake/) | observability | 17 | API token | [servers/airbrake/](servers/airbrake/) |

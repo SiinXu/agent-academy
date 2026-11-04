@@ -2,7 +2,7 @@
 name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-04
-updated_at: 2026-11-04T02:24:06Z
+updated_at: 2026-11-04T17:59:03Z
 source: https://academy.incidental.site/courses/design/design-reviewer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1638 items
-- motion: 646 items
+- minimal: 1639 items
+- motion: 647 items
 - 3d: 634 items
 - editorial: 594 items
-- playful: 561 items
+- playful: 562 items
 - gradient: 285 items
 - retro: 118 items
 - dark-tech: 109 items

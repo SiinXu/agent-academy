@@ -13,7 +13,7 @@ Agency Autopilot (https://getagencyautopilot.com) connects the accounts your age
 ## Install
 
 ```
-/plugin marketplace add harrisonjdahl3/agency-mcp-plugin
+/plugin marketplace add agency-autopilot/agency-mcp-plugin
 /plugin install agency-mcp@agency-mcp
 ```
 
@@ -64,7 +64,7 @@ Not affiliated with, sponsored by, or endorsed by Google, Meta, HighLevel, Autom
 ## Gemini CLI
 
 ```
-gemini extensions install https://github.com/harrisonjdahl3/agency-mcp-plugin
+gemini extensions install https://github.com/agency-autopilot/agency-mcp-plugin
 ```
 
 Then run `/mcp auth agency-mcp` inside Gemini and sign in. The same skills load from `skills/`.

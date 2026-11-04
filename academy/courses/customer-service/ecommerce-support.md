@@ -2,7 +2,7 @@
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-04
-updated_at: 2026-11-04T02:24:06Z
+updated_at: 2026-11-04T17:59:03Z
 source: https://academy.incidental.site/courses/customer-service/ecommerce-support/
 ---
 
@@ -88,10 +88,10 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW
   needs_credentials: false, writes_external: false
-- [template] Amazon Late. Watches your shopping email for late Amazon deliveries and drafts compensation requests to Amazon Customer Service, pushing for refunds to your…
-  source: https://botsdots.site/templates/amazon-late
+- [template] Call Runner. Makes outbound phone calls for you: reservations, appointments, follow-ups, customer service, and order or billing questions.
+  source: https://botsdots.site/templates/call-runner
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/RlPVwGxOM9pN7s0BBL6kd
+  install: https://x.ai/bot/yU4QeXl4-SRxS8p3G86dP
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
@@ -127,6 +127,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Legal Document Generator Agent Role. Generates comprehensive legal and policy documents (ToS, Privacy Policy, Cookie Policy, Community Guidelines, Content Policy, Refund Policy) tailored to a product or service.
   source: https://prompts.chat/prompts/cmmx2ya3s000hic04l0i60mil_legal-document-generator-agent-role
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-legal-document-generator-agent-role.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Home Internet Outage and Slow Speed Credit Claim (JSON). Deal with broadband outages and slow speeds, as strict JSON: an incident evidence log, a fair speed test plan on cable and Wi-Fi, a troubleshooting order from your own devices to the provider's line, a fault report check
+  source: https://prompts.chat/prompts/cmw1s7r9q0004jk08cqt6z8dp_home-internet-outage-and-slow-speed-credit-claim-json
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-home-internet-outage-and-slow-speed-credit-claim-json.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Shared Expense Bill Splitter and Settle-Up Planner. Splits a CSV ledger of shared costs for a trip, flat or event - equal, shares, exact, percent and itemized bills with tax/tip pro rata, 'all except' exclusions, several payers, refunds, repayments and multiple currencies
