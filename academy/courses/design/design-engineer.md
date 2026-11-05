@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-04
-updated_at: 2026-11-04T17:59:03Z
+version: 2026-11-05
+updated_at: 2026-11-05T02:31:49Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -46,14 +46,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1639 items
-- motion: 647 items
+- minimal: 1641 items
+- motion: 649 items
 - 3d: 634 items
-- editorial: 594 items
-- playful: 562 items
+- editorial: 596 items
+- playful: 563 items
 - gradient: 285 items
 - retro: 118 items
-- dark-tech: 109 items
+- dark-tech: 110 items
 - glass: 56 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -104,7 +104,7 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/skills --skill web-artifacts-builder
   needs_credentials: false, writes_external: false
-- [skill] design-taste-frontend. tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (idea, composition, typ
+- [skill] design-taste-frontend. tasteskill 2.5.0, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy, one system, one section per screen, equal edges, real photographs and real product UI (
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill.md
   license: MIT

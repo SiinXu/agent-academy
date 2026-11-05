@@ -6191,6 +6191,28 @@
 "truncated": false,
 "url": "https://github.com/ssavecc/ssave-mcp-server/blob/HEAD/README.md"
 },
+"mcp-click-myagents-tiktok-ads": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Gasto, campanhas, grupos e anúncios do TikTok; pausar e ajustar com aprovação",
+"name": "click.myagents/tiktok-ads",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://tiktok-ads.mcp.myagents.click/mcp"
+}
+],
+"repository": null,
+"title": "TikTok Ads",
+"version": "1.0.3",
+"website": "https://ciromaciel.click/mcp/tiktok-ads"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=click.myagents/tiktok-ads&version=latest"
+},
 "mcp-click-mymarketing-newsletter": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -6208,7 +6230,7 @@
 ],
 "repository": null,
 "title": "Newsletter",
-"version": "1.0.1",
+"version": "1.0.3",
 "website": "https://ciromaciel.click/mcp/newsletter"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=click.mymarketing/newsletter&version=latest"
@@ -11808,7 +11830,7 @@
 "id": "@pipeworx/mcp-posthog",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -11820,7 +11842,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-posthog",
 "title": "Posthog",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/posthog"
 },
 "truncated": false,
@@ -11847,7 +11869,7 @@
 "id": "@pipeworx/mcp-semrush",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -11859,7 +11881,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-semrush",
 "title": "Semrush",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/semrush"
 },
 "truncated": false,
@@ -11886,7 +11908,7 @@
 "id": "@pipeworx/mcp-sendgrid",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -11898,7 +11920,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-sendgrid",
 "title": "Sendgrid",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/sendgrid"
 },
 "truncated": false,
@@ -11925,7 +11947,7 @@
 "id": "@pipeworx/mcp-shopify",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -11937,7 +11959,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-shopify",
 "title": "Shopify",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/shopify"
 },
 "truncated": false,
@@ -17362,6 +17384,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-leeroy-agency": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-letude-creative-studio": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -18014,6 +18043,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-normal-is-boring": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-nrg-build-your-data-center": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -27031,6 +27067,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-nmj9mrx-newsletter-issue-no-01": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-nnkaerr-skewed-adjacent-hover-tabs": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -29987,6 +30030,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-ued-ai-design-weekly": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-ued-airbnb-dls": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -30736,6 +30786,13 @@
 "record": {
 "repo_license": "none"
 },
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-ued-pageflows": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-paper-design": {
@@ -32040,6 +32097,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-w16-kaix-framer-website": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-w16-kathememorial-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

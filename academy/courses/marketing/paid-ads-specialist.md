@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-04
-updated_at: 2026-11-04T17:59:03Z
+version: 2026-11-05
+updated_at: 2026-11-05T02:31:49Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -242,18 +242,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @ssavecc/mcp-server
   needs_credentials: true, writes_external: false
+- [mcp] TikTok Ads. Gasto, campanhas, grupos e anúncios do TikTok; pausar e ajustar com aprovação
+  source: https://ciromaciel.click/mcp/tiktok-ads
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://tiktok-ads.mcp.myagents.click/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] TikTok Ads. TikTok Ads MCP server: 35 read tools, 30 opt-in preview-first writes.
   source: https://github.com/get-mcp-ads/tiktok-ads-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-getmcpads-tiktok-ads.md
   license: Apache-2.0
   install: npx -y @getmcpads/tiktok-ads-mcp-server
   needs_credentials: true, writes_external: true
-- [mcp] TikTok Ads MCP by InsightfulPipe. Hosted TikTok Ads MCP server for Claude, ChatGPT and Cursor, with each action switched per account.
-  source: https://github.com/Insightful-Pipe/tiktok-ads-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-tiktok-ads.md
-  license: MIT
-  install: remote (streamable-http): https://tiktok-ads.insightfulmcp.com/
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-11-04T17:59:03Z",
+ "updated_at": "2026-11-05T02:31:49Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -297,6 +297,52 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/uihub-ued-8pt-grid/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-ai-design-weekly",
+     "title": "AI × Design Weekly（Jason Cyr）",
+     "type": "tutorial",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Weekly AI × design news: Figma MCP, Codex ↔ Figma, design-system skills",
+     "summary_lang": "en",
+     "source_url": "https://jasoncyr.substack.com/p/ai-design-weekly-issue-005",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Jason Cyr",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "1-enrol",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-05T02:31:49Z",
+     "checked_at": "2026-11-05T02:31:49Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-ai-design-weekly/",
      "source": "ui-hub"
     },
     {
@@ -712,52 +758,6 @@
      },
      "page": "https://academy.incidental.site/r/uihub-ued-figma-variables-guide/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-figma-mcp-rules",
-     "title": "Figma: adding custom rules to MCP",
-     "type": "tutorial",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Ready-made rule template: get_design_context → screenshot → implement with tokens → check against the design",
-     "summary_lang": "en",
-     "source_url": "https://developers.figma.com/docs/figma-mcp-server/add-custom-rules/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Figma",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "1-enrol",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-ued-figma-mcp-rules/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34706,
+      "repo_stars": 34743,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "4-do-it",
@@ -1957,7 +1957,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187357,
+      "repo_stars": 187444,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2002,7 +2002,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187357,
+      "repo_stars": 187444,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2047,7 +2047,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145133,
+      "repo_stars": 145269,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -2092,7 +2092,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 53491,
+      "repo_stars": 53581,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -2137,7 +2137,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42191,
+      "repo_stars": 42210,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2182,7 +2182,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42191,
+      "repo_stars": 42210,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2227,7 +2227,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42191,
+      "repo_stars": 42210,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2812,7 +2812,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143887,
+      "repo_stars": 143906,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -2885,7 +2885,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16156,
+      "repo_stars": 16161,
       "repo_pushed_at": "2026-10-27",
       "registry_updated_at": "2026-06-18"
      },
@@ -2949,7 +2949,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2148,
+      "repo_stars": 2151,
       "repo_pushed_at": "2026-11-03",
       "registry_updated_at": "2025-10-16"
      },
@@ -3143,7 +3143,7 @@
      },
      "metrics": {
       "repo_stars": 140,
-      "repo_pushed_at": "2026-10-27",
+      "repo_pushed_at": "2026-11-04",
       "registry_updated_at": "2025-10-27"
      },
      "course_step": "4-do-it",
@@ -4010,7 +4010,7 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-11-02",
+      "repo_pushed_at": "2026-11-04",
       "registry_updated_at": "2026-10-29"
      },
      "course_step": "4-do-it",
@@ -4408,7 +4408,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145133,
+      "repo_stars": 145269,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -4453,7 +4453,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145133,
+      "repo_stars": 145269,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -4498,7 +4498,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 53491,
+      "repo_stars": 53581,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -4543,7 +4543,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42191,
+      "repo_stars": 42210,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -4588,7 +4588,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42191,
+      "repo_stars": 42210,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -4633,7 +4633,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42191,
+      "repo_stars": 42210,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -4678,7 +4678,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42191,
+      "repo_stars": 42210,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -4723,7 +4723,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34706,
+      "repo_stars": 34743,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -4768,7 +4768,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34706,
+      "repo_stars": 34743,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -4813,7 +4813,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34706,
+      "repo_stars": 34743,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -4858,7 +4858,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26333,
+      "repo_stars": 26337,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
