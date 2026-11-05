@@ -17,10 +17,13 @@ export function seoHead({ SITE, LOCALES, rel, title, desc, ld = [], og = 'websit
   }
   g.push(...ld);
   const json = JSON.stringify({ '@context': 'https://schema.org', '@graph': g }).replace(/</g, '\\u003c');
+  const ev = rel === '404.html'
+    ? `<script defer src="https://stats.incidental.site/events.js" data-site="academy" data-auto="off"></script>` // 2026-11-04: 404 must not auto-pageview (scanners hitting /.env etc.)
+    : `<script defer src="https://stats.incidental.site/events.js" data-site="academy"></script><script defer src="https://stats.incidental.site/subscribe.js"></script>`;
   return `${alt}<meta property="og:site_name" content="Agent Academy"><meta property="og:image" content="${SITE}/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Agent Academy"><meta property="og:locale" content="en_US">`
    + `<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escA(title)}"><meta name="twitter:description" content="${escA(desc)}"><meta name="twitter:image" content="${SITE}/assets/og.png">`
    + `<script type="application/ld+json">${json}</script>`
-   + `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${CF_TOKEN}"}'></script><script defer src="https://stats.incidental.site/events.js" data-site="academy"></script><script defer src="https://stats.incidental.site/subscribe.js"></script>`;
+   + `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${CF_TOKEN}"}'></script>` + ev;
 }
 export const ROBOTS = (SITE) => `User-agent: *\nAllow: /\n\n# 2026-10-26: heavy non-citing crawlers - skip ?lang= / query duplicates (each page x10 locales)\nUser-agent: Amazonbot\nUser-agent: meta-externalagent\nDisallow: /*?\nCrawl-delay: 10\n\n# 2026-11-01: SemrushBot is an SEO-tool crawler, not a search or AI engine: disallow everything\nUser-agent: SemrushBot\nDisallow: /\n\n# AI / generative search crawlers are welcome\n${['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web', 'PerplexityBot', 'Google-Extended', 'Applebot-Extended'].map((b) => `User-agent: ${b}\nAllow: /`).join('\n')}\n\nSitemap: ${SITE}/sitemap.xml\n`;
 export function sitemaps(SITE, LOCALES, defaultXml) {
