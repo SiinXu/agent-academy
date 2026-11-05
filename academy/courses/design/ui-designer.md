@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-05
-updated_at: 2026-11-05T16:16:29Z
+updated_at: 2026-11-05T18:02:06Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 

@@ -2,14 +2,14 @@
 
 **MSP Skills** connects your PSA, RMM, backup, and more to the AI you already use - **Claude**, **ChatGPT**, **Codex**, **Cursor**, **Windsurf**, or any agent that runs local MCP servers. Ask a plain-English question about your stack and get a real answer back.
 <!-- hero-live:start -->
-97 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
+99 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
 <!-- hero-live:end -->
 Free, open source, runs on your laptop. A local SQLite mirror lets your agent answer cross-client questions the live API can't return in one shot - no rate-limit hits, no per-tech SaaS fee, and your data stays local unless you route it somewhere yourself. Built for MSP owners. No developer experience required.
 
 > **New to the term?** What this repo calls an **MCP server** is what ChatGPT calls an *app* or *connector*, Claude on the web calls a *connector*, Microsoft Copilot calls a *connector*, and Claude Code calls a *Skill*. Same standard underneath: the [Model Context Protocol](https://modelcontextprotocol.io). Full plain-language answer: **[What is an MCP server?](https://msp-skills.compoundingteams.com/what-is-an-mcp-server/)**.
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/skills-97-green.svg)](./catalog.json)
+[![Skills](https://img.shields.io/badge/skills-99-green.svg)](./catalog.json)
 [![MCP](https://img.shields.io/badge/MCP-compatible-1f6feb.svg)](https://modelcontextprotocol.io)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-spec-2E7D32.svg)](https://agentskills.io)
 ![Status](https://img.shields.io/badge/status-beta-yellow.svg)
@@ -74,7 +74,7 @@ returns your live data.
 | [cisco-duo](./skills/cisco-duo) | Cisco Duo multi-factor authentication: users, phones, bypass codes, authentication logs, and MSP subaccounts through the Duo Admin API | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/cisco-duo/README.md) |
 | [cisco-meraki](./skills/cisco-meraki) | Cisco Meraki Dashboard cloud-managed networking (MX security appliances, MS switches, MR access points, MV cameras) across every client organization | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/cisco-meraki/README.md) |
 | [cisco-umbrella](./skills/cisco-umbrella) | Cisco Umbrella DNS-layer security: destination lists, policies, deployments, reports, Investigate and MSP child orgs through the Umbrella v2 API | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/cisco-umbrella/README.md) |
-| [cloudally](./skills/cloudally) | CloudAlly SaaS backup for Microsoft 365 and Google Workspace: partner, reseller and customer accounts, backup tasks and their status, users, billing and recovery jobs through the Management API v2 | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/cloudally/README.md) |
+| [cloudally](./skills/cloudally) | CloudAlly SaaS backup for Microsoft 365 and Google Workspace: partner, reseller and customer accounts, backup tasks and their status, users, billing and recovery jobs through the Management API v2 | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/cloudally/README.md) |
 | ⭐ [connect-tool](./skills/connect-tool) | Authentication setup for any CLI, MCP server, or Skill, driven through your own logged-in Chrome. Windows and macOS | ![Meta](https://img.shields.io/badge/Meta-skill-6B7280) | [Marketplace](./skills/connect-tool/README.md) |
 | [connectsecure](./skills/connectsecure) | ConnectSecure (formerly CyberCNS) vulnerability, asset and compliance management platform for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/connectsecure/README.md) |
 | [connectwise-automate](./skills/connectwise-automate) | ConnectWise Automate (LabTech) RMM: device management, patching, scripting, monitors and alerts for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/connectwise-automate/README.md) |
@@ -104,6 +104,7 @@ returns your live data.
 | [jira-service-management](./skills/jira-service-management) | Jira Service Management Cloud: requests, queues, SLAs, customers, organizations, Assets (CMDB) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/jira-service-management/README.md) |
 | [kaseya-bms](./skills/kaseya-bms) | Kaseya BMS PSA - tickets, CRM, contracts, finance, and projects | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/kaseya-bms/README.md) |
 | [kaseya-vsa](./skills/kaseya-vsa) | Kaseya VSA 10 RMM - devices, patches, software inventory, scripts, tasks, and alerts | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/kaseya-vsa/README.md) |
+| [keeper](./skills/keeper) | Password manager administration for MSPs: managed companies, users, 2FA and admin posture, and licences across every client | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/keeper/README.md) |
 | [knowbe4](./skills/knowbe4) | KnowBe4 KMSAT security awareness training and phishing-simulation reporting | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/knowbe4/README.md) |
 | [levelio](./skills/levelio) | Level RMM and endpoint monitoring platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/levelio/README.md) |
 | [liongard](./skills/liongard) | Liongard automated documentation and configuration change-detection platform for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/liongard/README.md) |
@@ -152,6 +153,7 @@ returns your live data.
 | [wordpress](./skills/wordpress) | Publish and manage WordPress pages, posts, and media | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/wordpress/README.md) |
 | [xero](./skills/xero) | the Xero cloud accounting platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/xero/README.md) |
 | [zammad](./skills/zammad) | Zammad helpdesk and ticketing system (self-hosted or hosted) | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/zammad/README.md) |
+| [zoom-phone](./skills/zoom-phone) | cloud phone system for business: users, numbers, call queues, auto receptionists, desk phones and E911 | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/zoom-phone/README.md) |
 <!-- catalog:end -->
 
 > **About the badges.** `Live-verified` (green) means a real MSP confirmed this skill against a live production tenant - the badge carries the date and source. `Awaiting live verification` (amber) means it passes every mechanical gate (build, command-surface-vs-docs claims check, install dry-run) but no one has reported a live run yet - **be the first**: run it against your tenant and [report that it works](https://github.com/Servosity/msp-skills/issues/new?template=it-works.yml).
@@ -201,7 +203,7 @@ Each installer drops both the CLI and the MCP server, so you can use the Skill (
 ## What your agent can do
 
 <!-- agent-can-do:start -->
-Outcomes, not hype - drawn from each of the 97 connectors' skill pages:
+Outcomes, not hype - drawn from each of the 99 connectors' skill pages:
 
 | Outcome | Skill | Command |
 | --- | --- | --- |
@@ -254,6 +256,7 @@ Outcomes, not hype - drawn from each of the 97 connectors' skill pages:
 | Which tickets breach SLA in the next two hours, across every queue? | jira-service-management | `jira-service-management-cli breaches --within 2h` |
 | Which queues are underwater and what's going stale before standup? | kaseya-bms | `kaseya-bms-cli queue-health --agent` |
 | Which pending OS updates are exposed on the most devices, across every client? | kaseya-vsa | `kaseya-vsa-cli patch-exposure --by kb --severity critical,important --agent` |
+| How is every client doing on 2FA, weak passwords and BreachWatch? | keeper | `keeper-cli posture report --days 90 --agent` |
 | Who clicked the bait in more than one phishing test? | knowbe4 | `knowbe4-cli repeat-clickers --min-clicks 2 --since 90d` |
 | Which devices are most at risk across alerts, patches, score, and staleness? | levelio | `levelio-cli at-risk --top 20` |
 | What changed across all my clients in the last 24 hours? | liongard | `liongard-cli drift --since 24h` |
@@ -302,6 +305,7 @@ Outcomes, not hype - drawn from each of the 97 connectors' skill pages:
 | Publish a landing page from HTML without opening wp-admin? | wordpress | `wordpress-cli pages create --title "Spring Promo" --content "<h1>Spring Promo</h1>" --status publish` |
 | Who owes us, and how overdue is each invoice? | xero | `xero-cli aging --agent` |
 | Who on the team is overloaded, and who is idle? | zammad | `zammad-cli agent-load --json` |
+| Which users, common areas and sites have a missing or unverified emergency address? | zoom-phone | `zoom-phone-cli e911 audit --json --select findings.kind,findings.name,findings.detail` |
 <!-- agent-can-do:end -->
 
 Cross-skill questions compose too: find every ticket about backup failures across all clients by combining `halopsa-cli tickets search` with `servosity-cli stale-backups`.
@@ -424,12 +428,4 @@ Want one of these next? Bring the system to a Build Session (above) or open an i
 
 Your AI fills the form and posts the issue. Done. (You'll need to be signed in to GitHub in your browser or have a GitHub CLI token where your AI can see it.)
 
-**Don't have an AI set up yet?** Open the issue directly: **[Submit a skill request →](https://github.com/Servosity/msp-skills/issues/new?template=skill-request.yml)**. First time filing a GitHub issue? See **[docs/requesting-a-skill.md](./docs/requesting-a-skill.md)** for a 90-second walkthrough.
-
-More votes (👍 reactions on an issue) move a system up the roadmap. Share with one MSP friend who'd want the same skill.
-
-## Contribute a Skill or MCP
-
-If your MSP uses a system we have not covered, send a PR. We co-build alongside contributors in Build Sessions when that is easier than going it alone.
-
-A skill PR includes: `SKILL.md` (with `vendor` frontmatter), a `README.md` with the non-affiliation banner, `install.sh` + `install.ps1`, `mcp-install.md` if it ships an MCP server, and ideally `pain-point.md` + `governance.md`. CI enforces the contract (DCO sign-off, frontmatter schema, required files, no secrets, no 
+**Don't have an AI set up yet?** Open the is
