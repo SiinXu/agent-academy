@@ -3659,6 +3659,29 @@
 },
 "url": "https://botsdots.site/templates/scrollstopper-social-media-manager"
 },
+"botsdots-sell-bot-hqpv": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/hQPVJuB_EjmPHlnSkrLv_",
+"cadence": "on-demand",
+"catalog_sources": [
+"cs68614-hash/awesome-grokbot-templates"
+],
+"category": "customer-sales",
+"creator": "ThePsalm46Guy",
+"firstSeen": "2026-11-05",
+"integrations": [],
+"name": "Sell Bot",
+"official": false,
+"page": "https://botsdots.site/templates/sell-bot-hqpv",
+"risk": "low",
+"summary": "A sales and customer-success desk for founders. It preps calls, drafts follow-ups, proposals and support replies, and watches accounts."
+},
+"url": "https://botsdots.site/templates/sell-bot-hqpv"
+},
 "botsdots-sentinel-nafa": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -4510,6 +4533,33 @@
 "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
 },
 "url": "https://botsdots.site/templates/social-media-manager-template"
+},
+"botsdots-social-media-metcarksis": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [
+"publishing"
+],
+"add": "https://x.ai/bot/Mll3Pp1EzlDNFc289GCzb",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "content-publishing",
+"creator": null,
+"firstSeen": "2026-11-05",
+"integrations": [
+"linkedin"
+],
+"name": "Social Media (Metcarksis)",
+"official": false,
+"page": "https://botsdots.site/templates/social-media-metcarksis",
+"risk": "high",
+"summary": "Interviews you, drafts your LinkedIn profile, and edits it only after you approve."
+},
+"url": "https://botsdots.site/templates/social-media-metcarksis"
 },
 "botsdots-social-media-salesperson": {
 "kind": "excerpt",
@@ -7276,13 +7326,13 @@
 "id": "@mambalabsdev/mcp-link-in-bio-newsletter-checker",
 "transport": "stdio",
 "type": "npm",
-"version": "1.2.0"
+"version": "1.2.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/mambalabsdev/mcp-link-in-bio-newsletter-checker",
 "title": null,
-"version": "1.2.0",
+"version": "1.2.1",
 "website": null
 },
 "truncated": false,
@@ -7309,13 +7359,13 @@
 "id": "@mambalabsdev/mcp-newsletter-sponsor-tracker",
 "transport": "stdio",
 "type": "npm",
-"version": "1.0.0"
+"version": "1.0.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker",
 "title": null,
-"version": "1.0.0",
+"version": "1.0.1",
 "website": null
 },
 "truncated": false,
@@ -7342,13 +7392,13 @@
 "id": "@mambalabsdev/mcp-shopify-app-store-chrome-web-store-listings",
 "transport": "stdio",
 "type": "npm",
-"version": "1.0.0"
+"version": "1.0.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/mambalabsdev/mcp-shopify-app-store-chrome-web-store-listings",
 "title": null,
-"version": "1.0.0",
+"version": "1.0.1",
 "website": null
 },
 "truncated": false,
@@ -7375,13 +7425,13 @@
 "id": "@mambalabsdev/mcp-tiktok-brand-presence-mapper",
 "transport": "stdio",
 "type": "npm",
-"version": "1.2.0"
+"version": "1.2.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/mambalabsdev/mcp-tiktok-brand-presence-mapper",
 "title": null,
-"version": "1.2.0",
+"version": "1.2.1",
 "website": null
 },
 "truncated": false,
@@ -8109,6 +8159,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.skaidigital/shopify-speed-check&version=latest"
 },
+"mcp-com-snowseo-snowseo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Track AI visibility, SERP rankings, site audits and Search Console data, and create SEO content.",
+"name": "com.snowseo/snowseo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.snowseo.com/mcp"
+}
+],
+"repository": null,
+"title": "SnowSEO",
+"version": "1.0.0",
+"website": "https://snowseo.com/docs/api-reference/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.snowseo/snowseo&version=latest"
+},
 "mcp-com-stillindexed-seo-checkers": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8495,38 +8567,6 @@
 "website": "https://seoreport.dev/agents"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.seoreport/seoreport&version=latest"
-},
-"mcp-dev-seoskill-seo": {
-"file": "data/originals/mcp-dev-seoskill-seo.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"record": {
-"description": "Free Google Search Console MCP: your real GSC, Google Analytics and keyword data for AI agents.",
-"name": "dev.seoskill/seo",
-"packages": [
-{
-"env": [],
-"id": "seo",
-"transport": "stdio",
-"type": "npm",
-"version": "0.5.0"
-}
-],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://seoskill.dev/mcp"
-}
-],
-"repository": "https://github.com/iannuttall/seo",
-"title": "SEO Skill",
-"version": "0.5.0",
-"website": "https://seoskill.dev"
-},
-"truncated": false,
-"url": "https://github.com/iannuttall/seo/blob/HEAD/README.md"
 },
 "mcp-exchange-shadcn-blocks": {
 "kind": "excerpt",
@@ -9172,13 +9212,13 @@
 "id": "tiktok-gmvmax-mcp",
 "transport": "stdio",
 "type": "pypi",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [],
-"repository": "https://github.com/Buer2333/tiktok-ads-mcp",
+"repository": "https://github.com/Buer2333/tiktok-gmvmax-mcp",
 "title": "TikTok GMV Max",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": null
 },
 "truncated": false,
@@ -12400,6 +12440,18 @@
 "secret": null
 },
 {
+"description": "Optional. Set to exactly 1 to expose only read-only tools and refuse any non-GET execute call. Preset to 1; clear it only when you want the agent to run the tools this switch hides.",
+"name": "HUBSPOT_MCP_READ_ONLY",
+"required": null,
+"secret": null
+},
+{
+"description": "Optional. Set to 1 to keep no local copy of API responses: reads go to the API, the response cache is off, and sync refuses to run. Leave blank to keep the local store.",
+"name": "HUBSPOT_NO_LOCAL_DATA",
+"required": null,
+"secret": null
+},
+{
 "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
 "name": "HUBSPOT_OWNER_EMAIL",
 "required": null,
@@ -12424,16 +12476,16 @@
 "secret": null
 }
 ],
-"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.4/hubspot-mcp.mcpb",
+"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.6/hubspot-mcp.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.2.4"
+"version": "0.2.6"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/servosity/msp-skills",
 "title": "HubSpot MCP",
-"version": "0.2.4",
+"version": "0.2.6",
 "website": null
 },
 "truncated": true,
@@ -12451,12 +12503,12 @@
 {
 "headers": [],
 "type": "streamable-http",
-"url": "https://deepthought-chat.shajan.workers.dev/mcp"
+"url": "https://mcp.deepthought.marketing/mcp"
 }
 ],
 "repository": null,
 "title": "Deep Thought Marketing",
-"version": "1.0.0",
+"version": "1.0.1",
 "website": "https://deepthought.marketing/claude-connector.html"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.shajan-Factor42/deep-thought-marketing&version=latest"
@@ -13070,6 +13122,33 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.storeradar/shopify-store-database&version=latest"
 },
+"mcp-io-tiktokapi-mcp-server": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Real-time TikTok videos, profiles, comments, trends & Creative Center ads MCP. OAuth or API key.",
+"name": "io.tiktokapi/mcp-server",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.tiktokapi.io/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.tiktokapi.io/v1/mcp"
+}
+],
+"repository": null,
+"title": "TikTok Video, Comments, Creators & Ads API MCP Server",
+"version": "1.0.1",
+"website": "https://tiktokapi.io/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.tiktokapi/mcp-server&version=latest"
+},
 "mcp-io-usefulapi-zendesk": {
 "file": "data/originals/mcp-io-usefulapi-zendesk.md",
 "kind": "full",
@@ -13088,7 +13167,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.35.1",
+"version": "1.35.3",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -21950,6 +22029,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-1pd6afn-ai-spreadsheet-fill-interaction": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-1qtev23-fashion-collage-motion-study": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -25800,6 +25886,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-i2g8hzc-holiday-gift-shop-app": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-i2qnivc-folio-site-layouts": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27018,6 +27111,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-nf0rkxb-genie-minimize-for-web": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-nfaj560-fourth-dimension-visualization": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27117,6 +27217,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-nr8sfrh-typography-11-20": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-nukdlzc-elevenlabs-october-brand-recap": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -30742,6 +30849,13 @@
 "url": "https://github.com/dominikmartn/nothing-design-skill/blob/main/README.md"
 },
 "uihub-ued-nutui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-ued-obsidian-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

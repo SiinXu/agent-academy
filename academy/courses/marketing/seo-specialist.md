@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-05
-updated_at: 2026-11-05T02:31:49Z
+updated_at: 2026-11-05T16:16:29Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -255,12 +255,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-email-gtm-reachout-a.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
-- [mcp] SEO Skill. Free Google Search Console MCP: your real GSC, Google Analytics and keyword data for AI agents.
-  source: https://github.com/iannuttall/seo
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-seoskill-seo.md
-  license: Apache-2.0
-  install: npx -y seo
-  needs_credentials: true, writes_external: false
 - [mcp] SEO Trends MCP. Spot keyword demand rising or fading. Trend volume and growth signals. Free key at trendsmcp.ai
   source: https://github.com/trendsmcp-ai/Trends-MCP
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-seo.md
@@ -330,6 +324,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://openhelm.ai
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.openhelm.ai/seo/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] ai.smithery/lukaskostka99-marketing-miner-mcp. Discover high-impact keyword ideas across Central and Eastern European and English markets. Analyz…
+  source: https://github.com/lukaskostka99/marketing-miner-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-smithery-lukaskostka99-marketing-miner-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://server.smithery.ai/@lukaskostka99/marketing-miner-mcp/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

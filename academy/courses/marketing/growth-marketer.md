@@ -2,7 +2,7 @@
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-05
-updated_at: 2026-11-05T02:31:49Z
+updated_at: 2026-11-05T16:16:29Z
 source: https://academy.incidental.site/courses/marketing/growth-marketer/
 ---
 

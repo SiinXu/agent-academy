@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-05T02:31:49Z",
+ "updated_at": "2026-11-05T16:16:29Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,8 +1362,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42210,
-      "repo_pushed_at": "2026-11-02"
+      "repo_stars": 42230,
+      "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1682,7 +1682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143906,
+      "repo_stars": 143952,
       "repo_pushed_at": "2026-10-22"
      },
      "course_step": "4-do-it",
@@ -1727,7 +1727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30502,
+      "repo_stars": 30518,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "4-do-it",
@@ -1870,6 +1870,18 @@
            "secret": null
           },
           {
+           "description": "Optional. Set to exactly 1 to expose only read-only tools and refuse any non-GET execute call. Preset to 1; clear it only when you want the agent to run the tools this switch hides.",
+           "name": "HUBSPOT_MCP_READ_ONLY",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional. Set to 1 to keep no local copy of API responses: reads go to the API, the response cache is off, and sync refuses to run. Leave blank to keep the local store.",
+           "name": "HUBSPOT_NO_LOCAL_DATA",
+           "required": null,
+           "secret": null
+          },
+          {
            "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
            "name": "HUBSPOT_OWNER_EMAIL",
            "required": null,
@@ -1894,16 +1906,16 @@
            "secret": null
           }
          ],
-         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.4/hubspot-mcp.mcpb",
+         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.6/hubspot-mcp.mcpb",
          "transport": "stdio",
          "type": "mcpb",
-         "version": "0.2.4"
+         "version": "0.2.6"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/servosity/msp-skills",
        "title": "HubSpot MCP",
-       "version": "0.2.4",
+       "version": "0.2.6",
        "website": null
       }
      },
@@ -1916,6 +1928,8 @@
       "credential_names": [
        "HUBSPOT_ACCESS_TOKEN",
        "HUBSPOT_BASE_URL",
+       "HUBSPOT_MCP_READ_ONLY",
+       "HUBSPOT_NO_LOCAL_DATA",
        "HUBSPOT_OWNER_EMAIL",
        "HUBSPOT_MCP_HTTP_TOKEN",
        "HUBSPOT_USER_AGENT",
@@ -1925,12 +1939,12 @@
      "metrics": {
       "repo_stars": 70,
       "repo_pushed_at": "2026-11-05",
-      "registry_updated_at": "2026-10-23"
+      "registry_updated_at": "2026-11-05"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-11-03T03:29:34Z",
+     "updated_at": "2026-11-05T16:16:29Z",
      "checked_at": "2026-11-03T03:29:34Z",
      "http_status": {
       "source": 200
@@ -2179,7 +2193,7 @@
      },
      "metrics": {
       "repo_stars": 14,
-      "repo_pushed_at": "2026-11-04",
+      "repo_pushed_at": "2026-11-05",
       "registry_updated_at": "2026-11-02"
      },
      "course_step": "4-do-it",
@@ -2331,7 +2345,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 8,
+      "repo_stars": 9,
       "repo_pushed_at": "2026-10-08",
       "registry_updated_at": "2026-10-08"
      },
@@ -2429,7 +2443,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 7,
+      "repo_stars": 5,
       "repo_pushed_at": "2026-10-29",
       "registry_updated_at": "2026-09-24"
      },

@@ -2,7 +2,7 @@
  "id": "customer-service/customer-success",
  "industry": "customer-service",
  "role": "customer-success",
- "updated_at": "2026-11-05T02:31:49Z",
+ "updated_at": "2026-11-05T16:16:29Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -412,50 +412,68 @@
      "source": "botsdots"
     },
     {
-     "id": "anthropics-knowledge-work-plugins-customer-support",
-     "title": "Customer Support plugin (Anthropic knowledge-work-plugins)",
-     "type": "plugin",
+     "id": "botsdots-sell-bot-hqpv",
+     "title": "Sell Bot",
+     "type": "template",
      "industry": "customer-service",
      "roles": [
-      "support-agent",
-      "knowledge-base-editor"
+      "customer-success"
      ],
-     "summary": "A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, response drafting, customer research, and knowledge base authoring for support t",
+     "summary": "A sales and customer-success desk for founders. It preps calls, drafts follow-ups, proposals and support replies, and watches accounts.",
      "summary_lang": "en",
-     "source_url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-customer-support.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/README.md",
-     "repo": "anthropics/knowledge-work-plugins",
-     "author": "anthropics",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
+     "source_url": "https://botsdots.site/templates/sell-bot-hqpv",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ThePsalm46Guy",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support"
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/sell-bot-hqpv",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/hQPVJuB_EjmPHlnSkrLv_",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "cs68614-hash/awesome-grokbot-templates"
+       ],
+       "category": "customer-sales",
+       "creator": "ThePsalm46Guy",
+       "firstSeen": "2026-11-05",
+       "integrations": [],
+       "name": "Sell Bot",
+       "official": false,
+       "page": "https://botsdots.site/templates/sell-bot-hqpv",
+       "risk": "low",
+       "summary": "A sales and customer-success desk for founders. It preps calls, drafts follow-ups, proposals and support replies, and watches accounts."
+      }
      },
-     "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
+     "install": "https://x.ai/bot/hQPVJuB_EjmPHlnSkrLv_",
      "security": {
       "audited": false,
       "executes_code": false,
       "needs_credentials": false,
-      "writes_external": false
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
      },
      "metrics": {
-      "repo_stars": 29728,
-      "repo_pushed_at": "2026-10-15"
+      "score": 3,
+      "first_seen_catalog": "2026-11-05"
      },
-     "course_step": "4-do-it",
+     "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
+     "first_seen": "2026-11-05T16:16:29Z",
+     "updated_at": "2026-11-05T16:16:29Z",
+     "checked_at": "2026-11-05T16:16:29Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-customer-support/",
-     "source": "seed"
+     "page": "https://academy.incidental.site/r/botsdots-sell-bot-hqpv/",
+     "source": "botsdots"
     }
    ]
   },
@@ -538,7 +556,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26337,
+      "repo_stars": 26349,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

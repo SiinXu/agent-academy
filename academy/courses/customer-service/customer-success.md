@@ -2,7 +2,7 @@
 name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-05
-updated_at: 2026-11-05T02:31:49Z
+updated_at: 2026-11-05T16:16:29Z
 source: https://academy.incidental.site/courses/customer-service/customer-success/
 ---
 
@@ -63,11 +63,10 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/wjfSNLEQBOthTC1MZFdDn
   needs_credentials: false, writes_external: false
-- [plugin] Customer Support plugin (Anthropic knowledge-work-plugins). A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, 
-  source: https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-customer-support.md
-  license: Apache-2.0
-  install: claude plugin marketplace add anthropics/knowledge-work-plugins
+- [template] Sell Bot. A sales and customer-success desk for founders. It preps calls, drafts follow-ups, proposals and support replies, and watches accounts.
+  source: https://botsdots.site/templates/sell-bot-hqpv
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/hQPVJuB_EjmPHlnSkrLv_
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

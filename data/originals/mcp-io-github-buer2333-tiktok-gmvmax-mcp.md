@@ -122,6 +122,9 @@ Issues and PRs are welcome. Please include a test with any behavior change.
 
 ## Changelog
 
+### 0.2.1
+- Repository renamed to `tiktok-gmvmax-mcp`; package links updated.
+
 ### 0.2.0
 - Published as `tiktok-gmvmax-mcp`.
 - Generic `TIKTOK_ACCESS_TOKEN` / `TIKTOK_ACCESS_TOKEN_2`. The legacy names still work.

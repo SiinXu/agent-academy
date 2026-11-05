@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-05
-updated_at: 2026-11-05T02:31:49Z
+updated_at: 2026-11-05T16:16:29Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -223,7 +223,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 - [mcp] Deep Thought Marketing. Done-for-you digital marketing for small businesses: plan, launch and manage ads across 22 channels.
   source: https://deepthought.marketing/claude-connector.html
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://deepthought-chat.shajan.workers.dev/mcp
+  install: remote (streamable-http): https://mcp.deepthought.marketing/mcp
   needs_credentials: true, writes_external: true
 - [mcp] io.github.deapi-ai/tiktok-transcript-scraper. AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.
   source: https://github.com/deapi-ai/tiktok-transcript-mcp
