@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-06
-updated_at: 2026-11-06T02:31:42Z
+updated_at: 2026-11-06T17:29:58Z
 source: https://academy.incidental.site/courses/marketing/email-marketer/
 ---
 

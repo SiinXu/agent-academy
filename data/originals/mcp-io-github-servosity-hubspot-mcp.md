@@ -2,14 +2,14 @@
 
 **MSP Skills** connects your PSA, RMM, backup, and more to the AI you already use - **Claude**, **ChatGPT**, **Codex**, **Cursor**, **Windsurf**, or any agent that runs local MCP servers. Ask a plain-English question about your stack and get a real answer back.
 <!-- hero-live:start -->
-100 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
+105 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
 <!-- hero-live:end -->
 Free, open source, runs on your laptop. A local SQLite mirror lets your agent answer cross-client questions the live API can't return in one shot - no rate-limit hits, no per-tech SaaS fee, and your data stays local unless you route it somewhere yourself. Built for MSP owners. No developer experience required.
 
 > **New to the term?** What this repo calls an **MCP server** is what ChatGPT calls an *app* or *connector*, Claude on the web calls a *connector*, Microsoft Copilot calls a *connector*, and Claude Code calls a *Skill*. Same standard underneath: the [Model Context Protocol](https://modelcontextprotocol.io). Full plain-language answer: **[What is an MCP server?](https://msp-skills.compoundingteams.com/what-is-an-mcp-server/)**.
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/skills-100-green.svg)](./catalog.json)
+[![Skills](https://img.shields.io/badge/skills-105-green.svg)](./catalog.json)
 [![MCP](https://img.shields.io/badge/MCP-compatible-1f6feb.svg)](https://modelcontextprotocol.io)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-spec-2E7D32.svg)](https://agentskills.io)
 ![Status](https://img.shields.io/badge/status-beta-yellow.svg)
@@ -48,7 +48,7 @@ returns your live data.
 ## What's in the box
 
 <!-- catalog:start -->
-> ⭐ **First-party, by Servosity:** the [servosity](./skills/servosity) backup & DR connector + the [guided concierge](./skills/_meta) and the [connect-tool](./skills/connect-tool).
+> ⭐ **First-party, by Servosity:** the [domain-cert-tracker](./skills/domain-cert-tracker) connector and the [servosity](./skills/servosity) backup & DR connector + the [guided concierge](./skills/_meta) and the [connect-tool](./skills/connect-tool).
 
 | Skill | System | Status | Install |
 | --- | --- | --- | --- |
@@ -75,6 +75,7 @@ returns your live data.
 | [cisco-meraki](./skills/cisco-meraki) | Cisco Meraki Dashboard cloud-managed networking (MX security appliances, MS switches, MR access points, MV cameras) across every client organization | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/cisco-meraki/README.md) |
 | [cisco-umbrella](./skills/cisco-umbrella) | Cisco Umbrella DNS-layer security: destination lists, policies, deployments, reports, Investigate and MSP child orgs through the Umbrella v2 API | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/cisco-umbrella/README.md) |
 | [cloudally](./skills/cloudally) | CloudAlly SaaS backup for Microsoft 365 and Google Workspace: partner, reseller and customer accounts, backup tasks and their status, users, billing and recovery jobs through the Management API v2 | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/cloudally/README.md) |
+| [comet-backup](./skills/comet-backup) | White-label backup: users, devices, jobs, policies, and storage across every tenant on an MSP's Comet server | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/comet-backup/README.md) |
 | ⭐ [connect-tool](./skills/connect-tool) | Authentication setup for any CLI, MCP server, or Skill, driven through your own logged-in Chrome. Windows and macOS | ![Meta](https://img.shields.io/badge/Meta-skill-6B7280) | [Marketplace](./skills/connect-tool/README.md) |
 | [connectsecure](./skills/connectsecure) | ConnectSecure (formerly CyberCNS) vulnerability, asset and compliance management platform for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/connectsecure/README.md) |
 | [connectwise-automate](./skills/connectwise-automate) | ConnectWise Automate (LabTech) RMM: device management, patching, scripting, monitors and alerts for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/connectwise-automate/README.md) |
@@ -88,6 +89,7 @@ returns your live data.
 | [datto-bcdr](./skills/datto-bcdr) | Datto BCDR: appliances, agents, screenshot-verification audits, stale-backup roll-ups, recoverability KPI, and cross-client alert triage from a local mirror | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/datto-bcdr/README.md) |
 | [datto-rmm](./skills/datto-rmm) | Datto RMM: devices, alerts, patch and AV gaps, warranty, agent drift, and fleet QBR scorecards from a local mirror | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/datto-rmm/README.md) |
 | [dnsfilter](./skills/dnsfilter) | DNSFilter DNS security and content filtering (MSP and client organizations) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/dnsfilter/README.md) |
+| ⭐ [domain-cert-tracker](./skills/domain-cert-tracker) | Domain and TLS estate per client: registrations, expiries, registrar locks, DNS drift and certificates, from public RDAP, CT logs, DNS and TLS | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/domain-cert-tracker/README.md) |
 | [domotz](./skills/domotz) | Domotz network monitoring and device discovery platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/domotz/README.md) |
 | [dropsuite](./skills/dropsuite) | Dropsuite (NinjaOne SaaS Backup): fleet backup health, coverage gaps, seat and billing reconciliation, restore-test evidence across every client organization | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/dropsuite/README.md) |
 | [exchange-online](./skills/exchange-online) | Exchange Online, the Microsoft 365 mail service: mailboxes, permissions, forwarding, mail flow and quarantine across customer tenants | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/exchange-online/README.md) |
@@ -101,6 +103,7 @@ returns your live data.
 | [huntress](./skills/huntress) | managed endpoint detection and response (EDR) security platform | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/huntress/README.md) |
 | [immybot](./skills/immybot) | ImmyBot software deployment and desired-state automation: computers, deployments, maintenance sessions, and cross-tenant software inventory | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/immybot/README.md) |
 | [itglue](./skills/itglue) | IT Glue documentation platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/itglue/README.md) |
+| [jamf-pro](./skills/jamf-pro) | Jamf Pro: computers, mobile devices, policies, scripts, and packages across every client Jamf instance for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/jamf-pro/README.md) |
 | [jira-service-management](./skills/jira-service-management) | Jira Service Management Cloud: requests, queues, SLAs, customers, organizations, Assets (CMDB) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/jira-service-management/README.md) |
 | [kaseya-bms](./skills/kaseya-bms) | Kaseya BMS PSA - tickets, CRM, contracts, finance, and projects | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/kaseya-bms/README.md) |
 | [kaseya-vsa](./skills/kaseya-vsa) | Kaseya VSA 10 RMM - devices, patches, software inventory, scripts, tasks, and alerts | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/kaseya-vsa/README.md) |
@@ -146,11 +149,13 @@ returns your live data.
 | [td-synnex](./skills/td-synnex) | TD SYNNEX StreamOne ION cloud marketplace: customers, subscriptions, orders, renewals and per-customer margin | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/td-synnex/README.md) |
 | [threatdown](./skills/threatdown) | ThreatDown OneView: endpoint protection, detections, isolation and response jobs across every managed customer site | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/threatdown/README.md) |
 | [threatlocker](./skills/threatlocker) | ThreatLocker Portal: approvals, audit log, device health, and policy across customer tenants | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/threatlocker/README.md) |
+| [threecx](./skills/threecx) | 3CX Phone System (cloud or on-premises PBX) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/threecx/README.md) |
 | [unifi-network](./skills/unifi-network) | self-hosted UniFi Network controller managing devices, clients, firewall policies, ACLs, VLANs, VPN, and switching on a local gateway | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/unifi-network/README.md) |
 | [veeam](./skills/veeam) | Veeam Service Provider Console (VSPC): multi-tenant backup monitoring, alarms, licensing and reseller management for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/veeam/README.md) |
 | [vsphere](./skills/vsphere) | VMware vCenter Server and vSphere (ESXi hosts, clusters, VMs, datastores and snapshots) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/vsphere/README.md) |
 | [warranty](./skills/warranty) | Dell, Lenovo and Apple device warranty lookups | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/warranty/README.md) |
 | [watchguard](./skills/watchguard) | WatchGuard Cloud: Firebox, Endpoint Security (EPDR), ThreatSync, AuthPoint and NDR across every Service Provider managed account | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/watchguard/README.md) |
+| [windows-server](./skills/windows-server) | Windows Server 2016 to 2025 health, inventory and safe service actions over WinRM | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/windows-server/README.md) |
 | [wordpress](./skills/wordpress) | Publish and manage WordPress pages, posts, and media | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/wordpress/README.md) |
 | [xero](./skills/xero) | the Xero cloud accounting platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/xero/README.md) |
 | [zammad](./skills/zammad) | Zammad helpdesk and ticketing system (self-hosted or hosted) | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/zammad/README.md) |
@@ -204,7 +209,7 @@ Each installer drops both the CLI and the MCP server, so you can use the Skill (
 ## What your agent can do
 
 <!-- agent-can-do:start -->
-Outcomes, not hype - drawn from each of the 100 connectors' skill pages:
+Outcomes, not hype - drawn from each of the 105 connectors' skill pages:
 
 | Outcome | Skill | Command |
 | --- | --- | --- |
@@ -229,7 +234,8 @@ Outcomes, not hype - drawn from each of the 100 connectors' skill pages:
 | Why can't this user get through Duo, and which fix applies? | cisco-duo | `cisco-duo-cli lockout triage "jane@example.com" --account-id "Acme Corp"` |
 | Which client org is in the worst shape right now? | cisco-meraki | `cisco-meraki-cli fleet health --agent` |
 | Which customers have roaming computers off, uninstalled, stale or without web protection, and how many seats each? | cisco-umbrella | `cisco-umbrella-cli fleet health --stale-days 7 --agent` |
-| What is the latest backup status of every mailbox and site across all my CloudAlly customers? | cloudally | `cloudally-cli distributor-accounts backup-statuses --all` |
+| Which mailboxes across all my CloudAlly customers have not backed up in two days, or failed? (It reads the synced feed: run cloudally-cli sync --resources distributor_accounts-backup-statuses first.) | cloudally | `cloudally-cli backup health --stale-days 2 --group-by account` |
+| Which protected items failed, are overdue or never backed up, across every tenant? | comet-backup | `comet-backup-cli health --state failed,overdue,never --json` |
 | Which open vulnerabilities across every client are most likely to be exploited? | connectsecure | `connectsecure-cli exposure --min-epss 0.5 --severity Critical,High` |
 | Which agents haven't checked in for 30+ days, by client? | connectwise-automate | `connectwise-automate-cli stale-agents --days 30 --agent` |
 | Which access sessions are in this group? | connectwise-control | `connectwise-control-cli sessions list --session-type Access --group "All Machines" --agent` |
@@ -242,6 +248,7 @@ Outcomes, not hype - drawn from each of the 100 connectors' skill pages:
 | Which protected machines failed their last backup screenshot verification? | datto-bcdr | `datto-bcdr-cli screenshots --failed --stale-days 7 --agent` |
 | Which devices haven't checked in for 30 days, across every client? | datto-rmm | `datto-rmm-cli fleet stale --days 30 --agent` |
 | Why is this domain blocked for this client, and which policy and rule did it? | dnsfilter | `dnsfilter-cli why-blocked "example.com" --org "Acme Dental"` |
+| What expires within 30 days, lost its lock or changed, per client? | domain-cert-tracker | `domain-cert-tracker-cli report --days 30 --agent` |
 | Is anything on fire across all my sites? | domotz | `domotz-cli fleet health --agent` |
 | What is failing, stuck or stale across every client right now? | dropsuite | `dropsuite-cli health --stale-after 48h --failing --agent` |
 | Can mail auto-forward out of this tenant, and does the outbound spam policy or a remote domain block it? | exchange-online | `exchange-online-cli forwarding-audit 0550b473-9fd2-4dbb-a058-a1640b4bf458 --sweep --agent` |
@@ -254,6 +261,7 @@ Outcomes, not hype - drawn from each of the 100 connectors' skill pages:
 | Which incidents are oldest across every client org? | huntress | `huntress-cli fleet-incidents --sort age` |
 | What failed in last night's maintenance window, by root cause? | immybot | `immybot-cli session-triage --since 24h` |
 | Which client owns this device, serial number, or contact? | itglue | `itglue-cli search "Fortinet"` |
+| Which client has this Mac, iPad or iPhone, by serial, name, username or email? | jamf-pro | `jamf-pro-cli fleet find C02XK1ABJG5H --agent` |
 | Which tickets breach SLA in the next two hours, across every queue? | jira-service-management | `jira-service-management-cli breaches --within 2h` |
 | Which queues are underwater and what's going stale before standup? | kaseya-bms | `kaseya-bms-cli queue-health --agent` |
 | Which pending OS updates are exposed on the most devices, across every client? | kaseya-vsa | `kaseya-vsa-cli patch-exposure --by kb --severity critical,important --agent` |
@@ -299,11 +307,13 @@ Outcomes, not hype - drawn from each of the 100 connectors' skill pages:
 | Which subscriptions renew in the next 30 days with auto-renew switched off? | td-synnex | `td-synnex-cli subscriptions renewals --within 30d --auto-renew off` |
 | Which endpoints haven't checked in for 24 hours, across every site? | threatdown | `threatdown-cli fleet stale --hours 24 --agent` |
 | What application approvals are pending across all my clients right now? | threatlocker | `threatlocker-cli approvals triage --all-tenants` |
+| Which client phone systems are failing or warning, and why? | threecx | `threecx-cli fleet health --agent` |
 | What changed in this site's config since my last check? | unifi-network | `unifi-network-cli drift --site default --json` |
 | Which backup jobs are failing across all my customers? | veeam | `veeam-cli fleet-health --agent` |
 | Which VMs are blocked from migrating, and what is blocking each one? | vsphere | `vsphere-cli migration blockers --severity block --agent` |
 | Which client devices are out of warranty or expire in the next 90 days? | warranty | `warranty-cli report --within 90d --agent` |
 | Which customer needs attention first across Firebox, endpoints, ThreatSync and licenses? | watchguard | `watchguard-cli accounts health --agent` |
+| Which of my servers need attention today, and why? | windows-server | `windows-server-cli health --agent` |
 | Publish a landing page from HTML without opening wp-admin? | wordpress | `wordpress-cli pages create --title "Spring Promo" --content "<h1>Spring Promo</h1>" --status publish` |
 | Who owes us, and how overdue is each invoice? | xero | `xero-cli aging --agent` |
 | Who on the team is overloaded, and who is idle? | zammad | `zammad-cli agent-load --json` |
@@ -394,36 +404,4 @@ Yes. The PowerShell installer in "Install in 60 seconds" above is the same insta
 
 The Skills, the CLI binaries, and the MCP servers are **free**. Apache-2.0 licensed - free to use commercially, free to fork. Servosity does not charge for API access required to run the Servosity skill. Other PSA, RMM, and backup vendors set their own API-access terms. You pay only for whichever AI agent you use (Claude, ChatGPT, Codex, etc.), and those are billed by your AI provider, not by us.
 
-### Can I try it on one client first?
-
-Yes. Every command takes a client / company filter (e.g. `halopsa-cli client card "Acme Corp"`, `servosity-cli company show 4421`). Read-tier commands change nothing; you can try them against your live system safely. For writes, each skill's `governance.md` tags every command with a recommended agent policy - preview with `--dry-run` and approve before the real thing. The safe starting move is a read-only triage against one client, see the output, then widen scope.
-
-### What if my AI doesn't speak MCP?
-
-If your AI doesn't yet support MCP and isn't Claude Code / Codex CLI (which read SKILL.md directly), MSP Skills won't fit yet. Every connector's CLI binary still works standalone in a shell - you can pipe its output into anything. As more AI tools add MCP (the protocol is moving fast in 2026), they'll work with MSP Skills automatically without anything changing on our side.
-
-</details>
-
-## Built and tested live with MSPs
-
-These skills are built and tested with real MSPs running them against their own production systems, live, in our free weekly Build Sessions (Thursdays). An MSP brings a system we have not covered - your PSA, RMM, backup product, or security tool - and we co-build the Claude Code Skill and MCP server live. You watch, you ask, you walk away with a working integration, and every shipped Skill lands here the day it merges.
-
-RSVP for the next one at **[compoundingteams.com/build-sessions](https://compoundingteams.com/build-sessions)**.
-
-## Roadmap
-
-We co-build the next skills live with MSPs in the weekly Build Session. The targets the MSP community asks for most, in demand order:
-
-- **NinjaOne fleet hygiene** (the fastest-growing RMM; silent-failure detector)
-- **Autotask PSA** (ConnectWise PSA and HaloPSA shipped - Autotask completes the big three)
-- **IT Glue / Hudu** (RMM ticket-to-doc: resolution to documentation)
-- **M365 governance / Copilot data-exposure pre-check**
-- **Datto RMM, Kaseya VSA, Atera, Syncro**
-
-Want one of these next? Bring the system to a Build Session (above) or open an issue.
-
-## Don't see the system you need?
-
-**Easiest path - tell your AI.** Paste this into Claude Code, Codex, Claude Desktop, or ChatGPT:
-
-> Open an issue on https://github.com/servosity/msp-skills using the skill-
+### Can I try it on on

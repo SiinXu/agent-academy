@@ -519,7 +519,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Extensiv](servers/extensiv/) | inventory | 20 | OAuth | [servers/extensiv/](servers/extensiv/) |
 | [Zenfulfillment](servers/zenfulfillment/) | shipping | 13 | OAuth | [servers/zenfulfillment/](servers/zenfulfillment/) |
 | [Taleez](servers/taleez/) | hr | 29 | OAuth | [servers/taleez/](servers/taleez/) |
-| [Desk365](servers/desk365/) | support | 17 | OAuth | [servers/desk365/](servers/desk365/) |
+| [Desk365](servers/desk365/) | support | 18 | OAuth | [servers/desk365/](servers/desk365/) |
 | [RemoteLock](servers/remotelock/) | property-management | 24 | OAuth | [servers/remotelock/](servers/remotelock/) |
 | [LingoHub](servers/lingohub/) | localization | 18 | OAuth | [servers/lingohub/](servers/lingohub/) |
 | [MarketTime](servers/markettime/) | commerce | 22 | OAuth | [servers/markettime/](servers/markettime/) |

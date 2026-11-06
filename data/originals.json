@@ -5982,6 +5982,32 @@
 "truncated": false,
 "url": "https://github.com/trendsmcp-ai/tiktok-trends-mcp/blob/HEAD/README.md"
 },
+"mcp-ai-workpods-local-seo": {
+"file": "data/originals/mcp-ai-workpods-local-seo.md",
+"kind": "full",
+"label": "readme",
+"license": "Apache-2.0",
+"record": {
+"description": "Audit Google Business Profiles, reviews and Maps rankings, and check a site's NAP and schema.",
+"name": "ai.workpods/local-seo",
+"packages": [
+{
+"env": [],
+"id": "@workpods/local-seo",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/WorkPodsAgents/local-seo",
+"title": "Local SEO by WorkPods",
+"version": "1.0.1",
+"website": "https://workpods.ai/tools/local-seo"
+},
+"truncated": false,
+"url": "https://github.com/WorkPodsAgents/local-seo/blob/HEAD/README.md"
+},
 "mcp-app-bestappify-shopify-app-store": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8544,7 +8570,7 @@
 "id": "@agentseo/mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "0.1.4"
+"version": "0.1.5"
 }
 ],
 "remotes": [
@@ -8560,7 +8586,7 @@
 ],
 "repository": "https://github.com/AgentSEO-dev/agentseo-clients",
 "title": "AgentSEO",
-"version": "0.1.5",
+"version": "0.1.6",
 "website": "https://www.agentseo.dev"
 },
 "truncated": false,
@@ -10129,13 +10155,13 @@
 "id": "@freevectoricons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "0.3.0-beta.2"
+"version": "0.3.0-beta.3"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/FreeVectorIcons/fvi-mcp",
 "title": "FreeVectorIcons",
-"version": "0.3.0-beta.2",
+"version": "0.3.0-beta.3",
 "website": "https://freevectoricons.com/mcp"
 },
 "truncated": false,
@@ -13165,7 +13191,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.35.3",
+"version": "1.35.4",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
