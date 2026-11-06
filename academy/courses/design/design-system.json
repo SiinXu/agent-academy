@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-11-05T18:02:06Z",
+ "updated_at": "2026-11-06T02:31:42Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1384,7 +1384,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187672,
+      "repo_stars": 187787,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1429,7 +1429,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187672,
+      "repo_stars": 187787,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -1474,7 +1474,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1519,7 +1519,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1564,7 +1564,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1609,7 +1609,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1654,7 +1654,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1699,7 +1699,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1744,7 +1744,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1789,7 +1789,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1834,7 +1834,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1879,7 +1879,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -1924,8 +1924,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1969,8 +1969,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2014,7 +2014,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26352,
+      "repo_stars": 26360,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2791,8 +2791,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143959,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 143978,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2836,7 +2836,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "4-do-it",
@@ -3043,6 +3043,88 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-miapre-html-to-figma-design-system/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-mehmoodqureshi-figma-codekit-mcp",
+     "title": "Figma CodeKit MCP",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-system",
+      "design-engineer"
+     ],
+     "summary": "Figma to pixel-verified code: HTML/React/Tailwind + tokens, then a render + pixel-diff verify loop.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/Mehmoodqureshi/figma-codekit-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-codekit-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "Mehmoodqureshi/figma-codekit-mcp",
+     "author": "io.github.Mehmoodqureshi",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/Mehmoodqureshi/figma-codekit-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Figma to pixel-verified code: HTML/React/Tailwind + tokens, then a render + pixel-diff verify loop.",
+       "name": "io.github.Mehmoodqureshi/figma-codekit-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Figma personal access token (Settings -> Security -> Personal access tokens, scope \"File content: read\"). May instead be placed in a .figma-token file in the project directory. FIGMA_API_KEY is accepted as an alias.",
+           "name": "FIGMA_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Where converted frames are cached. Defaults to .figma-cache/ in the directory the server starts from.",
+           "name": "FIGMA_MCP_CACHE_DIR",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "figma-codekit-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.3.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/Mehmoodqureshi/figma-codekit-mcp",
+       "title": "Figma CodeKit MCP",
+       "version": "0.3.0",
+       "website": null
+      }
+     },
+     "install": "npx -y figma-codekit-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "FIGMA_TOKEN",
+       "FIGMA_MCP_CACHE_DIR"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 1,
+      "repo_pushed_at": "2026-11-05",
+      "registry_updated_at": "2026-11-05"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-11-06T02:31:42Z",
+     "checked_at": "2026-11-03T03:29:34Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-mehmoodqureshi-figma-codekit-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -3555,7 +3637,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3600,7 +3682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3645,7 +3727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 53779,
+      "repo_stars": 53881,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -3690,7 +3772,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3735,7 +3817,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3780,7 +3862,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3825,7 +3907,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3870,8 +3952,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3915,8 +3997,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3960,8 +4042,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4005,7 +4087,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26352,
+      "repo_stars": 26360,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

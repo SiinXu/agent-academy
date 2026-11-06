@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-05
-updated_at: 2026-11-05T18:02:06Z
+version: 2026-11-06
+updated_at: 2026-11-06T02:31:42Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -129,11 +129,6 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Comprehensive Digital Marketing Strategy for Fashion Brand. Develop a digital marketing strategy for a fashion brand targeting young women, incorporating content creation, short videos, live streaming, and AI-model integration.
   source: https://prompts.chat/prompts/cmjpusher000elj04qoply1t3_comprehensive-digital-marketing-strategy-for-fashion-brand
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-comprehensive-digital-marketing-strategy-for-fashion-brand.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Content Creation Prompts for E-commerce and Social Platforms. Write effective content-creation prompts for e-commerce and social platforms (e.g. Douyin, Xiaohongshu) to help promote products and services.
-  source: https://prompts.chat/prompts/cmjgof96g0007kw04swjw2j4j_content-creation-prompts-for-e-commerce-and-social-platforms
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-content-creation-prompts-for-e-commerce-and-social-platforms.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Indie Artist Instagram Caption Generator. Writes 3 Instagram captions that turn followers into paying fans. Built for indie artists who sell direct to fans on Bandcamp, EVEN.Biz, Bandzoogle, Shopify, or their own site: downloads, vinyl, CDs, merch, and bundles. 

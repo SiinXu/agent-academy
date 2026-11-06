@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-05
-updated_at: 2026-11-05T18:02:06Z
+version: 2026-11-06
+updated_at: 2026-11-06T02:31:42Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -365,6 +365,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y html-to-figma-design-system
   needs_credentials: false, writes_external: false
+- [mcp] Figma CodeKit MCP. Figma to pixel-verified code: HTML/React/Tailwind + tokens, then a render + pixel-diff verify loop.
+  source: https://github.com/Mehmoodqureshi/figma-codekit-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-codekit-mcp.md
+  license: MIT
+  install: npx -y figma-codekit-mcp
+  needs_credentials: true, writes_external: false
 - [mcp] DS Manager. Design System Manager for shadcn/ui: tokens, fonts, radius, components, icons, blocks, Figma sync.
   source: https://www.shadcndesign.com/docs/ds-manager-mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)

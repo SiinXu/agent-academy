@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-11-05T18:02:06Z",
+ "updated_at": "2026-11-06T02:31:42Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,8 +876,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1957,7 +1957,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187672,
+      "repo_stars": 187787,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2002,7 +2002,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 187672,
+      "repo_stars": 187787,
       "repo_pushed_at": "2026-10-28"
      },
      "course_step": "3-learn-rules",
@@ -2047,7 +2047,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -2092,7 +2092,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 53779,
+      "repo_stars": 53881,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -2137,7 +2137,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -2182,7 +2182,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -2227,7 +2227,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -2647,51 +2647,6 @@
      "source": "prompts.chat"
     },
     {
-     "id": "prompts-chat-tistory-blog-skin-uiux-enhancement-pipeline",
-     "title": "Tistory Blog Skin UI/UX Enhancement Pipeline",
-     "type": "system-prompt",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Tistory Poster 스킨 기반 블로그의 UI/UX를 프로페셔널 수준으로 개선하는 구조화된 프롬프트. inpa.tistory.com 레퍼런스 기반.",
-     "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cmmlkcl380005l604a6fmy1h3_tistory-blog-skin-uiux-enhancement-pipeline",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-tistory-blog-skin-uiux-enhancement-pipeline.md",
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "inhyoe",
-     "license": "CC0-1.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cmmlkcl380005l604a6fmy1h3_tistory-blog-skin-uiux-enhancement-pipeline"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "votes": 0,
-      "created_at": "2026-03-11"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-02T20:22:18Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/prompts-chat-tistory-blog-skin-uiux-enhancement-pipeline/",
-     "source": "prompts.chat"
-    },
-    {
      "id": "prompts-chat-web-design-consultant",
      "title": "Web Design Consultant",
      "type": "system-prompt",
@@ -2812,8 +2767,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 143959,
-      "repo_pushed_at": "2026-10-22"
+      "repo_stars": 143978,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2885,7 +2840,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16169,
+      "repo_stars": 16171,
       "repo_pushed_at": "2026-10-27",
       "registry_updated_at": "2026-06-18"
      },
@@ -2949,7 +2904,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2153,
+      "repo_stars": 2154,
       "repo_pushed_at": "2026-11-03",
       "registry_updated_at": "2025-10-16"
      },
@@ -3231,7 +3186,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 31,
+      "repo_stars": 30,
       "repo_pushed_at": "2026-11-04",
       "registry_updated_at": "2026-10-20"
      },
@@ -3371,7 +3326,7 @@
      },
      "metrics": {
       "repo_stars": 10,
-      "repo_pushed_at": "2026-11-01",
+      "repo_pushed_at": "2026-11-05",
       "registry_updated_at": "2026-11-01"
      },
      "course_step": "4-do-it",
@@ -4408,7 +4363,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -4453,7 +4408,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145607,
+      "repo_stars": 145737,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -4498,7 +4453,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 53779,
+      "repo_stars": 53881,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -4543,7 +4498,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -4588,7 +4543,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -4633,7 +4588,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -4678,7 +4633,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42232,
+      "repo_stars": 42241,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -4723,8 +4678,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4768,8 +4723,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4813,8 +4768,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 34840,
-      "repo_pushed_at": "2026-11-04"
+      "repo_stars": 34880,
+      "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4858,7 +4813,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26352,
+      "repo_stars": 26360,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

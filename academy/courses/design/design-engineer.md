@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-05
-updated_at: 2026-11-05T18:02:06Z
+version: 2026-11-06
+updated_at: 2026-11-06T02:31:42Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -295,7 +295,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @tmegit/figma-developer-mcp
   needs_credentials: true, writes_external: false
-- [mcp] Figma CodeKit MCP. Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.
+- [mcp] Figma CodeKit MCP. Figma to pixel-verified code: HTML/React/Tailwind + tokens, then a render + pixel-diff verify loop.
   source: https://github.com/Mehmoodqureshi/figma-codekit-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-codekit-mcp.md
   license: MIT

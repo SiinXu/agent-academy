@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-05
-updated_at: 2026-11-05T18:02:06Z
+version: 2026-11-06
+updated_at: 2026-11-06T02:31:42Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -304,11 +304,6 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Rustic Farm Logo Design. I'm looking for a talented designer to create a rustic-style farm logo for my brand. R Lucky Star Farm
   source: https://prompts.chat/prompts/cmug1en4j0001i904qunedjs2_rustic-farm-logo-design
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-rustic-farm-logo-design.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Tistory Blog Skin UI/UX Enhancement Pipeline. Tistory Poster 스킨 기반 블로그의 UI/UX를 프로페셔널 수준으로 개선하는 구조화된 프롬프트. inpa.tistory.com 레퍼런스 기반.
-  source: https://prompts.chat/prompts/cmmlkcl380005l604a6fmy1h3_tistory-blog-skin-uiux-enhancement-pipeline
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-tistory-blog-skin-uiux-enhancement-pipeline.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Web Design Consultant. I want you to act as a web design consultant. I will provide you with details related to an organization needing assistance designing or redeveloping their website, and your role is to suggest the most suitable interface

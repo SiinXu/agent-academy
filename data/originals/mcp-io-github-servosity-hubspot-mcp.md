@@ -2,14 +2,14 @@
 
 **MSP Skills** connects your PSA, RMM, backup, and more to the AI you already use - **Claude**, **ChatGPT**, **Codex**, **Cursor**, **Windsurf**, or any agent that runs local MCP servers. Ask a plain-English question about your stack and get a real answer back.
 <!-- hero-live:start -->
-99 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
+100 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
 <!-- hero-live:end -->
 Free, open source, runs on your laptop. A local SQLite mirror lets your agent answer cross-client questions the live API can't return in one shot - no rate-limit hits, no per-tech SaaS fee, and your data stays local unless you route it somewhere yourself. Built for MSP owners. No developer experience required.
 
 > **New to the term?** What this repo calls an **MCP server** is what ChatGPT calls an *app* or *connector*, Claude on the web calls a *connector*, Microsoft Copilot calls a *connector*, and Claude Code calls a *Skill*. Same standard underneath: the [Model Context Protocol](https://modelcontextprotocol.io). Full plain-language answer: **[What is an MCP server?](https://msp-skills.compoundingteams.com/what-is-an-mcp-server/)**.
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/skills-99-green.svg)](./catalog.json)
+[![Skills](https://img.shields.io/badge/skills-100-green.svg)](./catalog.json)
 [![MCP](https://img.shields.io/badge/MCP-compatible-1f6feb.svg)](https://modelcontextprotocol.io)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-spec-2E7D32.svg)](https://agentskills.io)
 ![Status](https://img.shields.io/badge/status-beta-yellow.svg)
@@ -148,6 +148,7 @@ returns your live data.
 | [threatlocker](./skills/threatlocker) | ThreatLocker Portal: approvals, audit log, device health, and policy across customer tenants | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/threatlocker/README.md) |
 | [unifi-network](./skills/unifi-network) | self-hosted UniFi Network controller managing devices, clients, firewall policies, ACLs, VLANs, VPN, and switching on a local gateway | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/unifi-network/README.md) |
 | [veeam](./skills/veeam) | Veeam Service Provider Console (VSPC): multi-tenant backup monitoring, alarms, licensing and reseller management for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/veeam/README.md) |
+| [vsphere](./skills/vsphere) | VMware vCenter Server and vSphere (ESXi hosts, clusters, VMs, datastores and snapshots) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/vsphere/README.md) |
 | [warranty](./skills/warranty) | Dell, Lenovo and Apple device warranty lookups | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/warranty/README.md) |
 | [watchguard](./skills/watchguard) | WatchGuard Cloud: Firebox, Endpoint Security (EPDR), ThreatSync, AuthPoint and NDR across every Service Provider managed account | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/watchguard/README.md) |
 | [wordpress](./skills/wordpress) | Publish and manage WordPress pages, posts, and media | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/wordpress/README.md) |
@@ -203,7 +204,7 @@ Each installer drops both the CLI and the MCP server, so you can use the Skill (
 ## What your agent can do
 
 <!-- agent-can-do:start -->
-Outcomes, not hype - drawn from each of the 99 connectors' skill pages:
+Outcomes, not hype - drawn from each of the 100 connectors' skill pages:
 
 | Outcome | Skill | Command |
 | --- | --- | --- |
@@ -300,6 +301,7 @@ Outcomes, not hype - drawn from each of the 99 connectors' skill pages:
 | What application approvals are pending across all my clients right now? | threatlocker | `threatlocker-cli approvals triage --all-tenants` |
 | What changed in this site's config since my last check? | unifi-network | `unifi-network-cli drift --site default --json` |
 | Which backup jobs are failing across all my customers? | veeam | `veeam-cli fleet-health --agent` |
+| Which VMs are blocked from migrating, and what is blocking each one? | vsphere | `vsphere-cli migration blockers --severity block --agent` |
 | Which client devices are out of warranty or expire in the next 90 days? | warranty | `warranty-cli report --within 90d --agent` |
 | Which customer needs attention first across Firebox, endpoints, ThreatSync and licenses? | watchguard | `watchguard-cli accounts health --agent` |
 | Publish a landing page from HTML without opening wp-admin? | wordpress | `wordpress-cli pages create --title "Spring Promo" --content "<h1>Spring Promo</h1>" --status publish` |
@@ -424,8 +426,4 @@ Want one of these next? Bring the system to a Build Session (above) or open an i
 
 **Easiest path - tell your AI.** Paste this into Claude Code, Codex, Claude Desktop, or ChatGPT:
 
-> Open an issue on https://github.com/servosity/msp-skills using the skill-request template. The system I want is **[YOUR SYSTEM NAME]** - my one question for the AI would be **"[YOUR QUESTION]"**, I'm on **[Mac or Windows]**, and my MSP has about **[N] techs**. Submit it.
-
-Your AI fills the form and posts the issue. Done. (You'll need to be signed in to GitHub in your browser or have a GitHub CLI token where your AI can see it.)
-
-**Don't have an AI set up yet?** Open the is
+> Open an issue on https://github.com/servosity/msp-skills using the skill-

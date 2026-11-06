@@ -6646,6 +6646,28 @@
 "truncated": false,
 "url": "https://github.com/Sathish27/didyouseo-mcp/blob/HEAD/README.md"
 },
+"mcp-com-empiriainsight-local-seo-geo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Deterministic SEO/GEO checks, business-data comparisons and fixed-price implementation guidance.",
+"name": "com.empiriainsight/local-seo-geo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.empiriainsight.com/mcp"
+}
+],
+"repository": null,
+"title": "Empiria Local SEO",
+"version": "0.2.0",
+"website": "https://mcp.empiriainsight.com/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.empiriainsight/local-seo-geo&version=latest"
+},
 "mcp-com-errandkit-seo-ai-audit": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8543,30 +8565,6 @@
 },
 "truncated": false,
 "url": "https://github.com/AgentSEO-dev/agentseo-clients/blob/HEAD/README.md"
-},
-"mcp-dev-seoreport-seoreport": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Run full technical SEO audits of any website from your AI agent and get structured findings back.",
-"name": "dev.seoreport/seoreport",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"Authorization"
-],
-"type": "streamable-http",
-"url": "https://seoreport.dev/mcp"
-}
-],
-"repository": null,
-"title": "SEOReport",
-"version": "1.1.0",
-"website": "https://seoreport.dev/agents"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.seoreport/seoreport&version=latest"
 },
 "mcp-exchange-shadcn-blocks": {
 "kind": "excerpt",
@@ -10932,7 +10930,7 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.",
+"description": "Figma to pixel-verified code: HTML/React/Tailwind + tokens, then a render + pixel-diff verify loop.",
 "name": "io.github.Mehmoodqureshi/figma-codekit-mcp",
 "packages": [
 {
@@ -10953,13 +10951,13 @@
 "id": "figma-codekit-mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.4"
+"version": "0.3.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/Mehmoodqureshi/figma-codekit-mcp",
 "title": "Figma CodeKit MCP",
-"version": "0.2.4",
+"version": "0.3.0",
 "website": null
 },
 "truncated": false,
@@ -12026,7 +12024,7 @@
 "id": "@pipeworx/mcp-twilio",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -12038,7 +12036,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-twilio",
 "title": "Twilio",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/twilio"
 },
 "truncated": false,
