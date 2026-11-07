@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-11-07T01:59:16Z",
+ "updated_at": "2026-11-07T16:27:36Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 188188,
+      "repo_stars": 188504,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -537,7 +537,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "tasteskill 2.5.0, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy, one system, one section per screen, equal edges, real photographs and real product UI (product renders when there are no photographs), with shader effects, scenes and moments only on tech, gaming and software pages, quiet micro-interactions, and a checker that enforces it in a real…",
+     "summary": "tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, real photographs and real product UI (licensed stand-in photographs when the client has none; a product render only when the brief asks for 3D), a hero entrance and one or two dealt moments on every page, shader…",
      "summary_lang": "en",
      "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill.md",
@@ -555,18 +555,18 @@
      "install": "npx skills add Leonxlnx/taste-skill --skill taste-skill",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 111239,
-      "repo_pushed_at": "2026-11-05"
+      "repo_stars": 111501,
+      "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-05T02:31:49Z",
+     "updated_at": "2026-11-07T16:27:36Z",
      "checked_at": "2026-11-02T20:22:18Z",
      "http_status": {
       "source": 200
@@ -605,7 +605,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 54150,
+      "repo_stars": 54305,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -650,7 +650,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 54150,
+      "repo_stars": 54305,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -695,7 +695,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -740,7 +740,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -785,7 +785,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -830,7 +830,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -875,7 +875,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35007,
+      "repo_stars": 35109,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
@@ -920,7 +920,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26383,
+      "repo_stars": 26396,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1929,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "4-do-it",
@@ -1992,7 +1992,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2158,
+      "repo_stars": 2159,
       "repo_pushed_at": "2026-11-03",
       "registry_updated_at": "2025-10-16"
      },
@@ -2850,8 +2850,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 146186,
-      "repo_pushed_at": "2026-11-05"
+      "repo_stars": 146446,
+      "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2895,8 +2895,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 146186,
-      "repo_pushed_at": "2026-11-05"
+      "repo_stars": 146446,
+      "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2940,7 +2940,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 54150,
+      "repo_stars": 54305,
       "repo_pushed_at": "2026-11-04"
      },
      "course_step": "3-learn-rules",
@@ -2985,7 +2985,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3030,7 +3030,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3075,7 +3075,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3120,7 +3120,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42264,
+      "repo_stars": 42280,
       "repo_pushed_at": "2026-11-05"
      },
      "course_step": "3-learn-rules",
@@ -3165,7 +3165,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35007,
+      "repo_stars": 35109,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
@@ -3210,7 +3210,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35007,
+      "repo_stars": 35109,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
@@ -3255,7 +3255,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35007,
+      "repo_stars": 35109,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
@@ -3300,7 +3300,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26383,
+      "repo_stars": 26396,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

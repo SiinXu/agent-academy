@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-07
-updated_at: 2026-11-07T01:59:16Z
+updated_at: 2026-11-07T16:27:36Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -309,16 +309,16 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://app.seomatic.ai/api/mcp
   needs_credentials: true, writes_external: false
-- [mcp] AgentSEO. Live SEO workflow tools for Claude Code, Codex, and AI agents.
-  source: https://github.com/AgentSEO-dev/agentseo-clients
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-agentseo-www-agentseo-mcp.md
-  license: MIT
-  install: npx -y @agentseo/mcp-server
-  needs_credentials: true, writes_external: false
 - [mcp] Ahrefs. Official Ahrefs MCP server. Access SEO data, including backlinks, keywords, and competitor research.
   source: https://ahrefs.com/mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://api.ahrefs.com/mcp/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] AI SEO Tracker. Track brand visibility, citations, prompts & missing sources across ChatGPT, Perplexity, Gemini.
+  source: https://github.com/Illyism/aiseotracker-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-aiseotracker-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://aiseotracker.com/api/agent/mcp
   needs_credentials: true, writes_external: false
 - [mcp] ai.openhelm/seo-growth. Autonomous SEO + GEO growth: keyword research, audits, content, AI answer-engine visibility.
   source: https://openhelm.ai

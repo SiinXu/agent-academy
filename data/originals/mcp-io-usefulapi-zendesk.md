@@ -33,7 +33,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Checkout.com](servers/checkoutcom/) | payments | 22 | API token | [servers/checkoutcom/](servers/checkoutcom/) |
 | [ClickUp](servers/clickup/) | project-management | 18 | API token | [servers/clickup/](servers/clickup/) |
 | [ClinicalTrials.gov](servers/clinicaltrialsgov/) | health-data | 11 | API token | [servers/clinicaltrialsgov/](servers/clinicaltrialsgov/) |
-| [Cliniko](servers/cliniko/) | healthcare | 21 | API token | [servers/cliniko/](servers/cliniko/) |
+| [Cliniko](servers/cliniko/) | healthcare | 25 | API token | [servers/cliniko/](servers/cliniko/) |
 | [Codat](servers/codat/) | financial-data | 32 | API token | [servers/codat/](servers/codat/) |
 | [Codecov](servers/codecov/) | devops | 28 | API token | [servers/codecov/](servers/codecov/) |
 | [Codemagic](servers/codemagic/) | devops | 13 | API token | [servers/codemagic/](servers/codemagic/) |

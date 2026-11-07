@@ -6404,6 +6404,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ahrefs/mcp&version=latest"
 },
+"mcp-com-aiseotracker-mcp": {
+"file": "data/originals/mcp-com-aiseotracker-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Track brand visibility, citations, prompts & missing sources across ChatGPT, Perplexity, Gemini.",
+"name": "com.aiseotracker/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://aiseotracker.com/api/agent/mcp"
+}
+],
+"repository": "https://github.com/Illyism/aiseotracker-mcp",
+"title": "AI SEO Tracker",
+"version": "0.4.0",
+"website": "https://aiseotracker.com/docs/mcp"
+},
+"truncated": false,
+"url": "https://github.com/Illyism/aiseotracker-mcp/blob/HEAD/README.md"
+},
 "mcp-com-allsvgicons-icons": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8531,67 +8555,6 @@
 "truncated": false,
 "url": "https://github.com/robertoyanguas-ops/assay/blob/HEAD/README.md"
 },
-"mcp-dev-agentseo-www-agentseo-mcp": {
-"file": "data/originals/mcp-dev-agentseo-www-agentseo-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Live SEO workflow tools for Claude Code, Codex, and AI agents.",
-"name": "dev.agentseo.www/agentseo-mcp",
-"packages": [
-{
-"env": [
-{
-"description": "Your AgentSEO server-side API key.",
-"name": "AGENTSEO_API_KEY",
-"required": true,
-"secret": true
-},
-{
-"description": "Optional API base URL. Defaults to https://www.agentseo.dev/api/v1.",
-"name": "AGENTSEO_API_URL",
-"required": null,
-"secret": null
-},
-{
-"description": "Optional project attribution for usage and job tracking.",
-"name": "AGENTSEO_PROJECT_ID",
-"required": null,
-"secret": null
-},
-{
-"description": "Optional workflow attribution for usage and job tracking.",
-"name": "AGENTSEO_WORKFLOW_ID",
-"required": null,
-"secret": null
-}
-],
-"id": "@agentseo/mcp-server",
-"transport": "stdio",
-"type": "npm",
-"version": "0.1.5"
-}
-],
-"remotes": [
-{
-"headers": [
-"x-api-key",
-"x-project-id",
-"x-workflow-id"
-],
-"type": "streamable-http",
-"url": "https://www.agentseo.dev/mcp"
-}
-],
-"repository": "https://github.com/AgentSEO-dev/agentseo-clients",
-"title": "AgentSEO",
-"version": "0.1.6",
-"website": "https://www.agentseo.dev"
-},
-"truncated": false,
-"url": "https://github.com/AgentSEO-dev/agentseo-clients/blob/HEAD/README.md"
-},
 "mcp-exchange-shadcn-blocks": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9140,6 +9103,28 @@
 },
 "truncated": false,
 "url": "https://github.com/AxelVerneBooks/marketing-scope-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-beknownllc-the-marketing-vault": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Write offers, sales pages, emails, ads and traffic plans from your saved business profile.",
+"name": "io.github.beknownllc/the-marketing-vault",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://agsuleyeonapmldynizb.supabase.co/functions/v1/mcp"
+}
+],
+"repository": "https://github.com/beknownllc/the-marketing-vault-mcp",
+"title": "The Marketing Vault",
+"version": "1.0.0",
+"website": "https://marketerprompts.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.beknownllc/the-marketing-vault&version=latest"
 },
 "mcp-io-github-bourhaouta-tailwindshades": {
 "file": "data/originals/mcp-io-github-bourhaouta-tailwindshades.md",
@@ -13191,7 +13176,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.36.2",
+"version": "1.36.3",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -20711,6 +20696,14 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-yappologistic-cui": {
+"file": "data/originals/uihub-gh-yappologistic-cui.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/yappologistic/CUI/blob/master/README.md"
 },
 "uihub-gh-zacharyzhang-ny-ely-gpui-components": {
 "file": "data/originals/uihub-gh-zacharyzhang-ny-ely-gpui-components.md",
@@ -29231,6 +29224,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-w2vz8gw-sheep-grazing-scene-editor": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-w568th2-apple-watch-app-screens": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

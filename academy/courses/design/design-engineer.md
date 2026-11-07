@@ -2,7 +2,7 @@
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-07
-updated_at: 2026-11-07T01:59:16Z
+updated_at: 2026-11-07T16:27:36Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -46,7 +46,7 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1646 items
+- minimal: 1648 items
 - motion: 649 items
 - 3d: 635 items
 - editorial: 596 items
@@ -104,7 +104,7 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/skills --skill web-artifacts-builder
   needs_credentials: false, writes_external: false
-- [skill] design-taste-frontend. tasteskill 2.5.0, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy, one system, one section per screen, equal edges, real photographs and real product UI (
+- [skill] design-taste-frontend. tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, real photographs
   source: https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/leonxlnx-taste-skill-skills-taste-skill.md
   license: MIT
