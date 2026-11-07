@@ -2,14 +2,14 @@
 
 **MSP Skills** connects your PSA, RMM, backup, and more to the AI you already use - **Claude**, **ChatGPT**, **Codex**, **Cursor**, **Windsurf**, or any agent that runs local MCP servers. Ask a plain-English question about your stack and get a real answer back.
 <!-- hero-live:start -->
-105 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
+107 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
 <!-- hero-live:end -->
 Free, open source, runs on your laptop. A local SQLite mirror lets your agent answer cross-client questions the live API can't return in one shot - no rate-limit hits, no per-tech SaaS fee, and your data stays local unless you route it somewhere yourself. Built for MSP owners. No developer experience required.
 
 > **New to the term?** What this repo calls an **MCP server** is what ChatGPT calls an *app* or *connector*, Claude on the web calls a *connector*, Microsoft Copilot calls a *connector*, and Claude Code calls a *Skill*. Same standard underneath: the [Model Context Protocol](https://modelcontextprotocol.io). Full plain-language answer: **[What is an MCP server?](https://msp-skills.compoundingteams.com/what-is-an-mcp-server/)**.
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/skills-105-green.svg)](./catalog.json)
+[![Skills](https://img.shields.io/badge/skills-107-green.svg)](./catalog.json)
 [![MCP](https://img.shields.io/badge/MCP-compatible-1f6feb.svg)](https://modelcontextprotocol.io)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-spec-2E7D32.svg)](https://agentskills.io)
 ![Status](https://img.shields.io/badge/status-beta-yellow.svg)
@@ -88,10 +88,12 @@ returns your live data.
 | [datagate](./skills/datagate) | telecom billing platform: customers, agreements, invoices, and other resource lookups from a local mirror | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/datagate/README.md) |
 | [datto-bcdr](./skills/datto-bcdr) | Datto BCDR: appliances, agents, screenshot-verification audits, stale-backup roll-ups, recoverability KPI, and cross-client alert triage from a local mirror | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/datto-bcdr/README.md) |
 | [datto-rmm](./skills/datto-rmm) | Datto RMM: devices, alerts, patch and AV gaps, warranty, agent drift, and fleet QBR scorecards from a local mirror | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/datto-rmm/README.md) |
+| [datto-saas](./skills/datto-saas) | Datto SaaS Protection (Backupify): seat audits, protection gaps, backup health ranking, exit inventories and plan-first bulk seat changes across every client from a local mirror | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/datto-saas/README.md) |
 | [dnsfilter](./skills/dnsfilter) | DNSFilter DNS security and content filtering (MSP and client organizations) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/dnsfilter/README.md) |
 | ⭐ [domain-cert-tracker](./skills/domain-cert-tracker) | Domain and TLS estate per client: registrations, expiries, registrar locks, DNS drift and certificates, from public RDAP, CT logs, DNS and TLS | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/domain-cert-tracker/README.md) |
 | [domotz](./skills/domotz) | Domotz network monitoring and device discovery platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/domotz/README.md) |
 | [dropsuite](./skills/dropsuite) | Dropsuite (NinjaOne SaaS Backup): fleet backup health, coverage gaps, seat and billing reconciliation, restore-test evidence across every client organization | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/dropsuite/README.md) |
+| [eset-protect](./skills/eset-protect) | ESET PROTECT cloud console via the ESET Connect API | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/eset-protect/README.md) |
 | [exchange-online](./skills/exchange-online) | Exchange Online, the Microsoft 365 mail service: mailboxes, permissions, forwarding, mail flow and quarantine across customer tenants | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/exchange-online/README.md) |
 | [fortinet](./skills/fortinet) | FortiGate firewalls (FortiOS REST API), FortiManager and FortiGate Cloud | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/fortinet/README.md) |
 | [google-workspace](./skills/google-workspace) | Google Workspace Admin (Directory, Reports, Reseller, Licensing, and Data Transfer APIs) across every client domain | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/google-workspace/README.md) |
@@ -111,7 +113,7 @@ returns your live data.
 | [knowbe4](./skills/knowbe4) | KnowBe4 KMSAT security awareness training and phishing-simulation reporting | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/knowbe4/README.md) |
 | [levelio](./skills/levelio) | Level RMM and endpoint monitoring platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/levelio/README.md) |
 | [liongard](./skills/liongard) | Liongard automated documentation and configuration change-detection platform for MSPs | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/liongard/README.md) |
-| [maxio](./skills/maxio) | Maxio Advanced Billing - subscription revenue, MRR, and retention intelligence | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/maxio/README.md) |
+| [maxio](./skills/maxio) | Maxio Advanced Billing - subscription revenue, MRR, and retention intelligence | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/maxio/README.md) |
 | [microsoft-graph](./skills/microsoft-graph) | Microsoft 365 / Entra tenant administration via Microsoft Graph | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/microsoft-graph/README.md) |
 | [mimecast](./skills/mimecast) | Mimecast email security (API 2.0) | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/mimecast/README.md) |
 | [mspbots](./skills/mspbots) | MSPbots BI: datasets, KPI snapshots, ticket analytics, exports | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/mspbots/README.md) |
@@ -137,7 +139,7 @@ returns your live data.
 | [saas-alerts](./skills/saas-alerts) | SaaS Alerts SaaS security monitoring: alerts, Respond rule triggers and automated response, webhooks, and customer coverage across every Microsoft 365 and Google Workspace tenant | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/saas-alerts/README.md) |
 | [salesbuildr](./skills/salesbuildr) | Salesbuildr MSP quoting and CPQ: quotes, opportunities, products, companies, pricing books | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/salesbuildr/README.md) |
 | [sentinelone](./skills/sentinelone) | SentinelOne Singularity: threat triage, mitigation, agent fleet health, and protection-coverage gaps across customer sites | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/sentinelone/README.md) |
-| ⭐ [servosity](./skills/servosity) | Servosity backup and DR: fleet attention, stale backups, QBR reports, restores, billing | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/servosity/README.md) |
+| ⭐ [servosity](./skills/servosity) | Servosity backup and DR: fleet attention, stale backups, QBR reports, restores, billing | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/servosity/README.md) |
 | [sherweb](./skills/sherweb) | Sherweb cloud marketplace billing, subscriptions, customers, and margin across Microsoft CSP and cloud services | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/sherweb/README.md) |
 | [skykick](./skills/skykick) | SkyKick Cloud Backup - Microsoft 365 Exchange and SharePoint backup assurance across every customer tenant | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/skykick/README.md) |
 | [sonicwall](./skills/sonicwall) | SonicWall firewalls via Network Security Manager (NSM SaaS) and MySonicWall | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/sonicwall/README.md) |
@@ -209,7 +211,7 @@ Each installer drops both the CLI and the MCP server, so you can use the Skill (
 ## What your agent can do
 
 <!-- agent-can-do:start -->
-Outcomes, not hype - drawn from each of the 105 connectors' skill pages:
+Outcomes, not hype - drawn from each of the 107 connectors' skill pages:
 
 | Outcome | Skill | Command |
 | --- | --- | --- |
@@ -247,10 +249,12 @@ Outcomes, not hype - drawn from each of the 105 connectors' skill pages:
 | Pull this month's invoices | datagate | `datagate-cli invoices --period-start 2026-08-01T00:00:00Z --period-end 2026-08-31T23:59:59Z --json` |
 | Which protected machines failed their last backup screenshot verification? | datto-bcdr | `datto-bcdr-cli screenshots --failed --stale-days 7 --agent` |
 | Which devices haven't checked in for 30 days, across every client? | datto-rmm | `datto-rmm-cli fleet stale --days 30 --agent` |
+| Which seats across every client are unprotected, newest first? | datto-saas | `datto-saas-cli seats gaps --since 30d --agent` |
 | Why is this domain blocked for this client, and which policy and rule did it? | dnsfilter | `dnsfilter-cli why-blocked "example.com" --org "Acme Dental"` |
 | What expires within 30 days, lost its lock or changed, per client? | domain-cert-tracker | `domain-cert-tracker-cli report --days 30 --agent` |
 | Is anything on fire across all my sites? | domotz | `domotz-cli fleet health --agent` |
 | What is failing, stuck or stale across every client right now? | dropsuite | `dropsuite-cli health --stale-after 48h --failing --agent` |
+| Which customers have devices that need attention, are muted or stopped checking in? | eset-protect | `eset-protect-cli fleet health` |
 | Can mail auto-forward out of this tenant, and does the outbound spam policy or a remote domain block it? | exchange-online | `exchange-online-cli forwarding-audit 0550b473-9fd2-4dbb-a058-a1640b4bf458 --sweep --agent` |
 | Give me one posture verdict across every client FortiGate, showing only findings that are new since the last run. | fortinet | `fortinet-cli fleet audit --new` |
 | Which accounts across all my clients lack 2-Step Verification, with unenrolled admins first? | google-workspace | `google-workspace-cli mfa-gaps --all-tenants --agent` |
@@ -394,14 +398,4 @@ Almost never. Each connector syncs your data into a local SQLite mirror once, th
 
 ### How is this different from my vendor's built-in AI?
 
-Vendor-native AI is great for ticket-by-ticket work - rewriting replies, summarizing one ticket, classifying sentiment. MSP Skills is the **MSP-owner-on-the-couch-with-Claude** layer: cross-client analytics, ad-hoc questions across thousands of tickets, multi-system queries that join your PSA with your backup tool. The two complement each other; you don't have to choose.
-
-### Can I run this on Windows?
-
-Yes. The PowerShell installer in "Install in 60 seconds" above is the same install path as macOS / Linux, just packaged for PowerShell. The CLI and MCP binaries are native Windows builds. Cline users on Windows may need a small `npx` workaround documented in [docs/which-agent.md](./docs/which-agent.md).
-
-### What does it cost?
-
-The Skills, the CLI binaries, and the MCP servers are **free**. Apache-2.0 licensed - free to use commercially, free to fork. Servosity does not charge for API access required to run the Servosity skill. Other PSA, RMM, and backup vendors set their own API-access terms. You pay only for whichever AI agent you use (Claude, ChatGPT, Codex, etc.), and those are billed by your AI provider, not by us.
-
-### Can I try it on on
+Vendor-native AI is great for ticket-by-ticket work - rewriting replies, summarizing one ticket, classifying sentiment. MSP Skills is the **MSP-owner-on-the-couch-with-Claude** layer: cross-client analytics, ad-hoc questions across thousands of tickets, multi-system queries that join your PSA with your backup tool. The 

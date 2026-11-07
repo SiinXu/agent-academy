@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-06
-updated_at: 2026-11-06T17:29:58Z
+version: 2026-11-07
+updated_at: 2026-11-07T01:59:16Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -160,6 +160,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y posthog-mcp-server
   needs_credentials: false, writes_external: true
+- [mcp] Marketing Grader. Read brand DNA, content drafts, calendars and saved marketing performance.
+  source: https://grader.recmoment.net/mcp-info
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://grader.recmoment.net/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Posthog. PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)
   source: https://github.com/pipeworx-io/mcp-posthog
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-posthog.md

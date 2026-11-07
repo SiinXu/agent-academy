@@ -1,8 +1,8 @@
 ---
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-06
-updated_at: 2026-11-06T17:29:58Z
+version: 2026-11-07
+updated_at: 2026-11-07T01:59:16Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,7 +46,7 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1644 items
+- minimal: 1646 items
 - motion: 649 items
 - 3d: 635 items
 - editorial: 596 items

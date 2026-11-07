@@ -12089,7 +12089,7 @@
 "id": "@pipeworx/mcp-webflow",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -12101,7 +12101,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-webflow",
 "title": "Webflow",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/webflow"
 },
 "truncated": false,
@@ -12128,7 +12128,7 @@
 "id": "@pipeworx/mcp-zendesk",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.2.1"
 }
 ],
 "remotes": [
@@ -12140,7 +12140,7 @@
 ],
 "repository": "https://github.com/pipeworx-io/mcp-zendesk",
 "title": "Zendesk",
-"version": "0.2.0",
+"version": "0.2.1",
 "website": "https://pipeworx.io/packs/zendesk"
 },
 "truncated": false,
@@ -13191,7 +13191,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.35.4",
+"version": "1.36.2",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -13244,6 +13244,28 @@
 },
 "truncated": false,
 "url": "https://github.com/WallMarketing/wall-marketing-mcp/blob/HEAD/README.md"
+},
+"mcp-net-recmoment-grader-marketing-grader": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Read brand DNA, content drafts, calendars and saved marketing performance.",
+"name": "net.recmoment.grader/marketing-grader",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://grader.recmoment.net/mcp"
+}
+],
+"repository": null,
+"title": "Marketing Grader",
+"version": "0.1.0",
+"website": "https://grader.recmoment.net/mcp-info"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.recmoment.grader/marketing-grader&version=latest"
 },
 "mcp-nl-marketingburos-marketingburos": {
 "kind": "excerpt",
@@ -22970,6 +22992,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-5gqq22v-spider-verse-text-reveal": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-5hcgccv-poolside-app-icons": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26093,6 +26122,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ivwtfzo-tiny-computer-co-website": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-iw18rhk-doze-feature-section": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
