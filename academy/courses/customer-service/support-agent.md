@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-08
-updated_at: 2026-11-08T01:28:34Z
+updated_at: 2026-11-08T16:41:07Z
 source: https://academy.incidental.site/courses/customer-service/support-agent/
 ---
 

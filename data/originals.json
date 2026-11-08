@@ -5740,6 +5740,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.openhelm/seo-growth&version=latest"
 },
+"mcp-ai-rankspot-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "AI SEO, GEO and AI visibility: keywords, competitors, backlinks, articles and Search Console data.",
+"name": "ai.rankspot/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.rankspot.ai"
+}
+],
+"repository": null,
+"title": "RankSpot SEO",
+"version": "1.0.1",
+"website": "https://www.rankspot.ai"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.rankspot/seo&version=latest"
+},
 "mcp-ai-saifs-marketing-intelligence": {
 "file": "data/originals/mcp-ai-saifs-marketing-intelligence.md",
 "kind": "full",
@@ -6428,6 +6450,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.ahrefs/mcp&version=latest"
 },
+"mcp-com-aiseocrew-www-ai-seo-crew": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "AI agents that research, write and publish SEO articles on your website, from your AI assistant.",
+"name": "com.aiseocrew.www/ai-seo-crew",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://www.aiseocrew.com/mcp"
+}
+],
+"repository": null,
+"title": "AI SEO Crew",
+"version": "1.0.0",
+"website": "https://www.aiseocrew.com/claude"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.aiseocrew.www/ai-seo-crew&version=latest"
+},
 "mcp-com-aiseotracker-mcp": {
 "file": "data/originals/mcp-com-aiseotracker-mcp.md",
 "kind": "full",
@@ -6885,13 +6929,13 @@
 "id": "@getmcpads/tiktok-ads-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "2.1.1"
+"version": "2.1.2"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server",
 "title": "TikTok Ads",
-"version": "2.1.1",
+"version": "2.1.2",
 "website": "https://www.getmcpads.com/tools/tiktok-ads"
 },
 "truncated": false,
@@ -7365,13 +7409,13 @@
 "id": "@keyline-icons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "2.5.0"
+"version": "2.6.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/keyline-icons/keyline-icons",
 "title": "Keyline Icons",
-"version": "2.5.0",
+"version": "2.6.0",
 "website": "https://keylineicons.com"
 },
 "truncated": false,
@@ -8506,30 +8550,6 @@
 },
 "truncated": false,
 "url": "https://github.com/webflow/mcp-server/blob/HEAD/README.md"
-},
-"mcp-com-zadojo-seo-geo-mcp": {
-"file": "data/originals/mcp-com-zadojo-seo-geo-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "SEO and AI visibility for agents: keywords, SERPs, backlinks, audits, rank and AI answer tracking.",
-"name": "com.zadojo/seo-geo-mcp",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://app.zadojo.com/mcp"
-}
-],
-"repository": "https://github.com/zadojo/seo-geo-mcp",
-"title": "zaDojo SEO and AI visibility",
-"version": "1.0.24",
-"website": "https://zadojo.com"
-},
-"truncated": false,
-"url": "https://github.com/zaDojo/seo-geo-mcp/blob/HEAD/README.md"
 },
 "mcp-dev-1social-tiktok": {
 "file": "data/originals/mcp-dev-1social-tiktok.md",
@@ -11187,6 +11207,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mrfentmen/adobe-premiere-mcp&version=latest"
 },
+"mcp-io-github-mrfentmen-fontsource-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Browse open source fonts from Fontsource. No key required.",
+"name": "io.github.mrfentmen/fontsource-mcp",
+"packages": [
+{
+"env": [],
+"id": "fontsource-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/mrfentmen/awesome-servers",
+"title": null,
+"version": "1.0.2",
+"website": null
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mrfentmen/fontsource-mcp&version=latest"
+},
 "mcp-io-github-mrfentmen-mixpanel-mcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -12509,16 +12553,16 @@
 "secret": null
 }
 ],
-"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.6/hubspot-mcp.mcpb",
+"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.7/hubspot-mcp.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.2.6"
+"version": "0.2.7"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/servosity/msp-skills",
 "title": "HubSpot MCP",
-"version": "0.2.6",
+"version": "0.2.7",
 "website": null
 },
 "truncated": true,
@@ -25383,6 +25427,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-fpb49nb-jelly-switch": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-fquutvp-hours-plans-page-hero": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

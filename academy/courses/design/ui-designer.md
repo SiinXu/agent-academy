@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-08
-updated_at: 2026-11-08T01:28:34Z
+updated_at: 2026-11-08T16:41:07Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -96,7 +96,7 @@ Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/
 
 - minimal: 1649 items
 - motion: 649 items
-- 3d: 635 items
+- 3d: 636 items
 - editorial: 596 items
 - playful: 564 items
 - gradient: 286 items

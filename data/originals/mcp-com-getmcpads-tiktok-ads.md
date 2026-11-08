@@ -29,17 +29,16 @@ Run locally with your own platform credentials and a client that supports stdio 
 ## What's new
 
 <!-- release-history:start -->
-**[v2.1.1: Zod 4 security update](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/tag/v2.1.1) · October 26, 2026**
+**[v2.1.2: Maintainer metadata update](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/tag/v2.1.2) · November 8, 2026**
 
-- Update `zod` to 4.6.7. Every Zod release before 4.6.6 is covered by the high-severity advisory GHSA-mrhx-c7xc-m3w5: validating an oversized constrained collection can exhaust memory, and no Zod 3 release carries the fix. `npm audit --omit=dev` reports no vulnerability again.
-- Keep the Zod 3 validation behaviour. A parameter default is still validated and completed before use, so an omitted object must still supply its required fields.
-- Keep each parameter's own description when the parameter is optional or has a default. Zod 4 stores a description on the wrapped schema only, so the shared fallback description could otherwise replace it.
-- Tool names, parameters and descriptions published over MCP are unchanged. `server-card.json` is regenerated with Zod 4's JSON Schema output, which spells some constraints differently.
+- List the getmcpads team as maintainer in `package.json`, the README and `SOURCE_SYNC.md`.
+- No change to tools, parameters, descriptions or runtime behaviour.
 
 **Earlier releases**
 
 | Version | Date | Highlights |
 | --- | --- | --- |
+| 2.1.1 | October 26, 2026 | Zod 4 security update |
 | 2.1.0 | October 23, 2026 | Advertiser scoping and account rename |
 | 2.0.1 | September 23, 2026 | Public repository restored |
 | 2.0.0 | September 20, 2026 | Gateway sync and security fixes |
@@ -72,7 +71,7 @@ Read the current tool schemas before reusing saved arguments. Writes remain opti
 This is a GitHub source release. npm and MCP Registry versions are published separately. The commands below select this exact version; unpinned `npx` examples later in this document select the version currently available on npm.
 
 ```bash
-git clone --branch v2.1.1 --depth 1 https://github.com/get-mcp-ads/tiktok-ads-mcp-server.git
+git clone --branch v2.1.2 --depth 1 https://github.com/get-mcp-ads/tiktok-ads-mcp-server.git
 cd tiktok-ads-mcp-server
 npm ci
 npm run build
@@ -409,4 +408,4 @@ Run `npm run bundle -- /path/to/output` to build a `.mcpb` desktop bundle from t
 
 [Meta Ads](https://github.com/get-mcp-ads/meta-ads-mcp-server) · [Google Ads](https://github.com/get-mcp-ads/google-ads-mcp-server) · [Google Analytics 4](https://github.com/get-mcp-ads/google-analytics-mcp-server) · [Google Search Console](https://github.com/get-mcp-ads/google-search-console-mcp-server) · [Pinterest Ads](https://github.com/get-mcp-ads/pinterest-ads-mcp-server) · [X Ads](https://github.com/get-mcp-ads/x-ads-mcp-server)
 
-Maintained by **Emmanuel** at [getmcpads](https://www.getmcpads.com). Questions: [hello@getmcpads.com](mailto:hello@getmcpads.com).
+Maintained by **the getmcpads team** at [getmcpads](https://www.getmcpads.com). Questions: [hello@getmcpads.com](mailto:hello@getmcpads.com).

@@ -169,7 +169,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Mindbody](servers/mindbody/) | calendar | 24 | API token | [servers/mindbody/](servers/mindbody/) |
 | [Buildium](servers/buildium/) | productivity | 27 | API token | [servers/buildium/](servers/buildium/) |
 | [Housecall Pro](servers/housecall-pro/) | productivity | 29 | API token | [servers/housecall-pro/](servers/housecall-pro/) |
-| [Hostaway](servers/hostaway/) | calendar | 24 | API token | [servers/hostaway/](servers/hostaway/) |
+| [Hostaway](servers/hostaway/) | calendar | 25 | API token | [servers/hostaway/](servers/hostaway/) |
 | [Invoice Ninja](servers/invoice-ninja/) | billing | 28 | API token | [servers/invoice-ninja/](servers/invoice-ninja/) |
 | [Atera](servers/atera/) | support | 24 | API token | [servers/atera/](servers/atera/) |
 | [Beds24](servers/beds24/) | productivity | 22 | API token | [servers/beds24/](servers/beds24/) |

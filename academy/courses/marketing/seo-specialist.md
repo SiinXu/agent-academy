@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-08
-updated_at: 2026-11-08T01:28:34Z
+updated_at: 2026-11-08T16:41:07Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -314,6 +314,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://api.ahrefs.com/mcp/mcp
   needs_credentials: true, writes_external: false
+- [mcp] AI SEO Crew. AI agents that research, write and publish SEO articles on your website, from your AI assistant.
+  source: https://www.aiseocrew.com/claude
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://www.aiseocrew.com/mcp
+  needs_credentials: true, writes_external: true
 - [mcp] AI SEO Tracker. Track brand visibility, citations, prompts & missing sources across ChatGPT, Perplexity, Gemini.
   source: https://github.com/Illyism/aiseotracker-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-aiseotracker-mcp.md
@@ -324,12 +329,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://openhelm.ai
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.openhelm.ai/seo/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] ai.smithery/lukaskostka99-marketing-miner-mcp. Discover high-impact keyword ideas across Central and Eastern European and English markets. Analyz…
-  source: https://github.com/lukaskostka99/marketing-miner-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-smithery-lukaskostka99-marketing-miner-mcp.md
-  license: MIT
-  install: remote (streamable-http): https://server.smithery.ai/@lukaskostka99/marketing-miner-mcp/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

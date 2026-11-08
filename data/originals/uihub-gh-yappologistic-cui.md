@@ -9,8 +9,8 @@
 
 **Native UI components for C.**
 
-About 160 components with spring motion and full keyboard support.<br>
-Windows, macOS and Linux from one C99 codebase. No dependencies, about 250 KB.
+About 170 components with spring motion and full keyboard support.<br>
+Windows, macOS and Linux from one C99 codebase. No dependencies, about 240 KB.
 
 [![CI](https://img.shields.io/github/actions/workflow/status/yappologistic/CUI/ci.yml?branch=master&label=CI&style=flat-square&labelColor=24292f)](https://github.com/yappologistic/CUI/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-57606a.svg?style=flat-square&labelColor=24292f&color=57606a)](LICENSE)
@@ -92,14 +92,14 @@ int main(void) {
 
 **A complete library**
 
-Buttons, fields, pickers, dialogs and tables, plus a command palette, a virtualized data grid, kanban boards, gantt charts, a dozen kinds of chart, AI chat components, and tool panels such as docking, a node editor, a code editor and a flame graph. They are designed together and look finished without styling.
+Buttons, fields, pickers, dialogs and tables, plus a command palette, a virtualized data grid, kanban boards, gantt charts, a dozen kinds of chart, AI chat components, and tool panels such as docking, a node editor, a code editor, a terminal and a flame graph. They are designed together and look finished without styling.
 
 </td>
 <td width="50%" valign="top">
 
 **Small and fast**
 
-A full screen builds, lays out and paints in 0.1 to 0.25 ms. Idle apps use no CPU. A complete app is about 250 KB.
+A full screen builds, lays out and paints in 0.1 to 0.25 ms. Idle apps use no CPU. A complete app is about 240 KB.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ A full screen builds, lays out and paints in 0.1 to 0.25 ms. Idle apps use no CP
 
 **Native everywhere**
 
-Win32, Cocoa and X11, or SDL2 and GLFW, drawn with OpenGL or a software renderer. The core only emits triangles, so your own renderer works too.
+Win32, Cocoa and X11, or SDL2 and GLFW, drawn with OpenGL or a software renderer. The core only emits triangles, so your own renderer works too. Layouts mirror for Persian, Arabic and Hebrew with one setting.
 
 </td>
 <td valign="top">
@@ -152,16 +152,17 @@ On Linux you need the X11 development headers (`libx11-dev`). Windows and macOS 
 | **Actions** | button, icon button, button group, split button, toggle group, copy button, hold to confirm, segmented control, menus, command palette |
 | **App chrome** | menu bar, toolbar, status bar, document tabs, docking layout with saved layouts |
 | **Inputs** | text field, password, search, text area, number, money and scrub fields, tag input, one time code, select, combobox, multi-select, shortcut recorder |
-| **Pickers** | date and date range, time, wheel and dial pickers, calendar, color picker, ruler and histogram sliders |
+| **Pickers** | date and date range, time, wheel and dial pickers, calendar, color picker, emoji picker, ruler and histogram sliders, knob and fader |
 | **Selection** | checkbox, switch, radio group and cards, sliders, chips, rating |
 | **Navigation** | tabs, sidebar, breadcrumb, pagination, stepper, table of contents, dock, tab bar |
-| **Overlays** | dialog, sheet, popover, hover card, tooltip, toast stack, confirm popover |
+| **Overlays** | dialog, sheet, popover, hover card, tooltip, toast stack, confirm popover, guided tour |
 | **Feedback** | alert, banner, progress bar and ring, meter, spinner, skeleton, badge, avatar, empty state, timeline |
-| **Data** | card, metric, table, virtualized data grid, tree table, path bar, list, tree, accordion, filter bar |
+| **Data** | card, metric, table, virtualized data grid, tree table, path bar, list, tree, accordion, filter bar, file browser and open/save dialog |
 | **Code** | code block, code editor, diff viewer, markdown view, JSON viewer |
-| **Tool panels** | property inspector, log console, node editor, flame graph, hex viewer, curve and gradient editors, timeline editor |
-| **Charts** | line, area, bar, donut, sparkline, gauge, heatmap, treemap, radar, funnel, sankey, waffle, scatter and more |
-| **Planning** | kanban board, week calendar, gantt chart with dependencies |
+| **Tool panels** | property inspector, log console, terminal, node editor, flame graph, hex viewer, curve and gradient editors, timeline editor, level meter |
+| **Charts** | line, area, bar, donut, sparkline, gauge and radial gauge, candlestick, heatmap, treemap, radar, funnel, sankey, waffle, scatter and more |
+| **Media** | image viewer with zoom and pan, image cropper, image compare, carousel |
+| **Planning** | kanban board, week and month calendars, gantt chart with dependencies |
 | **AI** | reasoning, tool calls, agent plan, sources and citations, context meter, prompt suggestions, model picker, chat composer |
 | **Custom** | a canvas with a full 2D drawing API, per component state and spring animation helpers |
 
@@ -311,14 +312,17 @@ All colors are semantic tokens (`CUI_COLOR_SURFACE`, `CUI_COLOR_TEXT_SECONDARY`,
 
 | Measure | Result |
 |---|---|
-| `hello` on Linux, stripped, whole executable | about 250 KB |
-| `assistant` (the AI app above), whole executable | about 330 KB |
-| Whole library: every component, both renderers, X11 backend, fonts and icons | about 590 KB |
-| Build, layout and paint a frame (gallery pages, 1240 × 820 points at 2×) | 0.12 to 0.25 ms |
-| Software rasterization of the same frame (2480 × 1640 pixels, 4 threads) | 12 to 46 ms |
+| `hello` on Linux, stripped, whole executable | about 240 KB |
+| `assistant` (the AI app above), whole executable | about 350 KB |
+| Whole library: about 170 components, both renderers, X11 backend, fonts and icons | about 930 KB |
+| Build, layout and paint a frame (gallery pages, 1240 × 820 points at 2×) | 0.09 to 0.75 ms, most under 0.25 |
+| Software rasterization of the same frame, all of it (2480 × 1640 pixels, 4 threads) | 3.4 to 19 ms |
+| Software rasterization after the first frame | only what changed: 4 to 15% of the pixels in a typical frame |
+| A real app in use (Notes, Mail, an IDE; software renderer, 1280 × 800) | 2 to 3% of a core, 11 to 13 MB resident |
+| Library memory over an hour of use | 2 to 9 MB, flat, nothing left after `cui_destroy` |
 | Idle CPU | 0%, event driven |
 
-The library is compiled for dead code stripping, so apps only carry what they use, and every heavy part (fonts, image decoding, the window layer) can be turned off ([Integration](docs/integration.md#binary-size)). Timings are wall clock on a 4 core cloud VM; `cui_bench` in [`tests/`](tests) reproduces them.
+The library is compiled for dead code stripping, so apps only carry what they use, and every heavy part (fonts, image decoding, the window layer) can be turned off ([Integration](docs/integration.md#binary-size)). Timings are wall clock on a 4 core cloud VM; `cui_bench` in [`tests/`](tests) reproduces them, and [Performance](docs/performance.md) has the hour-long soak tests behind the memory and CPU rows.
 
 ## Platforms
 
@@ -334,10 +338,10 @@ Set `CUI_RENDERER=software` to force the software renderer and `CUI_SCALE=2` to 
 
 ## Status and limitations
 
-CUI 1.1 is complete enough to build real desktop apps. Every push runs unit, interaction and render tests, a randomized input fuzzer under AddressSanitizer and UndefinedBehaviorSanitizer, and real windows on Windows, macOS and Linux. What it does not do yet:
+CUI 1.2 is complete enough to build real desktop apps. Every push runs unit, interaction and render tests, a randomized input fuzzer under AddressSanitizer and UndefinedBehaviorSanitizer, and real windows on Windows, macOS and Linux. What it does not do yet:
 
 - **Screen readers.** There is no accessibility tree yet. Keyboard navigation and focus are complete.
-- **Complex scripts.** Text is UTF-8 with kerning and font fallback. The optional `CUI_TEXT_SHAPING` CMake option adds Arabic-script shaping, Unicode bidi and shaped paragraph wrapping for static text (see [integration](docs/integration.md#optional-arabic-script-text-shaping)). Explicit embeddings, overrides and isolates are unsupported. It is off by default. Editing and other complex scripts remain outside this experimental path. CJK works once you add a fallback font.
+- **Complex scripts.** Text is UTF-8 with kerning and font fallback. The optional `CUI_TEXT_SHAPING` CMake option adds Arabic-script shaping, Unicode bidi and shaped paragraph wrapping for static text (see [integration](docs/integration.md#optional-arabic-script-text-shaping)). Screens mirror for right-to-left languages with `.direction = CUI_DIRECTION_RTL` ([layout](docs/layout.md)). Explicit embeddings, overrides and isolates are unsupported. It is off by default. Editing and other complex scripts remain outside this experimental path. CJK works once you add a fallback font.
 - **Inline IME composition.** Committed text from input methods works; the text being composed shows in the system's IME window.
 - **Native Wayland.** Use the SDL2 or GLFW backend, or XWayland.
 
@@ -353,6 +357,7 @@ CUI 1.1 is complete enough to build real desktop apps. Every push runs unit, int
 | [Custom components](docs/custom-components.md) | Canvas, drawing API, state and animation |
 | [Integration](docs/integration.md) | Your own window, input and renderer |
 | [Rendering](docs/rendering.md) | The vertex format and the reference shader |
+| [Performance](docs/performance.md) | How memory and speed are tested over hours of use, and the results |
 | [Design principles](docs/design.md) | The rules every component follows |
 
 **Live docs.** The same guide, with every component running in your browser, is at **https://yappologistic.github.io/CUI/**: the library compiled to WebAssembly and drawn with a WebGL2 port of its renderer. It is rebuilt from `master` on every push. To run it locally, use `web/tools/serve.sh` (needs clang with the `wasm32` target) and open http://localhost:8765. See [`web/`](web).
