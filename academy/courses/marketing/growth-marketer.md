@@ -1,8 +1,8 @@
 ---
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-07
-updated_at: 2026-11-07T16:27:36Z
+version: 2026-11-08
+updated_at: 2026-11-08T01:28:34Z
 source: https://academy.incidental.site/courses/marketing/growth-marketer/
 ---
 
@@ -176,7 +176,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   install: remote (streamable-http): https://probativegrowth.com/mcp
   needs_credentials: true, writes_external: false
 - [mcp] io.github.pooriaarab/agentic-campaign. Plan a social campaign calendar across brands and platforms.
-  source: https://github.com/pooriaarab/agentic-campaign
+  source: https://github.com/itsryanarmani/agentic-campaign
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pooriaarab-agentic-campaign.md
   license: MIT
   install: npx -y agentic-campaign

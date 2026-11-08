@@ -157,7 +157,7 @@ No separate public documentation site is configured.
 ## Status
 
 Version 0.1.0 is an early release; APIs can change before 1.0.
-Report problems through [GitHub issues](https://github.com/pooriaarab/agentic-campaign/issues).
+Report problems through [GitHub issues](https://github.com/itsryanarmani/agentic-campaign/issues).
 Public case studies are not published in this repository.
 
 ## FAQ

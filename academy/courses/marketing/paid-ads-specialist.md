@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-07
-updated_at: 2026-11-07T16:27:36Z
+version: 2026-11-08
+updated_at: 2026-11-08T01:28:34Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -209,6 +209,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://tiktok.api.trendsmcp.ai/mcp
   needs_credentials: true, writes_external: false
+- [mcp] Campaign Pack. Turn a product photo and a brief into a full ad campaign: scripts, stills, client-ready PDF.
+  source: https://github.com/campaignpack/campaignpack-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-campaignpack-campaignpack.md
+  license: MIT
+  install: remote (streamable-http): https://tools.campaignpack.ai/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] com.jojapi/tiktok-download-video. TikTok Download Video: TikTok API 🔥 300/month is free The most powerful Tiktok Api available The.
   source: https://jojapi.com/hub/api/tiktok-download-video
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -247,12 +253,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://tiktok-ads.mcp.myagents.click/mcp
   needs_credentials: true, writes_external: false
-- [mcp] TikTok Ads. TikTok Ads MCP server: 35 read tools, 30 opt-in preview-first writes.
-  source: https://github.com/get-mcp-ads/tiktok-ads-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-getmcpads-tiktok-ads.md
-  license: Apache-2.0
-  install: npx -y @getmcpads/tiktok-ads-mcp-server
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

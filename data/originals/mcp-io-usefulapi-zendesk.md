@@ -37,7 +37,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Codat](servers/codat/) | financial-data | 32 | API token | [servers/codat/](servers/codat/) |
 | [Codecov](servers/codecov/) | devops | 28 | API token | [servers/codecov/](servers/codecov/) |
 | [Codemagic](servers/codemagic/) | devops | 13 | API token | [servers/codemagic/](servers/codemagic/) |
-| [Copper](servers/copper/) | crm | 26 | API token | [servers/copper/](servers/copper/) |
+| [Copper](servers/copper/) | crm | 31 | API token | [servers/copper/](servers/copper/) |
 | [Cronitor](servers/cronitor/) | observability | 10 | API token | [servers/cronitor/](servers/cronitor/) |
 | [Cronofy](servers/cronofy/) | calendar | 12 | API token | [servers/cronofy/](servers/cronofy/) |
 | [Crowdin](servers/crowdin/) | localization | 16 | API token | [servers/crowdin/](servers/crowdin/) |
@@ -123,7 +123,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Plausible](servers/plausible-analytics/) | analytics | 12 | API token | [servers/plausible-analytics/](servers/plausible-analytics/) |
 | [Polar](servers/polar-sh/) | billing | 30 | API token | [servers/polar-sh/](servers/polar-sh/) |
 | [Portkey](servers/portkey/) | ai-infra | 20 | API token | [servers/portkey/](servers/portkey/) |
-| [Printify](servers/printify/) | ecommerce | 21 | API token | [servers/printify/](servers/printify/) |
+| [Printify](servers/printify/) | ecommerce | 27 | API token | [servers/printify/](servers/printify/) |
 | [Quaderno](servers/quaderno/) | tax | 27 | API token | [servers/quaderno/](servers/quaderno/) |
 | [Raisely](servers/raisely/) | fundraising | 27 | API token | [servers/raisely/](servers/raisely/) |
 | [Re:amaze](servers/re-amaze/) | support | 21 | API token | [servers/re-amaze/](servers/re-amaze/) |
@@ -358,7 +358,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [CharlieHR](servers/charliehr/) | productivity | 31 | API token | [servers/charliehr/](servers/charliehr/) |
 | [FieldPulse](servers/fieldpulse/) | productivity | 47 | API token | [servers/fieldpulse/](servers/fieldpulse/) |
 | [bexio](servers/bexio/) | billing | 32 | OAuth | [servers/bexio/](servers/bexio/) |
-| [Teamleader Focus](servers/teamleader-focus/) | crm | 40 | OAuth | [servers/teamleader-focus/](servers/teamleader-focus/) |
+| [Teamleader Focus](servers/teamleader-focus/) | crm | 42 | OAuth | [servers/teamleader-focus/](servers/teamleader-focus/) |
 | [Clio](servers/clio/) | productivity | 27 | OAuth | [servers/clio/](servers/clio/) |
 | [Chatra](servers/chatra/) | chat | 14 | API token | [servers/chatra/](servers/chatra/) |
 | [Corsizio](servers/corsizio/) | calendar | 10 | API token | [servers/corsizio/](servers/corsizio/) |
@@ -519,7 +519,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Extensiv](servers/extensiv/) | inventory | 20 | OAuth | [servers/extensiv/](servers/extensiv/) |
 | [Zenfulfillment](servers/zenfulfillment/) | shipping | 13 | OAuth | [servers/zenfulfillment/](servers/zenfulfillment/) |
 | [Taleez](servers/taleez/) | hr | 29 | OAuth | [servers/taleez/](servers/taleez/) |
-| [Desk365](servers/desk365/) | support | 18 | OAuth | [servers/desk365/](servers/desk365/) |
+| [Desk365](servers/desk365/) | support | 20 | OAuth | [servers/desk365/](servers/desk365/) |
 | [RemoteLock](servers/remotelock/) | property-management | 24 | OAuth | [servers/remotelock/](servers/remotelock/) |
 | [LingoHub](servers/lingohub/) | localization | 18 | OAuth | [servers/lingohub/](servers/lingohub/) |
 | [MarketTime](servers/markettime/) | commerce | 22 | OAuth | [servers/markettime/](servers/markettime/) |

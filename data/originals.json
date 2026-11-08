@@ -5628,6 +5628,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.campaignmagic/campaign-magic&version=latest"
 },
+"mcp-ai-campaignpack-campaignpack": {
+"file": "data/originals/mcp-ai-campaignpack-campaignpack.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Turn a product photo and a brief into a full ad campaign: scripts, stills, client-ready PDF.",
+"name": "ai.campaignpack/campaignpack",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://tools.campaignpack.ai/mcp"
+}
+],
+"repository": "https://github.com/campaignpack/campaignpack-mcp",
+"title": "Campaign Pack",
+"version": "0.1.1",
+"website": "https://campaignpack.ai"
+},
+"truncated": false,
+"url": "https://github.com/campaignpack/campaignpack-mcp/blob/HEAD/README.md"
+},
 "mcp-ai-chinamarketing-intelligence": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8394,7 +8418,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Site crawl + tech stack + DNS + SSL + WHOIS — five web-intel layers in one MCP.",
+"description": "On-page crawl, tech-stack detection, DNS, SSL and WHOIS as agent tools.",
 "name": "com.thenextgennexus/seo-web-analysis-mcp-server",
 "packages": [],
 "remotes": [
@@ -8408,8 +8432,8 @@
 ],
 "repository": null,
 "title": null,
-"version": "1.0.0",
-"website": "https://apify.com/nexgendata/seo-web-analysis-mcp-server"
+"version": "1.0.1",
+"website": "https://apify.com/nexgendata/seo-web-analysis-mcp-server?fpr=2ayu9b"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.thenextgennexus/seo-web-analysis-mcp-server&version=latest"
 },
@@ -12188,7 +12212,7 @@
 "website": null
 },
 "truncated": false,
-"url": "https://github.com/pooriaarab/agentic-campaign/blob/HEAD/README.md"
+"url": "https://github.com/itsryanarmani/agentic-campaign/blob/HEAD/README.md"
 },
 "mcp-io-github-posthog-mcp": {
 "file": "data/originals/mcp-io-github-posthog-mcp.md",
@@ -13176,7 +13200,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.36.3",
+"version": "1.36.5",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -29189,6 +29213,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-vw0jxf0-siri-on-apple-vision-pro": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-vwi94zh-vael-fintech-app": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
