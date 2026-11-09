@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -47,10 +47,6 @@ Read course.md: the job, the permissions it needs, and what good output looks li
   source: https://spec.fm/specifics/8-pt-grid
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] AI × Design Weekly（Jason Cyr）. Weekly AI × design news: Figma MCP, Codex ↔ Figma, design-system skills
-  source: https://jasoncyr.substack.com/p/ai-design-weekly-issue-005
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 - [tutorial] Airbnb DLS (Karri Saarinen retrospective). Airbnb’s DLS isn’t public; its lead explains how the cross-platform component system was built
   source: https://karrisaarinen.com/dls/
   license: see source (listed via UI Hub)
@@ -87,6 +83,10 @@ Read course.md: the job, the permissions it needs, and what good output looks li
   source: https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [tutorial] Figma: adding custom rules to MCP. Ready-made rule template: get_design_context → screenshot → implement with tokens → check against the design
+  source: https://developers.figma.com/docs/figma-mcp-server/add-custom-rules/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 
 ## Step 2: Pick a direction
 
@@ -94,14 +94,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1658 items
-- motion: 649 items
+- minimal: 1655 items
+- motion: 648 items
 - 3d: 638 items
-- editorial: 596 items
-- playful: 564 items
-- gradient: 286 items
-- retro: 118 items
-- dark-tech: 111 items
+- editorial: 591 items
+- playful: 563 items
+- gradient: 287 items
+- retro: 117 items
+- dark-tech: 110 items
 - glass: 57 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -166,6 +166,11 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dYpPe1PCZv2WJDVTYDwhc
   needs_credentials: true, writes_external: false
+- [template] Pixel · Design. A design bot that makes logos, thumbnails, cover art, icons, and UI mockups in your own style with real editors (GIMP, Inkscape, Krita…
+  source: https://botsdots.site/templates/pixel-design
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/gM0DHWfNDysR-M6FdEkhr
+  needs_credentials: false, writes_external: false
 - [style-library] /zeroz official site. Fashion photography on white with an oversized slash wordmark /zeroz: Japanese whitespace and sharpness (via Awwwards)
   source: https://otsuka-air.jp/
   license: see source (listed via UI Hub)
@@ -208,10 +213,6 @@ First case to read: how this site was designed by an agent: https://academy.inci
   needs_credentials: false, writes_external: false
 - [style-library] 3 Logos. A set of three logo concepts: a rounded flower-like monogram, a red cursive wordmark, and a black handwritten script logotype.
   source: https://x.com/lancedraws/status/2075536899217760307
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 30 Japanese Typography Studies. A series of 30 experimental Japanese typography pieces exploring kanji and kana through bold stylistic treatments including dot-matrix, contour lines, calligraphy, and pixel forms.
-  source: https://x.com/hiro000509/status/2076637780097028105
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -439,16 +440,15 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://agentation.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [mcp] All SVG Icons. Search and fetch SVG icons from 250,000+ icons across 200+ open-source icon sets.
-  source: https://allsvgicons.com/mcp/
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://i.allsvgicons.com/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Andorra public sources. Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages
   source: https://github.com/joalavedra/andorra-fonts-publiques
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md
   license: CC0-1.0
   install: uvx fonts-andorra
+  needs_credentials: false, writes_external: false
+- [tool] Bolt. Build apps by chatting, with in-browser code editing
+  source: https://bolt.cello.so/ByQ3siiRkMz
+  license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check

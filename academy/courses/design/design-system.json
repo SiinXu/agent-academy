@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-11-09T01:45:20Z",
+ "updated_at": "2026-11-09T20:44:54Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -62,7 +62,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -108,7 +108,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -154,7 +154,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -200,7 +200,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -246,7 +246,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -287,7 +287,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -356,9 +356,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:34:04Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-aether/",
      "source": "botsdots"
@@ -427,9 +427,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:34:04Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-documentation-expert/",
      "source": "botsdots"
@@ -493,11 +493,79 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-25T14:23:36Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-art-direction-web-designer/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-design-systems",
+     "title": "Design Systems",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Builds design-system structure for desktop and web products: tokens, component libraries, component specs, documentation, flows and IA",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/design-systems",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "mr_robot777",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/design-systems",
+      "record": {
+       "access": [
+        "code"
+       ],
+       "add": "https://x.ai/bot/C9_sXN7trbw5bSj_mD5VL",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "coding-shipping",
+       "creator": "mr_robot777",
+       "firstSeen": "2026-11-06",
+       "integrations": [],
+       "name": "Design Systems",
+       "official": false,
+       "page": "https://botsdots.site/templates/design-systems",
+       "risk": "medium",
+       "summary": "Builds design-system structure for desktop and web products: tokens, component libraries, component specs, documentation, flows and IA"
+      }
+     },
+     "install": "https://x.ai/bot/C9_sXN7trbw5bSj_mD5VL",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 8,
+      "first_seen_catalog": "2026-11-06"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-09T20:44:54Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-design-systems/",
      "source": "botsdots"
     },
     {
@@ -559,9 +627,9 @@
      "status": "active",
      "first_seen": "2026-11-01T16:48:58Z",
      "updated_at": "2026-11-01T16:48:58Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-brand-guardian/",
      "source": "botsdots"
@@ -605,7 +673,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -651,7 +719,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -697,7 +765,7 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -743,7 +811,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -789,7 +857,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -835,7 +903,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -881,7 +949,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -927,7 +995,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -973,7 +1041,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1019,7 +1087,7 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1065,7 +1133,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1111,7 +1179,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1157,7 +1225,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1203,7 +1271,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1249,57 +1317,11 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/uihub-ued-shopify-polaris/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-adobe-spectrum-2",
-     "title": "Spectrum 2",
-     "type": "design-system",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "The next generation of Spectrum visuals and components",
-     "summary_lang": "en",
-     "source_url": "https://s2.spectrum.adobe.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Adobe",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-ued-adobe-spectrum-2/",
      "source": "ui-hub"
     }
    ]
@@ -1346,7 +1368,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1384,14 +1406,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 189693,
+      "repo_stars": 190777,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1429,14 +1451,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 189693,
+      "repo_stars": 190777,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1474,14 +1496,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 146933,
+      "repo_stars": 147330,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1519,14 +1541,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 146933,
+      "repo_stars": 147330,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1564,14 +1586,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 146933,
+      "repo_stars": 147330,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1609,14 +1631,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1654,14 +1676,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1699,14 +1721,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1744,14 +1766,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1789,14 +1811,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1834,14 +1856,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1879,14 +1901,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1924,14 +1946,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35226,
+      "repo_stars": 35270,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1969,14 +1991,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35226,
+      "repo_stars": 35270,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2014,16 +2036,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26426,
+      "repo_stars": 26448,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-01-core-development-ui-designer/",
      "source": "github"
@@ -2066,7 +2088,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2111,7 +2133,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2156,7 +2178,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2201,9 +2223,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/uihub-ued-spectrum-design-data/",
      "source": "ui-hub"
@@ -2247,7 +2269,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2293,7 +2315,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2339,7 +2361,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2385,7 +2407,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2431,7 +2453,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2476,7 +2498,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2521,7 +2543,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2566,7 +2588,7 @@
      "status": "active",
      "first_seen": "2026-11-04T17:59:03Z",
      "updated_at": "2026-11-04T17:59:03Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2611,9 +2633,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/uihub-ued-google-design-md/",
      "source": "ui-hub"
@@ -2657,7 +2679,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2703,7 +2725,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2748,7 +2770,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2791,14 +2813,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144221,
+      "repo_stars": 144292,
       "repo_pushed_at": "2026-11-08"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2836,14 +2858,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -2908,9 +2930,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-alvinindra-figma-mcp-rust/",
      "source": "mcp-registry"
@@ -2973,9 +2995,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-tunglt1810-figma-mcp-go/",
      "source": "mcp-registry"
@@ -3038,9 +3060,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-miapre-html-to-figma-design-system/",
      "source": "mcp-registry"
@@ -3120,11 +3142,74 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-11-06T02:31:42Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 429
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-mehmoodqureshi-figma-codekit-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-allsvgicons-icons",
+     "title": "All SVG Icons",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Search and fetch 450,000+ free SVG icons and brand logos from 270+ open-source icon sets.",
+     "summary_lang": "en",
+     "source_url": "https://allsvgicons.com/mcp/",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "com.allsvgicons",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.allsvgicons/icons&version=latest",
+      "record": {
+       "description": "Search and fetch 450,000+ free SVG icons and brand logos from 270+ open-source icon sets.",
+       "name": "com.allsvgicons/icons",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://i.allsvgicons.com/mcp"
+        }
+       ],
+       "repository": null,
+       "title": "All SVG Icons",
+       "version": "1.0.1",
+       "website": "https://allsvgicons.com/mcp/"
+      }
+     },
+     "install": "remote (streamable-http): https://i.allsvgicons.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-11-09"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-19T00:13:40Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-io-github-mehmoodqureshi-figma-codekit-mcp/",
+     "page": "https://academy.incidental.site/r/mcp-com-allsvgicons-icons/",
      "source": "mcp-registry"
     },
     {
@@ -3183,7 +3268,7 @@
      "status": "active",
      "first_seen": "2026-10-19T16:59:16Z",
      "updated_at": "2026-10-19T16:59:16Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3271,9 +3356,9 @@
      "status": "active",
      "first_seen": "2026-11-04T02:24:06Z",
      "updated_at": "2026-11-06T17:29:58Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-freevectoricons-fvi-mcp/",
      "source": "mcp-registry"
@@ -3336,9 +3421,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-jirayusueb-figma-mcp-rs/",
      "source": "mcp-registry"
@@ -3401,9 +3486,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-nntoan-figma-mcp-rust/",
      "source": "mcp-registry"
@@ -3466,9 +3551,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-vola-trebla-tailwind-context-resolver-mcp/",
      "source": "mcp-registry"
@@ -3516,7 +3601,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3559,7 +3644,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3599,7 +3684,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3637,14 +3722,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 146933,
+      "repo_stars": 147330,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3682,14 +3767,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 146933,
+      "repo_stars": 147330,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-08T01:28:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3727,14 +3812,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 54887,
-      "repo_pushed_at": "2026-11-08"
+      "repo_stars": 55374,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3772,14 +3857,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3817,14 +3902,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3862,14 +3947,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-16T10:29:38Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3907,14 +3992,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3952,14 +4037,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35226,
+      "repo_stars": 35270,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -3997,14 +4082,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35226,
+      "repo_stars": 35270,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -4042,14 +4127,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35226,
+      "repo_stars": 35270,
       "repo_pushed_at": "2026-11-07"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -4087,16 +4172,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26426,
+      "repo_stars": 26448,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"
@@ -4139,7 +4224,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -4184,7 +4269,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },

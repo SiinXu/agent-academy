@@ -2,7 +2,7 @@
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/customer-service/ecommerce-support/
 ---
 
@@ -87,11 +87,6 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/money-finder-xjfl
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW
-  needs_credentials: false, writes_external: false
-- [template] Call Runner. Makes outbound phone calls for you: reservations, appointments, follow-ups, customer service, and order or billing questions.
-  source: https://botsdots.site/templates/call-runner
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/yU4QeXl4-SRxS8p3G86dP
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

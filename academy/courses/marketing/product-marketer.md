@@ -2,7 +2,7 @@
 name: marketing-product-marketer
 description: Agent Academy course for Product marketing (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/marketing/product-marketer/
 ---
 
@@ -54,6 +54,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Read the required skills, prompts and standards in order.
 
+- [skill] copywriting. When the user wants to write, rewrite, or improve marketing copy for any page, including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for,"
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-copywriting-skill-md.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill copywriting
+  needs_credentials: false, writes_external: false
 - [skill] launch. When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early 
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/launch/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/coreyhaines31-marketingskills-skills-launch-skill-md.md
@@ -66,31 +72,37 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill competitive-brief
   needs_credentials: false, writes_external: false
-- [skill] offers. When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the
+- [skill] community-marketing. When the user wants to build and grow online communities that drive product growth: launching and running Discord, Slack, forums, or subreddits, getting members to participate, community-led growth, and turning customers
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/community-marketing/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-community-marketing.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill community-marketing
+  needs_credentials: false, writes_external: false
+- [skill] cro. When the user wants to increase conversions on marketing pages and forms: homepages, landing pages, pricing pages, demo and lead forms. Use when a page isn't converting, people visit but don't click, or someone shares a 
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/cro/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-cro.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill cro
+  needs_credentials: false, writes_external: false
+- [skill] offers. When the user wants to design or improve the offer itself: value stacking, bonuses, guarantees and risk reversal, scarcity and urgency, naming, payment plans, and upsells, or when people say it isn't worth the price. Bes
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/offers/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-offers.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill offers
   needs_credentials: false, writes_external: false
-- [skill] paywalls. When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "conver
+- [skill] paywalls. When the user wants to create and optimize in-app paywalls, upgrade screens, upsell modals, feature gates, and limit-reached or trial-expired screens, including mobile subscription paywalls. For in-product upgrade moment
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/paywalls/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-paywalls.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill paywalls
   needs_credentials: false, writes_external: false
-- [skill] pricing. When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' '
-  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-pricing.md
-  license: MIT
-  install: npx skills add coreyhaines31/marketingskills --skill pricing
-  needs_credentials: false, writes_external: false
-- [skill] product-marketing. When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'des
+- [skill] product-marketing. When the user wants to create or update the product marketing context document (.agents/product-marketing.md): product, ICP, positioning, competitors, and brand voice, so every other marketing skill uses the same foundat
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/product-marketing/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-product-marketing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill product-marketing
   needs_credentials: false, writes_external: false
-- [skill] sales-enablement. When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handl
+- [skill] sales-enablement. When the user wants to create sales collateral: decks, one-pagers, objection handling, demo scripts, talk tracks, battle cards, proposals, call scripts, and win-loss analysis, so reps pitch consistently and close. For pu
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/sales-enablement/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-sales-enablement.md
   license: MIT
@@ -148,17 +160,29 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false
-- [skill] ab-testing. When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant
+- [skill] ab-testing. When the user wants to plan, design, and read A/B tests and experiments, or build a growth experimentation program. Use for split tests, sample size and test duration, statistical significance, 'which version is better',
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ab-testing
   needs_credentials: false, writes_external: false
-- [skill] attribution. When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribu
+- [skill] attribution. When the user wants to work out which marketing actually drives conversions and revenue: choosing and reading attribution models, reconciling ad platforms that over-claim, MMM, incrementality and holdout tests, self-repo
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill attribution
+  needs_credentials: false, writes_external: false
+- [skill] pricing. When the user wants to decide pricing and packaging: tiers, value metrics, per-seat vs usage, freemium and trials, price increases, willingness-to-pay research, and pricing page audits for humans and AI agents. For in-ap
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-pricing.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill pricing
+  needs_credentials: false, writes_external: false
+- [skill] public-relations. When the user wants to earn press and media coverage: journalist pitches, press releases, media lists and kits, reporter requests like HARO and Qwoted, op-eds, podcast guest prep, newsjacking, and crisis statements (publ
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-public-relations.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill public-relations
   needs_credentials: false, writes_external: false
 - [system-prompt] business-analyst. Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for busines
   source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md
@@ -170,17 +194,6 @@ Go through the checklist and report the result to your owner.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md
   license: MIT
   install: npx skills add wshobson/agents --skill data-storytelling
-  needs_credentials: false, writes_external: false
-- [skill] kpi-dashboard-design. Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC r
-  source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md
-  license: MIT
-  install: npx skills add wshobson/agents --skill kpi-dashboard-design
-  needs_credentials: false, writes_external: false
-- [system-prompt] Apple Store ASO Expert Guide. Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.
-  source: https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md
-  license: CC0-1.0
   needs_credentials: false, writes_external: false
 
 ### Checklist

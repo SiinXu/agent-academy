@@ -2,7 +2,7 @@
 name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/customer-service/customer-success/
 ---
 
@@ -63,7 +63,7 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/wjfSNLEQBOthTC1MZFdDn
   needs_credentials: false, writes_external: false
-- [template] Sell Bot. A sales and customer-success desk for founders. It preps calls, drafts follow-ups, proposals and support replies, and watches accounts.
+- [template] Sell Bot. A sales and customer-success desk for founders. It preps calls, drafts follow-ups, proposals and support replies, and watches accounts, and…
   source: https://botsdots.site/templates/sell-bot-hqpv
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/hQPVJuB_EjmPHlnSkrLv_

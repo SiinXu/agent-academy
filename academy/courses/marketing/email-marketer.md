@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/marketing/email-marketer/
 ---
 
@@ -83,21 +83,21 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/ZpEX6-GmuMH-4ctEpfyka
   needs_credentials: false, writes_external: false
+- [template] Morning Market Brief. Sends a daily morning brief on your stock watchlist, markets and the newsletters and channels you follow
+  source: https://botsdots.site/templates/morning-market-brief
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/bDtC23xInV7JQzWmLOR95
+  needs_credentials: false, writes_external: true
 - [template] Newsletter Editor. Writes a daily, data-backed X Article newsletter for any crypto token you choose, plus optional morning and evening crypto market snapshots.
   source: https://botsdots.site/templates/newsletter-editor
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/FY3fh36XzhLj8G_ZPKfyN
   needs_credentials: true, writes_external: true
-- [template] Side Hustle CEO. An autonomous CEO that finds, builds and runs a small website business for you, like a directory or tracker with a newsletter and affiliate income.
-  source: https://botsdots.site/templates/side-hustle-ceo-q150
+- [template] Revenue Rex. Your marketing team in one bot for indie hackers and SaaS builders, covering pages, pricing, emails and launches
+  source: https://botsdots.site/templates/revenue-rex
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/-Q150uwypm_hR4MF3IokP
+  install: https://x.ai/bot/1OnUg1oZyw2c49tpKkez9
   needs_credentials: false, writes_external: false
-- [template] Sentinel. Compliance officer for insurance marketing copy. Reviews outbound emails, site pages, and blog posts before publish
-  source: https://botsdots.site/templates/sentinel-nafa
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1
-  needs_credentials: false, writes_external: true
 
 ## Step 3: Learn the rules
 
@@ -115,25 +115,25 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill email-sequence
   needs_credentials: false, writes_external: false
-- [skill] emails. When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboar
+- [skill] emails. When the user wants to create or improve automated email sequences and lifecycle programs: welcome series, trial and onboarding emails, nurture, re-engagement, and win-back flows. No AI tells like 'it's not X, it's Y', '
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/emails/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-emails.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill emails
   needs_credentials: false, writes_external: false
-- [skill] lead-magnets. When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions "lead magnet," "gated content," "content upgrade," "downloadable," "ebook," "cheat shee
+- [skill] lead-magnets. When the user wants to plan, create, and optimize lead magnets that grow an email list: checklists, templates, ebooks, cheat sheets, gated guides, and content upgrades, including what to offer when traffic doesn't conver
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/lead-magnets/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-lead-magnets.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill lead-magnets
   needs_credentials: false, writes_external: false
-- [skill] revops. When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'outbound pipeline sta
+- [skill] revops. When the user wants to design revenue operations: lead lifecycle stages, MQL and SQL definitions, lead scoring and routing, marketing-to-sales handoff, pipeline stages, and CRM automation, especially when sales and marke
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/revops/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-revops.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill revops
   needs_credentials: false, writes_external: false
-- [skill] sms. When the user wants to plan, build, or optimize SMS, MMS, or WhatsApp marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the us
+- [skill] sms. When the user wants to plan and optimize SMS, MMS, and WhatsApp marketing: welcome flows, abandoned cart, post-purchase, win-back, and promotional texts, plus TCPA and A2P 10DLC compliance and SMS vs email decisions. For
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/sms/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-sms.md
   license: MIT
@@ -290,17 +290,29 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false
-- [skill] ab-testing. When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant
+- [skill] ab-testing. When the user wants to plan, design, and read A/B tests and experiments, or build a growth experimentation program. Use for split tests, sample size and test duration, statistical significance, 'which version is better',
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ab-testing
   needs_credentials: false, writes_external: false
-- [skill] attribution. When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribu
+- [skill] attribution. When the user wants to work out which marketing actually drives conversions and revenue: choosing and reading attribution models, reconciling ad platforms that over-claim, MMM, incrementality and holdout tests, self-repo
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill attribution
+  needs_credentials: false, writes_external: false
+- [skill] pricing. When the user wants to decide pricing and packaging: tiers, value metrics, per-seat vs usage, freemium and trials, price increases, willingness-to-pay research, and pricing page audits for humans and AI agents. For in-ap
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-pricing.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill pricing
+  needs_credentials: false, writes_external: false
+- [skill] public-relations. When the user wants to earn press and media coverage: journalist pitches, press releases, media lists and kits, reporter requests like HARO and Qwoted, op-eds, podcast guest prep, newsjacking, and crisis statements (publ
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-public-relations.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill public-relations
   needs_credentials: false, writes_external: false
 - [system-prompt] business-analyst. Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for busines
   source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md
@@ -312,17 +324,6 @@ Go through the checklist and report the result to your owner.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md
   license: MIT
   install: npx skills add wshobson/agents --skill data-storytelling
-  needs_credentials: false, writes_external: false
-- [skill] kpi-dashboard-design. Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC r
-  source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md
-  license: MIT
-  install: npx skills add wshobson/agents --skill kpi-dashboard-design
-  needs_credentials: false, writes_external: false
-- [system-prompt] Apple Store ASO Expert Guide. Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.
-  source: https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md
-  license: CC0-1.0
   needs_credentials: false, writes_external: false
 
 ### Checklist

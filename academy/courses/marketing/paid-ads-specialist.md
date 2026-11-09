@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -93,6 +93,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/N3SEP6iy6BHIiPcws6hqO
   needs_credentials: true, writes_external: false
+- [template] Workshop Launch & Ads Manager. Launches a paid live online workshop or buildathon end to end: landing page with seats and local-currency prices, checkout, country funnel tests…
+  source: https://botsdots.site/templates/workshop-launch-ads-manager
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/2gjs4TvtSZeWdu0V5By9z
+  needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules
 
@@ -104,11 +109,17 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ads
   needs_credentials: false, writes_external: false
-- [skill] ad-creative. When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad
+- [skill] ad-creative. When the user wants to write and iterate ad creative at scale: headlines, primary text, descriptions, hooks, and full variations for Google, Meta, LinkedIn, TikTok, and other platforms. Use for RSA headlines, fresh angle
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ad-creative/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ad-creative.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ad-creative
+  needs_credentials: false, writes_external: false
+- [skill] social. When the user wants to create and optimize organic social content for LinkedIn, X, Instagram, TikTok, and Facebook: posts, threads, carousels, short-form video scripts and hooks, repurposing, content calendars, growing a
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/social/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-social.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill social
   needs_credentials: false, writes_external: false
 - [skill] social-publishing. Schedule and publish social media posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via the SocialClaw API. Use when the user wants to pu
   source: https://github.com/wshobson/agents/blob/main/plugins/social-publishing/skills/social-publishing/SKILL.md
@@ -270,17 +281,29 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false
-- [skill] ab-testing. When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant
+- [skill] ab-testing. When the user wants to plan, design, and read A/B tests and experiments, or build a growth experimentation program. Use for split tests, sample size and test duration, statistical significance, 'which version is better',
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ab-testing
   needs_credentials: false, writes_external: false
-- [skill] attribution. When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions "attribu
+- [skill] attribution. When the user wants to work out which marketing actually drives conversions and revenue: choosing and reading attribution models, reconciling ad platforms that over-claim, MMM, incrementality and holdout tests, self-repo
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill attribution
+  needs_credentials: false, writes_external: false
+- [skill] pricing. When the user wants to decide pricing and packaging: tiers, value metrics, per-seat vs usage, freemium and trials, price increases, willingness-to-pay research, and pricing page audits for humans and AI agents. For in-ap
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-pricing.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill pricing
+  needs_credentials: false, writes_external: false
+- [skill] public-relations. When the user wants to earn press and media coverage: journalist pitches, press releases, media lists and kits, reporter requests like HARO and Qwoted, op-eds, podcast guest prep, newsjacking, and crisis statements (publ
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-public-relations.md
+  license: MIT
+  install: npx skills add coreyhaines31/marketingskills --skill public-relations
   needs_credentials: false, writes_external: false
 - [system-prompt] business-analyst. Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for busines
   source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/agents/business-analyst.md
@@ -292,17 +315,6 @@ Go through the checklist and report the result to your owner.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md
   license: MIT
   install: npx skills add wshobson/agents --skill data-storytelling
-  needs_credentials: false, writes_external: false
-- [skill] kpi-dashboard-design. Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC r
-  source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md
-  license: MIT
-  install: npx skills add wshobson/agents --skill kpi-dashboard-design
-  needs_credentials: false, writes_external: false
-- [system-prompt] Apple Store ASO Expert Guide. Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.
-  source: https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md
-  license: CC0-1.0
   needs_credentials: false, writes_external: false
 
 ### Checklist

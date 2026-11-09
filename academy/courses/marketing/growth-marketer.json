@@ -2,7 +2,7 @@
  "id": "marketing/growth-marketer",
  "industry": "marketing",
  "role": "growth-marketer",
- "updated_at": "2026-11-09T01:45:20Z",
+ "updated_at": "2026-11-09T20:44:54Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -88,9 +88,9 @@
      "status": "active",
      "first_seen": "2026-10-16T14:52:06Z",
      "updated_at": "2026-10-19T16:59:16Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-marketing-manager/",
      "source": "botsdots"
@@ -155,9 +155,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-zealt-chief-of-staff/",
      "source": "botsdots"
@@ -223,9 +223,9 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-11-02T20:22:18Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-ai-character-studio/",
      "source": "botsdots"
@@ -288,9 +288,9 @@
      "status": "active",
      "first_seen": "2026-10-25T14:23:36Z",
      "updated_at": "2026-10-26T16:48:06Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-dan/",
      "source": "botsdots"
@@ -357,11 +357,141 @@
      "status": "active",
      "first_seen": "2026-10-27T15:53:32Z",
      "updated_at": "2026-10-28T16:38:31Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 402
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-marketing-lead/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-nole-zeze",
+     "title": "Nole",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "An X growth helper grounded in X's open-source ranking code and classic copywriting.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/nole-zeze",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Parker",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "facts-only",
+      "url": "https://botsdots.site/templates/nole-zeze",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/zEZeFchc863A_-JaGcX2D",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "Public x.ai share page"
+       ],
+       "category": "content-publishing",
+       "creator": null,
+       "firstSeen": "2026-11-07",
+       "integrations": [],
+       "name": "Nole",
+       "official": false,
+       "page": "https://botsdots.site/templates/nole-zeze",
+       "risk": "low",
+       "summary": "An X growth helper grounded in X's open-source ranking code and classic copywriting."
+      }
+     },
+     "install": "https://x.ai/bot/zEZeFchc863A_-JaGcX2D",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 3,
+      "first_seen_catalog": "2026-11-07"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-09T20:44:54Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-nole-zeze/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-contractor-growth-desk",
+     "title": "Contractor Growth Desk",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "A marketing workbench for owner-operated contractors and service businesses: demo website drafts, B2B leads from companies running Meta and Google…",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/contractor-growth-desk",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Urban",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "facts-only",
+      "url": "https://botsdots.site/templates/contractor-growth-desk",
+      "record": {
+       "access": [
+        "browser"
+       ],
+       "add": "https://x.ai/bot/NRm6z_mrm7ITEybyuOZMA",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "Public x.ai share page"
+       ],
+       "category": "customer-sales",
+       "creator": null,
+       "firstSeen": "2026-11-09",
+       "integrations": [],
+       "name": "Contractor Growth Desk",
+       "official": false,
+       "page": "https://botsdots.site/templates/contractor-growth-desk",
+       "risk": "medium",
+       "summary": "A marketing workbench for owner-operated contractors and service businesses: demo website drafts, B2B leads from companies running Meta and Google…"
+      }
+     },
+     "install": "https://x.ai/bot/NRm6z_mrm7ITEybyuOZMA",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 2,
+      "first_seen_catalog": "2026-11-09"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-09T20:44:54Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-contractor-growth-desk/",
      "source": "botsdots"
     }
    ]
@@ -408,7 +538,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -416,18 +546,18 @@
      "source": "seed"
     },
     {
-     "id": "coreyhaines31-marketingskills-skills-community-marketing",
-     "title": "community-marketing",
+     "id": "coreyhaines31-marketingskills-skills-co-marketing",
+     "title": "co-marketing",
      "type": "skill",
      "industry": "marketing",
      "roles": [
       "growth-marketer"
      ],
-     "summary": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \\\"build a community,\\\" \\\"community strategy,\\\" \\\"Discord…",
+     "summary": "When the user wants to find co-marketing partners and plan joint campaigns: integration partners, cross-promotion, co-branded content, and joint webinars with companies that sell to the same audience. For customer referral programs, see referrals. For launch partnerships, see launch. For running the event itself, see events.",
      "summary_lang": "en",
-     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/community-marketing/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-community-marketing.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/community-marketing/SKILL.md",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/co-marketing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-co-marketing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/co-marketing/SKILL.md",
      "repo": "coreyhaines31/marketingskills",
      "author": "coreyhaines31",
      "license": "MIT",
@@ -436,9 +566,9 @@
      "original": {
       "kind": "full",
       "license": "MIT",
-      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/community-marketing/SKILL.md"
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/co-marketing/SKILL.md"
      },
-     "install": "npx skills add coreyhaines31/marketingskills --skill community-marketing",
+     "install": "npx skills add coreyhaines31/marketingskills --skill co-marketing",
      "security": {
       "audited": false,
       "executes_code": false,
@@ -446,18 +576,18 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-28T01:26:45Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-community-marketing/",
+     "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-co-marketing/",
      "source": "github"
     },
     {
@@ -468,7 +598,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "Set up, audit, verify, or fix website conversion tracking. Use when the conversion is a form submission, booked meeting, chat, phone call, signup, or purchase; when conversions must reach Google Ads, Meta, GA4, LinkedIn, TikTok, or Microsoft Ads; when the work involves GTM tags and dataLayer events, pixels, the Conversions API (CAPI), Enhanced Conversions, server-side tagging, or gclid and fbclid capture; or when…",
+     "summary": "When the user wants to set up, audit, or fix conversion tracking so form fills, bookings, calls, signups, and purchases reach Google Ads, Meta, GA4, LinkedIn, and TikTok: GTM, pixels, CAPI, Enhanced Conversions, offline imports, double counting. Fire on confirmed success, not the submit click; verify a test conversion arrives; diagnose before changing; offer free paths and disclose partner tools. For tracking…",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/conversion-tracking/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-conversion-tracking.md",
@@ -491,63 +621,18 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-20T01:06:48Z",
-     "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-conversion-tracking/",
-     "source": "github"
-    },
-    {
-     "id": "coreyhaines31-marketingskills-skills-cro",
-     "title": "cro",
-     "type": "skill",
-     "industry": "marketing",
-     "roles": [
-      "growth-marketer"
-     ],
-     "summary": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's…",
-     "summary_lang": "en",
-     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cro/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-cro.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/cro/SKILL.md",
-     "repo": "coreyhaines31/marketingskills",
-     "author": "coreyhaines31",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/cro/SKILL.md"
-     },
-     "install": "npx skills add coreyhaines31/marketingskills --skill cro",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-cro/",
      "source": "github"
     },
     {
@@ -558,7 +643,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI…",
+     "summary": "When the user wants to submit a product to startup, SaaS, AI, agent, MCP, and review directories for backlinks, discovery, and listings: Product Hunt, G2, Capterra, AlternativeTo, SaaSHub, MCP registries, and awesome lists, with a submission tracker. For the broader launch, see launch. For other link building, see link-building.",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/directory-submissions/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-directory-submissions.md",
@@ -581,18 +666,108 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-28T01:26:45Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-directory-submissions/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-free-tools",
+     "title": "free-tools",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to plan, evaluate, or build free tools as marketing (engineering as marketing): calculators, graders, generators, and other interactive tools for leads, SEO, and links, including whether a tool idea is worth building. For downloadable lead magnets like ebooks and templates, see lead-magnets.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/free-tools/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-free-tools.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/free-tools/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/free-tools/SKILL.md"
+     },
+     "install": "npx skills add coreyhaines31/marketingskills --skill free-tools",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-free-tools/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-marketing-ideas",
+     "title": "marketing-ideas",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "growth-marketer"
+     ],
+     "summary": "When the user wants to brainstorm marketing ideas, growth tactics, and channels to try for a SaaS or software product, especially when someone is stuck or has tried the obvious channels. Draws on a library of 139 ideas. For executing a specific channel, see that skill (ads, social, emails, and others). For a full plan, see marketing-plan.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-ideas.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/marketing-ideas/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md"
+     },
+     "install": "npx skills add coreyhaines31/marketingskills --skill marketing-ideas",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-marketing-ideas/",
      "source": "github"
     },
     {
@@ -603,7 +778,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the user mentions 'marketing loop,' 'recurring marketing workflow,' 'automate my marketing,' 'marketing on autopilot,' 'weekly marketing review,' 'ad fatigue check,' 'weekly ads check,' 'content refresh loop,' 'churn…",
+     "summary": "When the user wants to set up recurring marketing workflows an AI agent runs on its own on a cadence or trigger: weekly SEO or ads checks, daily churn watches, content refresh, outbound and reply triage, and always-on operators that chain the other marketing skills. Not a one-off task. For one-off ideas, see marketing-ideas. For the experimentation loop, see ab-testing.",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-loops/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-marketing-loops.md",
@@ -626,14 +801,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-07T01:59:16Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -648,7 +823,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the…",
+     "summary": "When the user wants to improve post-signup onboarding and activation: first-run experience, aha moments, checklists, empty states, and time to value, when users sign up but don't stick around. For the signup flow itself, see signup. For onboarding emails, see emails.",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/onboarding/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-onboarding.md",
@@ -671,14 +846,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -693,7 +868,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or…",
+     "summary": "When the user wants to create and optimize popups, modals, slide-ins, sticky bars, and banners that convert: exit intent, email capture popups, scroll and time triggers, and announcement bars. For forms and pages outside popups, see cro.",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/popups/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-popups.md",
@@ -716,14 +891,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-28T01:26:45Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -738,7 +913,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "When the user wants to find, qualify, and build a list of prospects to reach out to, across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find leads,\" \"lead list,\" \"outbound list,\" \"target account list,\" \"ICP-fit accounts,\" \"find local businesses,\" \"find my first customers,\" \"design partners,\" \"signal-based outbound,\" \"gap plays,\" \"buying…",
+     "summary": "When the user wants to find, qualify, and build prospect lists for outbound across B2B and local businesses: ICP-fit accounts, buying and hiring signals, enrichment, email verification, and account research before outreach. Verify emails before a sequence, never scrape LinkedIn: define audiences in Sales Navigator and pull contacts from licensed data. For the outreach itself, see cold-email. For competitor…",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/prospecting/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-prospecting.md",
@@ -761,14 +936,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-28T01:26:45Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -783,7 +958,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' 'affiliate payout,' 'get more reviews,' 'G2 reviews,' 'review campaign,' or…",
+     "summary": "When the user wants to create and optimize referral and affiliate programs and word of mouth: refer-a-friend incentives, affiliate commissions and payouts, partner programs, and review campaigns. For launch virality, see launch. For creator deals, see influencer-marketing.",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/referrals/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-referrals.md",
@@ -806,14 +981,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -828,7 +1003,7 @@
      "roles": [
       "growth-marketer"
      ],
-     "summary": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or…",
+     "summary": "When the user wants to optimize signup, registration, and trial start flows: form fields, steps, SSO, credit card requirements, and drop-off before an account exists. For what happens after signup, see onboarding. For lead capture forms that don't create an account, see cro.",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/signup/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-signup.md",
@@ -851,14 +1026,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -896,14 +1071,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -941,16 +1116,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26426,
+      "repo_stars": 26448,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-growth-loops/",
      "source": "github"
@@ -986,16 +1161,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26426,
+      "repo_stars": 26448,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-landing-page-copywr/",
      "source": "github"
@@ -1038,7 +1213,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1083,7 +1258,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1128,7 +1303,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1173,7 +1348,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1224,7 +1399,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1280,16 +1455,16 @@
      },
      "metrics": {
       "repo_stars": 1,
-      "repo_pushed_at": "2026-11-07",
+      "repo_pushed_at": "2026-11-09",
       "registry_updated_at": "2026-10-30"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-26T16:48:06Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-com-probativegrowth-legal-marketing-data/",
      "source": "mcp-registry"
@@ -1352,9 +1527,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
-      "source": 200
+      "source": 429
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-pooriaarab-agentic-campaign/",
      "source": "mcp-registry"
@@ -1397,7 +1572,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1447,7 +1622,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1492,7 +1667,7 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1507,7 +1682,7 @@
      "roles": [
       "marketing-analyst"
      ],
-     "summary": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\"…",
+     "summary": "When the user wants to plan, design, and read A/B tests and experiments, or build a growth experimentation program. Use for split tests, sample size and test duration, statistical significance, 'which version is better', hypotheses, and experiment backlogs or ICE scoring. For tracking setup, see analytics. For page-level conversion fixes, see cro.",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md",
@@ -1530,14 +1705,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-30T02:00:19Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1552,7 +1727,7 @@
      "roles": [
       "marketing-analyst"
      ],
-     "summary": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attribution,\" \"attribution model,\" \"first-touch vs last-touch,\" \"multi-touch,\" \"which channel drives revenue,\" \"what's my real CAC,\" \"my dashboards disagree,\" \"Google/Meta says X but GA says Y,\" \"media mix…",
+     "summary": "When the user wants to work out which marketing actually drives conversions and revenue: choosing and reading attribution models, reconciling ad platforms that over-claim, MMM, incrementality and holdout tests, self-reported attribution, and channels with no clicks like podcasts or dark social. For event tracking and UTMs, see analytics. For pixels and CAPI, see conversion-tracking. For CRM revenue reporting, see…",
      "summary_lang": "en",
      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md",
@@ -1575,18 +1750,108 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59244,
-      "repo_pushed_at": "2026-11-06"
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-20T01:06:48Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-attribution/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-pricing",
+     "title": "pricing",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to decide pricing and packaging: tiers, value metrics, per-seat vs usage, freemium and trials, price increases, willingness-to-pay research, and pricing page audits for humans and AI agents. For in-app upgrade screens, see paywalls. For offer construction on services, courses, and high-ticket B2B, see offers.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-pricing.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/pricing/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md"
+     },
+     "install": "npx skills add coreyhaines31/marketingskills --skill pricing",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-pricing/",
+     "source": "github"
+    },
+    {
+     "id": "coreyhaines31-marketingskills-skills-public-relations",
+     "title": "public-relations",
+     "type": "skill",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "When the user wants to earn press and media coverage: journalist pitches, press releases, media lists and kits, reporter requests like HARO and Qwoted, op-eds, podcast guest prep, newsjacking, and crisis statements (public relations, not pull requests). For directories, see directory-submissions. For launches, see launch. For cold outreach to prospects, see cold-email.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-public-relations.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/public-relations/SKILL.md",
+     "repo": "coreyhaines31/marketingskills",
+     "author": "coreyhaines31",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md"
+     },
+     "install": "npx skills add coreyhaines31/marketingskills --skill public-relations",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": 59397,
+      "repo_pushed_at": "2026-11-09"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-09T20:44:54Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/coreyhaines31-marketingskills-skills-public-relations/",
      "source": "github"
     },
     {
@@ -1620,14 +1885,14 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
@@ -1665,109 +1930,19 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42323,
+      "repo_stars": 42363,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
+     "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/wshobson-agents-plugins-business-analytics-skills-data-storytelling/",
      "source": "github"
-    },
-    {
-     "id": "wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design",
-     "title": "kpi-dashboard-design",
-     "type": "skill",
-     "industry": "marketing",
-     "roles": [
-      "marketing-analyst"
-     ],
-     "summary": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict…",
-     "summary_lang": "en",
-     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md",
-     "repo": "wshobson/agents",
-     "author": "wshobson",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md"
-     },
-     "install": "npx skills add wshobson/agents --skill kpi-dashboard-design",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 42323,
-      "repo_pushed_at": "2026-11-09"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design/",
-     "source": "github"
-    },
-    {
-     "id": "prompts-chat-apple-store-aso-expert-guide",
-     "title": "Apple Store ASO Expert Guide",
-     "type": "system-prompt",
-     "industry": "marketing",
-     "roles": [
-      "marketing-analyst"
-     ],
-     "summary": "Guide to optimizing app visibility and performance on the Apple Store using ASO techniques and mathematical evaluation guidelines.",
-     "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-apple-store-aso-expert-guide.md",
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "pusuknane",
-     "license": "CC0-1.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cmqi627oo0001jo04t2bbd0ls_apple-store-aso-expert-guide"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "votes": 0,
-      "created_at": "2026-06-17"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T01:45:20Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/prompts-chat-apple-store-aso-expert-guide/",
-     "source": "prompts.chat"
     }
    ]
   }

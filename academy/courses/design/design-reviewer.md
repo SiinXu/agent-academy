@@ -2,7 +2,7 @@
 name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/design/design-reviewer/
 ---
 
@@ -46,14 +46,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1658 items
-- motion: 649 items
+- minimal: 1655 items
+- motion: 648 items
 - 3d: 638 items
-- editorial: 596 items
-- playful: 564 items
-- gradient: 286 items
-- retro: 118 items
-- dark-tech: 111 items
+- editorial: 591 items
+- playful: 563 items
+- gradient: 287 items
+- retro: 117 items
+- dark-tech: 110 items
 - glass: 57 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -84,9 +84,10 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/5knsZnIHZUKPYw3H3aW0_
   needs_credentials: false, writes_external: false
-- [design-system] Apple Human Interface Guidelines. Apple's platform design guidance: foundations, patterns, components, inputs, technologies.
-  source: https://developer.apple.com/design/human-interface-guidelines
-  license: Apple terms; link only
+- [template] UX/UI Designer. Designs the visual layer of mobile and web interfaces in modern, minimal or any named style, accessibility-first, with specs before any file edits
+  source: https://botsdots.site/templates/uxui-designer
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/DWorDFJGA-RbMCvTpewU8
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

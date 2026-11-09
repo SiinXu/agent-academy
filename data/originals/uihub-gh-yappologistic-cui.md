@@ -160,6 +160,7 @@ On Linux you need the X11 development headers (`libx11-dev`). Windows and macOS 
 | **Data** | card, metric, table, virtualized data grid, tree table, path bar, list, tree, accordion, filter bar, file browser and open/save dialog |
 | **Code** | code block, code editor, diff viewer, markdown view, JSON viewer |
 | **Tool panels** | property inspector, log console, terminal, node editor, flame graph, hex viewer, curve and gradient editors, timeline editor, level meter |
+| **Developer tools** | trace viewer, network waterfall, dependency graph, commit graph, CI pipeline, problems panel, test explorer, stack trace, coverage, blame, regex tester, HTTP request bar, API explorer, key-value editor, query builder, cron schedule picker, feature flags, uptime bars, time histogram, keymap |
 | **Charts** | line, area, bar, donut, sparkline, gauge and radial gauge, candlestick, heatmap, treemap, radar, funnel, sankey, waffle, scatter and more |
 | **Media** | image viewer with zoom and pan, image cropper, image compare, carousel |
 | **Planning** | kanban board, week and month calendars, gantt chart with dependencies |
@@ -332,6 +333,7 @@ The library is compiled for dead code stripping, so apps only carry what they us
 | macOS 10.13+ | Cocoa (Retina, native menus, text input) | OpenGL 3.3+, layer software fallback | Apple clang |
 | Linux, BSD | X11 (XIM text input, HiDPI) | OpenGL 3.3 (GLX), XPutImage fallback | GCC, Clang |
 | Wayland and others | SDL2 or GLFW | OpenGL 3.3 | GCC |
+| Browser | WebAssembly, plain clang ([how](docs/getting-started.md#run-in-the-browser)) | WebGL2, or software | Docs site, every push |
 | Anything | Your own | Your own (one shader) | |
 
 Set `CUI_RENDERER=software` to force the software renderer and `CUI_SCALE=2` to override the display scale. To use CUI inside an engine with your own window and renderer, see [Integration](docs/integration.md) and [Rendering](docs/rendering.md).
@@ -344,6 +346,7 @@ CUI 1.2 is complete enough to build real desktop apps. Every push runs unit, int
 - **Complex scripts.** Text is UTF-8 with kerning and font fallback. The optional `CUI_TEXT_SHAPING` CMake option adds Arabic-script shaping, Unicode bidi and shaped paragraph wrapping for static text (see [integration](docs/integration.md#optional-arabic-script-text-shaping)). Screens mirror for right-to-left languages with `.direction = CUI_DIRECTION_RTL` ([layout](docs/layout.md)). Explicit embeddings, overrides and isolates are unsupported. It is off by default. Editing and other complex scripts remain outside this experimental path. CJK works once you add a fallback font.
 - **Inline IME composition.** Committed text from input methods works; the text being composed shows in the system's IME window.
 - **Native Wayland.** Use the SDL2 or GLFW backend, or XWayland.
+- **Phones.** Layouts adapt to phone widths and touch, and apps run in mobile browsers, but there is no Android or iOS platform layer yet.
 
 ## Documentation
 
@@ -358,6 +361,7 @@ CUI 1.2 is complete enough to build real desktop apps. Every push runs unit, int
 | [Integration](docs/integration.md) | Your own window, input and renderer |
 | [Rendering](docs/rendering.md) | The vertex format and the reference shader |
 | [Performance](docs/performance.md) | How memory and speed are tested over hours of use, and the results |
+| [How CUI is built](docs/architecture.md) and [Contributing](docs/CONTRIBUTING.md) | The code map, the outline every component follows, and the rules for changes |
 | [Design principles](docs/design.md) | The rules every component follows |
 
 **Live docs.** The same guide, with every component running in your browser, is at **https://yappologistic.github.io/CUI/**: the library compiled to WebAssembly and drawn with a WebGL2 port of its renderer. It is rebuilt from `master` on every push. To run it locally, use `web/tools/serve.sh` (needs clang with the `wasm32` target) and open http://localhost:8765. See [`web/`](web).

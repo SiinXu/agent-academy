@@ -2,7 +2,7 @@
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-09
-updated_at: 2026-11-09T01:45:20Z
+updated_at: 2026-11-09T20:44:54Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,14 +46,14 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1658 items
-- motion: 649 items
+- minimal: 1655 items
+- motion: 648 items
 - 3d: 638 items
-- editorial: 596 items
-- playful: 564 items
-- gradient: 286 items
-- retro: 118 items
-- dark-tech: 111 items
+- editorial: 591 items
+- playful: 563 items
+- gradient: 287 items
+- retro: 117 items
+- dark-tech: 110 items
 - glass: 57 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -91,6 +91,11 @@ First case to read: how this site was designed by an agent: https://academy.inci
   source: https://botsdots.site/templates/art-direction-web-designer
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Uee0xHoPqejKtkiWYVBYG
+  needs_credentials: false, writes_external: false
+- [template] Design Systems. Builds design-system structure for desktop and web products: tokens, component libraries, component specs, documentation, flows and IA
+  source: https://botsdots.site/templates/design-systems
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/C9_sXN7trbw5bSj_mD5VL
   needs_credentials: false, writes_external: false
 - [template] Brand Guardian. Holds your brand kit and reviews posts, decks, videos and designs against it, returning a pass or exact fixes.
   source: https://botsdots.site/templates/brand-guardian
@@ -155,10 +160,6 @@ First case to read: how this site was designed by an agent: https://academy.inci
   needs_credentials: false, writes_external: false
 - [design-system] Shopify Polaris. Shopify’s admin design system, now built mainly on Web Components
   source: https://polaris.shopify.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [design-system] Spectrum 2. The next generation of Spectrum visuals and components
-  source: https://s2.spectrum.adobe.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
@@ -370,6 +371,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-codekit-mcp.md
   license: MIT
   install: npx -y figma-codekit-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] All SVG Icons. Search and fetch 450,000+ free SVG icons and brand logos from 270+ open-source icon sets.
+  source: https://allsvgicons.com/mcp/
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://i.allsvgicons.com/mcp
   needs_credentials: true, writes_external: false
 - [mcp] DS Manager. Design System Manager for shadcn/ui: tokens, fonts, radius, components, icons, blocks, Figma sync.
   source: https://www.shadcndesign.com/docs/ds-manager-mcp
