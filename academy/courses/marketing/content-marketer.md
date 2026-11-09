@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-08
-updated_at: 2026-11-08T16:41:07Z
+version: 2026-11-09
+updated_at: 2026-11-09T01:45:20Z
 source: https://academy.incidental.site/courses/marketing/content-marketer/
 ---
 
@@ -285,15 +285,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://api.chinamarketing.ai/mcp
   needs_credentials: true, writes_external: false
-- [mcp] fi.northpoint/marketing-compliance. Crypto marketing compliance: MiCA, FCA, GDPR, SEC, MAS, VARA rules with citations. Not legal advice.
-  source: https://github.com/jukkablomberg/northpoint-website
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://northpoint.fi/api/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] GenPark Audio Packet Jitter Resilience Buffer. Adaptive WebRTC jitter buffer simulation and inter-arrival jitter telemetry
-  source: https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  needs_credentials: false, writes_external: false
 - [mcp] genpark-jitter-buffer. Packet ordering simulation and inter-arrival jitter telemetry.
   source: https://github.com/Alpha-Park/genpark-audio-packet-jitter-resilience-buffer-skill
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alpha-park-genpark-jitter-buffer.md
@@ -331,6 +322,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @pipeworx/mcp-sendgrid
   needs_credentials: true, writes_external: true
+- [mcp] SendGrid Secure. Security-first SendGrid MCP server: dry-run default, recipient allowlists, rate caps, audit log.
+  source: https://github.com/Choppaaahh/sendgrid-mcp-secure
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-choppaaahh-sendgrid-mcp-secure.md
+  license: MIT
+  install: uvx sendgrid-mcp-secure
+  needs_credentials: true, writes_external: true
+- [mcp] The Service Marketing Guys Audit. Read-only audit of any local service business, Open Service Profile conformance first.
+  source: https://github.com/buildmodus/open-service-profile
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
+  license: MIT
+  install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 
