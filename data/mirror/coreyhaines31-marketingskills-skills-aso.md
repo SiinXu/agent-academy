@@ -1,8 +1,8 @@
 ---
 name: aso
-description: "When the user wants to audit and optimize App Store and Google Play listings: title, subtitle, keywords, descriptions, screenshots, and ratings, so the app ranks in store search and more viewers install. Use when someone shares a store URL, asks why downloads are low, or wants to compare their listing with competitors."
+description: "When the user wants to audit or optimize an App Store or Google Play listing, or asks which title, keywords, or screenshots to pick or why downloads are low: subtitle, description, ratings, and comparing listings with competitors."
 metadata:
-  version: 2.0.4
+  version: 2.0.6
 ---
 
 # ASO Audit

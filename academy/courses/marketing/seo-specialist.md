@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-09
-updated_at: 2026-11-09T20:44:54Z
+version: 2026-11-10
+updated_at: 2026-11-10T04:10:12Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -127,43 +127,37 @@ Read the required skills, prompts and standards in order.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill seo-audit
   needs_credentials: false, writes_external: false
-- [skill] aso. When the user wants to audit and optimize App Store and Google Play listings: title, subtitle, keywords, descriptions, screenshots, and ratings, so the app ranks in store search and more viewers install. Use when someone
+- [skill] aso. When the user wants to audit or optimize an App Store or Google Play listing, or asks which title, keywords, or screenshots to pick or why downloads are low: subtitle, description, ratings, and comparing listings with co
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/aso/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-aso.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill aso
   needs_credentials: false, writes_external: false
-- [skill] competitor-profiling. When the user wants to research competitors from their URLs into structured, dated profile files: positioning, pricing, features, customers, reviews, and SEO strength, with observed facts kept apart from inference. For c
+- [skill] competitor-profiling. When the user wants to research competitors into dated profiles, or asks what a rival charges, claims, or is doing, or whether a conclusion about them is fair: positioning, pricing, features, reviews, SEO, observed facts
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/competitor-profiling/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-competitor-profiling.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill competitor-profiling
   needs_credentials: false, writes_external: false
-- [skill] competitors. When the user wants to create and audit competitor comparison and alternative pages for SEO and buyers: '[Product] vs [Product]', '[Product] alternative', 'best X alternatives', and you-vs-competitor pages, and check exi
-  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/competitors/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-competitors.md
-  license: MIT
-  install: npx skills add coreyhaines31/marketingskills --skill competitors
-  needs_credentials: false, writes_external: false
-- [skill] customer-research. When the user wants to run and synthesize customer research: interview scripts, surveys, transcript and support-ticket analysis, voice-of-customer language, personas and JTBD, and mining reviews, Reddit, and forums for p
+- [skill] customer-research. When the user wants to run or synthesize customer research, or asks what customer quotes, reviews, or feedback really mean, what is safe to conclude, and what to ask next: interviews, surveys, voice of customer, personas
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/customer-research/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-customer-research.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill customer-research
   needs_credentials: false, writes_external: false
-- [skill] programmatic-seo. When the user wants to build SEO pages at scale from templates and data: location, integration, comparison, directory, and '[X] for [Y]' pages, while keeping each page useful instead of thin. For SEO audits, see seo-audi
+- [skill] programmatic-seo. When the user wants SEO pages at scale from templates and data, or asks whether a page set will rank or look thin: location, integration, comparison, directory, and '[X] for [Y]' pages, each useful rather than thin. For 
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/programmatic-seo/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-programmatic-seo.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill programmatic-seo
   needs_credentials: false, writes_external: false
-- [skill] schema. When the user wants to add, fix, and validate schema markup and structured data (JSON-LD): product, review, recipe, breadcrumb, organization, and FAQ schema, rich result eligibility (FAQ no longer earns Google rich resul
+- [skill] schema. When the user wants to add, fix, or validate schema markup (JSON-LD), or asks which type fits a page or whether some markup is allowed: product, review, recipe, FAQ, rich result eligibility (FAQ no longer earns Google ri
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/schema/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-schema.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill schema
   needs_credentials: false, writes_external: false
-- [skill] site-architecture. When the user wants to plan or restructure a website: page hierarchy, navigation, URL structure, visual sitemaps, internal linking, which pages you need, and which website builder to use or how to migrate. Not XML sitema
+- [skill] site-architecture. When the user wants to plan or restructure a website, or asks which pages they need or where something belongs: hierarchy, navigation, URL structure, internal linking, website builders and migrations. Not XML sitemaps (s
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/site-architecture/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-site-architecture.md
   license: MIT
@@ -234,6 +228,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-content-marketing-skills-social-evidence-research.md
   license: MIT
   install: npx skills add wshobson/agents --skill social-evidence-research
+  needs_credentials: false, writes_external: false
+- [system-prompt] content-marketer. Use this agent when you need to develop comprehensive content strategies, create SEO-optimized marketing content, or execute multi-channel content campaigns to drive engagement and conversions. Invoke this agent for cont
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-content-marketer.md
+  license: MIT
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
@@ -347,25 +346,19 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false
-- [skill] ab-testing. When the user wants to plan, design, and read A/B tests and experiments, or build a growth experimentation program. Use for split tests, sample size and test duration, statistical significance, 'which version is better',
+- [skill] ab-testing. When the user wants to plan, run, or read A/B tests, or asks a judgement call on one: is the result real, can we stop, which version won, is this worth testing at all: sample size, duration, significance, hypotheses, and
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ab-testing
   needs_credentials: false, writes_external: false
-- [skill] attribution. When the user wants to work out which marketing actually drives conversions and revenue: choosing and reading attribution models, reconciling ad platforms that over-claim, MMM, incrementality and holdout tests, self-repo
+- [skill] attribution. When the user wants to work out which marketing drives revenue, or asks whether a channel is really working, which numbers to trust, or how to credit podcasts and dark social: attribution models, platforms that over-clai
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill attribution
   needs_credentials: false, writes_external: false
-- [skill] pricing. When the user wants to decide pricing and packaging: tiers, value metrics, per-seat vs usage, freemium and trials, price increases, willingness-to-pay research, and pricing page audits for humans and AI agents. For in-ap
-  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-pricing.md
-  license: MIT
-  install: npx skills add coreyhaines31/marketingskills --skill pricing
-  needs_credentials: false, writes_external: false
-- [skill] public-relations. When the user wants to earn press and media coverage: journalist pitches, press releases, media lists and kits, reporter requests like HARO and Qwoted, op-eds, podcast guest prep, newsjacking, and crisis statements (publ
+- [skill] public-relations. When the user wants press and media coverage, or asks what to say to a reporter, whether a story is newsworthy, or how to handle a crisis: pitches, press releases, media lists, HARO, op-eds, podcast guest prep, newsjacki
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-public-relations.md
   license: MIT
@@ -381,6 +374,12 @@ Go through the checklist and report the result to your owner.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md
   license: MIT
   install: npx skills add wshobson/agents --skill data-storytelling
+  needs_credentials: false, writes_external: false
+- [skill] kpi-dashboard-design. Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC r
+  source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md
+  license: MIT
+  install: npx skills add wshobson/agents --skill kpi-dashboard-design
   needs_credentials: false, writes_external: false
 
 ### Checklist

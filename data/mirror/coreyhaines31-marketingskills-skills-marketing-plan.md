@@ -1,8 +1,8 @@
 ---
 name: marketing-plan
-description: "When the user wants to build a comprehensive marketing or go-to-market plan for a client, a company you advise, or your own product: channels, budget, team, and quarterly goals across the AARRR funnel, plus market sizing, fitted to current stage and funding milestones. For positioning and ICP first, see product-marketing. For ideas only, see marketing-ideas."
+description: "When the user wants a full marketing or go-to-market plan for a client, an advised company, or their own product, or asks how to sequence or prioritize several initiatives with a fixed team and budget: channels, budget, team, goals across AARRR, market sizing. For positioning first, see product-marketing. For ideas only, see marketing-ideas."
 metadata:
-  version: 1.2.3
+  version: 1.2.5
 ---
 
 # Marketing Plan

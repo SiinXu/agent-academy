@@ -2,7 +2,7 @@
  "id": "customer-service/customer-success",
  "industry": "customer-service",
  "role": "customer-success",
- "updated_at": "2026-11-09T20:44:54Z",
+ "updated_at": "2026-11-10T04:10:12Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -557,16 +557,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26448,
+      "repo_stars": 26453,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-customer-success-ma/",
      "source": "github"

@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-09T20:44:54Z",
+ "updated_at": "2026-11-10T04:10:12Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42363,
+      "repo_stars": 42369,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1682,8 +1682,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144292,
-      "repo_pushed_at": "2026-11-08"
+      "repo_stars": 144317,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1727,16 +1727,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30580,
-      "repo_pushed_at": "2026-11-09"
+      "repo_stars": 30589,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/openai-openai-agents-python-examples-customer-service-main-py/",
      "source": "github"
@@ -1822,9 +1822,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-codespar-mcp-shopify/",
      "source": "mcp-registry"
@@ -1938,16 +1938,16 @@
      },
      "metrics": {
       "repo_stars": 73,
-      "repo_pushed_at": "2026-11-09",
+      "repo_pushed_at": "2026-11-10",
       "registry_updated_at": "2026-11-08"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-08T16:41:07Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-servosity-hubspot-mcp/",
      "source": "mcp-registry"
@@ -2017,9 +2017,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-mcparmory-shopify-admin/",
      "source": "mcp-registry"
@@ -2126,9 +2126,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-muhammadtalhamt-intercom/",
      "source": "mcp-registry"
@@ -2200,9 +2200,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-fruggr-zendesk-mcp-server/",
      "source": "mcp-registry"
@@ -2288,9 +2288,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-mindstone-mcp-server-zendesk/",
      "source": "mcp-registry"
@@ -2353,9 +2353,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-michaelrice-zendesk-mcp/",
      "source": "mcp-registry"
@@ -2451,9 +2451,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-hasdata-shopify/",
      "source": "mcp-registry"
@@ -2516,9 +2516,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-alex-brecher-shopify-multi-store/",
      "source": "mcp-registry"
@@ -2606,9 +2606,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-jitbit-jitbit-helpdesk/",
      "source": "mcp-registry"

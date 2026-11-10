@@ -1,8 +1,8 @@
 ---
 name: launch
-description: "When the user wants to plan product and feature launches: Product Hunt, feature announcements, beta and early access, waitlists, go-to-market for a release, launch checklists and go-live QA, and changelogs or release notes. For ongoing marketing after launch, see marketing-ideas. For the offer being launched, see offers."
+description: "When the user wants to plan a product or feature launch, or asks whether it's ready, when to announce, or how to get noticed: Product Hunt, beta and early access, waitlists, release go-to-market, launch checklists, release notes. For marketing after launch, see marketing-ideas. For the offer, see offers."
 metadata:
-  version: 2.2.1
+  version: 2.2.3
 ---
 
 # Launch Strategy

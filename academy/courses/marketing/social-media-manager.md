@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-09
-updated_at: 2026-11-09T20:44:54Z
+version: 2026-11-10
+updated_at: 2026-11-10T04:10:12Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -103,19 +103,19 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Read the required skills, prompts and standards in order.
 
-- [skill] image. When the user wants to create, generate, edit, or optimize marketing images: blog heroes, social graphics, product mockups, profile banners and headers, listing visuals, OG images, and brand assets, with AI image tools o
-  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/image/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-image.md
+- [skill] community-marketing. When the user wants to build or grow an online community, or asks whether a community is worth it, where to host it, or why members stay quiet: Discord, Slack, forums, participation, community-led growth, advocates. For 
+  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/community-marketing/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-community-marketing.md
   license: MIT
-  install: npx skills add coreyhaines31/marketingskills --skill image
+  install: npx skills add coreyhaines31/marketingskills --skill community-marketing
   needs_credentials: false, writes_external: false
-- [skill] influencer-marketing. When the user wants to run influencer, creator, and ambassador partnerships: finding and vetting creators, rates and contracts, briefs, UGC programs, newsletter and podcast sponsorships, FTC disclosure, and measuring ROI
+- [skill] influencer-marketing. When the user wants creator, influencer, or ambassador partnerships, or asks which creators fit, what to pay, which rights to buy, or whether a sponsorship worked: vetting, contracts, briefs, UGC, newsletter and podcast 
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/influencer-marketing/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-influencer-marketing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill influencer-marketing
   needs_credentials: false, writes_external: false
-- [skill] video. When the user wants to create and produce video with AI tools or code: product demos, explainers, AI avatars and talking heads, generation with Veo, Sora, Runway, Kling, or HeyGen, programmatic video with Remotion, and m
+- [skill] video. When the user wants to create video with AI tools or code, or asks which approach to use (screen recording, AI avatar, generated, or templated) or how to make videos repeatably: product demos, AI generation (Veo, Sora, H
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/video/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-video.md
   license: MIT
@@ -257,25 +257,19 @@ Go through the checklist and report the result to your owner.
   license: Apache-2.0
   install: npx skills add anthropics/knowledge-work-plugins --skill performance-report
   needs_credentials: false, writes_external: false
-- [skill] ab-testing. When the user wants to plan, design, and read A/B tests and experiments, or build a growth experimentation program. Use for split tests, sample size and test duration, statistical significance, 'which version is better',
+- [skill] ab-testing. When the user wants to plan, run, or read A/B tests, or asks a judgement call on one: is the result real, can we stop, which version won, is this worth testing at all: sample size, duration, significance, hypotheses, and
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ab-testing/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-ab-testing.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill ab-testing
   needs_credentials: false, writes_external: false
-- [skill] attribution. When the user wants to work out which marketing actually drives conversions and revenue: choosing and reading attribution models, reconciling ad platforms that over-claim, MMM, incrementality and holdout tests, self-repo
+- [skill] attribution. When the user wants to work out which marketing drives revenue, or asks whether a channel is really working, which numbers to trust, or how to credit podcasts and dark social: attribution models, platforms that over-clai
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/attribution/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-attribution.md
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill attribution
   needs_credentials: false, writes_external: false
-- [skill] pricing. When the user wants to decide pricing and packaging: tiers, value metrics, per-seat vs usage, freemium and trials, price increases, willingness-to-pay research, and pricing page audits for humans and AI agents. For in-ap
-  source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/pricing/SKILL.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-pricing.md
-  license: MIT
-  install: npx skills add coreyhaines31/marketingskills --skill pricing
-  needs_credentials: false, writes_external: false
-- [skill] public-relations. When the user wants to earn press and media coverage: journalist pitches, press releases, media lists and kits, reporter requests like HARO and Qwoted, op-eds, podcast guest prep, newsjacking, and crisis statements (publ
+- [skill] public-relations. When the user wants press and media coverage, or asks what to say to a reporter, whether a story is newsworthy, or how to handle a crisis: pitches, press releases, media lists, HARO, op-eds, podcast guest prep, newsjacki
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/public-relations/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-public-relations.md
   license: MIT
@@ -291,6 +285,12 @@ Go through the checklist and report the result to your owner.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-data-storytelling.md
   license: MIT
   install: npx skills add wshobson/agents --skill data-storytelling
+  needs_credentials: false, writes_external: false
+- [skill] kpi-dashboard-design. Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC r
+  source: https://github.com/wshobson/agents/blob/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-business-analytics-skills-kpi-dashboard-design.md
+  license: MIT
+  install: npx skills add wshobson/agents --skill kpi-dashboard-design
   needs_credentials: false, writes_external: false
 
 ### Checklist

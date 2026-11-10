@@ -366,7 +366,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Namely](servers/namely/) | productivity | 21 | API token | [servers/namely/](servers/namely/) |
 | [Papershift](servers/papershift/) | productivity | 30 | API token | [servers/papershift/](servers/papershift/) |
 | [Robly](servers/robly/) | email | 17 | API token | [servers/robly/](servers/robly/) |
-| [Seal Subscriptions](servers/seal-subscriptions/) | payments | 31 | API token | [servers/seal-subscriptions/](servers/seal-subscriptions/) |
+| [Seal Subscriptions](servers/seal-subscriptions/) | payments | 32 | API token | [servers/seal-subscriptions/](servers/seal-subscriptions/) |
 | [SuiteDash](servers/suitedash/) | crm | 20 | API token | [servers/suitedash/](servers/suitedash/) |
 | [UpKeep](servers/upkeep/) | productivity | 33 | API token | [servers/upkeep/](servers/upkeep/) |
 | [AgendaPro](servers/agendapro/) | calendar | 28 | API token | [servers/agendapro/](servers/agendapro/) |

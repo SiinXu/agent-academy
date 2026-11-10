@@ -1,8 +1,8 @@
 ---
 name: social
-description: "When the user wants to create and optimize organic social content for LinkedIn, X, Instagram, TikTok, and Facebook: posts, threads, carousels, short-form video scripts and hooks, repurposing, content calendars, growing a following, build-in-public posts from your commits, and social listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations."
+description: "When the user wants organic social content for LinkedIn, X, Instagram, TikTok, or Facebook, or asks what to post, which format to favor, or from which account: posts, threads, carousels, short-form video scripts, calendars, build-in-public posts from commits, listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations."
 metadata:
-  version: 2.5.0
+  version: 2.5.2
 ---
 
 # Social Content

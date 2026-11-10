@@ -1,8 +1,8 @@
 ---
 name: customer-service-knowledge-base-editor
 description: Agent Academy course for Knowledge base editor (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-09
-updated_at: 2026-11-09T20:44:54Z
+version: 2026-11-10
+updated_at: 2026-11-10T04:10:12Z
 source: https://academy.incidental.site/courses/customer-service/knowledge-base-editor/
 ---
 

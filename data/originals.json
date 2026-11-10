@@ -8549,19 +8549,21 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Gets a website ready for AI assistants: robots.txt fixed, llms.txt drafted, citable gaps listed.",
+"description": "Gets a website ready for AI assistants: robots.txt fixed, llms.txt drafted (access pass).",
 "name": "com.seorecords/geo-seo-records",
 "packages": [],
 "remotes": [
 {
-"headers": [],
+"headers": [
+"x-access-key"
+],
 "type": "streamable-http",
 "url": "https://api.seorecords.com/mcp/geo"
 }
 ],
 "repository": null,
 "title": "GEO SEO Records",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://seorecords.com/en/assistants"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seorecords/geo-seo-records&version=latest"
@@ -8595,19 +8597,21 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Fixes the SEO of any public page: each correction with its value, source and exact HTML tag.",
+"description": "Fixes the SEO of any public page, each fix with its value, source and HTML tag (access pass).",
 "name": "com.seorecords/seo-records-corrector",
 "packages": [],
 "remotes": [
 {
-"headers": [],
+"headers": [
+"x-access-key"
+],
 "type": "streamable-http",
 "url": "https://api.seorecords.com/mcp/corrector"
 }
 ],
 "repository": null,
 "title": "SEO Records Corrector",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://seorecords.com/assistants"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seorecords/seo-records-corrector&version=latest"
@@ -9224,6 +9228,28 @@
 "website": "https://cotlet.dev/integrations/zendesk-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/zendesk&version=latest"
+},
+"mcp-dev-pages-wagner-data-services-shopify-catalog-import": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Free Shopify product CSV checker + done-for-you supplier price list (PDF/Excel) to Shopify CSV.",
+"name": "dev.pages.wagner-data-services/shopify-catalog-import",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://wagner-data-services.pages.dev/mcp"
+}
+],
+"repository": null,
+"title": "Wagner Data: supplier catalogs to Shopify",
+"version": "1.0.0",
+"website": "https://wagner-data-services.pages.dev/agents"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.pages.wagner-data-services/shopify-catalog-import&version=latest"
 },
 "mcp-io-afterlaunch-agentic-growth-marketing": {
 "file": "data/originals/mcp-io-afterlaunch-agentic-growth-marketing.md",
