@@ -11,7 +11,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 |--------|----------|------:|------|------|
 | [Ably](servers/ably/) | realtime | 19 | API token | [servers/ably/](servers/ably/) |
 | [Accelo](servers/accelo/) | project-management | 27 | API token | [servers/accelo/](servers/accelo/) |
-| [Acuity Scheduling](servers/acuity-scheduling/) | calendar | 22 | API token | [servers/acuity-scheduling/](servers/acuity-scheduling/) |
+| [Acuity Scheduling](servers/acuity-scheduling/) | calendar | 23 | API token | [servers/acuity-scheduling/](servers/acuity-scheduling/) |
 | [Aircall](servers/aircall/) | communications | 29 | API token | [servers/aircall/](servers/aircall/) |
 | [All Quiet](servers/all-quiet/) | observability | 15 | API token | [servers/all-quiet/](servers/all-quiet/) |
 | [Amberflo](servers/amberflo/) | usage-metering | 18 | API token | [servers/amberflo/](servers/amberflo/) |
@@ -83,7 +83,6 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Kinde](servers/kinde/) | security | 27 | API token | [servers/kinde/](servers/kinde/) |
 | [Knack](servers/knack/) | no-code-database | 13 | API token | [servers/knack/](servers/knack/) |
 | [KnowledgeOwl](servers/knowledgeowl/) | knowledge-base | 28 | API token | [servers/knowledgeowl/](servers/knowledgeowl/) |
-| [Lago](servers/lago/) | billing | 28 | API token | [servers/lago/](servers/lago/) |
 | [Lambda Labs](servers/lambda-labs/) | ai-infra | 19 | API token | [servers/lambda-labs/](servers/lambda-labs/) |
 | [Laravel Forge](servers/laravel-forge/) | devops | 21 | API token | [servers/laravel-forge/](servers/laravel-forge/) |
 | [Lemon Squeezy](servers/lemonsqueezy/) | payments | 22 | API token | [servers/lemonsqueezy/](servers/lemonsqueezy/) |
@@ -563,4 +562,5 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Givecloud](servers/givecloud/) | fundraising | 14 | API token | [servers/givecloud/](servers/givecloud/) |
 | [TimeTap](servers/timetap/) | scheduling | 13 | API token | [servers/timetap/](servers/timetap/) |
 | [CATS](servers/cats-ats/) | productivity | 38 | OAuth | [servers/cats-ats/](servers/cats-ats/) |
-| [Gladly](servers/gladly/) | support | 20 | API token |
+| [Gladly](servers/gladly/) | support | 20 | API token | [servers/gladly/](servers/gladly/) |
+| [TextUs](servers/textus/) | messaging | 28 | A

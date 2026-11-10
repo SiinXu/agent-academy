@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-11-10T04:10:12Z",
+ "updated_at": "2026-11-10T17:50:52Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -480,6 +480,70 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-design-df3y/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-design-system-extractor",
+     "title": "Design System Extractor",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/design-system-extractor",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "bnistordev",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/design-system-extractor",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot"
+       ],
+       "category": "coding-shipping",
+       "creator": "bnistordev",
+       "firstSeen": "2026-11-10",
+       "integrations": [],
+       "name": "Design System Extractor",
+       "official": false,
+       "page": "https://botsdots.site/templates/design-system-extractor",
+       "risk": "low",
+       "summary": "Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion"
+      }
+     },
+     "install": "https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 3,
+      "first_seen_catalog": "2026-11-10"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-10T17:50:52Z",
+     "checked_at": "2026-11-10T17:50:52Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-design-system-extractor/",
      "source": "botsdots"
     },
     {
@@ -1263,52 +1327,6 @@
      },
      "page": "https://academy.incidental.site/r/uihub-rd-k7a3agp-3d-face-shape-morphing/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-dd1ae7l-3d-character-fashion-models",
-     "title": "3D Fashion Models",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "A series of stylized 3D character renders in normal-map shading, featuring diverse streetwear and futuristic fashion outfits set against a vivid green background.",
-     "summary_lang": "en",
-     "source_url": "https://x.com/ingi_erlingsson/status/2086274940861329645",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@ingi_erlingsson",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T20:44:54Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-rd-dd1ae7l-3d-character-fashion-models/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1392,7 +1410,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 191229,
+      "repo_stars": 192045,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -1437,7 +1455,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1482,7 +1500,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1527,7 +1545,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1572,7 +1590,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1617,7 +1635,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1662,7 +1680,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1707,7 +1725,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1752,7 +1770,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1797,7 +1815,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2468,8 +2486,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2513,8 +2531,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2558,7 +2576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2603,7 +2621,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2648,7 +2666,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2693,7 +2711,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2738,7 +2756,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2783,7 +2801,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -2828,7 +2846,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -2873,7 +2891,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -2918,7 +2936,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26453,
+      "repo_stars": 26468,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

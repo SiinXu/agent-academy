@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-11-10T04:10:12Z",
+ "updated_at": "2026-11-10T17:50:52Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 191229,
+      "repo_stars": 192045,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -560,7 +560,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 112595,
+      "repo_stars": 112908,
       "repo_pushed_at": "2026-11-08"
      },
      "course_step": "3-learn-rules",
@@ -605,7 +605,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -650,7 +650,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -695,7 +695,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -740,7 +740,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -785,7 +785,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -830,7 +830,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -875,7 +875,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -920,7 +920,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26453,
+      "repo_stars": 26468,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1929,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "4-do-it",
@@ -2624,6 +2624,200 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-mrfentmen-adobe-font-metrics-mcp",
+     "title": "io.github.mrfentmen/adobe-font-metrics-mcp",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-engineer",
+      "ui-designer"
+     ],
+     "summary": "Adobe Font Metrics MCP: read, check, lint, scaffold and run code.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/mrfentmen/awesome-servers",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "mrfentmen/awesome-servers",
+     "author": "io.github.mrfentmen",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mrfentmen/adobe-font-metrics-mcp&version=latest",
+      "record": {
+       "description": "Adobe Font Metrics MCP: read, check, lint, scaffold and run code.",
+       "name": "io.github.mrfentmen/adobe-font-metrics-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "@mrfentmen/adobe-font-metrics-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mrfentmen/awesome-servers",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
+     },
+     "install": "npx -y @mrfentmen/adobe-font-metrics-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-10",
+      "registry_updated_at": "2026-11-10"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-10T17:50:52Z",
+     "checked_at": "2026-11-10T17:50:52Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-mrfentmen-adobe-font-metrics-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-nguyendinhphongdx-figma-bridge-mcp",
+     "title": "io.github.nguyendinhphongdx/figma-bridge-mcp",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back",
+     "summary_lang": "en",
+     "source_url": "https://github.com/nguyendinhphongdx/figma-bridge-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-nguyendinhphongdx-figma-bridge-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "nguyendinhphongdx/figma-bridge-mcp",
+     "author": "io.github.nguyendinhphongdx",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/nguyendinhphongdx/figma-bridge-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back",
+       "name": "io.github.nguyendinhphongdx/figma-bridge-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "@hanoilab/figma-bridge-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.6.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/nguyendinhphongdx/figma-bridge-mcp",
+       "title": null,
+       "version": "2.6.1",
+       "website": null
+      }
+     },
+     "install": "npx -y @hanoilab/figma-bridge-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-10",
+      "registry_updated_at": "2026-11-10"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-10T17:50:52Z",
+     "checked_at": "2026-11-10T17:50:52Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-nguyendinhphongdx-figma-bridge-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-oma-kase-icons",
+     "title": "Omakase Icons",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Search free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/neueworld/omakase-icons",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-oma-kase-icons.md",
+     "upstream_raw_url": null,
+     "repo": "neueworld/omakase-icons",
+     "author": "com.oma-kase",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/neueworld/omakase-icons/blob/HEAD/README.md",
+      "record": {
+       "description": "Search free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.",
+       "name": "com.oma-kase/icons",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://icons.oma-kase.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/neueworld/omakase-icons",
+       "title": "Omakase Icons",
+       "version": "0.6.1",
+       "website": "https://icons.oma-kase.com/mcp-server"
+      }
+     },
+     "install": "remote (streamable-http): https://icons.oma-kase.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-10",
+      "registry_updated_at": "2026-11-10"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-10T17:50:52Z",
+     "checked_at": "2026-11-10T17:50:52Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-oma-kase-icons/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-ai-tailwind-tailwind-mcp",
      "title": "Tailwind App",
      "type": "mcp",
@@ -2850,8 +3044,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2895,8 +3089,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2940,7 +3134,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2985,7 +3179,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3030,7 +3224,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3075,7 +3269,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3120,7 +3314,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3165,7 +3359,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -3210,7 +3404,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -3255,7 +3449,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -3300,7 +3494,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26453,
+      "repo_stars": 26468,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

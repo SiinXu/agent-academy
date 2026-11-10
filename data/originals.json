@@ -1342,6 +1342,29 @@
 },
 "url": "https://botsdots.site/templates/design-df3y"
 },
+"botsdots-design-system-extractor": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [],
+"add": "https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot"
+],
+"category": "coding-shipping",
+"creator": "bnistordev",
+"firstSeen": "2026-11-10",
+"integrations": [],
+"name": "Design System Extractor",
+"official": false,
+"page": "https://botsdots.site/templates/design-system-extractor",
+"risk": "low",
+"summary": "Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion"
+},
+"url": "https://botsdots.site/templates/design-system-extractor"
+},
 "botsdots-design-systems": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -1828,25 +1851,25 @@
 "botsdots-google-ads-manager-euap": {
 "kind": "excerpt",
 "label": "botsdots",
-"license": "facts-only",
+"license": "CC-BY-4.0",
 "record": {
 "access": [
 "code"
 ],
 "add": "https://x.ai/bot/EuApBJ4lniTVv-BAth0ru",
-"cadence": "weekly",
+"cadence": "on-demand",
 "catalog_sources": [
-"Public x.ai share page"
+"GrokBot HQ (CC BY 4.0)"
 ],
 "category": "customer-sales",
-"creator": null,
-"firstSeen": "2026-11-07",
+"creator": "AdPlugMCP",
+"firstSeen": "2026-11-09",
 "integrations": [],
 "name": "Google Ads Manager",
 "official": false,
 "page": "https://botsdots.site/templates/google-ads-manager-euap",
 "risk": "medium",
-"summary": "Runs Google Ads through AdPlug's hosted Google Ads connector: audits, search terms and negatives, Search builds, reports and weekly checks."
+"summary": "Audits Google Ads, mines search terms for negatives, and builds campaigns you approve."
 },
 "url": "https://botsdots.site/templates/google-ads-manager-euap"
 },
@@ -5241,6 +5264,31 @@
 },
 "url": "https://botsdots.site/templates/ticket-desk"
 },
+"botsdots-ticket-desk-n9wm": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC-BY-4.0",
+"record": {
+"access": [
+"inbox"
+],
+"add": "https://x.ai/bot/N9wmmZ-EYncLJDllPUyZz",
+"cadence": "on-demand",
+"catalog_sources": [
+"GrokBot HQ (CC BY 4.0)"
+],
+"category": "inbox-calendar",
+"creator": "ALL_Jonah",
+"firstSeen": "2026-11-09",
+"integrations": [],
+"name": "Ticket Desk",
+"official": false,
+"page": "https://botsdots.site/templates/ticket-desk-n9wm",
+"risk": "medium",
+"summary": "Sorts a small support inbox and drafts replies for a human to send."
+},
+"url": "https://botsdots.site/templates/ticket-desk-n9wm"
+},
 "botsdots-tiffany": {
 "kind": "excerpt",
 "label": "botsdots",
@@ -5474,6 +5522,34 @@
 "summary": "Redesigns and maintains your business website: mobile-first, fast, accessible pages built only from true facts, with previews before anything goes live."
 },
 "url": "https://botsdots.site/templates/web-designer"
+},
+"botsdots-web-developer": {
+"kind": "excerpt",
+"label": "botsdots",
+"license": "CC0-1.0",
+"record": {
+"access": [
+"browser",
+"code"
+],
+"add": "https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI",
+"cadence": "on-demand",
+"catalog_sources": [
+"majiayu000/awesome-grok-bot"
+],
+"category": "coding-shipping",
+"creator": "bnistordev",
+"firstSeen": "2026-11-10",
+"integrations": [
+"github"
+],
+"name": "Web Developer",
+"official": false,
+"page": "https://botsdots.site/templates/web-developer",
+"risk": "medium",
+"summary": "Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests"
+},
+"url": "https://botsdots.site/templates/web-developer"
 },
 "botsdots-webbuilder-website-seo-expert": {
 "kind": "excerpt",
@@ -6094,6 +6170,28 @@
 "website": "https://www.inbrix.ai/en"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.inbrix/helpdesk&version=latest"
+},
+"mcp-ai-onlyfonts-onlyfonts": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Find free, openly licensed fonts by style, use or language, and get the CSS to use them.",
+"name": "ai.onlyfonts/onlyfonts",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.onlyfonts.ai/mcp"
+}
+],
+"repository": null,
+"title": "OnlyFonts",
+"version": "1.0.0",
+"website": "https://onlyfonts.ai/docs/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.onlyfonts/onlyfonts&version=latest"
 },
 "mcp-ai-openhelm-seo-growth": {
 "kind": "excerpt",
@@ -7868,6 +7966,30 @@
 "truncated": false,
 "url": "https://github.com/LottieFiles/generative-icons/blob/HEAD/README.md"
 },
+"mcp-com-magistermarketing-magister": {
+"file": "data/originals/mcp-com-magistermarketing-magister.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "AI marketing agent: audits, plans, SEO, AI visibility, social posting, and Google, Meta & TikTok ads",
+"name": "com.magistermarketing/magister",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.magistermarketing.com/mcp"
+}
+],
+"repository": "https://github.com/Magister-Marketing/magister-mcp",
+"title": "Magister Marketing",
+"version": "1.0.0",
+"website": "https://magistermarketing.com/mcp"
+},
+"truncated": false,
+"url": "https://github.com/Magister-Marketing/magister-mcp/blob/HEAD/README.md"
+},
 "mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker": {
 "file": "data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md",
 "kind": "full",
@@ -8212,12 +8334,36 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nuxtseo/nuxt-seo&version=latest"
 },
+"mcp-com-oma-kase-icons": {
+"file": "data/originals/mcp-com-oma-kase-icons.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Search free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.",
+"name": "com.oma-kase/icons",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://icons.oma-kase.com/mcp"
+}
+],
+"repository": "https://github.com/neueworld/omakase-icons",
+"title": "Omakase Icons",
+"version": "0.6.1",
+"website": "https://icons.oma-kase.com/mcp-server"
+},
+"truncated": false,
+"url": "https://github.com/neueworld/omakase-icons/blob/HEAD/README.md"
+},
 "mcp-com-oskivo-shopify": {
 "kind": "excerpt",
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Ask your AI about your Shopify shop: commissions, production, shipping, line sheets, materials.",
+"description": "Ask your AI about your Shopify shop: commissions, production, shipping, line sheets and materials.",
 "name": "com.oskivo/shopify",
 "packages": [],
 "remotes": [
@@ -8227,9 +8373,9 @@
 "url": "https://mcp.oskivo.com/mcp"
 }
 ],
-"repository": null,
+"repository": "https://github.com/deanybob2020-oss/oskivo-mcp",
 "title": "Oskivo for Shopify",
-"version": "1.0.0",
+"version": "1.0.1",
 "website": "https://oskivo.com/ai/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.oskivo/shopify&version=latest"
@@ -8281,11 +8427,12 @@
 "url": "https://github.com/ops864/legal-marketing-data/blob/HEAD/README.md"
 },
 "mcp-com-roasexpert-tools-seo-audit": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
+"file": "data/originals/mcp-com-roasexpert-tools-seo-audit.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
 "record": {
-"description": "Free SEO and AI search readiness audit: score out of 100, platform detection, fixes per CMS.",
+"description": "Free AI SEO audit, product page check, agent readiness check and site comparison. No key.",
 "name": "com.roasexpert.tools/seo-audit",
 "packages": [],
 "remotes": [
@@ -8295,12 +8442,35 @@
 "url": "https://tools.roasexpert.com/mcp"
 }
 ],
-"repository": null,
+"repository": "https://github.com/ROAS-Expert/ai-seo-tools",
 "title": "ROAS Expert free AI SEO audit",
-"version": "1.0.0",
+"version": "1.1.0",
 "website": "https://tools.roasexpert.com/#mcp"
 },
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.roasexpert.tools/seo-audit&version=latest"
+"truncated": false,
+"url": "https://github.com/ROAS-Expert/ai-seo-tools/blob/HEAD/README.md"
+},
+"mcp-com-romeoseo-romeoseo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Your SEO plan, keyword research, Google results and article drafts from RomeoSEO.",
+"name": "com.romeoseo/romeoseo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://app.romeoseo.com/mcp"
+}
+],
+"repository": null,
+"title": "RomeoSEO",
+"version": "1.0.0",
+"website": "https://romeoseo.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.romeoseo/romeoseo&version=latest"
 },
 "mcp-com-scraptik-tiktok": {
 "kind": "excerpt",
@@ -9031,7 +9201,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Campaign Monitor MCP server: get campaign report, list who did not open.",
+"description": "Campaign Monitor email marketing for brands MCP server: get campaign report, list who did not open.",
 "name": "dev.cotlet/campaign-monitor",
 "packages": [],
 "remotes": [
@@ -9050,7 +9220,7 @@
 ],
 "repository": null,
 "title": "Campaign Monitor MCP Server and API by Cotlet",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://cotlet.dev/integrations/campaign-monitor-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/campaign-monitor&version=latest"
@@ -9060,7 +9230,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Chatwoot MCP server: list conversations, reply to conversation, add private note.",
+"description": "Chatwoot customer support inbox MCP server: list conversations, reply to conversation.",
 "name": "dev.cotlet/chatwoot",
 "packages": [],
 "remotes": [
@@ -9079,7 +9249,7 @@
 ],
 "repository": null,
 "title": "Chatwoot MCP Server and API by Cotlet",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://cotlet.dev/integrations/chatwoot-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/chatwoot&version=latest"
@@ -9089,7 +9259,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Gladly MCP server: list conversations, search customers, reply to customer, add note, apply topics.",
+"description": "Gladly retail customer support MCP server: list conversations, search customers, reply to customer.",
 "name": "dev.cotlet/gladly",
 "packages": [],
 "remotes": [
@@ -9108,7 +9278,7 @@
 ],
 "repository": null,
 "title": "Gladly MCP Server and API by Cotlet",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://cotlet.dev/integrations/gladly-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/gladly&version=latest"
@@ -9118,7 +9288,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Gorgias MCP server: search tickets, reply to ticket, update ticket, apply macro, merge tickets.",
+"description": "Gorgias ecommerce customer support MCP server: search tickets, reply to ticket, update ticket.",
 "name": "dev.cotlet/gorgias",
 "packages": [],
 "remotes": [
@@ -9137,7 +9307,7 @@
 ],
 "repository": null,
 "title": "Gorgias MCP Server and API by Cotlet",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://cotlet.dev/integrations/gorgias-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/gorgias&version=latest"
@@ -9147,7 +9317,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Kustomer MCP server: search conversations, reply to conversation, add internal note.",
+"description": "Kustomer customer support platform MCP server: search conversations, reply to conversation.",
 "name": "dev.cotlet/kustomer",
 "packages": [],
 "remotes": [
@@ -9166,7 +9336,7 @@
 ],
 "repository": null,
 "title": "Kustomer MCP Server and API by Cotlet",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://cotlet.dev/integrations/kustomer-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/kustomer&version=latest"
@@ -9176,7 +9346,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "LiveChat (Text) MCP server: list chats, reply in chat, tag chat, transfer chat, archive chat.",
+"description": "LiveChat (Text) customer support live chat MCP server: list chats, reply in chat, tag chat.",
 "name": "dev.cotlet/livechat",
 "packages": [],
 "remotes": [
@@ -9195,7 +9365,7 @@
 ],
 "repository": null,
 "title": "LiveChat (Text) MCP Server and API by Cotlet",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://cotlet.dev/integrations/livechat-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/livechat&version=latest"
@@ -9205,7 +9375,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Zendesk MCP server: list tickets, reply to ticket, update ticket, apply macro, add internal note.",
+"description": "Zendesk customer support platform MCP server: list tickets, reply to ticket, update ticket.",
 "name": "dev.cotlet/zendesk",
 "packages": [],
 "remotes": [
@@ -9224,7 +9394,7 @@
 ],
 "repository": null,
 "title": "Zendesk MCP Server and API by Cotlet",
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://cotlet.dev/integrations/zendesk-api-mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/zendesk&version=latest"
@@ -9250,6 +9420,30 @@
 "website": "https://wagner-data-services.pages.dev/agents"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.pages.wagner-data-services/shopify-catalog-import&version=latest"
+},
+"mcp-dev-workers-cybermax-tools-cybermax-shopify-scraper": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Cartlark: products, prices, sale prices and stock from Shopify or WooCommerce stores, with alerts.",
+"name": "dev.workers.cybermax-tools.cybermax/shopify-scraper",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=cybermax/shopify-scraper&via=mcp-registry"
+}
+],
+"repository": null,
+"title": "Cartlark: Shopify & WooCommerce Scraper",
+"version": "1.0.0",
+"website": "https://cybermaxtools.com/store/cartlark-shopify-scraper/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.cybermax-tools.cybermax/shopify-scraper&version=latest"
 },
 "mcp-io-afterlaunch-agentic-growth-marketing": {
 "file": "data/originals/mcp-io-afterlaunch-agentic-growth-marketing.md",
@@ -9479,13 +9673,13 @@
 "id": "@alvinindra/figma-mcp-rust",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.1"
+"version": "0.2.2"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/alvinindra/figma-mcp-rust",
 "title": null,
-"version": "0.2.1",
+"version": "0.2.2",
 "website": null
 },
 "truncated": false,
@@ -9953,6 +10147,28 @@
 },
 "truncated": false,
 "url": "https://github.com/BV-Venky/excalidraw-architect-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-ceadigital-instagram-tiktok-youtube-transcript-scraper": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Extract time-coded spoken transcripts, 0-3s viral hooks, visual OCR captions & UGC clone briefs.",
+"name": "io.github.ceadigital/instagram-tiktok-youtube-transcript-scraper",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://ceadigital.io/mcp"
+}
+],
+"repository": null,
+"title": "Instagram, TikTok & YouTube Transcript Scraper — Hooks & OCR",
+"version": "1.0.0",
+"website": "https://ceadigital.io/tools"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.ceadigital/instagram-tiktok-youtube-transcript-scraper&version=latest"
 },
 "mcp-io-github-cesteral-tiktok-mcp": {
 "file": "data/originals/mcp-io-github-cesteral-tiktok-mcp.md",
@@ -11762,6 +11978,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mindstone/mcp-server-zendesk&version=latest"
 },
+"mcp-io-github-mrfentmen-adobe-font-metrics-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Adobe Font Metrics MCP: read, check, lint, scaffold and run code.",
+"name": "io.github.mrfentmen/adobe-font-metrics-mcp",
+"packages": [
+{
+"env": [],
+"id": "@mrfentmen/adobe-font-metrics-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/mrfentmen/awesome-servers",
+"title": null,
+"version": "1.0.0",
+"website": null
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mrfentmen/adobe-font-metrics-mcp&version=latest"
+},
 "mcp-io-github-mrfentmen-adobe-premiere-mcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -11792,30 +12032,6 @@
 "website": null
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mrfentmen/adobe-premiere-mcp&version=latest"
-},
-"mcp-io-github-mrfentmen-fontsource-mcp": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Browse open source fonts from Fontsource. No key required.",
-"name": "io.github.mrfentmen/fontsource-mcp",
-"packages": [
-{
-"env": [],
-"id": "fontsource-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "1.0.2"
-}
-],
-"remotes": [],
-"repository": "https://github.com/mrfentmen/awesome-servers",
-"title": null,
-"version": "1.0.2",
-"website": null
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mrfentmen/fontsource-mcp&version=latest"
 },
 "mcp-io-github-mrfentmen-mixpanel-mcp": {
 "kind": "excerpt",
@@ -12071,6 +12287,32 @@
 },
 "truncated": false,
 "url": "https://github.com/Neschadin/sendgrid-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-nguyendinhphongdx-figma-bridge-mcp": {
+"file": "data/originals/mcp-io-github-nguyendinhphongdx-figma-bridge-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back",
+"name": "io.github.nguyendinhphongdx/figma-bridge-mcp",
+"packages": [
+{
+"env": [],
+"id": "@hanoilab/figma-bridge-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "2.6.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/nguyendinhphongdx/figma-bridge-mcp",
+"title": null,
+"version": "2.6.1",
+"website": null
+},
+"truncated": false,
+"url": "https://github.com/nguyendinhphongdx/figma-bridge-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-nntoan-figma-mcp-rust": {
 "file": "data/originals/mcp-io-github-nntoan-figma-mcp-rust.md",
@@ -13139,16 +13381,16 @@
 "secret": null
 }
 ],
-"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.7/hubspot-mcp.mcpb",
+"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.8/hubspot-mcp.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.2.7"
+"version": "0.2.8"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/servosity/msp-skills",
 "title": "HubSpot MCP",
-"version": "0.2.7",
+"version": "0.2.8",
 "website": null
 },
 "truncated": true,
@@ -13456,6 +13698,32 @@
 },
 "truncated": false,
 "url": "https://github.com/workingmodel/wm-figma-vector-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-wulfcare-shopify-app-reviews": {
+"file": "data/originals/mcp-io-github-wulfcare-shopify-app-reviews.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Every review of any Shopify App Store app: stars, text, date, merchant store, replies.",
+"name": "io.github.wulfcare/shopify-app-reviews",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=wulfcare/shopify-app-store-reviews-scraper"
+}
+],
+"repository": "https://github.com/wulfcare/scrapers",
+"title": "Shopify App Store Reviews",
+"version": "1.0.0",
+"website": "https://github.com/wulfcare/scrapers"
+},
+"truncated": false,
+"url": "https://github.com/wulfcare/scrapers/blob/HEAD/README.md"
 },
 "mcp-io-github-xpaysh-marketing": {
 "file": "data/originals/mcp-io-github-xpaysh-marketing.md",
@@ -13830,7 +14098,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.36.5",
+"version": "1.37.1",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -16407,6 +16675,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-cash-app-brand-guidelines": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-cdiscount-jumping-max": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -21189,6 +21464,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-lobehub-lobe-mygo": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-gh-mengto-threeui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -21261,6 +21543,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-seokwoooo-lucian-uxui-prompt": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-shadcn-labs-mdxcn": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -22479,6 +22768,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-0h0clcf-3d-tornado-card-stream": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-0hnbtfz-hex-website-motion": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -25481,6 +25777,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-daymzqf-mascot-logo-collection": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-db6ez9r-pumpkin-bot-animation": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26252,6 +26555,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-gjq82ti-vector-creature-illustration": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-gk72os6-kinetic-text-motion-studies": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -27126,6 +27436,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-k584efx-rare-disease-cluster-explorer": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-k58byop-gatekeeper-letter-reveal": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -27463,6 +27780,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-lrqqbee-amie": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-lrtfzrm-liquid-stepper-interaction": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -29570,6 +29894,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-ukxeowa-ai-workspace-login-screen": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-ulg3ubr-ik-variations": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -30229,6 +30560,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-xiw8k05-3d-vinyl-player-experience": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-xj080k0-banking-app-work-hours": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

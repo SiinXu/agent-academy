@@ -531,6 +531,336 @@
 "type": "system-prompt",
 "industry": "marketing",
 "fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-io-github-alvinindra-figma-mcp-rust",
+"type": "mcp",
+"industry": "design",
+"fields_changed": [
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-io-github-servosity-hubspot-mcp",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-io-usefulapi-zendesk",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-dev-cotlet-zendesk",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-dev-cotlet-gorgias",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-dev-cotlet-livechat",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-dev-cotlet-kustomer",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-dev-cotlet-gladly",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-dev-cotlet-chatwoot",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-com-oskivo-shopify",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-dev-workers-cybermax-tools-cybermax-shopify-scraper",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-io-github-wulfcare-shopify-app-reviews",
+"type": "mcp",
+"industry": "customer-service",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-io-github-ceadigital-instagram-tiktok-youtube-transcript-scraper",
+"type": "mcp",
+"industry": "marketing",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-com-roasexpert-tools-seo-audit",
+"type": "mcp",
+"industry": "marketing",
+"fields_changed": [
+"summary_source",
+"license",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-com-romeoseo-romeoseo",
+"type": "mcp",
+"industry": "marketing",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-com-magistermarketing-magister",
+"type": "mcp",
+"industry": "marketing",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "mcp-dev-cotlet-campaign-monitor",
+"type": "mcp",
+"industry": "marketing",
+"fields_changed": [
+"summary_source",
+"roles",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-io-github-nguyendinhphongdx-figma-bridge-mcp",
+"type": "mcp",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-io-github-mrfentmen-adobe-font-metrics-mcp",
+"type": "mcp",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-com-oma-kase-icons",
+"type": "mcp",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "mcp-ai-onlyfonts-onlyfonts",
+"type": "mcp",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "uihub-gh-shadcn-labs-mdxcn",
+"type": "style-library",
+"industry": "design",
+"fields_changed": [
+"status"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "uihub-awd-cdiscount-jumping-max",
+"type": "style-library",
+"industry": "design",
+"fields_changed": [
+"status"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-rd-daymzqf-mascot-logo-collection",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-rd-xj080k0-banking-app-work-hours",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-gh-lobehub-lobe-mygo",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-rd-ukxeowa-ai-workspace-login-screen",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-rd-lrtfzrm-liquid-stepper-interaction",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-rd-gk72os6-kinetic-text-motion-studies",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-rd-k584efx-rare-disease-cluster-explorer",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "uihub-rd-0hnbtfz-hex-website-motion",
+"type": "style-library",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "botsdots-design-system-extractor",
+"type": "template",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "botsdots-web-developer",
+"type": "template",
+"industry": "design",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "updated",
+"id": "botsdots-google-ads-manager-euap",
+"type": "template",
+"industry": "marketing",
+"fields_changed": [
+"summary_source",
+"content_hash"
+]
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "added",
+"id": "botsdots-ticket-desk-n9wm",
+"type": "template",
+"industry": "customer-service",
+"fields_changed": []
+},
+{
+"at": "2026-11-10T17:50:52Z",
+"op": "removed",
+"id": "mcp-io-github-mrfentmen-fontsource-mcp",
+"type": "mcp",
+"industry": "design",
+"fields_changed": []
 }
 ]
 }

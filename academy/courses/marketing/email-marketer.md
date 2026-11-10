@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-10
-updated_at: 2026-11-10T04:10:12Z
+updated_at: 2026-11-10T17:50:52Z
 source: https://academy.incidental.site/courses/marketing/email-marketer/
 ---
 
@@ -205,6 +205,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @neschadin/sendgrid-mcp
   needs_credentials: true, writes_external: true
+- [mcp] Campaign Monitor MCP Server and API by Cotlet. Campaign Monitor email marketing for brands MCP server: get campaign report, list who did not open.
+  source: https://cotlet.dev/integrations/campaign-monitor-api-mcp-server
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://cotlet.dev/mcp/v1/campaign-monitor/connect
+  needs_credentials: true, writes_external: false
 - [mcp] Chipp Newsletters. Chipp: newsletter topics, audiences, contacts, campaigns and sends
   source: https://chipp.ai/docs/guides/mcp/sub-mcps
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -261,12 +266,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @pipeworx/mcp-mailchimp
   needs_credentials: true, writes_external: true
-- [mcp] Mailchimp MCP by InsightfulPipe. Hosted Mailchimp MCP server for Claude, ChatGPT and Cursor, with each action switched per account.
-  source: https://github.com/Insightful-Pipe/mailchimp-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-mailchimp.md
-  license: MIT
-  install: remote (streamable-http): https://mailchimp.insightfulmcp.com/
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

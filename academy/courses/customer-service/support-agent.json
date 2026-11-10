@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-10T04:10:12Z",
+ "updated_at": "2026-11-10T17:50:52Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1682,7 +1682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144317,
+      "repo_stars": 144354,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "4-do-it",
@@ -1727,7 +1727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30589,
+      "repo_stars": 30600,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "4-do-it",
@@ -1906,16 +1906,16 @@
            "secret": null
           }
          ],
-         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.7/hubspot-mcp.mcpb",
+         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.8/hubspot-mcp.mcpb",
          "transport": "stdio",
          "type": "mcpb",
-         "version": "0.2.7"
+         "version": "0.2.8"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/servosity/msp-skills",
        "title": "HubSpot MCP",
-       "version": "0.2.7",
+       "version": "0.2.8",
        "website": null
       }
      },
@@ -1939,12 +1939,12 @@
      "metrics": {
       "repo_stars": 73,
       "repo_pushed_at": "2026-11-10",
-      "registry_updated_at": "2026-11-08"
+      "registry_updated_at": "2026-11-10"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-11-08T16:41:07Z",
+     "updated_at": "2026-11-10T17:50:52Z",
      "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
       "source": 200
@@ -2193,7 +2193,7 @@
      },
      "metrics": {
       "repo_stars": 15,
-      "repo_pushed_at": "2026-11-09",
+      "repo_pushed_at": "2026-11-10",
       "registry_updated_at": "2026-11-02"
      },
      "course_step": "4-do-it",
@@ -2281,7 +2281,7 @@
      },
      "metrics": {
       "repo_stars": 14,
-      "repo_pushed_at": "2026-11-08",
+      "repo_pushed_at": "2026-11-10",
       "registry_updated_at": "2026-08-09"
      },
      "course_step": "4-do-it",

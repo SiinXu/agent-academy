@@ -2,7 +2,7 @@
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-10
-updated_at: 2026-11-10T04:10:12Z
+updated_at: 2026-11-10T17:50:52Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1655 items
+- minimal: 1663 items
 - motion: 648 items
-- 3d: 638 items
+- 3d: 639 items
 - editorial: 591 items
-- playful: 563 items
-- gradient: 287 items
+- playful: 565 items
+- gradient: 288 items
 - retro: 117 items
 - dark-tech: 110 items
 - glass: 57 items
@@ -315,6 +315,23 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://draw.404040.net/
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://draw.404040.net/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] io.github.mrfentmen/adobe-font-metrics-mcp. Adobe Font Metrics MCP: read, check, lint, scaffold and run code.
+  source: https://github.com/mrfentmen/awesome-servers
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: npx -y @mrfentmen/adobe-font-metrics-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.nguyendinhphongdx/figma-bridge-mcp. Bidirectional Figma MCP — AI draws UI on Figma canvas, reads designs back
+  source: https://github.com/nguyendinhphongdx/figma-bridge-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-nguyendinhphongdx-figma-bridge-mcp.md
+  license: MIT
+  install: npx -y @hanoilab/figma-bridge-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] Omakase Icons. Search free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.
+  source: https://github.com/neueworld/omakase-icons
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-oma-kase-icons.md
+  license: MIT
+  install: remote (streamable-http): https://icons.oma-kase.com/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Tailwind App. Tailwind MCP server — list Pinterest accounts and create, schedule, and manage Pinterest posts.
   source: https://api-docs.tailwind.ai/mcp

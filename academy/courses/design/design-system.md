@@ -2,7 +2,7 @@
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-10
-updated_at: 2026-11-10T04:10:12Z
+updated_at: 2026-11-10T17:50:52Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1655 items
+- minimal: 1663 items
 - motion: 648 items
-- 3d: 638 items
+- 3d: 639 items
 - editorial: 591 items
-- playful: 563 items
-- gradient: 287 items
+- playful: 565 items
+- gradient: 288 items
 - retro: 117 items
 - dark-tech: 110 items
 - glass: 57 items
@@ -102,6 +102,11 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/kUdKaZJJ2_WhEcssQABhA
   needs_credentials: false, writes_external: true
+- [template] Web Developer. Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests
+  source: https://botsdots.site/templates/web-developer
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI
+  needs_credentials: true, writes_external: false
 - [design-system] Adobe Spectrum. The design language across Adobe’s product suite
   source: https://spectrum.adobe.com/
   license: see source (listed via UI Hub)
@@ -156,10 +161,6 @@ First case to read: how this site was designed by an agent: https://academy.inci
   needs_credentials: false, writes_external: false
 - [design-system] Samsung One UI. Samsung’s official layout, grid, large-screen and foldable guidelines
   source: https://developer.samsung.com/one-ui
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [design-system] Shopify Polaris. Shopify’s admin design system, now built mainly on Web Components
-  source: https://polaris.shopify.com/
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

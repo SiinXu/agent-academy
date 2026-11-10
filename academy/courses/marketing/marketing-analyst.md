@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-10
-updated_at: 2026-11-10T04:10:12Z
+updated_at: 2026-11-10T17:50:52Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -148,11 +148,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-matjmat-eulerian-marketing-platform-mcp.md
   license: MIT
   install: uvx eulerian-marketing-platform
-  needs_credentials: true, writes_external: false
-- [mcp] Campaign Monitor MCP Server and API by Cotlet. Campaign Monitor MCP server: get campaign report, list who did not open.
-  source: https://cotlet.dev/integrations/campaign-monitor-api-mcp-server
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://cotlet.dev/mcp/v1/campaign-monitor/connect
   needs_credentials: true, writes_external: false
 - [mcp] com.jojapi/similarweb. Similarweb: Similarweb API allows you to access powerful insights into web analytics and online.
   source: https://jojapi.com/hub/api/similarweb

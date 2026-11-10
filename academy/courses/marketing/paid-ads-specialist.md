@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-10
-updated_at: 2026-11-10T04:10:12Z
+updated_at: 2026-11-10T17:50:52Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -253,6 +253,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.deepthought.marketing/mcp
   needs_credentials: true, writes_external: true
+- [mcp] Instagram, TikTok & YouTube Transcript Scraper — Hooks & OCR. Extract time-coded spoken transcripts, 0-3s viral hooks, visual OCR captions & UGC clone briefs.
+  source: https://ceadigital.io/tools
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://ceadigital.io/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.deapi-ai/tiktok-transcript-scraper. AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.
   source: https://github.com/deapi-ai/tiktok-transcript-mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -269,11 +274,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md
   license: MIT
   install: npx -y @ssavecc/mcp-server
-  needs_credentials: true, writes_external: false
-- [mcp] TikTok Ads. Gasto, campanhas, grupos e anúncios do TikTok; pausar e ajustar com aprovação
-  source: https://ciromaciel.click/mcp/tiktok-ads
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://tiktok-ads.mcp.myagents.click/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

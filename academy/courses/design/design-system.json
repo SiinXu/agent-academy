@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-11-10T04:10:12Z",
+ "updated_at": "2026-11-10T17:50:52Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -632,6 +632,77 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-brand-guardian/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-web-developer",
+     "title": "Web Developer",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/web-developer",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "bnistordev",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/web-developer",
+      "record": {
+       "access": [
+        "browser",
+        "code"
+       ],
+       "add": "https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot"
+       ],
+       "category": "coding-shipping",
+       "creator": "bnistordev",
+       "firstSeen": "2026-11-10",
+       "integrations": [
+        "github"
+       ],
+       "name": "Web Developer",
+       "official": false,
+       "page": "https://botsdots.site/templates/web-developer",
+       "risk": "medium",
+       "summary": "Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests"
+      }
+     },
+     "install": "https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "github"
+      ]
+     },
+     "metrics": {
+      "score": 3,
+      "first_seen_catalog": "2026-11-10"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-10T17:50:52Z",
+     "checked_at": "2026-11-10T17:50:52Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-web-developer/",
      "source": "botsdots"
     },
     {
@@ -1277,52 +1348,6 @@
      },
      "page": "https://academy.incidental.site/r/uihub-ued-samsung-one-ui/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-shopify-polaris",
-     "title": "Shopify Polaris",
-     "type": "design-system",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "Shopify’s admin design system, now built mainly on Web Components",
-     "summary_lang": "en",
-     "source_url": "https://polaris.shopify.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Shopify",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-09T20:44:54Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-ued-shopify-polaris/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1406,7 +1431,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 191229,
+      "repo_stars": 192045,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -1451,7 +1476,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 191229,
+      "repo_stars": 192045,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -1496,8 +1521,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1541,8 +1566,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1586,8 +1611,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1631,7 +1656,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1676,7 +1701,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1721,7 +1746,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1766,7 +1791,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1811,7 +1836,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1856,7 +1881,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1901,7 +1926,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1946,7 +1971,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -1991,7 +2016,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -2036,7 +2061,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26453,
+      "repo_stars": 26468,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -2813,7 +2838,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144317,
+      "repo_stars": 144354,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "4-do-it",
@@ -2858,7 +2883,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "4-do-it",
@@ -2903,13 +2928,13 @@
          "id": "@alvinindra/figma-mcp-rust",
          "transport": "stdio",
          "type": "npm",
-         "version": "0.2.1"
+         "version": "0.2.2"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/alvinindra/figma-mcp-rust",
        "title": null,
-       "version": "0.2.1",
+       "version": "0.2.2",
        "website": null
       }
      },
@@ -2923,13 +2948,13 @@
      },
      "metrics": {
       "repo_stars": 79,
-      "repo_pushed_at": "2026-10-12",
-      "registry_updated_at": "2026-10-12"
+      "repo_pushed_at": "2026-11-10",
+      "registry_updated_at": "2026-11-10"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-03T03:29:34Z",
+     "updated_at": "2026-11-10T17:50:52Z",
      "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
       "source": 200
@@ -3722,8 +3747,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3767,8 +3792,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 147443,
-      "repo_pushed_at": "2026-11-07"
+      "repo_stars": 147712,
+      "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3812,7 +3837,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 55483,
+      "repo_stars": 55725,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3857,7 +3882,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3902,7 +3927,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3947,7 +3972,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3992,7 +4017,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42369,
+      "repo_stars": 42393,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -4037,7 +4062,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -4082,7 +4107,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -4127,7 +4152,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35280,
+      "repo_stars": 35333,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -4172,7 +4197,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26453,
+      "repo_stars": 26468,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

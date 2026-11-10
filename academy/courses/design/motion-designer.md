@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-10
-updated_at: 2026-11-10T04:10:12Z
+updated_at: 2026-11-10T17:50:52Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1655 items
+- minimal: 1663 items
 - motion: 648 items
-- 3d: 638 items
+- 3d: 639 items
 - editorial: 591 items
-- playful: 563 items
-- gradient: 287 items
+- playful: 565 items
+- gradient: 288 items
 - retro: 117 items
 - dark-tech: 110 items
 - glass: 57 items
@@ -88,6 +88,11 @@ First case to read: how this site was designed by an agent: https://academy.inci
   source: https://botsdots.site/templates/design-df3y
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dF-3_YZzohRdycguTTUwA
+  needs_credentials: false, writes_external: false
+- [template] Design System Extractor. Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion
+  source: https://botsdots.site/templates/design-system-extractor
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u
   needs_credentials: false, writes_external: false
 - [style-library] 'kin. ‘kin are a creative commercial interior design, branding and graphic design studio.
   source: https://by-kin.com/
@@ -155,10 +160,6 @@ First case to read: how this site was designed by an agent: https://academy.inci
   needs_credentials: false, writes_external: false
 - [style-library] 3D Face Morphing. A surreal 3D animation study where a hyper-realistic male face morphs between geometric and organic shapes, from spheres and cubes to melting puddles, on a vivid blue background.
   source: https://x.com/ingi_erlingsson/status/2085892337092162035
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 3D Fashion Models. A series of stylized 3D character renders in normal-map shading, featuring diverse streetwear and futuristic fashion outfits set against a vivid green background.
-  source: https://x.com/ingi_erlingsson/status/2086274940861329645
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
