@@ -7906,13 +7906,13 @@
 "id": "@keyline-icons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "2.6.0"
+"version": "2.6.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/keyline-icons/keyline-icons",
 "title": "Keyline Icons",
-"version": "2.6.0",
+"version": "2.6.1",
 "website": "https://keylineicons.com"
 },
 "truncated": false,
@@ -8352,7 +8352,7 @@
 ],
 "repository": "https://github.com/neueworld/omakase-icons",
 "title": "Omakase Icons",
-"version": "0.7.0",
+"version": "0.8.0",
 "website": "https://icons.oma-kase.com/mcp-server"
 },
 "truncated": false,
@@ -8425,6 +8425,28 @@
 },
 "truncated": false,
 "url": "https://github.com/ops864/legal-marketing-data/blob/HEAD/README.md"
+},
+"mcp-com-pronovahq-pronova-sales-hubspot": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Sales-rep jobs on your HubSpot CRM: daily brief, triage, call prep, forecast. Writes need approval.",
+"name": "com.pronovahq/pronova-sales-hubspot",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.pronovahq.com/mcp"
+}
+],
+"repository": null,
+"title": "Pronova Sales for HubSpot",
+"version": "0.2.0",
+"website": "https://mcp.pronovahq.com/docs"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.pronovahq/pronova-sales-hubspot&version=latest"
 },
 "mcp-com-roasexpert-tools-seo-audit": {
 "file": "data/originals/mcp-com-roasexpert-tools-seo-audit.md",
@@ -11045,13 +11067,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.8.0"
+"version": "3.10.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.8.0",
+"version": "3.10.0",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -13381,16 +13403,16 @@
 "secret": null
 }
 ],
-"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.8/hubspot-mcp.mcpb",
+"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.9/hubspot-mcp.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.2.8"
+"version": "0.2.9"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/servosity/msp-skills",
 "title": "HubSpot MCP",
-"version": "0.2.8",
+"version": "0.2.9",
 "website": null
 },
 "truncated": true,
@@ -17549,6 +17571,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-flow-party": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-flowfest-2025": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -21613,6 +21642,13 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/yappologistic/CUI/blob/master/README.md"
+},
+"uihub-gh-yilecoding-fastapi-react-admin": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-yusufceng1z-ding": {
 "kind": "excerpt",
@@ -29237,6 +29273,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-requ47g-galaxy-system": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ri5f5wg-matcha-brand-pitch-page": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

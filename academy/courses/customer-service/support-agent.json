@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-11T01:58:11Z",
+ "updated_at": "2026-11-11T17:53:55Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42403,
+      "repo_stars": 42415,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1682,8 +1682,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144380,
-      "repo_pushed_at": "2026-11-10"
+      "repo_stars": 144424,
+      "repo_pushed_at": "2026-11-11"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1727,7 +1727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30602,
+      "repo_stars": 30617,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "4-do-it",
@@ -1814,7 +1814,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 277,
+      "repo_stars": 278,
       "repo_pushed_at": "2026-09-27",
       "registry_updated_at": "2026-06-22"
      },
@@ -1906,16 +1906,16 @@
            "secret": null
           }
          ],
-         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.8/hubspot-mcp.mcpb",
+         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.9/hubspot-mcp.mcpb",
          "transport": "stdio",
          "type": "mcpb",
-         "version": "0.2.8"
+         "version": "0.2.9"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/servosity/msp-skills",
        "title": "HubSpot MCP",
-       "version": "0.2.8",
+       "version": "0.2.9",
        "website": null
       }
      },
@@ -1938,13 +1938,13 @@
      },
      "metrics": {
       "repo_stars": 74,
-      "repo_pushed_at": "2026-11-10",
-      "registry_updated_at": "2026-11-10"
+      "repo_pushed_at": "2026-11-11",
+      "registry_updated_at": "2026-11-11"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-11T17:53:55Z",
      "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
       "source": 200
@@ -2171,13 +2171,13 @@
          "id": "@fruggr/zendesk-mcp-server",
          "transport": "stdio",
          "type": "npm",
-         "version": "3.8.0"
+         "version": "3.10.0"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/fruggr/zendesk-mcp-server",
        "title": null,
-       "version": "3.8.0",
+       "version": "3.10.0",
        "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
       }
      },
@@ -2193,13 +2193,13 @@
      },
      "metrics": {
       "repo_stars": 15,
-      "repo_pushed_at": "2026-11-10",
-      "registry_updated_at": "2026-11-02"
+      "repo_pushed_at": "2026-11-11",
+      "registry_updated_at": "2026-11-11"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-11-03T03:29:34Z",
+     "updated_at": "2026-11-11T17:53:55Z",
      "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
       "source": 200
@@ -2281,7 +2281,7 @@
      },
      "metrics": {
       "repo_stars": 14,
-      "repo_pushed_at": "2026-11-10",
+      "repo_pushed_at": "2026-11-11",
       "registry_updated_at": "2026-08-09"
      },
      "course_step": "4-do-it",

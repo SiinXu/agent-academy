@@ -11,7 +11,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 |--------|----------|------:|------|------|
 | [Ably](servers/ably/) | realtime | 19 | API token | [servers/ably/](servers/ably/) |
 | [Accelo](servers/accelo/) | project-management | 27 | API token | [servers/accelo/](servers/accelo/) |
-| [Acuity Scheduling](servers/acuity-scheduling/) | calendar | 23 | API token | [servers/acuity-scheduling/](servers/acuity-scheduling/) |
+| [Acuity Scheduling](servers/acuity-scheduling/) | calendar | 24 | API token | [servers/acuity-scheduling/](servers/acuity-scheduling/) |
 | [Aircall](servers/aircall/) | communications | 29 | API token | [servers/aircall/](servers/aircall/) |
 | [All Quiet](servers/all-quiet/) | observability | 15 | API token | [servers/all-quiet/](servers/all-quiet/) |
 | [Amberflo](servers/amberflo/) | usage-metering | 18 | API token | [servers/amberflo/](servers/amberflo/) |
@@ -204,7 +204,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [sevdesk](servers/sevdesk/) | billing | 24 | API token | [servers/sevdesk/](servers/sevdesk/) |
 | [Shopmonkey](servers/shopmonkey/) | productivity | 49 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
 | [Smile.io](servers/smile-io/) | ecommerce | 18 | API token | [servers/smile-io/](servers/smile-io/) |
-| [Smoobu](servers/smoobu/) | productivity | 24 | API token | [servers/smoobu/](servers/smoobu/) |
+| [Smoobu](servers/smoobu/) | productivity | 25 | API token | [servers/smoobu/](servers/smoobu/) |
 | [Sortly](servers/sortly/) | productivity | 24 | API token | [servers/sortly/](servers/sortly/) |
 | [StatusCake](servers/statuscake/) | observability | 25 | API token | [servers/statuscake/](servers/statuscake/) |
 | [Tito](servers/tito/) | ecommerce | 24 | API token | [servers/tito/](servers/tito/) |
@@ -373,7 +373,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Cyberimpact](servers/cyberimpact/) | email | 29 | API token | [servers/cyberimpact/](servers/cyberimpact/) |
 | [Loox](servers/loox/) | ecommerce | 11 | API token | [servers/loox/](servers/loox/) |
 | [Method CRM](servers/method-crm/) | crm | 20 | API token | [servers/method-crm/](servers/method-crm/) |
-| [noCRM.io](servers/nocrm-io/) | crm | 28 | API token | [servers/nocrm-io/](servers/nocrm-io/) |
+| [noCRM.io](servers/nocrm-io/) | crm | 29 | API token | [servers/nocrm-io/](servers/nocrm-io/) |
 | [PHP Point of Sale](servers/php-point-of-sale/) | ecommerce | 30 | API token | [servers/php-point-of-sale/](servers/php-point-of-sale/) |
 | [Tamigo](servers/tamigo/) | productivity | 12 | API token | [servers/tamigo/](servers/tamigo/) |
 | [Precoro](servers/precoro/) | productivity | 28 | API token | [servers/precoro/](servers/precoro/) |
@@ -439,7 +439,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [PaySpace](servers/payspace/) | billing | 25 | API token | [servers/payspace/](servers/payspace/) |
 | [Sapo](servers/sapo/) | ecommerce | 24 | API token | [servers/sapo/](servers/sapo/) |
 | [Sarbacane](servers/sarbacane/) | email | 23 | API token | [servers/sarbacane/](servers/sarbacane/) |
-| [Sellsy](servers/sellsy/) | crm | 54 | API token | [servers/sellsy/](servers/sellsy/) |
+| [Sellsy](servers/sellsy/) | crm | 55 | API token | [servers/sellsy/](servers/sellsy/) |
 | [smallinvoice](servers/smallinvoice/) | billing | 31 | API token | [servers/smallinvoice/](servers/smallinvoice/) |
 | [Smaregi](servers/smaregi/) | ecommerce | 24 | API token | [servers/smaregi/](servers/smaregi/) |
 | [Street.co.uk](servers/street-co-uk/) | real-estate | 58 | API token | [servers/street-co-uk/](servers/street-co-uk/) |
