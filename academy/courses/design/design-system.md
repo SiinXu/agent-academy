@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-10
-updated_at: 2026-11-10T17:50:52Z
+version: 2026-11-11
+updated_at: 2026-11-11T01:58:11Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1663 items
+- minimal: 1664 items
 - motion: 648 items
 - 3d: 639 items
 - editorial: 591 items
 - playful: 565 items
-- gradient: 288 items
+- gradient: 289 items
 - retro: 117 items
 - dark-tech: 110 items
 - glass: 57 items

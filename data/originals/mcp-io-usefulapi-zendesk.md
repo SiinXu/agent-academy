@@ -439,7 +439,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [PaySpace](servers/payspace/) | billing | 25 | API token | [servers/payspace/](servers/payspace/) |
 | [Sapo](servers/sapo/) | ecommerce | 24 | API token | [servers/sapo/](servers/sapo/) |
 | [Sarbacane](servers/sarbacane/) | email | 23 | API token | [servers/sarbacane/](servers/sarbacane/) |
-| [Sellsy](servers/sellsy/) | crm | 49 | API token | [servers/sellsy/](servers/sellsy/) |
+| [Sellsy](servers/sellsy/) | crm | 54 | API token | [servers/sellsy/](servers/sellsy/) |
 | [smallinvoice](servers/smallinvoice/) | billing | 31 | API token | [servers/smallinvoice/](servers/smallinvoice/) |
 | [Smaregi](servers/smaregi/) | ecommerce | 24 | API token | [servers/smaregi/](servers/smaregi/) |
 | [Street.co.uk](servers/street-co-uk/) | real-estate | 58 | API token | [servers/street-co-uk/](servers/street-co-uk/) |
