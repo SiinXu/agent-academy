@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-12
-updated_at: 2026-11-12T03:06:22Z
+updated_at: 2026-11-12T18:19:46Z
 source: https://academy.incidental.site/courses/customer-service/support-agent/
 ---
 
@@ -222,6 +222,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y claude-intercom
   needs_credentials: true, writes_external: false
+- [mcp] cob-shopify-mcp. Run a Shopify store from any MCP client: products, orders, customers, stock and analytics.
+  source: https://github.com/callobuzz/cob-shopify-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-callobuzz-cob-shopify-mcp.md
+  license: MIT
+  install: npx -y cob-shopify-mcp
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
   source: https://github.com/fruggr/zendesk-mcp-server
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
@@ -251,12 +257,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y shopify-multi-store-mcp-server
   needs_credentials: false, writes_external: true
-- [mcp] Jitbit Helpdesk. MCP server for Jitbit Helpdesk: search, list, read, and reply to support tickets from AI assistants.
-  source: https://github.com/jitbit/jitbit-helpdesk-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-jitbit-jitbit-helpdesk.md
-  license: MIT
-  install: npx -y jitbit-helpdesk-mcp
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

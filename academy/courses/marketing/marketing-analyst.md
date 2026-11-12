@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-12
-updated_at: 2026-11-12T03:06:22Z
+updated_at: 2026-11-12T18:19:46Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -153,6 +153,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://jojapi.com/hub/api/similarweb
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.jojapi.com/similarweb
+  needs_credentials: true, writes_external: false
+- [mcp] com.mambabuilt/mcp-semrush-domain-metrics. Semrush public traffic, Authority Score, and backlink metrics per domain.
+  source: https://github.com/mambalabsdev/mcp-semrush-domain-metrics
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-semrush-domain-metrics.md
+  license: MIT
+  install: npx -y @mambalabsdev/mcp-semrush-domain-metrics
   needs_credentials: true, writes_external: false
 - [mcp] io.github.CSOAI-ORG/marketing-analytics-ai-mcp. Marketing Analytics Ai MCP Server by MEOK AI Labs
   source: https://github.com/CSOAI-ORG/marketing-analytics-ai-mcp

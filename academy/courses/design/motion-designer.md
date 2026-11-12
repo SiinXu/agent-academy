@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-12
-updated_at: 2026-11-12T03:06:22Z
+updated_at: 2026-11-12T18:19:46Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1666 items
+- minimal: 1668 items
 - motion: 648 items
 - 3d: 641 items
-- editorial: 592 items
-- playful: 566 items
+- editorial: 593 items
+- playful: 567 items
 - gradient: 289 items
 - retro: 117 items
 - dark-tech: 110 items
@@ -261,17 +261,17 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @ajsmonty/adobe-mcp
   needs_credentials: true, writes_external: false
-- [mcp] Creator MCP. Hosted motion engine for agents. Builds layers and keyframes, exports MP4, WebM or Lottie.
-  source: https://github.com/LottieFiles/creator-agent-plugin
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-creator.md
-  license: MIT
-  install: remote (streamable-http): https://creator.mcp.lottiefiles.com/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Generative Icons. Animated UI icons by LottieFiles. Search by meaning, set color, style and motion, export dotLottie.
   source: https://github.com/LottieFiles/generative-icons
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-generative-icons.md
   license: MIT
   install: remote (streamable-http): https://generativeicons.com/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Creator MCP. Hosted motion engine for agents. Builds layers and keyframes, exports MP4, WebM or Lottie.
+  source: https://github.com/LottieFiles/creator-agent-plugin
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-creator.md
+  license: MIT
+  install: remote (streamable-http): https://creator.mcp.lottiefiles.com/mcp
   needs_credentials: true, writes_external: false
 - [mcp] Icons8. Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.
   source: https://icons8.com/mcp

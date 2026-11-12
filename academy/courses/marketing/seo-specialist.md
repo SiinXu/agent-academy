@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-12
-updated_at: 2026-11-12T03:06:22Z
+updated_at: 2026-11-12T18:19:46Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -284,18 +284,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
   needs_credentials: true, writes_external: false
-- [mcp] io.github.dingdawg/dingdawg-marketing-agent. AI content generation, SEO audits, campaign planning & social scheduling.
-  source: https://github.com/dingdawg/dingdawg-agent-1
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dingdawg-dingdawg-marketing-agent.md
-  license: MIT
-  install: npx -y dingdawg-marketing-agent
-  needs_credentials: true, writes_external: false
 - [mcp] Local SEO by WorkPods. Audit Google Business Profiles, reviews and Maps rankings, and check a site's NAP and schema.
   source: https://github.com/WorkPodsAgents/local-seo
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-workpods-local-seo.md
   license: Apache-2.0
   install: npx -y @workpods/local-seo
   needs_credentials: false, writes_external: false
+- [mcp] io.github.dingdawg/dingdawg-marketing-agent. AI content generation, SEO audits, campaign planning & social scheduling.
+  source: https://github.com/dingdawg/dingdawg-agent-1
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dingdawg-dingdawg-marketing-agent.md
+  license: MIT
+  install: npx -y dingdawg-marketing-agent
+  needs_credentials: true, writes_external: false
 - [mcp] SEO Audit. Find what to fix on a public website, for search engines and for AI answers.
   source: https://github.com/nguyenhieuec/agent-tools-plugins
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-app-openkrill-seo-audit.md

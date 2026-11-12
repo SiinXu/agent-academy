@@ -5991,6 +5991,28 @@
 "truncated": false,
 "url": "https://github.com/M-Pineapple/hubspot-auditor"
 },
+"mcp-ae-framerfy-store-builder": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Build a Shopify-backed Framer store: sync products, theme, cart, checkout, publish and verify.",
+"name": "ae.framerfy/store-builder",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.framerfy.ae/mcp"
+}
+],
+"repository": null,
+"title": "Framerfy",
+"version": "1.0.0",
+"website": "https://docs.framerfy.ae/ai-builder"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.framerfy/store-builder&version=latest"
+},
 "mcp-ai-alvinsclub-studio-seo": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -7185,6 +7207,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.crakseo/site-audit&version=latest"
 },
+"mcp-com-datafluxor-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Remote MCP server for Google SERP, SEO research and web scraping. Free plan, no card.",
+"name": "com.datafluxor/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"X-API-Key"
+],
+"type": "streamable-http",
+"url": "https://datafluxor.com/mcp"
+}
+],
+"repository": null,
+"title": "DataFluxor",
+"version": "1.0.0",
+"website": "https://datafluxor.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.datafluxor/seo&version=latest"
+},
 "mcp-com-deepseoanalysis-seo-audit": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8055,6 +8101,39 @@
 },
 "truncated": false,
 "url": "https://github.com/mambalabsdev/mcp-newsletter-sponsor-tracker/blob/HEAD/README.md"
+},
+"mcp-com-mambabuilt-mcp-semrush-domain-metrics": {
+"file": "data/originals/mcp-com-mambabuilt-mcp-semrush-domain-metrics.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Semrush public traffic, Authority Score, and backlink metrics per domain.",
+"name": "com.mambabuilt/mcp-semrush-domain-metrics",
+"packages": [
+{
+"env": [
+{
+"description": "Apify API token from https://console.apify.com/account/integrations",
+"name": "APIFY_TOKEN",
+"required": true,
+"secret": true
+}
+],
+"id": "@mambalabsdev/mcp-semrush-domain-metrics",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/mambalabsdev/mcp-semrush-domain-metrics",
+"title": null,
+"version": "1.0.1",
+"website": null
+},
+"truncated": false,
+"url": "https://github.com/mambalabsdev/mcp-semrush-domain-metrics/blob/HEAD/README.md"
 },
 "mcp-com-mambabuilt-mcp-shopify-app-store-chrome-web-store-listings": {
 "file": "data/originals/mcp-com-mambabuilt-mcp-shopify-app-store-chrome-web-store-listings.md",
@@ -9124,28 +9203,6 @@
 "truncated": false,
 "url": "https://github.com/buildmodus/open-service-profile/blob/HEAD/README.md"
 },
-"mcp-com-tradesseoagency-site": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Trades SEO Agency: the site's own MCP server — compare, enquiry (enquiry = a human handoff, not...",
-"name": "com.tradesseoagency/site",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://tradesseoagency.com/mcp"
-}
-],
-"repository": null,
-"title": null,
-"version": "1.0.1",
-"website": "https://tradesseoagency.com"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tradesseoagency/site&version=latest"
-},
 "mcp-com-webflow-mcp": {
 "file": "data/originals/mcp-com-webflow-mcp.md",
 "kind": "full",
@@ -9972,6 +10029,30 @@
 "truncated": false,
 "url": "https://github.com/beknownllc/the-marketing-vault-mcp/blob/HEAD/README.md"
 },
+"mcp-io-github-bepolabs-shopify-products": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Paste a link, get a spreadsheet-ready list of everything for sale on any Shopify site.",
+"name": "io.github.bepolabs/shopify-products",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com?tools=bepolabs/shopify-products"
+}
+],
+"repository": null,
+"title": "Shopify Scraper: products, prices, variants and stock",
+"version": "1.0.0",
+"website": "https://apify.com/bepolabs/shopify-products"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.bepolabs/shopify-products&version=latest"
+},
 "mcp-io-github-bourhaouta-tailwindshades": {
 "file": "data/originals/mcp-io-github-bourhaouta-tailwindshades.md",
 "kind": "full",
@@ -10169,6 +10250,63 @@
 },
 "truncated": false,
 "url": "https://github.com/BV-Venky/excalidraw-architect-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-callobuzz-cob-shopify-mcp": {
+"file": "data/originals/mcp-io-github-callobuzz-cob-shopify-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Run a Shopify store from any MCP client: products, orders, customers, stock and analytics.",
+"name": "io.github.callobuzz/cob-shopify-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Your store's address, for example your-store.myshopify.com",
+"name": "SHOPIFY_STORE_DOMAIN",
+"required": true,
+"secret": null
+},
+{
+"description": "Client ID of your Shopify app (with SHOPIFY_CLIENT_SECRET)",
+"name": "SHOPIFY_CLIENT_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Client secret of your Shopify app (shpss_...)",
+"name": "SHOPIFY_CLIENT_SECRET",
+"required": null,
+"secret": true
+},
+{
+"description": "Admin API access token (shpat_...); used instead of the client ID and secret",
+"name": "SHOPIFY_ACCESS_TOKEN",
+"required": null,
+"secret": true
+},
+{
+"description": "true to offer only the tools that read",
+"name": "COB_SHOPIFY_READ_ONLY",
+"required": null,
+"secret": null
+}
+],
+"id": "cob-shopify-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.12.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/callobuzz/cob-shopify-mcp",
+"title": "cob-shopify-mcp",
+"version": "0.12.1",
+"website": null
+},
+"truncated": false,
+"url": "https://github.com/callobuzz/cob-shopify-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-ceadigital-shopify-store-leads-products-scraper": {
 "kind": "excerpt",
@@ -13403,16 +13541,16 @@
 "secret": null
 }
 ],
-"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.2.9/hubspot-mcp.mcpb",
+"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.3.0/hubspot-mcp.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.2.9"
+"version": "0.3.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/servosity/msp-skills",
 "title": "HubSpot MCP",
-"version": "0.2.9",
+"version": "0.3.0",
 "website": null
 },
 "truncated": true,
@@ -22706,6 +22844,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-01nuhob-prefer-taste-quiz": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-01pzlu8-travel-memories-app-icon": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26984,6 +27129,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-hwutqbh-404-laser-beams": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-hydso8e-kept-memory-visualization": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -32839,6 +32991,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-w16-braindrop-app": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-w16-brainstormgame-ru-en": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

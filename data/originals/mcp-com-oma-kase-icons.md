@@ -6,7 +6,7 @@
 [![Omakase Icons MCP connector on Glama](https://glama.ai/mcp/connectors/com.oma-kase/icons/badges/score.svg)](https://glama.ai/mcp/connectors/com.oma-kase/icons)
 [![mcptry](https://mcptry.com/badge/com.oma-kase/icons)](https://mcptry.com/servers/com.oma-kase/icons)
 
-194 free icons, each drawn once and generated in every style: stroke, solid, duotone and two-tone, with rounded or sharp corners, at any stroke weight. MIT licensed.
+251 free icons, each drawn once and generated in every style: stroke, solid, duotone and two-tone, with rounded or sharp corners, at any stroke weight. MIT licensed.
 
 **[Browse all icons](https://icons.oma-kase.com/icons)** · **[Request an icon](https://github.com/neueworld/omakase-icons/issues/new?template=icon-request.yml)** · **[Report a problem](https://github.com/neueworld/omakase-icons/issues/new?template=bug.yml)**
 
@@ -96,4 +96,4 @@ This repository holds the published icons: the SVG files, the icon list, the lic
 
 [MIT](LICENSE). Free for personal and commercial use, with no attribution required in your product.
 
-Version 0.8.0. Made by [Omakase](https://oma-kase.com).
+Version 0.9.0. Made by [Omakase](https://oma-kase.com).

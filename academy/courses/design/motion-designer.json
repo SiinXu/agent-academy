@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-11-12T03:06:22Z",
+ "updated_at": "2026-11-12T18:19:46Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1410,7 +1410,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 193206,
+      "repo_stars": 193605,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -1455,8 +1455,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1500,8 +1500,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1545,8 +1545,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1590,8 +1590,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1635,8 +1635,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1680,8 +1680,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1725,8 +1725,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1770,7 +1770,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42427,
+      "repo_stars": 42444,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1815,7 +1815,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42427,
+      "repo_stars": 42444,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2088,6 +2088,69 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-com-lottiefiles-generative-icons",
+     "title": "Generative Icons",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Animated UI icons by LottieFiles. Search by meaning, set color, style and motion, export dotLottie.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/LottieFiles/generative-icons",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-generative-icons.md",
+     "upstream_raw_url": null,
+     "repo": "LottieFiles/generative-icons",
+     "author": "com.lottiefiles",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/LottieFiles/generative-icons/blob/HEAD/README.md",
+      "record": {
+       "description": "Animated UI icons by LottieFiles. Search by meaning, set color, style and motion, export dotLottie.",
+       "name": "com.lottiefiles/generative-icons",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://generativeicons.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/LottieFiles/generative-icons",
+       "title": "Generative Icons",
+       "version": "0.1.1",
+       "website": "https://generativeicons.com"
+      }
+     },
+     "install": "remote (streamable-http): https://generativeicons.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 3,
+      "repo_pushed_at": "2026-11-09",
+      "registry_updated_at": "2026-11-09"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-09T20:44:54Z",
+     "updated_at": "2026-11-09T20:44:54Z",
+     "checked_at": "2026-11-10T04:10:12Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-generative-icons/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-com-lottiefiles-creator",
      "title": "Creator MCP",
      "type": "mcp",
@@ -2148,69 +2211,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-creator/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-lottiefiles-generative-icons",
-     "title": "Generative Icons",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Animated UI icons by LottieFiles. Search by meaning, set color, style and motion, export dotLottie.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/LottieFiles/generative-icons",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-generative-icons.md",
-     "upstream_raw_url": null,
-     "repo": "LottieFiles/generative-icons",
-     "author": "com.lottiefiles",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/LottieFiles/generative-icons/blob/HEAD/README.md",
-      "record": {
-       "description": "Animated UI icons by LottieFiles. Search by meaning, set color, style and motion, export dotLottie.",
-       "name": "com.lottiefiles/generative-icons",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://generativeicons.com/mcp"
-        }
-       ],
-       "repository": "https://github.com/LottieFiles/generative-icons",
-       "title": "Generative Icons",
-       "version": "0.1.1",
-       "website": "https://generativeicons.com"
-      }
-     },
-     "install": "remote (streamable-http): https://generativeicons.com/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 2,
-      "repo_pushed_at": "2026-11-09",
-      "registry_updated_at": "2026-11-09"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-09T20:44:54Z",
-     "checked_at": "2026-11-10T04:10:12Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-generative-icons/",
      "source": "mcp-registry"
     },
     {
@@ -2486,7 +2486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 148252,
+      "repo_stars": 148587,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -2531,7 +2531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 148252,
+      "repo_stars": 148587,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -2576,8 +2576,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56169,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 56361,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2621,7 +2621,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42427,
+      "repo_stars": 42444,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2666,7 +2666,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42427,
+      "repo_stars": 42444,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2711,7 +2711,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42427,
+      "repo_stars": 42444,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2756,7 +2756,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42427,
+      "repo_stars": 42444,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -2801,8 +2801,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35486,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 35558,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2846,8 +2846,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35486,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 35558,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2891,8 +2891,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35486,
-      "repo_pushed_at": "2026-11-11"
+      "repo_stars": 35558,
+      "repo_pushed_at": "2026-11-12"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2936,7 +2936,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26496,
+      "repo_stars": 26505,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
