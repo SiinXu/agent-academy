@@ -2,14 +2,14 @@
 
 **MSP Skills** connects your PSA, RMM, backup, and more to the AI you already use - **Claude**, **ChatGPT**, **Codex**, **Cursor**, **Windsurf**, or any agent that runs local MCP servers. Ask a plain-English question about your stack and get a real answer back.
 <!-- hero-live:start -->
-107 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
+108 connectors are live today - including Servosity, ConnectWise PSA, HubSpot, and HaloPSA - and more PSA, RMM, backup, and M365 connectors ship every week.
 <!-- hero-live:end -->
 Free, open source, runs on your laptop. A local SQLite mirror lets your agent answer cross-client questions the live API can't return in one shot - no rate-limit hits, no per-tech SaaS fee, and your data stays local unless you route it somewhere yourself. Built for MSP owners. No developer experience required.
 
 > **New to the term?** What this repo calls an **MCP server** is what ChatGPT calls an *app* or *connector*, Claude on the web calls a *connector*, Microsoft Copilot calls a *connector*, and Claude Code calls a *Skill*. Same standard underneath: the [Model Context Protocol](https://modelcontextprotocol.io). Full plain-language answer: **[What is an MCP server?](https://msp-skills.compoundingteams.com/what-is-an-mcp-server/)**.
 
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/skills-107-green.svg)](./catalog.json)
+[![Skills](https://img.shields.io/badge/skills-108-green.svg)](./catalog.json)
 [![MCP](https://img.shields.io/badge/MCP-compatible-1f6feb.svg)](https://modelcontextprotocol.io)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-spec-2E7D32.svg)](https://agentskills.io)
 ![Status](https://img.shields.io/badge/status-beta-yellow.svg)
@@ -100,6 +100,7 @@ returns your live data.
 | [grab-cookie](./skills/grab-cookie) | Session-credential capture for sites with no API key or OAuth path: httpOnly cookies and opaque bearer tokens. Windows verified, macOS untested | ![Meta](https://img.shields.io/badge/Meta-skill-6B7280) | [Marketplace](./skills/grab-cookie/README.md) |
 | [gradient](./skills/gradient) | the Gradient MSP Synthesize billing-reconciliation vendor API | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/gradient/README.md) |
 | [halopsa](./skills/halopsa) | HaloPSA, HaloITSM, HaloCRM | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/halopsa/README.md) |
+| [hook-security](./skills/hook-security) | Hook Security phishing simulation and security awareness training platform | ![Awaiting live verification](https://img.shields.io/badge/Awaiting-live_verification-EAB308) | [Install](./skills/hook-security/README.md) |
 | [hubspot](./skills/hubspot) | HubSpot CRM: contacts, companies, deals, tickets, engagements | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/hubspot/README.md) |
 | [hudu](./skills/hudu) | IT documentation and knowledge-base platform for MSPs | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/hudu/README.md) |
 | [huntress](./skills/huntress) | managed endpoint detection and response (EDR) security platform | ![Live-verified](https://img.shields.io/badge/Live--verified-by_a_real_MSP-2E7D32) | [Install](./skills/huntress/README.md) |
@@ -211,7 +212,7 @@ Each installer drops both the CLI and the MCP server, so you can use the Skill (
 ## What your agent can do
 
 <!-- agent-can-do:start -->
-Outcomes, not hype - drawn from each of the 107 connectors' skill pages:
+Outcomes, not hype - drawn from each of the 108 connectors' skill pages:
 
 | Outcome | Skill | Command |
 | --- | --- | --- |
@@ -260,6 +261,7 @@ Outcomes, not hype - drawn from each of the 107 connectors' skill pages:
 | Which accounts across all my clients lack 2-Step Verification, with unenrolled admins first? | google-workspace | `google-workspace-cli mfa-gaps --all-tenants --agent` |
 | Push a whole file of usage counts and rebuild billing exactly once? | gradient | `gradient-cli usage push --file ./counts.csv --agent` |
 | What's about to breach SLA in the next 24 hours? | halopsa | `halopsa-cli sla breaching --within 24h --team Support --json` |
+| Which clients have the highest phishing click rate? | hook-security | `hook-security-cli client-risk --top 10` |
 | Which open deals have gone cold with no engagement in the last three weeks? | hubspot | `hubspot-cli stale deals --days 21 --owner me` |
 | Which clients have the worst documentation completeness? | hudu | `hudu-cli audit completeness --agent` |
 | Which incidents are oldest across every client org? | huntress | `huntress-cli fleet-incidents --sort age` |
@@ -396,6 +398,4 @@ No. The recommended install path is to paste one sentence into Claude Code or Co
 
 Almost never. Each connector syncs your data into a local SQLite mirror once, then incrementally; subsequent questions (triage, SLA breaches, client cards, cross-client analytics) run against the local mirror, not the live API. The big-batch QBR queries that get you 429'd with API-passthrough tools become a single SQL join here.
 
-### How is this different from my vendor's built-in AI?
-
-Vendor-native AI is great for ticket-by-ticket work - rewriting replies, summarizing one ticket, classifying sentiment. MSP Skills is the **MSP-owner-on-the-couch-with-Claude** layer: cross-client analytics, ad-hoc questions across thousands of tickets, multi-system queries that join your PSA with your backup tool. The two complement each other; you do
+### How is this different from my

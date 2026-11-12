@@ -2,7 +2,7 @@
  "id": "marketing/growth-marketer",
  "industry": "marketing",
  "role": "growth-marketer",
- "updated_at": "2026-11-11T17:53:55Z",
+ "updated_at": "2026-11-12T03:06:22Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -576,7 +576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -621,7 +621,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -666,7 +666,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -711,7 +711,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -756,7 +756,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -801,7 +801,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -846,7 +846,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -891,7 +891,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -936,7 +936,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -981,7 +981,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1026,7 +1026,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1071,7 +1071,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42415,
+      "repo_stars": 42427,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1116,7 +1116,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26485,
+      "repo_stars": 26496,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1161,7 +1161,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26485,
+      "repo_stars": 26496,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1455,7 +1455,7 @@
      },
      "metrics": {
       "repo_stars": 1,
-      "repo_pushed_at": "2026-11-11",
+      "repo_pushed_at": "2026-11-12",
       "registry_updated_at": "2026-10-30"
      },
      "course_step": "4-do-it",
@@ -1535,49 +1535,67 @@
      "source": "mcp-registry"
     },
     {
-     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit",
-     "title": "ai_seo_audit_team",
-     "type": "case",
+     "id": "mcp-marketing-levered-levered",
+     "title": "Levered",
+     "type": "mcp",
      "industry": "marketing",
      "roles": [
-      "seo-specialist"
+      "growth-marketer"
      ],
-     "summary": "The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimization report. The app uses **Firecrawl via MCP (Model Context Protocol)** for a",
+     "summary": "Senior growth marketing, powered by AI, for less than the cost of a full-time hire.",
      "summary_lang": "en",
-     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team/README.md",
-     "repo": "Shubhamsaboo/awesome-llm-apps",
-     "author": "Shubhamsaboo",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
+     "source_url": "https://levered.marketing",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "marketing.levered",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team"
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=marketing.levered/levered&version=latest",
+      "record": {
+       "description": "Senior growth marketing, powered by AI, for less than the cost of a full-time hire.",
+       "name": "marketing.levered/levered",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://levered.marketing/api/v2/mcp/public"
+        }
+       ],
+       "repository": null,
+       "title": "Levered",
+       "version": "2.1.0",
+       "website": "https://levered.marketing"
+      }
      },
-     "install": null,
+     "install": "remote (streamable-http): https://levered.marketing/api/v2/mcp/public",
      "security": {
       "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
      },
      "metrics": {
-      "repo_stars": 141810,
-      "repo_pushed_at": "2026-10-13"
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-11-11"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-09T20:44:54Z",
+     "first_seen": "2026-11-12T03:06:22Z",
+     "updated_at": "2026-11-12T03:06:22Z",
+     "checked_at": "2026-11-12T03:06:22Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit/",
-     "source": "seed"
+     "page": "https://academy.incidental.site/r/mcp-marketing-levered-levered/",
+     "source": "mcp-registry"
     }
    ]
   },
@@ -1705,7 +1723,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1750,7 +1768,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1795,7 +1813,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59728,
+      "repo_stars": 59800,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1840,7 +1858,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42415,
+      "repo_stars": 42427,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1885,7 +1903,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42415,
+      "repo_stars": 42427,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1930,7 +1948,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42415,
+      "repo_stars": 42427,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",

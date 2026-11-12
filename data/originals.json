@@ -14120,7 +14120,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.37.3",
+"version": "1.38.0",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -14149,6 +14149,28 @@
 },
 "truncated": false,
 "url": "https://github.com/tehprof/support-mcp/blob/HEAD/README.md"
+},
+"mcp-marketing-levered-levered": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Senior growth marketing, powered by AI, for less than the cost of a full-time hire.",
+"name": "marketing.levered/levered",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://levered.marketing/api/v2/mcp/public"
+}
+],
+"repository": null,
+"title": "Levered",
+"version": "2.1.0",
+"website": "https://levered.marketing"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=marketing.levered/levered&version=latest"
 },
 "mcp-marketing-wall-platform": {
 "file": "data/originals/mcp-marketing-wall-platform.md",

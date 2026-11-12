@@ -1,8 +1,8 @@
 ---
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-11
-updated_at: 2026-11-11T17:53:55Z
+version: 2026-11-12
+updated_at: 2026-11-12T03:06:22Z
 source: https://academy.incidental.site/courses/marketing/growth-marketer/
 ---
 
@@ -197,11 +197,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y agentic-campaign
   needs_credentials: false, writes_external: false
-- [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi
-  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
+- [mcp] Levered. Senior growth marketing, powered by AI, for less than the cost of a full-time hire.
+  source: https://levered.marketing
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://levered.marketing/api/v2/mcp/public
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 
