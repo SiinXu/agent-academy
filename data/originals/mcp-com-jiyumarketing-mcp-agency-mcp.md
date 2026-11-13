@@ -19,7 +19,7 @@ Agency Autopilot (https://getagencyautopilot.com) connects the accounts your age
 
 Then open a new chat and type **"Set up my first client"**. It finds the accounts you already manage, groups them by business, and you pick one, right in the chat. After that, ask "how is that client doing this month?"
 
-The first tool call opens a Google sign-in for the Agency Autopilot connector. Sign in with the Google account you use to manage your clients. Adding more clients works the same way, in the chat (or at https://mcp.jiyumarketing.com/dashboard → Clients), so reports and per-client questions resolve by name.
+The first tool call opens a Google sign-in for the Agency Autopilot connector. Sign in with the Google account you use to manage your clients. Adding more clients works the same way, in the chat (or at https://getagencyautopilot.com/dashboard → Clients), so reports and per-client questions resolve by name.
 
 Pricing: free for one client; paid plans are per client (see the site). No cost is charged through this plugin.
 
@@ -53,7 +53,7 @@ Pricing: free for one client; paid plans are per client (see the site). No cost 
 
 ## Support
 
-harrison@jiyumarketing.com · Privacy: https://mcp.jiyumarketing.com/privacy · Terms: https://mcp.jiyumarketing.com/terms
+harrison@jiyumarketing.com · Privacy: https://getagencyautopilot.com/privacy · Terms: https://getagencyautopilot.com/terms
 
 Not affiliated with, sponsored by, or endorsed by Google, Meta, HighLevel, Automattic or Anthropic.
 

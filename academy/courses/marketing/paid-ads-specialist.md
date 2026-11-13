@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-13
-updated_at: 2026-11-13T02:40:00Z
+updated_at: 2026-11-13T17:45:53Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -248,6 +248,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @mambalabsdev/mcp-tiktok-brand-presence-mapper
   needs_credentials: true, writes_external: false
+- [mcp] com.mambabuilt/mcp-tiktok-video-stats. TikTok video stats by post URL: plays, likes, comments, shares, saves
+  source: https://github.com/mambalabsdev/mcp-tiktok-video-stats
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-tiktok-video-stats.md
+  license: MIT
+  install: npx -y @mambalabsdev/mcp-tiktok-video-stats
+  needs_credentials: true, writes_external: true
 - [mcp] Deep Thought Marketing. Done-for-you digital marketing for small businesses: plan, launch and manage ads across 22 channels.
   source: https://deepthought.marketing/claude-connector.html
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -269,11 +275,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md
   license: MIT
   install: npx -y @ssavecc/mcp-server
-  needs_credentials: true, writes_external: false
-- [mcp] TikTok Ads. Gasto, campanhas, grupos e anúncios do TikTok; pausar e ajustar com aprovação
-  source: https://ciromaciel.click/mcp/tiktok-ads
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://tiktok-ads.mcp.myagents.click/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

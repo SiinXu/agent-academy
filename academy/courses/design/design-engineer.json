@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-11-13T02:40:00Z",
+ "updated_at": "2026-11-13T17:45:53Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 193730,
+      "repo_stars": 194053,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -560,7 +560,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 114368,
+      "repo_stars": 114867,
       "repo_pushed_at": "2026-11-08"
      },
      "course_step": "3-learn-rules",
@@ -605,8 +605,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56449,
-      "repo_pushed_at": "2026-11-12"
+      "repo_stars": 56598,
+      "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -650,8 +650,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56449,
-      "repo_pushed_at": "2026-11-12"
+      "repo_stars": 56598,
+      "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -695,7 +695,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -740,7 +740,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -785,7 +785,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -830,7 +830,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -875,7 +875,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35594,
+      "repo_stars": 35652,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -920,7 +920,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26510,
+      "repo_stars": 26532,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1929,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "4-do-it",
@@ -1993,7 +1993,7 @@
      },
      "metrics": {
       "repo_stars": 2182,
-      "repo_pushed_at": "2026-11-12",
+      "repo_pushed_at": "2026-11-13",
       "registry_updated_at": "2025-10-16"
      },
      "course_step": "4-do-it",
@@ -2239,13 +2239,13 @@
          "id": "figma-mcp-express",
          "transport": "stdio",
          "type": "npm",
-         "version": "2.8.1"
+         "version": "2.9.0"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/sunhome243/figma-mcp-express",
        "title": null,
-       "version": "2.8.1",
+       "version": "2.9.0",
        "website": null
       }
      },
@@ -2259,13 +2259,13 @@
      },
      "metrics": {
       "repo_stars": 9,
-      "repo_pushed_at": "2026-08-11",
-      "registry_updated_at": "2026-08-06"
+      "repo_pushed_at": "2026-11-13",
+      "registry_updated_at": "2026-11-13"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-03T03:29:34Z",
+     "updated_at": "2026-11-13T17:45:53Z",
      "checked_at": "2026-11-10T04:10:12Z",
      "http_status": {
       "source": 200
@@ -2624,6 +2624,71 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-mrcoder-figmamcp",
+     "title": "FigmaMCP",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Claude Code or Codex read and edit your open Figma file. Needs the free FigmaMCP Mac app.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/MrCoder/figmamcp-releases",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "MrCoder/figmamcp-releases",
+     "author": "io.github.MrCoder",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest",
+      "record": {
+       "description": "Claude Code or Codex read and edit your open Figma file. Needs the free FigmaMCP Mac app.",
+       "name": "io.github.MrCoder/figmamcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.10/figmamcp-0.1.10-darwin.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": "0.1.10"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/MrCoder/figmamcp-releases",
+       "title": "FigmaMCP",
+       "version": "0.1.10",
+       "website": "https://figmamcp.dev"
+      }
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-13",
+      "registry_updated_at": "2026-11-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-13T17:45:53Z",
+     "updated_at": "2026-11-13T17:45:53Z",
+     "checked_at": "2026-11-13T17:45:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-mrcoder-figmamcp/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-mrfentmen-adobe-font-metrics-mcp",
      "title": "io.github.mrfentmen/adobe-font-metrics-mcp",
      "type": "mcp",
@@ -2675,7 +2740,7 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-11-10",
+      "repo_pushed_at": "2026-11-13",
       "registry_updated_at": "2026-11-10"
      },
      "course_step": "4-do-it",
@@ -2803,7 +2868,7 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-11-12",
+      "repo_pushed_at": "2026-11-13",
       "registry_updated_at": "2026-11-11"
      },
      "course_step": "4-do-it",
@@ -3044,7 +3109,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 148710,
+      "repo_stars": 149014,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -3089,7 +3154,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 148710,
+      "repo_stars": 149014,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -3134,8 +3199,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56449,
-      "repo_pushed_at": "2026-11-12"
+      "repo_stars": 56598,
+      "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3179,7 +3244,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3224,7 +3289,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3269,7 +3334,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3314,7 +3379,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3359,7 +3424,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35594,
+      "repo_stars": 35652,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -3404,7 +3469,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35594,
+      "repo_stars": 35652,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -3449,7 +3514,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35594,
+      "repo_stars": 35652,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -3494,7 +3559,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26510,
+      "repo_stars": 26532,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

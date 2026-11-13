@@ -1,11 +1,11 @@
 # TikTok Ads MCP Server
 
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Ftiktok-ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/tiktok-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/tiktok) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Ftiktok--ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/tiktok-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/tiktok) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
 
 Connect TikTok Ads to Claude, ChatGPT, Cursor, Codex or any AI app that supports MCP. AdKit hosts the server, so you only add an address to your AI app.
 
-- **MCP address:** `https://mcp.adkit.so/api/mcp/tiktok-ads`
-- **Website:** [TikTok Ads MCP by AdKit](https://adkit.so/features/ads-mcp/tiktok)
+- **MCP address:** `https://mcp.adkit.so/tiktok-ads`
+- **Website:** [AdKit](https://adkit.so/features/ads-mcp/tiktok)
 
 Every change is saved as a draft first, so your AI can't spend money on its own. Nothing goes live on TikTok Ads until you approve it.
 
@@ -36,12 +36,12 @@ There are two ways to connect:
 ### Claude (web and desktop)
 
 - **All platforms:** [install AdKit from the Claude directory](https://claude.ai/directory/adkit), in one click.
-- **TikTok Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/tiktok-ads`.
+- **TikTok Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/tiktok-ads`.
 
 ### ChatGPT
 
 - **All platforms:** [add the AdKit app](https://chatgpt.com/apps/adkit/asdk_app_6a1e848decdc8191a4974b315c51661f), in one click.
-- **TikTok Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/tiktok-ads`.
+- **TikTok Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/tiktok-ads`.
 
 ### Claude Code
 
@@ -55,7 +55,7 @@ As a plugin:
 Or as an MCP server only:
 
 ```
-claude mcp add --transport http adkit-tiktok-ads https://mcp.adkit.so/api/mcp/tiktok-ads
+claude mcp add --transport http adkit-tiktok-ads https://mcp.adkit.so/tiktok-ads
 ```
 
 ### Gemini CLI
@@ -72,7 +72,7 @@ Add to `~/.cursor/mcp.json`:
 {
   "mcpServers": {
     "adkit-tiktok-ads": {
-      "url": "https://mcp.adkit.so/api/mcp/tiktok-ads"
+      "url": "https://mcp.adkit.so/tiktok-ads"
     }
   }
 }
@@ -84,7 +84,7 @@ Add to `~/.codex/config.toml`:
 
 ```toml
 [mcp_servers.adkit-tiktok-ads]
-url = "https://mcp.adkit.so/api/mcp/tiktok-ads"
+url = "https://mcp.adkit.so/tiktok-ads"
 ```
 
 In Claude Code, Gemini CLI, Cursor and Codex, use `https://mcp.adkit.so` instead to connect all platforms.
@@ -158,6 +158,10 @@ Claude, ChatGPT, Claude Code, Gemini CLI, Cursor, Codex and any app that support
 
 - Help: [adkit.so/support](https://adkit.so/support) or contact@adkit.so
 - [Privacy](./PRIVACY.md), [Terms](./TERMS.md), [Security](./SECURITY.md), [Support](./SUPPORT.md)
+
+## Docs server
+
+[`docs-server/`](./docs-server/index.mjs) is a small local MCP server that answers questions about AdKit from this README: setup per AI app, hosted tools, ad platforms, example prompts and the FAQ. It needs no login and does not manage ads; for that, connect the hosted server above. Run it with `npm start` or the Dockerfile.
 
 ## License
 

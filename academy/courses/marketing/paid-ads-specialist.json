@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-11-13T02:40:00Z",
+ "updated_at": "2026-11-13T17:45:53Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1054,7 +1054,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59985,
+      "repo_stars": 60119,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1099,7 +1099,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59985,
+      "repo_stars": 60119,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1144,7 +1144,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59985,
+      "repo_stars": 60119,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -1189,7 +1189,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -1234,7 +1234,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26510,
+      "repo_stars": 26532,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1815,7 +1815,7 @@
      },
      "metrics": {
       "repo_stars": 8,
-      "repo_pushed_at": "2026-11-12",
+      "repo_pushed_at": "2026-11-13",
       "registry_updated_at": "2026-06-10"
      },
      "course_step": "4-do-it",
@@ -2407,6 +2407,80 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-com-mambabuilt-mcp-tiktok-video-stats",
+     "title": "com.mambabuilt/mcp-tiktok-video-stats",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "TikTok video stats by post URL: plays, likes, comments, shares, saves",
+     "summary_lang": "en",
+     "source_url": "https://github.com/mambalabsdev/mcp-tiktok-video-stats",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mambabuilt-mcp-tiktok-video-stats.md",
+     "upstream_raw_url": null,
+     "repo": "mambalabsdev/mcp-tiktok-video-stats",
+     "author": "com.mambabuilt",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/mambalabsdev/mcp-tiktok-video-stats/blob/HEAD/README.md",
+      "record": {
+       "description": "TikTok video stats by post URL: plays, likes, comments, shares, saves",
+       "name": "com.mambabuilt/mcp-tiktok-video-stats",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Apify API token from https://console.apify.com/account/integrations",
+           "name": "APIFY_TOKEN",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@mambalabsdev/mcp-tiktok-video-stats",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mambalabsdev/mcp-tiktok-video-stats",
+       "title": null,
+       "version": "1.0.0",
+       "website": null
+      }
+     },
+     "install": "npx -y @mambalabsdev/mcp-tiktok-video-stats",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "APIFY_TOKEN"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-13",
+      "registry_updated_at": "2026-11-13"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-13T17:45:53Z",
+     "updated_at": "2026-11-13T17:45:53Z",
+     "checked_at": "2026-11-13T17:45:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-mambabuilt-mcp-tiktok-video-stats/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-shajan-factor42-deep-thought-marketing",
      "title": "Deep Thought Marketing",
      "type": "mcp",
@@ -2672,69 +2746,6 @@
      },
      "page": "https://academy.incidental.site/r/mcp-cc-ssave-tiktok-instagram-downloader/",
      "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-click-myagents-tiktok-ads",
-     "title": "TikTok Ads",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Gasto, campanhas, grupos e anúncios do TikTok; pausar e ajustar com aprovação",
-     "summary_lang": "en",
-     "source_url": "https://ciromaciel.click/mcp/tiktok-ads",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "click.myagents",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=click.myagents/tiktok-ads&version=latest",
-      "record": {
-       "description": "Gasto, campanhas, grupos e anúncios do TikTok; pausar e ajustar com aprovação",
-       "name": "click.myagents/tiktok-ads",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://tiktok-ads.mcp.myagents.click/mcp"
-        }
-       ],
-       "repository": null,
-       "title": "TikTok Ads",
-       "version": "1.0.3",
-       "website": "https://ciromaciel.click/mcp/tiktok-ads"
-      }
-     },
-     "install": "remote (streamable-http): https://tiktok-ads.mcp.myagents.click/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-04"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-05T02:31:49Z",
-     "updated_at": "2026-11-05T02:31:49Z",
-     "checked_at": "2026-11-09T20:44:54Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-click-myagents-tiktok-ads/",
-     "source": "mcp-registry"
     }
    ]
   },
@@ -2862,7 +2873,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59985,
+      "repo_stars": 60119,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -2907,7 +2918,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59985,
+      "repo_stars": 60119,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -2952,7 +2963,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59985,
+      "repo_stars": 60119,
       "repo_pushed_at": "2026-11-11"
      },
      "course_step": "3-learn-rules",
@@ -2997,7 +3008,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3042,7 +3053,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3087,7 +3098,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42458,
+      "repo_stars": 42481,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",

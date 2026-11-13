@@ -2,7 +2,7 @@
 name: marketing-product-marketer
 description: Agent Academy course for Product marketing (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-13
-updated_at: 2026-11-13T02:40:00Z
+updated_at: 2026-11-13T17:45:53Z
 source: https://academy.incidental.site/courses/marketing/product-marketer/
 ---
 

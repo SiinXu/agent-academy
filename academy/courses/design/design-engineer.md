@@ -2,7 +2,7 @@
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-13
-updated_at: 2026-11-13T02:40:00Z
+updated_at: 2026-11-13T17:45:53Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -49,11 +49,11 @@ Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/
 - minimal: 1669 items
 - motion: 648 items
 - 3d: 641 items
-- editorial: 593 items
+- editorial: 594 items
 - playful: 567 items
 - gradient: 289 items
 - retro: 117 items
-- dark-tech: 110 items
+- dark-tech: 111 items
 - glass: 57 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -316,6 +316,10 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://draw.404040.net/mcp
   needs_credentials: true, writes_external: false
+- [mcp] FigmaMCP. Claude Code or Codex read and edit your open Figma file. Needs the free FigmaMCP Mac app.
+  source: https://github.com/MrCoder/figmamcp-releases
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  needs_credentials: false, writes_external: false
 - [mcp] io.github.mrfentmen/adobe-font-metrics-mcp. Adobe Font Metrics MCP: read, check, lint, scaffold and run code.
   source: https://github.com/mrfentmen/awesome-servers
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
