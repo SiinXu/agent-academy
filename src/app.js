@@ -89,7 +89,7 @@
       const pages = Math.max(1, Math.ceil(res.length / PER)); st.page = Math.min(st.page, pages);
       grid.innerHTML = res.slice((st.page - 1) * PER, st.page * PER).map(cardH).join('');
       window.__bindPointer && window.__bindPointer(grid);
-      $('#lf-n').textContent = res.length.toLocaleString(lang); $('#lf-empty').hidden = res.length > 0;
+      lfx.n = res.length; $('#lf-n').textContent = res.length.toLocaleString(lang); $('#lf-empty').hidden = res.length > 0;
       const pg = $('#lf-pager'); const nums = []; for (let p = 1; p <= pages; p++) if (p === 1 || p === pages || Math.abs(p - st.page) <= 1) nums.push(p); else if (nums[nums.length - 1] !== '…') nums.push('…');
       pg.innerHTML = pages < 2 ? '' : `<ul><li><button type="button" class="pg-nav" data-p="${st.page - 1}" ${st.page === 1 ? 'disabled' : ''} aria-label="${esc(T('lib.prev'))}"><span aria-hidden="true">‹</span><span class="pg-l">${esc(T('lib.prev'))}</span></button></li>` + nums.map((p) => (p === '…' ? '<li><span class="pg-el" aria-hidden="true">…</span></li>' : `<li><button type="button" data-p="${p}" ${p === st.page ? 'aria-current="page"' : ''} aria-label="${esc(T('lib.page'))} ${p}">${p}</button></li>`)).join('') + `<li><button type="button" class="pg-nav" data-p="${st.page + 1}" ${st.page === pages ? 'disabled' : ''} aria-label="${esc(T('lib.next'))}"><span class="pg-l">${esc(T('lib.next'))}</span><span aria-hidden="true">›</span></button></li></ul>`;
       if (push) { const u = new URL(location.href); ['ind', 'type', 'q', 'page', 'safe'].forEach((k) => u.searchParams.delete(k)); if (st.ind) u.searchParams.set('ind', st.ind); if (st.type) u.searchParams.set('type', st.type); if (st.q) u.searchParams.set('q', st.q); if (st.safe) u.searchParams.set('safe', '1'); if (st.page > 1) u.searchParams.set('page', st.page); history.replaceState(null, '', u); }
@@ -101,6 +101,18 @@
     let to; $('#lf-q').addEventListener('input', (e) => { clearTimeout(to); to = setTimeout(() => { st.q = e.target.value; st.page = 1; run(true); }, 200); });
     $('#lf-clear').addEventListener('click', () => { Object.assign(st, { q: '', ind: '', type: '', safe: false, page: 1 }); syncUI(); run(true); });
     $('#lf').addEventListener('submit', (e) => e.preventDefault());
+    // 2026-11-10 (daily-fix 11-10): #lf filters live, so it never posts. events.js already logs form_start (select/checkbox focus) and form_submit (Enter).
+    // A result-card click after using the filters now counts as form_submit (via: result); leaving the page after using them without that counts as form_abandon.
+    // Events only, no UI change. form_abandon must be in the stats EVENTS allowlist (incidental-growth stats-worker) or /e answers 400.
+    const lfx = { used: false, done: false, n: 0 };
+    const lfp = (via) => ({ form: 'lf', kind: AA.page.kind, via, q_len: Math.min(st.q.trim().length, 99), n: lfx.n, ind: st.ind ? 1 : 0, type: st.type ? 1 : 0, safe: st.safe ? 1 : 0 });
+    $('#lf').addEventListener('input', () => { lfx.used = true; }, true);
+    $('#lf').addEventListener('change', () => { lfx.used = true; }, true);
+    segs.forEach((s) => s.addEventListener('click', () => { lfx.used = true; }));
+    $('#lf').addEventListener('submit', () => { if (lfx.used) lfx.done = true; });
+    grid.addEventListener('click', (e) => { if (!lfx.used || lfx.done || !e.target.closest('a[href]')) return; lfx.done = true; window.ievt && window.ievt('form_submit', lfp('result')); });
+    const lfLeave = () => { if (!lfx.used || lfx.done) return; lfx.done = true; window.ievt && window.ievt('form_abandon', lfp('leave')); };
+    addEventListener('pagehide', lfLeave); document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') lfLeave(); });
     window.__libRun = () => run(false);
     if (st.q || st.ind || st.type || st.safe || st.page > 1 || lang !== 'en') run(false); else run(false);
   }
