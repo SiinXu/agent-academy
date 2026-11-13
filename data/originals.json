@@ -6925,6 +6925,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.abbyseo/mcp-server&version=latest"
 },
+"mcp-com-agentfonts-agentfonts": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Find, price and license fonts from foundries; agents pay per licence in USDC via x402 on Base.",
+"name": "com.agentfonts/agentfonts",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://agentfonts.com/mcp"
+}
+],
+"repository": "https://github.com/dimelords/fontmarket",
+"title": "Agentfonts",
+"version": "0.5.0",
+"website": "https://agentfonts.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.agentfonts/agentfonts&version=latest"
+},
 "mcp-com-ahrefs-mcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8658,6 +8680,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoasist/mcp&version=latest"
 },
+"mcp-com-seoclave-seoclave": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Google keyword data for Latin America plus technical SEO, robots.txt, DNS and AI-crawler checks.",
+"name": "com.seoclave/seoclave",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seoclave.com/api/v1/mcp"
+}
+],
+"repository": null,
+"title": "SEOClave",
+"version": "1.0.0",
+"website": "https://seoclave.com/desarrolladores"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoclave/seoclave&version=latest"
+},
 "mcp-com-seoclerks-seoclerks": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9019,6 +9063,32 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.snowseo/snowseo&version=latest"
 },
+"mcp-com-standardicon-icons": {
+"file": "data/originals/mcp-com-standardicon-icons.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Search line icons by meaning or by what they look like, and get them as SVG at any size and weight.",
+"name": "com.standardicon/icons",
+"packages": [
+{
+"env": [],
+"id": "@standardicon/mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.3.0-alpha.4"
+}
+],
+"remotes": [],
+"repository": "https://github.com/Standard-Icon/standardicon",
+"title": "The Standard Icon Set",
+"version": "0.3.0-alpha.4",
+"website": "https://standardicon.com"
+},
+"truncated": false,
+"url": "https://github.com/Standard-Icon/standardicon/blob/HEAD/README.md"
+},
 "mcp-com-stillindexed-seo-checkers": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9040,6 +9110,28 @@
 "website": "https://stillindexed.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.stillindexed/seo-checkers&version=latest"
+},
+"mcp-com-super-webmaster-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Free SEO and GEO audit of any public website: scores out of 100, fixes ranked by gain. In French.",
+"name": "com.super-webmaster/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://app.super-webmaster.com/api/mcp/public"
+}
+],
+"repository": null,
+"title": "Super Webmaster",
+"version": "1.2.0",
+"website": "https://super-webmaster.com/mcp-seo.php"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.super-webmaster/seo&version=latest"
 },
 "mcp-com-superagnt-tiktok-data": {
 "file": "data/originals/mcp-com-superagnt-tiktok-data.md",
@@ -9132,52 +9224,6 @@
 "website": "https://tabbygolf.com"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tabbygolf/marketing&version=latest"
-},
-"mcp-com-thatseoagent-seo": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "SEO analysis for sites you own: Google Search Console, GA4, PageSpeed, and full site audits.",
-"name": "com.thatseoagent/seo",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://thatseoagent.com/api/mcp"
-}
-],
-"repository": "https://github.com/thatseoagent/skills",
-"title": "That SEO Agent",
-"version": "1.5.0",
-"website": "https://thatseoagent.com"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.thatseoagent/seo&version=latest"
-},
-"mcp-com-thenextgennexus-seo-web-analysis-mcp-server": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "On-page crawl, tech-stack detection, DNS, SSL and WHOIS as agent tools.",
-"name": "com.thenextgennexus/seo-web-analysis-mcp-server",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"Authorization"
-],
-"type": "streamable-http",
-"url": "https://nexgendata-mcp-proxy.steve-corbeil.workers.dev/seo-web-analysis-mcp-server/mcp"
-}
-],
-"repository": null,
-"title": null,
-"version": "1.0.1",
-"website": "https://apify.com/nexgendata/seo-web-analysis-mcp-server?fpr=2ayu9b"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.thenextgennexus/seo-web-analysis-mcp-server&version=latest"
 },
 "mcp-com-theservicemarketingguys-audit": {
 "file": "data/originals/mcp-com-theservicemarketingguys-audit.md",
@@ -9630,6 +9676,30 @@
 },
 "truncated": false,
 "url": "https://github.com/A1-x-Tech/mcp-shopify-admin/blob/HEAD/README.md"
+},
+"mcp-io-github-adkit-tiktok-ads": {
+"file": "data/originals/mcp-io-github-adkit-tiktok-ads.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "TikTok Ads MCP server: run TikTok campaigns, ad groups, ads and reports from AI.",
+"name": "io.github.adkit/tiktok-ads",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.adkit.so/api/mcp/tiktok-ads"
+}
+],
+"repository": "https://github.com/adkit/tiktok-ads-mcp",
+"title": "TikTok Ads MCP Server by AdKit",
+"version": "1.0.0",
+"website": "https://adkit.so/features/ads-mcp/tiktok"
+},
+"truncated": false,
+"url": "https://github.com/adkit/tiktok-ads-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-ajsmonty-adobe-mcp": {
 "file": "data/originals/mcp-io-github-ajsmonty-adobe-mcp.md",
@@ -23272,6 +23342,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-1w1flrs-scribble-camera-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-1xh94om-geometric-logo-mark-animation": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
