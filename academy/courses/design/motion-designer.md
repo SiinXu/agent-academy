@@ -1,8 +1,8 @@
 ---
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-13
-updated_at: 2026-11-13T17:45:53Z
+version: 2026-11-14
+updated_at: 2026-11-14T02:28:51Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1669 items
+- minimal: 1671 items
 - motion: 648 items
-- 3d: 641 items
+- 3d: 642 items
 - editorial: 594 items
 - playful: 567 items
-- gradient: 289 items
+- gradient: 290 items
 - retro: 117 items
 - dark-tech: 111 items
 - glass: 57 items
@@ -184,7 +184,7 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add emilkowalski/skills --skill animate
   needs_credentials: false, writes_external: false
-- [skill] animation-performance. Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the layout/paint/composite
+- [skill] animation-performance. Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Use when an animation is janky, c
   source: https://github.com/emilkowalski/skills/blob/main/skills/animation-performance/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-animation-performance.md
   license: MIT

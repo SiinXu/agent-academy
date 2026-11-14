@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-11-13T17:45:53Z",
+ "updated_at": "2026-11-14T02:28:51Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 194053,
+      "repo_stars": 194164,
       "repo_pushed_at": "2026-11-06"
      },
      "course_step": "3-learn-rules",
@@ -560,7 +560,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 114867,
+      "repo_stars": 115079,
       "repo_pushed_at": "2026-11-08"
      },
      "course_step": "3-learn-rules",
@@ -582,7 +582,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
+     "summary": "Pick the library for a frontend task from a curated list — primitives, toasts, drawers, command menus, OTP, numbers, charts, virtualization, drag and drop, state, styling.",
      "summary_lang": "en",
      "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/pick-ui-library/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-pick-ui-library.md",
@@ -605,13 +605,13 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56598,
+      "repo_stars": 56690,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-14T02:28:51Z",
      "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
@@ -627,7 +627,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.",
+     "summary": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right.",
      "summary_lang": "en",
      "source_url": "https://github.com/emilkowalski/skills/blob/main/skills/prototype/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-prototype.md",
@@ -650,13 +650,13 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56598,
+      "repo_stars": 56690,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-14T02:28:51Z",
      "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
@@ -695,7 +695,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -740,7 +740,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -785,7 +785,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -830,7 +830,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -875,7 +875,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35652,
+      "repo_stars": 35676,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -920,7 +920,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26532,
+      "repo_stars": 26537,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1929,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "4-do-it",
@@ -1992,7 +1992,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2182,
+      "repo_stars": 2184,
       "repo_pushed_at": "2026-11-13",
       "registry_updated_at": "2025-10-16"
      },
@@ -2827,7 +2827,7 @@
      "roles": [
       "design-engineer"
      ],
-     "summary": "Search free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.",
+     "summary": "Search 297 free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.",
      "summary_lang": "en",
      "source_url": "https://github.com/neueworld/omakase-icons",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-oma-kase-icons.md",
@@ -2842,7 +2842,7 @@
       "license": "MIT",
       "url": "https://github.com/neueworld/omakase-icons/blob/HEAD/README.md",
       "record": {
-       "description": "Search free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.",
+       "description": "Search 297 free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.",
        "name": "com.oma-kase/icons",
        "packages": [],
        "remotes": [
@@ -2854,7 +2854,7 @@
        ],
        "repository": "https://github.com/neueworld/omakase-icons",
        "title": "Omakase Icons",
-       "version": "0.8.0",
+       "version": "0.10.0",
        "website": "https://icons.oma-kase.com/mcp-server"
       }
      },
@@ -2869,12 +2869,12 @@
      "metrics": {
       "repo_stars": 0,
       "repo_pushed_at": "2026-11-13",
-      "registry_updated_at": "2026-11-11"
+      "registry_updated_at": "2026-11-13"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-11-10T17:50:52Z",
-     "updated_at": "2026-11-11T17:53:55Z",
+     "updated_at": "2026-11-14T02:28:51Z",
      "checked_at": "2026-11-10T17:50:52Z",
      "http_status": {
       "source": 200
@@ -3109,7 +3109,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 149014,
+      "repo_stars": 149128,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -3154,7 +3154,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 149014,
+      "repo_stars": 149128,
       "repo_pushed_at": "2026-11-10"
      },
      "course_step": "3-learn-rules",
@@ -3199,13 +3199,13 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 56598,
+      "repo_stars": 56690,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-14T02:28:51Z",
      "checked_at": "2026-11-09T20:44:54Z",
      "http_status": {
       "source": 200
@@ -3244,7 +3244,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3289,7 +3289,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3334,7 +3334,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3379,7 +3379,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42481,
+      "repo_stars": 42492,
       "repo_pushed_at": "2026-11-09"
      },
      "course_step": "3-learn-rules",
@@ -3424,7 +3424,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35652,
+      "repo_stars": 35676,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -3469,7 +3469,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35652,
+      "repo_stars": 35676,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -3514,7 +3514,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 35652,
+      "repo_stars": 35676,
       "repo_pushed_at": "2026-11-13"
      },
      "course_step": "3-learn-rules",
@@ -3559,7 +3559,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26532,
+      "repo_stars": 26537,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

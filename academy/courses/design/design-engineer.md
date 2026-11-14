@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-13
-updated_at: 2026-11-13T17:45:53Z
+version: 2026-11-14
+updated_at: 2026-11-14T02:28:51Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1669 items
+- minimal: 1671 items
 - motion: 648 items
-- 3d: 641 items
+- 3d: 642 items
 - editorial: 594 items
 - playful: 567 items
-- gradient: 289 items
+- gradient: 290 items
 - retro: 117 items
 - dark-tech: 111 items
 - glass: 57 items
@@ -110,13 +110,13 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add Leonxlnx/taste-skill --skill taste-skill
   needs_credentials: false, writes_external: false
-- [skill] pick-ui-library. Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly i
+- [skill] pick-ui-library. Pick the library for a frontend task from a curated list — primitives, toasts, drawers, command menus, OTP, numbers, charts, virtualization, drag and drop, state, styling.
   source: https://github.com/emilkowalski/skills/blob/main/skills/pick-ui-library/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-pick-ui-library.md
   license: MIT
   install: npx skills add emilkowalski/skills --skill pick-ui-library
   needs_credentials: false, writes_external: false
-- [skill] prototype. Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does n
+- [skill] prototype. Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right.
   source: https://github.com/emilkowalski/skills/blob/main/skills/prototype/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/emilkowalski-skills-skills-prototype.md
   license: MIT
@@ -331,7 +331,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @hanoilab/figma-bridge-mcp
   needs_credentials: false, writes_external: false
-- [mcp] Omakase Icons. Search free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.
+- [mcp] Omakase Icons. Search 297 free MIT SVG icons and paste React, Vue, Svelte or SVG code. No auth.
   source: https://github.com/neueworld/omakase-icons
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-oma-kase-icons.md
   license: MIT
