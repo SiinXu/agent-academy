@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-14
-updated_at: 2026-11-14T02:28:51Z
+updated_at: 2026-11-14T16:36:58Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -266,12 +266,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @hasdata/tiktok-mcp
   needs_credentials: true, writes_external: false
-- [mcp] com.superagnt/tiktok-data. superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.
-  source: https://github.com/superagnt/plugins
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok
-  needs_credentials: true, writes_external: false
 - [mcp] AfterLaunch: the agentic growth marketing engine. Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.
   source: https://github.com/afterlaunch/mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-afterlaunch-agentic-growth-marketing.md
@@ -329,6 +323,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-aiseotracker-mcp.md
   license: MIT
   install: remote (streamable-http): https://aiseotracker.com/api/agent/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] ai.openhelm/seo-growth. Autonomous SEO + GEO growth: keyword research, audits, content, AI answer-engine visibility.
+  source: https://openhelm.ai
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.openhelm.ai/seo/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

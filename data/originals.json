@@ -6755,6 +6755,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=au.com.digitaldarts/seo-expert&version=latest"
 },
+"mcp-au-com-kangaroogrowth-gbp-local-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Free Google Business Profile and local SEO checks: names, posts, reviews, suspensions, websites.",
+"name": "au.com.kangaroogrowth/gbp-local-seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.kangaroogrowth.com.au/mcp"
+}
+],
+"repository": null,
+"title": "Google Business Profile & Local SEO Checker",
+"version": "1.0.1",
+"website": "https://kangaroogrowth.com.au/free-tools/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=au.com.kangaroogrowth/gbp-local-seo&version=latest"
+},
 "mcp-blog-draftly-seo": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8627,6 +8649,28 @@
 "website": "https://scraptik.com"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.scraptik/tiktok&version=latest"
+},
+"mcp-com-seattleorganicseo-public-info": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Read-only Seattle Organic SEO company facts, services, public contacts and approved website pages.",
+"name": "com.seattleorganicseo/public-info",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seattleorganicseo.com/mcp"
+}
+],
+"repository": null,
+"title": "Seattle Organic SEO Public Information",
+"version": "1.0.0",
+"website": "https://seattleorganicseo.com/mcp-server/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seattleorganicseo/public-info&version=latest"
 },
 "mcp-com-seoaix-seo-audit": {
 "file": "data/originals/mcp-com-seoaix-seo-audit.md",
@@ -13695,16 +13739,16 @@
 "secret": null
 }
 ],
-"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.3.0/hubspot-mcp.mcpb",
+"id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.3.1/hubspot-mcp.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.3.0"
+"version": "0.3.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/servosity/msp-skills",
 "title": "HubSpot MCP",
-"version": "0.3.0",
+"version": "0.3.1",
 "website": null
 },
 "truncated": true,
@@ -14436,7 +14480,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.39.1",
+"version": "1.39.2",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -21874,7 +21918,21 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-opencoredev-islandcn": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-gh-panel-ui-panelui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-preetsuthar17-hextaui": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -21967,6 +22025,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-voltagent-official-design-md": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-wiziscool-oh-my-cpa": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
