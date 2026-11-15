@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-14
-updated_at: 2026-11-14T16:36:58Z
+version: 2026-11-15
+updated_at: 2026-11-15T01:58:15Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -172,7 +172,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y posthog-mcp-server
   needs_credentials: false, writes_external: true
-- [mcp] Marketing Grader. Read brand DNA, content drafts, calendars and saved marketing performance.
+- [mcp] Marketing Grader. Marketing Grader: read your brand DNA, drafts, calendar and saved marketing performance.
   source: https://grader.recmoment.net/mcp-info
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://grader.recmoment.net/mcp

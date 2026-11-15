@@ -8244,13 +8244,13 @@
 "id": "@mambalabsdev/mcp-tiktok-video-stats",
 "transport": "stdio",
 "type": "npm",
-"version": "1.0.1"
+"version": "1.0.2"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/mambalabsdev/mcp-tiktok-video-stats",
 "title": null,
-"version": "1.0.1",
+"version": "1.0.2",
 "website": null
 },
 "truncated": false,
@@ -9788,6 +9788,30 @@
 },
 "truncated": false,
 "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-akhilrajesh213-shopify-mcp-server": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Any Shopify store's products for AI agents: prices per country, sales, variants, stock, collections.",
+"name": "io.github.akhilrajesh213/shopify-mcp-server",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://akhil-rajesh--shopify-mcp-server.apify.actor/mcp"
+}
+],
+"repository": null,
+"title": "Shopify MCP Server (any store)",
+"version": "0.1.3",
+"website": "https://apify.com/akhil_rajesh/shopify-mcp-server"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.akhilrajesh213/shopify-mcp-server&version=latest"
 },
 "mcp-io-github-alex-brecher-shopify-multi-store": {
 "file": "data/originals/mcp-io-github-alex-brecher-shopify-multi-store.md",
@@ -11451,6 +11475,69 @@
 },
 "truncated": false,
 "url": "https://github.com/headlessherm-creator/helpdesk-mender-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-holon-sh-excalidraw": {
+"file": "data/originals/mcp-io-github-holon-sh-excalidraw.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "A shared Excalidraw board that people and agents draw on together",
+"name": "io.github.holon-sh/excalidraw",
+"packages": [
+{
+"env": [
+{
+"description": "Host of the S3-compatible API that keeps boards, such as <account id>.r2.cloudflarestorage.com. Without it, boards last as long as the server does.",
+"name": "S3_HOST",
+"required": null,
+"secret": null
+},
+{
+"description": "Bucket that keeps boards.",
+"name": "S3_BUCKET",
+"required": null,
+"secret": null
+},
+{
+"description": "Region requests are signed for: auto for R2, the bucket's own for providers with regions.",
+"name": "S3_REGION",
+"required": null,
+"secret": null
+},
+{
+"description": "Access key of a token that can read and write the bucket's objects.",
+"name": "S3_ACCESS_KEY_ID",
+"required": null,
+"secret": true
+},
+{
+"description": "Secret of that token.",
+"name": "S3_SECRET_ACCESS_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "docker.io/holonlabs/excalidraw:0.0.1",
+"transport": "streamable-http",
+"type": "oci",
+"version": null
+}
+],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://excalidraw.holonlabs.io/mcp/excalidraw"
+}
+],
+"repository": "https://github.com/holon-sh/excalidraw",
+"title": "Excalidraw · Holon",
+"version": "0.0.1",
+"website": "https://excalidraw.holonlabs.io"
+},
+"truncated": false,
+"url": "https://github.com/holon-sh/excalidraw/blob/HEAD/README.md"
 },
 "mcp-io-github-iambashar-agent-intercom": {
 "file": "data/originals/mcp-io-github-iambashar-agent-intercom.md",
@@ -14561,7 +14648,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Read brand DNA, content drafts, calendars and saved marketing performance.",
+"description": "Marketing Grader: read your brand DNA, drafts, calendar and saved marketing performance.",
 "name": "net.recmoment.grader/marketing-grader",
 "packages": [],
 "remotes": [
@@ -14573,7 +14660,7 @@
 ],
 "repository": null,
 "title": "Marketing Grader",
-"version": "0.1.0",
+"version": "0.1.1",
 "website": "https://grader.recmoment.net/mcp-info"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=net.recmoment.grader/marketing-grader&version=latest"

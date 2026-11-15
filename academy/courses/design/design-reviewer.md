@@ -1,8 +1,8 @@
 ---
 name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-14
-updated_at: 2026-11-14T16:36:58Z
+version: 2026-11-15
+updated_at: 2026-11-15T01:58:15Z
 source: https://academy.incidental.site/courses/design/design-reviewer/
 ---
 
