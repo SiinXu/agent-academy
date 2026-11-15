@@ -2,7 +2,7 @@
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
 version: 2026-11-15
-updated_at: 2026-11-15T01:58:15Z
+updated_at: 2026-11-15T17:11:40Z
 source: https://academy.incidental.site/courses/customer-service/support-agent/
 ---
 
@@ -245,18 +245,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: Apache-2.0
   install: uvx zendesk-mcp
   needs_credentials: false, writes_external: false
+- [mcp] Shopify Store Sync. Diff and sync Shopify stores: dry-run plans, cross-store ID remapping, never deletes.
+  source: https://github.com/ussefidder/shopify-store-sync-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ussefidder-shopify-store-sync-mcp.md
+  license: MIT
+  install: npx -y shopify-store-sync-mcp
+  needs_credentials: true, writes_external: true
 - [mcp] HasData Shopify. The public product catalogue and collections of any Shopify storefront, as structured JSON.
   source: https://github.com/HasData/shopify-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md
   license: MIT
   install: npx -y @hasdata/shopify-mcp
   needs_credentials: true, writes_external: false
-- [mcp] io.github.alex-brecher/shopify-multi-store. Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.
-  source: https://github.com/alex-brecher/shopify-multi-store
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-alex-brecher-shopify-multi-store.md
-  license: MIT
-  install: npx -y shopify-multi-store-mcp-server
-  needs_credentials: false, writes_external: true
 
 ## Step 5: Self-check
 

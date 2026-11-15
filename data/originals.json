@@ -6619,7 +6619,7 @@
 "website": "https://tools.openkrill.app/"
 },
 "truncated": false,
-"url": "https://github.com/nguyenhieuec/agent-tools-plugins/blob/HEAD/README.md"
+"url": "https://github.com/openkrill-labs/agent-tools-plugins/blob/HEAD/README.md"
 },
 "mcp-app-seoaeogeo-seo-aeo-geo": {
 "file": "data/originals/mcp-app-seoaeogeo-seo-aeo-geo.md",
@@ -9167,9 +9167,10 @@
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.stillindexed/seo-checkers&version=latest"
 },
 "mcp-com-super-webmaster-seo": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
+"file": "data/originals/mcp-com-super-webmaster-seo.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
 "record": {
 "description": "Free SEO and GEO audit of any public website: scores out of 100, fixes ranked by gain. In French.",
 "name": "com.super-webmaster/seo",
@@ -9181,12 +9182,13 @@
 "url": "https://app.super-webmaster.com/api/mcp/public"
 }
 ],
-"repository": null,
+"repository": "https://github.com/pierrebillard/super-webmaster-mcp",
 "title": "Super Webmaster",
-"version": "1.2.0",
+"version": "1.2.1",
 "website": "https://super-webmaster.com/mcp-seo.php"
 },
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.super-webmaster/seo&version=latest"
+"truncated": false,
+"url": "https://github.com/pierrebillard/super-webmaster-mcp/blob/HEAD/README.md"
 },
 "mcp-com-superagnt-tiktok-data": {
 "file": "data/originals/mcp-com-superagnt-tiktok-data.md",
@@ -14069,17 +14071,56 @@
 "id": "@tunglt1810/figma-mcp-go",
 "transport": "stdio",
 "type": "npm",
-"version": "0.6.0"
+"version": "0.7.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/tunglt1810/figma-mcp-go",
 "title": null,
-"version": "0.6.0",
+"version": "0.7.0",
 "website": null
 },
 "truncated": false,
 "url": "https://github.com/tunglt1810/figma-mcp-go/blob/HEAD/README.md"
+},
+"mcp-io-github-ussefidder-shopify-store-sync-mcp": {
+"file": "data/originals/mcp-io-github-ussefidder-shopify-store-sync-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Diff and sync Shopify stores: dry-run plans, cross-store ID remapping, never deletes.",
+"name": "io.github.ussefidder/shopify-store-sync-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Absolute path to your stores.json (store domains and how each one is connected). Defaults to ./stores.json.",
+"name": "SHOPIFY_STORES_FILE",
+"required": null,
+"secret": null
+},
+{
+"description": "Folder that snapshot exports and dir: sources must stay inside. Defaults to the folder the server runs in.",
+"name": "SYNC_SNAPSHOT_DIR",
+"required": null,
+"secret": null
+}
+],
+"id": "shopify-store-sync-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.5.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/ussefidder/shopify-store-sync-mcp",
+"title": "Shopify Store Sync",
+"version": "0.5.1",
+"website": "https://github.com/ussefidder/shopify-store-sync-mcp#readme"
+},
+"truncated": false,
+"url": "https://github.com/ussefidder/shopify-store-sync-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-varvararatta-marketing-mcp": {
 "kind": "excerpt",
@@ -14602,7 +14643,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Senior growth marketing, powered by AI, for less than the cost of a full-time hire.",
+"description": "Levered does all your marketing for you.",
 "name": "marketing.levered/levered",
 "packages": [],
 "remotes": [
@@ -14614,7 +14655,7 @@
 ],
 "repository": null,
 "title": "Levered",
-"version": "2.1.0",
+"version": "2.1.1",
 "website": "https://levered.marketing"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=marketing.levered/levered&version=latest"
@@ -22005,6 +22046,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-oil-oil-oil-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-gh-opencoredev-islandcn": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26073,6 +26121,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-c3pl3dj-context-is-everything": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-c5eums8-crayon-textured-app-icons": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

@@ -4,6 +4,12 @@ MCP servers for Adobe applications. Install one application's server on its
 own, or the suite: one server for every application, with tools that work
 across them.
 
+adobe-mcp is part of [Creative MCP](https://creativemcp.com), an independent,
+open-source series of MCP servers for creative software. The
+[Adobe MCP page](https://creativemcp.com/apps.html) shows setup for each
+client, and the [Creative MCP repository](https://github.com/zachshallbetter/creative-mcp)
+holds the installer, the registry and the website.
+
 The InDesign server was published as `indesign-mcp-server` up to 2.3.0. It is
 now `adobe-mcp-indesign`, with the same tools; replace the package name in your
 client configuration.
@@ -217,6 +223,7 @@ Common knobs (see each package README for the full set):
 | `ILLUSTRATOR_ALLOWED_DIRS` | Extra directories Illustrator tools may read/write |
 | `INDESIGN_APP_NAME` / `ILLUSTRATOR_APP_NAME` | Override the target application name |
 | `INDESIGN_SCRIPT_TIMEOUT_MS` / `ILLUSTRATOR_SCRIPT_TIMEOUT_MS` | Per-script timeout |
+| `INDESIGN_ACTIVATE`, `ILLUSTRATOR_ACTIVATE`, `PHOTOSHOP_ACTIVATE`, `AFTEREFFECTS_ACTIVATE` | macOS: `false` runs every script with the app left in the background. Default `true` (brought to the front first) |
 | `PREMIERE_WS_PORT`, `BRIDGE_TOKEN`, `PREMIERE_ALLOWED_DIRS` | Premiere UXP bridge |
 
 ### Smoke-check without an MCP client

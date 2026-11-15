@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-15
-updated_at: 2026-11-15T01:58:15Z
+updated_at: 2026-11-15T17:11:40Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -291,7 +291,7 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   install: npx -y dingdawg-marketing-agent
   needs_credentials: true, writes_external: false
 - [mcp] SEO Audit. Find what to fix on a public website, for search engines and for AI answers.
-  source: https://github.com/nguyenhieuec/agent-tools-plugins
+  source: https://github.com/openkrill-labs/agent-tools-plugins
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-app-openkrill-seo-audit.md
   license: MIT
   install: remote (streamable-http): https://seoaudit.openkrill.app/mcp

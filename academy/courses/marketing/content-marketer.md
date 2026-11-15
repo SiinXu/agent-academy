@@ -2,7 +2,7 @@
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-15
-updated_at: 2026-11-15T01:58:15Z
+updated_at: 2026-11-15T17:11:40Z
 source: https://academy.incidental.site/courses/marketing/content-marketer/
 ---
 
@@ -302,6 +302,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: npx -y @mrfentmen/mixpanel-mcp
   needs_credentials: true, writes_external: false
+- [mcp] Levered. Levered does all your marketing for you.
+  source: https://levered.marketing
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://levered.marketing/api/v2/mcp/public
+  needs_credentials: true, writes_external: false
 - [mcp] Marketing Mcp. MCP server for Marketing
   source: https://github.com/varvararatta/botfactory-mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -325,12 +330,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: uvx sendgrid-mcp-secure
   needs_credentials: true, writes_external: true
-- [mcp] The Service Marketing Guys Audit. Read-only audit of any local service business, Open Service Profile conformance first.
-  source: https://github.com/buildmodus/open-service-profile
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-theservicemarketingguys-audit.md
-  license: MIT
-  install: remote (streamable-http): https://www.theservicemarketingguys.com/api/audit-mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

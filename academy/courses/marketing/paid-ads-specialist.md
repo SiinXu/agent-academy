@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-15
-updated_at: 2026-11-15T01:58:15Z
+updated_at: 2026-11-15T17:11:40Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
