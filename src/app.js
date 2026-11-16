@@ -27,6 +27,7 @@
     $$('[data-zh-only]').forEach((e) => { e.hidden = !l.startsWith('zh'); if (!e.hidden && e.dataset.zhSrc && !e.dataset.zhOk) { e.dataset.zhOk = '1'; fetch(e.dataset.zhSrc).then((r) => (r.ok ? r.text() : '')).then((t) => { e.innerHTML = t; }).catch(() => {}); } }); $$('[data-nonzh-only]').forEach((e) => { e.hidden = l.startsWith('zh'); });
     const only = $$(`[data-only="${l}"]`); (only.length ? only : $$('[data-only="en"]')).forEach((e) => { e.hidden = false; if (e.dataset.frag && !e.dataset.fragOk) { e.dataset.fragOk = '1'; fetch(e.dataset.frag).then((r) => (r.ok ? r.text() : '')).then((t) => { e.innerHTML = t; }).catch(() => {}); } });
     $$('.lang-sel').forEach((s) => { s.value = l; });
+    if (d.dataset.docTitle && I.ui[d.dataset.docTitle]) { document.title = I.ui[d.dataset.docTitle]; $$('meta[property="og:title"],meta[name="twitter:title"]').forEach((m) => { m.content = document.title; }); } // home <title> per locale (SEO 2026-11-16)
     localTimes();
     await translateContent();
     d.classList.remove('i18n-wait');
