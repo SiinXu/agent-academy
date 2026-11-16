@@ -359,7 +359,7 @@
     btn.addEventListener('click', async () => {
       if (!(await copyText(get()))) return;
       btn.dataset.copied = 'true'; $('.sr-live', btn).textContent = T('wz.copied', 'Copied'); const lab = $('.cb-label', btn); if (lab) lab.textContent = T('wz.copied', 'Copied');
-      // Explicit academy conversion: generate → copy (events.js also heuristically fires convert when label matches /copy/).
+      // Explicit academy conversion: generate → copy. The button carries data-evt="copy", so events.js sends only copy and skips its heuristic convert (one conversion per copy).
       try {
         const text = String(get() || '');
         if (text) window.ievt && window.ievt('convert', { goal: 'prompt_copy', chars: Math.min(text.length, 9999) });
