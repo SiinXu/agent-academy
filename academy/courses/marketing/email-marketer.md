@@ -2,7 +2,7 @@
 name: marketing-email-marketer
 description: Agent Academy course for Email and lifecycle (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-16
-updated_at: 2026-11-16T02:13:04Z
+updated_at: 2026-11-16T20:29:41Z
 source: https://academy.incidental.site/courses/marketing/email-marketer/
 ---
 
@@ -187,24 +187,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: Apache-2.0
   install: see README; needs Mailchimp API key; can SEND campaigns (write access)
   needs_credentials: true, writes_external: true
-- [mcp] SendGrid MCP Server. MCP server for SendGrid's v3 API: email marketing, transactional mail, templates, and analytics.
-  source: https://github.com/deyikong/sendgrid-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-deyikong-sendgrid-mcp.md
-  license: ISC
-  install: npx -y sendgrid-mcp
-  needs_credentials: true, writes_external: true
-- [mcp] beehiiv. Manage beehiiv newsletters, posts, podcasts, community, subscribers, and analytics.
-  source: https://github.com/beehiiv/agents
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-beehiiv-beehiiv.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.beehiiv.com/mcp
-  needs_credentials: true, writes_external: true
-- [mcp] SendGrid Transactional. SendGrid transactional email: preflight send, templates, and delivery diagnostics.
-  source: https://github.com/Neschadin/sendgrid-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-neschadin-sendgrid-mcp.md
-  license: MIT
-  install: npx -y @neschadin/sendgrid-mcp
-  needs_credentials: true, writes_external: true
+- [mcp] BeeDirectory. Find newsletters to sponsor: verified audience, sponsorship prices and sources from BeeDirectory.
+  source: https://bee-directory.com/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://bee-directory.com/api/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Campaign Monitor MCP Server and API by Cotlet. Campaign Monitor email marketing for brands MCP server: get campaign report, list who did not open.
   source: https://cotlet.dev/integrations/campaign-monitor-api-mcp-server
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -237,34 +224,26 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: npx -y newsletter-commerce-mcp
   needs_credentials: true, writes_external: false
-- [mcp] Klaviyo. Klaviyo MCP Pack — wraps the Klaviyo API for email marketing
-  source: https://github.com/pipeworx-io/mcp-klaviyo
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-klaviyo.md
-  license: MIT
-  install: npx -y @pipeworx/mcp-klaviyo
-  needs_credentials: true, writes_external: false
-- [mcp] Klaviyo MCP. Klaviyo MCP: campaigns, flows, segments, metrics, reports, profiles across many accounts. 24 tools.
-  source: https://github.com/scalably-io/klaviyo-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-scalably-klaviyo-mcp.md
-  license: MIT
-  install: npx -y @scalably-io/klaviyo-mcp
-  needs_credentials: true, writes_external: false
-- [mcp] Klaviyo MCP by InsightfulPipe. Hosted Klaviyo MCP server for Claude, ChatGPT and Cursor, with each action switched per account.
-  source: https://github.com/Insightful-Pipe/klaviyo-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-insightfulpipe-klaviyo.md
-  license: MIT
-  install: remote (streamable-http): https://klaviyo.insightfulmcp.com/
-  needs_credentials: true, writes_external: false
-- [mcp] Mailchimp. MCP server for Mailchimp API integration
-  source: https://github.com/asklokesh/mailchimp-mcp-server
+- [mcp] Marketing Content Production. Brand-safe ad, email, product description, and social content production.
+  source: https://mcp-payment-site.vercel.app/marketing-content-production
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: uvx mailchimp-mcp-server
+  install: uvx marketing-content-production-mcp
   needs_credentials: true, writes_external: false
-- [mcp] Mailchimp. Mailchimp MCP Pack — manage audiences, campaigns, and members via Mailchimp Marketing API.
-  source: https://github.com/pipeworx-io/mcp-mailchimp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-pipeworx-io-mailchimp.md
+- [mcp] Newsletter. Listas, edições, rascunhos e envio de teste
+  source: https://ciromaciel.click/mcp/newsletter
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://newsletter.worker.mymarketing.click/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] NewsletterProAI. NewsletterProAI drafts a real newsletter issue from your own notes and sends a real test delivery th
+  source: https://newsletterproai.eliteaiempire.com/
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://newsletterproai.eliteaiempire.com/mcp
+  needs_credentials: true, writes_external: true
+- [mcp] The Marketing Vault. Write offers, sales pages, emails, ads and traffic plans from your saved business profile.
+  source: https://github.com/beknownllc/the-marketing-vault-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-beknownllc-the-marketing-vault.md
   license: MIT
-  install: npx -y @pipeworx/mcp-mailchimp
+  install: remote (streamable-http): https://agsuleyeonapmldynizb.supabase.co/functions/v1/mcp
   needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
