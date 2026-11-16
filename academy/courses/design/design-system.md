@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-15
-updated_at: 2026-11-15T17:11:40Z
+version: 2026-11-16
+updated_at: 2026-11-16T02:13:04Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -49,11 +49,11 @@ Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/
 - minimal: 1675 items
 - motion: 648 items
 - 3d: 642 items
-- editorial: 594 items
+- editorial: 593 items
 - playful: 568 items
 - gradient: 290 items
 - retro: 117 items
-- dark-tech: 111 items
+- dark-tech: 110 items
 - glass: 57 items
 - enterprise: 45 items
 - swiss: 27 items
@@ -383,6 +383,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://manager.shadcndesign.com/api/mcp
   needs_credentials: true, writes_external: true
+- [mcp] Figma Proxy MCP. Figma → code: tokenized IR, PNG renders and SSIM/pixel visual diff to verify builds.
+  source: https://github.com/Semmargl/figma-proxy-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-semmargl-figma-proxy-mcp.md
+  license: MIT
+  install: npx -y figma-proxy-mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Framerfy. Build a Shopify-backed Framer store: sync products, theme, cart, checkout, publish and verify.
   source: https://docs.framerfy.ae/ai-builder
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)

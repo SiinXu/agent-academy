@@ -13746,6 +13746,39 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.saulius876-lgtm/trustpilot-reviews&version=latest"
 },
+"mcp-io-github-semmargl-figma-proxy-mcp": {
+"file": "data/originals/mcp-io-github-semmargl-figma-proxy-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Figma → code: tokenized IR, PNG renders and SSIM/pixel visual diff to verify builds.",
+"name": "io.github.Semmargl/figma-proxy-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Figma personal access token (read-only file content scope)",
+"name": "FIGMA_API_KEY",
+"required": true,
+"secret": true
+}
+],
+"id": "figma-proxy-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "1.1.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/Semmargl/figma-proxy-mcp",
+"title": "Figma Proxy MCP",
+"version": "1.1.1",
+"website": "https://github.com/Semmargl/figma-proxy-mcp"
+},
+"truncated": false,
+"url": "https://github.com/Semmargl/figma-proxy-mcp/blob/HEAD/README.md"
+},
 "mcp-io-github-serenido-tiktok-shop-product-details": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -32072,6 +32105,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-claude-design": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-ued-componly": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

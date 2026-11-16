@@ -90,7 +90,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Lob](servers/lob/) | direct-mail | 22 | API token | [servers/lob/](servers/lob/) |
 | [Loops](servers/loops/) | email | 14 | API token | [servers/loops/](servers/loops/) |
 | [MagicBell](servers/magicbell/) | notifications | 17 | API token | [servers/magicbell/](servers/magicbell/) |
-| [Mailchimp](servers/mailchimp/) | email | 22 | API token | [servers/mailchimp/](servers/mailchimp/) |
+| [Mailchimp](servers/mailchimp/) | email | 32 | API token | [servers/mailchimp/](servers/mailchimp/) |
 | [MailerLite](servers/mailerlite/) | email | 17 | API token | [servers/mailerlite/](servers/mailerlite/) |
 | [MapTiler](servers/maptiler/) | maps | 12 | API token | [servers/maptiler/](servers/maptiler/) |
 | [MaxMind minFraud](servers/maxmind-minfraud/) | fraud-detection | 8 | API token | [servers/maxmind-minfraud/](servers/maxmind-minfraud/) |
