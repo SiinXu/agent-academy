@@ -1,552 +1,143 @@
-# ShadCN Dashboard + Landing Page Template
+# Chronicle: free shadcn admin dashboard template
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GitHub Stars](https://img.shields.io/github/stars/shadcnstore/shadcn-dashboard-landing-template?style=social)](https://github.com/shadcnstore/shadcn-dashboard-landing-template)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+**Chronicle is a free, MIT-licensed admin dashboard template for Next.js, built with shadcn/ui on Base UI, Tailwind CSS v4 and the ShadcnStore Dashboard Kit.** Clone it, install, run it, and you have an admin panel with real screens, real interactions and sample data where every number adds up.
 
-![Dashboard Preview](vite-version/public/dashboard.png)
+[**Live demo**](https://demo.shadcnstore.com/chronicle/?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=top-demo) · [Template page](https://shadcnstore.com/templates/dashboards/chronicle?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=top-template) · [More templates](https://shadcnstore.com/templates?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=top-templates) · [Blocks](https://shadcnstore.com/blocks?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=top-blocks) · [Docs](./docs/README.md) · [Changelog](./CHANGELOG.md)
 
+If Chronicle saves you a week, a star helps other developers find it.
 
-<div align="center">
+![Chronicle Overview: MRR, sign-ups, retention, accounts that need attention and product usage, in the light theme](.github/screenshots/overview.webp)
 
-🎯 <a href="https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/dashboard" target="_blank">**View Live Demo**</a> | 🧩 <a href="https://shadcnstore.com/blocks" target="_blank">**Explore Premium Blocks**</a>
+## Get started
 
-</div>
+```bash
+git clone https://github.com/shadcnstore/shadcn-dashboard-landing-template.git chronicle
+cd chronicle
+pnpm install
+pnpm dev
+```
 
-Introducing a sleek, modern, and open-source admin dashboard template built with the latest web technologies, including React + TypeScript + Vite and Next.js + TypeScript. Powered by shadcn/ui and Tailwind CSS v4, this project offers a clean, responsive, and highly customizable UI. Developed and maintained by [ShadcnStore](https://shadcnstore.com), this free and open-source template is designed to accelerate your development process. Whether you're building an admin panel, SaaS dashboard, or launching an AI-driven product, this dashboard provides a beautiful, production-ready interface for your application — complete with a seamless dashboard and a fully-featured landing page to help you hit the ground running.
+Open http://localhost:3000. No environment variables, no API keys, no database: the sample data is generated in the browser from a fixed seed. Node.js 20.19 or newer.
 
-🚀 **Free & Open Source** by [**ShadcnStore**](https://shadcnstore.com) - Your gateway to premium UI components and templates.
+## What you get
 
-> **2.0 is out.** The template now runs on [Base UI](https://base-ui.com) instead of Radix UI, with every dependency on its latest release. Upgrading a customized copy? See the [changelog](./CHANGELOG.md#migrating-a-customized-1x-copy).
+| | |
+|---|---|
+| **Stack** | Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, shadcn/ui (`base-nova` style on Base UI, no Radix), TanStack Query and Table, Recharts, nuqs, zustand |
+| **Screens** | 31 pages: Overview, Analytics, Users (list and detail), Tasks (board and table), Mail, Chat, Calendar, Notifications, Pricing, FAQs, Settings (profile, account, appearance, notifications, connections), sign-in, sign-up and forgot password in three layouts each, five error pages, and a full SaaS landing page |
+| **Signature screen** | Users: saved views, faceted filters and search kept in the address bar, sort, column menu, inline role editing, bulk actions with undo, CSV export, a record sheet |
+| **Theme** | Slate and cobalt, light and dark, plus eight more presets that restyle every surface. A customizer changes preset, radius, font, scale, sidebar style, layout (sidebar or top nav) and direction (LTR or RTL) live |
+| **Data** | One fictional company, named Chronicle like the template, generated from a seed and pinned to 20 October 2026, so the dashboard looks the same every day. Tests prove the totals equal the sum of their rows |
+| **Backend-ready** | Every screen reads and writes through one data adapter (`lib/data.ts`). Swap the in-memory adapter for your API and the screens keep working: [docs/connect-your-backend.md](./docs/connect-your-backend.md) |
+| **Keyboard** | ⌘K search and actions, `G` then a letter to jump between pages, `?` for every shortcut, `D` for dark mode |
+| **Licence** | MIT, including commercial use |
 
+![Chronicle Users: saved views, filters, seats per account and bulk actions](.github/screenshots/users.webp)
 
----
+## Free and paid
 
-## 🌟 Live Demo
+Chronicle is the free member of a family of dashboard templates built on the same Dashboard Kit. The `kit/` folder here is a vendored copy of that Kit, MIT in this repository.
 
-Experience the template in action:
+| | Chronicle (free) | Paid templates |
+|---|:---:|:---:|
+| Shell, customizer, ⌘K, shortcuts, notifications | ✓ | ✓ |
+| Data adapter, data table, saved views, chart widgets | ✓ | ✓ |
+| A complete business with its own screens and dataset: an [online store](https://shadcnstore.com/templates/dashboards/emporium?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=compare-business), a [sales CRM](https://shadcnstore.com/templates/dashboards/rapport?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=compare-business) | | ✓ |
+| An [assistant that proposes changes](https://shadcnstore.com/templates/dashboards/emporium?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=compare-assistant) for your approval | | ✓ |
+| [Team and roles, billing and plans, API keys](https://shadcnstore.com/templates/dashboards/emporium?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=compare-settings) | | ✓ |
+| Figma UI kit | | [With Pro](https://shadcnstore.com/figma?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=compare-figma) |
+| Licence | MIT | Commercial |
 
-- **[🖥️ Dashboard Demo](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/dashboard)** - Complete admin dashboard with apps
-- **[🌐 Landing Page Demo](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/landing)** - Beautiful marketing landing page
+Each paid template is a one-time purchase. [**Pro**](https://shadcnstore.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=compare-pro) includes every template, every premium block and the Figma UI kit, with lifetime updates. Running `pnpm dev` also shows a "Go further" page in the sidebar with the same comparison; `pnpm build` leaves it out.
 
-> **Note**: This template includes both a complete dashboard (with mail, tasks, chat, calendar apps) and a marketing landing page in both Vite and Next.js versions.
+## More templates from ShadcnStore
 
----
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://shadcnstore.com/templates/dashboards/emporium?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-emporium"><img src="https://assets.shadcnstore.com/shadcnstore.com/templates/emporium/screens/home.1280w.f25467.webp" alt="Emporium, the e-commerce admin dashboard template: the Home screen with sales, orders to fulfil and stock alerts"></a>
+      <br><strong><a href="https://shadcnstore.com/templates/dashboards/emporium?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-emporium">Emporium</a></strong>, e-commerce admin. Orders, returns, inventory and a store assistant, on a year of one store's data. Built on the same Kit as Chronicle. <a href="https://demo.shadcnstore.com/emporium/?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-emporium-demo">Live demo</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://shadcnstore.com/templates/dashboards/rapport?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-rapport"><img src="https://assets.shadcnstore.com/shadcnstore.com/templates/rapport/screens/today.1280w.06f914.webp" alt="Rapport, the AI-native CRM template: the Today screen with deals to move and the agent's proposals"></a>
+      <br><strong><a href="https://shadcnstore.com/templates/dashboards/rapport?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-rapport">Rapport</a></strong>, AI-native sales CRM. A pipeline that reconciles with the forecast and an agent that proposes the updates. Built on the same Kit. Coming soon.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://shadcnstore.com/templates/landing-pages/runwell?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-runwell"><img src="https://assets.shadcnstore.com/shadcnstore.com/templates/runwell/screens/home.1280w.98fa81.webp" alt="Runwell, the AI product website template: the home page"></a>
+      <br><strong><a href="https://shadcnstore.com/templates/landing-pages/runwell?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-runwell">Runwell</a></strong>, AI product website. A multi-page marketing site with the product working in the hero. Coming soon.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://shadcnstore.com/templates/landing-pages/momentum?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-momentum"><img src="https://assets.shadcnstore.com/shadcnstore.com/templates/momentum/site/home.1280w.502b49.webp" alt="Momentum, the mobile app landing page template: the home page with the app on a phone"></a>
+      <br><strong><a href="https://shadcnstore.com/templates/landing-pages/momentum?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-momentum">Momentum</a></strong>, mobile app landing page. The app on screen, features, pricing and the store buttons. Coming soon.
+    </td>
+  </tr>
+</table>
 
-## ✨ What's Included
+[Browse every template](https://shadcnstore.com/templates?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=gallery-all). Pro owners get each new one as it launches.
 
-🎯 **Two Complete Templates:**
+## Blocks that fit Chronicle
 
-- **🖥️ Admin Dashboard** - Modern, feature-rich dashboard with 30+ pages
-- **🌐 Landing Page** - Business-ready landing page template
+ShadcnStore's blocks use the same shadcn/ui on Base UI setup, so they drop into Chronicle without changes:
 
-⚡ **Dual Framework Support:**
+- [Data tables](https://shadcnstore.com/blocks/application/datatables?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=blocks-datatables), [charts](https://shadcnstore.com/blocks/application/charts?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=blocks-charts) and [dashboard widgets](https://shadcnstore.com/blocks/application/widgets?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=blocks-widgets) for new screens
+- [Login](https://shadcnstore.com/blocks/application/login-forms?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=blocks-login) and [sign-up forms](https://shadcnstore.com/blocks/application/signup-forms?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=blocks-signup) beyond Chronicle's three layouts
+- [Hero sections](https://shadcnstore.com/blocks/marketing/hero-sections?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=blocks-hero) and [pricing sections](https://shadcnstore.com/blocks/marketing/pricing?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=blocks-pricing) for the landing page
 
-- **Vite** - Lightning-fast development experience
-- **Next.js 16** - Production-ready with App Router
-
-🎨 **Live Theme Customization:**
-
-- **tweakcn integration** - Real-time theme editing
-- **Built-in customizer** - Preview all possible combinations live
-- **Multiple layouts** - Sidebar variants & collapsible options
-
----
-
-## 🚀 Key Features
-
-### 📊 **Dashboard Features**
-
-- **2 Dashboard Variants** - Overview & Analytics dashboards
-- **App Demos** - Mail, Tasks, Chat, Calendar, Users applications
-- **30+ Pages** - Authentication, Settings, Errors, FAQ, Pricing
-- **Data Tables** - Advanced tables with sorting, filtering, and pagination
-- **Charts & Analytics** - Recharts integration with beautiful visualizations
-
-### 🎨 **Design & Theming**
-
-- **Live Theme Customizer** - Real-time color and layout switching
-- **tweakcn Integration** - Professional theme management
-- **Multiple Layouts** - Sidebar variants, collapsible navigation
-- **Responsive Design** - Mobile-first approach with container queries
-- **Dark/Light Mode** - Seamless theme switching
-
-### ⚡ **Developer Experience**
-
-- **Modern Tech Stack** - React 19, TypeScript, Tailwind CSS v4
-- **Cross-Platform** - Works with both Vite and Next.js
-- **Type Safety** - Full TypeScript support throughout
-- **Component Library** - shadcn/ui on Base UI (base-nova style)
-- **Easy Customization** - Well-structured, modular codebase
-
----
-
-## 🏗️ Project Structure
+## Project structure
 
 ```text
-📁 shadcn-dashboard/
-├── 📁 vite-version/              # Vite + React version
-│   ├── 📁 src/
-│   │   ├── 📁 app/               # Demo pages & applications
-│   │   │   ├── 📁 dashboard/     # Dashboard variants
-│   │   │   ├── 📁 dashboard-2/   # Alternative dashboard layout
-│   │   │   ├── 📁 landing/       # Landing page template
-│   │   │   ├── 📁 auth/          # Authentication pages
-│   │   │   ├── 📁 mail/          # Email application demo
-│   │   │   ├── 📁 tasks/         # Task management demo
-│   │   │   ├── 📁 chat/          # Chat application demo
-│   │   │   ├── 📁 calendar/      # Calendar demo
-│   │   │   ├── 📁 settings/      # User settings pages
-│   │   │   ├── 📁 errors/        # Error pages (404, 500, etc.)
-│   │   │   ├── 📁 users/         # User management pages
-│   │   │   ├── 📁 faqs/          # FAQ pages
-│   │   │   └── 📁 pricing/       # Pricing pages
-│   │   ├── 📁 components/        # UI components
-│   │   │   ├── 📁 ui/            # shadcn/ui components
-│   │   │   ├── 📁 layouts/       # Layout components
-│   │   │   └── 📁 theme-customizer/ # Live theme editor
-│   │   ├── 📁 hooks/             # Custom React hooks
-│   │   ├── 📁 lib/               # Utilities & configurations
-│   │   └── 📁 types/             # TypeScript type definitions
-│   └── 📄 package.json           # Vite dependencies
-│
-├── 📁 nextjs-version/            # Next.js 16 version
-│   ├── 📁 src/
-│   │   ├── 📁 app/               # App Router with route groups
-│   │   │   ├── 📁 (auth)/        # Authentication route group
-│   │   │   │   ├── 📁 login/     # Login pages
-│   │   │   │   ├── 📁 signup/    # Registration pages
-│   │   │   │   ├── 📁 forgot-password/ # Password recovery
-│   │   │   │   └── 📁 errors/    # Error pages (404, 500, etc.)
-│   │   │   ├── 📁 (dashboard)/   # Dashboard route group
-│   │   │   │   ├── 📁 dashboard/ # Main dashboard
-│   │   │   │   ├── 📁 dashboard-2/ # Alternative dashboard
-│   │   │   │   ├── 📁 mail/      # Email application
-│   │   │   │   ├── 📁 tasks/     # Task management
-│   │   │   │   ├── 📁 chat/      # Chat application
-│   │   │   │   ├── 📁 calendar/  # Calendar demo
-│   │   │   │   ├── 📁 settings/  # User settings
-│   │   │   │   ├── 📁 users/     # User management
-│   │   │   │   ├── 📁 faqs/      # FAQ pages
-│   │   │   │   ├── 📁 pricing/   # Pricing pages
-│   │   │   │   └── 📄 layout.tsx # Dashboard layout
-│   │   │   ├── 📁 landing/       # Landing page template
-│   │   │   ├── 📄 layout.tsx     # Root layout
-│   │   │   ├── 📄 loading.tsx    # Global loading component
-│   │   │   ├── 📄 not-found.tsx  # 404 page
-│   │   │   └── 📄 page.tsx       # Homepage
-│   │   ├── 📁 components/        # Same component structure as Vite
-│   │   ├── 📁 hooks/             # Custom React hooks
-│   │   ├── 📁 lib/               # Utilities & configurations
-│   │   └── 📁 types/             # TypeScript type definitions
-│   └── 📄 package.json           # Next.js dependencies
-│
-├── 📄 README.md                  # This file
-└── 📄 LICENSE                    # MIT License
+app/                 Routes: (shell) for the dashboard, (auth), errors, landing
+features/<screen>/   Each screen's components and logic
+kit/                 The Dashboard Kit (vendored, do not edit: see docs/kit.md)
+components/ui/       shadcn/ui components, exactly as the CLI installs them
+config/brand.ts      Name, mark, tagline and the ShadcnStore credits: rebrand here
+config/              Navigation, site, theme and settings menus
+data/                The Chronicle sample data generator and its tests
+lib/data.ts          The data adapter every screen uses
+lib/clock.ts         The pinned "now" the sample data is built from
+docs/                Guides
 ```
 
----
+## Common questions
 
-## � Quick Start
+**Is Chronicle free for commercial use?** Yes. It is MIT licensed: use it in client work and commercial products, no attribution required.
 
-### Prerequisites
+**Is there a paid version?** Chronicle stays free. The paid templates are separate products on the same Kit, each with its own business, screens and data: [Emporium](https://shadcnstore.com/templates/dashboards/emporium?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=faq-paid) is the first. [Pro](https://shadcnstore.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=faq-paid) includes all of them.
 
-- **Node.js** 20.19+ (22 LTS or newer recommended)
-- **pnpm** (recommended) or npm
+**Does it use Radix UI?** No. Every component is shadcn/ui on Base UI (`base-nova`). Compose with the `render` prop, not `asChild`.
 
-### 1. Clone the Repository
+**Is there a Vite version?** Version 2 (tag [`v2.0.0`](https://github.com/shadcnstore/shadcn-dashboard-landing-template/tree/v2.0.0), branch [`v2`](https://github.com/shadcnstore/shadcn-dashboard-landing-template/tree/v2)) has both Vite and Next.js and stays available. A Vite edition of version 3 is planned next, on the same screens; until it ships, version 2 is the Vite option.
 
-```bash
-git clone https://github.com/shadcnstore/shadcn-dashboard-landing-template
-cd shadcn-dashboard-landing-template
-```
+**How do I connect my own API?** Replace the in-memory adapter in `lib/data.ts` with an object that has six methods (`list`, `get`, `create`, `update`, `remove`, `action`). See [docs/connect-your-backend.md](./docs/connect-your-backend.md).
 
-### 2. Choose Your Framework
+**How do I change the colours?** Edit the `:root` and `.dark` blocks in `app/globals.css`, or pick a preset in the customizer and copy its CSS. See [docs/theming.md](./docs/theming.md).
 
-#### 🔥 **Vite Version** (Recommended for Development)
+**Why does the data never change?** The demo clock is pinned (`lib/clock.ts`) so screenshots and charts are stable. Set `DEMO_NOW` to `null` to use the real time.
 
-```bash
-cd vite-version
-pnpm install
-pnpm dev
-```
+**Where is the landing page?** At `/landing`: the Frontier SaaS landing page, sharing the dashboard's theme.
 
-**Access at:** `http://localhost:5173`
+**Can I remove the "Built with ShadcnStore" credit?** Yes. Set `credits.show` to `false` in `config/brand.ts`. Keeping it is a free way to support the project.
 
-#### ⚡ **Next.js Version** (Production-Ready)
+## Scripts
 
-```bash
-cd nextjs-version
-pnpm install
-pnpm dev
-```
+| Command | What it does |
+|---|---|
+| `pnpm dev` | Development server |
+| `pnpm build` / `pnpm start` | Production build and server |
+| `pnpm lint` / `pnpm typecheck` / `pnpm test` | ESLint, TypeScript, Vitest (theme contract and data reconciliation) |
+| `STATIC_EXPORT=1 pnpm build` | Static site in `out/` ([docs/deploying.md](./docs/deploying.md)) |
+| `pnpm build:demo` | The public demo: a static export with the demo extras |
 
-**Access at:** `http://localhost:3000`
-
-### 3. Start Building
-
-- **Dashboard:** Navigate to [/dashboard](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/dashboard) or [/dashboard-2](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/dashboard-2)
-- **Landing Page:** Visit [/landing](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/landing) for the business template
-- **Theme Customizer:** Use the built-in customizer to preview themes live
-- **Apps:** Explore [Mail](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/mail), [Tasks](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/tasks), [Chat](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/chat), [Calendar](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/calendar), [Users](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/users)
-- **Authentication:** Check out [Signin](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/auth/sign-in), [Signup](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/auth/sign-up), [Forgot Password](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/auth/forgot-password)
-- **Settings:** Visit [Account](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/settings/account), [Appearance](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/settings/appearance), [Billing](https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/settings/billing)
+## Contributing
 
----
+Issues and pull requests are welcome. Run `pnpm lint && pnpm typecheck && pnpm test` before opening a pull request. Changes to `kit/` belong upstream in the Dashboard Kit, so open an issue describing them instead.
 
-## 🛠️ Development Commands
-
-### Vite Version
+## More from ShadcnStore
 
-```bash
-pnpm dev          # Start development server
-pnpm build        # Build for production
-pnpm preview      # Preview production build
-pnpm lint         # Run ESLint
-```
-
-### Next.js Version
-
-```bash
-pnpm dev          # Start development server
-pnpm build        # Build for production
-pnpm start        # Start production server
-pnpm lint         # Run Next.js linter
-```
+[Templates](https://shadcnstore.com/templates?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=footer) · [Blocks](https://shadcnstore.com/blocks?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=footer) · [Figma UI kit](https://shadcnstore.com/figma?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=footer) · [Pricing](https://shadcnstore.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=footer) · [Docs](https://shadcnstore.com/docs/?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=footer) · [GitHub](https://github.com/shadcnstore)
 
----
+## Licence
 
-## 🎨 Theme Customization
-
-### **Live Theme Customizer**
-
-This template includes a powerful **live theme customizer** powered by **tweakcn**:
-
-![Customizer Preview](vite-version/public/customizer.png)
-
-1. **Open the customizer** - Click the theme customizer button
-2. **Choose colors** - Pick from preset themes or create custom palettes
-3. **Layout options** - Switch between sidebar variants and layouts
-4. **Real-time preview** - See changes instantly across all components
-5. **Export themes** - Save your custom themes for production use
-
-### **Built-in Themes**
-
-- 🌊 **Default** - Clean blue theme
-- 🌙 **Dark** - Professional dark theme
-- 🌸 **Rose** - Warm pink accents
-- 🌿 **Green** - Fresh green palette
-- 🌅 **Orange** - Vibrant orange theme
-- 🔴 **Red** - Bold red accents
-- 💜 **Violet** - Modern purple theme
-
-### **Custom Theme Creation**
-
-#### **Adding Custom Themes to the Customizer**
-To add your own custom themes to the live customizer, create theme objects in your theme configuration:
-
-```typescript
-// src/config/theme-data.ts (or similar file)
-export const customTheme = {
-  name: "Custom Brand",
-  cssVars: {
-    light: {
-      primary: "210 100% 50%",
-      "primary-foreground": "0 0% 98%",
-      secondary: "210 100% 95%",
-      "secondary-foreground": "210 100% 20%",
-      accent: "210 100% 90%",
-      "accent-foreground": "210 100% 15%",
-      // Add more color variables as needed
-    },
-    dark: {
-      primary: "210 100% 60%",
-      "primary-foreground": "210 100% 15%",
-      // Dark mode variants
-    }
-  }
-}
-```
-
-#### **Manual CSS Variable Customization**
-To directly modify theme colors, update your CSS variables in `globals.css` or `index.css`:
-
-```css
-:root {
-  --primary: oklch(0.5 0.2 240);
-  --primary-foreground: oklch(0.98 0.02 240);
-  --secondary: oklch(0.96 0.01 240);
-  --secondary-foreground: oklch(0.2 0.02 240);
-  /* Customize other variables */
-}
-
-.dark {
-  --primary: oklch(0.7 0.2 240);
-  --primary-foreground: oklch(0.15 0.02 240);
-  /* Dark mode variants */
-}
-```
-
-### **Removing the Theme Customizer**
-
-If you want to remove the theme customizer from your project:
-
-#### **Vite Version:**
-1. Remove the theme customizer component: `src/components/theme-customizer.tsx`
-2. Remove the theme customizer button from your layout
-3. Remove theme-related imports from your main layout file
-4. Delete the `src/components/theme-customizer/` folder if it exists
-
-#### **Next.js Version:**
-1. Remove the theme customizer component: `src/components/theme-customizer.tsx`
-2. Remove the theme customizer button from `src/app/layout.tsx`
-3. Remove theme-related imports from your layout files
-4. Delete the `src/components/theme-customizer/` folder if it exists
-
-> 📖 **Learn More:** For comprehensive theming documentation, visit the [official shadcn/ui theming guide](https://ui.shadcn.com/docs/theming) which covers CSS variables, color formats, and advanced customization techniques.
-
----
-
-## 📦 Tech Stack
-
-### **Core Framework**
-
-- **React 19** - Latest React with concurrent features
-- **TypeScript** - Full type safety
-- **Vite 8** - Ultra-fast development
-- **Next.js 16** - Production-ready with App Router
-
-### **UI & Styling**
-
-- **shadcn/ui** - base-nova style components
-- **Base UI** - Accessible, unstyled primitives
-- **Tailwind CSS v4** - Utility-first styling
-- **tweakcn** - Advanced theme management
-- **Lucide React** - Beautiful icons
-
-### **State & Data**
-
-- **Zustand** - Lightweight state management
-- **React Hook Form** - Forms with validation
-- **Zod** - Schema validation
-- **TanStack Table** - Advanced data tables
-
-### **Development**
-
-- **ESLint** - Code linting
-- **Prettier** - Code formatting
-- **TypeScript** - Static type checking
-
----
-
-## 📋 What's Included
-
-### **🖥️ Dashboard Pages**
-
-- **Dashboard** - Overview with analytics cards and charts
-- **Dashboard v2** - Alternative dashboard with different metrics
-
-### **📱 Application Demos**
-
-![Apps Preview](vite-version/public/apps.png)
-
-- **📧 Mail** - Complete email interface (Inbox, Read, Compose)
-- **✅ Tasks** - Task management with drag & drop
-- **💬 Chat** - Real-time chat interface
-- **📅 Calendar** - Event scheduling and management
-- **👥 Users** - User management and profiles with advanced tables
-
-### **🔐 Authentication**
-
-- **Login** - 3 login page variants with different layouts
-- **Sign Up** - 3 registration page variants with different designs  
-- **Forgot Password** - 3 password recovery page variants
-
-### **⚙️ Settings & Profile**
-
-- **User Settings** - Manage your personal information and preferences
-- **Account Settings** - Profile management
-- **Plans & Billing** - Subscription and payment pages
-- **Appearance** - Theme and display preferences
-- **Notifications** - Notification preferences
-- **Connections** - Social media integrations
-
-### **❌ Error Pages**
-
-- **404** - Page not found
-- **401** - Unauthorized access
-- **403** - Forbidden
-- **500** - Internal server error
-- **Under Maintenance** - Maintenance mode page
-
-### **🌐 Landing Page Template**
-
-- **Hero Section** - Compelling headlines and CTAs
-- **About Section** - Company/product introduction with interactive elements
-- **Features Section** - Product/service highlights with icons
-- **Stats Section** - Key metrics and achievements display
-- **Logo Carousel** - Partner/client logos showcase
-- **Team Section** - Team member profiles and information
-- **Testimonials Section** - Customer reviews and social proof
-- **Blog Section** - Latest blog posts and articles
-- **Pricing Section** - Pricing tables and plans
-- **FAQ Section** - Frequently asked questions with expandable answers
-- **Contact Section** - Contact forms and information
-- **CTA Section** - Call-to-action components
-- **Navigation & Footer** - Complete navigation and footer components
-- **Theme Customizer** - Live theme switching for landing page
-
-### **📄 Additional Pages**
-
-- **FAQ** - Frequently asked questions
-- **Pricing** - Detailed pricing pages
-
----
-
-## 🌟 Why Choose This Template?
-
-### **🆓 Completely Free & Open Source**
-
-- **MIT Licensed** - Use for personal and commercial projects
-- **No restrictions** - Modify, distribute, and sell
-- **Community driven** - Contributions welcome
-
-### **🏢 Business Ready**
-
-- **Production code** - Clean, maintainable, and scalable
-- **Professional design** - Modern UI that looks great
-- **Complete templates** - Dashboard + Landing page included
-
-### **🎨 Advanced Theming**
-
-- **Live customization** - See changes in real-time
-- **tweakcn integration** - Professional theme management
-- **Multiple layouts** - Sidebar variants and options
-
-### **⚡ Developer Friendly**
-
-- **Modern stack** - Latest React, TypeScript, Tailwind CSS
-- **Great DX** - Fast development with Vite
-- **Type safe** - Full TypeScript coverage
-- **Well documented** - Clear code and comments
-
----
-
-## 🚀 Take It Further with ShadcnStore
-
-This free template is just the beginning! **ShadcnStore** offers a complete ecosystem of free & premium UI components, dashboards and templates to accelerate your development:
-
-### **🎁 Available Now**
-
-- **[Premium Blocks](https://shadcnstore.com/blocks)** - 150+ production-ready UI blocks
-  - **Application Blocks** - Advanced dashboard components
-  - **Marketing Blocks** - Landing page sections
-  - **E-commerce Blocks** - Online store components
-  - **Free Blocks** - No-cost starter components
-
-### **🔜 Coming Soon**
-
-- **Premium Templates** - Complete application templates
-- **Landing Page Collection** - Business-ready landing pages
-- **Premium Dashboards** - Advanced dashboard solutions
-
-### **💡 Perfect For**
-
-- **SaaS Applications** - Complete dashboard solutions
-- **Marketing Sites** - Beautiful landing pages
-- **E-commerce** - Online store interfaces
-- **Internal Tools** - Admin panels and dashboards
-
-> **🎯 [Explore ShadcnStore](https://shadcnstore.com)** - Premium blocks, dashboards and templates for modern web applications.
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### **Ways to Contribute**
-
-- 🐛 **Report bugs** - Found an issue? Let us know!
-- 💡 **Suggest features** - Have ideas for improvements?
-- 🔧 **Submit PRs** - Fix bugs or add new features
-- 📖 **Improve docs** - Help make documentation better
-- ⭐ **Star the repo** - Show your support!
-
-### **Getting Started**
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b my-feature`
-3. Make your changes and test thoroughly
-4. Commit: `git commit -m "Add new feature"`
-5. Push: `git push origin my-feature`
-6. Open a Pull Request
-
-### **Code Style**
-
-- Use **TypeScript** for all new code
-- Follow **ESLint** and **Prettier** configurations
-- Add **type definitions** for props and data
-- Write **clear commit messages**
-- Test your changes in both **Vite** and **Next.js** versions
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-**You are free to:**
-
-- ✅ Use commercially
-- ✅ Modify and distribute
-- ✅ Include in private projects
-- ✅ Sell products built with this template
-
-**Attribution to [ShadcnStore](https://shadcnstore.com) is appreciated but not required.**
-
----
-
-## 🙏 Credits & Acknowledgments
-
-This template is built on the shoulders of amazing open-source projects:
-
-- **[shadcn/ui](https://ui.shadcn.com)** - Beautiful and accessible components
-- **[Base UI](https://base-ui.com)** - Accessible, unstyled primitives
-- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS framework
-- **[Lucide Icons](https://lucide.dev)** - Beautiful & consistent icons
-- **[tweakcn](https://tweakcn.com)** - Advanced theme customization
-- **[Recharts](https://recharts.org)** - Composable charting library
-- **[TanStack Table](https://tanstack.com/table)** - Powerful data tables
-
----
-
-## 📞 Support & Community
-
-### **Get Help**
-
-- 📖 **Documentation** - This README covers everything
-- 🐛 **Issues** - [Report bugs](https://github.com/shadcnstore/shadcn-dashboard-landing-template/issues)
-
-### **Stay Connected**
-
-- 🌐 **Website** - [ShadcnStore.com](https://shadcnstore.com)
-- 🐦 **Twitter** - [@shadcnstore](https://twitter.com/shadcnstore)
-- 💬 **Discord** - [Join our server](https://discord.com/invite/XEQhPc9a6p)
-- 📧 **Email** - [hello@shadcnstore.com](mailto:hello@shadcnstore.com)
-
----
-
-<div align="center">
-
-**⭐ Star this repo if it helped you!**
-
-[![ShadcnStore](https://img.shields.io/badge/Built%20by-ShadcnStore-blue?style=for-the-badge)](https://shadcnstore.com)
-
-_A free & open-source template by **[ShadcnStore](https://shadcnstore.com)** - Premium UI components, dashboards and templates for modern web development._
-
-</div>
+[MIT](./LICENSE) © ShadcnStore. Made by [ShadcnStore](https://shadcnstore.com/?utm_source=github&utm_medium=readme&utm_campaign=chronicle&utm_content=licence).

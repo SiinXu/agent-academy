@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-17
-updated_at: 2026-11-17T04:33:55Z
+updated_at: 2026-11-17T19:11:27Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -290,6 +290,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y dingdawg-marketing-agent
   needs_credentials: true, writes_external: false
+- [mcp] ROAS Expert free AI SEO audit. Free AI SEO audit, product page check, agent readiness check and site comparison. No key.
+  source: https://github.com/ROAS-Expert/ai-seo-tools
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-roasexpert-tools-seo-audit.md
+  license: MIT
+  install: remote (streamable-http): https://tools.roasexpert.com/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] SEO Audit. Find what to fix on a public website, for search engines and for AI answers.
   source: https://github.com/openkrill-labs/agent-tools-plugins
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-app-openkrill-seo-audit.md
@@ -323,11 +329,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-aiseotracker-mcp.md
   license: MIT
   install: remote (streamable-http): https://aiseotracker.com/api/agent/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] ai.openhelm/seo-growth. Autonomous SEO + GEO growth: keyword research, audits, content, AI answer-engine visibility.
-  source: https://openhelm.ai
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.openhelm.ai/seo/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

@@ -34,7 +34,7 @@
   <img src="docs/images/quickstart.png" alt="Three steps: connect your stores with npx shopify-store-sync-mcp connect, add the server to your AI client, ask in plain language" width="100%">
 </p>
 
-https://github.com/user-attachments/assets/988dea82-0cc9-4241-9605-f2c38601c908
+https://github.com/user-attachments/assets/be02210d-d437-4336-8e63-2f5d50bd7f88
 
 <sub>Compare, plan, confirm, apply: the full walkthrough, with sound. Every output shown is real, from two sample stores.</sub>
 
@@ -84,15 +84,15 @@ The store setup that usually gets rebuilt by hand, plus the images it uses. Refe
 
 ## Built for big catalogs
 
-Thousands of products are fine. Above 250 items the tool reads with Shopify bulk exports and writes in batches by itself, instead of one request per item. Comparing a 72-product store with a 4,530-product one went from about 10 hours to 82 seconds.
+Thousands of products are fine. Above 250 items the tool reads with Shopify bulk exports and writes in batches by itself, instead of one request per item. Comparing a 72-product store with a 4,530-product one went from about 10 hours in version 0.8.0 to 82 seconds since 0.8.1.
 
 <p align="center">
-  <img src="docs/images/big-catalogs.png" alt="Full product diff, 72 against 4,530 products: about 10 hours before, 82 seconds now. Full copy of 4,000 products with variants, images, prices, stock and metafields: about 3 hours with Shopify bulk operations, 51 minutes with batched requests" width="100%">
+  <img src="docs/images/big-catalogs.png" alt="This tool, earlier version against current. Full product diff, 72 against 4,530 products: about 10 hours in 0.8.0, 82 seconds since 0.8.1. Full copy of 4,000 products with variants, prices, stock and 86,000 metafields: about 3 hours in 0.10 with Shopify bulk operations, 51 minutes since 0.11 with batched requests" width="100%">
 </p>
 
-**Timed live, store to store**: 4,000 products with 46,000 variants, images, prices and stock per location, and 85,972 metafield values, copied between two development stores through the MCP tools.
+**Timed live, store to store**: 4,000 products with 46,000 variants, images, prices and stock per location, and 85,972 metafield values, copied between two development stores through the MCP tools. Both columns are this tool: version 0.10 wrote through Shopify bulk operations, version 0.11 through batched requests. Other tools and copying by hand were not timed.
 
-| Step | Shopify bulk operations (0.10) | Batched requests (0.11) |
+| Step | This tool 0.10: Shopify bulk operations | This tool 0.11: batched requests |
 |---|---:|---:|
 | Diff and plan | 6 min | 6 min |
 | 701 images, created once each | 3 min | 1 min |

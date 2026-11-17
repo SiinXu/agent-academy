@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-11-17T04:33:55Z",
+ "updated_at": "2026-11-17T19:11:27Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1410,7 +1410,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 196163,
+      "repo_stars": 196618,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1455,7 +1455,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1500,7 +1500,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1545,7 +1545,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1590,7 +1590,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1635,7 +1635,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1680,7 +1680,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1725,7 +1725,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1770,7 +1770,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42592,
+      "repo_stars": 42624,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1815,7 +1815,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42592,
+      "repo_stars": 42624,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1998,8 +1998,8 @@
       ]
      },
      "metrics": {
-      "repo_stars": 35,
-      "repo_pushed_at": "2026-11-16",
+      "repo_stars": 36,
+      "repo_pushed_at": "2026-11-17",
       "registry_updated_at": "2026-10-20"
      },
      "course_step": "4-do-it",
@@ -2011,6 +2011,69 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-icons8-icons8",
+     "title": "Icons8",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/icons8/icons8-mcp",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": "icons8/icons8-mcp",
+     "author": "com.icons8",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.icons8/icons8&version=latest",
+      "record": {
+       "description": "Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.",
+       "name": "com.icons8/icons8",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.icons8.com/mcp/"
+        }
+       ],
+       "repository": "https://github.com/icons8/icons8-mcp",
+       "title": "Icons8",
+       "version": "1.0.1",
+       "website": "https://icons8.com/mcp"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.icons8.com/mcp/",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 17,
+      "repo_pushed_at": "2026-11-17",
+      "registry_updated_at": "2026-11-17"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-19T00:13:40Z",
+     "updated_at": "2026-11-17T19:11:27Z",
+     "checked_at": "2026-11-16T20:29:41Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-icons8-icons8/",
      "source": "mcp-registry"
     },
     {
@@ -2211,69 +2274,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-creator/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-icons8-icons8",
-     "title": "Icons8",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.",
-     "summary_lang": "en",
-     "source_url": "https://icons8.com/mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "com.icons8",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.icons8/icons8&version=latest",
-      "record": {
-       "description": "Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.",
-       "name": "com.icons8/icons8",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.icons8.com/mcp/"
-        }
-       ],
-       "repository": null,
-       "title": "Icons8",
-       "version": "1.0.0",
-       "website": "https://icons8.com/mcp"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.icons8.com/mcp/",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-09-23"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-19T00:13:40Z",
-     "updated_at": "2026-10-19T00:13:40Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-com-icons8-icons8/",
      "source": "mcp-registry"
     },
     {
@@ -2486,7 +2486,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 150507,
+      "repo_stars": 150823,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2531,7 +2531,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 150507,
+      "repo_stars": 150823,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2576,7 +2576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57509,
+      "repo_stars": 57728,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2621,7 +2621,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42592,
+      "repo_stars": 42624,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2666,7 +2666,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42592,
+      "repo_stars": 42624,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2711,7 +2711,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42592,
+      "repo_stars": 42624,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2756,7 +2756,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42592,
+      "repo_stars": 42624,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2801,8 +2801,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36323,
-      "repo_pushed_at": "2026-11-13"
+      "repo_stars": 36410,
+      "repo_pushed_at": "2026-11-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2846,8 +2846,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36323,
-      "repo_pushed_at": "2026-11-13"
+      "repo_stars": 36410,
+      "repo_pushed_at": "2026-11-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2891,8 +2891,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36323,
-      "repo_pushed_at": "2026-11-13"
+      "repo_stars": 36410,
+      "repo_pushed_at": "2026-11-17"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2936,7 +2936,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26607,
+      "repo_stars": 26627,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

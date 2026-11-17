@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-17T04:33:55Z",
+ "updated_at": "2026-11-17T19:11:27Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42592,
+      "repo_stars": 42624,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1682,7 +1682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144895,
+      "repo_stars": 144959,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "4-do-it",
@@ -1727,7 +1727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30727,
+      "repo_stars": 30740,
       "repo_pushed_at": "2026-11-17"
      },
      "course_step": "4-do-it",
@@ -2273,13 +2273,13 @@
          "id": "@fruggr/zendesk-mcp-server",
          "transport": "stdio",
          "type": "npm",
-         "version": "3.10.0"
+         "version": "3.10.2"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/fruggr/zendesk-mcp-server",
        "title": null,
-       "version": "3.10.0",
+       "version": "3.10.2",
        "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
       }
      },
@@ -2295,13 +2295,13 @@
      },
      "metrics": {
       "repo_stars": 15,
-      "repo_pushed_at": "2026-11-16",
-      "registry_updated_at": "2026-11-11"
+      "repo_pushed_at": "2026-11-17",
+      "registry_updated_at": "2026-11-17"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-11-17T04:33:55Z",
+     "updated_at": "2026-11-17T19:11:27Z",
      "checked_at": "2026-11-17T04:33:55Z",
      "http_status": {
       "source": 200

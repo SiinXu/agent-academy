@@ -7721,9 +7721,9 @@
 "url": "https://mcp.icons8.com/mcp/"
 }
 ],
-"repository": null,
+"repository": "https://github.com/icons8/icons8-mcp",
 "title": "Icons8",
-"version": "1.0.0",
+"version": "1.0.1",
 "website": "https://icons8.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.icons8/icons8&version=latest"
@@ -9616,6 +9616,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/zendesk&version=latest"
 },
+"mcp-dev-datasetworks-shopify-store-products": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Products, variants and prices from any public Shopify store.",
+"name": "dev.datasetworks/shopify-store-products",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=datasetworks/shopify-store-products"
+}
+],
+"repository": null,
+"title": "Shopify Store Products (Apify) by Dataset Works",
+"version": "1.0.0",
+"website": "https://datasetworks.dev/tools/shopify-store-products/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.datasetworks/shopify-store-products&version=latest"
+},
 "mcp-dev-pages-wagner-data-services-shopify-catalog-import": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9856,7 +9880,7 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "Connect AI agents to multiple Shopify Admin stores for reports, comparisons, and guarded updates.",
+"description": "Every Shopify store in one MCP server: search, reports, bulk exports and guarded writes.",
 "name": "io.github.alex-brecher/shopify-multi-store",
 "packages": [
 {
@@ -9864,13 +9888,13 @@
 "id": "shopify-multi-store-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "2.2.0"
+"version": "2.2.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/alex-brecher/shopify-multi-store",
 "title": null,
-"version": "2.2.0",
+"version": "2.2.1",
 "website": null
 },
 "truncated": false,
@@ -11416,13 +11440,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.10.0"
+"version": "3.10.2"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.10.0",
+"version": "3.10.2",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -12436,6 +12460,102 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mindstone/mcp-server-zendesk&version=latest"
 },
+"mcp-io-github-monkeydscraping-shopify-catalog-monitor": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Shopify products, variants, prices, SKUs and availability from store URLs.",
+"name": "io.github.Monkeydscraping/shopify-catalog-monitor",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=monkey.d.scraping/shopify-catalog-monitor"
+}
+],
+"repository": null,
+"title": "Shopify Product Scraper",
+"version": "1.0.0",
+"website": "https://apify.com/monkey.d.scraping/shopify-catalog-monitor"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Monkeydscraping/shopify-catalog-monitor&version=latest"
+},
+"mcp-io-github-monkeydscraping-tiktok-ads-library-scraper": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "TikTok Ad Library ads by brand or keyword: copy, creatives, advertiser, regions.",
+"name": "io.github.Monkeydscraping/tiktok-ads-library-scraper",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=monkey.d.scraping/tiktok-ads-library-scraper"
+}
+],
+"repository": null,
+"title": "TikTok Ads Library Scraper",
+"version": "1.0.0",
+"website": "https://apify.com/monkey.d.scraping/tiktok-ads-library-scraper"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Monkeydscraping/tiktok-ads-library-scraper&version=latest"
+},
+"mcp-io-github-monkeydscraping-tiktok-shop-product-video-lab": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "US TikTok Shop products: prices, ratings, units sold, related videos and creators.",
+"name": "io.github.Monkeydscraping/tiktok-shop-product-video-lab",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=monkey.d.scraping/tiktok-shop-product-video-lab"
+}
+],
+"repository": null,
+"title": "TikTok Shop Scraper",
+"version": "1.0.0",
+"website": "https://apify.com/monkey.d.scraping/tiktok-shop-product-video-lab"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Monkeydscraping/tiktok-shop-product-video-lab&version=latest"
+},
+"mcp-io-github-monkeydscraping-tiktok-trends-search-scraper": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "TikTok trending videos by category and country, plus keyword, hashtag and profile search.",
+"name": "io.github.Monkeydscraping/tiktok-trends-search-scraper",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=monkey.d.scraping/tiktok-trends-search-scraper"
+}
+],
+"repository": null,
+"title": "TikTok Trends Scraper",
+"version": "1.0.0",
+"website": "https://apify.com/monkey.d.scraping/tiktok-trends-search-scraper"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Monkeydscraping/tiktok-trends-search-scraper&version=latest"
+},
 "mcp-io-github-mrcoder-figmamcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -12446,16 +12566,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.11/figmamcp-0.1.11-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.13/figmamcp-0.1.13-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.11"
+"version": "0.1.13"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.11",
+"version": "0.1.13",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -17628,6 +17748,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-decathlon-yestalgia": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-deep-beauty": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -24427,6 +24554,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-4mzehio-fermah-brand-identity-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-4ow8yos-blue-cream-illustration-series": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26353,6 +26487,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-cqt5k5j-dotted-countdown": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ct6rser-football-ticket-seat-view-app": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28347,6 +28488,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-l9xqu78-animated-app-icon-morphing": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-laxfofo-quartr-brand-posters": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -29783,6 +29931,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-qq65w0x-sedrus-footer-paper-airplanes": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-qsa7kd0-motra": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -29791,6 +29946,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-qsi4mth-x-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-qsiev2j-photolab-import-animation": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -31268,6 +31430,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-xfbfnbj-milkshake-identity-motion": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-xftrpxy-3d-bar-chart-component": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

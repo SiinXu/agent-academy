@@ -430,7 +430,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Funraise](servers/funraise/) | fundraising | 32 | API token | [servers/funraise/](servers/funraise/) |
 | [Hiveage](servers/hiveage/) | billing | 32 | API token | [servers/hiveage/](servers/hiveage/) |
 | [iContact](servers/icontact/) | marketing | 24 | API token | [servers/icontact/](servers/icontact/) |
-| [Freshsales](servers/freshsales/) | crm | 35 | API token | [servers/freshsales/](servers/freshsales/) |
+| [Freshsales](servers/freshsales/) | crm | 40 | API token | [servers/freshsales/](servers/freshsales/) |
 | [Hiboutik](servers/hiboutik/) | ecommerce | 35 | API token | [servers/hiboutik/](servers/hiboutik/) |
 | [Feefo](servers/feefo/) | marketing | 9 | API token | [servers/feefo/](servers/feefo/) |
 | [inv.bg](servers/inv-bg/) | billing | 31 | API token | [servers/inv-bg/](servers/inv-bg/) |

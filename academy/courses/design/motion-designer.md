@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-17
-updated_at: 2026-11-17T04:33:55Z
+updated_at: 2026-11-17T19:11:27Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1674 items
-- motion: 650 items
-- 3d: 642 items
+- minimal: 1677 items
+- motion: 651 items
+- 3d: 647 items
 - editorial: 594 items
-- playful: 568 items
+- playful: 569 items
 - gradient: 289 items
 - retro: 117 items
 - dark-tech: 110 items
@@ -255,6 +255,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y adobe-mcp-aftereffects
   needs_credentials: true, writes_external: false
+- [mcp] Icons8. Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.
+  source: https://github.com/icons8/icons8-mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.icons8.com/mcp/
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.AJSMonty/adobe-mcp. Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client
   source: https://github.com/AJSMonty/adobe-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md
@@ -272,11 +277,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-creator.md
   license: MIT
   install: remote (streamable-http): https://creator.mcp.lottiefiles.com/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] Icons8. Search and fetch genuine Icons8 icons and Ouch illustrations as SVG, PNG or animation.
-  source: https://icons8.com/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.icons8.com/mcp/
   needs_credentials: true, writes_external: false
 - [tool] Unicorn Studio. Build WebGL effects without code
   source: https://www.unicorn.studio/
