@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-16
-updated_at: 2026-11-16T20:29:41Z
+version: 2026-11-17
+updated_at: 2026-11-17T04:33:55Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -229,10 +229,10 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add wshobson/agents --skill social-evidence-research
   needs_credentials: false, writes_external: false
-- [system-prompt] The Elite SEO Blog Architect & Ghostwriter. A professional framework for writing high-ranking, deeply engaging blog posts. It moves beyond generic AI fluff by structuring the article for maximum readability, natural SEO integration, and unique expert insights that
-  source: https://prompts.chat/prompts/cmlu85d1v0004l804qy5fnq3f_the-elite-seo-blog-architect-ghostwriter
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-the-elite-seo-blog-architect-ghostwriter.md
-  license: CC0-1.0
+- [system-prompt] content-marketer. Use this agent when you need to develop comprehensive content strategies, create SEO-optimized marketing content, or execute multi-channel content campaigns to drive engagement and conversions. Invoke this agent for cont
+  source: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/voltagent-awesome-claude-code-subagents-categories-08-business-product-content-marketer.md
+  license: MIT
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it
@@ -254,6 +254,60 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-single-agent-apps-ai-email-gtm-reachout-a.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
+- [mcp] SEO Trends MCP. Spot keyword demand rising or fading. Trend volume and growth signals. Free key at trendsmcp.ai
+  source: https://github.com/trendsmcp-ai/Trends-MCP
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-seo.md
+  license: MIT
+  install: remote (streamable-http): https://seo.api.trendsmcp.ai/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] HasData TikTok. Public TikTok profiles, videos, comments and keyword search as JSON. No developer account.
+  source: https://github.com/HasData/tiktok-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-tiktok.md
+  license: MIT
+  install: npx -y @hasdata/tiktok-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] AfterLaunch: the agentic growth marketing engine. Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.
+  source: https://github.com/afterlaunch/mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-afterlaunch-agentic-growth-marketing.md
+  license: MIT
+  install: remote (streamable-http): https://afterlaunch.io/api/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Agency Autopilot. Run client marketing from your AI assistant, or let Autopilot: Google Ads, GA4, SEO, Meta, CRM
+  source: https://github.com/agency-autopilot/agency-mcp-plugin
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-jiyumarketing-mcp-agency-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
+  needs_credentials: true, writes_external: false
+- [mcp] Local SEO by WorkPods. Audit Google Business Profiles, reviews and Maps rankings, and check a site's NAP and schema.
+  source: https://github.com/WorkPodsAgents/local-seo
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-workpods-local-seo.md
+  license: Apache-2.0
+  install: npx -y @workpods/local-seo
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.dingdawg/dingdawg-marketing-agent. AI content generation, SEO audits, campaign planning & social scheduling.
+  source: https://github.com/dingdawg/dingdawg-agent-1
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dingdawg-dingdawg-marketing-agent.md
+  license: MIT
+  install: npx -y dingdawg-marketing-agent
+  needs_credentials: true, writes_external: false
+- [mcp] SEO Audit. Find what to fix on a public website, for search engines and for AI answers.
+  source: https://github.com/openkrill-labs/agent-tools-plugins
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-app-openkrill-seo-audit.md
+  license: MIT
+  install: remote (streamable-http): https://seoaudit.openkrill.app/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] SEO Rank Fixer. Google Search Console performance and the SEO fixes worth the most clicks, ranked for your sites.
+  source: https://github.com/sharikwani/seo-rank-fixer-plugin
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-seorankfixer-seo-rank-fixer.md
+  license: MIT
+  install: remote (streamable-http): https://seorankfixer.com/api/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] SEOmatic. SEO agent: GSC, keywords, local rank tracking, Business Profile, AI visibility, approval-gated fixes
+  source: https://github.com/Minh42/seomatic-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seomatic-seomatic.md
+  license: MIT
+  install: remote (streamable-http): https://app.seomatic.ai/api/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Ahrefs. Official Ahrefs MCP server. Access SEO data, including backlinks, keywords, and competitor research.
   source: https://ahrefs.com/mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -264,61 +318,16 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://www.aiseocrew.com/mcp
   needs_credentials: true, writes_external: true
+- [mcp] AI SEO Tracker. Track brand visibility, citations, prompts & missing sources across ChatGPT, Perplexity, Gemini.
+  source: https://github.com/Illyism/aiseotracker-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-aiseotracker-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://aiseotracker.com/api/agent/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] ai.openhelm/seo-growth. Autonomous SEO + GEO growth: keyword research, audits, content, AI answer-engine visibility.
   source: https://openhelm.ai
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.openhelm.ai/seo/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] AnotherSEOGuru App. Search Console data, SEO fixes, site audit, ranks, tasks and AI visibility from AnotherSEOGuru App.
-  source: https://anotherseoguru.com/en/platform/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://app.anotherseoguru.com/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] budgetSEO. Affordable SEO & GEO data: rank tracking, keywords, competitors, AI visibility.
-  source: https://budgetseo.ai
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://www.budgetseo.ai/api/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] ChatSEO. AI SEO agent on your Google Search Console data: audits, quick wins, content, WordPress publishing.
-  source: https://chatseo.app/?utm_source=mcp-registry&utm_medium=directory&utm_campaign=mcp-listing&utm_content=nicho&utm_term=en
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://api.chatseo.app/mcp
-  needs_credentials: true, writes_external: true
-- [mcp] ClearPost: WordPress SEO Agent. SEO agent for WordPress. Grows your organic traffic on autopilot. 14 tools, zero configuration.
-  source: https://clearpostplugin.com/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://{site_domain}/wp-json/clearpost/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] com.abbyseo/mcp-server. Scan any URL for on-page, technical & content SEO; 0-100 score with copy-paste fixes.
-  source: https://www.abbyseo.com
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://www.abbyseo.com/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] com.deepseoanalysis/seo-audit. Run SEO + AI-visibility (GEO) audits from Claude, Cursor & other AI clients.
-  source: https://deepseoanalysis.com/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://deepseoanalysis.com/api/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] com.jojapi/ahrefs. Ahrefs: Ahrefs API: SEO powerhouse featuring keyword research, backlink analysis, and SERP tracking.
-  source: https://jojapi.com/hub/api/ahrefs
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.jojapi.com/ahrefs
-  needs_credentials: true, writes_external: false
-- [mcp] com.scraptik/tiktok. Unofficial TikTok API & scraper: creator analytics, video data, comments, search. x402, no API key.
-  source: https://scraptik.com
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.scraptik.com/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] DataFluxor. Remote MCP server for Google SERP, SEO research and web scraping. Free plan, no card.
-  source: https://datafluxor.com
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://datafluxor.com/mcp
-  needs_credentials: true, writes_external: false
-- [mcp] DataForSEO MCP. DataForSEO MCP wrapper: searchable API docs plus normalized calls to the official server. 4 tools.
-  source: https://github.com/scalably-io/dataforseo-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-scalably-dataforseo-mcp.md
-  license: MIT
-  install: npx -y @scalably-io/dataforseo-mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

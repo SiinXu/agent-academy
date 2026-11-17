@@ -1,8 +1,8 @@
 ---
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-16
-updated_at: 2026-11-16T20:29:41Z
+version: 2026-11-17
+updated_at: 2026-11-17T04:33:55Z
 source: https://academy.incidental.site/courses/customer-service/support-agent/
 ---
 
@@ -194,61 +194,69 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-voice-ai-agents-customer-support-voice-agent.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
-- [mcp] BestAppify — Shopify App Store Intelligence. Shopify App Store intelligence: keyword ranks, competitors, reviews, revenue. Free tier.
-  source: https://bestappify.com/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://bestappify.app/api/mcp
+- [case] Customer Service. from __future__ import annotations as _annotations
+  source: https://github.com/openai/openai-agents-python/tree/main/examples/customer_service
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/openai-openai-agents-python-examples-customer-service-main-py.md
+  license: MIT
+  needs_credentials: false, writes_external: false
+- [mcp] io.github.codespar/mcp-shopify. MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)
+  source: https://github.com/codespar/mcp-dev-latam
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-codespar-mcp-shopify.md
+  license: MIT
+  install: npx -y @codespar/mcp-shopify
   needs_credentials: true, writes_external: false
-- [mcp] Cartlark: Shopify & WooCommerce Scraper. Cartlark: products, prices, sale prices and stock from Shopify or WooCommerce stores, with alerts.
-  source: https://cybermaxtools.com/store/cartlark-shopify-scraper/
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.apify.com/?tools=cybermax/shopify-scraper&via=mcp-registry
+- [mcp] HubSpot MCP. Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history
+  source: https://github.com/Servosity/msp-skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md
+  license: Apache-2.0
   needs_credentials: true, writes_external: false
-- [mcp] Chatwoot MCP Server and API by Cotlet. Chatwoot customer support inbox MCP server: list conversations, reply to conversation.
-  source: https://cotlet.dev/integrations/chatwoot-api-mcp-server
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://cotlet.dev/mcp/v1/chatwoot/connect
-  needs_credentials: true, writes_external: true
-- [mcp] crisp.photos. Before/after comparison GIFs from two image URLs, by crisp.photos, the free browser photo upscaler
-  source: https://crisp.photos
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://crisp.photos/api/mcp
+- [mcp] com.mcparmory/shopify-admin. Manage products, orders, customers, inventory, and store configuration
+  source: https://github.com/mcparmory/registry
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mcparmory-shopify-admin.md
+  license: MIT
+  install: uvx mcparmory-shopify-admin
+  needs_credentials: false, writes_external: true
+- [mcp] io.github.MuhammadTalhaMT/intercom. Relays messages between two Claude Code sessions on different machines using the Channels API
+  source: https://github.com/MuhammadTalhaMT/claude-intercom
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md
+  license: MIT
+  install: npx -y claude-intercom
   needs_credentials: true, writes_external: false
-- [mcp] Gladly MCP Server and API by Cotlet. Gladly retail customer support MCP server: list conversations, search customers, reply to customer.
-  source: https://cotlet.dev/integrations/gladly-api-mcp-server
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://cotlet.dev/mcp/v1/gladly/connect
-  needs_credentials: true, writes_external: true
-- [mcp] Gorgias MCP Server and API by Cotlet. Gorgias ecommerce customer support MCP server: search tickets, reply to ticket, update ticket.
-  source: https://cotlet.dev/integrations/gorgias-api-mcp-server
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://cotlet.dev/mcp/v1/gorgias/connect
-  needs_credentials: true, writes_external: true
-- [mcp] HubSpot MCP by AdPlug. HubSpot MCP server: 9 tools, every client portal on one connector. Writes preview first.
-  source: https://adplug.app/integrations/hubspot?src=mcp-registry
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://api.adplug.app/mcp/hubspot
-  needs_credentials: true, writes_external: true
-- [mcp] inbrix. AI-native helpdesk hosted in Germany: tickets, replies, KPIs and knowledge base over MCP.
-  source: https://www.inbrix.ai/en
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://app.inbrix.ai/api/mcp
+- [mcp] cob-shopify-mcp. Run a Shopify store from any MCP client: products, orders, customers, stock and analytics.
+  source: https://github.com/callobuzz/cob-shopify-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-callobuzz-cob-shopify-mcp.md
+  license: MIT
+  install: npx -y cob-shopify-mcp
   needs_credentials: true, writes_external: false
-- [mcp] io.github.PrometheusAgency/shopify-app-store-scraper. Scrape Shopify App Store apps, full review histories and catalog. E-commerce market research.
-  source: https://apify.com/prometheusagency/shopify-app-store-scraper
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.apify.com/?actors=prometheusagency/shopify-app-store-scraper
+- [mcp] io.github.fruggr/zendesk-mcp-server. Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.
+  source: https://github.com/fruggr/zendesk-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md
+  license: MIT
+  install: npx -y @fruggr/zendesk-mcp-server
+  needs_credentials: true, writes_external: true
+- [mcp] Zendesk. Zendesk MCP server for Model Context Protocol hosts
+  source: https://github.com/mindstone/mcp-servers
+  license: NOASSERTION
+  install: npx -y @mindstone/mcp-server-zendesk
   needs_credentials: true, writes_external: false
-- [mcp] Kustomer MCP Server and API by Cotlet. Kustomer customer support platform MCP server: search conversations, reply to conversation.
-  source: https://cotlet.dev/integrations/kustomer-api-mcp-server
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://cotlet.dev/mcp/v1/kustomer/connect
+- [mcp] io.github.michaelrice/zendesk-mcp. Zendesk MCP server for Claude Code and other MCP clients
+  source: https://github.com/michaelrice/zendesk-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md
+  license: Apache-2.0
+  install: uvx zendesk-mcp
+  needs_credentials: false, writes_external: false
+- [mcp] Shopify Store Sync. Diff and sync Shopify stores: dry-run plans, cross-store ID remapping, never deletes.
+  source: https://github.com/ussefidder/shopify-store-sync-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ussefidder-shopify-store-sync-mcp.md
+  license: MIT
+  install: npx -y shopify-store-sync-mcp
   needs_credentials: true, writes_external: true
-- [mcp] LiveChat (Text) MCP Server and API by Cotlet. LiveChat (Text) customer support live chat MCP server: list chats, reply in chat, tag chat.
-  source: https://cotlet.dev/integrations/livechat-api-mcp-server
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://cotlet.dev/mcp/v1/livechat/connect
-  needs_credentials: true, writes_external: true
+- [mcp] HasData Shopify. The public product catalogue and collections of any Shopify storefront, as structured JSON.
+  source: https://github.com/HasData/shopify-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md
+  license: MIT
+  install: npx -y @hasdata/shopify-mcp
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

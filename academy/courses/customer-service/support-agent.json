@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-16T20:29:41Z",
+ "updated_at": "2026-11-17T04:33:55Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,7 +1362,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42580,
+      "repo_stars": 42592,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1682,7 +1682,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144872,
+      "repo_stars": 144895,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "4-do-it",
@@ -1697,753 +1697,948 @@
      "source": "github"
     },
     {
-     "id": "mcp-app-bestappify-shopify-app-store",
-     "title": "BestAppify — Shopify App Store Intelligence",
-     "type": "mcp",
+     "id": "openai-openai-agents-python-examples-customer-service-main-py",
+     "title": "Customer Service",
+     "type": "case",
      "industry": "customer-service",
      "roles": [
       "support-agent"
      ],
-     "summary": "Shopify App Store intelligence: keyword ranks, competitors, reviews, revenue. Free tier.",
+     "summary": "from __future__ import annotations as _annotations",
      "summary_lang": "en",
-     "source_url": "https://bestappify.com/mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "app.bestappify",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
+     "source_url": "https://github.com/openai/openai-agents-python/tree/main/examples/customer_service",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/openai-openai-agents-python-examples-customer-service-main-py.md",
+     "upstream_raw_url": "https://raw.githubusercontent.com/openai/openai-agents-python/main/examples/customer_service/main.py",
+     "repo": "openai/openai-agents-python",
+     "author": "openai",
+     "license": "MIT",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
      "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.bestappify/shopify-app-store&version=latest",
-      "record": {
-       "description": "Shopify App Store intelligence: keyword ranks, competitors, reviews, revenue. Free tier.",
-       "name": "app.bestappify/shopify-app-store",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://bestappify.app/api/mcp"
-        }
-       ],
-       "repository": null,
-       "title": "BestAppify — Shopify App Store Intelligence",
-       "version": "1.0.0",
-       "website": "https://bestappify.com/mcp"
-      }
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/openai/openai-agents-python/tree/main/examples/customer_service"
      },
-     "install": "remote (streamable-http): https://bestappify.app/api/mcp",
+     "install": null,
      "security": {
       "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "Authorization"
-      ]
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false
      },
      "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-08-20"
+      "repo_stars": 30727,
+      "repo_pushed_at": "2026-11-17"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-16T20:29:41Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-app-bestappify-shopify-app-store/",
-     "source": "mcp-registry"
+     "page": "https://academy.incidental.site/r/openai-openai-agents-python-examples-customer-service-main-py/",
+     "source": "github"
     },
     {
-     "id": "mcp-dev-workers-cybermax-tools-cybermax-shopify-scraper",
-     "title": "Cartlark: Shopify & WooCommerce Scraper",
+     "id": "mcp-io-github-codespar-mcp-shopify",
+     "title": "io.github.codespar/mcp-shopify",
      "type": "mcp",
      "industry": "customer-service",
      "roles": [
       "support-agent"
      ],
-     "summary": "Cartlark: products, prices, sale prices and stock from Shopify or WooCommerce stores, with alerts.",
+     "summary": "MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)",
      "summary_lang": "en",
-     "source_url": "https://cybermaxtools.com/store/cartlark-shopify-scraper/",
-     "raw_url": null,
+     "source_url": "https://github.com/codespar/mcp-dev-latam",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-codespar-mcp-shopify.md",
      "upstream_raw_url": null,
-     "repo": null,
-     "author": "dev.workers.cybermax-tools.cybermax",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "repo": "codespar/mcp-dev-latam",
+     "author": "io.github.codespar",
+     "license": "MIT",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.cybermax-tools.cybermax/shopify-scraper&version=latest",
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/codespar/mcp-dev-latam/blob/HEAD/README.md",
       "record": {
-       "description": "Cartlark: products, prices, sale prices and stock from Shopify or WooCommerce stores, with alerts.",
-       "name": "dev.workers.cybermax-tools.cybermax/shopify-scraper",
-       "packages": [],
-       "remotes": [
+       "description": "MCP server for Shopify — Admin REST API (orders, products, customers, inventory, fulfillments)",
+       "name": "io.github.codespar/mcp-shopify",
+       "packages": [
         {
-         "headers": [
-          "Authorization"
+         "env": [
+          {
+           "description": "Shopify shop subdomain (e.g. 'acme' for acme.myshopify.com)",
+           "name": "SHOPIFY_SHOP",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Shopify Admin API access token (private/custom app) sent as X-Shopify-Access-Token header",
+           "name": "SHOPIFY_ACCESS_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Shopify Admin API version. Defaults to 2024-01.",
+           "name": "SHOPIFY_API_VERSION",
+           "required": null,
+           "secret": null
+          }
          ],
-         "type": "streamable-http",
-         "url": "https://mcp.apify.com/?tools=cybermax/shopify-scraper&via=mcp-registry"
+         "id": "@codespar/mcp-shopify",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.2.2"
         }
        ],
-       "repository": null,
-       "title": "Cartlark: Shopify & WooCommerce Scraper",
-       "version": "1.0.0",
-       "website": "https://cybermaxtools.com/store/cartlark-shopify-scraper/"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.apify.com/?tools=cybermax/shopify-scraper&via=mcp-registry",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-10"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-10T17:50:52Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-dev-workers-cybermax-tools-cybermax-shopify-scraper/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-dev-cotlet-chatwoot",
-     "title": "Chatwoot MCP Server and API by Cotlet",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Chatwoot customer support inbox MCP server: list conversations, reply to conversation.",
-     "summary_lang": "en",
-     "source_url": "https://cotlet.dev/integrations/chatwoot-api-mcp-server",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "dev.cotlet",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/chatwoot&version=latest",
-      "record": {
-       "description": "Chatwoot customer support inbox MCP server: list conversations, reply to conversation.",
-       "name": "dev.cotlet/chatwoot",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/chatwoot/connect"
-        },
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/chatwoot"
-        }
-       ],
-       "repository": null,
-       "title": "Chatwoot MCP Server and API by Cotlet",
-       "version": "1.0.2",
-       "website": "https://cotlet.dev/integrations/chatwoot-api-mcp-server"
-      }
-     },
-     "install": "remote (streamable-http): https://cotlet.dev/mcp/v1/chatwoot/connect",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-10"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-dev-cotlet-chatwoot/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-photos-crisp-image-tools",
-     "title": "crisp.photos",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Before/after comparison GIFs from two image URLs, by crisp.photos, the free browser photo upscaler",
-     "summary_lang": "en",
-     "source_url": "https://crisp.photos",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "photos.crisp",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=photos.crisp/image-tools&version=latest",
-      "record": {
-       "description": "Before/after comparison GIFs from two image URLs, by crisp.photos, the free browser photo upscaler",
-       "name": "photos.crisp/image-tools",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://crisp.photos/api/mcp"
-        }
-       ],
-       "repository": null,
-       "title": "crisp.photos",
-       "version": "1.0.0",
-       "website": "https://crisp.photos"
-      }
-     },
-     "install": "remote (streamable-http): https://crisp.photos/api/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-09"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-09T20:44:54Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-photos-crisp-image-tools/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-dev-cotlet-gladly",
-     "title": "Gladly MCP Server and API by Cotlet",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Gladly retail customer support MCP server: list conversations, search customers, reply to customer.",
-     "summary_lang": "en",
-     "source_url": "https://cotlet.dev/integrations/gladly-api-mcp-server",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "dev.cotlet",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/gladly&version=latest",
-      "record": {
-       "description": "Gladly retail customer support MCP server: list conversations, search customers, reply to customer.",
-       "name": "dev.cotlet/gladly",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/gladly/connect"
-        },
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/gladly"
-        }
-       ],
-       "repository": null,
-       "title": "Gladly MCP Server and API by Cotlet",
-       "version": "1.0.2",
-       "website": "https://cotlet.dev/integrations/gladly-api-mcp-server"
-      }
-     },
-     "install": "remote (streamable-http): https://cotlet.dev/mcp/v1/gladly/connect",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-10"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-dev-cotlet-gladly/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-dev-cotlet-gorgias",
-     "title": "Gorgias MCP Server and API by Cotlet",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Gorgias ecommerce customer support MCP server: search tickets, reply to ticket, update ticket.",
-     "summary_lang": "en",
-     "source_url": "https://cotlet.dev/integrations/gorgias-api-mcp-server",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "dev.cotlet",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/gorgias&version=latest",
-      "record": {
-       "description": "Gorgias ecommerce customer support MCP server: search tickets, reply to ticket, update ticket.",
-       "name": "dev.cotlet/gorgias",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/gorgias/connect"
-        },
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/gorgias"
-        }
-       ],
-       "repository": null,
-       "title": "Gorgias MCP Server and API by Cotlet",
-       "version": "1.0.2",
-       "website": "https://cotlet.dev/integrations/gorgias-api-mcp-server"
-      }
-     },
-     "install": "remote (streamable-http): https://cotlet.dev/mcp/v1/gorgias/connect",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-10"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-dev-cotlet-gorgias/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-danielpopamd-hubspot-mcp",
-     "title": "HubSpot MCP by AdPlug",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "HubSpot MCP server: 9 tools, every client portal on one connector. Writes preview first.",
-     "summary_lang": "en",
-     "source_url": "https://adplug.app/integrations/hubspot?src=mcp-registry",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "io.github.danielpopamd",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.danielpopamd/hubspot-mcp&version=latest",
-      "record": {
-       "description": "HubSpot MCP server: 9 tools, every client portal on one connector. Writes preview first.",
-       "name": "io.github.danielpopamd/hubspot-mcp",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://api.adplug.app/mcp/hubspot"
-        }
-       ],
-       "repository": null,
-       "title": "HubSpot MCP by AdPlug",
-       "version": "1.0.0",
-       "website": "https://adplug.app/integrations/hubspot?src=mcp-registry"
-      }
-     },
-     "install": "remote (streamable-http): https://api.adplug.app/mcp/hubspot",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": true,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-10-21"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-github-danielpopamd-hubspot-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-ai-inbrix-helpdesk",
-     "title": "inbrix",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "AI-native helpdesk hosted in Germany: tickets, replies, KPIs and knowledge base over MCP.",
-     "summary_lang": "en",
-     "source_url": "https://www.inbrix.ai/en",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "ai.inbrix",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.inbrix/helpdesk&version=latest",
-      "record": {
-       "description": "AI-native helpdesk hosted in Germany: tickets, replies, KPIs and knowledge base over MCP.",
-       "name": "ai.inbrix/helpdesk",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://app.inbrix.ai/api/mcp"
-        }
-       ],
-       "repository": null,
-       "title": "inbrix",
-       "version": "1.0.0",
-       "website": "https://www.inbrix.ai/en"
-      }
-     },
-     "install": "remote (streamable-http): https://app.inbrix.ai/api/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-09-02"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-22T00:43:10Z",
-     "updated_at": "2026-10-22T00:43:10Z",
-     "checked_at": "2026-11-16T20:29:41Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-ai-inbrix-helpdesk/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-prometheusagency-shopify-app-store-scraper",
-     "title": "io.github.PrometheusAgency/shopify-app-store-scraper",
-     "type": "mcp",
-     "industry": "customer-service",
-     "roles": [
-      "support-agent"
-     ],
-     "summary": "Scrape Shopify App Store apps, full review histories and catalog. E-commerce market research.",
-     "summary_lang": "en",
-     "source_url": "https://apify.com/prometheusagency/shopify-app-store-scraper",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "io.github.PrometheusAgency",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.PrometheusAgency/shopify-app-store-scraper&version=latest",
-      "record": {
-       "description": "Scrape Shopify App Store apps, full review histories and catalog. E-commerce market research.",
-       "name": "io.github.PrometheusAgency/shopify-app-store-scraper",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://mcp.apify.com/?actors=prometheusagency/shopify-app-store-scraper"
-        }
-       ],
-       "repository": null,
+       "remotes": [],
+       "repository": "https://github.com/codespar/mcp-dev-latam",
        "title": null,
-       "version": "0.1.1",
-       "website": "https://apify.com/prometheusagency/shopify-app-store-scraper"
+       "version": "0.2.2",
+       "website": null
       }
      },
-     "install": "remote (streamable-http): https://mcp.apify.com/?actors=prometheusagency/shopify-app-store-scraper",
+     "install": "npx -y @codespar/mcp-shopify",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": true,
       "writes_external": false,
       "credential_names": [
-       "Authorization"
+       "SHOPIFY_SHOP",
+       "SHOPIFY_ACCESS_TOKEN",
+       "SHOPIFY_API_VERSION"
       ]
      },
      "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-07-02"
+      "repo_stars": 279,
+      "repo_pushed_at": "2026-11-13",
+      "registry_updated_at": "2026-06-22"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-16T20:29:41Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-io-github-prometheusagency-shopify-app-store-scraper/",
+     "page": "https://academy.incidental.site/r/mcp-io-github-codespar-mcp-shopify/",
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-dev-cotlet-kustomer",
-     "title": "Kustomer MCP Server and API by Cotlet",
+     "id": "mcp-io-github-servosity-hubspot-mcp",
+     "title": "HubSpot MCP",
      "type": "mcp",
      "industry": "customer-service",
      "roles": [
       "support-agent"
      ],
-     "summary": "Kustomer customer support platform MCP server: search conversations, reply to conversation.",
+     "summary": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
      "summary_lang": "en",
-     "source_url": "https://cotlet.dev/integrations/kustomer-api-mcp-server",
-     "raw_url": null,
+     "source_url": "https://github.com/Servosity/msp-skills",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-servosity-hubspot-mcp.md",
      "upstream_raw_url": null,
-     "repo": null,
-     "author": "dev.cotlet",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "repo": "Servosity/msp-skills",
+     "author": "io.github.Servosity",
+     "license": "Apache-2.0",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/kustomer&version=latest",
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/Servosity/msp-skills/blob/HEAD/README.md",
       "record": {
-       "description": "Kustomer customer support platform MCP server: search conversations, reply to conversation.",
-       "name": "dev.cotlet/kustomer",
-       "packages": [],
-       "remotes": [
+       "description": "Every HubSpot Sales Hub feature, plus offline cross-object queries, property-change-history",
+       "name": "io.github.Servosity/hubspot-mcp",
+       "packages": [
         {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/kustomer/connect"
-        },
-        {
-         "headers": [
-          "Authorization"
+         "env": [
+          {
+           "description": "Set the HUBSPOT_ACCESS_TOKEN credential for the HubSpot MCP server.",
+           "name": "HUBSPOT_ACCESS_TOKEN",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Base URL for the HubSpot API. Leave the prefilled default unless your account uses a different regional or self-hosted host.",
+           "name": "HUBSPOT_BASE_URL",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional. Set to exactly 1 to expose only read-only tools and refuse any non-GET execute call. Preset to 1; clear it only when you want the agent to run the tools this switch hides.",
+           "name": "HUBSPOT_MCP_READ_ONLY",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional. Set to 1 to keep no local copy of API responses: reads go to the API, the response cache is off, and sync refuses to run. Leave blank to keep the local store.",
+           "name": "HUBSPOT_NO_LOCAL_DATA",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Email address that `--owner me` resolves to when git config user.email is not set. Leave blank to name the owner on each call.",
+           "name": "HUBSPOT_OWNER_EMAIL",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Bearer token required by `hubspot-mcp --transport http`; unused by the default stdio transport.",
+           "name": "HUBSPOT_MCP_HTTP_TOKEN",
+           "required": null,
+           "secret": true
+          },
+          {
+           "description": "Overrides the User-Agent the CLI sends on HubSpot requests.",
+           "name": "HUBSPOT_USER_AGENT",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Binds this MCP server to one tenant-gated client profile, so every call answers for that customer. Leave blank to use the profile configured as default_client_profile.",
+           "name": "PRINTING_PRESS_CLIENT_PROFILE",
+           "required": null,
+           "secret": null
+          }
          ],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/kustomer"
+         "id": "https://github.com/Servosity/msp-skills/releases/download/hubspot-v0.3.1/hubspot-mcp.mcpb",
+         "transport": "stdio",
+         "type": "mcpb",
+         "version": "0.3.1"
         }
        ],
-       "repository": null,
-       "title": "Kustomer MCP Server and API by Cotlet",
-       "version": "1.0.2",
-       "website": "https://cotlet.dev/integrations/kustomer-api-mcp-server"
+       "remotes": [],
+       "repository": "https://github.com/servosity/msp-skills",
+       "title": "HubSpot MCP",
+       "version": "0.3.1",
+       "website": null
       }
      },
-     "install": "remote (streamable-http): https://cotlet.dev/mcp/v1/kustomer/connect",
+     "install": null,
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": true,
-      "writes_external": true,
+      "writes_external": false,
       "credential_names": [
-       "Authorization"
+       "HUBSPOT_ACCESS_TOKEN",
+       "HUBSPOT_BASE_URL",
+       "HUBSPOT_MCP_READ_ONLY",
+       "HUBSPOT_NO_LOCAL_DATA",
+       "HUBSPOT_OWNER_EMAIL",
+       "HUBSPOT_MCP_HTTP_TOKEN",
+       "HUBSPOT_USER_AGENT",
+       "PRINTING_PRESS_CLIENT_PROFILE"
       ]
      },
      "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-10"
+      "repo_stars": 82,
+      "repo_pushed_at": "2026-11-16",
+      "registry_updated_at": "2026-11-14"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-16T20:29:41Z",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-dev-cotlet-kustomer/",
+     "page": "https://academy.incidental.site/r/mcp-io-github-servosity-hubspot-mcp/",
      "source": "mcp-registry"
     },
     {
-     "id": "mcp-dev-cotlet-livechat",
-     "title": "LiveChat (Text) MCP Server and API by Cotlet",
+     "id": "mcp-com-mcparmory-shopify-admin",
+     "title": "com.mcparmory/shopify-admin",
      "type": "mcp",
      "industry": "customer-service",
      "roles": [
       "support-agent"
      ],
-     "summary": "LiveChat (Text) customer support live chat MCP server: list chats, reply in chat, tag chat.",
+     "summary": "Manage products, orders, customers, inventory, and store configuration",
      "summary_lang": "en",
-     "source_url": "https://cotlet.dev/integrations/livechat-api-mcp-server",
+     "source_url": "https://github.com/mcparmory/registry",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-mcparmory-shopify-admin.md",
+     "upstream_raw_url": null,
+     "repo": "mcparmory/registry",
+     "author": "com.mcparmory",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/mcparmory/registry/blob/HEAD/README.md",
+      "record": {
+       "description": "Manage products, orders, customers, inventory, and store configuration",
+       "name": "com.mcparmory/shopify-admin",
+       "packages": [
+        {
+         "env": [],
+         "id": "mcparmory-shopify-admin",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "1.0.3"
+        },
+        {
+         "env": [],
+         "id": "ghcr.io/mcparmory/shopify-admin:1.0.3",
+         "transport": "stdio",
+         "type": "oci",
+         "version": null
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/mcparmory/registry",
+       "title": null,
+       "version": "1.0.3",
+       "website": null
+      }
+     },
+     "install": "uvx mcparmory-shopify-admin",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 32,
+      "repo_pushed_at": "2026-05-12",
+      "registry_updated_at": "2026-05-12"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-mcparmory-shopify-admin/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-muhammadtalhamt-intercom",
+     "title": "io.github.MuhammadTalhaMT/intercom",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Relays messages between two Claude Code sessions on different machines using the Channels API",
+     "summary_lang": "en",
+     "source_url": "https://github.com/MuhammadTalhaMT/claude-intercom",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-muhammadtalhamt-intercom.md",
+     "upstream_raw_url": null,
+     "repo": "MuhammadTalhaMT/claude-intercom",
+     "author": "io.github.MuhammadTalhaMT",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/MuhammadTalhaMT/claude-intercom/blob/HEAD/README.md",
+      "record": {
+       "description": "Relays messages between two Claude Code sessions on different machines using the Channels API",
+       "name": "io.github.MuhammadTalhaMT/intercom",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Label for this instance, e.g. backend or frontend. Appears in message tags so the other side knows who is talking.",
+           "name": "MY_ROLE",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Address of the other machine as host:port. A Tailscale address is recommended over a public one.",
+           "name": "REMOTE_HOST",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Shared secret authenticating messages between the two instances. Must match on both sides. There is no default: without it the intercom starts unpaired, binds no port, and refuses to send.",
+           "name": "INTERCOM_SECRET",
+           "required": true,
+           "secret": true
+          },
+          {
+           "description": "Port to listen on for incoming messages. Defaults to 8788.",
+           "name": "INTERCOM_PORT",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Interface to bind the listener to. Defaults to 0.0.0.0. Set 127.0.0.1 when a tunnel fronts the intercom, so only the tunnel can connect.",
+           "name": "INTERCOM_HOST",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "How long an outbound POST may hang before giving up. Defaults to 10000.",
+           "name": "INTERCOM_SEND_TIMEOUT_MS",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "claude-intercom",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "2.1.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/MuhammadTalhaMT/claude-intercom",
+       "title": null,
+       "version": "2.1.0",
+       "website": null
+      }
+     },
+     "install": "npx -y claude-intercom",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "MY_ROLE",
+       "REMOTE_HOST",
+       "INTERCOM_SECRET",
+       "INTERCOM_PORT",
+       "INTERCOM_HOST",
+       "INTERCOM_SEND_TIMEOUT_MS"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 21,
+      "repo_pushed_at": "2026-08-19",
+      "registry_updated_at": "2026-08-19"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-muhammadtalhamt-intercom/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-callobuzz-cob-shopify-mcp",
+     "title": "cob-shopify-mcp",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Run a Shopify store from any MCP client: products, orders, customers, stock and analytics.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/callobuzz/cob-shopify-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-callobuzz-cob-shopify-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "callobuzz/cob-shopify-mcp",
+     "author": "io.github.callobuzz",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/callobuzz/cob-shopify-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Run a Shopify store from any MCP client: products, orders, customers, stock and analytics.",
+       "name": "io.github.callobuzz/cob-shopify-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Your store's address, for example your-store.myshopify.com",
+           "name": "SHOPIFY_STORE_DOMAIN",
+           "required": true,
+           "secret": null
+          },
+          {
+           "description": "Client ID of your Shopify app (with SHOPIFY_CLIENT_SECRET)",
+           "name": "SHOPIFY_CLIENT_ID",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Client secret of your Shopify app (shpss_...)",
+           "name": "SHOPIFY_CLIENT_SECRET",
+           "required": null,
+           "secret": true
+          },
+          {
+           "description": "Admin API access token (shpat_...); used instead of the client ID and secret",
+           "name": "SHOPIFY_ACCESS_TOKEN",
+           "required": null,
+           "secret": true
+          },
+          {
+           "description": "true to offer only the tools that read",
+           "name": "COB_SHOPIFY_READ_ONLY",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "cob-shopify-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.12.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/callobuzz/cob-shopify-mcp",
+       "title": "cob-shopify-mcp",
+       "version": "0.12.1",
+       "website": null
+      }
+     },
+     "install": "npx -y cob-shopify-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "SHOPIFY_STORE_DOMAIN",
+       "SHOPIFY_CLIENT_ID",
+       "SHOPIFY_CLIENT_SECRET",
+       "SHOPIFY_ACCESS_TOKEN",
+       "COB_SHOPIFY_READ_ONLY"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 18,
+      "repo_pushed_at": "2026-11-13",
+      "registry_updated_at": "2026-11-12"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-12T18:19:46Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-callobuzz-cob-shopify-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-fruggr-zendesk-mcp-server",
+     "title": "io.github.fruggr/zendesk-mcp-server",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/fruggr/zendesk-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-fruggr-zendesk-mcp-server.md",
+     "upstream_raw_url": null,
+     "repo": "fruggr/zendesk-mcp-server",
+     "author": "io.github.fruggr",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/fruggr/zendesk-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "Draft, translate and update Help Center articles and manage Zendesk tickets from your AI assistant.",
+       "name": "io.github.fruggr/zendesk-mcp-server",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Zendesk subdomain, used when no positional subdomain argument is given.",
+           "name": "ZENDESK_SUBDOMAIN",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@fruggr/zendesk-mcp-server",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "3.10.0"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/fruggr/zendesk-mcp-server",
+       "title": null,
+       "version": "3.10.0",
+       "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
+      }
+     },
+     "install": "npx -y @fruggr/zendesk-mcp-server",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "ZENDESK_SUBDOMAIN"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 15,
+      "repo_pushed_at": "2026-11-16",
+      "registry_updated_at": "2026-11-11"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-fruggr-zendesk-mcp-server/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-mindstone-mcp-server-zendesk",
+     "title": "Zendesk",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Zendesk MCP server for Model Context Protocol hosts",
+     "summary_lang": "en",
+     "source_url": "https://github.com/mindstone/mcp-servers",
      "raw_url": null,
      "upstream_raw_url": null,
-     "repo": null,
-     "author": "dev.cotlet",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "repo": "mindstone/mcp-servers",
+     "author": "io.github.mindstone",
+     "license": "NOASSERTION",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
       "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/livechat&version=latest",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mindstone/mcp-server-zendesk&version=latest",
       "record": {
-       "description": "LiveChat (Text) customer support live chat MCP server: list chats, reply in chat, tag chat.",
-       "name": "dev.cotlet/livechat",
-       "packages": [],
-       "remotes": [
+       "description": "Zendesk MCP server for Model Context Protocol hosts",
+       "name": "io.github.mindstone/mcp-server-zendesk",
+       "packages": [
         {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/livechat/connect"
-        },
-        {
-         "headers": [
-          "Authorization"
+         "env": [
+          {
+           "description": "Path to the config directory containing accounts.json and credentials/",
+           "name": "ZENDESK_CONFIG_PATH",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional OAuth client ID for legacy token refresh flows",
+           "name": "ZENDESK_CLIENT_ID",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Optional OAuth client secret for legacy token refresh flows",
+           "name": "ZENDESK_CLIENT_SECRET",
+           "required": null,
+           "secret": true
+          }
          ],
-         "type": "streamable-http",
-         "url": "https://cotlet.dev/mcp/v1/livechat"
+         "id": "@mindstone/mcp-server-zendesk",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.4.1"
         }
        ],
-       "repository": null,
-       "title": "LiveChat (Text) MCP Server and API by Cotlet",
-       "version": "1.0.2",
-       "website": "https://cotlet.dev/integrations/livechat-api-mcp-server"
+       "remotes": [],
+       "repository": "https://github.com/mindstone/mcp-servers",
+       "title": "Zendesk",
+       "version": "0.4.1",
+       "website": null
       }
      },
-     "install": "remote (streamable-http): https://cotlet.dev/mcp/v1/livechat/connect",
+     "install": "npx -y @mindstone/mcp-server-zendesk",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": true,
-      "writes_external": true,
+      "writes_external": false,
       "credential_names": [
-       "Authorization"
+       "ZENDESK_CONFIG_PATH",
+       "ZENDESK_CLIENT_ID",
+       "ZENDESK_CLIENT_SECRET"
       ]
      },
      "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-10"
+      "repo_stars": 14,
+      "repo_pushed_at": "2026-11-16",
+      "registry_updated_at": "2026-08-09"
      },
      "course_step": "4-do-it",
      "status": "active",
-     "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-16T20:29:41Z",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/mcp-dev-cotlet-livechat/",
+     "page": "https://academy.incidental.site/r/mcp-io-github-mindstone-mcp-server-zendesk/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-michaelrice-zendesk-mcp",
+     "title": "io.github.michaelrice/zendesk-mcp",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Zendesk MCP server for Claude Code and other MCP clients",
+     "summary_lang": "en",
+     "source_url": "https://github.com/michaelrice/zendesk-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-michaelrice-zendesk-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "michaelrice/zendesk-mcp",
+     "author": "io.github.michaelrice",
+     "license": "Apache-2.0",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/michaelrice/zendesk-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Zendesk MCP server for Claude Code and other MCP clients",
+       "name": "io.github.michaelrice/zendesk-mcp",
+       "packages": [
+        {
+         "env": [],
+         "id": "zendesk-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "0.1.6"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/michaelrice/zendesk-mcp",
+       "title": null,
+       "version": "0.1.6",
+       "website": null
+      }
+     },
+     "install": "uvx zendesk-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": false,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 9,
+      "repo_pushed_at": "2026-10-08",
+      "registry_updated_at": "2026-10-08"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-22T00:43:10Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-michaelrice-zendesk-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-io-github-ussefidder-shopify-store-sync-mcp",
+     "title": "Shopify Store Sync",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "Diff and sync Shopify stores: dry-run plans, cross-store ID remapping, never deletes.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/ussefidder/shopify-store-sync-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ussefidder-shopify-store-sync-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "ussefidder/shopify-store-sync-mcp",
+     "author": "io.github.ussefidder",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/ussefidder/shopify-store-sync-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Diff and sync Shopify stores: dry-run plans, cross-store ID remapping, never deletes.",
+       "name": "io.github.ussefidder/shopify-store-sync-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Absolute path to your stores.json (store domains and how each one is connected). Defaults to ./stores.json.",
+           "name": "SHOPIFY_STORES_FILE",
+           "required": null,
+           "secret": null
+          },
+          {
+           "description": "Folder that snapshot exports and dir: sources must stay inside. Defaults to the folder the server runs in.",
+           "name": "SYNC_SNAPSHOT_DIR",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "shopify-store-sync-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "0.11.4"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/ussefidder/shopify-store-sync-mcp",
+       "title": "Shopify Store Sync",
+       "version": "0.11.4",
+       "website": "https://github.com/ussefidder/shopify-store-sync-mcp#readme"
+      }
+     },
+     "install": "npx -y shopify-store-sync-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": [
+       "SHOPIFY_STORES_FILE",
+       "SYNC_SNAPSHOT_DIR"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 6,
+      "repo_pushed_at": "2026-11-17",
+      "registry_updated_at": "2026-11-17"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-15T17:11:40Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-ussefidder-shopify-store-sync-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-com-hasdata-shopify",
+     "title": "HasData Shopify",
+     "type": "mcp",
+     "industry": "customer-service",
+     "roles": [
+      "support-agent"
+     ],
+     "summary": "The public product catalogue and collections of any Shopify storefront, as structured JSON.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/HasData/shopify-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-hasdata-shopify.md",
+     "upstream_raw_url": null,
+     "repo": "HasData/shopify-mcp",
+     "author": "com.hasdata",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/HasData/shopify-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "The public product catalogue and collections of any Shopify storefront, as structured JSON.",
+       "name": "com.hasdata/shopify",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
+           "name": "HASDATA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "@hasdata/shopify-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.0.3"
+        },
+        {
+         "env": [
+          {
+           "description": "HasData API key, created at app.hasdata.com. 1,000 free credits every month, no card.",
+           "name": "HASDATA_API_KEY",
+           "required": true,
+           "secret": true
+          }
+         ],
+         "id": "hasdata-shopify-mcp",
+         "transport": "stdio",
+         "type": "pypi",
+         "version": "1.0.3"
+        }
+       ],
+       "remotes": [
+        {
+         "headers": [
+          "x-api-key"
+         ],
+         "type": "streamable-http",
+         "url": "https://mcp.hasdata.com/mcp?apis=shopify"
+        }
+       ],
+       "repository": "https://github.com/HasData/shopify-mcp",
+       "title": "HasData Shopify",
+       "version": "1.0.3",
+       "website": "https://hasdata.com/apis/shopify-api"
+      }
+     },
+     "install": "npx -y @hasdata/shopify-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "HASDATA_API_KEY",
+       "HASDATA_API_KEY",
+       "x-api-key"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 5,
+      "repo_pushed_at": "2026-10-29",
+      "registry_updated_at": "2026-09-24"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-hasdata-shopify/",
      "source": "mcp-registry"
     }
    ]

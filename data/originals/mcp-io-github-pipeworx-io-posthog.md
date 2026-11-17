@@ -1,14 +1,14 @@
 # mcp-posthog
 
-PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)
+Unofficial PostHog MCP — wraps PostHog Analytics API (app.posthog.com/api)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_events` | Fetch recent events from a PostHog project. Returns event names, timestamps, and properties. Example: get_events({ project_id: "12345", limit: 50, _apiKey: "phx_..." }) |
+| `posthog_get_events` | Fetch recent events from a PostHog project. Returns event names, timestamps, and properties. Example: get_events({ project_id: "12345", limit: 50, _apiKey: "phx_..." }) |
 | `get_persons` | Search for persons (users) in a PostHog project. Returns user profiles with properties. Example: get_persons({ project_id: "12345", search: "john@example.com", _apiKey: "phx_..." }) |
 | `get_insights` | List saved insights (charts, trends, funnels) for a PostHog project. Returns insight names, types, and configurations. Example: get_insights({ project_id: "12345", _apiKey: "phx_..." }) |
 
@@ -56,19 +56,13 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1866+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
 ## No MCP client? Call it over HTTP
 
-```bash
-curl -X POST https://gateway.pipeworx.io/v1/tools/get_events \
-  -H 'Content-Type: application/json' \
-  -d '{"project_id":"12345","limit":50}'
-```
-
-No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/get_events`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
+This pack takes your own API key (`_apiKey`) — we don't front one for it, so there's no curl here that would run without it. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/posthog_get_events`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
 
 ## Run it from npm
 

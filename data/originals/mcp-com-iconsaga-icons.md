@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://iconsaga.com"><img src="assets/iconsaga.png" width="880" alt="IconSaga: icons that match, in your colors. A dark stage full of IconSaga icons, with a spotlight on a lightbulb, a rocket and a chart."></a>
+  <a href="https://iconsaga.com"><img src="assets/readme/readme-1-hook-1600x800.png" width="880" alt="IconSaga: 4,892 free icons. IconSaga's icon sets and a grid of its icons on a dark stage, with iconsaga.com."></a>
 </p>
 
 # IconSaga
@@ -14,12 +14,20 @@ IconSaga has <!-- sync:icons -->4,892<!-- /sync --> free icons for your website,
 - **With your AI:** connect IconSaga once to the AI that builds your website. Then just ask, in your own words and your own language: *"add an icon to each feature card, in our brand colors."* Your AI finds icons that fit and puts them in.
 
 <p align="center">
-  <img src="assets/your-colors.png" width="880" alt="The same six IconSaga icons shown three times: in line, solid and two-color styles, each in a different set of brand colors.">
+  <img src="assets/readme/readme-2-colors-1600x800.png" width="880" alt="Pick your brand colors. Every icon follows. IconSaga's color picker with ready color pairs, and a page of icons shown in the chosen colors.">
 </p>
 
 ## Connect your AI
 
+<p align="center">
+  <img src="assets/readme/readme-3-mcp-1600x800.png" width="880" alt="Let your AI pick icons via MCP. Claude Code, Codex and Cursor, and a chat where the AI finds three cloud backup icons in your colors.">
+</p>
+
 It takes about a minute, and you don't need an account to start.
+
+### Claude
+
+The easiest way: **[add IconSaga from Claude's directory](https://claude.ai/directory/iconsaga)** and click Connect. You sign in to IconSaga once (a free account is enough), then ask Claude for icons in your own words.
 
 ### Claude Code
 
