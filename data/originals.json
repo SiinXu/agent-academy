@@ -6301,7 +6301,7 @@
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.0.3",
+"version": "1.10.1",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -9662,6 +9662,32 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.pages.wagner-data-services/shopify-catalog-import&version=latest"
 },
+"mcp-dev-wirecat-hubspot-cli": {
+"file": "data/originals/mcp-dev-wirecat-hubspot-cli.md",
+"kind": "full",
+"label": "readme",
+"license": "Apache-2.0",
+"record": {
+"description": "hubspot for agents over MCP. Set up a profile with the hubspot CLI first.",
+"name": "dev.wirecat/hubspot-cli",
+"packages": [
+{
+"env": [],
+"id": "@wirecat/hubspot-cli",
+"transport": "stdio",
+"type": "npm",
+"version": "0.2.0"
+}
+],
+"remotes": [],
+"repository": "https://github.com/WireCatLabs/hubspot-cli",
+"title": "WireCat hubspot",
+"version": "0.2.0",
+"website": "https://wirecat.dev/en/docs/hubspot"
+},
+"truncated": false,
+"url": "https://github.com/WireCatLabs/hubspot-cli/blob/HEAD/README.md"
+},
 "mcp-dev-workers-cybermax-tools-cybermax-shopify-scraper": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -11188,6 +11214,30 @@
 "truncated": true,
 "url": "https://github.com/deyikong/sendgrid-mcp/blob/HEAD/README.md"
 },
+"mcp-io-github-dheerajitbhu-shopify-app-store": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Search the Shopify App Store by keyword, category, or app URL and return typed app rows.",
+"name": "io.github.dheerajitbhu/shopify-app-store",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=dheerajitbhu/shopify-app-store"
+}
+],
+"repository": null,
+"title": "Shopify App Store Search",
+"version": "1.0.0",
+"website": "https://apify.com/dheerajitbhu/shopify-app-store?utm_source=mcp-registry&utm_medium=directory&utm_campaign=shopify-app-store"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.dheerajitbhu/shopify-app-store&version=latest"
+},
 "mcp-io-github-dingdawg-dingdawg-marketing-agent": {
 "file": "data/originals/mcp-io-github-dingdawg-dingdawg-marketing-agent.md",
 "kind": "full",
@@ -11440,13 +11490,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.10.2"
+"version": "3.11.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.10.2",
+"version": "3.11.0",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -12566,16 +12616,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.13/figmamcp-0.1.13-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.15/figmamcp-0.1.15-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.13"
+"version": "0.1.15"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.13",
+"version": "0.1.15",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -14820,7 +14870,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.40.0",
+"version": "1.40.1",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -26528,6 +26578,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-cy0vkfh-shader-page-transition": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-czscro6-sam-s-portfolio-site": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -31269,6 +31326,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-wp3x2de-animated-icon-set": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-wstxmxc-elevenlabs-feature-cards": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
