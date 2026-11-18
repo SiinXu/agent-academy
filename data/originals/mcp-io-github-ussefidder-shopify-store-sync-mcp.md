@@ -4,10 +4,12 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/shopify-store-sync-mcp"><img src="https://img.shields.io/npm/v/shopify-store-sync-mcp?color=cb3837" alt="npm version"></a>
+  <a href="https://github.com/ussefidder/shopify-store-sync-mcp/actions/workflows/ci.yml"><img src="https://github.com/ussefidder/shopify-store-sync-mcp/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-57c26e" alt="MIT license"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D22-6cb6ff" alt="Node 22+">
   <a href="https://registry.modelcontextprotocol.io/?q=shopify-store-sync-mcp"><img src="https://img.shields.io/badge/MCP%20Registry-listed-a371f7" alt="Listed on the MCP Registry"></a>
   <img src="https://img.shields.io/badge/Shopify%20Admin%20API-2026--10-e3b341" alt="Shopify Admin API 2026-10">
+  <a href="https://glama.ai/mcp/servers/ussefidder/shopify-store-sync-mcp"><img src="https://glama.ai/mcp/servers/ussefidder/shopify-store-sync-mcp/badges/score.svg" alt="shopify-store-sync-mcp MCP server, rated on Glama"></a>
 </p>
 
 <h3 align="center">Keep your Shopify stores in sync by asking for it.</h3>
@@ -438,7 +440,7 @@ What `diff_stores` reports, field by field (real output):
 </p>
 
 <details>
-<summary><b>All 12 tools</b></summary>
+<summary><b>All 13 tools</b></summary>
 
 | Tool | Writes? | What it does |
 |---|---|---|
@@ -452,6 +454,7 @@ What `diff_stores` reports, field by field (real output):
 | `apply_plan` | **yes** | Execute a plan, with every safety check above. For a protected store your client asks you to confirm. A plan of more than 50 steps runs in the background and this returns at once. |
 | `apply_status` | no | How far an apply has got: written, failed and left per resource type, phase, time so far and time remaining, failures counted per reason. Also answers after a server restart. |
 | `cancel_apply` | stops writes | Stop a running apply and the Shopify bulk operations it started. What was written stays written. |
+| `get_audit_log` | no | Read what an apply wrote, newest first: one entry per step with its outcome. Filter by plan, outcome or resource type. |
 | `export_snapshot` | local files only | Write a store's configuration to a folder for git ([config as code](#config-as-code)). |
 | `diff_themes` | no | Compare theme templates and settings between two stores ([theme settings](#theme-settings-diff)). |
 

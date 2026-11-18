@@ -6171,6 +6171,32 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.inbrix/helpdesk&version=latest"
 },
+"mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast": {
+"file": "data/originals/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.",
+"name": "ai.livecore/ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://api.livecore.ai/api/v1/misc/mcp"
+}
+],
+"repository": "https://github.com/brajendrak00068/agentic-ai-video-production",
+"title": "Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1)",
+"version": "0.7.0",
+"website": "https://livecore.ai"
+},
+"truncated": false,
+"url": "https://github.com/brajendrak00068/agentic-ai-video-production/blob/HEAD/README.md"
+},
 "mcp-ai-onlyfonts-onlyfonts": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -6817,7 +6843,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Gasto, campanhas, grupos e anúncios do TikTok; pausar e ajustar com aprovação",
+"description": "TikTok spend, campaigns, ad groups and ads; pause and adjust with approval",
 "name": "click.myagents/tiktok-ads",
 "packages": [],
 "remotes": [
@@ -6829,8 +6855,8 @@
 ],
 "repository": null,
 "title": "TikTok Ads",
-"version": "1.0.3",
-"website": "https://ciromaciel.click/mcp/tiktok-ads"
+"version": "1.0.4",
+"website": "https://tiktok-ads.mcp.myagents.click/en"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=click.myagents/tiktok-ads&version=latest"
 },
@@ -8019,6 +8045,28 @@
 "truncated": false,
 "url": "https://github.com/keyline-icons/keyline-icons/blob/HEAD/README.md"
 },
+"mcp-com-kinetixseo-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "SEO and AI search checks for any website, plus your KinetixSEO audits, keywords and citations.",
+"name": "com.kinetixseo/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://kinetixseo.com/mcp/kinetix"
+}
+],
+"repository": null,
+"title": "KinetixSEO",
+"version": "1.7.0",
+"website": "https://kinetixseo.com/mcp-server?utm_source=mcp&utm_medium=mcp-registry"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.kinetixseo/mcp&version=latest"
+},
 "mcp-com-lottiefiles-creator": {
 "file": "data/originals/mcp-com-lottiefiles-creator.md",
 "kind": "full",
@@ -8593,6 +8641,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.pronovahq/pronova-sales-hubspot&version=latest"
 },
+"mcp-com-quiroads-clinic-marketing": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Clinic marketing playbooks and tools: Meta ads access, health ad rules, lead follow-up, care plans",
+"name": "com.quiroads/clinic-marketing",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://quiroads.com/mcp"
+}
+],
+"repository": null,
+"title": "QuiroAds Clinic Marketing Tools",
+"version": "1.0.0",
+"website": "https://quiroads.com/mcp-server"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.quiroads/clinic-marketing&version=latest"
+},
 "mcp-com-rasareka-shopify": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8713,7 +8783,7 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "Free SEO & AI-search (AEO) audits for any site or Shopify store, with emailed weekly score reports.",
+"description": "Free SEO & AI-search audits, an llms.txt generator, and store tools to review and approve fixes.",
 "name": "com.seoaix/seo-audit",
 "packages": [],
 "remotes": [
@@ -8725,7 +8795,7 @@
 ],
 "repository": "https://github.com/riverliu8/seoaix-mcp",
 "title": "SeoAiX SEO Audit",
-"version": "1.5.0",
+"version": "1.6.0",
 "website": "https://seoaix.com/mcp"
 },
 "truncated": false,
@@ -9109,6 +9179,33 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shadcndesign.manager/ds-manager&version=latest"
 },
+"mcp-com-shortvidapi-tiktok-instagram-reels-shorts-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Real-time TikTok videos, creator profiles, comments, trends, ads & Instagram Reels MCP ($0.20/1K).",
+"name": "com.shortvidapi/tiktok-instagram-reels-shorts-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.shortvidapi.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.shortvidapi.com/v1/mcp"
+}
+],
+"repository": null,
+"title": "ShortVidAPI — TikTok, Instagram Reels & YouTube Shorts Data MCP Server",
+"version": "1.0.0",
+"website": "https://shortvidapi.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shortvidapi/tiktok-instagram-reels-shorts-mcp&version=latest"
+},
 "mcp-com-skaidigital-shopify-speed-check": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9200,30 +9297,6 @@
 "website": "https://stillindexed.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.stillindexed/seo-checkers&version=latest"
-},
-"mcp-com-super-webmaster-seo": {
-"file": "data/originals/mcp-com-super-webmaster-seo.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Free SEO and GEO audit of any public website: scores out of 100, fixes ranked by gain. In French.",
-"name": "com.super-webmaster/seo",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://app.super-webmaster.com/api/mcp/public"
-}
-],
-"repository": "https://github.com/pierrebillard/super-webmaster-mcp",
-"title": "Super Webmaster",
-"version": "1.2.1",
-"website": "https://super-webmaster.com/mcp-seo.php"
-},
-"truncated": false,
-"url": "https://github.com/pierrebillard/super-webmaster-mcp/blob/HEAD/README.md"
 },
 "mcp-com-superagnt-tiktok-data": {
 "file": "data/originals/mcp-com-superagnt-tiktok-data.md",
@@ -10580,7 +10653,7 @@
 "id": "@cesteral/tiktok-mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "1.3.0"
+"version": "2.0.0"
 }
 ],
 "remotes": [
@@ -10592,7 +10665,7 @@
 ],
 "repository": "https://github.com/cesteral/mcp-open-advertising",
 "title": "TikTok Ads MCP Server",
-"version": "1.3.0",
+"version": "2.0.0",
 "website": null
 },
 "truncated": false,
@@ -12352,6 +12425,28 @@
 "truncated": false,
 "url": "https://github.com/Mehmoodqureshi/figma-codekit-mcp/blob/HEAD/README.md"
 },
+"mcp-io-github-memeanalyst-tiktok-scraper-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Scrape TikTok profiles and videos — followers, views, likes and music, by Magnova",
+"name": "io.github.memeanalyst/tiktok-scraper-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/tiktok-scraper"
+}
+],
+"repository": "https://github.com/memeanalyst/tiktok-scraper-mcp",
+"title": "TikTok Scraper",
+"version": "1.0.0",
+"website": null
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.memeanalyst/tiktok-scraper-mcp&version=latest"
+},
 "mcp-io-github-miapre-html-to-figma-design-system": {
 "file": "data/originals/mcp-io-github-miapre-html-to-figma-design-system.md",
 "kind": "full",
@@ -12616,16 +12711,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.15/figmamcp-0.1.15-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.17/figmamcp-0.1.17-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.15"
+"version": "0.1.17"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.15",
+"version": "0.1.17",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -14223,6 +14318,54 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sumitrmardy/shopify-store-products&version=latest"
 },
+"mcp-io-github-sumitrmardy-tiktok-profile-stats": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Exact TikTok followers, likes, video count, bio and verified badge for a list of usernames.",
+"name": "io.github.sumitrmardy/tiktok-profile-stats",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=sumitr_mardy/tiktok-profile-stats"
+}
+],
+"repository": null,
+"title": "TikTok Profile Scraper",
+"version": "1.0.0",
+"website": "https://apify.com/sumitr_mardy/tiktok-profile-stats"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sumitrmardy/tiktok-profile-stats&version=latest"
+},
+"mcp-io-github-sumitrmardy-tiktok-video-scraper": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "TikTok video views, likes, shares, caption, hashtags and transcript from video URLs.",
+"name": "io.github.sumitrmardy/tiktok-video-scraper",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=sumitr_mardy/tiktok-video-scraper"
+}
+],
+"repository": null,
+"title": "TikTok Video Scraper",
+"version": "1.0.0",
+"website": "https://apify.com/sumitr_mardy/tiktok-video-scraper"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sumitrmardy/tiktok-video-scraper&version=latest"
+},
 "mcp-io-github-sunhome243-figma-mcp-express": {
 "file": "data/originals/mcp-io-github-sunhome243-figma-mcp-express.md",
 "kind": "full",
@@ -14372,13 +14515,13 @@
 "id": "shopify-store-sync-mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "0.11.4"
+"version": "0.11.8"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/ussefidder/shopify-store-sync-mcp",
 "title": "Shopify Store Sync",
-"version": "0.11.4",
+"version": "0.11.8",
 "website": "https://github.com/ussefidder/shopify-store-sync-mcp#readme"
 },
 "truncated": false,
@@ -14870,7 +15013,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.40.1",
+"version": "1.40.4",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -22151,6 +22294,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-aidotnet-tkcode-arc": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-gh-appllama-appllama-skills": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -22392,6 +22542,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/shadcn-ui/lint/blob/main/README.md"
+},
+"uihub-gh-skydashnet-material-design-3-ui-skill": {
+"file": "data/originals/uihub-gh-skydashnet-material-design-3-ui-skill.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/skydashnet/material-design-3-ui-skill/blob/main/README.md"
 },
 "uihub-gh-theorcdev-shadscan": {
 "kind": "excerpt",
@@ -25262,6 +25420,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-76hniup-slash-card-onboarding-flow": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-76l5dqr-etch-a-sketch-signature": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26019,6 +26184,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ak2skzd-qr-code-reveal-animation": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ak9wl6d-nvidia-earnings-call-poster": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28356,6 +28528,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-k5vrivq-ghost-ai-core-website": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-k6rv0uv-clear": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28574,6 +28753,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ld870xq-ice-fracture-hero-animation": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ldq9jav-website-easter-egg-game": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -29050,6 +29236,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-n8vaetb-joby-sans-custom-typeface": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-n94gojb-evangelion-x-bakugan-3d-renders": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -30443,6 +30636,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-shjwec5-robot-character-design-set": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-shqu5nd-ai-brand-bot-deck-generation": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -30465,6 +30665,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-sibo8nl-portfolio-page-transition": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-sinbw4y-macos-desktop-warp-animation": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -30738,6 +30945,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-tw004ln-scale-finder": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-twooe52-nvidia-earnings-call-poster": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -31822,7 +32036,21 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-yud52ty-bioluminescent-creature-scan": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-yufcmz0-flames-in-glass": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-yv76trf-3d-coin-motion-loop": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

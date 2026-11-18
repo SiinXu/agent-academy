@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-11-18T03:44:34Z",
+ "updated_at": "2026-11-18T18:51:53Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1283,20 +1283,20 @@
      "source": "ui-hub"
     },
     {
-     "id": "uihub-rd-k7a3agp-3d-face-shape-morphing",
-     "title": "3D Face Morphing",
+     "id": "uihub-rd-yv76trf-3d-coin-motion-loop",
+     "title": "3D Coin Loop",
      "type": "style-library",
      "industry": "design",
      "roles": [
       "motion-designer"
      ],
-     "summary": "A surreal 3D animation study where a hyper-realistic male face morphs between geometric and organic shapes, from spheres and cubes to melting puddles, on a vivid blue background.",
+     "summary": "Rendered 3D coins embossed with currency symbols tumble in a continuous diagonal loop against a cream background, cycling through coral and purple gradient colorways.",
      "summary_lang": "en",
-     "source_url": "https://x.com/ingi_erlingsson/status/2085892337092162035",
+     "source_url": "https://x.com/muradov_design/status/2122241152522830056",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "@ingi_erlingsson",
+     "author": "@muradov_design",
      "license": "see source (listed via UI Hub)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
@@ -1319,13 +1319,13 @@
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-16T20:29:41Z",
+     "first_seen": "2026-11-18T18:51:53Z",
+     "updated_at": "2026-11-18T18:51:53Z",
+     "checked_at": "2026-11-18T18:51:53Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/uihub-rd-k7a3agp-3d-face-shape-morphing/",
+     "page": "https://academy.incidental.site/r/uihub-rd-yv76trf-3d-coin-motion-loop/",
      "source": "ui-hub"
     }
    ]
@@ -1410,7 +1410,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 196805,
+      "repo_stars": 197117,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1455,7 +1455,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1500,7 +1500,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1545,7 +1545,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1590,7 +1590,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1635,7 +1635,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1680,7 +1680,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1725,7 +1725,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1770,8 +1770,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1815,8 +1815,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1998,7 +1998,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 36,
+      "repo_stars": 37,
       "repo_pushed_at": "2026-11-17",
       "registry_updated_at": "2026-10-20"
      },
@@ -2062,7 +2062,7 @@
      },
      "metrics": {
       "repo_stars": 17,
-      "repo_pushed_at": "2026-11-17",
+      "repo_pushed_at": "2026-11-18",
       "registry_updated_at": "2026-11-17"
      },
      "course_step": "4-do-it",
@@ -2486,8 +2486,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 150951,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 151275,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2508,7 +2508,7 @@
      "roles": [
       "design-reviewer"
      ],
-     "summary": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 192 product palettes and reasoning profiles, 74 font pairings,…",
+     "summary": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 194 product palettes and reasoning profiles, 74 font pairings,…",
      "summary_lang": "en",
      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-ux-pro-max.md",
@@ -2526,18 +2526,18 @@
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 150951,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 151275,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-16T02:13:04Z",
+     "updated_at": "2026-11-18T18:51:53Z",
      "checked_at": "2026-11-16T20:29:41Z",
      "http_status": {
       "source": 200
@@ -2576,7 +2576,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2621,8 +2621,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2666,8 +2666,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2711,8 +2711,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2756,8 +2756,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2801,8 +2801,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36453,
-      "repo_pushed_at": "2026-11-17"
+      "repo_stars": 36515,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2846,8 +2846,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36453,
-      "repo_pushed_at": "2026-11-17"
+      "repo_stars": 36515,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2891,8 +2891,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36453,
-      "repo_pushed_at": "2026-11-17"
+      "repo_stars": 36515,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2936,7 +2936,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26639,
+      "repo_stars": 26649,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

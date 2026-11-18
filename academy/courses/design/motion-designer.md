@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-18
-updated_at: 2026-11-18T03:44:34Z
+updated_at: 2026-11-18T18:51:53Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,11 +46,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1678 items
+- minimal: 1683 items
+- 3d: 653 items
 - motion: 651 items
-- 3d: 647 items
-- editorial: 594 items
-- playful: 569 items
+- editorial: 595 items
+- playful: 571 items
 - gradient: 290 items
 - retro: 117 items
 - dark-tech: 110 items
@@ -158,8 +158,8 @@ First case to read: how this site was designed by an agent: https://academy.inci
   source: http://iskra.graphics/can
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [style-library] 3D Face Morphing. A surreal 3D animation study where a hyper-realistic male face morphs between geometric and organic shapes, from spheres and cubes to melting puddles, on a vivid blue background.
-  source: https://x.com/ingi_erlingsson/status/2085892337092162035
+- [style-library] 3D Coin Loop. Rendered 3D coins embossed with currency symbols tumble in a continuous diagonal loop against a cream background, cycling through coral and purple gradient colorways.
+  source: https://x.com/muradov_design/status/2122241152522830056
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

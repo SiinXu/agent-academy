@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-18
-updated_at: 2026-11-18T03:44:34Z
+updated_at: 2026-11-18T18:51:53Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -201,6 +201,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: Apache-2.0
   install: npx -y @cesteral/tiktok-mcp
   needs_credentials: true, writes_external: true
+- [mcp] Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1). Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.
+  source: https://github.com/brajendrak00068/agentic-ai-video-production
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast.md
+  license: MIT
+  install: remote (streamable-http): https://api.livecore.ai/api/v1/misc/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] TikTok Agent Publisher. Local-first TikTok Content Posting API for AI agents: OAuth checks, dry-run and live uploads.
   source: https://github.com/davidmosiah/tiktok-agent-publisher
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-davidmosiah-tiktok-agent-publisher.md
@@ -269,12 +275,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mrocker-tiktok-profile-stats.md
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper
-  needs_credentials: true, writes_external: false
-- [mcp] ssave.cc — TikTok & Instagram Downloader. Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export
-  source: https://github.com/ssavecc/ssave-mcp-server
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md
-  license: MIT
-  install: npx -y @ssavecc/mcp-server
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

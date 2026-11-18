@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-18
-updated_at: 2026-11-18T03:44:34Z
+updated_at: 2026-11-18T18:51:53Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -208,6 +208,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Vechicle Spareparts In sri lanka. spare parts sales company marketing video in sri lanka
   source: https://prompts.chat/prompts/cmtto3lub0004jq048mus1e5j_vechicle-spareparts-in-sri-lanka
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-vechicle-spareparts-in-sri-lanka.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Video scenario. TASK: Creative Concept & Full Script for a Corporate Christmas Gift Campaign
+  source: https://prompts.chat/prompts/cmwkw1lv20001jw08dyl9es80_video-scenario
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-video-scenario.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] YouTube Video Analyst. I want you to act as an expert YouTube video analyst. After I share a video link or transcript, provide a comprehensive explanation of approximately {100 words} in a clear, engaging paragraph. Include a concise chronolog

@@ -90,7 +90,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Lob](servers/lob/) | direct-mail | 22 | API token | [servers/lob/](servers/lob/) |
 | [Loops](servers/loops/) | email | 14 | API token | [servers/loops/](servers/loops/) |
 | [MagicBell](servers/magicbell/) | notifications | 17 | API token | [servers/magicbell/](servers/magicbell/) |
-| [Mailchimp](servers/mailchimp/) | email | 32 | API token | [servers/mailchimp/](servers/mailchimp/) |
+| [Mailchimp](servers/mailchimp/) | email | 36 | API token | [servers/mailchimp/](servers/mailchimp/) |
 | [MailerLite](servers/mailerlite/) | email | 17 | API token | [servers/mailerlite/](servers/mailerlite/) |
 | [MapTiler](servers/maptiler/) | maps | 12 | API token | [servers/maptiler/](servers/maptiler/) |
 | [MaxMind minFraud](servers/maxmind-minfraud/) | fraud-detection | 8 | API token | [servers/maxmind-minfraud/](servers/maxmind-minfraud/) |
@@ -122,7 +122,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Plausible](servers/plausible-analytics/) | analytics | 12 | API token | [servers/plausible-analytics/](servers/plausible-analytics/) |
 | [Polar](servers/polar-sh/) | billing | 30 | API token | [servers/polar-sh/](servers/polar-sh/) |
 | [Portkey](servers/portkey/) | ai-infra | 20 | API token | [servers/portkey/](servers/portkey/) |
-| [Printify](servers/printify/) | ecommerce | 27 | API token | [servers/printify/](servers/printify/) |
+| [Printify](servers/printify/) | ecommerce | 29 | API token | [servers/printify/](servers/printify/) |
 | [Quaderno](servers/quaderno/) | tax | 27 | API token | [servers/quaderno/](servers/quaderno/) |
 | [Raisely](servers/raisely/) | fundraising | 27 | API token | [servers/raisely/](servers/raisely/) |
 | [Re:amaze](servers/re-amaze/) | support | 21 | API token | [servers/re-amaze/](servers/re-amaze/) |
@@ -172,7 +172,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Invoice Ninja](servers/invoice-ninja/) | billing | 28 | API token | [servers/invoice-ninja/](servers/invoice-ninja/) |
 | [Atera](servers/atera/) | support | 24 | API token | [servers/atera/](servers/atera/) |
 | [Beds24](servers/beds24/) | productivity | 22 | API token | [servers/beds24/](servers/beds24/) |
-| [Booqable](servers/booqable/) | ecommerce | 25 | API token | [servers/booqable/](servers/booqable/) |
+| [Booqable](servers/booqable/) | ecommerce | 28 | API token | [servers/booqable/](servers/booqable/) |
 | [Boulevard](servers/boulevard/) | productivity | 25 | API token | [servers/boulevard/](servers/boulevard/) |
 | [bunny.net](servers/bunny-net/) | dev-infra | 26 | API token | [servers/bunny-net/](servers/bunny-net/) |
 | [Civo](servers/civo/) | cloud | 26 | API token | [servers/civo/](servers/civo/) |
@@ -439,7 +439,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [PaySpace](servers/payspace/) | billing | 25 | API token | [servers/payspace/](servers/payspace/) |
 | [Sapo](servers/sapo/) | ecommerce | 24 | API token | [servers/sapo/](servers/sapo/) |
 | [Sarbacane](servers/sarbacane/) | email | 23 | API token | [servers/sarbacane/](servers/sarbacane/) |
-| [Sellsy](servers/sellsy/) | crm | 55 | API token | [servers/sellsy/](servers/sellsy/) |
+| [Sellsy](servers/sellsy/) | crm | 57 | API token | [servers/sellsy/](servers/sellsy/) |
 | [smallinvoice](servers/smallinvoice/) | billing | 31 | API token | [servers/smallinvoice/](servers/smallinvoice/) |
 | [Smaregi](servers/smaregi/) | ecommerce | 24 | API token | [servers/smaregi/](servers/smaregi/) |
 | [Street.co.uk](servers/street-co-uk/) | real-estate | 58 | API token | [servers/street-co-uk/](servers/street-co-uk/) |

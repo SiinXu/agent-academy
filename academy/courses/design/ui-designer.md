@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-18
-updated_at: 2026-11-18T03:44:34Z
+updated_at: 2026-11-18T18:51:53Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -94,11 +94,11 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1678 items
+- minimal: 1683 items
+- 3d: 653 items
 - motion: 651 items
-- 3d: 647 items
-- editorial: 594 items
-- playful: 569 items
+- editorial: 595 items
+- playful: 571 items
 - gradient: 290 items
 - retro: 117 items
 - dark-tech: 110 items
@@ -404,6 +404,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y excalidraw-mcp-server
   needs_credentials: false, writes_external: false
+- [mcp] IconSaga. Icons that match, in your colors. Your AI finds them for your website or slides, in 10 languages.
+  source: https://github.com/iconsaga/iconsaga
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-iconsaga-icons.md
+  license: MIT
+  install: remote (streamable-http): https://iconsaga.com/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Figma MCP Server. MCP server enabling AI assistants to interact with Figma designs via natural language commands
   source: https://github.com/oabolade/figma_mcp_server_actor
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-oabolade-figma-mcp-server-actor.md
@@ -416,12 +422,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y figma-vault
   needs_credentials: false, writes_external: false
-- [mcp] IconSaga. Icons that match, in your colors. Your AI finds them for your website or slides, in 10 languages.
-  source: https://github.com/iconsaga/iconsaga
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-iconsaga-icons.md
-  license: MIT
-  install: remote (streamable-http): https://iconsaga.com/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] io.github.compassalessandrolorenz/Figma-Context-MCP-AIR. Figma MCP server for AI agents. 9 tools: design context, variables, screenshots, and FigJam.
   source: https://github.com/compassalessandrolorenz/Figma-Context-MCP-AIR
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-compassalessandrolorenz-figma-context-mcp-air.md

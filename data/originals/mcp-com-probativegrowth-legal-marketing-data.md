@@ -6,8 +6,8 @@ Open, citable datasets on US law-firm marketing, maintained by [Probative Growth
 
 Each dataset names its sources, and each public-source record carries its source and the date checked. Each dataset has a DOI on Zenodo. Not legal advice: check the source and your own counsel before you rely on a rule.
 
-- **How much.** 96 datasets as plain CSV and JSON. The main CSV files hold 153,447 rows in all.
-- **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 96 main files falls between 2026-10-25 and 2026-11-13. The newest dataset version here was released on 2026-11-13.
+- **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,488 rows in all.
+- **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 97 main files falls between 2026-10-25 and 2026-11-18. The newest dataset version here was released on 2026-11-18.
 - **How to use it.** Free under CC BY 4.0. Credit "Probative Growth" and link the dataset page.
 
 ## Start here
@@ -23,7 +23,7 @@ def rows(name):
 
 | File | What it holds | Rows | Last checked at source | Example |
 |---|---|---|---|---|
-| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 433 | 2026-11-13 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
+| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 433 | 2026-11-18 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
 | [`data/limitations/limitations.csv`](data/limitations/limitations.csv) | The deadline to sue, by state and claim type, with the statute section | 225 | 2026-10-28 | `[(r['period'], r['statuteCite']) for r in rows('limitations') if r['jurisdiction']=='AK' and r['claimType']=='pi']` |
 | [`data/deserts/deserts.csv`](data/deserts/deserts.csv) | Law offices per 10,000 residents in every county; each state row counts its counties under 1 per 10,000 | 3,196 | 2026-10-28 | `sorted(((int(r['value']), r['areaName']) for r in rows('deserts') if r['areaType']=='state'), reverse=True)[:5]` |
 | [`data/fatal-crashes/fatal-crashes.csv`](data/fatal-crashes/fatal-crashes.csv) | Fatal crashes and deaths by county, with truck, motorcycle and pedestrian counts | 3,197 | 2026-10-27 | `sorted(((int(r['fatalities']), r['areaName']) for r in rows('fatal-crashes') if r['areaType']=='county' and r['fatalities']), reverse=True)[:5]` |
@@ -32,17 +32,17 @@ def rows(name):
 | [`data/eeoc-charges/eeoc-charges.csv`](data/eeoc-charges/eeoc-charges.csv) | Job discrimination charges by state and basis | 658 | 2026-10-27 | `{r['basisLabel']: int(r['value']) for r in rows('eeoc-charges') if r['jurisdiction']=='TX'}` |
 | [`data/civil-filings/civil-filings.csv`](data/civil-filings/civil-filings.csv) | Federal civil cases filed, by type of case and court district | 3,239 | 2026-10-27 | `sorted(((int(r['value']), r['districtName']) for r in rows('civil-filings') if r['category']=='all' and r['district']!='US' and r['value']), reverse=True)[:5]` |
 | [`data/legal-need/legal-need.csv`](data/legal-need/legal-need.csv) | People who may need a lawyer in each county: older adults, noncitizens, veterans, Spanish speakers | 3,196 | 2026-10-31 | `sorted(((float(r['spanish_lep_pct']), r['name']) for r in rows('legal-need') if r['level']=='county' and r['spanish_lep_pct']), reverse=True)[:5]` |
-| [`data/crosswalks/crosswalks.csv`](data/crosswalks/crosswalks.csv) | The join keys: practice areas, federal case codes, states, court districts and counties | 3,703 | 2026-11-13 | `[(r['code'], r['name']) for r in rows('crosswalks') if r['table']=='PRACTICE'][:5]` |
+| [`data/crosswalks/crosswalks.csv`](data/crosswalks/crosswalks.csv) | The join keys: practice areas, federal case codes, states, court districts and counties | 3,704 | 2026-11-18 | `[(r['code'], r['name']) for r in rows('crosswalks') if r['table']=='PRACTICE'][:5]` |
 
 Each folder also has a `starter.ipynb` notebook that loads the data and works through example questions (on Kaggle, import it from its GitHub link), and a `README.txt` that explains every column.
 
-## All 96 datasets
+## All 97 datasets
 
 "Refresh" is how often the source is re-read. "Last checked at source" is the newest `lastChecked` date in the file.
 
 | Dataset (page) | Folder | Rows | Refresh | Last checked at source | Version | DOI |
 |---|---|---|---|---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 433 | when the source publishes | 2026-11-13 | 1.5.0 | [10.5281/zenodo.23958753](https://doi.org/10.5281/zenodo.23958753) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 433 | when the source publishes | 2026-11-18 | 1.5.0 | [10.5281/zenodo.23958753](https://doi.org/10.5281/zenodo.23958753) |
 | [Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)](https://probativegrowth.com/data/ad-costs/) | [`data/ad-costs/`](data/ad-costs/) | 2,725 | yearly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23851278](https://doi.org/10.5281/zenodo.23851278) |
 | [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | [`data/attorneys/`](data/attorneys/) | 312 | quarterly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23962861](https://doi.org/10.5281/zenodo.23962861) |
 | [Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026](https://probativegrowth.com/data/aviation-accidents/) | [`data/aviation-accidents/`](data/aviation-accidents/) | 985 | monthly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116037](https://doi.org/10.5281/zenodo.24116037) |
@@ -62,7 +62,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 | [Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court](https://probativegrowth.com/data/court-fees/) | [`data/court-fees/`](data/court-fees/) | 51 | quarterly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23792752](https://doi.org/10.5281/zenodo.23792752) |
 | [Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)](https://probativegrowth.com/data/crime-data/) | [`data/crime-data/`](data/crime-data/) | 3,078 | quarterly | 2026-10-28 | 2.1.0 | [10.5281/zenodo.24011321](https://doi.org/10.5281/zenodo.24011321) |
 | [Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)](https://probativegrowth.com/data/criminal-filings/) | [`data/criminal-filings/`](data/criminal-filings/) | 2,023 | quarterly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23963315](https://doi.org/10.5281/zenodo.23963315) |
-| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | [`data/crosswalks/`](data/crosswalks/) | 3,703 | yearly | 2026-11-13 | 2.3.0 | [10.5281/zenodo.24181503](https://doi.org/10.5281/zenodo.24181503) |
+| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | [`data/crosswalks/`](data/crosswalks/) | 3,704 | yearly | 2026-11-18 | 2.4.0 | [10.5281/zenodo.24326296](https://doi.org/10.5281/zenodo.24326296) |
 | [Demand per law office, by state: residents, bankruptcy cases, fatal crashes, divorces, Spanish speakers and evictions for each law office](https://probativegrowth.com/data/demand-per-law-office/) | [`data/demand-per-law-office/`](data/demand-per-law-office/) | 334 | quarterly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23851281](https://doi.org/10.5281/zenodo.23851281) |
 | [Legal deserts: law offices and lawyers per resident in every U.S. county](https://probativegrowth.com/research/legal-deserts/) | [`data/deserts/`](data/deserts/) | 3,196 | quarterly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23963393](https://doi.org/10.5281/zenodo.23963393) |
 | [Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA)](https://probativegrowth.com/data/device-events/) | [`data/device-events/`](data/device-events/) | 2,079 | monthly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23963431](https://doi.org/10.5281/zenodo.23963431) |
@@ -74,6 +74,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 | [Fair housing complaints by county and basis: Fair Housing Act cases filed with HUD, 2006 to June 2020](https://probativegrowth.com/data/fair-housing/) | [`data/fair-housing/`](data/fair-housing/) | 2,790 | when the source publishes | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23963466](https://doi.org/10.5281/zenodo.23963466) |
 | [Fatal crashes by county and type: trucks, motorcycles, pedestrians and bicyclists, NHTSA FARS 2019 to 2024](https://probativegrowth.com/research/fatal-crashes-by-county/) | [`data/fatal-crashes/`](data/fatal-crashes/) | 3,197 | yearly | 2026-10-27 | 2.0.0 | [10.5281/zenodo.23963480](https://doi.org/10.5281/zenodo.23963480) |
 | [Federal civil cases filed, by county of the plaintiff's residence, case type and year (Federal Judicial Center)](https://probativegrowth.com/data/federal-filings-county/) | [`data/federal-filings-county/`](data/federal-filings-county/) | 3,559 | quarterly | 2026-10-28 | 2.0.1 | [10.5281/zenodo.24024299](https://doi.org/10.5281/zenodo.24024299) |
+| [Federal marketing rules and penalty amounts for law firms: FTC, FCC, CAN-SPAM and TCPA](https://probativegrowth.com/data/federal-marketing-rules/) | [`data/federal-marketing-rules/`](data/federal-marketing-rules/) | 40 | when the source publishes | 2026-11-12 | 1.0.0 | [10.5281/zenodo.24183838](https://doi.org/10.5281/zenodo.24183838) |
 | [Federal sentencing by district and offense: individuals sentenced, prison rates and sentence lengths, fiscal years 2021 to 2025](https://probativegrowth.com/data/federal-sentencing/) | [`data/federal-sentencing/`](data/federal-sentencing/) | 793 | yearly | 2026-11-04 | 1.0.1 | [10.5281/zenodo.24022955](https://doi.org/10.5281/zenodo.24022955) |
 | [Attorney fee caps and contingency-fee rules, by state and federal program](https://probativegrowth.com/research/attorney-fee-caps-by-state/) | [`data/fees/`](data/fees/) | 79 | when the source publishes | 2026-10-28 | 3.0.1 | [10.5281/zenodo.23969434](https://doi.org/10.5281/zenodo.23969434) |
 | [What US state bars charge, and require, to file or review lawyer advertising](https://probativegrowth.com/research/lawyer-ad-filing-fees/) | [`data/filing/`](data/filing/) | 51 | when the source publishes | 2026-11-11 | 3.1.0 | [10.5281/zenodo.24184382](https://doi.org/10.5281/zenodo.24184382) |
@@ -211,6 +212,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/fair-housing`: HUD fair housing cases filed 2006 to June 2020 by state, county and basis (race, disability, familial status and more).
 - `https://probativegrowth.com/mcp/fatal-crashes`: NHTSA fatal crashes by county since 2019: trucks, motorcycles, pedestrians and bicyclists.
 - `https://probativegrowth.com/mcp/federal-filings-county`: Federal civil cases filed by plaintiff county, state, district and case type, ten years, with out-of-state totals.
+- `https://probativegrowth.com/mcp/federal-marketing-rules`: Federal marketing rules for law firms: FTC review, endorsement, telemarketing and CAN-SPAM rules, TCPA, penalty amounts, quoted.
 - `https://probativegrowth.com/mcp/federal-sentencing`: U.S. Sentencing Commission counts, prison rates and sentence lengths by federal district and offense type, fiscal years 2021 to 2025.
 - `https://probativegrowth.com/mcp/fees`: Attorney fee caps and contingency-fee limits by state and federal program, plus a fee-cap calculator.
 - `https://probativegrowth.com/mcp/filing`: What each state bar charges and requires to file or review lawyer ads.

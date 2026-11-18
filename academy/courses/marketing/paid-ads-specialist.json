@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-11-18T03:44:34Z",
+ "updated_at": "2026-11-18T18:51:53Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1049,12 +1049,12 @@
      "install": "npx skills add coreyhaines31/marketingskills --skill ad-creative",
      "security": {
       "audited": false,
-      "executes_code": true,
+      "executes_code": false,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61066,
+      "repo_stars": 61203,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -1099,7 +1099,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61066,
+      "repo_stars": 61203,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -1144,7 +1144,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61066,
+      "repo_stars": 61203,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -1189,8 +1189,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1234,7 +1234,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26639,
+      "repo_stars": 26649,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1788,7 +1788,7 @@
          "id": "@cesteral/tiktok-mcp",
          "transport": "stdio",
          "type": "npm",
-         "version": "1.3.0"
+         "version": "2.0.0"
         }
        ],
        "remotes": [
@@ -1800,7 +1800,7 @@
        ],
        "repository": "https://github.com/cesteral/mcp-open-advertising",
        "title": "TikTok Ads MCP Server",
-       "version": "1.3.0",
+       "version": "2.0.0",
        "website": null
       }
      },
@@ -1814,18 +1814,85 @@
      },
      "metrics": {
       "repo_stars": 8,
-      "repo_pushed_at": "2026-11-17",
-      "registry_updated_at": "2026-06-10"
+      "repo_pushed_at": "2026-11-18",
+      "registry_updated_at": "2026-11-18"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-23T00:43:09Z",
-     "updated_at": "2026-11-17T04:33:55Z",
+     "updated_at": "2026-11-18T18:51:53Z",
      "checked_at": "2026-11-17T04:33:55Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-cesteral-tiktok-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
+     "title": "Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1)",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/brajendrak00068/agentic-ai-video-production",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast.md",
+     "upstream_raw_url": null,
+     "repo": "brajendrak00068/agentic-ai-video-production",
+     "author": "ai.livecore",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/brajendrak00068/agentic-ai-video-production/blob/HEAD/README.md",
+      "record": {
+       "description": "Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.",
+       "name": "ai.livecore/ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://api.livecore.ai/api/v1/misc/mcp"
+        }
+       ],
+       "repository": "https://github.com/brajendrak00068/agentic-ai-video-production",
+       "title": "Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1)",
+       "version": "0.7.0",
+       "website": "https://livecore.ai"
+      }
+     },
+     "install": "remote (streamable-http): https://api.livecore.ai/api/v1/misc/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "Authorization"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 5,
+      "repo_pushed_at": "2026-11-18",
+      "registry_updated_at": "2026-11-18"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-18T18:51:53Z",
+     "updated_at": "2026-11-18T18:51:53Z",
+     "checked_at": "2026-11-18T18:51:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast/",
      "source": "mcp-registry"
     },
     {
@@ -2671,80 +2738,6 @@
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-mrocker-tiktok-profile-stats/",
      "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-cc-ssave-tiktok-instagram-downloader",
-     "title": "ssave.cc — TikTok & Instagram Downloader",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export",
-     "summary_lang": "en",
-     "source_url": "https://github.com/ssavecc/ssave-mcp-server",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-cc-ssave-tiktok-instagram-downloader.md",
-     "upstream_raw_url": null,
-     "repo": "ssavecc/ssave-mcp-server",
-     "author": "cc.ssave",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/ssavecc/ssave-mcp-server/blob/HEAD/README.md",
-      "record": {
-       "description": "Extract & download TikTok, Instagram, YouTube, Douyin media — HD, no watermark, MP3 export",
-       "name": "cc.ssave/tiktok-instagram-downloader",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Your API key for the service",
-           "name": "YOUR_API_KEY",
-           "required": true,
-           "secret": true
-          }
-         ],
-         "id": "@ssavecc/mcp-server",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "0.1.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/ssavecc/ssave-mcp-server",
-       "title": "ssave.cc — TikTok & Instagram Downloader",
-       "version": "0.1.1",
-       "website": null
-      }
-     },
-     "install": "npx -y @ssavecc/mcp-server",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "YOUR_API_KEY"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-08-31",
-      "registry_updated_at": "2026-08-22"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-23T00:43:09Z",
-     "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-17T04:33:55Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-cc-ssave-tiktok-instagram-downloader/",
-     "source": "mcp-registry"
     }
    ]
   },
@@ -2872,7 +2865,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61066,
+      "repo_stars": 61203,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -2917,7 +2910,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61066,
+      "repo_stars": 61203,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -2962,7 +2955,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61066,
+      "repo_stars": 61203,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -3007,8 +3000,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3052,8 +3045,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3097,8 +3090,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",

@@ -2,7 +2,7 @@
  "id": "customer-service/support-agent",
  "industry": "customer-service",
  "role": "support-agent",
- "updated_at": "2026-11-18T03:44:34Z",
+ "updated_at": "2026-11-18T18:51:53Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -1362,8 +1362,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1682,8 +1682,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144975,
-      "repo_pushed_at": "2026-11-15"
+      "repo_stars": 145018,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1727,7 +1727,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 30746,
+      "repo_stars": 30752,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
@@ -1938,7 +1938,7 @@
      },
      "metrics": {
       "repo_stars": 82,
-      "repo_pushed_at": "2026-11-16",
+      "repo_pushed_at": "2026-11-18",
       "registry_updated_at": "2026-11-14"
      },
      "course_step": "4-do-it",
@@ -2506,13 +2506,13 @@
          "id": "shopify-store-sync-mcp",
          "transport": "stdio",
          "type": "npm",
-         "version": "0.11.4"
+         "version": "0.11.8"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/ussefidder/shopify-store-sync-mcp",
        "title": "Shopify Store Sync",
-       "version": "0.11.4",
+       "version": "0.11.8",
        "website": "https://github.com/ussefidder/shopify-store-sync-mcp#readme"
       }
      },
@@ -2529,13 +2529,13 @@
      },
      "metrics": {
       "repo_stars": 6,
-      "repo_pushed_at": "2026-11-17",
-      "registry_updated_at": "2026-11-17"
+      "repo_pushed_at": "2026-11-18",
+      "registry_updated_at": "2026-11-18"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-11-15T17:11:40Z",
-     "updated_at": "2026-11-17T04:33:55Z",
+     "updated_at": "2026-11-18T18:51:53Z",
      "checked_at": "2026-11-17T04:33:55Z",
      "http_status": {
       "source": 200

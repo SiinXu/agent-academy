@@ -1,0 +1,489 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brajendrak00068/agentic-ai-video-production/main/assets/logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brajendrak00068/agentic-ai-video-production/main/assets/logo-light.png">
+    <img alt="Levea AI Video Editor" src="https://raw.githubusercontent.com/brajendrak00068/agentic-ai-video-production/main/assets/logo-dark.png" width="340" />
+  </picture>
+</p>
+
+# Levea — Prompt-First AI Video Editor (MCP Server & Cloud Production Harness)
+
+> **Prompt-to-video editing without manual timelines.** Describe the edit in plain language; Levea plans it, edits a real multi-layer project, checks the result on the rendered frames, and exports the MP4. An **open-source MCP client** connects your AI agent (Claude Desktop, Claude Code, Cursor, Cline, Gemini CLI, OpenClaw, Hermes, ChatGPT) to our **cloud GPU production harness**: frame-accurate cuts, 280+ caption templates, 2D and 3D motion graphics reviewed by an AI critic, a licensed music and sound-effects library, voiceovers, and active-speaker reframing, with nothing heavy running on your machine.
+
+[![npm](https://img.shields.io/npm/v/levea-mcp-server?label=npm%20levea-mcp-server)](https://www.npmjs.com/package/levea-mcp-server)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-levea--mcp--server-orange)](https://registry.modelcontextprotocol.io/v0/servers?search=levea-mcp-server)
+[![ClawHub Plugin](https://img.shields.io/badge/ClawHub-Plugin-blue)](https://clawhub.ai/plugins/openclaw-ai-video-editor)
+[![ClawHub Skill](https://img.shields.io/badge/ClawHub-Skill-orange)](https://clawhub.ai/brajendrak00068/skills/levea-ai-video-editor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+
+<p align="left">
+  <a href="https://www.claudeai.directory/launches/levea" target="_blank" rel="noopener">
+    <img src="https://www.claudeai.directory/badge/levea?theme=dark" alt="Levea - Listed on Claude AI Directory" width="220" height="54" />
+  </a>
+</p>
+
+---
+
+## 🚀 30-Second Quick Connect (Claude · ChatGPT · Claude Code · Cursor · OpenClaw · Hermes)
+
+| Where You Work | How to Connect Levea (Copy & Paste) |
+| :--- | :--- |
+| **Claude.ai (Web / Desktop / Mobile)** | **Settings → Connectors → Add custom connector** → Paste **`https://api.livecore.ai/api/v1/misc/mcp`** → Sign in with OAuth 2.1 (zero install). |
+| **ChatGPT (Web / Desktop Connectors)** | **Settings → Connectors → Create** → MCP Server URL: **`https://api.livecore.ai/api/v1/misc/mcp`** (OAuth 2.1 + PKCE automatic). Or use [`chatgpt/openapi.yaml`](./chatgpt/openapi.yaml) for Custom GPT Actions. |
+| **Claude Code (CLI / IDE)** | Run `/plugin marketplace add brajendrak00068/agentic-ai-video-production` then `/plugin install levea-video-editor` (or `claude mcp add --transport http levea https://api.livecore.ai/api/v1/misc/mcp`). |
+| **Claude Desktop (1-Click `.mcpb`)** | Download [`levea-mcp-server-0.7.0.mcpb`](https://github.com/brajendrak00068/agentic-ai-video-production/releases/latest/download/levea-mcp-server-0.7.0.mcpb) and double-click to install in Claude Desktop. |
+| **Cursor / Windsurf / Cline** | Add remote MCP **`https://api.livecore.ai/api/v1/misc/mcp`** (OAuth 2.1) or stdio `npx -y levea-mcp-server` with `LEVEA_API_KEY` from [livecore.ai](https://livecore.ai/?openclaw=1). |
+| **OpenClaw / ClawHub** | `openclaw plugins install clawhub:openclaw-ai-video-editor` + `clawhub install levea-ai-video-editor` |
+| **NousResearch Hermes** | `hermes plugins install levea-video-editor && hermes plugins enable levea-video-editor` |
+| **Agent Skills CLI (`npx skills`)** | `npx skills add brajendrak00068/agentic-ai-video-production` |
+
+### Why Use Levea Inside Claude Code / Cursor Instead of Local `ffmpeg`, Python, or Standalone HyperFrames / Remotion?
+
+In Claude Code, an agent can run local `ffmpeg` scripts or render standalone HTML/CSS animations with **HyperFrames / Remotion**. Here is the honest technical difference — and why **Levea is a superset** (Levea actually runs HyperFrames *inside* its cloud GPU NLE timeline alongside real computer vision and Vulkan/WebGPU video compositing):
+
+| Capability | Raw `ffmpeg` / MoviePy (Local CLI) | Standalone HyperFrames / Remotion (Local HTML/DOM Capture) | **Levea MCP (`livecore.ai` Cloud GPU NLE + HyperFrames)** |
+| :--- | :--- | :--- | :--- |
+| **Best For** | Simple container remuxing or fixed-coordinate trims | Standalone code-driven motion graphics, HTML decks & website promos | **Real footage NLE editing + motion graphics + podcasts + viral shorts + VFX** |
+| **9:16 Active-Speaker Reframe** | ❌ Crops dead-center (`crop=ih*9/16:ih`), slicing speakers' faces in half | ❌ DOM/CSS has no per-frame face or mouth landmark detector | ✅ **68-point face & active-mouth tracking** per frame + auto 2-up split-screen |
+| **3D Camera Tracking, Hand Tracking & Rotoscoping** | ❌ None | ❌ Browser DOM cannot solve 3D camera motion or track hands/masks on video | ✅ **Monocular 3D camera solve (`scene_anchor_3d`)**, hand palm tracking, 2D region tracker, optical-flow warp stabilizer & AI alpha mattes |
+| **Green Screen & GPU VFX Compositing** | ❌ Basic `chromakey` leaves green halos; no 3D LUT/bokeh pipeline | ❌ Headless Chrome captures DOM screenshots; no native video shader pipeline | ✅ **Rust Vulkan + WebGPU compositor**: Keylight despilled keying, depth bokeh (`camera_lens_blur`), 328 GPU VFX shaders, 170+ transitions, `.cube` 3D LUTs |
+| **Kinetic Captions (280+ Templates)** | ❌ Flat static `.srt` / `drawtext` that collides with faces | ⚠️ Must hand-code CSS per video; no automatic face/chin collision solver | ✅ **280+ GPU kinetic templates** (`hormozi`, `mrbeast`, `karaoke`) + measured **face/chin & TikTok safe-zone solver** |
+| **Multicam Podcast & Broadcast Audio** | ❌ `silencedetect` clips word tails; no multicam speaker switching | ❌ Not an audio/multicam NLE; `<video>` tags in headless Chrome desync on long multi-track cuts | ✅ **Waveform multicam sync**, ASR word-boundary cuts, filler removal, `-18 LUFS` auto-ducking, stem separation & lip-synced dubbing |
+| **Motion Graphics (HyperFrames)** | ❌ None | ✅ Full HTML/CSS/GSAP/Three.js compositions | ✅ **Included natively (`PLAN_MOTION_GRAPHICS`)** — plus After Effects shape layers (Trim Paths, Repeaters), composited *over* real tracked footage |
+| **Human Final Polish (`<100ms` GUI)** | ❌ Must re-run 5-min `ffmpeg` command to nudge one word | ❌ Must edit HTML/CSS code and re-render headless Chrome frames | ✅ **1-Click `livecore.ai` WebGPU Studio**: scrub at 60fps, drag captions, or swap templates in **`<100ms`** without re-rendering |
+| **Where It Runs** | Laptop only (CPU-heavy) | Laptop only (requires Node, Chromium, `ffmpeg`, GBs of local disk) | **Everywhere**: Claude.ai Web/Mobile, ChatGPT, Claude Code, Cursor, Grok Bot, OpenClaw, Hermes (100% cloud GPU) |
+
+---
+
+## 🧭 How Levea Routes Your Request
+
+Every request is first classified into **one production type**, from your prompt *and* your footage (is there speech? faces? one long recording or many short clips?). Each production type maps to exactly **one production pipeline**, and the pipeline decides which editing craft (director skills) the planner works with. The planner can still load extra skills while it reviews your footage.
+
+| You ask for… (example) | Production type | Pipeline | What it does |
+|---|---|---|---|
+| "Make a reel showing off our new studio / store / product" (footage with no speaker) | `showcase_montage` | `visual_showcase_montage` | Music-driven reveal montage where the footage is the hero: best moments per clip, uneven shots cut to the music, designed transitions, no text over the subject unless you ask |
+| "Clean up this talking-head video, cut the ums and silences" | `talking_head_cleanup` | `talking_head_cleanup` | Dialogue cleanup, pacing, captions and finishing |
+| "Turn this podcast episode into clips" (needs speech) | `podcast_clips` | `podcast_repurposing` | Podcast cleanup and social clip repurposing |
+| "Edit this two-camera interview" | `multicam_interview` | `multicam_interview` | Multi-camera sync and active-speaker editing |
+| "Add a teaser hook at the start of this episode" | `cold_open` | `cold_open_production` | Cold-open / teaser-hook assembly |
+| "Make a 30 s vertical short with captions" | `social_short` | `social_short_generation` | Vertical, captioned social short |
+| "Add motion graphics that explain what I'm saying" | `motion_graphics_overlay` | `motion_graphics_enhancement` | Transcript-grounded motion graphics over your footage |
+| "Make a 20 s animated explainer / title sequence" | `motion_graphics_film` | `motion_graphics_film` | A standalone motion-graphics film |
+| "Create a product demo video for this app / site" | `product_demo` | `product_demo` | Product demo with generated assets and motion design |
+| "Make a documentary-style montage from this archive" | `documentary_montage` | `documentary_montage` | Evidence-grounded documentary montage |
+| "Dub this video into Hindi" | `localization_dub` | `localization_dubbing` | Localized voice, captions and timing checks |
+| "Grade, mix and deliver this final cut" | `final_finishing` | `final_finishing_delivery` | Final grade, mix, verification and delivery |
+| "Assemble a rough cut from this footage" | `rough_cut` | `rough_cut` | Transcript-aware structural rough cut |
+
+**Good to know**
+- **Your footage counts, not just your words.** "Launch reel for our new *podcast* studio" over silent clips of an empty set is a **showcase**, not podcast clipping, because a podcast pipeline needs speech.
+- **Links in your prompt get a role.** A URL is classified as footage to import, a style reference, **your brand's site (used for palette and tone, not shown on screen unless you ask)** or a website to show.
+- **Want a specific pipeline?** Say so in plain words ("treat this as a documentary montage"); the classifier reads it.
+
+---
+
+## ⚡ The Levea Philosophy: Prompt-to-Project
+
+Unlike traditional one-shot AI video generators that output locked, un-editable pixels, Levea maintains a fully structured, multi-layer **project and timeline (Scene IR)** containing assets, text, masks, audio, and brand kits. 
+
+- **Frontier LLMs for Planning:** We use probabilistic Frontier LLMs solely for planning, semantic analysis, and parameter parsing.
+- **Cloud-Accelerated Production Harness:** Heavy computation (Vulkan rendering, GPU transcription, active-speaker face tracking, and HyperFrames motion graphics) executes on our remote cloud GPU cluster. You get 4K and vertical reel exports without melting your local laptop CPU or installing CUDA.
+- **Open-Source Client, Hosted Engine:** The client-side MCP server wrapper (`levea-mcp-server`), OpenClaw plugins, and skills are open-source (MIT). They connect to our hosted video production engine with OAuth sign-in or an API key. Create a free account and API key at [livecore.ai](https://livecore.ai/).
+
+---
+
+## 🏗️ Platform Architecture
+
+Levea separates probabilistic creative reasoning from deterministic project execution, and supports **two complementary execution modes** over the exact same **189+ canonical actions**, **13 read/inspection tools**, and **cloud GPU compositor**:
+
+- **Mode A — Goal Delegation (`autonomous_edit`):** Send a natural-language brief; Levea's internal **Closed-Loop Multimodal ReAct Agent** inspects the footage, plans and executes canonical actions iteratively, checks GPU-rendered frames, repairs any issue, and exports.
+- **Mode B — Direct Tool Control (`search_tools` → `execute_action` / `execute_batch` → `render_preview` → `EXPORT_VIDEO`):** External agents with their own harness (Claude Code, Cursor, OpenCode, Cline, Hermes) can bypass `autonomous_edit` completely, discover any of the 189+ canonical actions on demand, execute single steps or atomic batches, inspect real GPU-composited JPEG screenshots via `render_preview` (just like `ffmpeg` frame grabs), and export.
+
+```text
+         Creative Intent + Source Media (video links, transcript, references)
+                                   │
+                    ┌──────────────┴──────────────┐
+                    ▼                             ▼
+     MODE A: Goal Delegation          MODE B: Direct Tool Control
+   (`autonomous_edit` / `queue_edit`) (`search_tools` / `execute_action`
+                    │                  / `execute_batch` / `render_preview`)
+                    ▼                             │
+   Closed-Loop Multimodal ReAct Agent             │
+   (Inspect ──▶ Act ──▶ Observe ──▶               │
+    Checklist Gate ──▶ Visual QA)                 │
+                    │                             │
+                    └──────────────┬──────────────┘
+                                   ▼
+       Universal Canonical Execution Spine (189+ Actions & 13 Read Tools)
+       (Parameter Normalization + Async Job Auto-Harvest + PowerRegistry)
+                                   │
+                                   ▼
+       Execution Harness ── typed, audited operations ──▶ Scene IR
+       │                                                (timeline, tracks, layers;
+       │                                                 every revision saved)
+       ├── Perception: transcript, faces, active speaker, shot cuts, on-screen text, hand pose, lip-sync scoring
+       ├── Editing: cuts, ripple, slip/slide, reframe, multicam, speed ramps
+       ├── Captions: 280+ templates, word-level sync, Latin/Indic/Arabic/Cyrillic/Greek
+       ├── Audio: licensed music + SFX library, sound design, EBU R128, ducking, voiceover, DJ mixes
+       ├── Motion graphics (HyperFrames): 2D motion design, 3D extruded titles, 3D character films, charts
+       ├── Generation jobs: images, B-roll video, music, voice (auto-harvested onto timeline)
+       └── Rendering (Vulkan / WebGPU): 170+ transitions, 328 procedural VFX, Keylight keying, camera lens blur, Trim Paths & Repeaters
+                                   │
+                                   ▼
+       Automatic NLE Finishing & Visual Screenshot Inspection (`render_preview`)
+       (SAFE_ZONE_REPAIR + FinalTimelineReconciler + Layout De-Stacking + GPU JPEG Frames)
+                                   │
+                                   ▼
+       Editable Scene + verification report ──▶ MP4 / multi-platform export
+```
+
+### How the clients connect
+
+Every Levea client reaches the same editor on the Levea backend. The agent clients are thin wrappers over one HTTP API, with the same edit fields (one shared [edit contract](./contract/edit-contract.json)); the web studio and the Telegram bot have their own routes into the same editor. Pick whichever fits your tools:
+
+```text
+               Levea editor (one edit pipeline, same result everywhere)
+                                           ▲
+               ┌───────────────────────────┼─────────────────────────┐
+               │                           │                         │
+           Levea API               Web studio route           Telegram route
+  /api/v1/misc/openclaw/v1/*    /api/v1/misc/editor/*    /api/v1/misc/telegram/*
+  (execute, queue-edit, jobs,              ▲                         ▲
+   task-status, projects, assets, …)       │                         │
+               ▲                   Levea web studio            Telegram bot
+               │                    (livecore.ai)          (@Levea_editing_bot)
+          ┌────┴───────────┬────────────────┬────────────────┐
+          │                │                │                │
+  levea-mcp-server  OpenClaw plugin   Hermes plugin   ChatGPT action
+  (npm, stdio MCP)     (ClawHub)        (Python)         (OpenAPI)
+          ▲
+  Hosted MCP: /api/v1/misc/mcp
+  (the same server, run by Levea; OAuth sign-in or API key)
+          ▲
+  Claude Code plugin · Claude connector · ChatGPT app · Cursor plugin ·
+  Gemini CLI extension · Grok Bot · Mistral · any remote-MCP client
+```
+
+All paths start with `https://api.livecore.ai`.
+
+- **MCP clients** (Claude Desktop, Cursor, Cline, Windsurf) run `levea-mcp-server` locally with an API key, or connect to the **hosted MCP** URL with no install.
+- **Cursor plugin** (`.cursor-plugin` marketplace) and **Gemini CLI extension** (`gemini-extension.json`) install from this repo and ride the **hosted MCP** server — nothing to run locally. **Grok Bot** (add the hosted MCP by URL: `https://api.livecore.ai/api/v1/misc/mcp`) and **Mistral** (Le Chat connectors) reach it the same way.
+- **OpenClaw**, **Hermes**, and the **ChatGPT action** call the API directly.
+- **Telegram:** message [@Levea_editing_bot](https://telegram.me/Levea_editing_bot) to edit from your phone. Link it to your Levea account from the sign-in page ("Try on Telegram").
+- **Skills** (ClawHub, the Claude Code plugin) are instructions for the agent; they do not run code.
+
+**Directory — every box in the map above, linked:**
+
+| Map option | Where it takes you |
+|---|---|
+| Web studio | [livecore.ai](https://livecore.ai/?openclaw=1&utm_source=github&utm_medium=readme&utm_campaign=agentic-ai-video-production) |
+| Telegram bot | [@Levea_editing_bot](https://telegram.me/Levea_editing_bot) |
+| Levea API (`/api/v1/misc/openclaw/v1/*`) | [API reference](./mcp-server/README.md#api-reference) |
+| levea-mcp-server | [npm](https://www.npmjs.com/package/levea-mcp-server) · [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=levea-mcp-server) |
+| OpenClaw plugin | [ClawHub](https://clawhub.ai/plugins/openclaw-ai-video-editor) |
+| Hermes plugin | [`hermes-plugin/`](./hermes-plugin) (Python) · [`hermes-levea/`](./hermes-levea) (MCP bundle) |
+| ChatGPT action | [`chatgpt/`](./chatgpt) (OpenAPI spec + GPT instructions) |
+| Claude Code plugin | [`claude-plugin/`](./claude-plugin) — install: `/plugin install levea-video-editor --marketplace brajendrak00068/agentic-ai-video-production` |
+| Claude connector | [Hosted MCP URL](https://api.livecore.ai/api/v1/misc/mcp) — add as a custom connector (any plan); directory listing in preparation |
+| ChatGPT app | [Hosted MCP URL](https://api.livecore.ai/api/v1/misc/mcp) — directory submission in preparation ([`chatgpt-plugin/`](./chatgpt-plugin)) |
+| Cursor plugin | [`.cursor-plugin/marketplace.json`](./.cursor-plugin/marketplace.json) — add this repo as a plugin marketplace in Cursor |
+| Gemini CLI extension | [`gemini-extension.json`](./gemini-extension.json) — `gemini extensions install https://github.com/brajendrak00068/agentic-ai-video-production` |
+| Grok Bot | [Hosted MCP URL](https://api.livecore.ai/api/v1/misc/mcp) — see [Use inside Grok Bot](#-use-inside-grok-bot) |
+| Mistral | [Hosted MCP URL](https://api.livecore.ai/api/v1/misc/mcp) — add as a Le Chat connector |
+| Any remote-MCP client | [Hosted MCP URL](https://api.livecore.ai/api/v1/misc/mcp) — OAuth 2.1 sign-in or `Authorization: Bearer <key>` |
+
+### 1. Closed-Loop Multimodal ReAct Agent (Mode A) & Direct Tool Control (Mode B)
+When called via `autonomous_edit`, Levea matches the request to a production pipeline (short-form reel, podcast cut, documentary montage, motion-graphic film, …) and runs a **closed-loop multimodal ReAct agent**: it inspects the transcript, shots, and scene (`list_layers`, `query_transcript`, `search_shots`), executes typed canonical actions, observes the updated timeline state and GPU-rendered frames (`RENDER_PREVIEW`), tracks a master checklist, and iterates until every requirement is satisfied. Alternatively, external agents running their own harness can use `search_tools` → `get_action_schema` → `execute_action` / `execute_batch` → `render_preview` to drive the exact same 189+ canonical actions directly without invoking the internal planner.
+
+### 2. Universal Canonical Execution Spine & Scene IR
+Every action — whether chosen by our internal ReAct agent or called directly by an external agent via `execute_action` / `execute_batch` — passes through the same **Universal Canonical Execution Spine**: forgiving parameter normalization, synchronous auto-harvesting of async generators (`GENERATE_MUSIC`, `GENERATE_VOICEOVER`, `GENERATE_BROLL`, `PLAN_MOTION_GRAPHICS`), and automatic NLE finishing (`SAFE_ZONE_REPAIR`, `FinalTimelineReconciler`, and layout de-stacking). Tasks mutate the **Scene IR** (the serializable project: canvas, tracks, layers, transitions, effects, assets) only through typed, audited operations, so every edit is inspectable and repeatable.
+
+### 3. Execution Harness
+Typed operators run on the cloud GPU cluster: perception, editing, captions, audio, and rendering through native Vulkan (export) and browser WebGPU (preview) from one shared scene-preparation path. Motion graphics come from HyperFrames: editorial layouts, data charts, stat cards, diagrams, and short 3D character films with their own camera, lighting, music, and sound design. Every motion graphic is reviewed by an AI critic against a craft checklist and revised before it reaches the timeline.
+
+### 4. Versioning and Export
+All revisions are saved in a durable, linear undo/redo history backed by immutable scene payloads, preventing state corruption during multi-step iterations. Export is optional—Levea can return the updated editable scene, queue asset rendering, deliver an MP4, or bundle assets for multi-platform delivery.
+
+---
+
+## 🛠️ Dual-Path Quickstart (Get Started in 60 Seconds)
+
+Whether you are an AI developer looking to integrate automated editing into your agent loops, or a content creator building an automated faceless channel, Levea has a native path for you.
+
+### 🟣 Claude Code plugin (one command)
+
+Install Levea as a Claude Code plugin. It bundles the hosted Levea MCP server (OAuth sign-in, nothing to run locally) and a Levea editing skill:
+
+```
+/plugin install levea-video-editor --marketplace brajendrak00068/agentic-ai-video-production
+```
+
+Or from your shell:
+
+```bash
+claude plugin marketplace add brajendrak00068/agentic-ai-video-production
+claude plugin install levea-video-editor@levea
+```
+
+On first use, run `/mcp`, select **levea**, and sign in to your Levea account in the browser. Then describe the edit, for example: *"Cut a 30-second vertical clip from https://example.com/talk.mp4 with word-by-word captions and export an MP4."*
+
+### 🌐 Hosted MCP (no install)
+
+Any MCP client that supports remote servers can connect to the hosted endpoint directly:
+
+```
+https://api.livecore.ai/api/v1/misc/mcp
+```
+
+It speaks Streamable HTTP and signs you in with **OAuth 2.1** (the client opens a browser to your Levea account). Clients that cannot do OAuth can send `Authorization: Bearer <your Levea API key>` instead.
+
+Two hosts bundle this hosted server for one-step installs:
+
+- **Gemini CLI extension** — this repo is a Gemini extension ([`gemini-extension.json`](./gemini-extension.json)):
+  ```bash
+  gemini extensions install https://github.com/brajendrak00068/agentic-ai-video-production
+  ```
+- **Cursor plugin** — add this repo as a plugin marketplace in Cursor (it reads [`.cursor-plugin/marketplace.json`](./.cursor-plugin/marketplace.json)), then install `levea-video-editor`.
+
+### 🤖 Use inside Grok Bot
+
+Grok Bot can add an MCP server by URL, and the hosted server speaks the exact contract it expects (Streamable HTTP, OAuth 2.1 with RFC 7591 dynamic client registration). Tell your Bot:
+
+> **"Add the Levea MCP server: `https://api.livecore.ai/api/v1/misc/mcp`"**
+
+(or use **Connect apps → add an MCP server by URL**). A browser opens to sign in to your Levea account — then every Levea tool (`autonomous_edit`, `queue_edit`, job polling, caption templates, brand kits, projects, assets) is available to that Bot, and edits land in the same projects you see in the web studio. Clients that cannot do OAuth can use `Authorization: Bearer <your Levea API key>` instead.
+
+### 🧑‍💻 Path A: For Developers & AI Engineers (The MCP Route)
+
+Expose Levea as a client-side Model Context Protocol (MCP) server stdio wrapper (`levea-mcp-server`) in your favorite AI editors (Cursor, Cline, Windsurf, or Claude Desktop).
+
+#### 1. Get an API Key
+Sign up at [livecore.ai](https://livecore.ai/?openclaw=1&utm_source=github&utm_medium=readme&utm_campaign=agentic-ai-video-production) and generate a Levea API key.
+
+#### 2. Register the MCP Server
+Add the following configuration block to your editor's MCP settings:
+
+```jsonc
+{
+  "mcpServers": {
+    "levea": {
+      "command": "npx",
+      "args": ["-y", "levea-mcp-server"],
+      "env": {
+        "LEVEA_API_URL": "https://api.livecore.ai",
+        "LEVEA_API_KEY": "your-key-from-livecore.ai"
+      }
+    }
+  }
+}
+```
+
+*Note: `LEVEA_API_URL` should point to the bare host domain `https://api.livecore.ai`. The client-side wrapper handles endpoint appending automatically.*
+
+| Client | Setup Commands / Instructions |
+| --- | --- |
+| **Cursor & Windsurf** | Go to Settings -> Features -> MCP -> Add New MCP Server. Set type to `command` and insert the config above. |
+| **Cline** | Open settings, scroll to MCP, and add the config to the Cline MCP settings file. |
+| **Claude Code** | Run: `claude mcp add levea -e LEVEA_API_URL=https://api.livecore.ai -e LEVEA_API_KEY=... -- npx -y levea-mcp-server` |
+| **Claude Desktop** | Add the server block to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows). |
+| **Hermes** | Native plugin: [`hermes-plugin/`](./hermes-plugin) (`hermes plugins install levea-video-editor && hermes plugins enable levea-video-editor`). Or register `levea-mcp-server` as an MCP server using the bundled [`hermes-levea/mcp.json`](./hermes-levea/mcp.json). |
+| **OpenClaw** | Install via ClawHub: `openclaw plugins install clawhub:openclaw-ai-video-editor` or add via CLI `openclaw mcp add levea --command "npx -y levea-mcp-server" --env LEVEA_API_URL=https://api.livecore.ai --env LEVEA_API_KEY=...`. |
+
+---
+
+### 🎨 Path B: For Creators & Marketers (The OpenClaw Route)
+
+Deploy Levea as an autonomous editing agent directly inside the OpenClaw workspace.
+
+1. **Install the Plugin:** Search for `openclaw-ai-video-editor` on ClawHub and install it. It adds the edit, queue, and status tools.
+2. **Install the Skill:** Add `levea-ai-video-editor` from ClawHub Skills so your agent knows when and how to call the tools.
+3. **Run your first edit:**
+   > *"Review my vertical video, remove the opening silence, auto-apply Hormozi-style captions with highlighted keywords, add subtle background music, and export the Reels-ready MP4."*
+
+---
+
+## 🧩 OpenClaw Integration: Plugin vs. Skill
+
+Levea is built for modular agent platforms. When deploying Levea inside platforms like OpenClaw or Hermes, we split execution capabilities from cognitive strategies:
+
+- **The Plugin (`openclaw-ai-video-editor`):** the **tools**. It registers the edit, queue, and status tools with their schemas, manages the API key, and streams progress.
+- **The Skill (`levea-ai-video-editor`):** the **instructions**. It tells the agent when to use Levea, which parameters to pass, and how to handle approvals, long-running edits, and follow-ups. The editorial craft itself (pipelines, director skills, verification) runs on the Levea backend.
+
+*We recommend installing **both** to unlock the full power of autonomous editing with a professional finish.*
+
+---
+
+## 🎬 What It Does: Say It in Plain Language
+
+Say it in plain language; Levea plans, executes, and finishes the complete edit:
+
+| You ask | It does |
+| --- | --- |
+| *"Turn this into 5 viral clips with captions and vertical reframe"* | Identifies narrative peaks, cuts clips, applies bold captions, reframes to 9:16 vertical, and exports. |
+| *"Cut a 60-second highlight from this 2-hour podcast"* | Discovers strongest continuous story segment, trims dead air, and packages with captions. |
+| *"Make this TikTok-ready"* | Vertical 9:16 reframe + captions + silence removal + keyword emphasis kit. |
+| *"Export for TikTok, Reels, Shorts, YouTube, and Instagram"* | One pass, all platform-specific aspect ratios in one package. |
+| *"Replace the green screen with a beach, keep the speaker centered"* | Chroma key + background composite + face tracking in one call. |
+| *"Remove the background — no green screen"* | AI background removal via an alpha matte on any footage. |
+| *"Swap my background for a city skyline — no green screen"* | AI matte isolates subject cleanly, compositing the new background behind. |
+| *"Remove all silences and filler words, add background music"* | Cleans audio track (cuts `um`, `uh`, `like`), adds ducked music bed under speech. |
+| *"Auto-zoom on whoever's talking"* | Active-speaker detection + dynamic zoom-follow framing. |
+| *"Caption this and highlight every time they say 'launch'"* | Auto-captions + keyword emphasis (scaling / glow / pulse). |
+| *"Find every clip where Alex appears"* | Face identity search across the clips in your project. |
+| *"Add narration in a cloned voice over the intro"* | Voice cloning + TTS overlay + auto-ducking. |
+| *"Caption this Hormozi-style with karaoke word highlighting"* | Word-synced karaoke captions — active word fills and underlines in sync with speech. |
+| *"Generate B-roll over the product mention"* | AI B-roll generation + placement at the exact timestamp. |
+| *"Color grade this like a Netflix doc"* | Cinematic LUT color grade with contrast and film-look curve. |
+| *"Slow-mo the climax, freeze on the reveal"* | Speed change (`0.5×` slow-mo) + freeze-frame hold on key action. |
+| *"Reframe to vertical but don't crop the lower-third captions"* | Caption-safe 9:16 reframe (detects on-screen text regions and reframes around them). |
+| *"Pull the key stats from this and animate them as charts"* | Transcript-driven SVG charts (bars, lines, donuts) + stat-callout motion graphics via HyperFrames. |
+| *"Sync these 3 camera angles and cut between them on the active speaker"* | Multi-cam audio cross-correlation sync + automatic angle switching. |
+| *"Blur the license plates and bleep the swearing"* | Privacy redaction (face and moving object blur) + transcript profanity cleanup. |
+| *"Turn this YouTube video into a 30-second reel with motion graphics that never cover his face"* | Hook-first trim, face-tracked 9:16 reframe, word captions, motion graphics placed clear of every face, ducked music. |
+| *"Make a 15-second 3D animation of a little robot racing a deadline"* | An original 3D character film with camera moves, lighting, music, and sound design, reviewed by an AI critic before delivery. |
+| *"Add upbeat music from the library and a whoosh on every cut"* | Licensed music fitted to the video length, sound effects placed on the cuts, voice-aware ducking. |
+| *"Speed-ramp into the jump and use J-cuts between speakers"* | Speed ramps / time remap and J/L, match, and smash cuts as typed editing techniques. |
+| *"Push the camera in slowly with a little parallax"* | Keyframed 3D camera moves with depth-based parallax. |
+| *"Match the color of the second camera to the first"* | Auto color and shot-to-shot color matching, plus film looks, film burn, and lens flares. |
+| *"Dub this into Spanish in my voice and lip-sync it"* | Translated dub in a cloned voice, lip-synced to the speaker's mouth. Mouth-to-audio sync is measured and verified, and the dub is checked by listening to it (right language, intelligible). Lines that had to be shortened to fit are reported. |
+| *"Put the price tag in her hand and keep it there"* | Hand tracking: the overlay follows the palm, can grow and shrink with the hand, and hides while the hand is out of view. |
+| *"Mix these four songs into one continuous DJ set"* | Beat-matched, harmonically mixed program: each track's tempo and musical key are measured, tracks are time-stretched and key-shifted (Camelot wheel) so they mix. |
+| *"Cut a reel from this explainer and keep the slides readable"* | Slides, diagrams, and designed graphics are cropped to their content and shown with a headline on a matched background instead of a tiny letterboxed strip. |
+
+---
+
+## ⚡ Levea vs. Legacy Editors
+
+| Capability | Legacy (Premiere, DaVinci, CapCut, Descript) | Levea Agentic Editor & Production Harness |
+| :--- | :--- | :--- |
+| **Interface** | Drag, drop, keyframe by hand on a manual timeline | One natural-language prompt; the agent plans and finishes the edit |
+| **Auto-analysis on upload** | Manual scene detection + subtitles | Faces, active speakers, shot cuts, and on-screen text regions detected automatically |
+| **"Make this viral"** | You manually hunt for hooks, crop, splice, and align | Single preset — vertical 9:16 + captions + silences + face tracking |
+| **Face search** | Filename search | "Find every clip where Alex appears" across the clips in your project |
+| **Background replace** | Key out green screen or draw rotoscope masks by hand | One call — an AI alpha matte handles any footage without a green screen |
+| **Broadcast-grade audio** | Manual loudness metering + compression + EQ | Auto LUFS loudness-normalized (EBU R128), true-peak limited, music ducked under speech |
+| **Editorial reasoning** | You listen and hunt for the climax | Agent surfaces narrative peaks and high-retention moments |
+| **Verification & Repair** | You eyeball it and manually re-render | Every edit is checked on the rendered frames; failures are repaired automatically and reported with a typed verification report |
+| **Multi-platform export** | One render per aspect ratio | TikTok + Reels + Shorts + YouTube in one pass |
+| **Extensibility** | Plugins call external binaries | 189+ typed canonical actions & 13 read tools driven by a closed-loop ReAct agent or called directly via `execute_action` / `execute_batch` |
+
+---
+
+## 🎬 Creator & Dev Use Cases
+
+| Use case | Typical production path |
+| --- | --- |
+| **Faceless channel** | Segment the transcript, plan the layout, overlay B-roll, add library or generated music, and render. |
+| **Auto-captions** | Transcribe, time every word, highlight keywords, and style with a caption template. |
+| **Shorts & Reels highlights** | Find the hook, trim to the target length, reframe to 9:16 around the speaker, add captions and motion graphics. |
+| **Interview polish** | Cut long silences, bleep profanity, grade color, and add lower-third speaker graphics. |
+| **Green screen & backdrop swap** | Key or matte the speaker, layer a new background photo or video, and composite. |
+| **Multicam active-speaker cuts** | Sync camera angles by audio, identify speakers, and cut to whoever is talking. |
+
+---
+
+## ⚙️ Verification & Repair
+
+Levea checks its own work before it reports success.
+
+- **Every task is verified when it runs:** typed checks such as "the layer exists", "the timing matches the request", "no graphic covers a face", or "captions stay in sync". A failed check names the invariant, what was expected, and what was found.
+- **A repair loop fixes what failed:** it proposes typed fixes (any canonical action), applies them, and verifies again, until the check passes or the request's time and model-call budget runs out. A fix is refused if the request prohibits it, if it would destroy the user's own layers, or if it would break a task that already passed.
+- **A final review looks at the rendered frames** of the finished edit and can make further fixes.
+- **The agent inspects the result the way an editor would:** it watches the rendered video, listens to the rendered audio (is the dub in the right language, intelligible, on-content?), reads color scopes (crushed blacks, clipped whites, flat saturation), previews the frame inside the TikTok / Reels / Shorts interface to check nothing sits under the app's buttons, and measures lip sync on dubbed footage.
+- **The result says what happened:** `verificationReport.status` is `verified` only when that final review approved the edit; `unverified` means no verdict was reached (the edit is kept, never reported as verified), with every failed check and what repair tried.
+- **Corrections are a follow-up prompt** with the same `project_id`. Every revision is saved, so a change can be undone.
+
+---
+
+## 📂 Capability Status
+
+Availability of specific tracks varies by deployment, active model tiers, and account quotas.
+
+### Supported Production Paths
+- **Project and timeline state:** Full NLE track and clip operations (insert, overwrite, lift, extract, ripple delete/trim, slip, slide, freeze frame, reverse), multi-track management, nesting containers, and durable linear undo/redo.
+- **Captions:** automatic captions, word timing, keyword emphasis, 280+ caption templates (Hormozi, Spotlight, Karaoke, Typewriter, phrase lockups, two-line podcast looks, …), animated word entrances and burn-aways, and Latin, Indic, Arabic, Cyrillic, and Greek text.
+- **Motion graphics:** lower thirds, title cards (59 templates), real 3D extruded bevelled titles (`title_3d`), charts, counters, flow diagrams, collage layouts, any-layer behind-the-subject occlusion (`occlusion: "behind_subject"`), native After Effects shape layers (arc-length Trim Paths, Repeaters, SDF shape modifiers — pucker & bloat, zig zag, wiggle paths, round corners, offset paths), spatial Bezier motion paths with `auto_orient`, graph-editor velocity/influence easing, echo motion trails, and full motion-graphic films (2D motion design and 3D character films with camera, lighting, music, and sound design). Every graphic is placed clear of faces and reviewed by an AI critic before it ships.
+- **Editing techniques:** speed ramps, time remap, and stepped `posterize_time_fps`, J/L, match, twitch, and smash cuts, keyframed 3D camera moves with depth parallax, non-destructive warp stabilization (smooth camera path + border-hiding auto-scale), AI outpainting to new aspect ratios, eye-contact correction, face retouch, style packages, and 170+ transitions.
+- **Layout and perception:** multi-cam synchronization and active-speaker cuts, scene and shot cut analysis, face detection and tracking, face identity search across a project's clips, on-screen text-region **detection and OCR recognition**, safe zones, 2D feature-region tracking (position, rotation, and scale), live `track_attach` null parenting, planar corner-pinning, monocular 3D camera solve (`scene_anchor_3d`), and hand tracking (attach a sticker, label, or prop to a hand's palm).
+- **Compositing and color:** Keylight-grade `screen_color_key` (with despill, clip black/white, softness, shrink/grow), Lab/YUV/RGB `color_range_key`, dedicated `spill_suppressor`, SVG Bezier `mask_path`, feathered/inverted mattes, track mattes, blend modes (all 29 After Effects modes), adjustment layers, ordered multi-effect stacks (`fx_stack`, up to 4 chained effects per layer), alpha-matte background replacement, on-screen text / logo / watermark removal, auto color and shot matching, monotone cubic `curves`, CMYK per-range `selective_color`, 5-point `levels`, LUTs (including your own `.cube` 1D/3D files), After Effects two-tone threshold `glow`, depth-map-driven `camera_lens_blur` (polygonal iris bokeh), optical `clip_lens_flare`, and 328 procedural VFX presets (film burn, bloom, rain, smoke, fire, glitch, portal, lightning, …).
+- **Audio:** a reviewed, licensed music and sound-effects library, sound design (effects on cuts and beats, room tone), music fitted to the video length, silence and filler-word cleanup, word-level muting, crossfades, EQ, denoise, EBU R128 loudness normalization, voiceover, **voice cloning** and voice conversion, speech-aware ducking, beat- and drop-synced edits, measured music structure (sections and drops), musical key detection, **DJ mixes** (beat-matched, harmonic track-to-track mixing), vocal / instrumental separation, and **lip-synced dubbing** (translated voice in the speaker's cloned voice, with measured mouth-to-audio sync).
+- **Autonomous Directing:** automated cold-open hook extraction, hook-first trims to a target length, podcast polish macros, contextual B-roll placement, auto lower thirds, slideshow generation, and reels cut from explainer videos with slides and diagrams cropped to their content.
+- **Sources and delivery:** public video links (including Google Drive files and folders) checked before planning (Drive files that hit Google's download quota are fetched in the background instead of failing), and MP4 export in every platform aspect ratio.
+- **Verification:** typed task contracts, checks on the rendered frames, requirement tracking, the agent watching and listening to the rendered result (color scopes, platform-UI preview, audio-content and lip-sync checks), brand kits with hard enforcement (off-palette colors fail the check and are repaired), an automatic repair loop, plan approval (`requirePlanApproval` + `planDecision`), and a typed `verificationReport` on every result.
+
+### Model- or Deployment-Dependent
+- Generated video, images, B-roll, music, sound effects, voiceover, and voice cloning quality/availability vary by model tier and quota (all are wired as canonical actions in production).
+- Neural alpha matting and background replacement quality.
+- Lip-sync dubbing quality (a lip-sync step passes only on its measured mouth-to-audio sync).
+- **CJK caption rendering:** right-to-left shaping ships in production; CJK glyph coverage depends on font fallback.
+
+---
+
+## 📂 MCP Tool Surface (37 Annotated Tools Unlocking All 189+ Canonical Actions)
+
+The MCP server (`levea-mcp-server`, 37 tools) exposes **both** high-level goal delegation (`autonomous_edit`) **and** direct progressive-discovery & execution (`search_tools`, `get_action_schema`, `execute_action`, `execute_batch`, `render_preview`, plus `update_layer`, `delete_layer`, `trim_layer`, `apply_transition`), alongside typed management and polling tools. The OpenClaw and Hermes plugins expose the same dual-mode editing and discovery surface.
+
+| Group | Tools | Description |
+| --- | --- | --- |
+| **Mode A: Goal Delegation** | `autonomous_edit`, `autonomous_edit_streaming`, `queue_edit` | Send a natural-language brief; the backend ReAct agent inspects, edits, verifies on rendered frames, and exports. |
+| **Mode B: Universal Direct Canonical Suite (189+ Actions & 13 Read Tools)** | `search_tools`, `get_action_schema`, `execute_action`, `execute_batch`, `render_preview` | Discover any of the 189+ canonical actions and 13 read tools on demand, execute single actions or atomic batches (with automatic safe-zone repair, timeline reconciliation, and async generator harvesting), and inspect real GPU-composited JPEG screenshots (`render_preview`, like `ffmpeg` frame grabs) without calling `autonomous_edit`. |
+| **Deterministic Layer Shortcuts** | `update_layer`, `delete_layer`, `trim_layer`, `apply_transition` | Fast typed shortcuts for single-layer property updates, deletes, trims, and ~170 named transitions. |
+| **Job Polling** | `check_job_status`, `check_task_status`, `get_active_task` | Track rendering, generation jobs, and the active task of a project. |
+| **Caption Templates** | `list_caption_templates`, `apply_caption_template`, `save_caption_template`, `save_current_caption_template`, `delete_caption_template` | Manage styling templates (280+ built-in: Hormozi, Spotlight, Karaoke, …); `list_caption_templates` returns the exact ids. |
+| **Brand Kits** | `list_brand_kits`, `get_brand_kit`, `create_brand_kit`, `update_brand_kit`, `delete_brand_kit` | Manage brand colors, fonts, logos, voice tone, and grading rules. |
+| **Projects** | `list_projects`, `get_project`, `create_project`, `delete_project` | Project workspace management. |
+| **Assets** | `asset_upload_url`, `list_assets`, `delete_asset`, `transcribe_asset` | Signed upload URLs, asset listing and deletion, and transcription. |
+| **Diagnostics** | `editor_health` | Unauthenticated connectivity check. |
+
+### When to Use Mode A (`autonomous_edit`) vs. Mode B (`execute_action` / `execute_batch` / `render_preview`)
+
+| Scenario | Best Mode | Why |
+|---|---|---|
+| Broad creative brief / full video from prompt | **Mode A (`autonomous_edit`)** | Backend ReAct loop + 100+ craft skills handle decomposition, pacing, and verification in 1 call |
+| Exact parameter tweak, custom timestamp math, or local-file-driven script | **Mode B (`execute_action` / `execute_batch`)** | Instant (<50ms), zero backend LLM cost, 100% deterministic control over all 189+ actions |
+| Visual QA loop (like Claude Code `ffmpeg` frame check) | **Mode B (`render_preview` → `execute_action`)** | Returns real GPU-composited JPEG screenshots (`frames[]` + MCP `image` blocks) so your agent can visually verify and nudge layers |
+| Heavy first draft + surgical fine-tuning | **Hybrid (Mode A → Mode B)** | Fast first draft via `autonomous_edit`, instant pixel-level polish via `execute_action` / `render_preview` |
+
+Every edit result carries a `verificationReport` (`verified`, `rejected`, `unverified`, or `not_applicable`, plus each requirement that failed its check and what repair tried) and `qualityNotes`.
+
+---
+
+## 🔮 FAQ
+
+#### How does Levea compare to generic video generators like Sora, Veo, or Runway?
+Generic generative video models (Sora, Runway, Veo) output raw, locked pixels. You cannot edit a layer, adjust caption typography, swap background music, or correct a word timing afterward. Levea is a **full-featured timeline editor** that builds structured project layers. It uses generative models only as optional asset generation steps, keeping your editing pipeline fully editable, inspectable, and deterministic.
+
+#### Is Levea safe to use for client and enterprise work?
+It is designed for it. Every mutation runs through a typed operation engine, and every action the planner or the repair loop chooses is authorized against the request before it runs, so an LLM cannot inject arbitrary mutations. If you set `requirePlanApproval: true`, the system halts and returns the creative plan for approval; resend with `planDecision: "approve"` (or an `editedPlan`) to run it.
+
+#### What coding and agent environments does Levea support?
+Levea integrates natively with **Model Context Protocol (MCP)** hosts like Claude Desktop, Cursor, Cline, Windsurf, Claude Code, and the Gemini CLI (via the bundled extension). For standalone agent systems, Levea exposes structured packages for **OpenClaw** and **Hermes**.
+
+#### Can I use custom brand fonts, logos, and specific caption templates?
+Absolutely. Using our **Brand Kits API and tools**, you can declare custom typography scales, palette hex codes, logo image references, and voice tone. The planning model reads these rules and automatically enforces them across the timeline during the composition pass.
+
+---
+
+## 🔗 Links & Resources
+
+- **Levea Studio and API Keys:** [livecore.ai](https://livecore.ai/?openclaw=1&utm_source=github&utm_medium=readme&utm_campaign=agentic-ai-video-production)
+- **npm MCP Server Wrapper:** [`levea-mcp-server`](https://www.npmjs.com/package/levea-mcp-server)
+- **MCP Registry:** [`io.github.brajendrak00068/levea-mcp-server`](https://registry.modelcontextprotocol.io/v0/servers?search=levea-mcp-server)
+- **OpenClaw Plugin Page:** [`openclaw-ai-video-editor`](https://clawhub.ai/plugins/openclaw-ai-video-editor)
+- **OpenClaw Skill Page:** [`levea-ai-video-editor`](https://clawhub.ai/brajendrak00068/skills/levea-ai-video-editor)
+- **Detailed Agent Integration Guide:** [AGENTS.md](./AGENTS.md)
+- **MCP Folder Documentation:** [mcp-server/README.md](./mcp-server/README.md)
+
+**How long an edit takes:** read-only questions answer in seconds, a simple edit with export in a few minutes, and a full edit with motion graphics, music, and export in 10–20 minutes. Clients return `status: "running"` with the `project_id` if they stop waiting first; the edit keeps running (see [AGENTS.md](./AGENTS.md)).
+
+**Privacy & telemetry:** edits send your prompt, source links, and project ids to the Levea API ([privacy policy](https://www.livecore.ai/privacy), [terms](https://www.livecore.ai/terms)). The MCP server and OpenClaw plugin also send a tiny anonymous usage ping (event name, client version, whether a key is set; never prompts, media, or keys); turn it off with `LEVEA_TELEMETRY=off`.
+
+**Security:** see [SECURITY.md](./SECURITY.md). **Contributing:** see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+**Support & Contact:** [brajendra@livecore.ai](mailto:brajendra@livecore.ai) · [GitHub issues](https://github.com/brajendrak00068/agentic-ai-video-production/issues)
+
+---
+
+## License
+
+[MIT](./LICENSE)

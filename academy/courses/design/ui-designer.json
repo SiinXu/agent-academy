@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-11-18T03:44:34Z",
+ "updated_at": "2026-11-18T18:51:53Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,8 +876,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36453,
-      "repo_pushed_at": "2026-11-17"
+      "repo_stars": 36515,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1975,7 +1975,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 196805,
+      "repo_stars": 197117,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2020,7 +2020,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 196805,
+      "repo_stars": 197117,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2065,8 +2065,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 150951,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 151275,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2110,7 +2110,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2155,8 +2155,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2200,8 +2200,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2245,8 +2245,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2830,8 +2830,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 144975,
-      "repo_pushed_at": "2026-11-15"
+      "repo_stars": 145018,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2903,7 +2903,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16240,
+      "repo_stars": 16249,
       "repo_pushed_at": "2026-11-15",
       "registry_updated_at": "2026-06-18"
      },
@@ -2967,8 +2967,8 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2204,
-      "repo_pushed_at": "2026-11-16",
+      "repo_stars": 2210,
+      "repo_pushed_at": "2026-11-18",
       "registry_updated_at": "2025-10-16"
      },
      "course_step": "4-do-it",
@@ -3032,7 +3032,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 267,
+      "repo_stars": 268,
       "repo_pushed_at": "2026-10-26",
       "registry_updated_at": "2026-10-26"
      },
@@ -3097,7 +3097,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 229,
+      "repo_stars": 232,
       "repo_pushed_at": "2026-11-16",
       "registry_updated_at": "2026-11-16"
      },
@@ -3249,7 +3249,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 36,
+      "repo_stars": 37,
       "repo_pushed_at": "2026-11-17",
       "registry_updated_at": "2026-10-20"
      },
@@ -3674,6 +3674,78 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-com-iconsaga-icons",
+     "title": "IconSaga",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Icons that match, in your colors. Your AI finds them for your website or slides, in 10 languages.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/iconsaga/iconsaga",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-iconsaga-icons.md",
+     "upstream_raw_url": null,
+     "repo": "iconsaga/iconsaga",
+     "author": "com.iconsaga",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/iconsaga/iconsaga/blob/HEAD/README.md",
+      "record": {
+       "description": "Icons that match, in your colors. Your AI finds them for your website or slides, in 10 languages.",
+       "name": "com.iconsaga/icons",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://iconsaga.com/mcp"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://iconsaga.com/mcp/account"
+        }
+       ],
+       "repository": "https://github.com/iconsaga/iconsaga",
+       "title": "IconSaga",
+       "version": "1.0.0",
+       "website": "https://iconsaga.com/mcp"
+      }
+     },
+     "install": "remote (streamable-http): https://iconsaga.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "Authorization"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 2,
+      "repo_pushed_at": "2026-11-18",
+      "registry_updated_at": "2026-11-16"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-16T20:29:41Z",
+     "updated_at": "2026-11-16T20:29:41Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-iconsaga-icons/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-oabolade-figma-mcp-server-actor",
      "title": "Figma MCP Server",
      "type": "mcp",
@@ -3810,78 +3882,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-nbhey-figma-vault/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-iconsaga-icons",
-     "title": "IconSaga",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Icons that match, in your colors. Your AI finds them for your website or slides, in 10 languages.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/iconsaga/iconsaga",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-iconsaga-icons.md",
-     "upstream_raw_url": null,
-     "repo": "iconsaga/iconsaga",
-     "author": "com.iconsaga",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/iconsaga/iconsaga/blob/HEAD/README.md",
-      "record": {
-       "description": "Icons that match, in your colors. Your AI finds them for your website or slides, in 10 languages.",
-       "name": "com.iconsaga/icons",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://iconsaga.com/mcp"
-        },
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://iconsaga.com/mcp/account"
-        }
-       ],
-       "repository": "https://github.com/iconsaga/iconsaga",
-       "title": "IconSaga",
-       "version": "1.0.0",
-       "website": "https://iconsaga.com/mcp"
-      }
-     },
-     "install": "remote (streamable-http): https://iconsaga.com/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 1,
-      "repo_pushed_at": "2026-11-17",
-      "registry_updated_at": "2026-11-16"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-16T20:29:41Z",
-     "updated_at": "2026-11-16T20:29:41Z",
-     "checked_at": "2026-11-17T04:33:55Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-com-iconsaga-icons/",
      "source": "mcp-registry"
     },
     {
@@ -4454,8 +4454,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 150951,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 151275,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4476,7 +4476,7 @@
      "roles": [
       "design-reviewer"
      ],
-     "summary": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 192 product palettes and reasoning profiles, 74 font pairings,…",
+     "summary": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 80 searchable styles (51 active), 194 product palettes and reasoning profiles, 74 font pairings,…",
      "summary_lang": "en",
      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/.claude/skills/ui-ux-pro-max/SKILL.md",
      "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/nextlevelbuilder-ui-ux-pro-max-skill-claude-skills-ui-ux-pro-max.md",
@@ -4494,18 +4494,18 @@
      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max",
      "security": {
       "audited": false,
-      "executes_code": false,
+      "executes_code": true,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 150951,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 151275,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-16T02:13:04Z",
+     "updated_at": "2026-11-18T18:51:53Z",
      "checked_at": "2026-11-16T20:29:41Z",
      "http_status": {
       "source": 200
@@ -4544,7 +4544,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 57820,
+      "repo_stars": 57966,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -4589,8 +4589,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4634,8 +4634,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4679,8 +4679,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4724,8 +4724,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42635,
-      "repo_pushed_at": "2026-11-16"
+      "repo_stars": 42658,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4769,8 +4769,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36453,
-      "repo_pushed_at": "2026-11-17"
+      "repo_stars": 36515,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4814,8 +4814,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36453,
-      "repo_pushed_at": "2026-11-17"
+      "repo_stars": 36515,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4859,8 +4859,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36453,
-      "repo_pushed_at": "2026-11-17"
+      "repo_stars": 36515,
+      "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4904,7 +4904,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26639,
+      "repo_stars": 26649,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
