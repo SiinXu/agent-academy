@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-19
-updated_at: 2026-11-19T03:36:51Z
+updated_at: 2026-11-19T18:59:06Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -265,16 +265,15 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.deepthought.marketing/mcp
   needs_credentials: true, writes_external: true
+- [mcp] Glowytics. Ask about ad spend, ROAS, sales, GA4 traffic and top products across Google, Meta and your store.
+  source: https://glowytics.com/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://api.glowytics.com/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.deapi-ai/tiktok-transcript-scraper. AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.
   source: https://github.com/deapi-ai/tiktok-transcript-mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.apify.com?tools=deapi/tiktok-transcript-scraper
-  needs_credentials: true, writes_external: false
-- [mcp] io.github.mrocker/tiktok-profile-stats. TikTok profiles, video stats and transcripts by handle or URL. No login. Pay per result.
-  source: https://github.com/mrocker/social-data-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mrocker-tiktok-profile-stats.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.apify.com/?tools=nick.cheng/tiktok-profile-stats-scraper
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

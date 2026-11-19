@@ -2,7 +2,7 @@
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-19
-updated_at: 2026-11-19T03:36:51Z
+updated_at: 2026-11-19T18:59:06Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,7 +46,7 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1685 items
+- minimal: 1698 items
 - 3d: 657 items
 - motion: 651 items
 - editorial: 597 items
@@ -372,6 +372,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-mehmoodqureshi-figma-codekit-mcp.md
   license: MIT
   install: npx -y figma-codekit-mcp
+  needs_credentials: true, writes_external: false
+- [mcp] Sinqlo. Design systems for the AI era: live logos, color tokens, fonts, brand rules, and Brand Links.
+  source: https://github.com/iframefonts/sinqlo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-iframefonts-sinqlo-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.sinqlo.com/mcp
   needs_credentials: true, writes_external: false
 - [mcp] All SVG Icons. Search and fetch 450,000+ free SVG icons and brand logos from 270+ open-source icon sets.
   source: https://allsvgicons.com/mcp/

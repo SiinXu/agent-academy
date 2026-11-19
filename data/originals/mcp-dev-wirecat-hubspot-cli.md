@@ -205,11 +205,12 @@ Each profile has a permission level for every command and every API operation: `
 A command's key is its name, such as `deals.list`. An API operation's key is `api.<command>`, such as
 `api.deals-search`, and `api` covers them all.
 
-Changing a deal, contact or company with its command goes ahead; deleting one asks. Every write of `api` also checks
-its group's `<group>.write`, such as `deals.write`, and every delete its `<group>.delete`: both ask. A write that does
-what a command does checks that command's key too, so `deals.update deny` holds on both paths. A key belongs to the
-account, not to a person, so giving a record an owner checks `crm.assign-others`, which is `deny` until you allow it.
-A GDPR delete of a contact checks `people.erase` as well, so you can deny it alone.
+Changing a deal, contact or company with its command goes ahead; deleting one asks. An `api` call on deals, contacts
+or companies checks the key of the command that does the same, so `deals.update deny` or `people deny` holds on both
+paths, as in amoCRM and b24. Another `api` write also checks its group's `.write`, such as `notes.write`, and every
+delete its `<group>.delete`: both ask. A key belongs to the account, not to a person, so giving a record an owner checks
+`crm.assign-others`, which is `deny` until you allow it. A GDPR delete of a contact checks `people.erase` as well, so
+you can deny it alone.
 
 ```sh
 hubspot work config set permissions.people deny   # this profile reads no contacts

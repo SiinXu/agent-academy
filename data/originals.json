@@ -6304,8 +6304,8 @@
 }
 ],
 "repository": "https://github.com/SEOcrawl/seocrawl-mcp",
-"title": null,
-"version": "1.0.1",
+"title": "SEOcrawl AI",
+"version": "1.0.2",
 "website": "https://seocrawl.ai/mcp"
 },
 "truncated": false,
@@ -7115,6 +7115,28 @@
 "truncated": false,
 "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md"
 },
+"mcp-com-caelaralabs-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Caelara Labs SEO & GEO Readiness tools over remote MCP. Calls need an X-Caelara-Key API key.",
+"name": "com.caelaralabs/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seo.caelaralabs.com/mcp"
+}
+],
+"repository": null,
+"title": "Caelara Labs SEO & GEO Readiness",
+"version": "1.0.1",
+"website": "https://seo.caelaralabs.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.caelaralabs/seo&version=latest"
+},
 "mcp-com-callaiapi-seo": {
 "file": "data/originals/mcp-com-callaiapi-seo.md",
 "kind": "full",
@@ -7557,6 +7579,28 @@
 "website": "https://www.getseoheatmap.com/mcp-server"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.getseoheatmap/seo-heatmap&version=latest"
+},
+"mcp-com-glowytics-marketing-analytics": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Ask about ad spend, ROAS, sales, GA4 traffic and top products across Google, Meta and your store.",
+"name": "com.glowytics/marketing-analytics",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.glowytics.com/mcp"
+}
+],
+"repository": null,
+"title": "Glowytics",
+"version": "1.0.0",
+"website": "https://glowytics.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.glowytics/marketing-analytics&version=latest"
 },
 "mcp-com-goaimoat-tiktok-shop": {
 "kind": "excerpt",
@@ -8689,6 +8733,33 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.rasareka/shopify&version=latest"
 },
+"mcp-com-reviewsdataapi-trustpilot-yelp-google-reviews-glassdoor-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Trustpilot, Yelp, Google & Glassdoor Reviews MCP. Zero-signup x402 USDC ($0.0015) on Base or key.",
+"name": "com.reviewsdataapi/trustpilot-yelp-google-reviews-glassdoor-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.reviewsdataapi.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.reviewsdataapi.com/v1/mcp"
+}
+],
+"repository": null,
+"title": "ReviewsDataAPI — Trustpilot, Yelp, Google & Glassdoor Reviews MCP. Zero-signu",
+"version": "1.1.0",
+"website": "https://reviewsdataapi.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.reviewsdataapi/trustpilot-yelp-google-reviews-glassdoor-mcp&version=latest"
+},
 "mcp-com-roasexpert-tools-seo-audit": {
 "file": "data/originals/mcp-com-roasexpert-tools-seo-audit.md",
 "kind": "full",
@@ -9181,12 +9252,39 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shadcndesign.manager/ds-manager&version=latest"
 },
+"mcp-com-shopdataapi-amazon-walmart-shopee-tiktok-shop-ecommerce-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Amazon, Walmart, Shopee & TikTok Shop MCP. Zero-signup x402 USDC ($0.0015) on Base or free API key",
+"name": "com.shopdataapi/amazon-walmart-shopee-tiktok-shop-ecommerce-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.shopdataapi.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.shopdataapi.com/v1/mcp"
+}
+],
+"repository": null,
+"title": "ShopDataAPI — Amazon, Walmart, Shopee & TikTok Shop MCP. Zero-signup x402 ",
+"version": "1.1.0",
+"website": "https://shopdataapi.com/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shopdataapi/amazon-walmart-shopee-tiktok-shop-ecommerce-mcp&version=latest"
+},
 "mcp-com-shortvidapi-tiktok-instagram-reels-shorts-mcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Real-time TikTok videos, creator profiles, comments, trends, ads & Instagram Reels MCP ($0.20/1K).",
+"description": "TikTok, Reels & Shorts MCP. Zero-signup x402 USDC pay-per-call ($0.001) on Base or free API key.",
 "name": "com.shortvidapi/tiktok-instagram-reels-shorts-mcp",
 "packages": [],
 "remotes": [
@@ -9202,8 +9300,8 @@
 }
 ],
 "repository": null,
-"title": "ShortVidAPI — TikTok, Instagram Reels & YouTube Shorts Data MCP Server",
-"version": "1.0.0",
+"title": "ShortVidAPI — TikTok, Reels & Shorts MCP. Zero-signup x402 USDC pay-per-ca",
+"version": "1.1.0",
 "website": "https://shortvidapi.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shortvidapi/tiktok-instagram-reels-shorts-mcp&version=latest"
@@ -9277,28 +9375,6 @@
 },
 "truncated": false,
 "url": "https://github.com/Standard-Icon/standardicon/blob/HEAD/README.md"
-},
-"mcp-com-stillindexed-seo-checkers": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Indexability, robots.txt, sitemap, TLS, domain expiry and Googlebot-vs-browser checks. No account.",
-"name": "com.stillindexed/seo-checkers",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://api.stillindexed.com/mcp"
-}
-],
-"repository": null,
-"title": "stillindexed SEO checkers",
-"version": "1.1.0",
-"website": "https://stillindexed.com/mcp"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.stillindexed/seo-checkers&version=latest"
 },
 "mcp-com-superagnt-tiktok-data": {
 "file": "data/originals/mcp-com-superagnt-tiktok-data.md",
@@ -9710,7 +9786,7 @@
 ],
 "repository": null,
 "title": "Shopify Store Products (Apify) by Dataset Works",
-"version": "1.0.0",
+"version": "1.0.1",
 "website": "https://datasetworks.dev/tools/shopify-store-products/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.datasetworks/shopify-store-products&version=latest"
@@ -9751,13 +9827,13 @@
 "id": "@wirecat/hubspot-cli",
 "transport": "stdio",
 "type": "npm",
-"version": "0.3.1"
+"version": "0.4.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/WireCatLabs/hubspot-cli",
 "title": "WireCat hubspot",
-"version": "0.3.1",
+"version": "0.4.0",
 "website": "https://wirecat.dev/en/docs/hubspot"
 },
 "truncated": false,
@@ -11764,6 +11840,30 @@
 "truncated": false,
 "url": "https://github.com/iambashar/agent-intercom/blob/HEAD/README.md"
 },
+"mcp-io-github-iframefonts-sinqlo-mcp": {
+"file": "data/originals/mcp-io-github-iframefonts-sinqlo-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Design systems for the AI era: live logos, color tokens, fonts, brand rules, and Brand Links.",
+"name": "io.github.iframefonts/sinqlo-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.sinqlo.com/mcp"
+}
+],
+"repository": "https://github.com/iframefonts/sinqlo-mcp",
+"title": "Sinqlo",
+"version": "1.0.1",
+"website": "https://sinqlo.com/claude/"
+},
+"truncated": false,
+"url": "https://github.com/iframefonts/sinqlo-mcp/blob/HEAD/README.md"
+},
 "mcp-io-github-insanedevhq-shopify-store-leads": {
 "file": "data/originals/mcp-io-github-insanedevhq-shopify-store-leads.md",
 "kind": "full",
@@ -12713,16 +12813,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.18/figmamcp-0.1.18-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.19/figmamcp-0.1.19-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.18"
+"version": "0.1.19"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.18",
+"version": "0.1.19",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -13800,6 +13900,28 @@
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-zendesk/blob/HEAD/README.md"
 },
+"mcp-io-github-plainbyte-tools-shopify-variant-metafields-planner": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Paid Apify Actor to validate Shopify variant metafields CSV and plan GraphQL; no store writes.",
+"name": "io.github.plainbyte-tools/shopify-variant-metafields-planner",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=ministrant_ram/shopify-variant-metafields-planner"
+}
+],
+"repository": null,
+"title": "PlainByte Shopify Variant Metafields CSV Validator",
+"version": "0.0.8",
+"website": "https://apify.com/ministrant_ram/shopify-variant-metafields-planner"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.plainbyte-tools/shopify-variant-metafields-planner&version=latest"
+},
 "mcp-io-github-planetabhi-figma-mcp-server": {
 "file": "data/originals/mcp-io-github-planetabhi-figma-mcp-server.md",
 "kind": "full",
@@ -13959,6 +14081,28 @@
 "website": "https://agent-ads-production-9f45.up.railway.app/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sadri-dridi/agent-marketing-index&version=latest"
+},
+"mcp-io-github-sanasiniai-shopee-tiktok-shop-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Connect Claude or ChatGPT to your Shopee and TikTok Shop stores: orders, ads, stock and profit.",
+"name": "io.github.sanasiniai/shopee-tiktok-shop-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://sanasiniai.com/api/ai-mcp"
+}
+],
+"repository": "https://github.com/sanasiniai/shopee-tiktok-shop-mcp",
+"title": "SanasiniAI AI Connector: Shopee and TikTok Shop",
+"version": "1.0.0",
+"website": "https://sanasiniai.com/ai-connector-en?utm_source=mcp-registry&utm_medium=directory&utm_campaign=geo_listing"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sanasiniai/shopee-tiktok-shop-mcp&version=latest"
 },
 "mcp-io-github-sandeepkelvadi-marketing-skills-directory": {
 "file": "data/originals/mcp-io-github-sandeepkelvadi-marketing-skills-directory.md",
@@ -15532,6 +15676,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-blhasn-sehli-github-io-mpkcn": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-blockdex-thecompound-tech": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -15540,6 +15691,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-blode-co-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-brioui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -15581,6 +15739,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-codexdesign-io-tools-shadcn-theme-generator": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-cojeev-com-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -15609,6 +15774,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-dashral-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-design-helpmarq-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -15631,6 +15803,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-dominikkoch-dev-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-drift-ui-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -15725,6 +15904,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/akii09/pdfx/blob/main/README.md"
+},
+"uihub-aw-github-com-alan-donk-tree-ui": {
+"file": "data/originals/uihub-aw-github-com-alan-donk-tree-ui.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/Alan-donk/tree-ui/blob/main/README.md"
 },
 "uihub-aw-github-com-amanshakya0018-forgeui": {
 "kind": "excerpt",
@@ -16250,6 +16437,14 @@
 "truncated": false,
 "url": "https://github.com/w3cproject/rivelle-ui/blob/main/README.md"
 },
+"uihub-aw-github-com-weatheo-com-weatheo-ui": {
+"file": "data/originals/uihub-aw-github-com-weatheo-com-weatheo-ui.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/weatheo-com/weatheo-ui/blob/main/README.md"
+},
 "uihub-aw-github-com-whatisjery-atelier-ui": {
 "file": "data/originals/uihub-aw-github-com-whatisjery-atelier-ui.md",
 "kind": "full",
@@ -16265,6 +16460,14 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/yaminncco/deska-dashboard-template/blob/main/README.md"
+},
+"uihub-aw-github-com-yayaw-sas-yayaw-table": {
+"file": "data/originals/uihub-aw-github-com-yayaw-sas-yayaw-table.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/Yayaw-SAS/Yayaw-Table/blob/main/README.md"
 },
 "uihub-aw-github-com-zippystarter-template-devstarter": {
 "file": "data/originals/uihub-aw-github-com-zippystarter-template-devstarter.md",
@@ -16289,6 +16492,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-goey-toast-vercel-app": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-goodui-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -16331,6 +16541,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-kairoui-online": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-keyline-ui-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -16380,6 +16597,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-mailmop-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-medium-zoom-francoischalifour-com-react": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -16499,6 +16723,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-piemenu-jpmarqu-es": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-prestigeui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -16709,6 +16940,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-ui-meta-cloud-api-site": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-ui-minidev-pro": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

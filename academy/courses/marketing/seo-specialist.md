@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-19
-updated_at: 2026-11-19T03:36:51Z
+updated_at: 2026-11-19T18:59:06Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -278,18 +278,24 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
   needs_credentials: true, writes_external: false
-- [mcp] ai.seocrawl/mcp. SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines
-  source: https://github.com/SEOcrawl/seocrawl-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seocrawl-mcp.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.seocrawl.ai
-  needs_credentials: true, writes_external: false
 - [mcp] Local SEO by WorkPods. Audit Google Business Profiles, reviews and Maps rankings, and check a site's NAP and schema.
   source: https://github.com/WorkPodsAgents/local-seo
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-workpods-local-seo.md
   license: Apache-2.0
   install: npx -y @workpods/local-seo
   needs_credentials: false, writes_external: false
+- [mcp] SEOcrawl AI. SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines
+  source: https://github.com/SEOcrawl/seocrawl-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seocrawl-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.seocrawl.ai
+  needs_credentials: true, writes_external: false
+- [mcp] CallAI SEO. Live SEO data: Google/Bing SERP, AI Overview sources, keyword difficulty, backlinks, page audits.
+  source: https://github.com/hanshengcc/callai-seo-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-callaiapi-seo.md
+  license: MIT
+  install: remote (streamable-http): https://api.callaiapi.com/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.dingdawg/dingdawg-marketing-agent. AI content generation, SEO audits, campaign planning & social scheduling.
   source: https://github.com/dingdawg/dingdawg-agent-1
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-dingdawg-dingdawg-marketing-agent.md
@@ -325,11 +331,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://api.ahrefs.com/mcp/mcp
   needs_credentials: true, writes_external: false
-- [mcp] AI SEO Crew. AI agents that research, write and publish SEO articles on your website, from your AI assistant.
-  source: https://www.aiseocrew.com/claude
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://www.aiseocrew.com/mcp
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

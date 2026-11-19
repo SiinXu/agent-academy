@@ -6,8 +6,8 @@ Open, citable datasets on US law-firm marketing, maintained by [Probative Growth
 
 Each dataset names its sources, and each public-source record carries its source and the date checked. Each dataset has a DOI on Zenodo. Not legal advice: check the source and your own counsel before you rely on a rule.
 
-- **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,489 rows in all.
-- **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 97 main files falls between 2026-10-25 and 2026-11-18. The newest dataset version here was released on 2026-11-18.
+- **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,523 rows in all.
+- **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 97 main files falls between 2026-10-25 and 2026-11-19. The newest dataset version here was released on 2026-11-19.
 - **How to use it.** Free under CC BY 4.0. Credit "Probative Growth" and link the dataset page.
 
 ## Start here
@@ -23,7 +23,7 @@ def rows(name):
 
 | File | What it holds | Rows | Last checked at source | Example |
 |---|---|---|---|---|
-| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 434 | 2026-11-18 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
+| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 434 | 2026-11-19 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
 | [`data/limitations/limitations.csv`](data/limitations/limitations.csv) | The deadline to sue, by state and claim type, with the statute section | 225 | 2026-10-28 | `[(r['period'], r['statuteCite']) for r in rows('limitations') if r['jurisdiction']=='AK' and r['claimType']=='pi']` |
 | [`data/deserts/deserts.csv`](data/deserts/deserts.csv) | Law offices per 10,000 residents in every county; each state row counts its counties under 1 per 10,000 | 3,196 | 2026-10-28 | `sorted(((int(r['value']), r['areaName']) for r in rows('deserts') if r['areaType']=='state'), reverse=True)[:5]` |
 | [`data/fatal-crashes/fatal-crashes.csv`](data/fatal-crashes/fatal-crashes.csv) | Fatal crashes and deaths by county, with truck, motorcycle and pedestrian counts | 3,197 | 2026-10-27 | `sorted(((int(r['fatalities']), r['areaName']) for r in rows('fatal-crashes') if r['areaType']=='county' and r['fatalities']), reverse=True)[:5]` |
@@ -32,7 +32,7 @@ def rows(name):
 | [`data/eeoc-charges/eeoc-charges.csv`](data/eeoc-charges/eeoc-charges.csv) | Job discrimination charges by state and basis | 658 | 2026-10-27 | `{r['basisLabel']: int(r['value']) for r in rows('eeoc-charges') if r['jurisdiction']=='TX'}` |
 | [`data/civil-filings/civil-filings.csv`](data/civil-filings/civil-filings.csv) | Federal civil cases filed, by type of case and court district | 3,239 | 2026-10-27 | `sorted(((int(r['value']), r['districtName']) for r in rows('civil-filings') if r['category']=='all' and r['district']!='US' and r['value']), reverse=True)[:5]` |
 | [`data/legal-need/legal-need.csv`](data/legal-need/legal-need.csv) | People who may need a lawyer in each county: older adults, noncitizens, veterans, Spanish speakers | 3,196 | 2026-10-31 | `sorted(((float(r['spanish_lep_pct']), r['name']) for r in rows('legal-need') if r['level']=='county' and r['spanish_lep_pct']), reverse=True)[:5]` |
-| [`data/crosswalks/crosswalks.csv`](data/crosswalks/crosswalks.csv) | The join keys: practice areas, federal case codes, states, court districts and counties | 3,704 | 2026-11-18 | `[(r['code'], r['name']) for r in rows('crosswalks') if r['table']=='PRACTICE'][:5]` |
+| [`data/crosswalks/crosswalks.csv`](data/crosswalks/crosswalks.csv) | The join keys: practice areas, federal case codes, states, court districts and counties | 3,704 | 2026-11-19 | `[(r['code'], r['name']) for r in rows('crosswalks') if r['table']=='PRACTICE'][:5]` |
 
 Each folder also has a `starter.ipynb` notebook that loads the data and works through example questions (on Kaggle, import it from its GitHub link), and a `README.txt` that explains every column.
 
@@ -42,7 +42,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 
 | Dataset (page) | Folder | Rows | Refresh | Last checked at source | Version | DOI |
 |---|---|---|---|---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 434 | when the source publishes | 2026-11-18 | 1.6.0 | [10.5281/zenodo.24114743](https://doi.org/10.5281/zenodo.24114743) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 434 | when the source publishes | 2026-11-19 | 1.6.0 | [10.5281/zenodo.24114743](https://doi.org/10.5281/zenodo.24114743) |
 | [Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)](https://probativegrowth.com/data/ad-costs/) | [`data/ad-costs/`](data/ad-costs/) | 2,725 | yearly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23851278](https://doi.org/10.5281/zenodo.23851278) |
 | [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | [`data/attorneys/`](data/attorneys/) | 312 | quarterly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23962861](https://doi.org/10.5281/zenodo.23962861) |
 | [Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026](https://probativegrowth.com/data/aviation-accidents/) | [`data/aviation-accidents/`](data/aviation-accidents/) | 985 | monthly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116037](https://doi.org/10.5281/zenodo.24116037) |
@@ -62,7 +62,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 | [Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court](https://probativegrowth.com/data/court-fees/) | [`data/court-fees/`](data/court-fees/) | 51 | quarterly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23792752](https://doi.org/10.5281/zenodo.23792752) |
 | [Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)](https://probativegrowth.com/data/crime-data/) | [`data/crime-data/`](data/crime-data/) | 3,078 | quarterly | 2026-10-28 | 2.1.0 | [10.5281/zenodo.24011321](https://doi.org/10.5281/zenodo.24011321) |
 | [Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)](https://probativegrowth.com/data/criminal-filings/) | [`data/criminal-filings/`](data/criminal-filings/) | 2,023 | quarterly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23963315](https://doi.org/10.5281/zenodo.23963315) |
-| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | [`data/crosswalks/`](data/crosswalks/) | 3,704 | yearly | 2026-11-18 | 2.4.0 | [10.5281/zenodo.24326296](https://doi.org/10.5281/zenodo.24326296) |
+| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | [`data/crosswalks/`](data/crosswalks/) | 3,704 | yearly | 2026-11-19 | 2.4.0 | [10.5281/zenodo.24326296](https://doi.org/10.5281/zenodo.24326296) |
 | [Demand per law office, by state: residents, bankruptcy cases, fatal crashes, divorces, Spanish speakers and evictions for each law office](https://probativegrowth.com/data/demand-per-law-office/) | [`data/demand-per-law-office/`](data/demand-per-law-office/) | 334 | quarterly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23851281](https://doi.org/10.5281/zenodo.23851281) |
 | [Legal deserts: law offices and lawyers per resident in every U.S. county](https://probativegrowth.com/research/legal-deserts/) | [`data/deserts/`](data/deserts/) | 3,196 | quarterly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23963393](https://doi.org/10.5281/zenodo.23963393) |
 | [Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA)](https://probativegrowth.com/data/device-events/) | [`data/device-events/`](data/device-events/) | 2,079 | monthly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23963431](https://doi.org/10.5281/zenodo.23963431) |
@@ -109,7 +109,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 | [Nursing home fines and harm citations by county: CMS penalties, actual-harm, immediate-jeopardy and abuse citations](https://probativegrowth.com/data/nursing-homes/) | [`data/nursing-homes/`](data/nursing-homes/) | 2,900 | monthly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116048](https://doi.org/10.5281/zenodo.24116048) |
 | [Attorneys registered with the New York courts, by county, status and year of admission (NYS Office of Court Administration)](https://probativegrowth.com/data/ny-attorneys/) | [`data/ny-attorneys/`](data/ny-attorneys/) | 130 | quarterly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116050](https://doi.org/10.5281/zenodo.24116050) |
 | [New York workers' compensation claims by county and accident year](https://probativegrowth.com/data/ny-workers-comp/) | [`data/ny-workers-comp/`](data/ny-workers-comp/) | 1,728 | quarterly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23964068](https://doi.org/10.5281/zenodo.23964068) |
-| [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | [`data/opinions/`](data/opinions/) | 261 | when the source publishes | 2026-11-11 | 2.0.2 | [10.5281/zenodo.24114753](https://doi.org/10.5281/zenodo.24114753) |
+| [Legal-marketing ethics opinions, 2004–2026](https://probativegrowth.com/data/opinions/) | [`data/opinions/`](data/opinions/) | 295 | when the source publishes | 2026-11-16 | 2.3.0 | [10.5281/zenodo.24369808](https://doi.org/10.5281/zenodo.24369808) |
 | [OSHA inspections and penalties by state and industry (DOL enforcement data)](https://probativegrowth.com/data/osha-enforcement/) | [`data/osha-enforcement/`](data/osha-enforcement/) | 1,174 | yearly | 2026-10-28 | 1.0.0 | [10.5281/zenodo.23850661](https://doi.org/10.5281/zenodo.23850661) |
 | [Legal ad-platform policy tracker](https://probativegrowth.com/data/platforms/) | [`data/platforms/`](data/platforms/) | 58 | when the source publishes | 2026-10-25 | 2.0.0 | [10.5281/zenodo.23898135](https://doi.org/10.5281/zenodo.23898135) |
 | [Deaths, births, migration and older residents by county (Census population estimates), 2020 to 2025](https://probativegrowth.com/data/population-change/) | [`data/population-change/`](data/population-change/) | 3,196 | yearly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23845912](https://doi.org/10.5281/zenodo.23845912) |
@@ -186,7 +186,7 @@ Each dataset also has its own smaller server:
 - `https://probativegrowth.com/mcp/aviation-accidents`: NTSB civil aviation accidents by state and year, 2008 to 2026: accidents, deaths, injuries and type of operation.
 - `https://probativegrowth.com/mcp/bankruptcy`: Bankruptcy filings by chapter, court district, state and county, quarterly from U.S. Courts tables F-5A, F-2 and F.
 - `https://probativegrowth.com/mcp/bar-pipeline`: New lawyers by jurisdiction: bar exam pass rates and admissions, 2025.
-- `https://probativegrowth.com/mcp/benchmarks`: Probative's law-firm marketing benchmarks, approximate and shown as ranges.
+- `https://probativegrowth.com/mcp/benchmarks`: Probative Growth's law-firm marketing benchmarks, approximate and shown as ranges.
 - `https://probativegrowth.com/mcp/boating-accidents`: USCG recreational boating incidents by state and year, 2019 to 2024: incidents, deaths, injuries and damage in dollars.
 - `https://probativegrowth.com/mcp/business-applications`: Census new business applications by county, 2005-2025: latest count, change over a year and since 2019, state sums.
 - `https://probativegrowth.com/mcp/ca-courts`: Cases filed in each California county's superior court, by case type.
