@@ -107,7 +107,7 @@ computer, and the writes to HubSpot, which only a key with write scopes can make
 agent marked as untrusted, so the agent reads it as data, never as instructions. The sign-in commands are not offered
 over MCP.
 
-More: [agents and MCP](docs/usage.md#agents)
+More: [agents and MCP](docs/mcp.md)
 
 ## Why hubspot
 
@@ -219,7 +219,7 @@ Over MCP nobody is there to answer, so `ask` lets the command run. Set a key to 
 agent. `hubspot work mcp serve --permission people.list=deny` makes a key stricter for one server only, never looser.
 `WCHUBSPOT_READ_ONLY=1` refuses every write.
 
-More: [settings and permissions](docs/configuration.md#permissions)
+More: [settings and permissions](docs/permissions.md)
 
 ## Limits
 

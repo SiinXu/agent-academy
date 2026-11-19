@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-18
-updated_at: 2026-11-18T18:51:53Z
+version: 2026-11-19
+updated_at: 2026-11-19T03:36:51Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -278,6 +278,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
   needs_credentials: true, writes_external: false
+- [mcp] ai.seocrawl/mcp. SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines
+  source: https://github.com/SEOcrawl/seocrawl-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seocrawl-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.seocrawl.ai
+  needs_credentials: true, writes_external: false
 - [mcp] Local SEO by WorkPods. Audit Google Business Profiles, reviews and Maps rankings, and check a site's NAP and schema.
   source: https://github.com/WorkPodsAgents/local-seo
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-workpods-local-seo.md
@@ -324,12 +330,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://www.aiseocrew.com/mcp
   needs_credentials: true, writes_external: true
-- [mcp] AI SEO Tracker. Track brand visibility, citations, prompts & missing sources across ChatGPT, Perplexity, Gemini.
-  source: https://github.com/Illyism/aiseotracker-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-aiseotracker-mcp.md
-  license: MIT
-  install: remote (streamable-http): https://aiseotracker.com/api/agent/mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

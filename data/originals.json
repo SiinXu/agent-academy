@@ -6288,11 +6288,12 @@
 "url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs/blob/HEAD/README.md"
 },
 "mcp-ai-seocrawl-mcp": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
+"file": "data/originals/mcp-ai-seocrawl-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
 "record": {
-"description": "Live Google Search Console data, keyword/page analysis, site audit and SEO tasks from SEOcrawl AI.",
+"description": "SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines",
 "name": "ai.seocrawl/mcp",
 "packages": [],
 "remotes": [
@@ -6302,12 +6303,13 @@
 "url": "https://mcp.seocrawl.ai"
 }
 ],
-"repository": null,
-"title": "SEOcrawl AI",
-"version": "1.0.0",
+"repository": "https://github.com/SEOcrawl/seocrawl-mcp",
+"title": null,
+"version": "1.0.1",
 "website": "https://seocrawl.ai/mcp"
 },
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.seocrawl/mcp&version=latest"
+"truncated": false,
+"url": "https://github.com/SEOcrawl/seocrawl-mcp/blob/HEAD/README.md"
 },
 "mcp-ai-seomatic-seomatic": {
 "file": "data/originals/mcp-ai-seomatic-seomatic.md",
@@ -8588,9 +8590,9 @@
 "url": "https://seo.penguindriver.com/mcp"
 }
 ],
-"repository": null,
+"repository": "https://github.com/panda2143/taiwan-mcp-tools",
 "title": "搜尋引擎與 AI 爬蟲工具箱",
-"version": "1.0.0",
+"version": "1.0.1",
 "website": "https://seo.penguindriver.com"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.penguindriver/seo&version=latest"
@@ -9749,13 +9751,13 @@
 "id": "@wirecat/hubspot-cli",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.0"
+"version": "0.3.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/WireCatLabs/hubspot-cli",
 "title": "WireCat hubspot",
-"version": "0.2.0",
+"version": "0.3.1",
 "website": "https://wirecat.dev/en/docs/hubspot"
 },
 "truncated": false,
@@ -12711,16 +12713,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.17/figmamcp-0.1.17-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.18/figmamcp-0.1.18-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.17"
+"version": "0.1.18"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.17",
+"version": "0.1.18",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -14574,6 +14576,32 @@
 },
 "truncated": false,
 "url": "https://github.com/vola-trebla/tailwind-context-resolver-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-willowswt-tiktok-intelligence-mcp": {
+"file": "data/originals/mcp-io-github-willowswt-tiktok-intelligence-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "TikTok video search, spoken viral hooks & transcripts, creator emails, buyer comments & sponsors.",
+"name": "io.github.willowswt/tiktok-intelligence-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://church-of-loujess--tiktok-intelligence-mcp.apify.actor/mcp"
+}
+],
+"repository": "https://github.com/willowswt/tiktok-intelligence-mcp",
+"title": "TikTok Viral Hooks, Creator Emails & Sponsors MCP",
+"version": "1.0.0",
+"website": "https://apify.com/church_of_loujess/tiktok-intelligence-mcp"
+},
+"truncated": false,
+"url": "https://github.com/willowswt/tiktok-intelligence-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-workingmodel-figma-vector-mcp": {
 "file": "data/originals/mcp-io-github-workingmodel-figma-vector-mcp.md",
@@ -23726,6 +23754,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-0czighg-stripe-press-shelf": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-0d560an-family": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -24518,6 +24553,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-3ohfgr3-ultra-op-1-robotics-identity": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-3oxzw7f-night-dive-pixel-animation": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -25777,6 +25819,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-90zsuhe-rotating-money-stack": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-93kbizj-aave-savings-calculator": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26268,6 +26317,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-avzsa41-climbing-illustration-loops": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-aw41t7h-chrome-x-logo-animation": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -30804,6 +30860,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-t3hk5ld-scroll-text-disintegration-effect": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-t41jbsu-cloudflare-workers-web-section": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -31001,6 +31064,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-u6rejp1-color-badge-system": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-uc3xmxq-prismatic-forms": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -34146,6 +34216,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-w16-davidspaeth-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-w16-deadnorth-io": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

@@ -6,7 +6,7 @@ Open, citable datasets on US law-firm marketing, maintained by [Probative Growth
 
 Each dataset names its sources, and each public-source record carries its source and the date checked. Each dataset has a DOI on Zenodo. Not legal advice: check the source and your own counsel before you rely on a rule.
 
-- **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,488 rows in all.
+- **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,489 rows in all.
 - **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 97 main files falls between 2026-10-25 and 2026-11-18. The newest dataset version here was released on 2026-11-18.
 - **How to use it.** Free under CC BY 4.0. Credit "Probative Growth" and link the dataset page.
 
@@ -23,7 +23,7 @@ def rows(name):
 
 | File | What it holds | Rows | Last checked at source | Example |
 |---|---|---|---|---|
-| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 433 | 2026-11-18 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
+| [`data/rules/rules.csv`](data/rules/rules.csv) | The lawyer advertising rule for one state and topic, with the official words quoted | 434 | 2026-11-18 | `[r['text'] for r in rows('rules') if r['state']=='TX' and r['topic']=='filing']` |
 | [`data/limitations/limitations.csv`](data/limitations/limitations.csv) | The deadline to sue, by state and claim type, with the statute section | 225 | 2026-10-28 | `[(r['period'], r['statuteCite']) for r in rows('limitations') if r['jurisdiction']=='AK' and r['claimType']=='pi']` |
 | [`data/deserts/deserts.csv`](data/deserts/deserts.csv) | Law offices per 10,000 residents in every county; each state row counts its counties under 1 per 10,000 | 3,196 | 2026-10-28 | `sorted(((int(r['value']), r['areaName']) for r in rows('deserts') if r['areaType']=='state'), reverse=True)[:5]` |
 | [`data/fatal-crashes/fatal-crashes.csv`](data/fatal-crashes/fatal-crashes.csv) | Fatal crashes and deaths by county, with truck, motorcycle and pedestrian counts | 3,197 | 2026-10-27 | `sorted(((int(r['fatalities']), r['areaName']) for r in rows('fatal-crashes') if r['areaType']=='county' and r['fatalities']), reverse=True)[:5]` |
@@ -42,7 +42,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 
 | Dataset (page) | Folder | Rows | Refresh | Last checked at source | Version | DOI |
 |---|---|---|---|---|---|---|
-| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 433 | when the source publishes | 2026-11-18 | 1.5.0 | [10.5281/zenodo.23958753](https://doi.org/10.5281/zenodo.23958753) |
+| [Lawyer advertising rules by state (50 states and DC)](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/) | [`data/rules/`](data/rules/) | 434 | when the source publishes | 2026-11-18 | 1.6.0 | [10.5281/zenodo.24114743](https://doi.org/10.5281/zenodo.24114743) |
 | [Google search-ad costs for lawyer searches by practice area and state: top-of-page bid bands and competition (Google Ads Keyword Planner)](https://probativegrowth.com/data/ad-costs/) | [`data/ad-costs/`](data/ad-costs/) | 2,725 | yearly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23851278](https://doi.org/10.5281/zenodo.23851278) |
 | [Attorneys by county in Ohio, California, Michigan, Idaho, Arizona, Washington and Pennsylvania, from each bar's public counts](https://probativegrowth.com/data/attorneys/) | [`data/attorneys/`](data/attorneys/) | 312 | quarterly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23962861](https://doi.org/10.5281/zenodo.23962861) |
 | [Civil aviation accidents by state, year and type of operation (NTSB), 2008 to 2026](https://probativegrowth.com/data/aviation-accidents/) | [`data/aviation-accidents/`](data/aviation-accidents/) | 985 | monthly | 2026-11-09 | 2.0.1 | [10.5281/zenodo.24116037](https://doi.org/10.5281/zenodo.24116037) |
@@ -150,7 +150,7 @@ Cite the dataset you used, with its DOI from the table above. The pattern:
 
 For example:
 
-> Probative Growth, Lawyer advertising rules by state (50 states and DC), 2026, https://doi.org/10.5281/zenodo.23958753
+> Probative Growth, Lawyer advertising rules by state (50 states and DC), 2026, https://doi.org/10.5281/zenodo.24114743
 
 Every folder has a ready `CITATION.cff` for its own version, and the dataset page (first column) shows the same citation with BibTeX and RIS. GitHub's "Cite this repository" button gives the citation for the collection as a whole; the root `CITATION.cff` lists each dataset with its own DOI under `references`.
 
