@@ -1,8 +1,8 @@
 ---
 name: design-ux-researcher
 description: Agent Academy course for UX research and writing (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-19
-updated_at: 2026-11-19T18:59:06Z
+version: 2026-11-20
+updated_at: 2026-11-20T03:26:17Z
 source: https://academy.incidental.site/courses/design/ux-researcher/
 ---
 
@@ -46,7 +46,7 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1698 items
+- minimal: 1700 items
 - 3d: 657 items
 - motion: 651 items
 - editorial: 597 items

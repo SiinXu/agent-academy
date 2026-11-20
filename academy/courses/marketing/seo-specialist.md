@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-19
-updated_at: 2026-11-19T18:59:06Z
+version: 2026-11-20
+updated_at: 2026-11-20T03:26:17Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -266,6 +266,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @hasdata/tiktok-mcp
   needs_credentials: true, writes_external: false
+- [mcp] SEOcrawl AI. SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines
+  source: https://github.com/SEOcrawl/seocrawl-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seocrawl-mcp.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.seocrawl.ai
+  needs_credentials: true, writes_external: false
 - [mcp] AfterLaunch: the agentic growth marketing engine. Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.
   source: https://github.com/afterlaunch/mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-afterlaunch-agentic-growth-marketing.md
@@ -284,12 +290,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: Apache-2.0
   install: npx -y @workpods/local-seo
   needs_credentials: false, writes_external: false
-- [mcp] SEOcrawl AI. SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines
-  source: https://github.com/SEOcrawl/seocrawl-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seocrawl-mcp.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.seocrawl.ai
-  needs_credentials: true, writes_external: false
 - [mcp] CallAI SEO. Live SEO data: Google/Bing SERP, AI Overview sources, keyword difficulty, backlinks, page audits.
   source: https://github.com/hanshengcc/callai-seo-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-callaiapi-seo.md

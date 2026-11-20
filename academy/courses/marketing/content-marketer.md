@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-19
-updated_at: 2026-11-19T18:59:06Z
+version: 2026-11-20
+updated_at: 2026-11-20T03:26:17Z
 source: https://academy.incidental.site/courses/marketing/content-marketer/
 ---
 
@@ -158,7 +158,7 @@ Read the required skills, prompts and standards in order.
   license: MIT
   install: npx skills add coreyhaines31/marketingskills --skill image
   needs_credentials: false, writes_external: false
-- [skill] link-building. When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link or whether a link tactic is safe: link gaps, unlinked mentions, broken links, guest posts, best-of outreach
+- [skill] link-building. When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link, whether a link tactic is safe, or where to buy placements: link gaps, unlinked mentions, broken links, gue
   source: https://github.com/coreyhaines31/marketingskills/blob/main/skills/link-building/SKILL.md
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/coreyhaines31-marketingskills-skills-link-building.md
   license: MIT
