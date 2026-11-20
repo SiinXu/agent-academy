@@ -6013,6 +6013,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ae.framerfy/store-builder&version=latest"
 },
+"mcp-ai-agentapigate-amazon-product-walmart-shopify-ecommerce-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Walmart, Shopee, TikTok Shop, Shopify & WooCommerce live product & pricing MCP (x402 USDC or key).",
+"name": "ai.agentapigate/amazon-product-walmart-shopify-ecommerce-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.agentapigate.ai/mcp"
+}
+],
+"repository": null,
+"title": "AgentAPIHub — Walmart, Shopee, TikTok Shop, Shopify & WooCommerce Catalog MCP",
+"version": "1.0.0",
+"website": "https://agentapigate.ai"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.agentapigate/amazon-product-walmart-shopify-ecommerce-mcp&version=latest"
+},
 "mcp-ai-alvinsclub-studio-seo": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -7091,6 +7113,33 @@
 "truncated": false,
 "url": "https://github.com/bgrieco22/ariadne-mcp/blob/HEAD/README.md"
 },
+"mcp-com-b2bprofileapi-b2b-shopify-merchant-company-profile-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "B2B e-commerce & SaaS company profile, headcount, tech stack & leadership enrichment API.",
+"name": "com.b2bprofileapi/b2b-shopify-merchant-company-profile-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.b2bprofileapi.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.b2bprofileapi.com/v1/mcp"
+}
+],
+"repository": null,
+"title": null,
+"version": "1.2.0",
+"website": "https://b2bprofileapi.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.b2bprofileapi/b2b-shopify-merchant-company-profile-mcp&version=latest"
+},
 "mcp-com-beehiiv-beehiiv": {
 "file": "data/originals/mcp-com-beehiiv-beehiiv.md",
 "kind": "full",
@@ -7470,6 +7519,30 @@
 "website": "https://framertonextjs.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.framertonextjs/fnj&version=latest"
+},
+"mcp-com-gentleface-icons": {
+"file": "data/originals/mcp-com-gentleface-icons.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Find MIT pixel-aligned icons by meaning; get SVG, React, SwiftUI or Compose code.",
+"name": "com.gentleface/icons",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://gentleface.com/mcp"
+}
+],
+"repository": "https://github.com/andaja/gentleface-icons",
+"title": "Gentleface icons",
+"version": "0.7.0",
+"website": "https://gentleface.com/agents"
+},
+"truncated": false,
+"url": "https://github.com/andaja/gentleface-icons/blob/HEAD/README.md"
 },
 "mcp-com-getmcpads-tiktok-ads": {
 "file": "data/originals/mcp-com-getmcpads-tiktok-ads.md",
@@ -9164,72 +9237,6 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seorecords/seo-records-corrector&version=latest"
 },
-"mcp-com-seowrench-seowrench": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Technical SEO and AI-readiness audits for any page, plus a check that your fix worked.",
-"name": "com.seowrench/seowrench",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://api.seowrench.com/mcp/account"
-},
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://api.seowrench.com/mcp"
-}
-],
-"repository": null,
-"title": "SEOWrench",
-"version": "1.0.0",
-"website": "https://seowrench.com/mcp"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seowrench/seowrench&version=latest"
-},
-"mcp-com-serp-agent-seo": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Full-cycle SEO automation for AI agents: technical audits, SEO articles, machine-readable pricing.",
-"name": "com.serp-agent/seo",
-"packages": [
-{
-"env": [
-{
-"description": "SERP Agent API key (sk_...). Free sandbox key: POST https://serp-agent.com/v1/accounts",
-"name": "SERPAGENT_API_KEY",
-"required": true,
-"secret": true
-}
-],
-"id": "serpagent-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "1.0.1"
-}
-],
-"remotes": [
-{
-"headers": [
-"Authorization"
-],
-"type": "streamable-http",
-"url": "https://serp-agent.com/mcp"
-}
-],
-"repository": "https://github.com/lonchdigital/serpagent-mcp",
-"title": "SERP Agent SEO",
-"version": "1.0.1",
-"website": "https://serp-agent.com"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.serp-agent/seo&version=latest"
-},
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9251,6 +9258,33 @@
 "website": "https://www.shadcndesign.com/docs/ds-manager-mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shadcndesign.manager/ds-manager&version=latest"
+},
+"mcp-com-shopdataapi-amazon-product-walmart-shopify-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "E-commerce product catalog, pricing, reviews & search API across major retail marketplaces.",
+"name": "com.shopdataapi/amazon-product-walmart-shopify-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.shopdataapi.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.shopdataapi.com/v1/mcp"
+}
+],
+"repository": null,
+"title": null,
+"version": "1.2.0",
+"website": "https://shopdataapi.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shopdataapi/amazon-product-walmart-shopify-mcp&version=latest"
 },
 "mcp-com-shopdataapi-amazon-walmart-shopee-tiktok-shop-ecommerce-mcp": {
 "kind": "excerpt",
@@ -9306,6 +9340,33 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shortvidapi/tiktok-instagram-reels-shorts-mcp&version=latest"
 },
+"mcp-com-shortvidapi-tiktok-instagram-videos-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Short-form video metadata, creator profiles, comments & trend discovery API for AI agents.",
+"name": "com.shortvidapi/tiktok-instagram-videos-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.shortvidapi.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.shortvidapi.com/v1/mcp"
+}
+],
+"repository": null,
+"title": null,
+"version": "1.2.0",
+"website": "https://shortvidapi.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shortvidapi/tiktok-instagram-videos-mcp&version=latest"
+},
 "mcp-com-skaidigital-shopify-speed-check": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9327,28 +9388,6 @@
 "website": "https://www.skaidigital.com/tools/shopify-speed-test"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.skaidigital/shopify-speed-check&version=latest"
-},
-"mcp-com-snowseo-snowseo": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Track AI visibility, SERP rankings, site audits and Search Console data, and create SEO content.",
-"name": "com.snowseo/snowseo",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://mcp.snowseo.com/mcp"
-}
-],
-"repository": null,
-"title": "SnowSEO",
-"version": "1.0.0",
-"website": "https://snowseo.com/docs/api-reference/mcp"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.snowseo/snowseo&version=latest"
 },
 "mcp-com-standardicon-icons": {
 "file": "data/originals/mcp-com-standardicon-icons.md",
@@ -11653,6 +11692,30 @@
 "truncated": false,
 "url": "https://github.com/fruggr/zendesk-mcp-server/blob/HEAD/README.md"
 },
+"mcp-io-github-fxjima-shopify-woocommerce-store-intelligence": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Profile Shopify and WooCommerce stores by domain: theme, catalog, prices, apps, business contacts.",
+"name": "io.github.fxjima/shopify-woocommerce-store-intelligence",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=fxjima/shopify-woocommerce-store-intelligence"
+}
+],
+"repository": null,
+"title": "Shopify & WooCommerce Store Intelligence",
+"version": "0.1.4",
+"website": "https://apify.com/fxjima/shopify-woocommerce-store-intelligence"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.fxjima/shopify-woocommerce-store-intelligence&version=latest"
+},
 "mcp-io-github-glips-figma-context-mcp": {
 "file": "data/originals/mcp-io-github-glips-figma-context-mcp.md",
 "kind": "full",
@@ -11953,13 +12016,13 @@
 "id": "custovox-ticket-scorer",
 "transport": "stdio",
 "type": "pypi",
-"version": "1.0.1"
+"version": "1.0.2"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/jeremdecustovox/custovox-ai",
 "title": null,
-"version": "1.0.1",
+"version": "1.0.2",
 "website": "https://custovox.ai"
 },
 "truncated": false,
@@ -12375,6 +12438,32 @@
 },
 "truncated": false,
 "url": "https://github.com/lanternrow/tiktok-organic-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-lergassy-tiktok-shop": {
+"file": "data/originals/mcp-io-github-lergassy-tiktok-shop.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "TikTok Shop best sellers, videos, creators, shops, search and reviews in 15 markets (Apify)",
+"name": "io.github.lergassy/tiktok-shop",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=lergassy/tiktok-shop-top-products-scraper,lergassy/tiktok-shop-videos-scraper,lergassy/tiktok-shop-creators-scraper,lergassy/tiktok-shop-shops-live-scraper,lergassy/tiktok-shop-reviews-scraper,apimy/tiktok-shop-search-scraper"
+}
+],
+"repository": "https://github.com/lergassy/apify-agent-skills",
+"title": "TikTok Shop (Apify)",
+"version": "1.0.0",
+"website": "https://apify.com/lergassy/tiktok-shop-top-products-scraper"
+},
+"truncated": false,
+"url": "https://github.com/lergassy/apify-agent-skills/blob/HEAD/README.md"
 },
 "mcp-io-github-lmslay-tubetext-tiktok-transcripts": {
 "file": "data/originals/mcp-io-github-lmslay-tubetext-tiktok-transcripts.md",
@@ -15189,6 +15278,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.tiktokapi/mcp-server&version=latest"
 },
+"mcp-io-tiktokapi-tiktok-scraper-video-downloader-api-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Real-time TikTok profile, video feed, comments, search & HD media metadata API for AI agents.",
+"name": "io.tiktokapi/tiktok-scraper-video-downloader-api-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.shortvidapi.com/mcp"
+}
+],
+"repository": null,
+"title": null,
+"version": "1.2.0",
+"website": "https://tiktokapi.io"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.tiktokapi/tiktok-scraper-video-downloader-api-mcp&version=latest"
+},
 "mcp-io-usefulapi-zendesk": {
 "file": "data/originals/mcp-io-usefulapi-zendesk.md",
 "kind": "full",
@@ -15775,6 +15886,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-colorise-online-en-shadcn": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-compify-app": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -15852,6 +15970,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-electron-appstack-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-elements-babelize-co": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -15911,6 +16036,14 @@
 "truncated": false,
 "url": "https://github.com/abderrahimghazali/shadcn-fintech/blob/main/README.md"
 },
+"uihub-aw-github-com-abuarchiv-manawg": {
+"file": "data/originals/uihub-aw-github-com-abuarchiv-manawg.md",
+"kind": "full",
+"label": "readme",
+"license": "Apache-2.0",
+"truncated": false,
+"url": "https://github.com/Abuarchiv/manawg/blob/main/README.md"
+},
 "uihub-aw-github-com-agmmnn-tauri-ui": {
 "file": "data/originals/uihub-aw-github-com-agmmnn-tauri-ui.md",
 "kind": "full",
@@ -15918,6 +16051,15 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/agmmnn/tauri-ui/blob/master/README.md"
+},
+"uihub-aw-github-com-agusmdev-fullstack-ai-template": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "none"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-github-com-akii09-pdfx": {
 "file": "data/originals/uihub-aw-github-com-akii09-pdfx.md",
@@ -16199,6 +16341,14 @@
 "truncated": false,
 "url": "https://github.com/loootai/looot-crm/blob/main/README.md"
 },
+"uihub-aw-github-com-mekai-ui-mekai-ui": {
+"file": "data/originals/uihub-aw-github-com-mekai-ui-mekai-ui.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/mekai-ui/mekai-ui/blob/main/README.md"
+},
 "uihub-aw-github-com-melromyeah-mixcn": {
 "file": "data/originals/uihub-aw-github-com-melromyeah-mixcn.md",
 "kind": "full",
@@ -16435,6 +16585,14 @@
 },
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-github-com-vilqor-midnight-lite": {
+"file": "data/originals/uihub-aw-github-com-vilqor-midnight-lite.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/vilqor/midnight-lite/blob/main/README.md"
+},
 "uihub-aw-github-com-vmnog-calendarcn": {
 "file": "data/originals/uihub-aw-github-com-vmnog-calendarcn.md",
 "kind": "full",
@@ -16491,6 +16649,14 @@
 "truncated": false,
 "url": "https://github.com/Yayaw-SAS/Yayaw-Table/blob/main/README.md"
 },
+"uihub-aw-github-com-yilecoding-fastapi-react-admin": {
+"file": "data/originals/uihub-aw-github-com-yilecoding-fastapi-react-admin.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/yile2020/fastapi-react-admin/blob/main/README.md"
+},
 "uihub-aw-github-com-zippystarter-template-devstarter": {
 "file": "data/originals/uihub-aw-github-com-zippystarter-template-devstarter.md",
 "kind": "full",
@@ -16521,6 +16687,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-goodui-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-gradients-sh": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -16563,6 +16736,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-kairoui-online": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-kerry-studio": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -16779,6 +16959,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-aw-scrollfx-ui-vercel-app": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-aw-shadcn-google-maps-vercel-app": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -16899,6 +17086,27 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aw-sureui-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-svg-scroll-draw-vercel-app-blocks": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-swiftui-flexnative-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aw-tentui-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -24504,6 +24712,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-2mk19o6-ai-agent-scheduler-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-2neyugm-apple-like-animation-history": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26759,6 +26974,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-bp32wr8-out-of-place": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-bq4eavc-utility-design-co-brand-exploration": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -29461,6 +29683,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-mo1hnx2-infinite-media-player-loop": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-mot0bqr-enter-the-spectrum": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

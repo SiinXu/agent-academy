@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-11-20T03:26:17Z",
+ "updated_at": "2026-11-20T18:36:53Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1049,12 +1049,12 @@
      "install": "npx skills add coreyhaines31/marketingskills --skill ad-creative",
      "security": {
       "audited": false,
-      "executes_code": true,
+      "executes_code": false,
       "needs_credentials": false,
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61537,
+      "repo_stars": 61687,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1099,7 +1099,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61537,
+      "repo_stars": 61687,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1144,7 +1144,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61537,
+      "repo_stars": 61687,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1189,7 +1189,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -1234,7 +1234,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26673,
+      "repo_stars": 26699,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1758,6 +1758,73 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
+     "title": "Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1)",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/brajendrak00068/agentic-ai-video-production",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast.md",
+     "upstream_raw_url": null,
+     "repo": "brajendrak00068/agentic-ai-video-production",
+     "author": "ai.livecore",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/brajendrak00068/agentic-ai-video-production/blob/HEAD/README.md",
+      "record": {
+       "description": "Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.",
+       "name": "ai.livecore/ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [
+          "Authorization"
+         ],
+         "type": "streamable-http",
+         "url": "https://api.livecore.ai/api/v1/misc/mcp"
+        }
+       ],
+       "repository": "https://github.com/brajendrak00068/agentic-ai-video-production",
+       "title": "Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1)",
+       "version": "0.7.0",
+       "website": "https://livecore.ai"
+      }
+     },
+     "install": "remote (streamable-http): https://api.livecore.ai/api/v1/misc/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "Authorization"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 8,
+      "repo_pushed_at": "2026-11-20",
+      "registry_updated_at": "2026-11-18"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-18T18:51:53Z",
+     "updated_at": "2026-11-18T18:51:53Z",
+     "checked_at": "2026-11-18T18:51:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-cesteral-tiktok-mcp",
      "title": "TikTok Ads MCP Server",
      "type": "mcp",
@@ -1826,73 +1893,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-cesteral-tiktok-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
-     "title": "Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1)",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/brajendrak00068/agentic-ai-video-production",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast.md",
-     "upstream_raw_url": null,
-     "repo": "brajendrak00068/agentic-ai-video-production",
-     "author": "ai.livecore",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/brajendrak00068/agentic-ai-video-production/blob/HEAD/README.md",
-      "record": {
-       "description": "Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.",
-       "name": "ai.livecore/ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://api.livecore.ai/api/v1/misc/mcp"
-        }
-       ],
-       "repository": "https://github.com/brajendrak00068/agentic-ai-video-production",
-       "title": "Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1)",
-       "version": "0.7.0",
-       "website": "https://livecore.ai"
-      }
-     },
-     "install": "remote (streamable-http): https://api.livecore.ai/api/v1/misc/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 6,
-      "repo_pushed_at": "2026-11-19",
-      "registry_updated_at": "2026-11-18"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-18T18:51:53Z",
-     "updated_at": "2026-11-18T18:51:53Z",
-     "checked_at": "2026-11-18T18:51:53Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast/",
      "source": "mcp-registry"
     },
     {
@@ -2547,6 +2547,74 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-com-shortvidapi-tiktok-instagram-videos-mcp",
+     "title": "com.shortvidapi/tiktok-instagram-videos-mcp",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "Short-form video metadata, creator profiles, comments & trend discovery API for AI agents.",
+     "summary_lang": "en",
+     "source_url": "https://shortvidapi.com",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "com.shortvidapi",
+     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "MCP Registry record",
+      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.shortvidapi/tiktok-instagram-videos-mcp&version=latest",
+      "record": {
+       "description": "Short-form video metadata, creator profiles, comments & trend discovery API for AI agents.",
+       "name": "com.shortvidapi/tiktok-instagram-videos-mcp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://api.shortvidapi.com/mcp"
+        },
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.shortvidapi.com/v1/mcp"
+        }
+       ],
+       "repository": null,
+       "title": null,
+       "version": "1.2.0",
+       "website": "https://shortvidapi.com"
+      }
+     },
+     "install": "remote (streamable-http): https://api.shortvidapi.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null,
+      "registry_updated_at": "2026-11-20"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-20T18:36:53Z",
+     "updated_at": "2026-11-20T18:36:53Z",
+     "checked_at": "2026-11-20T18:36:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-shortvidapi-tiktok-instagram-videos-mcp/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-shajan-factor42-deep-thought-marketing",
      "title": "Deep Thought Marketing",
      "type": "mcp",
@@ -2670,73 +2738,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-glowytics-marketing-analytics/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-deapi-ai-tiktok-transcript-scraper",
-     "title": "io.github.deapi-ai/tiktok-transcript-scraper",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/deapi-ai/tiktok-transcript-mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": "deapi-ai/tiktok-transcript-mcp",
-     "author": "io.github.deapi-ai",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.deapi-ai/tiktok-transcript-scraper&version=latest",
-      "record": {
-       "description": "AI speech-to-text for public TikTok videos: SRT, VTT, word timings, speaker labels, 90+ languages.",
-       "name": "io.github.deapi-ai/tiktok-transcript-scraper",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [
-          "Authorization"
-         ],
-         "type": "streamable-http",
-         "url": "https://mcp.apify.com?tools=deapi/tiktok-transcript-scraper"
-        }
-       ],
-       "repository": "https://github.com/deapi-ai/tiktok-transcript-mcp",
-       "title": null,
-       "version": "0.1.1",
-       "website": "https://apify.com/deapi/tiktok-transcript-scraper"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.apify.com?tools=deapi/tiktok-transcript-scraper",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "Authorization"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 0,
-      "repo_pushed_at": "2026-08-27",
-      "registry_updated_at": "2026-08-27"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-23T00:43:09Z",
-     "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-17T04:33:55Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-github-deapi-ai-tiktok-transcript-scraper/",
      "source": "mcp-registry"
     }
    ]
@@ -2865,7 +2866,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61537,
+      "repo_stars": 61687,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -2910,7 +2911,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61537,
+      "repo_stars": 61687,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -2955,7 +2956,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61537,
+      "repo_stars": 61687,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -3000,7 +3001,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -3045,7 +3046,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -3090,7 +3091,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",

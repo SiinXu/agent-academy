@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-20
-updated_at: 2026-11-20T03:26:17Z
+updated_at: 2026-11-20T18:36:53Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -139,6 +139,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And…. Act as my Instagram reel script writer and write a script which have strong hook, engaging body,and strong end. And zero skip rate
   source: https://prompts.chat/prompts/cmu0p1286000njl04q18qvg17_act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-hook-engaging-bodyand-st
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-act-as-my-instagram-reel-script-writer-and-write-a-script-which-have-strong-h.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] CPA Program Marketing Campaign. CPA Program In Ethiopia Led by ETiCPA
+  source: https://prompts.chat/prompts/cmwoitcln0005la0851h29dha_cpa-program-marketing-campaign
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-cpa-program-marketing-campaign.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Create Marketing Videos for Magnifiscentss. Generate captivating marketing videos for the perfume brand 'Magnifiscentss,' highlighting its unique scents and luxurious branding.

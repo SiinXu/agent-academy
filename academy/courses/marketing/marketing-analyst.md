@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-20
-updated_at: 2026-11-20T03:26:17Z
+updated_at: 2026-11-20T18:36:53Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -109,6 +109,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] NOOMS Brand Story & Portfolio Background – Storytelling Format. Rewrite NOOMS’ brand story in an emotionally engaging, professional storytelling format. Highlight craftsmanship, consistency, customer focus, and long-term vision. Suitable for portfolio, website, interviews, and public
   source: https://prompts.chat/prompts/cmkl3ofxw0004jr04qjm3mq47_nooms-brand-story-portfolio-background-storytelling-format
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-nooms-brand-story-portfolio-background-storytelling-format.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Performance Marketer for Blockchain Internet Cafe. نسخه‌ی مخصوص دفتر خدمات اینترنتی بلاکچین لنگرود از پرامپت بازاریاب عملکردی — ۱۰ زاویه‌ی تبلیغاتی برای خدمات دفتر با مخاطب محلی، با هوک و CTA برای مراجعه‌ی حضوری.
+  source: https://prompts.chat/prompts/cmwp85w3k0001l30862qxxvsw_performance-marketer-for-blockchain-internet-cafe
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-performance-marketer-for-blockchain-internet-cafe.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Reverse-Engineering Vox's Hybrid Video Strategy. Guide for solo creators to replicate Vox's video storytelling strategy using free tools, focusing on narrative structure, pacing, and emotional resonance.

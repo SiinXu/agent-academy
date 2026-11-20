@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-11-20T03:26:17Z",
+ "updated_at": "2026-11-20T18:36:53Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 197749,
+      "repo_stars": 197984,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -560,7 +560,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 118951,
+      "repo_stars": 119250,
       "repo_pushed_at": "2026-11-08"
      },
      "course_step": "3-learn-rules",
@@ -605,7 +605,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58215,
+      "repo_stars": 58369,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -650,7 +650,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58215,
+      "repo_stars": 58369,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -695,7 +695,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -740,7 +740,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -785,7 +785,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -830,7 +830,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -875,8 +875,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36581,
-      "repo_pushed_at": "2026-11-19"
+      "repo_stars": 36614,
+      "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -920,7 +920,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26673,
+      "repo_stars": 26699,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1929,7 +1929,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
@@ -1992,7 +1992,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2215,
+      "repo_stars": 2217,
       "repo_pushed_at": "2026-11-18",
       "registry_updated_at": "2025-10-16"
      },
@@ -2689,6 +2689,69 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-com-gentleface-icons",
+     "title": "Gentleface icons",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Find MIT pixel-aligned icons by meaning; get SVG, React, SwiftUI or Compose code.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/andaja/gentleface-icons",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-gentleface-icons.md",
+     "upstream_raw_url": null,
+     "repo": "andaja/gentleface-icons",
+     "author": "com.gentleface",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/andaja/gentleface-icons/blob/HEAD/README.md",
+      "record": {
+       "description": "Find MIT pixel-aligned icons by meaning; get SVG, React, SwiftUI or Compose code.",
+       "name": "com.gentleface/icons",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://gentleface.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/andaja/gentleface-icons",
+       "title": "Gentleface icons",
+       "version": "0.7.0",
+       "website": "https://gentleface.com/agents"
+      }
+     },
+     "install": "remote (streamable-http): https://gentleface.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-19",
+      "registry_updated_at": "2026-11-20"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-20T18:36:53Z",
+     "updated_at": "2026-11-20T18:36:53Z",
+     "checked_at": "2026-11-20T18:36:53Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-gentleface-icons/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-mrfentmen-adobe-font-metrics-mcp",
      "title": "io.github.mrfentmen/adobe-font-metrics-mcp",
      "type": "mcp",
@@ -3109,7 +3172,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 151823,
+      "repo_stars": 152099,
       "repo_pushed_at": "2026-11-19"
      },
      "course_step": "3-learn-rules",
@@ -3154,7 +3217,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 151823,
+      "repo_stars": 152099,
       "repo_pushed_at": "2026-11-19"
      },
      "course_step": "3-learn-rules",
@@ -3199,7 +3262,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 58215,
+      "repo_stars": 58369,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -3244,7 +3307,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -3289,7 +3352,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -3334,7 +3397,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -3379,7 +3442,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42713,
+      "repo_stars": 42733,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "3-learn-rules",
@@ -3424,8 +3487,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36581,
-      "repo_pushed_at": "2026-11-19"
+      "repo_stars": 36614,
+      "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3469,8 +3532,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36581,
-      "repo_pushed_at": "2026-11-19"
+      "repo_stars": 36614,
+      "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3514,8 +3577,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36581,
-      "repo_pushed_at": "2026-11-19"
+      "repo_stars": 36614,
+      "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3559,7 +3622,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26673,
+      "repo_stars": 26699,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

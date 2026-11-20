@@ -2,7 +2,7 @@
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-20
-updated_at: 2026-11-20T03:26:17Z
+updated_at: 2026-11-20T18:36:53Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -46,13 +46,13 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1700 items
+- minimal: 1714 items
 - 3d: 657 items
 - motion: 651 items
 - editorial: 597 items
 - playful: 571 items
-- gradient: 290 items
-- retro: 119 items
+- gradient: 291 items
+- retro: 120 items
 - dark-tech: 110 items
 - glass: 57 items
 - enterprise: 45 items
@@ -320,6 +320,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/MrCoder/figmamcp-releases
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   needs_credentials: false, writes_external: false
+- [mcp] Gentleface icons. Find MIT pixel-aligned icons by meaning; get SVG, React, SwiftUI or Compose code.
+  source: https://github.com/andaja/gentleface-icons
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-gentleface-icons.md
+  license: MIT
+  install: remote (streamable-http): https://gentleface.com/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] io.github.mrfentmen/adobe-font-metrics-mcp. Adobe Font Metrics MCP: read, check, lint, scaffold and run code.
   source: https://github.com/mrfentmen/awesome-servers
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
