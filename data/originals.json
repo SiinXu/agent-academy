@@ -7631,6 +7631,30 @@
 "truncated": false,
 "url": "https://github.com/get-mcp-ads/tiktok-ads-mcp-server/blob/HEAD/README.md"
 },
+"mcp-com-getrailhq-seorail": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "SEO data for your sites: keyword ideas, rank tracking, audits, backlinks, competitor gaps.",
+"name": "com.getrailhq/seorail",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://seorail.com/api/mcp"
+}
+],
+"repository": null,
+"title": "Seorail",
+"version": "1.0.0",
+"website": "https://seorail.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.getrailhq/seorail&version=latest"
+},
 "mcp-com-getseoheatmap-seo-heatmap": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -11680,13 +11704,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.11.0"
+"version": "3.12.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.11.0",
+"version": "3.12.0",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -12638,6 +12662,28 @@
 "truncated": false,
 "url": "https://github.com/Mehmoodqureshi/figma-codekit-mcp/blob/HEAD/README.md"
 },
+"mcp-io-github-memeanalyst-shopify-actor-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Find e-commerce sites ready to migrate to Shopify, scored leads, by Magnova",
+"name": "io.github.memeanalyst/shopify-actor-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/Shopify-Actor"
+}
+],
+"repository": "https://github.com/memeanalyst/shopify-actor-mcp",
+"title": "Shopify Store Scraper — E-commerce Migration Leads",
+"version": "1.0.0",
+"website": null
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.memeanalyst/shopify-actor-mcp&version=latest"
+},
 "mcp-io-github-memeanalyst-tiktok-scraper-mcp": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -12924,16 +12970,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.20/figmamcp-0.1.20-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.21/figmamcp-0.1.21-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.20"
+"version": "0.1.21"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.20",
+"version": "0.1.21",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -25370,6 +25416,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-4zbyp6z-coupon-dust-microinteraction": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-52i0tpn-webgl-heightfield-cards": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26588,6 +26641,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-a4hb69f-voice-ui-library": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-a53letz-outfit-planner-lookscope": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26981,6 +27041,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-bq4eavc-utility-design-co-brand-exploration": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-bqdwuaq-payment-swipe-interaction": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -29459,6 +29526,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ltfrzqh-creature-app-icon-explorations": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ltfstm1-billiard-hold-buttons": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

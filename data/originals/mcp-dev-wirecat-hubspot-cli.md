@@ -209,8 +209,8 @@ Changing a deal, contact or company with its command goes ahead; deleting one as
 or companies checks the key of the command that does the same, so `deals.update deny` or `people deny` holds on both
 paths, as in amoCRM and b24. Another `api` write also checks its group's `.write`, such as `notes.write`, and every
 delete its `<group>.delete`: both ask. A key belongs to the account, not to a person, so giving a record an owner checks
-`crm.assign-others`, which is `deny` until you allow it. A GDPR delete of a contact checks `people.erase` as well, so
-you can deny it alone.
+`crm.assign-others`, which is `deny` until you allow it. A GDPR delete of a contact checks `people.erase`, which is
+`deny` until you allow it.
 
 ```sh
 hubspot work config set permissions.people deny   # this profile reads no contacts
