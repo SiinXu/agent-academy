@@ -18,10 +18,10 @@ One skill:
 npx skills add lergassy/apify-agent-skills --skill apify-flight-search
 ```
 
-Claude Code plugin marketplace:
+Claude Code plugin, all five skills in one step:
 
 ```
-/plugin marketplace add lergassy/apify-agent-skills
+/plugin install apify-ecommerce-travel-data --marketplace lergassy/apify-agent-skills
 ```
 
 You need an Apify account and token (`APIFY_TOKEN`, or `apify login` with the [Apify CLI](https://docs.apify.com/cli)). The same Actors work through the [Apify MCP server](https://mcp.apify.com).

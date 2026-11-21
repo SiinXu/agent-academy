@@ -201,7 +201,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Printful](servers/printful/) | ecommerce | 25 | API token | [servers/printful/](servers/printful/) |
 | [Recruitee](servers/recruitee/) | productivity | 26 | API token | [servers/recruitee/](servers/recruitee/) |
 | [Rewardful](servers/rewardful/) | marketing | 24 | API token | [servers/rewardful/](servers/rewardful/) |
-| [sevdesk](servers/sevdesk/) | billing | 24 | API token | [servers/sevdesk/](servers/sevdesk/) |
+| [sevdesk](servers/sevdesk/) | billing | 27 | API token | [servers/sevdesk/](servers/sevdesk/) |
 | [Shopmonkey](servers/shopmonkey/) | productivity | 49 | API token | [servers/shopmonkey/](servers/shopmonkey/) |
 | [Smile.io](servers/smile-io/) | ecommerce | 18 | API token | [servers/smile-io/](servers/smile-io/) |
 | [Smoobu](servers/smoobu/) | productivity | 25 | API token | [servers/smoobu/](servers/smoobu/) |
@@ -254,7 +254,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Teamgate](servers/teamgate/) | crm | 38 | API token | [servers/teamgate/](servers/teamgate/) |
 | [Homebase](servers/homebase/) | productivity | 20 | API token | [servers/homebase/](servers/homebase/) |
 | [Benchmark Email](servers/benchmark-email/) | email | 29 | API token | [servers/benchmark-email/](servers/benchmark-email/) |
-| [eDesk](servers/edesk/) | support | 22 | API token | [servers/edesk/](servers/edesk/) |
+| [eDesk](servers/edesk/) | support | 23 | API token | [servers/edesk/](servers/edesk/) |
 | [Encharge](servers/encharge/) | email | 14 | API token | [servers/encharge/](servers/encharge/) |
 | [Sendlane](servers/sendlane/) | email | 35 | API token | [servers/sendlane/](servers/sendlane/) |
 | [Simple Analytics](servers/simple-analytics/) | analytics | 10 | API token | [servers/simple-analytics/](servers/simple-analytics/) |

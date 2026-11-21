@@ -6553,6 +6553,28 @@
 "truncated": false,
 "url": "https://github.com/trendsmcp-ai/tiktok-trends-mcp/blob/HEAD/README.md"
 },
+"mcp-ai-tsoden-serp-tsoden-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Google rankings and brand visibility in AI answers from a Tsoden SERP Checker account (OAuth).",
+"name": "ai.tsoden.serp/tsoden-seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://serp.tsoden.ai/mcp"
+}
+],
+"repository": null,
+"title": "Tsoden SEO & AEO",
+"version": "1.2.0",
+"website": "https://serp.tsoden.ai/integrations/ai-assistants"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.tsoden.serp/tsoden-seo&version=latest"
+},
 "mcp-ai-workpods-local-seo": {
 "file": "data/originals/mcp-ai-workpods-local-seo.md",
 "kind": "full",
@@ -8176,13 +8198,13 @@
 "id": "@keyline-icons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "2.7.0"
+"version": "2.9.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/keyline-icons/keyline-icons",
 "title": "Keyline Icons",
-"version": "2.7.0",
+"version": "2.9.0",
 "website": "https://keylineicons.com"
 },
 "truncated": false,
@@ -8669,6 +8691,28 @@
 "website": "https://nodoicons.com/docs/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.nodoicons/nodo-icons&version=latest"
+},
+"mcp-com-notacompany-newsletter": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "The companies VCs just backed, hand-picked by Tiago: read the picks and subscribe.",
+"name": "com.notacompany/newsletter",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://www.notacompany.com/mcp"
+}
+],
+"repository": null,
+"title": "The world according to capital",
+"version": "12.2.0",
+"website": "https://www.notacompany.com/the-world-according-to-capital"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.notacompany/newsletter&version=latest"
 },
 "mcp-com-nuxtseo-nuxt-seo": {
 "kind": "excerpt",
@@ -9236,30 +9280,6 @@
 "website": "https://seorecords.com/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seorecords/seo-records&version=latest"
-},
-"mcp-com-seorecords-seo-records-corrector": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Fixes the SEO of any public page, each fix with its value, source and HTML tag (access pass).",
-"name": "com.seorecords/seo-records-corrector",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"x-access-key"
-],
-"type": "streamable-http",
-"url": "https://api.seorecords.com/mcp/corrector"
-}
-],
-"repository": null,
-"title": "SEO Records Corrector",
-"version": "1.0.2",
-"website": "https://seorecords.com/assistants"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seorecords/seo-records-corrector&version=latest"
 },
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
@@ -12040,14 +12060,14 @@
 "id": "custovox-ticket-scorer",
 "transport": "stdio",
 "type": "pypi",
-"version": "1.0.2"
+"version": "1.0.3"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/jeremdecustovox/custovox-ai",
 "title": null,
-"version": "1.0.2",
-"website": "https://custovox.ai"
+"version": "1.0.3",
+"website": "https://custovox.ai/?utm_source=mcp-registry&utm_medium=directory&utm_campaign=devcampagne-2026-11"
 },
 "truncated": false,
 "url": "https://github.com/jeremdecustovox/custovox-ai/blob/HEAD/README.md"
@@ -12970,16 +12990,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.21/figmamcp-0.1.21-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.22/figmamcp-0.1.22-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.21"
+"version": "0.1.22"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.21",
+"version": "0.1.22",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
