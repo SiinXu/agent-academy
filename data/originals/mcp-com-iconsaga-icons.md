@@ -6,7 +6,7 @@
 
 **Icons that match. In your colors.**
 
-IconSaga has <!-- sync:icons -->5,511<!-- /sync --> free icons for your website, slides and documents, all drawn in one style so they belong together.
+IconSaga has <!-- sync:icons -->5,517<!-- /sync --> free icons for your website, slides and documents, all drawn in one style so they belong together.
 
 **Use them yourself, or let your AI pick them for you.**
 
@@ -113,7 +113,7 @@ Two short examples: **[a website section](examples/website-section.md)** · **[a
 
 | | Free | Pro |
 |---|---|---|
-| All <!-- sync:icons -->5,511<!-- /sync --> icons, in three styles and your colors | Yes | Yes |
+| All <!-- sync:icons -->5,517<!-- /sync --> icons, in three styles and your colors | Yes | Yes |
 | Use them in your own work and your clients' work | Yes, with one credit line | Yes, no credit line |
 | Your AI can use IconSaga | <!-- sync:guest-per-day -->30<!-- /sync --> times a day without an account, <!-- sync:free-per-month -->1,000<!-- /sync --> a month with a free account | <!-- sync:pro-per-month -->20,000<!-- /sync --> times a month |
 | Moving icons for slides and videos | <!-- sync:free-exports -->10<!-- /sync --> a month with a free account | No limit |

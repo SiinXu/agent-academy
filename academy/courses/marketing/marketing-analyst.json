@@ -2,7 +2,7 @@
  "id": "marketing/marketing-analyst",
  "industry": "marketing",
  "role": "marketing-analyst",
- "updated_at": "2026-11-22T02:18:08Z",
+ "updated_at": "2026-11-22T17:49:51Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -395,7 +395,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61895,
+      "repo_stars": 62009,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -440,7 +440,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61895,
+      "repo_stars": 62009,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -485,7 +485,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61895,
+      "repo_stars": 62009,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -530,8 +530,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42780,
-      "repo_pushed_at": "2026-11-21"
+      "repo_stars": 42789,
+      "repo_pushed_at": "2026-11-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -575,8 +575,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42780,
-      "repo_pushed_at": "2026-11-21"
+      "repo_stars": 42789,
+      "repo_pushed_at": "2026-11-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -620,8 +620,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42780,
-      "repo_pushed_at": "2026-11-21"
+      "repo_stars": 42789,
+      "repo_pushed_at": "2026-11-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -908,6 +908,69 @@
      },
      "page": "https://academy.incidental.site/r/m-pineapple-hubspot-auditor/",
      "source": "seed"
+    },
+    {
+     "id": "mcp-com-posthog-mcp",
+     "title": "PostHog",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "marketing-analyst"
+     ],
+     "summary": "Query analytics, manage feature flags and experiments, and investigate errors in PostHog.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/PostHog/posthog",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-posthog-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "PostHog/posthog",
+     "author": "com.posthog",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md",
+      "record": {
+       "description": "Query analytics, manage feature flags and experiments, and investigate errors in PostHog.",
+       "name": "com.posthog/mcp",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.posthog.com/mcp"
+        }
+       ],
+       "repository": "https://github.com/PostHog/posthog",
+       "title": "PostHog",
+       "version": "1.0.0",
+       "website": "https://posthog.com/docs/model-context-protocol"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.posthog.com/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 41022,
+      "repo_pushed_at": "2026-11-22",
+      "registry_updated_at": "2026-11-22"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-22T17:49:51Z",
+     "updated_at": "2026-11-22T17:49:51Z",
+     "checked_at": "2026-11-22T17:49:51Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-posthog-mcp/",
+     "source": "mcp-registry"
     },
     {
      "id": "mcp-ai-saifs-marketing-intelligence",
@@ -1589,7 +1652,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61895,
+      "repo_stars": 62009,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1634,7 +1697,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61895,
+      "repo_stars": 62009,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1679,7 +1742,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61895,
+      "repo_stars": 62009,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1724,8 +1787,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42780,
-      "repo_pushed_at": "2026-11-21"
+      "repo_stars": 42789,
+      "repo_pushed_at": "2026-11-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1769,8 +1832,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42780,
-      "repo_pushed_at": "2026-11-21"
+      "repo_stars": 42789,
+      "repo_pushed_at": "2026-11-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1814,8 +1877,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42780,
-      "repo_pushed_at": "2026-11-21"
+      "repo_stars": 42789,
+      "repo_pushed_at": "2026-11-22"
      },
      "course_step": "3-learn-rules",
      "status": "active",

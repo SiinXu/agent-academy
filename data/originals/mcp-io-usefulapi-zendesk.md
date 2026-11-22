@@ -220,7 +220,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Lightspeed Retail (X-Series)](servers/lightspeed-x-series/) | ecommerce | 34 | OAuth | [servers/lightspeed-x-series/](servers/lightspeed-x-series/) |
 | [FreeAgent](servers/freeagent/) | billing | 24 | OAuth | [servers/freeagent/](servers/freeagent/) |
 | [Airbrake](servers/airbrake/) | observability | 17 | API token | [servers/airbrake/](servers/airbrake/) |
-| [ChurchSuite](servers/churchsuite/) | crm | 29 | API token | [servers/churchsuite/](servers/churchsuite/) |
+| [ChurchSuite](servers/churchsuite/) | crm | 33 | API token | [servers/churchsuite/](servers/churchsuite/) |
 | [Cin7 Core](servers/cin7-core/) | ecommerce | 21 | API token | [servers/cin7-core/](servers/cin7-core/) |
 | [Connecteam](servers/connecteam/) | productivity | 23 | API token | [servers/connecteam/](servers/connecteam/) |
 | [Gingr](servers/gingr/) | productivity | 29 | API token | [servers/gingr/](servers/gingr/) |

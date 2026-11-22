@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-22
-updated_at: 2026-11-22T02:18:08Z
+updated_at: 2026-11-22T17:49:51Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -266,6 +266,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @hasdata/tiktok-mcp
   needs_credentials: true, writes_external: false
+- [mcp] Local SEO by WorkPods. Audit Google Business Profiles, reviews and Maps rankings, and check a site's NAP and schema.
+  source: https://github.com/WorkPodsAgents/local-seo
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-workpods-local-seo.md
+  license: Apache-2.0
+  install: npx -y @workpods/local-seo
+  needs_credentials: false, writes_external: false
 - [mcp] SEOcrawl AI. SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines
   source: https://github.com/SEOcrawl/seocrawl-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seocrawl-mcp.md
@@ -284,12 +290,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://mcp.jiyumarketing.com/mcp?src=registry
   needs_credentials: true, writes_external: false
-- [mcp] Local SEO by WorkPods. Audit Google Business Profiles, reviews and Maps rankings, and check a site's NAP and schema.
-  source: https://github.com/WorkPodsAgents/local-seo
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-workpods-local-seo.md
-  license: Apache-2.0
-  install: npx -y @workpods/local-seo
-  needs_credentials: false, writes_external: false
 - [mcp] CallAI SEO. Live SEO data: Google/Bing SERP, AI Overview sources, keyword difficulty, backlinks, page audits.
   source: https://github.com/hanshengcc/callai-seo-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-callaiapi-seo.md

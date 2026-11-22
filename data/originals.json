@@ -6108,7 +6108,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Build and run AI image and video campaign flows on your Campaign Magic team's canvas.",
+"description": "Build and run AI image, video and audio campaign flows on your Campaign Magic team's canvas.",
 "name": "ai.campaignmagic/campaign-magic",
 "packages": [],
 "remotes": [
@@ -6120,7 +6120,7 @@
 ],
 "repository": null,
 "title": "Campaign Magic",
-"version": "1.0.0",
+"version": "1.0.1",
 "website": "https://campaignmagic.ai/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.campaignmagic/campaign-magic&version=latest"
@@ -6351,7 +6351,7 @@
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.10.1",
+"version": "1.24.0",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -8783,6 +8783,30 @@
 "website": "https://seo.penguindriver.com"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.penguindriver/seo&version=latest"
+},
+"mcp-com-posthog-mcp": {
+"file": "data/originals/mcp-com-posthog-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Query analytics, manage feature flags and experiments, and investigate errors in PostHog.",
+"name": "com.posthog/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.posthog.com/mcp"
+}
+],
+"repository": "https://github.com/PostHog/posthog",
+"title": "PostHog",
+"version": "1.0.0",
+"website": "https://posthog.com/docs/model-context-protocol"
+},
+"truncated": false,
+"url": "https://github.com/PostHog/posthog/blob/HEAD/README.md"
 },
 "mcp-com-probativegrowth-legal-marketing-data": {
 "file": "data/originals/mcp-com-probativegrowth-legal-marketing-data.md",
@@ -13040,16 +13064,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.22/figmamcp-0.1.22-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.25/figmamcp-0.1.25-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.22"
+"version": "0.1.25"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.22",
+"version": "0.1.25",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -23043,6 +23067,14 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-neoruaa-glasmio": {
+"file": "data/originals/uihub-gh-neoruaa-glasmio.md",
+"kind": "full",
+"label": "readme",
+"license": "Apache-2.0",
+"truncated": false,
+"url": "https://github.com/NEORUAA/Glasmio/blob/main/README.md"
 },
 "uihub-gh-nexu-io-codex-slides": {
 "kind": "excerpt",

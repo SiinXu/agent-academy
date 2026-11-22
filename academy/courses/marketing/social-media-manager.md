@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-22
-updated_at: 2026-11-22T02:18:08Z
+updated_at: 2026-11-22T17:49:51Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -230,7 +230,7 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [mcp] Campaign Magic. Build and run AI image and video campaign flows on your Campaign Magic team's canvas.
+- [mcp] Campaign Magic. Build and run AI image, video and audio campaign flows on your Campaign Magic team's canvas.
   source: https://campaignmagic.ai/mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://campaignmagic.ai/api/mcp
