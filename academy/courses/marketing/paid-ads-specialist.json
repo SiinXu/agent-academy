@@ -2,7 +2,7 @@
  "id": "marketing/paid-ads-specialist",
  "industry": "marketing",
  "role": "paid-ads-specialist",
- "updated_at": "2026-11-21T17:33:18Z",
+ "updated_at": "2026-11-22T02:18:08Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -1054,7 +1054,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61841,
+      "repo_stars": 61895,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1099,7 +1099,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61841,
+      "repo_stars": 61895,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1144,7 +1144,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61841,
+      "repo_stars": 61895,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -1189,7 +1189,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42769,
+      "repo_stars": 42780,
       "repo_pushed_at": "2026-11-21"
      },
      "course_step": "3-learn-rules",
@@ -1234,7 +1234,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26719,
+      "repo_stars": 26717,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -1614,6 +1614,69 @@
    "step": "4-do-it",
    "read": [
     {
+     "id": "mcp-com-superagnt-tiktok-data",
+     "title": "com.superagnt/tiktok-data",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/superagnt/plugins",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md",
+     "upstream_raw_url": null,
+     "repo": "superagnt/plugins",
+     "author": "com.superagnt",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/superagnt/plugins/blob/HEAD/README.md",
+      "record": {
+       "description": "superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.",
+       "name": "com.superagnt/tiktok-data",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.superagnt.com/mcp/tiktok"
+        }
+       ],
+       "repository": "https://github.com/superagnt/plugins",
+       "title": null,
+       "version": "0.2.0",
+       "website": "https://superagnt.com/r/reg-tiktok-data-docs"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 10,
+      "repo_pushed_at": "2026-11-16",
+      "registry_updated_at": "2026-10-29"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-23T00:43:09Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-com-superagnt-tiktok-data/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-io-github-buer2333-tiktok-shop-mcp",
      "title": "TikTok Shop",
      "type": "mcp",
@@ -1692,69 +1755,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-buer2333-tiktok-shop-mcp/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-superagnt-tiktok-data",
-     "title": "com.superagnt/tiktok-data",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/superagnt/plugins",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md",
-     "upstream_raw_url": null,
-     "repo": "superagnt/plugins",
-     "author": "com.superagnt",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/superagnt/plugins/blob/HEAD/README.md",
-      "record": {
-       "description": "superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.",
-       "name": "com.superagnt/tiktok-data",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://mcp.superagnt.com/mcp/tiktok"
-        }
-       ],
-       "repository": "https://github.com/superagnt/plugins",
-       "title": null,
-       "version": "0.2.0",
-       "website": "https://superagnt.com/r/reg-tiktok-data-docs"
-      }
-     },
-     "install": "remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": 9,
-      "repo_pushed_at": "2026-11-16",
-      "registry_updated_at": "2026-10-29"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-23T00:43:09Z",
-     "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-17T04:33:55Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-com-superagnt-tiktok-data/",
      "source": "mcp-registry"
     },
     {
@@ -2203,6 +2203,69 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-lanternrow-tiktok-organic-mcp/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-dev-1social-tiktok",
+     "title": "TikTok by 1Social",
+     "type": "mcp",
+     "industry": "marketing",
+     "roles": [
+      "paid-ads-specialist"
+     ],
+     "summary": "Publish and schedule TikTok videos and photo posts from your AI assistant.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/sultanlive/1social-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-1social-tiktok.md",
+     "upstream_raw_url": null,
+     "repo": "sultanlive/1social-mcp",
+     "author": "dev.1social",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sultanlive/1social-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Publish and schedule TikTok videos and photo posts from your AI assistant.",
+       "name": "dev.1social/tiktok",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.1social.dev/mcp/tiktok"
+        }
+       ],
+       "repository": "https://github.com/sultanlive/1social-mcp",
+       "title": "TikTok by 1Social",
+       "version": "1.0.3",
+       "website": "https://1social.dev/post-to/tiktok"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.1social.dev/mcp/tiktok",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 1,
+      "repo_pushed_at": "2026-11-21",
+      "registry_updated_at": "2026-11-21"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-28T01:26:45Z",
+     "updated_at": "2026-11-22T02:18:08Z",
+     "checked_at": "2026-11-17T04:33:55Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-dev-1social-tiktok/",
      "source": "mcp-registry"
     },
     {
@@ -2676,69 +2739,6 @@
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-shajan-factor42-deep-thought-marketing/",
      "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-com-glowytics-marketing-analytics",
-     "title": "Glowytics",
-     "type": "mcp",
-     "industry": "marketing",
-     "roles": [
-      "paid-ads-specialist"
-     ],
-     "summary": "Ask about ad spend, ROAS, sales, GA4 traffic and top products across Google, Meta and your store.",
-     "summary_lang": "en",
-     "source_url": "https://glowytics.com/mcp",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "com.glowytics",
-     "license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "MCP Registry record",
-      "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.glowytics/marketing-analytics&version=latest",
-      "record": {
-       "description": "Ask about ad spend, ROAS, sales, GA4 traffic and top products across Google, Meta and your store.",
-       "name": "com.glowytics/marketing-analytics",
-       "packages": [],
-       "remotes": [
-        {
-         "headers": [],
-         "type": "streamable-http",
-         "url": "https://api.glowytics.com/mcp"
-        }
-       ],
-       "repository": null,
-       "title": "Glowytics",
-       "version": "1.0.0",
-       "website": "https://glowytics.com/mcp"
-      }
-     },
-     "install": "remote (streamable-http): https://api.glowytics.com/mcp",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": []
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null,
-      "registry_updated_at": "2026-11-19"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-11-19T18:59:06Z",
-     "updated_at": "2026-11-19T18:59:06Z",
-     "checked_at": "2026-11-19T18:59:06Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-com-glowytics-marketing-analytics/",
-     "source": "mcp-registry"
     }
    ]
   },
@@ -2866,7 +2866,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61841,
+      "repo_stars": 61895,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -2911,7 +2911,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61841,
+      "repo_stars": 61895,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -2956,7 +2956,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 61841,
+      "repo_stars": 61895,
       "repo_pushed_at": "2026-11-20"
      },
      "course_step": "3-learn-rules",
@@ -3001,7 +3001,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42769,
+      "repo_stars": 42780,
       "repo_pushed_at": "2026-11-21"
      },
      "course_step": "3-learn-rules",
@@ -3046,7 +3046,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42769,
+      "repo_stars": 42780,
       "repo_pushed_at": "2026-11-21"
      },
      "course_step": "3-learn-rules",
@@ -3091,7 +3091,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42769,
+      "repo_stars": 42780,
       "repo_pushed_at": "2026-11-21"
      },
      "course_step": "3-learn-rules",

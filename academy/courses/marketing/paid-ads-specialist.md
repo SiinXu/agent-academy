@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-21
-updated_at: 2026-11-21T17:33:18Z
+version: 2026-11-22
+updated_at: 2026-11-22T02:18:08Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -183,17 +183,17 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
-- [mcp] TikTok Shop. Read-only TikTok Shop Partner API: orders, finance, products and analytics across shops.
-  source: https://github.com/Buer2333/tiktok-shop-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-shop-mcp.md
-  license: MIT
-  install: uvx tiktok-shop-mcp
-  needs_credentials: true, writes_external: false
 - [mcp] com.superagnt/tiktok-data. superagnt: marketing plugin for Claude and ChatGPT. Know your market: TikTok videos and creators.
   source: https://github.com/superagnt/plugins
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-superagnt-tiktok-data.md
   license: MIT
   install: remote (streamable-http): https://mcp.superagnt.com/mcp/tiktok
+  needs_credentials: true, writes_external: false
+- [mcp] TikTok Shop. Read-only TikTok Shop Partner API: orders, finance, products and analytics across shops.
+  source: https://github.com/Buer2333/tiktok-shop-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-buer2333-tiktok-shop-mcp.md
+  license: MIT
+  install: uvx tiktok-shop-mcp
   needs_credentials: true, writes_external: false
 - [mcp] Levea — Autonomous AI Video Editor (37 Tools, 280+ Caption Templates, OAuth 2.1). Autonomous AI video editor over MCP: 280+ captions, 9:16 reframe, B-roll, podcast sync, VFX, MP4.
   source: https://github.com/brajendrak00068/agentic-ai-video-production
@@ -231,6 +231,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y tiktok-organic-mcp
   needs_credentials: true, writes_external: false
+- [mcp] TikTok by 1Social. Publish and schedule TikTok videos and photo posts from your AI assistant.
+  source: https://github.com/sultanlive/1social-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-1social-tiktok.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.1social.dev/mcp/tiktok
+  needs_credentials: true, writes_external: true
 - [mcp] TikTok Trends MCP. TikTok hashtag volume over time, with growth for any hashtag. Free key at trendsmcp.ai
   source: https://github.com/trendsmcp-ai/tiktok-trends-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-trendsmcp-tiktok.md
@@ -270,11 +276,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.deepthought.marketing/mcp
   needs_credentials: true, writes_external: true
-- [mcp] Glowytics. Ask about ad spend, ROAS, sales, GA4 traffic and top products across Google, Meta and your store.
-  source: https://glowytics.com/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://api.glowytics.com/mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

@@ -6554,9 +6554,10 @@
 "url": "https://github.com/trendsmcp-ai/tiktok-trends-mcp/blob/HEAD/README.md"
 },
 "mcp-ai-tsoden-serp-tsoden-seo": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
+"file": "data/originals/mcp-ai-tsoden-serp-tsoden-seo.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
 "record": {
 "description": "Google rankings and brand visibility in AI answers from a Tsoden SERP Checker account (OAuth).",
 "name": "ai.tsoden.serp/tsoden-seo",
@@ -6568,12 +6569,13 @@
 "url": "https://serp.tsoden.ai/mcp"
 }
 ],
-"repository": null,
+"repository": "https://github.com/notformal/tsoden-ai-plugins",
 "title": "Tsoden SEO & AEO",
-"version": "1.2.0",
+"version": "1.2.1",
 "website": "https://serp.tsoden.ai/integrations/ai-assistants"
 },
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.tsoden.serp/tsoden-seo&version=latest"
+"truncated": false,
+"url": "https://github.com/notformal/tsoden-ai-plugins/blob/HEAD/README.md"
 },
 "mcp-ai-workpods-local-seo": {
 "file": "data/originals/mcp-ai-workpods-local-seo.md",
@@ -9617,7 +9619,7 @@
 ],
 "repository": "https://github.com/sultanlive/1social-mcp",
 "title": "TikTok by 1Social",
-"version": "1.0.1",
+"version": "1.0.3",
 "website": "https://1social.dev/post-to/tiktok"
 },
 "truncated": false,
@@ -10522,6 +10524,54 @@
 "website": "https://apify.com/bepolabs/shopify-products"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.bepolabs/shopify-products&version=latest"
+},
+"mcp-io-github-berrkaydev-trustpilot-insights-scraper": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Trustpilot reviews for any company, with rating trends and complaint themes.",
+"name": "io.github.Berrkaydev/trustpilot-insights-scraper",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=berkaydev/trustpilot-insights-scraper"
+}
+],
+"repository": null,
+"title": "Trustpilot Reviews + Insights",
+"version": "1.0.0",
+"website": "https://apify.com/berkaydev/trustpilot-insights-scraper"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Berrkaydev/trustpilot-insights-scraper&version=latest"
+},
+"mcp-io-github-berrkaydev-trustpilot-review-monitor": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Alerts for new Trustpilot reviews, company replies and rating changes per company.",
+"name": "io.github.Berrkaydev/trustpilot-review-monitor",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=berkaydev/trustpilot-review-monitor"
+}
+],
+"repository": null,
+"title": "Trustpilot Review Alerts",
+"version": "1.0.0",
+"website": "https://apify.com/berkaydev/trustpilot-review-monitor"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Berrkaydev/trustpilot-review-monitor&version=latest"
 },
 "mcp-io-github-bourhaouta-tailwindshades": {
 "file": "data/originals/mcp-io-github-bourhaouta-tailwindshades.md",
@@ -14157,39 +14207,6 @@
 },
 "truncated": false,
 "url": "https://github.com/itsryanarmani/agentic-campaign/blob/HEAD/README.md"
-},
-"mcp-io-github-posthog-mcp": {
-"file": "data/originals/mcp-io-github-posthog-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Official PostHog MCP Server for product analytics, feature flags, experiments, and more.",
-"name": "io.github.PostHog/mcp",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"Authorization"
-],
-"type": "streamable-http",
-"url": "https://mcp.posthog.com/mcp"
-},
-{
-"headers": [
-"Authorization"
-],
-"type": "sse",
-"url": "https://mcp.posthog.com/sse"
-}
-],
-"repository": "https://github.com/PostHog/posthog",
-"title": "PostHog MCP Server",
-"version": "1.0.1",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/PostHog/posthog/blob/HEAD/README.md"
 },
 "mcp-io-github-projectworks007-shopify-store-audits": {
 "kind": "excerpt",
@@ -25737,6 +25754,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-6abwxq8-methods": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-6agmfhm-gpgpu-jelly-glass-carousel": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -31507,6 +31531,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-tbhz0mm-spider-man-web-dropdown": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-tbkt6wk-type-flicker-animation": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

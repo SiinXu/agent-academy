@@ -1,8 +1,8 @@
 ---
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-21
-updated_at: 2026-11-21T17:33:18Z
+version: 2026-11-22
+updated_at: 2026-11-22T02:18:08Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -136,12 +136,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/m-pineapple-hubspot-auditor.md
   license: MIT
   needs_credentials: true, writes_external: false
-- [mcp] PostHog MCP Server. Official PostHog MCP Server for product analytics, feature flags, experiments, and more.
-  source: https://github.com/PostHog/posthog
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-posthog-mcp.md
-  license: MIT
-  install: remote (streamable-http): https://mcp.posthog.com/mcp
-  needs_credentials: true, writes_external: true
 - [mcp] Marketing Intelligence & Optimization. Analyze Product performance on Platforms like youtube, instagram etc. To optimize Marketing.
   source: https://github.com/Saify-Technologies/saifs-ai-mcps-docs
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-saifs-marketing-intelligence.md

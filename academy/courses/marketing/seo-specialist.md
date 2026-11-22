@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-21
-updated_at: 2026-11-21T17:33:18Z
+version: 2026-11-22
+updated_at: 2026-11-22T02:18:08Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -326,10 +326,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://app.seomatic.ai/api/mcp
   needs_credentials: true, writes_external: false
-- [mcp] Ahrefs. Official Ahrefs MCP server. Access SEO data, including backlinks, keywords, and competitor research.
-  source: https://ahrefs.com/mcp
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://api.ahrefs.com/mcp/mcp
+- [mcp] TikTok Scraper (Apify) – videos, profiles, comments, transcripts. TikTok videos, profiles, hashtags, search, comments and followers as JSON. No login. $0.35/1k videos
+  source: https://github.com/harshmaur/apify-tiktok-scraper
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-harshmaur-tiktok-scraper.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.apify.com/?tools=harshmaur/tiktok-scraper
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
