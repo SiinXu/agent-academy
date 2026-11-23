@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://iconsaga.com"><img src="assets/readme/readme-1-hook-1600x800.png" width="880" alt="IconSaga: 5,511 free icons. IconSaga's icon sets and a grid of its icons on a dark stage, with iconsaga.com."></a>
+  <a href="https://iconsaga.com"><img src="assets/readme/readme-1-hook-1600x800.png" width="880" alt="IconSaga: 5,517 free icons. IconSaga's icon sets and a grid of its icons on a dark stage, with iconsaga.com."></a>
 </p>
 
 # IconSaga
@@ -12,6 +12,14 @@ IconSaga has <!-- sync:icons -->5,517<!-- /sync --> free icons for your website,
 
 - **Yourself:** find an icon at [iconsaga.com](https://iconsaga.com), choose your colors, then copy it into your slides or download it.
 - **With your AI:** connect IconSaga once to the AI that builds your website. Then just ask, in your own words and your own language: *"add an icon to each feature card, in our brand colors."* Your AI finds icons that fit and puts them in.
+
+## See it in action
+
+<p align="center">
+  <a href="https://youtu.be/cNZ1gJO2w-A"><img src="assets/readme/readme-4-demo-1600x900.png" width="880" alt="Watch the IconSaga demo on YouTube (1:23): Icons that match. In your colors. 5,517 icons in 62 sets, line, solid and duo, free with one credit line."></a>
+</p>
+
+<p align="center"><a href="https://youtu.be/cNZ1gJO2w-A">Watch the demo on YouTube</a> (1:23) · <a href="https://youtu.be/H1BwibkKLDE">Thai version</a></p>
 
 <p align="center">
   <img src="assets/readme/readme-2-colors-1600x800.png" width="880" alt="Pick your brand colors. Every icon follows. IconSaga's color picker with ready color pairs, and a page of icons shown in the chosen colors.">

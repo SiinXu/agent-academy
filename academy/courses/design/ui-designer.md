@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-23
-updated_at: 2026-11-23T02:52:44Z
+updated_at: 2026-11-23T22:03:10Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -47,10 +47,6 @@ Read course.md: the job, the permissions it needs, and what good output looks li
   source: https://spec.fm/specifics/8-pt-grid
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
-- [tutorial] AI × Design Weekly（Jason Cyr）. Weekly AI × design news: Figma MCP, Codex ↔ Figma, design-system skills
-  source: https://jasoncyr.substack.com/p/ai-design-weekly-issue-005
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 - [tutorial] Airbnb DLS (Karri Saarinen retrospective). Airbnb’s DLS isn’t public; its lead explains how the cross-platform component system was built
   source: https://karrisaarinen.com/dls/
   license: see source (listed via UI Hub)
@@ -87,6 +83,10 @@ Read course.md: the job, the permissions it needs, and what good output looks li
   source: https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [tutorial] Figma: adding custom rules to MCP. Ready-made rule template: get_design_context → screenshot → implement with tokens → check against the design
+  source: https://developers.figma.com/docs/figma-mcp-server/add-custom-rules/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 
 ## Step 2: Pick a direction
 
@@ -94,25 +94,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1716 items
-- 3d: 657 items
-- motion: 648 items
-- editorial: 596 items
+- minimal: 1679 items
+- 3d: 659 items
+- motion: 653 items
+- editorial: 590 items
 - playful: 571 items
-- gradient: 293 items
+- gradient: 294 items
 - retro: 120 items
 - dark-tech: 110 items
-- glass: 57 items
-- enterprise: 45 items
-- swiss: 27 items
-- soft: 16 items
+- glass: 56 items
+- enterprise: 43 items
+- swiss: 25 items
+- soft: 15 items
 - brutalist: 13 items
-- apple: 12 items
+- apple: 11 items
 - material: 11 items
-- skeuomorphic: 8 items
+- skeuomorphic: 9 items
 - utilitarian: 7 items
 - fluent: 3 items
-- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -434,11 +433,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://svgicons.com/mcp
   needs_credentials: true, writes_external: false
-- [tool] 21st-dev/magic-mcp. Use 10k+ React/Tailwind components inside Cursor (21st’s MCP)
-  source: https://github.com/21st-dev/magic-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 - [tool] 3Dicons. Free 3D icons
   source: https://3dicons.co
   license: see source (listed via UI Hub)
@@ -458,6 +452,10 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.apify.com/?tools=nerolabs/adobe-stock-keyword-generator
   needs_credentials: true, writes_external: true
+- [tool] Agentation. Annotate problems directly on the UI and generate instructions for coding agents
+  source: https://agentation.com/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check
 

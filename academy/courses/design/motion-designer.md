@@ -2,7 +2,7 @@
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-23
-updated_at: 2026-11-23T02:52:44Z
+updated_at: 2026-11-23T22:03:10Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,25 +46,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1716 items
-- 3d: 657 items
-- motion: 648 items
-- editorial: 596 items
+- minimal: 1679 items
+- 3d: 659 items
+- motion: 653 items
+- editorial: 590 items
 - playful: 571 items
-- gradient: 293 items
+- gradient: 294 items
 - retro: 120 items
 - dark-tech: 110 items
-- glass: 57 items
-- enterprise: 45 items
-- swiss: 27 items
-- soft: 16 items
+- glass: 56 items
+- enterprise: 43 items
+- swiss: 25 items
+- soft: 15 items
 - brutalist: 13 items
-- apple: 12 items
+- apple: 11 items
 - material: 11 items
-- skeuomorphic: 8 items
+- skeuomorphic: 9 items
 - utilitarian: 7 items
 - fluent: 3 items
-- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -260,23 +259,37 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.icons8.com/mcp/
   needs_credentials: true, writes_external: false
-- [mcp] io.github.AJSMonty/adobe-mcp. Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client
-  source: https://github.com/AJSMonty/adobe-mcp
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md
-  license: MIT
-  install: npx -y @ajsmonty/adobe-mcp
-  needs_credentials: true, writes_external: false
 - [mcp] Generative Icons. Animated UI icons by LottieFiles. Search by meaning, set color, style and motion, export dotLottie.
   source: https://github.com/LottieFiles/generative-icons
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-generative-icons.md
   license: MIT
   install: remote (streamable-http): https://generativeicons.com/mcp
   needs_credentials: true, writes_external: false
+- [mcp] io.github.AJSMonty/adobe-mcp. Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client
+  source: https://github.com/AJSMonty/adobe-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md
+  license: MIT
+  install: npx -y @ajsmonty/adobe-mcp
+  needs_credentials: true, writes_external: false
 - [mcp] Creator MCP. Hosted motion engine for agents. Builds layers and keyframes, exports MP4, WebM or Lottie.
   source: https://github.com/LottieFiles/creator-agent-plugin
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-lottiefiles-creator.md
   license: MIT
   install: remote (streamable-http): https://creator.mcp.lottiefiles.com/mcp
+  needs_credentials: true, writes_external: false
+- [tool] DialKit. A floating live-controls panel for React, Solid, Svelte, Vue and plain JavaScript. Tune motion, layout, color and animation timing directly in your interface. MIT-licensed (npm install dialkit)
+  source: https://dialkit.dev/
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [tool] HyperFrames. HeyGen’s open-source AI video editor (Apache-2.0): write HTML and render MP4 with Claude Code, Codex, or the free Studio app
+  source: https://github.com/heygen-com/hyperframes
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-heygen-com-hyperframes.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [mcp] Jiggicons. Search 6,010 animated icons with motion and sound, and get React, Vue or SVG code for them.
+  source: https://jiggicons.com/docs/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://jiggicons.com/mcp
   needs_credentials: true, writes_external: false
 - [tool] Unicorn Studio. Build WebGL effects without code
   source: https://www.unicorn.studio/

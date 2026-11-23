@@ -2,7 +2,7 @@
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-23
-updated_at: 2026-11-23T02:52:44Z
+updated_at: 2026-11-23T22:03:10Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -314,12 +314,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://seoaudit.openkrill.app/mcp
   needs_credentials: true, writes_external: false
-- [mcp] SEO Rank Fixer. Google Search Console performance and the SEO fixes worth the most clicks, ranked for your sites.
-  source: https://github.com/sharikwani/seo-rank-fixer-plugin
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-seorankfixer-seo-rank-fixer.md
-  license: MIT
-  install: remote (streamable-http): https://seorankfixer.com/api/mcp
-  needs_credentials: true, writes_external: false
 - [mcp] SEOmatic. SEO agent: GSC, keywords, local rank tracking, Business Profile, AI visibility, approval-gated fixes
   source: https://github.com/Minh42/seomatic-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-seomatic-seomatic.md
@@ -331,6 +325,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-harshmaur-tiktok-scraper.md
   license: MIT
   install: remote (streamable-http): https://mcp.apify.com/?tools=harshmaur/tiktok-scraper
+  needs_credentials: true, writes_external: false
+- [mcp] Ahrefs. Official Ahrefs MCP server. Access SEO data, including backlinks, keywords, and competitor research.
+  source: https://ahrefs.com/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://api.ahrefs.com/mcp/mcp
   needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check

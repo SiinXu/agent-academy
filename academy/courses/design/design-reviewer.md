@@ -2,7 +2,7 @@
 name: design-design-reviewer
 description: Agent Academy course for Design review and accessibility (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-23
-updated_at: 2026-11-23T02:52:44Z
+updated_at: 2026-11-23T22:03:10Z
 source: https://academy.incidental.site/courses/design/design-reviewer/
 ---
 
@@ -46,25 +46,24 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1716 items
-- 3d: 657 items
-- motion: 648 items
-- editorial: 596 items
+- minimal: 1679 items
+- 3d: 659 items
+- motion: 653 items
+- editorial: 590 items
 - playful: 571 items
-- gradient: 293 items
+- gradient: 294 items
 - retro: 120 items
 - dark-tech: 110 items
-- glass: 57 items
-- enterprise: 45 items
-- swiss: 27 items
-- soft: 16 items
+- glass: 56 items
+- enterprise: 43 items
+- swiss: 25 items
+- soft: 15 items
 - brutalist: 13 items
-- apple: 12 items
+- apple: 11 items
 - material: 11 items
-- skeuomorphic: 8 items
+- skeuomorphic: 9 items
 - utilitarian: 7 items
 - fluent: 3 items
-- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)

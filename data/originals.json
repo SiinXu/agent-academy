@@ -6351,7 +6351,7 @@
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.24.0",
+"version": "1.26.0",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -7432,6 +7432,28 @@
 "truncated": false,
 "url": "https://github.com/Sathish27/didyouseo-mcp/blob/HEAD/README.md"
 },
+"mcp-com-eliteaiempire-data-seo-brief": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Auto-generated SEO content briefs (from our internal SEO engine)",
+"name": "com.eliteaiempire/data-seo-brief",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://data-seo-brief.eliteaiempire.com/mcp"
+}
+],
+"repository": null,
+"title": "AI-SEO Content Brief Generator",
+"version": "1.0.0",
+"website": "https://data-seo-brief.eliteaiempire.com/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.eliteaiempire/data-seo-brief&version=latest"
+},
 "mcp-com-eliteaiempire-newsletterproai": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -7973,6 +7995,37 @@
 },
 "truncated": false,
 "url": "https://github.com/iconsaga/iconsaga/blob/HEAD/README.md"
+},
+"mcp-com-iconsouk-icons": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Search 58,000+ SVG icons from iconsouk.com and add them to your code, with license and credit.",
+"name": "com.iconsouk/icons",
+"packages": [
+{
+"env": [
+{
+"description": "Optional: your key from iconsouk.com, only needed for icons you bought or get with a subscription or credits.",
+"name": "ICONSOUK_KEY",
+"required": null,
+"secret": true
+}
+],
+"id": "@iconsouk/cli",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.3"
+}
+],
+"remotes": [],
+"repository": null,
+"title": "IconSouk",
+"version": "1.0.3",
+"website": "https://iconsouk.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.iconsouk/icons&version=latest"
 },
 "mcp-com-insightfulpipe-dataforseo": {
 "file": "data/originals/mcp-com-insightfulpipe-dataforseo.md",
@@ -8733,7 +8786,7 @@
 ],
 "repository": null,
 "title": "The world according to capital",
-"version": "12.2.0",
+"version": "12.5.0",
 "website": "https://www.notacompany.com/the-world-according-to-capital"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.notacompany/newsletter&version=latest"
@@ -9256,54 +9309,6 @@
 },
 "truncated": false,
 "url": "https://github.com/lkoudal/seoperception-mcp/blob/HEAD/README.md"
-},
-"mcp-com-seorankfixer-seo-rank-fixer": {
-"file": "data/originals/mcp-com-seorankfixer-seo-rank-fixer.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Google Search Console performance and the SEO fixes worth the most clicks, ranked for your sites.",
-"name": "com.seorankfixer/seo-rank-fixer",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://seorankfixer.com/api/mcp"
-}
-],
-"repository": "https://github.com/sharikwani/seo-rank-fixer-plugin",
-"title": "SEO Rank Fixer",
-"version": "1.0.0",
-"website": "https://seorankfixer.com/connectors"
-},
-"truncated": false,
-"url": "https://github.com/sharikwani/seo-rank-fixer-plugin/blob/HEAD/README.md"
-},
-"mcp-com-seorecords-geo-seo-records": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Gets a website ready for AI assistants: robots.txt fixed, llms.txt drafted (access pass).",
-"name": "com.seorecords/geo-seo-records",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"x-access-key"
-],
-"type": "streamable-http",
-"url": "https://api.seorecords.com/mcp/geo"
-}
-],
-"repository": null,
-"title": "GEO SEO Records",
-"version": "1.0.2",
-"website": "https://seorecords.com/en/assistants"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seorecords/geo-seo-records&version=latest"
 },
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
@@ -9874,30 +9879,6 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.cotlet/zendesk&version=latest"
 },
-"mcp-dev-datasetworks-shopify-store-products": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Products, variants and prices from any public Shopify store.",
-"name": "dev.datasetworks/shopify-store-products",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"Authorization"
-],
-"type": "streamable-http",
-"url": "https://mcp.apify.com/?tools=datasetworks/shopify-store-products"
-}
-],
-"repository": null,
-"title": "Shopify Store Products (Apify) by Dataset Works",
-"version": "1.0.1",
-"website": "https://datasetworks.dev/tools/shopify-store-products/"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.datasetworks/shopify-store-products&version=latest"
-},
 "mcp-dev-pages-wagner-data-services-shopify-catalog-import": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9934,13 +9915,13 @@
 "id": "@wirecat/hubspot-cli",
 "transport": "stdio",
 "type": "npm",
-"version": "0.5.0"
+"version": "0.6.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/WireCatLabs/hubspot-cli",
 "title": "WireCat hubspot",
-"version": "0.5.0",
+"version": "0.6.0",
 "website": "https://wirecat.dev/en/docs/hubspot"
 },
 "truncated": false,
@@ -10100,6 +10081,30 @@
 },
 "truncated": false,
 "url": "https://github.com/adkit/tiktok-ads-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-adrianabelarde-jiggicons": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Search 6,010 animated icons with motion and sound, and get React, Vue or SVG code for them.",
+"name": "io.github.adrianabelarde/jiggicons",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://jiggicons.com/mcp"
+}
+],
+"repository": null,
+"title": "Jiggicons",
+"version": "0.1.1",
+"website": "https://jiggicons.com/docs/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adrianabelarde/jiggicons&version=latest"
 },
 "mcp-io-github-ajsmonty-adobe-mcp": {
 "file": "data/originals/mcp-io-github-ajsmonty-adobe-mcp.md",
@@ -12007,13 +12012,13 @@
 "id": "agent-intercom",
 "transport": "stdio",
 "type": "npm",
-"version": "0.2.5"
+"version": "0.2.6"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/iambashar/agent-intercom",
 "title": "agent-intercom",
-"version": "0.2.5",
+"version": "0.2.6",
 "website": "https://github.com/iambashar/agent-intercom"
 },
 "truncated": false,
@@ -12283,32 +12288,6 @@
 "website": null
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.jmshinhwa/tailwind-v4-upgrade-blocker-lint&version=latest"
-},
-"mcp-io-github-joalavedra-andorra-fonts-publiques": {
-"file": "data/originals/mcp-io-github-joalavedra-andorra-fonts-publiques.md",
-"kind": "full",
-"label": "readme",
-"license": "CC0-1.0",
-"record": {
-"description": "Andorra public data: BOPA bulletin, statistics, maps, e-tramits procedures and govern.ad pages",
-"name": "io.github.joalavedra/andorra-fonts-publiques",
-"packages": [
-{
-"env": [],
-"id": "fonts-andorra",
-"transport": "stdio",
-"type": "pypi",
-"version": "0.2.0"
-}
-],
-"remotes": [],
-"repository": "https://github.com/joalavedra/andorra-fonts-publiques",
-"title": "Andorra public sources",
-"version": "0.2.0",
-"website": null
-},
-"truncated": false,
-"url": "https://github.com/joalavedra/andorra-fonts-publiques/blob/HEAD/README.md"
 },
 "mcp-io-github-jpka-shopify-operations-mcp": {
 "file": "data/originals/mcp-io-github-jpka-shopify-operations-mcp.md",
@@ -14095,45 +14074,6 @@
 "truncated": false,
 "url": "https://github.com/pipeworx-io/mcp-twilio/blob/HEAD/README.md"
 },
-"mcp-io-github-pipeworx-io-webflow": {
-"file": "data/originals/mcp-io-github-pipeworx-io-webflow.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Webflow MCP Pack",
-"name": "io.github.pipeworx-io/webflow",
-"packages": [
-{
-"env": [
-{
-"description": "Optional Pipeworx API key. Without it calls are anonymous and capped daily; a free key raises the cap.",
-"name": "PIPEWORX_API_KEY",
-"required": null,
-"secret": true
-}
-],
-"id": "@pipeworx/mcp-webflow",
-"transport": "stdio",
-"type": "npm",
-"version": "0.2.1"
-}
-],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://gateway.pipeworx.io/webflow/mcp"
-}
-],
-"repository": "https://github.com/pipeworx-io/mcp-webflow",
-"title": "Webflow",
-"version": "0.2.1",
-"website": "https://pipeworx.io/packs/webflow"
-},
-"truncated": false,
-"url": "https://github.com/pipeworx-io/mcp-webflow/blob/HEAD/README.md"
-},
 "mcp-io-github-pipeworx-io-zendesk": {
 "file": "data/originals/mcp-io-github-pipeworx-io-zendesk.md",
 "kind": "full",
@@ -14368,28 +14308,6 @@
 "truncated": false,
 "url": "https://github.com/sandeepkelvadi/mkt-skills/blob/HEAD/README.md"
 },
-"mcp-io-github-saulius876-lgtm-shopify-price-monitor": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Prices, stock and variants of products on any public Shopify store, with change and margin checks.",
-"name": "io.github.saulius876-lgtm/shopify-price-monitor",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://mcp.apify.com/?tools=sauliusautomatesit/shopify-price-margin-monitor"
-}
-],
-"repository": null,
-"title": "Shopify Price and Stock Monitor",
-"version": "1.0.0",
-"website": "https://apify.com/sauliusautomatesit/shopify-price-margin-monitor"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.saulius876-lgtm/shopify-price-monitor&version=latest"
-},
 "mcp-io-github-saulius876-lgtm-tiktok": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -14433,28 +14351,6 @@
 "website": "https://apify.com/sauliusautomatesit/tiktok-transcript-scraper"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.saulius876-lgtm/tiktok-transcripts&version=latest"
-},
-"mcp-io-github-saulius876-lgtm-trustpilot-reviews": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Trustpilot reviews for any company domain: ratings, text, replies, and unanswered low-star reviews.",
-"name": "io.github.saulius876-lgtm/trustpilot-reviews",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://mcp.apify.com/?tools=sauliusautomatesit/trustpilot-review-followup"
-}
-],
-"repository": null,
-"title": "Trustpilot Reviews Scraper",
-"version": "1.0.0",
-"website": "https://apify.com/sauliusautomatesit/trustpilot-review-followup"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.saulius876-lgtm/trustpilot-reviews&version=latest"
 },
 "mcp-io-github-semmargl-figma-proxy-mcp": {
 "file": "data/originals/mcp-io-github-semmargl-figma-proxy-mcp.md",
@@ -15589,6 +15485,33 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=one.aisa/similarweb&version=latest"
 },
+"mcp-org-flow-marketing-flow-marketing": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Brand-true motion-design marketing videos from templates, with price preview and human approval.",
+"name": "org.flow-marketing/flow-marketing",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://flow-marketing.org/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://flow-marketing.org/mcp/design"
+}
+],
+"repository": null,
+"title": "Flow Marketing",
+"version": "1.0.0",
+"website": "https://flow-marketing.org/entwickler/mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=org.flow-marketing/flow-marketing&version=latest"
+},
 "mcp-photos-crisp-image-tools": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -15820,6 +15743,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-aicss-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-aiforui-dev-skills": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -17725,13 +17655,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-awd-amrit-palace": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-awd-anai": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -18572,13 +18495,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-awd-deep-beauty": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-awd-def": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -18846,13 +18762,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-eislab": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-awd-electra-filmworks": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -19203,13 +19112,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-function": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-awd-future-record": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -19979,13 +19881,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-awd-leeroy-agency": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-awd-letude-creative-studio": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20638,13 +20533,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-normal-is-boring": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-awd-nrg-build-your-data-center": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -21464,6 +21352,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-rxk-studio": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-saapro-mobile-waste-management": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -22842,6 +22737,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-bestdesignsonx-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-beui-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -22870,13 +22772,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-chainlit-io": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-chatscope-io": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -22898,12 +22793,34 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-designbookmark-com-motion": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-dialkit-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-docs-livekit-io-agents-start-frontend": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-el4cteo-blender-skills": {
+"file": "data/originals/uihub-el4cteo-blender-skills.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/EL4CTEO/blender-skills/blob/main/README.md"
 },
 "uihub-getstream-io-chat-solutions-ai-integration": {
 "kind": "excerpt",
@@ -22961,14 +22878,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-gh-caho1-open-claude-ui": {
-"file": "data/originals/uihub-gh-caho1-open-claude-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/Caho1/open-claude-ui/blob/main/README.md"
-},
 "uihub-gh-cruxgarden-plasma-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -23003,14 +22912,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-gh-guiguiyan930-source-game-ui-design-workflow": {
-"file": "data/originals/uihub-gh-guiguiyan930-source-game-ui-design-workflow.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/guiguiyan930-source/game-ui-design-workflow/blob/main/README.md"
 },
 "uihub-gh-jbetancur-react-data-table-component": {
 "kind": "excerpt",
@@ -23075,14 +22976,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-gh-nateherkai-scroll-craft": {
-"file": "data/originals/uihub-gh-nateherkai-scroll-craft.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/nateherkai/scroll-craft/blob/main/README.md"
-},
 "uihub-gh-necolas-react-native-web": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -23097,13 +22990,6 @@
 "license": "Apache-2.0",
 "truncated": false,
 "url": "https://github.com/NEORUAA/Glasmio/blob/main/README.md"
-},
-"uihub-gh-nexu-io-codex-slides": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-oil-oil-oil-ui": {
 "kind": "excerpt",
@@ -23127,6 +23013,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-preetsuthar17-hextaui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-rayvelez27-instalanding-ai": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -23167,14 +23060,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-gh-shadcn-ui-lint": {
-"file": "data/originals/uihub-gh-shadcn-ui-lint.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/shadcn-ui/lint/blob/main/README.md"
 },
 "uihub-gh-skydashnet-material-design-3-ui-skill": {
 "file": "data/originals/uihub-gh-skydashnet-material-design-3-ui-skill.md",
@@ -23263,30 +23148,6 @@
 "truncated": false,
 "url": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components/blob/main/README.md"
 },
-"uihub-github-com-huggingface-chat-ui": {
-"file": "data/originals/uihub-github-com-huggingface-chat-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/huggingface/chat-ui/blob/main/README.md"
-},
-"uihub-github-com-langchain-ai-agent-chat-ui": {
-"file": "data/originals/uihub-github-com-langchain-ai-agent-chat-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/langchain-ai/agent-chat-ui/blob/main/README.md"
-},
-"uihub-github-com-rdev-liquid-glass-react": {
-"file": "data/originals/uihub-github-com-rdev-liquid-glass-react.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/rdev/liquid-glass-react/blob/master/README.md"
-},
 "uihub-hashbrown-dev": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -23294,12 +23155,28 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-heygen-com-hyperframes": {
+"file": "data/originals/uihub-heygen-com-hyperframes.md",
+"kind": "full",
+"label": "readme",
+"license": "Apache-2.0",
+"truncated": false,
+"url": "https://github.com/heygen-com/hyperframes/blob/main/README.md"
+},
 "uihub-inspora-design": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-ismnoiet-border-beam-ios": {
+"file": "data/originals/uihub-ismnoiet-border-beam-ios.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/ismnoiet/border-beam-ios/blob/main/README.md"
 },
 "uihub-kokonutui-com": {
 "kind": "excerpt",
@@ -23517,14 +23394,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-lib-github-com-dip-cmdk": {
-"file": "data/originals/uihub-lib-github-com-dip-cmdk.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/dip/cmdk/blob/main/README.md"
 },
 "uihub-lib-gluestack-io": {
 "kind": "excerpt",
@@ -24219,6 +24088,14 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-motion-canvas": {
+"file": "data/originals/uihub-motion-canvas.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"truncated": false,
+"url": "https://github.com/motion-canvas/motion-canvas/blob/main/README.md"
+},
 "uihub-motion-dev-plus": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -24227,6 +24104,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-motion-primitives-com": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-motionsites-ai-backgrounds": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -26053,6 +25937,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-73ao45d-suna-health-splash-animation": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-742fu64-unreleased-brand-posters": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26964,6 +26855,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ayc72nk-card-details-microinteraction": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-b0bab4i-pop-up-room-book": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28636,13 +28534,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-rd-hsik8k3-hsik8k3": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-rd-htqifu7-gradient-motion-study": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28958,13 +28849,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-rd-j5ftgdh-finance-app-onboarding": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-rd-j5yd5l1-access-grid-homepage": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -29092,6 +28976,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-jl10434-codex-code-review-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-jlhp900-few-brand-identity": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -29602,6 +29493,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-lrzetpg-eraser-word-interaction": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-ls1mssn-holographic-glitter-card-effect": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -30079,13 +29977,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-nmcq2sc-eight-sleep": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-rd-nmj9mrx-newsletter-issue-no-01": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -31193,6 +31084,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ru0f52c-dot-grid-spiral-loop": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ru8xe2f-dot-led-poster-series": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -33082,6 +32980,15 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-remotion-dev-skills": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {
+"repo_license": "none"
+},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rive-app": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33131,6 +33038,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-tactileui-dev": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-tambo-co": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33139,6 +33053,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-tdesign-tencent-com-chat": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-torph-lochie-me": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -33187,14 +33108,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-addy-agent-skills": {
-"file": "data/originals/uihub-ued-addy-agent-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
-},
 "uihub-ued-adobe-leonardo": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33210,13 +33123,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-adobe-spectrum-2": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-ai-design-weekly": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -33272,14 +33178,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-anti-slop": {
-"file": "data/originals/uihub-ued-anti-slop.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/miqdadbadjuber/anti-slop/blob/main/README.md"
-},
 "uihub-ued-appica-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33329,22 +33227,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-avoid-ai-design": {
-"file": "data/originals/uihub-ued-avoid-ai-design.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/funboy322/avoid-ai-design/blob/main/README.md"
-},
-"uihub-ued-awesome-design-md": {
-"file": "data/originals/uihub-ued-awesome-design-md.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md"
-},
 "uihub-ued-base-web": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33352,28 +33234,11 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-bencium-design": {
-"file": "data/originals/uihub-ued-bencium-design.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/bencium/bencium-marketplace/blob/main/README.md"
-},
 "uihub-ued-carbon-themes": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-cc-frontend-toolkit": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-circle-loaders": {
@@ -33425,28 +33290,12 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-dembrandt": {
-"file": "data/originals/uihub-ued-dembrandt.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/dembrandt/dembrandt/blob/main/README.md"
-},
 "uihub-ued-desengs": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-design-extract": {
-"file": "data/originals/uihub-ued-design-extract.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/Manavarya09/design-extract/blob/main/README.md"
 },
 "uihub-ued-design-system-guide": {
 "kind": "excerpt",
@@ -33609,21 +33458,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-goodcart": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-google-design-md": {
-"file": "data/originals/uihub-ued-google-design-md.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/google-labs-code/design.md/blob/main/README.md"
-},
 "uihub-ued-govuk-ds": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33645,22 +33479,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-grubby-design-guide": {
-"file": "data/originals/uihub-ued-grubby-design-guide.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/GrubbyLee/design-guide/blob/main/README.md"
-},
-"uihub-ued-gsap-skills": {
-"file": "data/originals/uihub-ued-gsap-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/greensock/gsap-skills/blob/main/README.md"
-},
 "uihub-ued-harmonyos-design": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33681,14 +33499,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-huashu-design": {
-"file": "data/originals/uihub-ued-huashu-design.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
 },
 "uihub-ued-huds-guis": {
 "kind": "excerpt",
@@ -33823,14 +33633,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-magic-mcp": {
-"file": "data/originals/uihub-ued-magic-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "ISC",
-"truncated": false,
-"url": "https://github.com/21st-dev/magic-mcp/blob/main/README.md"
-},
 "uihub-ued-mapcn": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33851,14 +33653,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-mcpcn": {
-"file": "data/originals/uihub-ued-mcpcn.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/shadcn-labs/mcpcn/blob/main/README.md"
 },
 "uihub-ued-microkit": {
 "kind": "excerpt",
@@ -33909,31 +33703,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-netxeo-skill-design": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-no-slop-ui": {
-"file": "data/originals/uihub-ued-no-slop-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/LeoStehlik/no-slop-ui/blob/master/README.md"
-},
-"uihub-ued-nothing-design-skill": {
-"file": "data/originals/uihub-ued-nothing-design-skill.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/dominikmartn/nothing-design-skill/blob/main/README.md"
-},
 "uihub-ued-nutui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33948,47 +33717,7 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-oil-frontend": {
-"file": "data/originals/uihub-ued-oil-frontend.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/oil-oil/oil-frontend/blob/main/README.md"
-},
-"uihub-ued-onlook": {
-"file": "data/originals/uihub-ued-onlook.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/onlook-dev/onlook/blob/main/README.md"
-},
 "uihub-ued-open-ui": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-openai-apps-sdk-ui": {
-"file": "data/originals/uihub-ued-openai-apps-sdk-ui.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/openai/apps-sdk-ui/blob/main/README.md"
-},
-"uihub-ued-openai-plugins": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-pageflows": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -34000,15 +33729,6 @@
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-penpot": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "MPL-2.0"
-},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-polaris-wc": {
@@ -34088,14 +33808,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-screenshot-to-code": {
-"file": "data/originals/uihub-ued-screenshot-to-code.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/abi/screenshot-to-code/blob/main/README.md"
-},
 "uihub-ued-scrolltide": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -34131,14 +33843,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-spectrum-design-data": {
-"file": "data/originals/uihub-ued-spectrum-design-data.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/adobe/spectrum-design-data/blob/main/README.md"
-},
 "uihub-ued-spectrum-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -34167,14 +33871,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-stitch-skills": {
-"file": "data/originals/uihub-ued-stitch-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "Apache-2.0",
-"truncated": false,
-"url": "https://github.com/google-labs-code/stitch-skills/blob/main/README.md"
-},
 "uihub-ued-style-dictionary": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -34188,14 +33884,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-taste-skill-repo": {
-"file": "data/originals/uihub-ued-taste-skill-repo.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md"
 },
 "uihub-ued-text-effects": {
 "kind": "excerpt",
@@ -34212,13 +33900,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-transitions-dev-craft": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-twilio-paste": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -34260,29 +33941,12 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-ued-vercel-agent-skills": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "none"
-},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-ued-vercel-guidelines": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-vercel-guidelines-repo": {
-"file": "data/originals/uihub-ued-vercel-guidelines-repo.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/vercel-labs/web-interface-guidelines/blob/main/README.md"
 },
 "uihub-ued-vibeprompts": {
 "kind": "excerpt",
@@ -34333,15 +33997,6 @@
 "label": "ui-hub",
 "license": "UI Hub entry",
 "record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-ued-weui": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {
-"repo_license": "NOASSERTION"
-},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-whichai-dev": {
@@ -34477,6 +34132,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-ui-camera": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-ui-inference-sh": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -34527,6 +34189,20 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-vercel-com-templates-next-js-chatbot": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-vibedesign-tips": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-visualexplorer-app": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -34967,13 +34643,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-w16-eirdis-com": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
 "uihub-w16-eladiodieste-com": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -35297,13 +34966,6 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-w16-kaix-framer-website": {
-"kind": "excerpt",
-"label": "ui-hub",
-"license": "UI Hub entry",
-"record": {},
-"url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-w16-kathememorial-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -36864,14 +36526,6 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
-"uihub-x-emilkowalski-skills": {
-"file": "data/originals/uihub-x-emilkowalski-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/emilkowalski/skills/blob/main/README.md"
-},
 "uihub-x-getlayers": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -36906,14 +36560,6 @@
 "license": "UI Hub entry",
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
-},
-"uihub-x-jakubkrehel-skills": {
-"file": "data/originals/uihub-x-jakubkrehel-skills.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"truncated": false,
-"url": "https://github.com/jakubkrehel/skills/blob/main/README.md"
 },
 "uihub-x-kobra-systems": {
 "kind": "excerpt",

@@ -10,13 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/index.md">Docs</a> ·
-  <a href="https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/installation.md">Install</a> ·
+  <a href="https://wirecat.dev/en/docs/hubspot">Docs</a> ·
+  <a href="https://wirecat.dev/en/docs/hubspot/installation">Install</a> ·
   <a href="https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/usage.md">Usage</a> ·
   <a href="https://discord.gg/DebENqbRrJ">Discord</a>
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/@wirecat/hubspot-cli"><img src="https://img.shields.io/npm/v/@wirecat/hubspot-cli" alt="npm"></a>
   <a href="https://github.com/WireCatLabs/hubspot-cli/actions/workflows/ci.yml"><img src="https://github.com/WireCatLabs/hubspot-cli/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://github.com/WireCatLabs/hubspot-cli/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="License: Apache 2.0"></a>
 </p>
@@ -26,7 +27,8 @@
 - **The morning starts with what changed.** `changes list` shows what each sync saw change, and a schedule sends it to
   you.
 - **Writes when you want them.** Create and update deals, contacts and companies, move a deal or close it. The key
-  stays read only until you give it the write scopes, and a delete asks first.
+  stays read only until you give it the write scopes, and a delete asks first in a terminal. Over MCP it runs without
+  asking.
 
 ```text
 You:    What changed in the CRM since yesterday?
@@ -39,6 +41,47 @@ Agent:  (runs hubspot work deals show deal:12)
 ```
 
 *Invented deals, illustrative output.*
+
+## What you get
+
+- **Know the pipeline.** Open deals with their stage, amount and owner, the board of each pipeline and how many deals
+  stand in each stage.
+- **See what changed.** Deals made, moved, won and lost, given another owner, and new activities, since any time you
+  name.
+- **Find a client.** Any contact or company in the account, read live, with its phones and e-mails.
+- **Follow the work on a deal.** Notes, calls, e-mails, meetings and tasks, copied with the deals.
+- **Change a deal from the chat.** Create a deal, rename it, move it to the next stage, close it won or lost, or add
+  a contact or a company, and the copy takes the change at once.
+- **Reach past the copy.** Every operation of HubSpot's CRM API is a command of its own: notes, tasks, tickets,
+  associations and merges included.
+- **Search across your work.** A deal turns up next to the chat where you agreed on it and the meeting where you
+  discussed it, if you use the other WireCat tools.
+
+```text
+You:    Which deals are waiting in Contract sent?
+Agent:  (runs hubspot work deals list stage:"Contract sent")
+        · "Example LLC kitchen", 15 000 EUR, owner Anna Example
+        · "Sample Inc renewal", 4 200 EUR, owner Bob Sample
+You:    What changed since yesterday?
+Agent:  (runs hubspot work changes list "at>=1d")
+        "Example Corp fit-out" moved to Closed won, and one new deal came in.
+```
+
+*Invented deals, illustrative output.*
+
+## Why hubspot
+
+- **A copy of your CRM on your computer.** `sync` copies your deals with their contacts and companies, and the next
+  sync takes only the changes. Lists, the pipeline and search then answer with no request to HubSpot, also offline.
+- **The key stays in the system keyring.** It never appears in output, errors or run records, and no command takes it
+  as an argument.
+- **A permission on every command.** Each command and each operation of HubSpot's API has its own level, so you
+  decide what an agent may read and change.
+- **Your CRM beside your other context.** Deals sit in the same local store as your messages, notes and meetings from
+  the other WireCat tools, and `search all` finds them together.
+- **As many accounts as you need.** Each HubSpot account is a profile you name in the command, and none is ever picked
+  for you.
+- **Free and open source.** Apache 2.0.
 
 ## Quick start
 
@@ -57,6 +100,9 @@ To let `hubspot` change records too, add `crm.objects.contacts.write`, `crm.obje
 Add `crm.objects.leads.read` on Sales Hub Professional or Enterprise to read leads, and `tickets` to read tickets
 through `api`. A scope you leave out fails only the commands that need it.
 
+Then, in [WireCat Desktop](https://wirecat.dev/en/download), add HubSpot from the tool list and paste the key when
+it asks. Or in a terminal:
+
 ```sh
 npm install -g @wirecat/hubspot-cli
 hubspot skill install                  # the agent skill, for Claude Code, Codex and Gemini CLI
@@ -69,24 +115,9 @@ hubspot work deals list status:open
 account. You need Node.js 22.16 or a later 22.x, or Node.js 24 or later. `hubspot doctor` shows what is set up and
 needs no network.
 
-More: [install and connect](docs/installation.md)
+More: [install and connect](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/installation.md)
 
-## What you can do
-
-- **Know the pipeline.** Open deals with their stage, amount and owner, the board of each pipeline and how many deals
-  stand in each stage.
-- **See what changed.** Deals made, moved, won and lost, given another owner, and new activities, since any time you
-  name.
-- **Find a client.** Any contact or company in the account, read live, with its phones and e-mails.
-- **Follow the work on a deal.** Notes, calls, e-mails, meetings and tasks, copied with the deals.
-- **Change a deal from the chat.** Create a deal, rename it, move it to the next stage, close it won or lost, or add
-  a contact or a company, and the copy takes the change at once.
-- **Reach past the copy.** Every operation of HubSpot's CRM API is a command of its own: notes, tasks, tickets,
-  associations and merges included.
-- **Search across your work.** A deal turns up next to the chat where you agreed on it and the meeting where you
-  discussed it, if you use the other WireCat tools.
-
-## For AI agents
+## Use it with your agent
 
 Ask in plain words. The agent picks the commands.
 
@@ -107,23 +138,9 @@ computer, and the writes to HubSpot, which only a key with write scopes can make
 agent marked as untrusted, so the agent reads it as data, never as instructions. The sign-in commands are not offered
 over MCP.
 
-More: [agents and MCP](docs/mcp.md)
+More: [agents and MCP](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/mcp.md)
 
-## Why hubspot
-
-- **A copy of your CRM on your computer.** `sync` copies your deals with their contacts and companies, and the next
-  sync takes only the changes. Lists, the pipeline and search then answer with no request to HubSpot, also offline.
-- **The key stays in the system keyring.** It never appears in output, errors or run records, and no command takes it
-  as an argument.
-- **A permission on every command.** Each command and each operation of HubSpot's API has its own level, so you
-  decide what an agent may read and change.
-- **Your CRM beside your other context.** Deals sit in the same local store as your messages, notes and meetings from
-  the other WireCat tools, and `search all` finds them together.
-- **As many accounts as you need.** Each HubSpot account is a profile you name in the command, and none is ever picked
-  for you.
-- **Free and open source.** Apache 2.0.
-
-## Main features
+## What it can do
 
 ### Deals and the pipeline
 
@@ -151,21 +168,25 @@ hubspot work organizations update 4021 --phone "+34 600 000 000"
 
 ```sh
 hubspot work activities list                           # notes, calls, e-mails, meetings and tasks
+hubspot work activities create comment --subject deal:12 --text "Agreed on the price"
+hubspot work activities create task --subject deal:12 --title "Send the contract" --due 2026-12-01
+hubspot work activities close tasks:4021               # the task is done
 hubspot work changes list "at>=1d"                     # what changed in the last day
 ```
 
-Activities are copied once you turn on the activities setting. `activities list` names the setting.
+Activities are copied once you turn on the activities setting. `activities list` names the setting. A note or a
+task is written either way.
 
 ### Any operation of the API
 
 ```sh
 hubspot work api list                                  # every operation, without calling HubSpot
 hubspot work api deals-list --limit 5                  # one of them
-hubspot work api notes-create --body-file note.json    # a note on a deal: a write, which asks first
+hubspot work api tickets-create --body-file ticket.json  # a ticket: a write, which asks first
 ```
 
 `api` offers every operation of HubSpot's CRM API version 2026-03, from its 15 specs, each with its own permission:
-reads, writes and deletes. Notes, tasks and tickets are written here.
+reads, writes and deletes. Tickets and leads are written here.
 
 ### With your other sources
 
@@ -173,9 +194,9 @@ reads, writes and deletes. Notes, tasks and tickets are written here.
 hubspot work search all "Example LLC"                  # the deal beside your other WireCat data
 ```
 
-More: [use it](docs/usage.md) · [command reference](docs/commands.md)
+More: [use it](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/usage.md) · [command reference](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/commands.md)
 
-### How it works
+## How it works
 
 - **A key, not a user.** A service key or a private app token belongs to the account, not to a person. `hubspot`
   copies the whole account, and `owner:me` names nobody: filter by `owner:<owner id>` from `users list`.
@@ -197,7 +218,7 @@ deleting its copy of the CRM.
 
 A second profile that signs in to the same HubSpot account is refused, so one copy is never synced twice.
 
-More: [sign in](docs/installation.md#sign-in) · [profiles](docs/usage.md#the-profile-comes-first)
+More: [sign in](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/installation.md#sign-in) · [profiles](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/usage.md#the-profile-comes-first)
 
 ## Settings and permissions
 
@@ -205,7 +226,7 @@ Each profile has a permission level for every command and every API operation: `
 A command's key is its name, such as `deals.list`. An API operation's key is `api.<command>`, such as
 `api.deals-search`, and `api` covers them all.
 
-Changing a deal, contact or company with its command goes ahead; deleting one asks. An `api` call on deals, contacts
+Changing a deal, contact or company with its command goes ahead, and deleting one asks. An `api` call on deals, contacts
 or companies checks the key of the command that does the same, so `deals.update deny` or `people deny` holds on both
 paths, as in amoCRM and b24. Another `api` write also checks its group's `.write`, such as `notes.write`, and every
 delete its `<group>.delete`: both ask. A key belongs to the account, not to a person, so giving a record an owner checks
@@ -220,14 +241,14 @@ Over MCP nobody is there to answer, so `ask` lets the command run. Set a key to 
 agent. `hubspot work mcp serve --permission people.list=deny` makes a key stricter for one server only, never looser.
 `WCHUBSPOT_READ_ONLY=1` refuses every write.
 
-More: [settings and permissions](docs/permissions.md)
+More: [settings and permissions](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/permissions.md)
 
 ## Limits
 
 - `hubspot` is tested against a fake account built from HubSpot's API reference, and each release is checked against
   a HubSpot test account.
 - A contact keeps one e-mail and two numbers (phone and mobile), and a company one number and no e-mail: a longer
-  list is refused. Leads, notes, tasks and a deal's contacts and company are written through `api`.
+  list is refused. Leads, tickets and a deal's contacts and company are written through `api`.
 - HubSpot takes no idempotency key: a write that ended in `outcome_unknown` may have happened. Check before repeating.
 - Tickets are read and written only through `api`, not copied.
 - Leads need Sales Hub Professional or Enterprise.
@@ -239,7 +260,7 @@ More: [settings and permissions](docs/permissions.md)
 The key works like a password: anyone who has it can read what its scopes allow. `hubspot` keeps it in the system
 keyring and never prints it. `hubspot` cannot revoke a key, so after a leak delete or rotate it in HubSpot.
 
-More: [security](docs/security.md) · Report a vulnerability: [SECURITY.md](SECURITY.md)
+More: [security](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/security.md) · Report a vulnerability: [SECURITY.md](https://github.com/WireCatLabs/hubspot-cli/blob/main/SECURITY.md)
 
 ## When something goes wrong
 
@@ -248,14 +269,14 @@ hubspot doctor                        # what is set up, without connecting
 hubspot work session status --check   # whether the key works, and for which account
 ```
 
-More: [troubleshooting](docs/troubleshooting.md) · Ask on [Discord](https://discord.gg/DebENqbRrJ) · Bugs go to this
+More: [troubleshooting](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/troubleshooting.md) · Ask on [Discord](https://discord.gg/DebENqbRrJ) · Bugs go to this
 repository's [issues](https://github.com/WireCatLabs/hubspot-cli/issues).
 
 ## Documentation
 
-Every page is in [docs/](docs/index.md): [install](docs/installation.md), [use it](docs/usage.md),
-[commands](docs/commands.md), [settings](docs/configuration.md), [troubleshooting](docs/troubleshooting.md) and
-[security](docs/security.md).
+Every page is in [docs/](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/index.md): [install](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/installation.md), [use it](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/usage.md),
+[commands](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/commands.md), [settings](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/configuration.md), [troubleshooting](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/troubleshooting.md) and
+[security](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/security.md).
 
 ## Development
 
@@ -268,7 +289,7 @@ pnpm test
 Tests run against a fake account built from HubSpot's API reference, with invented records and an injected keyring.
 Nothing reaches a real account. `pnpm release:check` runs every check a release needs.
 
-More: [testing](docs/dev/TESTING.md) · [design](docs/dev/DESIGN.md)
+More: [testing](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/dev/TESTING.md) · [design](https://github.com/WireCatLabs/hubspot-cli/blob/main/docs/dev/DESIGN.md)
 
 Pull requests, bug reports and ideas go to [issues](https://github.com/WireCatLabs/hubspot-cli/issues).
 
@@ -279,4 +300,4 @@ agents your context from messengers, mail, calendars, documents and CRMs. Each o
 
 ## License
 
-[Apache 2.0](LICENSE)
+[Apache 2.0](https://github.com/WireCatLabs/hubspot-cli/blob/main/LICENSE)

@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-23
-updated_at: 2026-11-23T02:52:44Z
+updated_at: 2026-11-23T22:03:10Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -235,6 +235,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://campaignmagic.ai/api/mcp
   needs_credentials: true, writes_external: false
+- [mcp] Flow Marketing. Brand-true motion-design marketing videos from templates, with price preview and human approval.
+  source: https://flow-marketing.org/entwickler/mcp
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://flow-marketing.org/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] GroundedKit Marketing Stats Checker. Check marketing and influencer stats against primary sources: verdict, source, safe wording.
   source: https://groundedkit.com/agents/
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -243,11 +248,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 - [case] ai_email_gtm_outreach_agent. An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Market
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [case] ai_seo_audit_team. The **AI SEO Audit Team** is an autonomous, multi-agent workflow built with Google ADK. It takes a webpage URL, crawls the live page, researches real-time SERP competition, and produces a polished, prioritized SEO optimi
-  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-seo-audit.md
   license: Apache-2.0
   needs_credentials: false, writes_external: false
 
