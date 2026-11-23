@@ -28,6 +28,12 @@
 
 <sub>Every image on this page is drawn by CUI, from plain C.</sub>
 
+<br><br>
+
+<a href="https://buymeacoffee.com/e_gurl">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Support CUI on Buy Me a Coffee" width="217" height="60">
+</a>
+
 </div>
 
 CUI is an immediate-mode UI library written in C99. You describe the screen with function calls every frame. CUI lays it out, handles the mouse and keyboard, and draws it with OpenGL or its own software renderer, in a window on Windows, macOS or Linux, or in a browser through WebAssembly.
