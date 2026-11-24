@@ -246,8 +246,8 @@ const stepGrid = (items) => (items.length <= 6 ? grid(items) : `<div class="rgri
 let MORE_N = 0;
 for (const c of COURSE_LIST) {
   const n = STEP_KEYS.reduce((a, s) => a + c.steps[s].length, 0);
-  const extra = `<div class="alert" role="note" data-mod="alert">${ic('shield')}<div><b data-i="course.perm">${t('course.perm')}</b><p data-x="perm.${c.industry}">${esc(COURSES.permissions[c.industry])}</p></div></div>
-<div class="p-actions" data-mod="buttons">${btn(courseRaw(c), ti('course.raw'), 'btn btn-p', 'doc')}${btn(u(`packs/${c.industry}/${c.role}.zip`), ti('course.pack'), 'btn btn-o', 'zip')}${btn(courseJsonRaw(c), 'JSON', 'btn btn-o', 'json')}<button type="button" class="btn btn-g" data-copy="${esc(courseRaw(c))}">${ic('copy')}${ti('course.copy_url')}</button></div>
+  const extra = `<div class="p-actions" data-mod="buttons"><button type="button" class="btn btn-p" data-course-gen-copy data-evt="copy" data-evt-label="course_prompt"><span class="sr-only sr-live" aria-live="polite"></span>${ic('copy')}${ti('course.gen_copy')}</button>${btn(courseRaw(c), ti('course.raw'), 'btn btn-o', 'doc')}${btn(u(`packs/${c.industry}/${c.role}.zip`), ti('course.pack'), 'btn btn-o', 'zip')}${btn(courseJsonRaw(c), 'JSON', 'btn btn-o', 'json')}<button type="button" class="btn btn-g" data-copy="${esc(courseRaw(c))}">${ic('copy')}${ti('course.copy_url')}</button></div>
+<div class="alert" role="note" data-mod="alert">${ic('shield')}<div><b data-i="course.perm">${t('course.perm')}</b><p data-x="perm.${c.industry}">${esc(COURSES.permissions[c.industry])}</p></div></div>
 <div class="p-stats" data-mod="stats"><div><b data-ticker="${n}">${n}</b>${ti('fac.items')}</div><div><b>5</b>${ti('course.steps')}</div><div><b data-ticker="${COURSES.checklists[c.industry].length}">${COURSES.checklists[c.industry].length}</b>${ti('course.checks')}</div></div>`;
   const step = (s, k) => `<li class="tml-item" id="step-${k + 1}"><span class="tml-bullet" aria-hidden="true">${k + 1}</span><div class="tml-body"><h2 class="tml-t">${ti('step.' + s)}</h2><p class="tml-d">${ti('step.' + s + '.d')}</p>
 ${s === '2-pick-direction' && c.industry === 'design' ? `<div class="styles"><h3 class="p-h3">${ti('course.styles')}</h3><p class="p-badges">${STYLES.map((x) => `<a class="badge-l" href="https://siinxu.github.io/ui-resource-hub/">${esc(x.k)} <em>${x.n}</em></a>`).join('')}</p></div>` : ''}
@@ -495,6 +495,17 @@ const H = await buildHome({ ROOT, DIST, BASE, SITE, RAW, UIHUB_API, UPDATED, LOC
   const main = `${H.main.a}<template data-sk-tpl="b">${H.main.b}</template><template data-sk-tpl="c">${H.main.c}</template>${swap}`;
   write(DIST, 'index.html', page({ title: t('doc.home_title'), docTitle: 'doc.home_title', desc: t('hero.sub'), main, active: 'nav.home', rel: '', pageData: { kind: 'home' }, home: H.DATA }));
 }
+// Course pages need the same prompt data as the home wizard (window.DIR). buildHome runs after
+// dist/api exists, so we patch the already-written course HTML rather than calling it earlier.
+for (const c of COURSE_LIST) {
+  const f = path.join(DIST, `courses/${c.industry}/${c.role}/index.html`);
+  let html = fs.readFileSync(f, 'utf8');
+  const pageData = JSON.stringify({ kind: 'course', prof: c.industry, role: c.role });
+  if (!html.includes('window.DIR=')) html = html.replace('<script>window.AA=', `<script>window.DIR=${JSON.stringify(H.DATA)}</script><script>window.AA=`);
+  html = html.replace('"page":null', `"page":${pageData}`);
+  fs.writeFileSync(f, html);
+}
+
 const { scopeSkins } = await import('./scope-css.mjs');
 const FONTS = `@font-face{font-family:"Geist";src:url(${u('assets/fonts/geist-latin.woff2')}) format("woff2");font-weight:100 900;font-display:swap}
 @font-face{font-family:"Geist";src:url(${u('assets/fonts/geist-latin-ext.woff2')}) format("woff2");font-weight:100 900;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
