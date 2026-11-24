@@ -2,7 +2,7 @@
  "id": "customer-service/knowledge-base-editor",
  "industry": "customer-service",
  "role": "knowledge-base-editor",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -459,7 +459,7 @@
     },
     {
      "id": "botsdots-customer-support-desk",
-     "title": "Customer Support Desk",
+     "title": "Casey · Customer desk",
      "type": "template",
      "industry": "customer-service",
      "roles": [
@@ -495,7 +495,7 @@
        "creator": "ASaltyVet",
        "firstSeen": "2026-10-06",
        "integrations": [],
-       "name": "Customer Support Desk",
+       "name": "Casey · Customer desk",
        "official": false,
        "page": "https://botsdots.site/templates/customer-support-desk",
        "risk": "medium",
@@ -518,7 +518,7 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
      "checked_at": "2026-11-23T22:03:10Z",
      "http_status": {
       "source": 200

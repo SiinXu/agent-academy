@@ -1,8 +1,8 @@
 ---
 name: marketing-seo-specialist
 description: Agent Academy course for SEO and AEO (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/marketing/seo-specialist/
 ---
 
@@ -63,7 +63,7 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q
   needs_credentials: false, writes_external: false
-- [template] AEO/SEO Bot. Weekday pipeline that picks, lays out, and grades search-visibility pages
+- [template] AEO/SEO Bot (Content OS). Weekday pipeline that picks, lays out, and grades search-visibility pages
   source: https://botsdots.site/templates/aeoseo-bot
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi

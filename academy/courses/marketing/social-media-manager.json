@@ -2,7 +2,7 @@
  "id": "marketing/social-media-manager",
  "industry": "marketing",
  "role": "social-media-manager",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -305,7 +305,7 @@
     },
     {
      "id": "botsdots-small-business-social-media-manager",
-     "title": "Small Business Social Media Manager",
+     "title": "Garden Buddy",
      "type": "template",
      "industry": "marketing",
      "roles": [
@@ -341,7 +341,7 @@
        "integrations": [
         "instagram"
        ],
-       "name": "Small Business Social Media Manager",
+       "name": "Garden Buddy",
        "official": false,
        "page": "https://botsdots.site/templates/small-business-social-media-manager",
        "risk": "low",
@@ -366,7 +366,7 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
-     "updated_at": "2026-10-18T14:01:50Z",
+     "updated_at": "2026-11-24T06:07:50Z",
      "checked_at": "2026-11-23T22:03:10Z",
      "http_status": {
       "source": 200
@@ -444,30 +444,30 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-social-media-tracker",
-     "title": "Social Media Tracker",
+     "id": "botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting",
+     "title": "Social Sidekick — A Week of Posts, Planned in One Sitting",
      "type": "template",
      "industry": "marketing",
      "roles": [
       "social-media-manager"
      ],
-     "summary": "Tracks social posts you care about and returns a short digest",
+     "summary": "Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/social-media-tracker",
+     "source_url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "dan_spitzwieser",
+     "author": "NewsGurus",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
       "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/social-media-tracker",
+      "url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
       "record": {
        "access": [],
-       "add": "https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N",
+       "add": "https://x.ai/bot/V84j989EfSSeuL0On3JSR",
        "cadence": "on-demand",
        "catalog_sources": [
         "kydlikebtc/awesome-grokbot",
@@ -476,44 +476,38 @@
         "GrokBot HQ (CC BY 4.0)"
        ],
        "category": "content-publishing",
-       "creator": "dan_spitzwieser",
-       "firstSeen": "2026-09-28",
-       "integrations": [
-        "linkedin",
-        "youtube"
-       ],
-       "name": "Social Media Tracker",
+       "creator": "NewsGurus",
+       "firstSeen": "2026-11-16",
+       "integrations": [],
+       "name": "Social Sidekick — A Week of Posts, Planned in One Sitting",
        "official": false,
-       "page": "https://botsdots.site/templates/social-media-tracker",
+       "page": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
        "risk": "low",
-       "summary": "Tracks social posts you care about and returns a short digest"
+       "summary": "Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes."
       }
      },
-     "install": "https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N",
+     "install": "https://x.ai/bot/V84j989EfSSeuL0On3JSR",
      "security": {
       "audited": false,
       "executes_code": false,
-      "needs_credentials": true,
+      "needs_credentials": false,
       "writes_external": false,
       "risk_label": "low",
-      "integrations": [
-       "linkedin",
-       "youtube"
-      ]
+      "integrations": []
      },
      "metrics": {
       "score": 10,
-      "first_seen_catalog": "2026-09-28"
+      "first_seen_catalog": "2026-11-16"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-26T16:48:06Z",
+     "first_seen": "2026-10-17T13:43:47Z",
+     "updated_at": "2026-11-24T06:07:50Z",
      "checked_at": "2026-11-23T22:03:10Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/botsdots-social-media-tracker/",
+     "page": "https://academy.incidental.site/r/botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting/",
      "source": "botsdots"
     },
     {
@@ -730,74 +724,6 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting",
-     "title": "Social Sidekick",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "social-media-manager"
-     ],
-     "summary": "Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "NewsGurus",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
-      "record": {
-       "access": [
-        "publishing"
-       ],
-       "add": "https://x.ai/bot/V84j989EfSSeuL0On3JSR",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "NewsGurus",
-       "firstSeen": "2026-10-20",
-       "integrations": [],
-       "name": "Social Sidekick",
-       "official": false,
-       "page": "https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting",
-       "risk": "high",
-       "summary": "Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes."
-      }
-     },
-     "install": "https://x.ai/bot/V84j989EfSSeuL0On3JSR",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": true,
-      "risk_label": "high",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 9,
-      "first_seen_catalog": "2026-10-20"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-17T13:43:47Z",
-     "updated_at": "2026-10-20T15:07:01Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/botsdots-social-sidekick-a-week-of-posts-planned-in-one-sitting/",
-     "source": "botsdots"
-    },
-    {
      "id": "botsdots-x-cmo-social-media-manager",
      "title": "𝕏 CMO & Social Media Manager",
      "type": "template",
@@ -1001,6 +927,79 @@
      },
      "page": "https://academy.incidental.site/r/botsdots-social-media-salesperson/",
      "source": "botsdots"
+    },
+    {
+     "id": "botsdots-social-media-manager-template",
+     "title": "Social Media Manager Template",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "social-media-manager"
+     ],
+     "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/social-media-manager-template",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Jennifer",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/social-media-manager-template",
+      "record": {
+       "access": [
+        "calendar"
+       ],
+       "add": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
+       "cadence": "daily",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": null,
+       "firstSeen": "2026-10-27",
+       "integrations": [
+        "linkedin",
+        "youtube"
+       ],
+       "name": "Social Media Manager Template",
+       "official": false,
+       "page": "https://botsdots.site/templates/social-media-manager-template",
+       "risk": "medium",
+       "summary": "A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates."
+      }
+     },
+     "install": "https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "linkedin",
+       "youtube"
+      ]
+     },
+     "metrics": {
+      "score": 6,
+      "first_seen_catalog": "2026-10-27"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-26T16:48:06Z",
+     "updated_at": "2026-10-28T16:38:31Z",
+     "checked_at": "2026-11-23T22:03:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-social-media-manager-template/",
+     "source": "botsdots"
     }
    ]
   },
@@ -1038,8 +1037,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1083,8 +1082,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1128,8 +1127,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1173,16 +1172,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26746,
+      "repo_stars": 26748,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-08-business-product-content-quality-edi/",
      "source": "github"
@@ -2456,8 +2455,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2501,8 +2500,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2546,8 +2545,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2591,8 +2590,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2636,8 +2635,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2681,8 +2680,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",

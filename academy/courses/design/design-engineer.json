@@ -2,7 +2,7 @@
  "id": "design/design-engineer",
  "industry": "design",
  "role": "design-engineer",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -515,7 +515,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199432,
+      "repo_stars": 199580,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -560,7 +560,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 120622,
+      "repo_stars": 120769,
       "repo_pushed_at": "2026-11-22"
      },
      "course_step": "3-learn-rules",
@@ -605,7 +605,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -650,7 +650,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -695,8 +695,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -740,8 +740,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -785,8 +785,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -830,8 +830,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -875,7 +875,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -920,16 +920,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26746,
+      "repo_stars": 26748,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-01-core-development-design-bridge/",
      "source": "github"
@@ -1073,6 +1073,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-addy-agent-skills",
+     "title": "addyosmani/agent-skills",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Addy Osmani’s engineering skills, including frontend performance and quality",
+     "summary_lang": "en",
+     "source_url": "https://github.com/addyosmani/agent-skills",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@addyosmani",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-addy-agent-skills/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-aiforui-dev-skills",
      "title": "AI Skills for UI",
      "type": "skill",
@@ -1211,6 +1256,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-anti-slop",
+     "title": "anti-slop",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "An anti-AI-slop design skill",
+     "summary_lang": "en",
+     "source_url": "https://github.com/miqdadbadjuber/anti-slop",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@lorden_eth",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/miqdadbadjuber/anti-slop/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-anti-slop/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-www-ui-skills-com-skills-emilkowalski-apple-design",
      "title": "apple-design（Emil Kowalski）",
      "type": "skill",
@@ -1257,6 +1347,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-avoid-ai-design",
+     "title": "avoid-ai-design",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "A rule set for avoiding templated AI-looking design",
+     "summary_lang": "en",
+     "source_url": "https://github.com/funboy322/avoid-ai-design",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-avoid-ai-design.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@lorden_eth",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/funboy322/avoid-ai-design/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-avoid-ai-design/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-www-ui-skills-com-skills-mengto-beautiful-shadows",
      "title": "beautiful-shadows（Meng To）",
      "type": "skill",
@@ -1300,6 +1435,51 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-mengto-beautiful-shadows/",
+     "source": "ui-hub"
+    },
+    {
+     "id": "uihub-ued-bencium-design",
+     "title": "bencium Claude Code Design Skill",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Called “one of the most complete UX design skills” by the community; focused on UX flow and usability",
+     "summary_lang": "en",
+     "source_url": "https://github.com/bencium/bencium-claude-code-design-skill",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-bencium-design.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@bencium",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/bencium/bencium-marketplace/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-bencium-design/",
      "source": "ui-hub"
     },
     {
@@ -1485,6 +1665,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-ued-grubby-design-guide",
+     "title": "design-guide（GrubbyLee）",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "A design guide written for agents",
+     "summary_lang": "en",
+     "source_url": "https://github.com/GrubbyLee/design-guide",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-grubby-design-guide.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@lorden_eth",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/GrubbyLee/design-guide/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-grubby-design-guide/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-www-ui-skills-com-skills-superfuture-design-review",
      "title": "design-review（superfuture）",
      "type": "skill",
@@ -1577,6 +1802,51 @@
      "source": "ui-hub"
     },
     {
+     "id": "uihub-x-emilkowalski-skills",
+     "title": "Emil Kowalski · skills",
+     "type": "skill",
+     "industry": "design",
+     "roles": [
+      "design-engineer"
+     ],
+     "summary": "Emil's agent skills repo: /mobile-native (native touch feel, no hover) and /break-ui (stress-test UI with extreme data like long names) (from X: @emilkowalski, 4601 likes / 5138 bookmarks, 2026-10-04)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/emilkowalski/skills",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-x-emilkowalski-skills.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "X",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-x-emilkowalski-skills/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-www-ui-skills-com-skills-emilkowalski-emil-design-eng",
      "title": "emil-design-eng（Emil Kowalski）",
      "type": "skill",
@@ -1621,282 +1891,6 @@
      },
      "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-emilkowalski-emil-design-eng/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-www-ui-skills-com-skills-emilkowalski-animate",
-     "title": "emilkowalski/animate",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Animate from scratch, deciding in the right order whether and how things move",
-     "summary_lang": "en",
-     "source_url": "https://www.ui-skills.com/skills/emilkowalski/animate",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "ui-skills.com",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-emilkowalski-animate/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-www-ui-skills-com-skills-emilkowalski-review-animations",
-     "title": "emilkowalski/review-animations",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Review animation timing, rhythm and consistency",
-     "summary_lang": "en",
-     "source_url": "https://www.ui-skills.com/skills/emilkowalski/review-animations",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "ui-skills.com",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-emilkowalski-review-animations/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-www-ui-skills-com-skills-anthropics-frontend-design",
-     "title": "frontend-design（Anthropic）",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Anthropic's official frontend design skill",
-     "summary_lang": "en",
-     "source_url": "https://www.ui-skills.com/skills/anthropics/frontend-design",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@kail_designs",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-anthropics-frontend-design/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-www-ui-skills-com-skills-ibelick-baseline-ui",
-     "title": "ibelick/baseline-ui",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Quickly remove the 'AI look': fix spacing, hierarchy, type and small layout issues",
-     "summary_lang": "en",
-     "source_url": "https://www.ui-skills.com/skills/ibelick/baseline-ui",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "ui-skills.com",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-ibelick-baseline-ui/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-www-ui-skills-com-skills-ibelick-create-design-md",
-     "title": "ibelick/create-design-md",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Extract a design system from an existing product or site into DESIGN.md",
-     "summary_lang": "en",
-     "source_url": "https://www.ui-skills.com/skills/ibelick/create-design-md",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "ui-skills.com",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-ibelick-create-design-md/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-www-ui-skills-com-skills-ibelick-improve-ui",
-     "title": "ibelick/improve-ui",
-     "type": "skill",
-     "industry": "design",
-     "roles": [
-      "design-engineer"
-     ],
-     "summary": "Review the UI against your product's own design system and write a fix plan",
-     "summary_lang": "en",
-     "source_url": "https://www.ui-skills.com/skills/ibelick/improve-ui",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "ui-skills.com",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-www-ui-skills-com-skills-ibelick-improve-ui/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1934,8 +1928,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -1997,7 +1991,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2226,
+      "repo_stars": 2227,
       "repo_pushed_at": "2026-11-18",
       "registry_updated_at": "2025-10-16"
      },
@@ -2005,9 +1999,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-figma-mcp-mcp/",
      "source": "mcp-registry"
@@ -2070,9 +2064,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-storybookjs-addon-mcp/",
      "source": "mcp-registry"
@@ -2135,9 +2129,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-bv-venky-excalidraw-architect-mcp/",
      "source": "mcp-registry"
@@ -2206,9 +2200,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-bourhaouta-tailwindshades/",
      "source": "mcp-registry"
@@ -2271,9 +2265,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-sunhome243-figma-mcp-express/",
      "source": "mcp-registry"
@@ -2346,9 +2340,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-felixanhalt-figma-context-mcp/",
      "source": "mcp-registry"
@@ -2411,9 +2405,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-jmshinhwa-tailwind-v4-upgrade-blocker-lint/",
      "source": "mcp-registry"
@@ -2604,9 +2598,9 @@
      "status": "active",
      "first_seen": "2026-11-13T17:45:53Z",
      "updated_at": "2026-11-22T17:49:51Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-mrcoder-figmamcp/",
      "source": "mcp-registry"
@@ -2667,9 +2661,9 @@
      "status": "active",
      "first_seen": "2026-11-20T18:36:53Z",
      "updated_at": "2026-11-20T18:36:53Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-gentleface-icons/",
      "source": "mcp-registry"
@@ -2800,16 +2794,16 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-11-23",
+      "repo_pushed_at": "2026-11-24",
       "registry_updated_at": "2026-11-10"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-11-10T17:50:52Z",
      "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-mrfentmen-adobe-font-metrics-mcp/",
      "source": "mcp-registry"
@@ -2872,9 +2866,9 @@
      "status": "active",
      "first_seen": "2026-11-10T17:50:52Z",
      "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-nguyendinhphongdx-figma-bridge-mcp/",
      "source": "mcp-registry"
@@ -2935,9 +2929,9 @@
      "status": "active",
      "first_seen": "2026-11-10T17:50:52Z",
      "updated_at": "2026-11-14T02:28:51Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-oma-kase-icons/",
      "source": "mcp-registry"
@@ -3169,8 +3163,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3214,8 +3208,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3259,7 +3253,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -3304,8 +3298,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3349,8 +3343,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3394,8 +3388,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3439,8 +3433,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3484,7 +3478,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -3529,7 +3523,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -3574,7 +3568,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -3619,16 +3613,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26746,
+      "repo_stars": 26748,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"

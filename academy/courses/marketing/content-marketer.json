@@ -2,7 +2,7 @@
  "id": "marketing/content-marketer",
  "industry": "marketing",
  "role": "content-marketer",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to plan, write and measure marketing work (content, SEO, email, ads) from real skills and prompts, without publishing anything unapproved.",
  "permissions": "Read-only by default. Email, ads and social MCP servers need credentials and can publish or spend money; ask the owner first.",
  "checklist": [
@@ -410,73 +410,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-krishna-head-of-marketing/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-lobster-agents",
-     "title": "Lobster Agents",
-     "type": "template",
-     "industry": "marketing",
-     "roles": [
-      "content-marketer"
-     ],
-     "summary": "28 AI agents. One real company. Staff eng, design, QA, data, marketing, sales, legal, and ops as Grok bots — Bob is the front door, you stay at the",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/lobster-agents",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "MarcMojica",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/lobster-agents",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/XECw-q9SY0rMprOq66UTt",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot.dev (CC BY 4.0)"
-       ],
-       "category": "customer-sales",
-       "creator": "MarcMojica",
-       "firstSeen": "2026-09-19",
-       "integrations": [],
-       "name": "Lobster Agents",
-       "official": false,
-       "page": "https://botsdots.site/templates/lobster-agents",
-       "risk": "low",
-       "summary": "28 AI agents. One real company. Staff eng, design, QA, data, marketing, sales, legal, and ops as Grok bots — Bob is the front door, you stay at the"
-      }
-     },
-     "install": "https://x.ai/bot/XECw-q9SY0rMprOq66UTt",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 11,
-      "first_seen_catalog": "2026-09-19"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-09T20:44:54Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/botsdots-lobster-agents/",
      "source": "botsdots"
     },
     {
@@ -888,30 +821,32 @@
      "source": "botsdots"
     },
     {
-     "id": "botsdots-bdc-brand-strategist",
-     "title": "BDC Brand Strategist",
+     "id": "botsdots-head-of-content",
+     "title": "Head of Content",
      "type": "template",
      "industry": "marketing",
      "roles": [
       "content-marketer"
      ],
-     "summary": "A brand strategy guide for small business owners and brand pros.",
+     "summary": "An AI head of content for growing on X: builds your brand strategy, connects tools, writes content skills and deploys 10+ content bots; you stay the editor.",
      "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/bdc-brand-strategist",
+     "source_url": "https://botsdots.site/templates/head-of-content",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "thejessebarney",
+     "author": "grok",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
       "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/bdc-brand-strategist",
+      "url": "https://botsdots.site/templates/head-of-content",
       "record": {
-       "access": [],
-       "add": "https://x.ai/bot/Oe7gk0Zk0K7UO3Od5-nMZ",
+       "access": [
+        "code"
+       ],
+       "add": "https://x.ai/bot/WWdl6r61XsoZR3nyXwLzj",
        "cadence": "on-demand",
        "catalog_sources": [
         "majiayu000/awesome-grok-bot",
@@ -919,17 +854,87 @@
         "GrokBot HQ (CC BY 4.0)"
        ],
        "category": "content-publishing",
-       "creator": "thejessebarney",
-       "firstSeen": "2026-10-20",
-       "integrations": [],
-       "name": "BDC Brand Strategist",
+       "creator": "grok",
+       "firstSeen": "2026-10-26",
+       "integrations": [
+        "x"
+       ],
+       "name": "Head of Content",
        "official": false,
-       "page": "https://botsdots.site/templates/bdc-brand-strategist",
-       "risk": "low",
-       "summary": "A brand strategy guide for small business owners and brand pros."
+       "page": "https://botsdots.site/templates/head-of-content",
+       "risk": "medium",
+       "summary": "An AI head of content for growing on X: builds your brand strategy, connects tools, writes content skills and deploys 10+ content bots; you stay the editor."
       }
      },
-     "install": "https://x.ai/bot/Oe7gk0Zk0K7UO3Od5-nMZ",
+     "install": "https://x.ai/bot/WWdl6r61XsoZR3nyXwLzj",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "x"
+      ]
+     },
+     "metrics": {
+      "score": 9,
+      "first_seen_catalog": "2026-10-26"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-10-26T16:48:06Z",
+     "updated_at": "2026-10-26T16:48:06Z",
+     "checked_at": "2026-11-23T22:03:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-head-of-content/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-philosopher-bot",
+     "title": "Philosopher Bot",
+     "type": "template",
+     "industry": "marketing",
+     "roles": [
+      "content-marketer"
+     ],
+     "summary": "A student of human nature that studies psychology, behavioral science, marketing and ethical persuasion.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/philosopher-bot",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "MetanoiaMetamrf",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/philosopher-bot",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/CULd42u_wtEycB_Xyep14",
+       "cadence": "daily",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "cs68614-hash/awesome-grokbot-templates",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "research-briefings",
+       "creator": "MetanoiaMetamrf",
+       "firstSeen": "2026-11-02",
+       "integrations": [],
+       "name": "Philosopher Bot",
+       "official": false,
+       "page": "https://botsdots.site/templates/philosopher-bot",
+       "risk": "low",
+       "summary": "A student of human nature that studies psychology, behavioral science, marketing and ethical persuasion."
+      }
+     },
+     "install": "https://x.ai/bot/CULd42u_wtEycB_Xyep14",
      "security": {
       "audited": false,
       "executes_code": false,
@@ -939,18 +944,18 @@
       "integrations": []
      },
      "metrics": {
-      "score": 9,
-      "first_seen_catalog": "2026-10-20"
+      "score": 8,
+      "first_seen_catalog": "2026-11-02"
      },
      "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-20T15:07:01Z",
-     "updated_at": "2026-10-25T14:23:36Z",
+     "first_seen": "2026-10-28T16:38:31Z",
+     "updated_at": "2026-11-02T20:22:18Z",
      "checked_at": "2026-11-23T22:03:10Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/botsdots-bdc-brand-strategist/",
+     "page": "https://academy.incidental.site/r/botsdots-philosopher-bot/",
      "source": "botsdots"
     }
    ]
@@ -1171,7 +1176,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199432,
+      "repo_stars": 199580,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1216,8 +1221,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1261,8 +1266,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1306,8 +1311,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1351,8 +1356,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1396,8 +1401,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1441,8 +1446,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1486,8 +1491,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1531,8 +1536,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1576,7 +1581,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -1621,7 +1626,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -1666,7 +1671,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -2101,9 +2106,9 @@
      "status": "active",
      "first_seen": "2026-10-21T00:40:03Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-monetizemarketing-app/",
      "source": "mcp-registry"
@@ -2232,9 +2237,9 @@
      "status": "active",
      "first_seen": "2026-10-21T00:40:03Z",
      "updated_at": "2026-10-21T00:40:03Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-sadri-dridi-agent-marketing-index/",
      "source": "mcp-registry"
@@ -2358,9 +2363,9 @@
      "status": "active",
      "first_seen": "2026-10-21T00:40:03Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-ariadnemarketing-therapist-marketing/",
      "source": "mcp-registry"
@@ -2549,9 +2554,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-alpha-park-genpark-jitter-buffer/",
      "source": "mcp-registry"
@@ -2630,9 +2635,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-asklokesh-hootsuite-mcp-server/",
      "source": "mcp-registry"
@@ -2695,9 +2700,9 @@
      "status": "active",
      "first_seen": "2026-10-21T00:40:03Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-autostackup-marketing/",
      "source": "mcp-registry"
@@ -2776,9 +2781,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-10-27T15:53:32Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-mrfentmen-mixpanel-mcp/",
      "source": "mcp-registry"
@@ -2902,9 +2907,9 @@
      "status": "active",
      "first_seen": "2026-10-21T00:40:03Z",
      "updated_at": "2026-10-21T00:40:03Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-varvararatta-marketing-mcp/",
      "source": "mcp-registry"
@@ -2982,9 +2987,9 @@
      "status": "active",
      "first_seen": "2026-10-22T00:43:10Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-pipeworx-io-mixpanel/",
      "source": "mcp-registry"
@@ -3062,9 +3067,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:41:56Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-pipeworx-io-sendgrid/",
      "source": "mcp-registry"
@@ -3178,9 +3183,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:41:56Z",
      "updated_at": "2026-11-03T03:29:34Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-choppaaahh-sendgrid-mcp-secure/",
      "source": "mcp-registry"
@@ -3311,8 +3316,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3356,8 +3361,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3401,8 +3406,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 62237,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 62298,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3446,8 +3451,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3491,8 +3496,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3536,8 +3541,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",

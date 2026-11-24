@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -48,7 +48,7 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/s634cb1edf26493e86be2
   needs_credentials: false, writes_external: true
-- [template] Small Business Social Media Manager. Your own social media manager for a small business. It writes on-brand captions, makes Instagram and Facebook graphics from your logo and photos.
+- [template] Garden Buddy. Your own social media manager for a small business. It writes on-brand captions, makes Instagram and Facebook graphics from your logo and photos.
   source: https://botsdots.site/templates/small-business-social-media-manager
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/wDVFJmSK67btMnZBwcgic
@@ -58,11 +58,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/gWaVjPTfktx831mfsXPcH
   needs_credentials: false, writes_external: true
-- [template] Social Media Tracker. Tracks social posts you care about and returns a short digest
-  source: https://botsdots.site/templates/social-media-tracker
+- [template] Social Sidekick — A Week of Posts, Planned in One Sitting. Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.
+  source: https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/YLjJMkz_KjRyhihMYjt6N
-  needs_credentials: true, writes_external: false
+  install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
+  needs_credentials: false, writes_external: false
 - [template] Draft Doctor. A blunt, honest critic for your social media drafts: it finds the weakest point, flags claims that need a source, suggests stronger hooks.
   source: https://botsdots.site/templates/draft-doctor
   license: template belongs to its creator (catalog CC0)
@@ -78,11 +78,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
   needs_credentials: true, writes_external: true
-- [template] Social Sidekick. Plans a small business's social media a week at a time and drafts every post in the owner's voice for approval. Nothing posts without the owner's yes.
-  source: https://botsdots.site/templates/social-sidekick-a-week-of-posts-planned-in-one-sitting
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/V84j989EfSSeuL0On3JSR
-  needs_credentials: false, writes_external: true
 - [template] 𝕏 CMO & Social Media Manager. Your X social media manager: drafts posts and replies in your voice, runs a Google Sheets content calendar.
   source: https://botsdots.site/templates/x-cmo-social-media-manager
   license: template belongs to its creator (catalog CC0)
@@ -98,6 +93,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/JYf4g6Fp2mfxpEq4B-S2e
   needs_credentials: false, writes_external: false
+- [template] Social Media Manager Template. A sellable social media manager bot, part of the 'Founder's Back Office' package of public Grok Bot templates.
+  source: https://botsdots.site/templates/social-media-manager-template
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/6RPEdCPUVQDVW1wJlkIPT
+  needs_credentials: true, writes_external: false
 
 ## Step 3: Learn the rules
 

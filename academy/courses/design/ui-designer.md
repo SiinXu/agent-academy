@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -94,24 +94,25 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1679 items
-- 3d: 659 items
+- minimal: 1718 items
+- 3d: 660 items
 - motion: 653 items
-- editorial: 590 items
+- editorial: 593 items
 - playful: 571 items
 - gradient: 294 items
 - retro: 120 items
 - dark-tech: 110 items
-- glass: 56 items
-- enterprise: 43 items
-- swiss: 25 items
-- soft: 15 items
+- glass: 57 items
+- enterprise: 45 items
+- swiss: 27 items
+- soft: 16 items
 - brutalist: 13 items
-- apple: 11 items
+- apple: 12 items
 - material: 11 items
 - skeuomorphic: 9 items
 - utilitarian: 7 items
 - fluent: 3 items
+- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -145,11 +146,6 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/ogAh6MiV-0HAhp9wbHMTS
   needs_credentials: false, writes_external: true
-- [template] Spruce. Send a photo of a room to clean out or redecorate and get a concept after mockup plus easy step-by-step instructions
-  source: https://botsdots.site/templates/spruce
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/NVpdpaSAKHtd1qH6VH9vc
-  needs_credentials: false, writes_external: false
 - [template] iPhone Screenshot Bot. Send app screenshots and get clean iPhone mockups back on white, dark glow, gradient or custom backgrounds, optionally with your logo.
   source: https://botsdots.site/templates/iphone-screenshot-bot
   license: template belongs to its creator (catalog CC0)
@@ -165,10 +161,15 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/dYpPe1PCZv2WJDVTYDwhc
   needs_credentials: true, writes_external: false
-- [template] Pixel · Design. A design bot that makes logos, thumbnails, cover art, icons, and UI mockups in your own style with real editors (GIMP, Inkscape, Krita…
+- [template] Pixel. A design bot that makes logos, thumbnails, cover art, icons, post graphics and UI mockups with real editors such as GIMP, Inkscape and Krita
   source: https://botsdots.site/templates/pixel-design
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/gM0DHWfNDysR-M6FdEkhr
+  needs_credentials: false, writes_external: false
+- [template] Shirt Maker. Turns any picture into a print-ready shirt design, with a mockup and an order it fills for your approval.
+  source: https://botsdots.site/templates/shirt-maker
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/SahTwJB0g7SDbAmHBvFTD
   needs_credentials: false, writes_external: false
 - [style-library] /zeroz official site. Fashion photography on white with an oversized slash wordmark /zeroz: Japanese whitespace and sharpness (via Awwwards)
   source: https://otsuka-air.jp/
@@ -433,6 +434,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://svgicons.com/mcp
   needs_credentials: true, writes_external: false
+- [tool] 21st-dev/magic-mcp. Use 10k+ React/Tailwind components inside Cursor (21st’s MCP)
+  source: https://github.com/21st-dev/magic-mcp
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [tool] 3Dicons. Free 3D icons
   source: https://3dicons.co
   license: see source (listed via UI Hub)
@@ -452,10 +458,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://mcp.apify.com/?tools=nerolabs/adobe-stock-keyword-generator
   needs_credentials: true, writes_external: true
-- [tool] Agentation. Annotate problems directly on the UI and generate instructions for coding agents
-  source: https://agentation.com/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check
 

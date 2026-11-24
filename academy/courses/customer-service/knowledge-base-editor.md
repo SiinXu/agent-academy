@@ -1,8 +1,8 @@
 ---
 name: customer-service-knowledge-base-editor
 description: Agent Academy course for Knowledge base editor (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/customer-service/knowledge-base-editor/
 ---
 
@@ -69,7 +69,7 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/47iWfw0I5xxt6uPqKj52G
   needs_credentials: false, writes_external: false
-- [template] Customer Support Desk. Sorts your support inbox, drafts replies in your voice, builds an FAQ from repeat questions, and watches for churn signals
+- [template] Casey · Customer desk. Sorts your support inbox, drafts replies in your voice, builds an FAQ from repeat questions, and watches for churn signals
   source: https://botsdots.site/templates/customer-support-desk
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/SeAX2ThEH5Qu8GloOB17C

@@ -1,8 +1,8 @@
 ---
 name: customer-service-support-agent
 description: Agent Academy course for Support agent (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/customer-service/support-agent/
 ---
 
@@ -79,11 +79,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/1PSI6qQln1PowM5reA_8L
   needs_credentials: true, writes_external: false
-- [template] XChat 고객센터 봇. 24/7 customer support bot that answers X Chat inquiries from the docs and URLs you choose, and can take a voice call when the customer wants one
-  source: https://botsdots.site/templates/xchat-ec6g
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/Ec6g2olzVFKq60cC-Jy5h
-  needs_credentials: false, writes_external: false
 - [template] Customer Support Idiot Buffer. Calls customer support for you via a voice bridge and steers mid-call from chat
   source: https://botsdots.site/templates/customer-support-idiot-buffer
   license: template belongs to its creator (catalog CC0)
@@ -123,6 +118,11 @@ Choose one style, platform or channel from the reference library. Only one.
   source: https://botsdots.site/templates/review-reply-drafter
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/RFZWV8682hykNKF8UJf44
+  needs_credentials: false, writes_external: false
+- [template] Support Reply Drafter. Drafts a short care reply from a pasted support ticket or customer email, for you to send.
+  source: https://botsdots.site/templates/support-reply-drafter
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/ghYcuP9N4ymIYZeCZPoWO
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

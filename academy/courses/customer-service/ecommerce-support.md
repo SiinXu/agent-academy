@@ -1,8 +1,8 @@
 ---
 name: customer-service-ecommerce-support
 description: Agent Academy course for E-commerce support (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/customer-service/ecommerce-support/
 ---
 
@@ -88,6 +88,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/XjfLn_WyeGXzwHjPLL6jW
   needs_credentials: false, writes_external: false
+- [template] Serial Return Watch by Mark. Helps small online sellers on Shopify, Etsy, eBay, WooCommerce and TikTok Shop catch repeat returners and wardrobing before refunds
+  source: https://botsdots.site/templates/serial-return-watch-by-mark
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/XHt4xaX22jUw6aFrRu3JH
+  needs_credentials: true, writes_external: true
 
 ## Step 3: Learn the rules
 

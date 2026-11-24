@@ -1,8 +1,8 @@
 ---
 name: design-design-engineer
 description: Agent Academy course for Design engineer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/design/design-engineer/
 ---
 
@@ -46,24 +46,25 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1679 items
-- 3d: 659 items
+- minimal: 1718 items
+- 3d: 660 items
 - motion: 653 items
-- editorial: 590 items
+- editorial: 593 items
 - playful: 571 items
 - gradient: 294 items
 - retro: 120 items
 - dark-tech: 110 items
-- glass: 56 items
-- enterprise: 43 items
-- swiss: 25 items
-- soft: 15 items
+- glass: 57 items
+- enterprise: 45 items
+- swiss: 27 items
+- soft: 16 items
 - brutalist: 13 items
-- apple: 11 items
+- apple: 12 items
 - material: 11 items
 - skeuomorphic: 9 items
 - utilitarian: 7 items
 - fluent: 3 items
+- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -168,6 +169,11 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/pbakaus/adapt
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] addyosmani/agent-skills. Addy Osmani’s engineering skills, including frontend performance and quality
+  source: https://github.com/addyosmani/agent-skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-addy-agent-skills.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] AI Skills for UI. Emil Kowalski’s free, MIT-licensed AI skills for better interface animation, gestures and mobile polish. Install with npx skills add emilkowalski/skills. The skills are free; the site also offers a paid course
   source: https://aiforui.dev/skills
   license: see source (listed via UI Hub)
@@ -180,12 +186,27 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/anthropics/canvas-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] anti-slop. An anti-AI-slop design skill
+  source: https://github.com/miqdadbadjuber/anti-slop
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-anti-slop.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] apple-design（Emil Kowalski）. Apple-style design
   source: https://www.ui-skills.com/skills/emilkowalski/apple-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] avoid-ai-design. A rule set for avoiding templated AI-looking design
+  source: https://github.com/funboy322/avoid-ai-design
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-avoid-ai-design.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] beautiful-shadows（Meng To）. Beautiful shadows
   source: https://www.ui-skills.com/skills/mengto/beautiful-shadows
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
+- [skill] bencium Claude Code Design Skill. Called “one of the most complete UX design skills” by the community; focused on UX flow and usability
+  source: https://github.com/bencium/bencium-claude-code-design-skill
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-bencium-design.md
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 - [skill] better-interface（Jakub Krehel）. Polish interface details
@@ -206,6 +227,11 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/dammyjay93/interface-design
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] design-guide（GrubbyLee）. A design guide written for agents
+  source: https://github.com/GrubbyLee/design-guide
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-grubby-design-guide.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] design-review（superfuture）. Design review
   source: https://www.ui-skills.com/skills/superfuture/design-review
   license: see source (listed via UI Hub)
@@ -214,32 +240,13 @@ Read the required skills, prompts and standards in order.
   source: https://www.ui-skills.com/skills/diffusionstudio/text-to-lottie
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
+- [skill] Emil Kowalski · skills. Emil's agent skills repo: /mobile-native (native touch feel, no hover) and /break-ui (stress-test UI with extreme data like long names) (from X: @emilkowalski, 4601 likes / 5138 bookmarks, 2026-10-04)
+  source: https://github.com/emilkowalski/skills
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-x-emilkowalski-skills.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [skill] emil-design-eng（Emil Kowalski）. Design engineering details
   source: https://www.ui-skills.com/skills/emilkowalski/emil-design-eng
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [skill] emilkowalski/animate. Animate from scratch, deciding in the right order whether and how things move
-  source: https://www.ui-skills.com/skills/emilkowalski/animate
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [skill] emilkowalski/review-animations. Review animation timing, rhythm and consistency
-  source: https://www.ui-skills.com/skills/emilkowalski/review-animations
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [skill] frontend-design（Anthropic）. Anthropic's official frontend design skill
-  source: https://www.ui-skills.com/skills/anthropics/frontend-design
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [skill] ibelick/baseline-ui. Quickly remove the 'AI look': fix spacing, hierarchy, type and small layout issues
-  source: https://www.ui-skills.com/skills/ibelick/baseline-ui
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [skill] ibelick/create-design-md. Extract a design system from an existing product or site into DESIGN.md
-  source: https://www.ui-skills.com/skills/ibelick/create-design-md
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [skill] ibelick/improve-ui. Review the UI against your product's own design system and write a fix plan
-  source: https://www.ui-skills.com/skills/ibelick/improve-ui
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

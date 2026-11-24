@@ -1,8 +1,8 @@
 ---
 name: design-motion-designer
 description: Agent Academy course for Motion and interaction (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/design/motion-designer/
 ---
 
@@ -46,24 +46,25 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1679 items
-- 3d: 659 items
+- minimal: 1718 items
+- 3d: 660 items
 - motion: 653 items
-- editorial: 590 items
+- editorial: 593 items
 - playful: 571 items
 - gradient: 294 items
 - retro: 120 items
 - dark-tech: 110 items
-- glass: 56 items
-- enterprise: 43 items
-- swiss: 25 items
-- soft: 15 items
+- glass: 57 items
+- enterprise: 45 items
+- swiss: 27 items
+- soft: 16 items
 - brutalist: 13 items
-- apple: 11 items
+- apple: 12 items
 - material: 11 items
 - skeuomorphic: 9 items
 - utilitarian: 7 items
 - fluent: 3 items
+- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -83,15 +84,15 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/FKNsKOj2AaahklQwyI3yr
   needs_credentials: false, writes_external: false
-- [template] Design. Background design specialist for UI, front-end look, CSS and animation, three.js scenes, charts, icons, mockups, and image generation.
-  source: https://botsdots.site/templates/design-df3y
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/dF-3_YZzohRdycguTTUwA
-  needs_credentials: false, writes_external: false
 - [template] Design System Extractor. Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion
   source: https://botsdots.site/templates/design-system-extractor
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u
+  needs_credentials: false, writes_external: false
+- [template] Design. Background design specialist for UI, front-end look, CSS and animation, three.js scenes, charts, icons, mockups, and image generation.
+  source: https://botsdots.site/templates/design-df3y
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/dF-3_YZzohRdycguTTUwA
   needs_credentials: false, writes_external: false
 - [style-library] 'kin. ‘kin are a creative commercial interior design, branding and graphic design studio.
   source: https://by-kin.com/

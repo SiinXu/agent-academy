@@ -1,8 +1,8 @@
 ---
 name: customer-service-support-lead
 description: Agent Academy course for Escalations and lead (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/customer-service/support-lead/
 ---
 
@@ -63,12 +63,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/CIU6taZ7CkhsJZlCK9ps9
   needs_credentials: true, writes_external: false
-- [plugin] Customer Support plugin (Anthropic knowledge-work-plugins). A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, 
-  source: https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-customer-support.md
-  license: Apache-2.0
-  install: claude plugin marketplace add anthropics/knowledge-work-plugins
-  needs_credentials: false, writes_external: false
+- [template] Feature Ranker. Turns scattered feature requests from Slack, call notes, and support tickets into one ranked demand list a product team can trust.
+  source: https://botsdots.site/templates/feature-ranker
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/Z9P_YTZh-DGTxkm4JrLho
+  needs_credentials: true, writes_external: false
 
 ## Step 3: Learn the rules
 

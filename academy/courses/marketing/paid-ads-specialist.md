@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -68,16 +68,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ
   needs_credentials: true, writes_external: true
-- [template] Amazon Ads Manager. Monitors and reports on Amazon Sponsored Products, Brands and Display ads from native reports, and proposes changes for you to approve.
-  source: https://botsdots.site/templates/amazon-ads-manager
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/oOnro0nYdAP6AaiEnUBG6
-  needs_credentials: false, writes_external: false
-- [template] ChatGPT Ads & OpenAI Billing. Monitors ChatGPT Ads performance and OpenAI API usage and billing, writes native-report reviews and makes owner-approved campaign changes.
-  source: https://botsdots.site/templates/chatgpt-ads-openai-billing
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/ColgVDqeUV6CNR11Sk4U6
-  needs_credentials: false, writes_external: false
 - [template] Fuse. A circuit breaker for paid-media APIs and Ads Manager sessions: says GO, PAUSE or NO and throttles bots so ad accounts don't get banned.
   source: https://botsdots.site/templates/fuse
   license: template belongs to its creator (catalog CC0)
@@ -88,6 +78,11 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Cfl2KaSwJw20vkq1kgjXA
   needs_credentials: true, writes_external: false
+- [template] Image Ad creator. Makes scroll-stopping Meta image ads for Facebook and Instagram from your real product photos, with full ad copy for each, built for small businesses
+  source: https://botsdots.site/templates/image-ad-creator
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/_M-5QU7X4Rxs1yY_c5Gxe
+  needs_credentials: false, writes_external: false
 - [template] Tally. Watches Slack for ad performance questions, pulls the numbers from Supermetrics and answers in a DM.
   source: https://botsdots.site/templates/tally-n3se
   license: template belongs to its creator (catalog CC0)
@@ -231,6 +226,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y tiktok-organic-mcp
   needs_credentials: true, writes_external: false
+- [mcp] TikTok & TikTok Shop Data MCP Server. Public TikTok & TikTok Shop (OEC) data across 22+ countries: videos, VTT transcripts, SKUs & VQScore
+  source: https://github.com/Techssss/tiktok-scraper-api-tiktok-shop-no-watermark
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://tiktok-scraper-api.minhnghiathcstp.workers.dev/mcp
+  needs_credentials: true, writes_external: false
 - [mcp] TikTok by 1Social. Publish and schedule TikTok videos and photo posts from your AI assistant.
   source: https://github.com/sultanlive/1social-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-1social-tiktok.md
@@ -271,11 +271,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://api.shortvidapi.com/mcp
   needs_credentials: true, writes_external: false
-- [mcp] Deep Thought Marketing. Done-for-you digital marketing for small businesses: plan, launch and manage ads across 22 channels.
-  source: https://deepthought.marketing/claude-connector.html
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://mcp.deepthought.marketing/mcp
-  needs_credentials: true, writes_external: true
 
 ## Step 5: Self-check
 

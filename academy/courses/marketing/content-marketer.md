@@ -1,8 +1,8 @@
 ---
 name: marketing-content-marketer
 description: Agent Academy course for Content marketer (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/marketing/content-marketer/
 ---
 
@@ -59,11 +59,6 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/k-keodk82Xq6in9aQY_jT
   needs_credentials: false, writes_external: false
-- [template] Lobster Agents. 28 AI agents. One real company. Staff eng, design, QA, data, marketing, sales, legal, and ops as Grok bots — Bob is the front door, you stay at the
-  source: https://botsdots.site/templates/lobster-agents
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/XECw-q9SY0rMprOq66UTt
-  needs_credentials: false, writes_external: false
 - [template] Marketing Bot. A CMO bot that turns your product into the marketing around it
   source: https://botsdots.site/templates/marketing-bot
   license: template belongs to its creator (catalog CC0)
@@ -94,10 +89,15 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/Qn3J8hO5gAMc_7BVzYm-p
   needs_credentials: true, writes_external: false
-- [template] BDC Brand Strategist. A brand strategy guide for small business owners and brand pros.
-  source: https://botsdots.site/templates/bdc-brand-strategist
+- [template] Head of Content. An AI head of content for growing on X: builds your brand strategy, connects tools, writes content skills and deploys 10+ content bots; you stay the editor.
+  source: https://botsdots.site/templates/head-of-content
   license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/Oe7gk0Zk0K7UO3Od5-nMZ
+  install: https://x.ai/bot/WWdl6r61XsoZR3nyXwLzj
+  needs_credentials: true, writes_external: false
+- [template] Philosopher Bot. A student of human nature that studies psychology, behavioral science, marketing and ethical persuasion.
+  source: https://botsdots.site/templates/philosopher-bot
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/CULd42u_wtEycB_Xyep14
   needs_credentials: false, writes_external: false
 
 ## Step 3: Learn the rules

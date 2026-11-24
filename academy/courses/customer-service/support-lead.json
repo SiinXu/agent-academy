@@ -2,7 +2,7 @@
  "id": "customer-service/support-lead",
  "industry": "customer-service",
  "role": "support-lead",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -415,50 +415,74 @@
      "source": "botsdots"
     },
     {
-     "id": "anthropics-knowledge-work-plugins-customer-support",
-     "title": "Customer Support plugin (Anthropic knowledge-work-plugins)",
-     "type": "plugin",
+     "id": "botsdots-feature-ranker",
+     "title": "Feature Ranker",
+     "type": "template",
      "industry": "customer-service",
      "roles": [
-      "support-agent",
-      "knowledge-base-editor"
+      "support-lead"
      ],
-     "summary": "A customer support plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Provides ticket triage, escalation management, response drafting, customer research, and knowledge base authoring for support t",
+     "summary": "Turns scattered feature requests from Slack, call notes, and support tickets into one ranked demand list a product team can trust.",
      "summary_lang": "en",
-     "source_url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/anthropics-knowledge-work-plugins-customer-support.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/README.md",
-     "repo": "anthropics/knowledge-work-plugins",
-     "author": "anthropics",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
+     "source_url": "https://botsdots.site/templates/feature-ranker",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Jonah",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
      "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support"
+      "kind": "excerpt",
+      "license": "facts-only",
+      "url": "https://botsdots.site/templates/feature-ranker",
+      "record": {
+       "access": [
+        "chat"
+       ],
+       "add": "https://x.ai/bot/Z9P_YTZh-DGTxkm4JrLho",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "Public x.ai share page"
+       ],
+       "category": "coding-shipping",
+       "creator": null,
+       "firstSeen": "2026-11-21",
+       "integrations": [
+        "slack"
+       ],
+       "name": "Feature Ranker",
+       "official": false,
+       "page": "https://botsdots.site/templates/feature-ranker",
+       "risk": "medium",
+       "summary": "Turns scattered feature requests from Slack, call notes, and support tickets into one ranked demand list a product team can trust."
+      }
      },
-     "install": "claude plugin marketplace add anthropics/knowledge-work-plugins",
+     "install": "https://x.ai/bot/Z9P_YTZh-DGTxkm4JrLho",
      "security": {
       "audited": false,
       "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "slack"
+      ]
      },
      "metrics": {
-      "repo_stars": 29728,
-      "repo_pushed_at": "2026-10-15"
+      "score": 3,
+      "first_seen_catalog": "2026-11-21"
      },
-     "course_step": "4-do-it",
+     "course_step": "2-pick-direction",
      "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "first_seen": "2026-11-24T06:07:50Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
       "source": 200
      },
-     "page": "https://academy.incidental.site/r/anthropics-knowledge-work-plugins-customer-support/",
-     "source": "seed"
+     "page": "https://academy.incidental.site/r/botsdots-feature-ranker/",
+     "source": "botsdots"
     }
    ]
   },

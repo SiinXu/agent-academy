@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -419,6 +419,71 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-design-system-extractor",
+     "title": "Design System Extractor",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/design-system-extractor",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "bnistordev",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/design-system-extractor",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "coding-shipping",
+       "creator": "bnistordev",
+       "firstSeen": "2026-11-10",
+       "integrations": [],
+       "name": "Design System Extractor",
+       "official": false,
+       "page": "https://botsdots.site/templates/design-system-extractor",
+       "risk": "low",
+       "summary": "Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion"
+      }
+     },
+     "install": "https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-11-10"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-23T22:03:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-design-system-extractor/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-design-df3y",
      "title": "Design",
      "type": "template",
@@ -480,70 +545,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-design-df3y/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-design-system-extractor",
-     "title": "Design System Extractor",
-     "type": "template",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/design-system-extractor",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "bnistordev",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/design-system-extractor",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot"
-       ],
-       "category": "coding-shipping",
-       "creator": "bnistordev",
-       "firstSeen": "2026-11-10",
-       "integrations": [],
-       "name": "Design System Extractor",
-       "official": false,
-       "page": "https://botsdots.site/templates/design-system-extractor",
-       "risk": "low",
-       "summary": "Reverse-engineers a site's design system from a URL, with exact colors, typography, spacing, components and motion"
-      }
-     },
-     "install": "https://x.ai/bot/KXS8-NWpwI0YgR3N__Q-u",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 3,
-      "first_seen_catalog": "2026-11-10"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-11-10T17:50:52Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/botsdots-design-system-extractor/",
      "source": "botsdots"
     },
     {
@@ -1410,7 +1411,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199432,
+      "repo_stars": 199580,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1455,7 +1456,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1500,7 +1501,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1545,7 +1546,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1590,7 +1591,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1635,7 +1636,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1680,7 +1681,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1725,7 +1726,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1770,8 +1771,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1815,8 +1816,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2006,9 +2007,9 @@
      "status": "active",
      "first_seen": "2026-10-20T15:07:01Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects/",
      "source": "mcp-registry"
@@ -2069,9 +2070,9 @@
      "status": "active",
      "first_seen": "2026-10-19T00:13:40Z",
      "updated_at": "2026-11-17T19:11:27Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-icons8-icons8/",
      "source": "mcp-registry"
@@ -2132,9 +2133,9 @@
      "status": "active",
      "first_seen": "2026-11-09T20:44:54Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-generative-icons/",
      "source": "mcp-registry"
@@ -2206,9 +2207,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-ajsmonty-adobe-mcp/",
      "source": "mcp-registry"
@@ -2269,9 +2270,9 @@
      "status": "active",
      "first_seen": "2026-11-03T03:29:34Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-creator/",
      "source": "mcp-registry"
@@ -2644,8 +2645,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2689,8 +2690,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2734,7 +2735,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2779,8 +2780,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2824,8 +2825,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2869,8 +2870,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2914,8 +2915,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2959,7 +2960,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -3004,7 +3005,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -3049,7 +3050,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -3094,16 +3095,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26746,
+      "repo_stars": 26748,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"

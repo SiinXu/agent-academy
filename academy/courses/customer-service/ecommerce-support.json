@@ -2,7 +2,7 @@
  "id": "customer-service/ecommerce-support",
  "industry": "customer-service",
  "role": "ecommerce-support",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to triage, answer and escalate customer requests with written policies, a help-desk MCP if allowed, and a self-check before sending.",
  "permissions": "Read-only by default. Help-desk MCP servers (Zendesk, Freshdesk, Intercom, ...) need API keys and can send replies; ask the owner first.",
  "checklist": [
@@ -735,6 +735,77 @@
      },
      "page": "https://academy.incidental.site/r/botsdots-money-finder-xjfl/",
      "source": "botsdots"
+    },
+    {
+     "id": "botsdots-serial-return-watch-by-mark",
+     "title": "Serial Return Watch by Mark",
+     "type": "template",
+     "industry": "customer-service",
+     "roles": [
+      "ecommerce-support"
+     ],
+     "summary": "Helps small online sellers on Shopify, Etsy, eBay, WooCommerce and TikTok Shop catch repeat returners and wardrobing before refunds",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/serial-return-watch-by-mark",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "TheMarkGShow",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/serial-return-watch-by-mark",
+      "record": {
+       "access": [
+        "money"
+       ],
+       "add": "https://x.ai/bot/XHt4xaX22jUw6aFrRu3JH",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "customer-sales",
+       "creator": "TheMarkGShow",
+       "firstSeen": "2026-11-18",
+       "integrations": [
+        "shopify"
+       ],
+       "name": "Serial Return Watch by Mark",
+       "official": false,
+       "page": "https://botsdots.site/templates/serial-return-watch-by-mark",
+       "risk": "high",
+       "summary": "Helps small online sellers on Shopify, Etsy, eBay, WooCommerce and TikTok Shop catch repeat returners and wardrobing before refunds"
+      }
+     },
+     "install": "https://x.ai/bot/XHt4xaX22jUw6aFrRu3JH",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "risk_label": "high",
+      "integrations": [
+       "shopify"
+      ]
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-11-18"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-24T06:07:50Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-serial-return-watch-by-mark/",
+     "source": "botsdots"
     }
    ]
   },
@@ -862,16 +933,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 10665,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 10666,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/google-adk-recipes-plugins-retail-skills-virtual-tryon/",
      "source": "github"
@@ -907,16 +978,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2502,
+      "repo_stars": 2504,
       "repo_pushed_at": "2026-11-21"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/sierra-research-tau2-bench-data-tau2-domains-airline-policy/",
      "source": "github"
@@ -952,16 +1023,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 2502,
+      "repo_stars": 2504,
       "repo_pushed_at": "2026-11-21"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/sierra-research-tau2-bench-data-tau2-domains-telecom-main-policy/",
      "source": "github"

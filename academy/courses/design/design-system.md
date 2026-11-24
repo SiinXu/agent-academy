@@ -1,8 +1,8 @@
 ---
 name: design-design-system
 description: Agent Academy course for Design systems (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/design/design-system/
 ---
 
@@ -46,24 +46,25 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1679 items
-- 3d: 659 items
+- minimal: 1718 items
+- 3d: 660 items
 - motion: 653 items
-- editorial: 590 items
+- editorial: 593 items
 - playful: 571 items
 - gradient: 294 items
 - retro: 120 items
 - dark-tech: 110 items
-- glass: 56 items
-- enterprise: 43 items
-- swiss: 25 items
-- soft: 15 items
+- glass: 57 items
+- enterprise: 45 items
+- swiss: 27 items
+- soft: 16 items
 - brutalist: 13 items
-- apple: 11 items
+- apple: 12 items
 - material: 11 items
 - skeuomorphic: 9 items
 - utilitarian: 7 items
 - fluent: 3 items
+- industrial: 1 items
 - neumorphism: 1 items
 
 First case to read: how this site was designed by an agent: https://academy.incidental.site/cases/agent-academy-build/ (raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md)
@@ -96,16 +97,16 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/C9_sXN7trbw5bSj_mD5VL
   needs_credentials: false, writes_external: false
-- [template] Brand Guardian. Holds your brand kit and reviews posts, decks, videos and designs against it, returning a pass or exact fixes.
-  source: https://botsdots.site/templates/brand-guardian
-  license: template belongs to its creator (catalog CC0)
-  install: https://x.ai/bot/kUdKaZJJ2_WhEcssQABhA
-  needs_credentials: false, writes_external: true
 - [template] Web Developer. Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests
   source: https://botsdots.site/templates/web-developer
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI
   needs_credentials: true, writes_external: false
+- [template] Brand Guardian. Holds your brand kit and reviews posts, decks, videos and designs against it, returning a pass or exact fixes.
+  source: https://botsdots.site/templates/brand-guardian
+  license: template belongs to its creator (catalog CC0)
+  install: https://x.ai/bot/kUdKaZJJ2_WhEcssQABhA
+  needs_credentials: false, writes_external: true
 - [design-system] Adobe Spectrum. The design language across Adobe’s product suite
   source: https://spectrum.adobe.com/
   license: see source (listed via UI Hub)
@@ -273,6 +274,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-strategic-app-design-content-engineering-prompt.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [standard] Adobe Spectrum Design Data（tokens）. Spectrum’s public token data repo (formerly adobe/spectrum-tokens)
+  source: https://github.com/adobe/spectrum-design-data
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-spectrum-design-data.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [standard] Ant Design llms.txt / design.md. Provides llms.txt, llms-full.txt and design.md so you can feed the whole antd spec to an AI
   source: https://ant.design/docs/react/llms
   license: see source (listed via UI Hub)
@@ -308,6 +314,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-design-system-taste.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [standard] DESIGN.md format spec (Google). Google’s DESIGN.md format: tokens in YAML, design intent in Markdown
+  source: https://github.com/google-labs-code/design.md
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [standard] DTCG Format 2025.10 stable. The formal token JSON spec followed by Figma, Tokens Studio and Style Dictionary
   source: https://www.designtokens.org/tr/2025.10/format/
   license: see source (listed via UI Hub)
@@ -320,14 +331,6 @@ Read the required skills, prompts and standards in order.
   source: https://prompts.chat/prompts/cmobfhjz3000el1043ccbflbw_high-end-technology-inspired-website-ui-redesign
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-high-end-technology-inspired-website-ui-redesign.md
   license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [standard] Material 3 color roles. The reference for semantic color roles such as primary, on-primary and container
-  source: https://m3.material.io/styles/color/roles
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [standard] Material 3 Design Tokens. M3 token layers (ref → sys → comp) and naming
-  source: https://m3.material.io/foundations/design-tokens/overview
-  license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 
 ## Step 4: Do it

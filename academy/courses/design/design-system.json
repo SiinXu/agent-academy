@@ -2,7 +2,7 @@
  "id": "design/design-system",
  "industry": "design",
  "role": "design-system",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -386,7 +386,9 @@
       "license": "CC0-1.0",
       "url": "https://botsdots.site/templates/documentation-expert",
       "record": {
-       "access": [],
+       "access": [
+        "inbox"
+       ],
        "add": "https://x.ai/bot/JjLTs-HzmZyOmhxef2k2l",
        "cadence": "on-demand",
        "catalog_sources": [
@@ -404,7 +406,7 @@
        "name": "Documentation Expert",
        "official": false,
        "page": "https://botsdots.site/templates/documentation-expert",
-       "risk": "low",
+       "risk": "medium",
        "summary": "Drop a site, logo, or photo and get finished Figma brand guidelines"
       }
      },
@@ -414,7 +416,7 @@
       "executes_code": false,
       "needs_credentials": true,
       "writes_external": false,
-      "risk_label": "low",
+      "risk_label": "medium",
       "integrations": [
        "figma"
       ]
@@ -426,7 +428,7 @@
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:34:04Z",
+     "updated_at": "2026-11-24T06:07:50Z",
      "checked_at": "2026-11-23T22:03:10Z",
      "http_status": {
       "source": 200
@@ -569,6 +571,78 @@
      "source": "botsdots"
     },
     {
+     "id": "botsdots-web-developer",
+     "title": "Web Developer",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/web-developer",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "bnistordev",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC0-1.0",
+      "url": "https://botsdots.site/templates/web-developer",
+      "record": {
+       "access": [
+        "browser",
+        "code"
+       ],
+       "add": "https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "coding-shipping",
+       "creator": "bnistordev",
+       "firstSeen": "2026-11-10",
+       "integrations": [
+        "github"
+       ],
+       "name": "Web Developer",
+       "official": false,
+       "page": "https://botsdots.site/templates/web-developer",
+       "risk": "medium",
+       "summary": "Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests"
+      }
+     },
+     "install": "https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "risk_label": "medium",
+      "integrations": [
+       "github"
+      ]
+     },
+     "metrics": {
+      "score": 7,
+      "first_seen_catalog": "2026-11-10"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-10T17:50:52Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-23T22:03:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-web-developer/",
+     "source": "botsdots"
+    },
+    {
      "id": "botsdots-brand-guardian",
      "title": "Brand Guardian",
      "type": "template",
@@ -632,77 +706,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-brand-guardian/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-web-developer",
-     "title": "Web Developer",
-     "type": "template",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/web-developer",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "bnistordev",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/web-developer",
-      "record": {
-       "access": [
-        "browser",
-        "code"
-       ],
-       "add": "https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "majiayu000/awesome-grok-bot"
-       ],
-       "category": "coding-shipping",
-       "creator": "bnistordev",
-       "firstSeen": "2026-11-10",
-       "integrations": [
-        "github"
-       ],
-       "name": "Web Developer",
-       "official": false,
-       "page": "https://botsdots.site/templates/web-developer",
-       "risk": "medium",
-       "summary": "Builds complete websites, frontend and backend, from a design system in your GitHub repo and delivers small verified pull requests"
-      }
-     },
-     "install": "https://x.ai/bot/OnybhGfwbfR3ahaa6RBwI",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "risk_label": "medium",
-      "integrations": [
-       "github"
-      ]
-     },
-     "metrics": {
-      "score": 3,
-      "first_seen_catalog": "2026-11-10"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-11-10T17:50:52Z",
-     "updated_at": "2026-11-10T17:50:52Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/botsdots-web-developer/",
      "source": "botsdots"
     },
     {
@@ -1431,7 +1434,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199432,
+      "repo_stars": 199580,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1476,7 +1479,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199432,
+      "repo_stars": 199580,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1521,8 +1524,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1566,8 +1569,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1611,8 +1614,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1656,8 +1659,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1701,8 +1704,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1746,8 +1749,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1791,8 +1794,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1836,8 +1839,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1881,8 +1884,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1926,8 +1929,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1971,7 +1974,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -2016,7 +2019,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -2061,16 +2064,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26746,
+      "repo_stars": 26748,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-01-core-development-ui-designer/",
      "source": "github"
@@ -2209,6 +2212,51 @@
      },
      "page": "https://academy.incidental.site/r/prompts-chat-strategic-app-design-content-engineering-prompt/",
      "source": "prompts.chat"
+    },
+    {
+     "id": "uihub-ued-spectrum-design-data",
+     "title": "Adobe Spectrum Design Data（tokens）",
+     "type": "standard",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Spectrum’s public token data repo (formerly adobe/spectrum-tokens)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/adobe/spectrum-design-data",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-spectrum-design-data.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Adobe",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/adobe/spectrum-design-data/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-spectrum-design-data/",
+     "source": "ui-hub"
     },
     {
      "id": "uihub-ued-antd-llms",
@@ -2576,6 +2624,51 @@
      "source": "prompts.chat"
     },
     {
+     "id": "uihub-ued-google-design-md",
+     "title": "DESIGN.md format spec (Google)",
+     "type": "standard",
+     "industry": "design",
+     "roles": [
+      "design-system"
+     ],
+     "summary": "Google’s DESIGN.md format: tokens in YAML, design intent in Markdown",
+     "summary_lang": "en",
+     "source_url": "https://github.com/google-labs-code/design.md",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-google-design-md.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Google Labs",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google-labs-code/design.md/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-google-design-md/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-ued-dtcg-format",
      "title": "DTCG Format 2025.10 stable",
      "type": "standard",
@@ -2711,98 +2804,6 @@
      },
      "page": "https://academy.incidental.site/r/prompts-chat-high-end-technology-inspired-website-ui-redesign/",
      "source": "prompts.chat"
-    },
-    {
-     "id": "uihub-ued-m3-color-roles",
-     "title": "Material 3 color roles",
-     "type": "standard",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "The reference for semantic color roles such as primary, on-primary and container",
-     "summary_lang": "en",
-     "source_url": "https://m3.material.io/styles/color/roles",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Google",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-ued-m3-color-roles/",
-     "source": "ui-hub"
-    },
-    {
-     "id": "uihub-ued-m3-tokens",
-     "title": "Material 3 Design Tokens",
-     "type": "standard",
-     "industry": "design",
-     "roles": [
-      "design-system"
-     ],
-     "summary": "M3 token layers (ref → sys → comp) and naming",
-     "summary_lang": "en",
-     "source_url": "https://m3.material.io/foundations/design-tokens/overview",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Google",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-ued-m3-tokens/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -2840,7 +2841,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145518,
+      "repo_stars": 145550,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
@@ -2885,8 +2886,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -2957,9 +2958,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-alvinindra-figma-mcp-rust/",
      "source": "mcp-registry"
@@ -3022,9 +3023,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-tunglt1810-figma-mcp-go/",
      "source": "mcp-registry"
@@ -3087,9 +3088,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-miapre-html-to-figma-design-system/",
      "source": "mcp-registry"
@@ -3168,9 +3169,9 @@
      "status": "active",
      "first_seen": "2026-10-16T10:29:38Z",
      "updated_at": "2026-11-23T02:52:44Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-mehmoodqureshi-figma-codekit-mcp/",
      "source": "mcp-registry"
@@ -3231,9 +3232,9 @@
      "status": "active",
      "first_seen": "2026-11-19T18:59:06Z",
      "updated_at": "2026-11-19T18:59:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-iframefonts-sinqlo-mcp/",
      "source": "mcp-registry"
@@ -3431,9 +3432,9 @@
      "status": "active",
      "first_seen": "2026-11-16T02:13:04Z",
      "updated_at": "2026-11-16T02:13:04Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-semmargl-figma-proxy-mcp/",
      "source": "mcp-registry"
@@ -3582,9 +3583,9 @@
      "status": "active",
      "first_seen": "2026-11-04T02:24:06Z",
      "updated_at": "2026-11-06T17:29:58Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-freevectoricons-fvi-mcp/",
      "source": "mcp-registry"
@@ -3647,9 +3648,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-jirayusueb-figma-mcp-rs/",
      "source": "mcp-registry"
@@ -3712,9 +3713,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-nntoan-figma-mcp-rust/",
      "source": "mcp-registry"
@@ -3777,9 +3778,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-vola-trebla-tailwind-context-resolver-mcp/",
      "source": "mcp-registry"
@@ -3948,8 +3949,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3993,8 +3994,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4038,7 +4039,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -4083,8 +4084,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4128,8 +4129,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4173,8 +4174,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4218,8 +4219,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4263,7 +4264,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4308,7 +4309,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4353,7 +4354,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4398,16 +4399,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26746,
+      "repo_stars": 26748,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"

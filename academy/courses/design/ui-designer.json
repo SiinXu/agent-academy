@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-11-23T22:03:10Z",
+ "updated_at": "2026-11-24T06:07:50Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "4-do-it",
@@ -921,8 +921,7 @@
         "majiayu000/awesome-grok-bot",
         "cs68614-hash/awesome-grokbot-templates",
         "GrokBot.dev (CC BY 4.0)",
-        "GrokBot HQ (CC BY 4.0)",
-        "dajiaohuang/awesome-grok-bot-templates"
+        "GrokBot HQ (CC BY 4.0)"
        ],
        "category": "content-publishing",
        "creator": "johnbai",
@@ -949,13 +948,13 @@
       ]
      },
      "metrics": {
-      "score": 15,
+      "score": 13,
       "first_seen_catalog": "2026-08-31"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T10:29:38Z",
+     "updated_at": "2026-11-24T06:07:50Z",
      "checked_at": "2026-11-23T22:03:10Z",
      "http_status": {
       "source": 200
@@ -1098,73 +1097,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-idle-tees-designer/",
-     "source": "botsdots"
-    },
-    {
-     "id": "botsdots-spruce",
-     "title": "Spruce",
-     "type": "template",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Send a photo of a room to clean out or redecorate and get a concept after mockup plus easy step-by-step instructions",
-     "summary_lang": "en",
-     "source_url": "https://botsdots.site/templates/spruce",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "Brbaumhoff",
-     "license": "template belongs to its creator (catalog CC0)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "CC0-1.0",
-      "url": "https://botsdots.site/templates/spruce",
-      "record": {
-       "access": [],
-       "add": "https://x.ai/bot/NVpdpaSAKHtd1qH6VH9vc",
-       "cadence": "on-demand",
-       "catalog_sources": [
-        "kydlikebtc/awesome-grokbot",
-        "majiayu000/awesome-grok-bot",
-        "cs68614-hash/awesome-grokbot-templates",
-        "GrokBot HQ (CC BY 4.0)"
-       ],
-       "category": "content-publishing",
-       "creator": "Brbaumhoff",
-       "firstSeen": "2026-09-25",
-       "integrations": [],
-       "name": "Spruce",
-       "official": false,
-       "page": "https://botsdots.site/templates/spruce",
-       "risk": "low",
-       "summary": "Send a photo of a room to clean out or redecorate and get a concept after mockup plus easy step-by-step instructions"
-      }
-     },
-     "install": "https://x.ai/bot/NVpdpaSAKHtd1qH6VH9vc",
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false,
-      "risk_label": "low",
-      "integrations": []
-     },
-     "metrics": {
-      "score": 11,
-      "first_seen_catalog": "2026-09-25"
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/botsdots-spruce/",
      "source": "botsdots"
     },
     {
@@ -1371,42 +1303,43 @@
     },
     {
      "id": "botsdots-pixel-design",
-     "title": "Pixel · Design",
+     "title": "Pixel",
      "type": "template",
      "industry": "design",
      "roles": [
       "ui-designer"
      ],
-     "summary": "A design bot that makes logos, thumbnails, cover art, icons, and UI mockups in your own style with real editors (GIMP, Inkscape, Krita…",
+     "summary": "A design bot that makes logos, thumbnails, cover art, icons, post graphics and UI mockups with real editors such as GIMP, Inkscape and Krita",
      "summary_lang": "en",
      "source_url": "https://botsdots.site/templates/pixel-design",
      "raw_url": null,
      "upstream_raw_url": null,
      "repo": null,
-     "author": "𝕃𝕖𝕧𝕚",
+     "author": "LeviHoliday4",
      "license": "template belongs to its creator (catalog CC0)",
      "redistributable": false,
      "content_policy": "link-and-summary-only",
      "original": {
       "kind": "excerpt",
-      "license": "facts-only",
+      "license": "CC0-1.0",
       "url": "https://botsdots.site/templates/pixel-design",
       "record": {
        "access": [],
        "add": "https://x.ai/bot/gM0DHWfNDysR-M6FdEkhr",
        "cadence": "on-demand",
        "catalog_sources": [
-        "Public x.ai share page"
+        "majiayu000/awesome-grok-bot",
+        "GrokBot HQ (CC BY 4.0)"
        ],
        "category": "content-publishing",
-       "creator": null,
-       "firstSeen": "2026-11-07",
+       "creator": "LeviHoliday4",
+       "firstSeen": "2026-11-11",
        "integrations": [],
-       "name": "Pixel · Design",
+       "name": "Pixel",
        "official": false,
        "page": "https://botsdots.site/templates/pixel-design",
        "risk": "low",
-       "summary": "A design bot that makes logos, thumbnails, cover art, icons, and UI mockups in your own style with real editors (GIMP, Inkscape, Krita…"
+       "summary": "A design bot that makes logos, thumbnails, cover art, icons, post graphics and UI mockups with real editors such as GIMP, Inkscape and Krita"
       }
      },
      "install": "https://x.ai/bot/gM0DHWfNDysR-M6FdEkhr",
@@ -1419,18 +1352,82 @@
       "integrations": []
      },
      "metrics": {
-      "score": 2,
-      "first_seen_catalog": "2026-11-07"
+      "score": 6,
+      "first_seen_catalog": "2026-11-11"
      },
      "course_step": "2-pick-direction",
      "status": "active",
      "first_seen": "2026-11-09T20:44:54Z",
-     "updated_at": "2026-11-09T20:44:54Z",
+     "updated_at": "2026-11-24T06:07:50Z",
      "checked_at": "2026-11-23T22:03:10Z",
      "http_status": {
       "source": 200
      },
      "page": "https://academy.incidental.site/r/botsdots-pixel-design/",
+     "source": "botsdots"
+    },
+    {
+     "id": "botsdots-shirt-maker",
+     "title": "Shirt Maker",
+     "type": "template",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Turns any picture into a print-ready shirt design, with a mockup and an order it fills for your approval.",
+     "summary_lang": "en",
+     "source_url": "https://botsdots.site/templates/shirt-maker",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "Dannyijbol",
+     "license": "template belongs to its creator (catalog CC0)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "CC-BY-4.0",
+      "url": "https://botsdots.site/templates/shirt-maker",
+      "record": {
+       "access": [],
+       "add": "https://x.ai/bot/SahTwJB0g7SDbAmHBvFTD",
+       "cadence": "on-demand",
+       "catalog_sources": [
+        "GrokBot HQ (CC BY 4.0)"
+       ],
+       "category": "content-publishing",
+       "creator": "Dannyijbol",
+       "firstSeen": "2026-11-16",
+       "integrations": [],
+       "name": "Shirt Maker",
+       "official": false,
+       "page": "https://botsdots.site/templates/shirt-maker",
+       "risk": "low",
+       "summary": "Turns any picture into a print-ready shirt design, with a mockup and an order it fills for your approval."
+      }
+     },
+     "install": "https://x.ai/bot/SahTwJB0g7SDbAmHBvFTD",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false,
+      "risk_label": "low",
+      "integrations": []
+     },
+     "metrics": {
+      "score": 5,
+      "first_seen_catalog": "2026-11-16"
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-24T06:07:50Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/botsdots-shirt-maker/",
      "source": "botsdots"
     },
     {
@@ -1975,7 +1972,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199432,
+      "repo_stars": 199580,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2020,7 +2017,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199432,
+      "repo_stars": 199580,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2065,8 +2062,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2110,7 +2107,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2155,8 +2152,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2200,8 +2197,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2245,8 +2242,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2830,7 +2827,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145518,
+      "repo_stars": 145550,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
@@ -2903,7 +2900,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16290,
+      "repo_stars": 16296,
       "repo_pushed_at": "2026-11-15",
       "registry_updated_at": "2026-06-18"
      },
@@ -2911,9 +2908,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-glips-figma-context-mcp/",
      "source": "mcp-registry"
@@ -2967,7 +2964,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2226,
+      "repo_stars": 2227,
       "repo_pushed_at": "2026-11-18",
       "registry_updated_at": "2025-10-16"
      },
@@ -2975,9 +2972,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-figma-mcp-mcp/",
      "source": "mcp-registry"
@@ -3040,9 +3037,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-tranhoaihung-figma-ui-mcp/",
      "source": "mcp-registry"
@@ -3097,7 +3094,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 243,
+      "repo_stars": 244,
       "repo_pushed_at": "2026-11-21",
       "registry_updated_at": "2026-11-21"
      },
@@ -3105,9 +3102,9 @@
      "status": "active",
      "first_seen": "2026-10-19T00:13:40Z",
      "updated_at": "2026-11-21T17:33:18Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-keylineicons-mcp/",
      "source": "mcp-registry"
@@ -3168,9 +3165,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-webflow-mcp/",
      "source": "mcp-registry"
@@ -3257,9 +3254,9 @@
      "status": "active",
      "first_seen": "2026-10-20T15:07:01Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-zachshallbetter-adobe-mcp-aftereffects/",
      "source": "mcp-registry"
@@ -3322,9 +3319,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-neozhehan-figma-edit-mcp/",
      "source": "mcp-registry"
@@ -3396,9 +3393,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-planetabhi-figma-mcp-server/",
      "source": "mcp-registry"
@@ -3461,9 +3458,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-dannykeane-figmanage/",
      "source": "mcp-registry"
@@ -3536,9 +3533,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-felixanhalt-figma-context-mcp/",
      "source": "mcp-registry"
@@ -3601,9 +3598,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-cmd8-excalidraw-mcp/",
      "source": "mcp-registry"
@@ -3666,9 +3663,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-debu-sinha-excalidraw/",
      "source": "mcp-registry"
@@ -3738,9 +3735,9 @@
      "status": "active",
      "first_seen": "2026-11-16T20:29:41Z",
      "updated_at": "2026-11-16T20:29:41Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-iconsaga-icons/",
      "source": "mcp-registry"
@@ -3812,9 +3809,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-oabolade-figma-mcp-server-actor/",
      "source": "mcp-registry"
@@ -3877,9 +3874,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-nbhey-figma-vault/",
      "source": "mcp-registry"
@@ -3951,9 +3948,9 @@
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-compassalessandrolorenz-figma-context-mcp-air/",
      "source": "mcp-registry"
@@ -4014,12 +4011,57 @@
      "status": "active",
      "first_seen": "2026-10-19T00:13:40Z",
      "updated_at": "2026-10-27T01:21:14Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-svgicons-mcp/",
      "source": "mcp-registry"
+    },
+    {
+     "id": "uihub-ued-magic-mcp",
+     "title": "21st-dev/magic-mcp",
+     "type": "tool",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Use 10k+ React/Tailwind components inside Cursor (21st’s MCP)",
+     "summary_lang": "en",
+     "source_url": "https://github.com/21st-dev/magic-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/uihub-ued-magic-mcp.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@0xal0ke",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "ISC",
+      "url": "https://github.com/21st-dev/magic-mcp/blob/main/README.md"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-24T06:07:50Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-ued-magic-mcp/",
+     "source": "ui-hub"
     },
     {
      "id": "uihub-ued-3dicons",
@@ -4125,9 +4167,9 @@
      "status": "active",
      "first_seen": "2026-10-30T02:00:19Z",
      "updated_at": "2026-10-30T02:00:19Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-commentemeapp-adobe-commerce-mcp/",
      "source": "mcp-registry"
@@ -4244,52 +4286,6 @@
      },
      "page": "https://academy.incidental.site/r/mcp-io-github-nero-engine-adobe-stock-keyword-generator/",
      "source": "mcp-registry"
-    },
-    {
-     "id": "uihub-agentation-com",
-     "title": "Agentation",
-     "type": "tool",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Annotate problems directly on the UI and generate instructions for coding agents",
-     "summary_lang": "en",
-     "source_url": "https://agentation.com/",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@tranmautritam",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-agentation-com/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -4455,8 +4451,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4500,8 +4496,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153245,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 153409,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4545,7 +4541,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59070,
+      "repo_stars": 59130,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -4590,8 +4586,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4635,8 +4631,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4680,8 +4676,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4725,8 +4721,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42844,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 42853,
+      "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -4770,7 +4766,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4815,7 +4811,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4860,7 +4856,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36736,
+      "repo_stars": 36750,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4905,16 +4901,16 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26746,
+      "repo_stars": 26748,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
      "status": "active",
      "first_seen": "2026-10-15T10:15:30Z",
      "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-23T22:03:10Z",
+     "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
-      "source": 429
+      "source": 200
      },
      "page": "https://academy.incidental.site/r/voltagent-awesome-claude-code-subagents-categories-04-quality-security-ui-ux-tester/",
      "source": "github"

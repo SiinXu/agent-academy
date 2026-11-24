@@ -1,8 +1,8 @@
 ---
 name: marketing-growth-marketer
 description: Agent Academy course for Growth (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-23
-updated_at: 2026-11-23T22:03:10Z
+version: 2026-11-24
+updated_at: 2026-11-24T06:07:50Z
 source: https://academy.incidental.site/courses/marketing/growth-marketer/
 ---
 
@@ -58,7 +58,7 @@ Choose one style, platform or channel from the reference library. Only one.
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/zEZeFchc863A_-JaGcX2D
   needs_credentials: false, writes_external: false
-- [template] Contractor Growth Desk. A marketing workbench for owner-operated contractors and service businesses: demo website drafts, B2B leads from companies running Meta and Google…
+- [template] Contractor Growth Desk. A marketing workbench for owner-operated contractors and service businesses with four modes: demo website drafts, B2B leads from companies running…
   source: https://botsdots.site/templates/contractor-growth-desk
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/NRm6z_mrm7ITEybyuOZMA
