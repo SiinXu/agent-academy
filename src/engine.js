@@ -402,6 +402,32 @@
     return h;
   }
 
+  // Course pages: one-click generate + copy, same template as the home wizard, this course pre-selected.
+  const courseGen = $('[data-course-gen-copy]');
+  if (courseGen) {
+    const page = (window.AA && window.AA.page) || {};
+    courseGen.addEventListener('click', async () => {
+      const prof = page.prof, role = page.role;
+      const c = D.courses && D.courses[`${prof}/${role}`];
+      if (!prof || !role || !D.prompt || !c) return;
+      const lang = LANG();
+      const text = buildPrompt({ prof, role, goal: '', style: '', plat: 'cursor', lang }).join('\n');
+      if (!(await copyText(text))) return;
+      const lab = $('[data-i]', courseGen);
+      const live = $('.sr-live', courseGen);
+      courseGen.dataset.copied = 'true';
+      if (live) live.textContent = T('wz.copied', 'Copied');
+      if (lab) lab.textContent = T('wz.copied', 'Copied');
+      try { window.ievt && window.ievt('prompt_generate', { prof, role, style: '', platform: 'cursor', lang, via: 'course' }); } catch (_) {}
+      try { window.ievt && window.ievt('convert', { goal: 'prompt_copy', chars: Math.min(text.length, 9999) }); } catch (_) {}
+      setTimeout(() => {
+        courseGen.dataset.copied = 'false';
+        if (live) live.textContent = '';
+        if (lab) lab.textContent = T('course.gen_copy', 'Generate and copy');
+      }, 2000);
+    });
+  }
+
   // ---------------------------------------------------------------- Wizard
   const W = $('[data-wz]');
   if (!W) return;
