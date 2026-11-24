@@ -195,7 +195,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Loyverse](servers/loyverse/) | ecommerce | 25 | API token | [servers/loyverse/](servers/loyverse/) |
 | [Momence](servers/momence/) | calendar | 27 | API token | [servers/momence/](servers/momence/) |
 | [Moosend](servers/moosend/) | email | 24 | API token | [servers/moosend/](servers/moosend/) |
-| [OfficeRnD](servers/officernd/) | productivity | 24 | API token | [servers/officernd/](servers/officernd/) |
+| [OfficeRnD](servers/officernd/) | productivity | 28 | API token | [servers/officernd/](servers/officernd/) |
 | [OptimoRoute](servers/optimoroute/) | shipping | 19 | API token | [servers/optimoroute/](servers/optimoroute/) |
 | [Paymo](servers/paymo/) | project-management | 25 | API token | [servers/paymo/](servers/paymo/) |
 | [Printful](servers/printful/) | ecommerce | 25 | API token | [servers/printful/](servers/printful/) |
@@ -216,7 +216,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [When I Work](servers/when-i-work/) | productivity | 25 | API token | [servers/when-i-work/](servers/when-i-work/) |
 | [Wild Apricot](servers/wild-apricot/) | membership | 25 | API token | [servers/wild-apricot/](servers/wild-apricot/) |
 | [Wufoo](servers/wufoo/) | productivity | 22 | API token | [servers/wufoo/](servers/wufoo/) |
-| [Lightspeed Retail (R-Series)](servers/lightspeed-r-series/) | ecommerce | 22 | OAuth | [servers/lightspeed-r-series/](servers/lightspeed-r-series/) |
+| [Lightspeed Retail (R-Series)](servers/lightspeed-r-series/) | ecommerce | 25 | OAuth | [servers/lightspeed-r-series/](servers/lightspeed-r-series/) |
 | [Lightspeed Retail (X-Series)](servers/lightspeed-x-series/) | ecommerce | 34 | OAuth | [servers/lightspeed-x-series/](servers/lightspeed-x-series/) |
 | [FreeAgent](servers/freeagent/) | billing | 24 | OAuth | [servers/freeagent/](servers/freeagent/) |
 | [Airbrake](servers/airbrake/) | observability | 17 | API token | [servers/airbrake/](servers/airbrake/) |
@@ -357,7 +357,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [CharlieHR](servers/charliehr/) | productivity | 31 | API token | [servers/charliehr/](servers/charliehr/) |
 | [FieldPulse](servers/fieldpulse/) | productivity | 47 | API token | [servers/fieldpulse/](servers/fieldpulse/) |
 | [bexio](servers/bexio/) | billing | 32 | OAuth | [servers/bexio/](servers/bexio/) |
-| [Teamleader Focus](servers/teamleader-focus/) | crm | 42 | OAuth | [servers/teamleader-focus/](servers/teamleader-focus/) |
+| [Teamleader Focus](servers/teamleader-focus/) | crm | 44 | OAuth | [servers/teamleader-focus/](servers/teamleader-focus/) |
 | [Clio](servers/clio/) | productivity | 27 | OAuth | [servers/clio/](servers/clio/) |
 | [Chatra](servers/chatra/) | chat | 14 | API token | [servers/chatra/](servers/chatra/) |
 | [Corsizio](servers/corsizio/) | calendar | 10 | API token | [servers/corsizio/](servers/corsizio/) |

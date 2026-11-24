@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-11-24T06:07:50Z",
+ "updated_at": "2026-11-24T20:39:58Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36750,
+      "repo_stars": 36792,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "4-do-it",
@@ -1972,7 +1972,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199580,
+      "repo_stars": 199892,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2017,7 +2017,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 199580,
+      "repo_stars": 199892,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2062,7 +2062,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153409,
+      "repo_stars": 153708,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2107,7 +2107,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59130,
+      "repo_stars": 59275,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2152,7 +2152,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42853,
+      "repo_stars": 42865,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2197,7 +2197,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42853,
+      "repo_stars": 42865,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2242,7 +2242,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42853,
+      "repo_stars": 42865,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2389,6 +2389,51 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/prompts-chat-make-uiux-better-of-an-already-created-application/",
+     "source": "prompts.chat"
+    },
+    {
+     "id": "prompts-chat-generate-a-plan-for-building-the-best-uiux",
+     "title": "Generate a Plan for Building the Best UI/UX",
+     "type": "system-prompt",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "Generate a comprehensive, actionable development plan for building a responsive web application.",
+     "summary_lang": "en",
+     "source_url": "https://prompts.chat/prompts/cmmk5uygc0001jv04g4yuguhi_generate-a-plan-for-building-the-best-uiux",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-generate-a-plan-for-building-the-best-uiux.md",
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "ayoubelouardi3710",
+     "license": "CC0-1.0",
+     "redistributable": true,
+     "content_policy": "mirror-with-attribution",
+     "original": {
+      "kind": "full",
+      "license": "CC0-1.0",
+      "url": "https://prompts.chat/prompts/cmmk5uygc0001jv04g4yuguhi_generate-a-plan-for-building-the-best-uiux"
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "votes": 1,
+      "created_at": "2026-03-10"
+     },
+     "course_step": "3-learn-rules",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-10-15T10:15:30Z",
+     "checked_at": "2026-11-23T22:03:10Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/prompts-chat-generate-a-plan-for-building-the-best-uiux/",
      "source": "prompts.chat"
     },
     {
@@ -2569,51 +2614,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/prompts-chat-change-home-page-design-for-blog-and-documentation-platform/",
-     "source": "prompts.chat"
-    },
-    {
-     "id": "prompts-chat-generate-a-plan-for-building-the-best-uiux",
-     "title": "Generate a Plan for Building the Best UI/UX",
-     "type": "system-prompt",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "Generate a comprehensive, actionable development plan for building a responsive web application.",
-     "summary_lang": "en",
-     "source_url": "https://prompts.chat/prompts/cmmk5uygc0001jv04g4yuguhi_generate-a-plan-for-building-the-best-uiux",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-generate-a-plan-for-building-the-best-uiux.md",
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "ayoubelouardi3710",
-     "license": "CC0-1.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "CC0-1.0",
-      "url": "https://prompts.chat/prompts/cmmk5uygc0001jv04g4yuguhi_generate-a-plan-for-building-the-best-uiux"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "votes": 0,
-      "created_at": "2026-03-10"
-     },
-     "course_step": "3-learn-rules",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/prompts-chat-generate-a-plan-for-building-the-best-uiux/",
      "source": "prompts.chat"
     },
     {
@@ -2827,7 +2827,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145550,
+      "repo_stars": 145593,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
@@ -2900,7 +2900,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16296,
+      "repo_stars": 16304,
       "repo_pushed_at": "2026-11-15",
       "registry_updated_at": "2026-06-18"
      },
@@ -2964,8 +2964,8 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 2227,
-      "repo_pushed_at": "2026-11-18",
+      "repo_stars": 2230,
+      "repo_pushed_at": "2026-11-24",
       "registry_updated_at": "2025-10-16"
      },
      "course_step": "4-do-it",
@@ -3029,7 +3029,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 269,
+      "repo_stars": 270,
       "repo_pushed_at": "2026-10-26",
       "registry_updated_at": "2026-10-26"
      },
@@ -3075,13 +3075,13 @@
          "id": "@keyline-icons/mcp",
          "transport": "stdio",
          "type": "npm",
-         "version": "2.9.0"
+         "version": "3.0.0"
         }
        ],
        "remotes": [],
        "repository": "https://github.com/keyline-icons/keyline-icons",
        "title": "Keyline Icons",
-       "version": "2.9.0",
+       "version": "3.0.0",
        "website": "https://keylineicons.com"
       }
      },
@@ -3094,14 +3094,14 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 244,
-      "repo_pushed_at": "2026-11-21",
-      "registry_updated_at": "2026-11-21"
+      "repo_stars": 246,
+      "repo_pushed_at": "2026-11-24",
+      "registry_updated_at": "2026-11-24"
      },
      "course_step": "4-do-it",
      "status": "active",
      "first_seen": "2026-10-19T00:13:40Z",
-     "updated_at": "2026-11-21T17:33:18Z",
+     "updated_at": "2026-11-24T20:39:58Z",
      "checked_at": "2026-11-24T06:07:50Z",
      "http_status": {
       "source": 200
@@ -3246,7 +3246,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 39,
+      "repo_stars": 41,
       "repo_pushed_at": "2026-11-19",
       "registry_updated_at": "2026-10-20"
      },
@@ -3311,7 +3311,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 16,
+      "repo_stars": 17,
       "repo_pushed_at": "2026-10-20",
       "registry_updated_at": "2026-08-04"
      },
@@ -4451,7 +4451,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153409,
+      "repo_stars": 153708,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4496,7 +4496,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153409,
+      "repo_stars": 153708,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4541,7 +4541,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59130,
+      "repo_stars": 59275,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -4586,7 +4586,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42853,
+      "repo_stars": 42865,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4631,7 +4631,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42853,
+      "repo_stars": 42865,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4676,7 +4676,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42853,
+      "repo_stars": 42865,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4721,7 +4721,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42853,
+      "repo_stars": 42865,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4766,7 +4766,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36750,
+      "repo_stars": 36792,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4811,7 +4811,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36750,
+      "repo_stars": 36792,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4856,7 +4856,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36750,
+      "repo_stars": 36792,
       "repo_pushed_at": "2026-11-23"
      },
      "course_step": "3-learn-rules",
@@ -4901,7 +4901,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26748,
+      "repo_stars": 26763,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

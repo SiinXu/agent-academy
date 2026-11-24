@@ -6288,6 +6288,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.openhelm/seo-growth&version=latest"
 },
+"mcp-ai-rankcycle-seo": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "AI SEO from your Search Console data: find pages losing clicks, fix them, measure every change.",
+"name": "ai.rankcycle/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://rankcycle.ai/mcp"
+}
+],
+"repository": null,
+"title": "RankCycle",
+"version": "2.1.0",
+"website": "https://rankcycle.ai"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.rankcycle/seo&version=latest"
+},
 "mcp-ai-rankspot-seo": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -6376,7 +6398,7 @@
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.26.0",
+"version": "1.28.0",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -6448,7 +6470,7 @@
 ],
 "repository": "https://github.com/sprites-ai/shopify-mcp-server",
 "title": "Shopify (Sprites)",
-"version": "1.0.2",
+"version": "1.0.3",
 "website": "https://www.sprites.ai/mcp/shopify"
 },
 "truncated": false,
@@ -6472,7 +6494,7 @@
 ],
 "repository": "https://github.com/sprites-ai/tiktok-ads-mcp-server",
 "title": "TikTok Ads (Sprites)",
-"version": "1.0.2",
+"version": "1.0.3",
 "website": "https://www.sprites.ai/mcp/tiktok-ads"
 },
 "truncated": false,
@@ -6681,7 +6703,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Shopify App Store intelligence: keyword ranks, competitors, reviews, revenue. Free tier.",
+"description": "Shopify App Store data for app developers: competitors, reviews, category ranks, GA4, revenue.",
 "name": "app.bestappify/shopify-app-store",
 "packages": [],
 "remotes": [
@@ -6695,7 +6717,7 @@
 ],
 "repository": null,
 "title": "BestAppify — Shopify App Store Intelligence",
-"version": "1.0.0",
+"version": "1.1.0",
 "website": "https://bestappify.com/mcp"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=app.bestappify/shopify-app-store&version=latest"
@@ -7304,6 +7326,28 @@
 },
 "truncated": false,
 "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md"
+},
+"mcp-com-buffer-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Buffer is the social media tool for planning, scheduling and analyzing your posts.",
+"name": "com.buffer/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.buffer.com/mcp"
+}
+],
+"repository": null,
+"title": "Buffer",
+"version": "1.0.0",
+"website": "https://developers.buffer.com/guides/integrations/mcp.html"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.buffer/mcp&version=latest"
 },
 "mcp-com-caelaralabs-seo": {
 "kind": "excerpt",
@@ -8370,13 +8414,13 @@
 "id": "@keyline-icons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "2.9.0"
+"version": "3.0.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/keyline-icons/keyline-icons",
 "title": "Keyline Icons",
-"version": "2.9.0",
+"version": "3.0.0",
 "website": "https://keylineicons.com"
 },
 "truncated": false,
@@ -9380,30 +9424,6 @@
 },
 "truncated": false,
 "url": "https://github.com/Seolyticize/skills/blob/HEAD/README.md"
-},
-"mcp-com-seoperception-mcp": {
-"file": "data/originals/mcp-com-seoperception-mcp.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Search Console, crawl, and SEO to-dos in Cursor and Claude. OAuth or token; close to-dos optionally.",
-"name": "com.seoperception/mcp",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://seoperception.com/mcp"
-}
-],
-"repository": "https://github.com/lkoudal/seoperception-mcp",
-"title": "SEO Perception",
-"version": "2.1.0",
-"website": "https://seoperception.com/mcp-integration"
-},
-"truncated": false,
-"url": "https://github.com/lkoudal/seoperception-mcp/blob/HEAD/README.md"
 },
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
@@ -14710,6 +14730,32 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.shajan-Factor42/deep-thought-marketing&version=latest"
 },
+"mcp-io-github-shoomaii-podcast-newsletter-sponsors": {
+"file": "data/originals/mcp-io-github-shoomaii-podcast-newsletter-sponsors.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Extract podcast & newsletter sponsors, promo codes, vanity links & repeat counts from RSS/Substack.",
+"name": "io.github.Shoomaii/podcast-newsletter-sponsors",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://shoomaii--podcast-newsletter-sponsor-intel.apify.actor/mcp"
+}
+],
+"repository": "https://github.com/Shoomaii/shoomaii-mcp-servers",
+"title": "Podcast & Newsletter Sponsor Intelligence",
+"version": "1.0.0",
+"website": "https://apify.com/shoomaii/podcast-newsletter-sponsor-intel"
+},
+"truncated": false,
+"url": "https://github.com/Shoomaii/shoomaii-mcp-servers/blob/HEAD/README.md"
+},
 "mcp-io-github-si40code-super-excalidraw": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -14925,9 +14971,10 @@
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.teamsincetoday/newsletter-commerce-mcp&version=latest"
 },
 "mcp-io-github-techssss-tiktok-shop-mcp-server": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
+"file": "data/originals/mcp-io-github-techssss-tiktok-shop-mcp-server.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
 "record": {
 "description": "Public TikTok & TikTok Shop (OEC) data across 22+ countries: videos, VTT transcripts, SKUs & VQScore",
 "name": "io.github.Techssss/tiktok-shop-mcp-server",
@@ -14946,7 +14993,8 @@
 "version": "2.0.0",
 "website": "https://techssss.github.io/tiktok-scraper-api-tiktok-shop-no-watermark/"
 },
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Techssss/tiktok-shop-mcp-server&version=latest"
+"truncated": false,
+"url": "https://github.com/Techssss/tiktok-scraper-api-tiktok-shop-no-watermark/blob/HEAD/README.md"
 },
 "mcp-io-github-tranhoaihung-figma-ui-mcp": {
 "file": "data/originals/mcp-io-github-tranhoaihung-figma-ui-mcp.md",
@@ -15246,6 +15294,30 @@
 },
 "truncated": false,
 "url": "https://github.com/zachshallbetter/adobe-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-zk16k123-svg-shopify-leads-tech-stack": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Enrich Shopify & DTC domains with business emails, socials & 30+ SaaS/pixel tools.",
+"name": "io.github.zk16k123-svg/shopify-leads-tech-stack",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com?tools=conscious_chuckwalla/shopify-leads-tech-stack-intel"
+}
+],
+"repository": "https://github.com/zk16k123-svg/quant-b2b-intel-hub",
+"title": "Shopify Store Leads, Emails & Tech Stack Enricher MCP",
+"version": "1.0.0",
+"website": "https://apify.com/conscious_chuckwalla/shopify-leads-tech-stack-intel"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.zk16k123-svg/shopify-leads-tech-stack&version=latest"
 },
 "mcp-io-scalably-dataforseo-mcp": {
 "file": "data/originals/mcp-io-scalably-dataforseo-mcp.md",
@@ -15573,7 +15645,7 @@
 ],
 "repository": "https://github.com/m190/usefulapi-mcp",
 "title": "Zendesk MCP by usefulapi",
-"version": "1.40.4",
+"version": "1.40.5",
 "website": "https://usefulapi.io/zendesk/"
 },
 "truncated": true,
@@ -23087,6 +23159,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-gh-bilalgursen-liquid-glass": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-gh-boardui-boardui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -23108,6 +23187,13 @@
 "license": "MIT",
 "truncated": false,
 "url": "https://github.com/Caho1/open-claude-ui/blob/main/README.md"
+},
+"uihub-gh-ckryptickunal-opendesigner": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-cruxgarden-plasma-ui": {
 "kind": "excerpt",
@@ -23295,6 +23381,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-gh-reshaped-ui-reshaped": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-gh-rsuite-rsuite": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -27876,6 +27969,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-dvhqj42-cinema-seat-preview-ui": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-dvv71qf-headspace": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28185,6 +28285,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-f5fxql6-brain-monogram-logo": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-f5wrmbq-animated-menu-icon": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28563,6 +28670,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-glgemk3-quartr-x-tesla-earnings-posters": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-gmj9mxq-crypto-transfer-security-checks": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -37684,6 +37798,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-x16-awwwards-odyssee": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-x16-awwwards-sotd": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

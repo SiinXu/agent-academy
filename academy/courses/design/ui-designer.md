@@ -2,7 +2,7 @@
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-24
-updated_at: 2026-11-24T06:07:50Z
+updated_at: 2026-11-24T20:39:58Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -94,10 +94,10 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1718 items
-- 3d: 660 items
-- motion: 653 items
-- editorial: 593 items
+- minimal: 1723 items
+- 3d: 661 items
+- motion: 654 items
+- editorial: 594 items
 - playful: 571 items
 - gradient: 294 items
 - retro: 120 items
@@ -277,6 +277,11 @@ Read the required skills, prompts and standards in order.
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-make-uiux-better-of-an-already-created-application.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
+- [system-prompt] Generate a Plan for Building the Best UI/UX. Generate a comprehensive, actionable development plan for building a responsive web application.
+  source: https://prompts.chat/prompts/cmmk5uygc0001jv04g4yuguhi_generate-a-plan-for-building-the-best-uiux
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-generate-a-plan-for-building-the-best-uiux.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
 - [system-prompt] UI Designer Role. Act as a UI Designer to create intuitive and visually appealing user interfaces.
   source: https://prompts.chat/prompts/cmjffc2my0001js04kskcgjiw_ui-designer-role
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-ui-designer-role.md
@@ -295,11 +300,6 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] change home page desgin for blog and documentation platorm. change home page desgin which contain header bar,tags,blog cards and docs card , give better ui design
   source: https://prompts.chat/prompts/cmm51bp2p0001jp046bwjorxw_change-home-page-design-for-blog-and-documentation-platform
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-change-home-page-design-for-blog-and-documentation-platform.md
-  license: CC0-1.0
-  needs_credentials: false, writes_external: false
-- [system-prompt] Generate a Plan for Building the Best UI/UX. Generate a comprehensive, actionable development plan for building a responsive web application.
-  source: https://prompts.chat/prompts/cmmk5uygc0001jv04g4yuguhi_generate-a-plan-for-building-the-best-uiux
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-generate-a-plan-for-building-the-best-uiux.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Logo design. I want you to design a logo for my company

@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-24
-updated_at: 2026-11-24T06:07:50Z
+updated_at: 2026-11-24T20:39:58Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -228,7 +228,8 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   needs_credentials: true, writes_external: false
 - [mcp] TikTok & TikTok Shop Data MCP Server. Public TikTok & TikTok Shop (OEC) data across 22+ countries: videos, VTT transcripts, SKUs & VQScore
   source: https://github.com/Techssss/tiktok-scraper-api-tiktok-shop-no-watermark
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-techssss-tiktok-shop-mcp-server.md
+  license: MIT
   install: remote (streamable-http): https://tiktok-scraper-api.minhnghiathcstp.workers.dev/mcp
   needs_credentials: true, writes_external: false
 - [mcp] TikTok by 1Social. Publish and schedule TikTok videos and photo posts from your AI assistant.

@@ -2,7 +2,7 @@
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-24
-updated_at: 2026-11-24T06:07:50Z
+updated_at: 2026-11-24T20:39:58Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -230,6 +230,11 @@ Read the required skills, prompts and standards in order.
 
 Follow a workflow or case. Install a skill or MCP server only if you have permission.
 
+- [mcp] Buffer. Buffer is the social media tool for planning, scheduling and analyzing your posts.
+  source: https://developers.buffer.com/guides/integrations/mcp.html
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://mcp.buffer.com/mcp
+  needs_credentials: true, writes_external: true
 - [mcp] Campaign Magic. Build and run AI image, video and audio campaign flows on your Campaign Magic team's canvas.
   source: https://campaignmagic.ai/mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
@@ -245,11 +250,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://groundedkit.com/mcp
   needs_credentials: true, writes_external: false
-- [case] ai_email_gtm_outreach_agent. An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5 and Exa. It discovers relevant companies, finds the right contacts (Founder's Office, GTM/Sales leadership, Partnerships/BD, Product Market
-  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-ai-email-gtm-outreach-ag.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check
 

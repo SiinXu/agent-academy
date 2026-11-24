@@ -23,6 +23,8 @@ Cursor, Codex, Grok Build, Gemini CLI, Kimi Code and DeepSeek Harness.
 | CLI | [`seomatic`](https://www.npmjs.com/package/seomatic) on npm (`npx -y seomatic`) |
 | API keys | [Settings, AI Agents, API Keys](https://app.seomatic.ai/dashboard/settings?tab=ai-agents) (admin role) |
 | Docs | https://seomatic.ai/developers/mcp |
+| Privacy | https://seomatic.ai/privacy |
+| Support | contact@seomatic.ai, https://seomatic.ai/contact |
 
 A free SEOmatic account (OAuth or API key) can read everything: diagnosis,
 Search Console, site audits and AI visibility results. Staging fixes over MCP
@@ -68,6 +70,7 @@ Search Console numbers. Prefer an always-on bot? See the
   [Goose](#goose) · [Kiro](#kiro) ·
   [GitHub Copilot CLI](#github-copilot-cli) ·
   [Cline and other MCP clients](#cline-and-other-mcp-clients) ·
+  [Local stdio server](#local-stdio-server) ·
   [Any agent: skills only](#any-agent-skills-only)
 - [Skills](#skills) · [Tools](#tools) · [Repository layout](#repository-layout) ·
   [Syncing skills](#syncing-skills-from-the-app) · [Verify a release](#verify-a-release)
@@ -528,7 +531,10 @@ extensions:
 
 ## Kiro
 
-In `~/.kiro/settings/mcp.json` (or `.kiro/settings/mcp.json` in a project).
+[![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=seomatic&config=%7B%22url%22%3A%22https%3A%2F%2Fapp.seomatic.ai%2Fapi%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D)
+
+One click adds the hosted server; Kiro signs you in with OAuth. Or add it by hand
+in `~/.kiro/settings/mcp.json` (or `.kiro/settings/mcp.json` in a project).
 The `Authorization` header is the recommended route:
 
 ```json
@@ -586,6 +592,49 @@ SEOmatic in the [GitHub MCP Registry](https://github.com/mcp) as
 repository's `server.json`, which is the source; [`server.json`](./server.json)
 here is a copy kept identical to it. Agents that install
 MCP servers themselves can follow [`llms-install.md`](./llms-install.md).
+
+## Local stdio server
+
+For clients that only run local (stdio) servers, or to audit a page with no
+account, [`server/`](./server) is a small stdio MCP server with no
+dependencies (Node 18 or later):
+
+```json
+{
+  "mcpServers": {
+    "seomatic": {
+      "command": "node",
+      "args": ["/path/to/seomatic-mcp/server/index.mjs"],
+      "env": { "SEOMATIC_API_KEY": "smk_live_YOUR_KEY_HERE" }
+    }
+  }
+}
+```
+
+- Without a key it offers four tools that run on your computer. Nothing is
+  sent to SEOmatic.
+  - `audit_page`: fetches the page plus `robots.txt`, `sitemap.xml`,
+    `llms.txt` and `security.txt`, and scores title, description, canonical,
+    H1, structured data, robots.txt, AI search crawler access and sitemap.
+  - `check_indexability`: can Google index this URL, and if not, why. It
+    follows redirects hop by hop and checks the status, `X-Robots-Tag`, meta
+    robots, the robots.txt rule for Googlebot and the canonical.
+  - `check_crawler_access`: which search, AI search and AI training crawlers
+    (Googlebot, OAI-SearchBot, Claude-SearchBot, PerplexityBot, GPTBot,
+    ClaudeBot, Google-Extended and more) robots.txt lets read a path, and the
+    rule that decides, per RFC 9309.
+  - `check_sitemap`: finds the sitemap, follows an index, counts URLs, finds
+    the newest `lastmod`, and checks a sample of listed URLs answer 200.
+- With `SEOMATIC_API_KEY` it also lists every SEOmatic tool your key may use,
+  through the REST API (`GET /api/v1/tools`, `POST /api/v1/tools/{name}`).
+  Each call carries an `Idempotency-Key`, so a retry never runs a tool twice,
+  and the key is never sent across a redirect. The list follows your key's
+  scopes and plan. Acting tools need an `agents:act` key and, over the REST API, the
+  Infrastructure plan.
+
+The hosted server above is the full experience (OAuth, every client); use
+this one when a local process is what your client needs. Tests:
+`cd server && npm test`.
 
 ## Any agent: skills only
 
@@ -661,6 +710,7 @@ https://seomatic.ai/developers/mcp
 | `claude/` | Claude plugin package (Claude Code, Cowork, plugin directory); the marketplace in `.claude-plugin/marketplace.json` points here; `claude/skills/` is built by `scripts/build-claude-plugin.sh` |
 | `chatgpt/` | ChatGPT plugin package (plugin directory ZIP upload): `plugin.json` with listing, review test cases and release notes, `mcp.json` with OAuth DCR, 7 skills written for the 19 one-action tools ChatGPT is served |
 | `plugins/dsh-seomatic/` | DeepSeek Harness bundle (npm `dsh-seomatic`) |
+| `server/` | Local stdio MCP server (`node server/index.mjs`): `audit_page`, `check_indexability`, `check_crawler_access` and `check_sitemap` with no account, plus the key's SEOmatic tools over the REST API; `server/lib/checks.mjs` is copied from the app's `cli/lib/checks.mjs` |
 | `server.json` | Copy of the Official MCP Registry entry (published from the app repo) |
 | `nanoclaw/add-seomatic-tool.md` | NanoClaw skill (copy to `.claude/skills/add-seomatic-tool/SKILL.md`) |
 | `grok-bot/`, `make-app/` | Grok Bot template; Make custom app source (Watch Events trigger with 15 events, Infrastructure plan), copied from the app repo's `integrations/make` |
@@ -710,4 +760,4 @@ its README on npm.
 
 ## License
 
-MIT. Support: https://seomatic.ai/contact
+MIT. Support: contact@seomatic.ai or https://seomatic.ai/contact. Privacy: https://seomatic.ai/privacy
