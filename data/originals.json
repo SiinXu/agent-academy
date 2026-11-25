@@ -7884,6 +7884,30 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.getseoheatmap/seo-heatmap&version=latest"
 },
+"mcp-com-getseopen-seopen": {
+"file": "data/originals/mcp-com-getseopen-seopen.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "SEO data for agents: Search Console, rankings, site audits, AI visibility, backlinks and fixes.",
+"name": "com.getseopen/seopen",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://app.getseopen.com/api/mcp"
+}
+],
+"repository": "https://github.com/SEOpen/seopen-agent",
+"title": "SEOpen",
+"version": "0.6.0",
+"website": "https://getseopen.com/docs/agents/connect"
+},
+"truncated": false,
+"url": "https://github.com/SEOpen/seopen-agent/blob/HEAD/README.md"
+},
 "mcp-com-glowytics-marketing-analytics": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8913,7 +8937,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "The companies VCs just backed, hand-picked by Tiago: read the picks and subscribe.",
+"description": "Follow the money. Skip the noise. The startups VCs just backed, curated by Tiago.",
 "name": "com.notacompany/newsletter",
 "packages": [],
 "remotes": [
@@ -8924,9 +8948,9 @@
 }
 ],
 "repository": null,
-"title": "The world according to capital",
-"version": "12.5.0",
-"website": "https://www.notacompany.com/the-world-according-to-capital"
+"title": "The notacompany newsletter",
+"version": "14.0.0",
+"website": "https://www.notacompany.com/newsletter"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.notacompany/newsletter&version=latest"
 },
@@ -9379,6 +9403,28 @@
 "truncated": false,
 "url": "https://github.com/gitTerebi/seo-content-machine-plugin/blob/HEAD/README.md"
 },
+"mcp-com-seocrawlermcp-seo-crawler": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Crawl websites for technical SEO audits: indexability, redirects, canonicals, JavaScript rendering.",
+"name": "com.seocrawlermcp/seo-crawler",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://seocrawlermcp.com/api/mcp"
+}
+],
+"repository": null,
+"title": "SEO Crawler MCP",
+"version": "0.2.0",
+"website": "https://seocrawlermcp.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seocrawlermcp/seo-crawler&version=latest"
+},
 "mcp-com-seogrep-seogrep": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9400,30 +9446,6 @@
 "website": "https://seogrep.com"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seogrep/seogrep&version=latest"
-},
-"mcp-com-seolyticize-seolyticize": {
-"file": "data/originals/mcp-com-seolyticize-seolyticize.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "SEO for agencies: rank tracking, site audits, Search Console, GA4, backlinks and AI visibility.",
-"name": "com.seolyticize/seolyticize",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://seolyticize.com/api/mcp"
-}
-],
-"repository": "https://github.com/Seolyticize/skills",
-"title": "Seolyticize",
-"version": "1.0.0",
-"website": "https://seolyticize.com/docs"
-},
-"truncated": false,
-"url": "https://github.com/Seolyticize/skills/blob/HEAD/README.md"
 },
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
@@ -10030,13 +10052,13 @@
 "id": "@wirecat/hubspot-cli",
 "transport": "stdio",
 "type": "npm",
-"version": "0.6.0"
+"version": "0.7.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/WireCatLabs/hubspot-cli",
 "title": "WireCat hubspot",
-"version": "0.6.0",
+"version": "0.7.0",
 "website": "https://wirecat.dev/en/docs/hubspot"
 },
 "truncated": false,
@@ -13754,6 +13776,39 @@
 "truncated": false,
 "url": "https://github.com/ohneben/Hubspot-MCP/blob/HEAD/README.md"
 },
+"mcp-io-github-pecopeko-sec-edgar-shopify-greenhouse-ashby-podcast-substack-mcp": {
+"file": "data/originals/mcp-io-github-pecopeko-sec-edgar-shopify-greenhouse-ashby-podcast-substack-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Zero-key SEC EDGAR XBRL, Greenhouse/Ashby/Lever jobs, Shopify, Podcast transcripts & Substack MCP",
+"name": "io.github.pecopeko/sec-edgar-shopify-greenhouse-ashby-podcast-substack-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Optional Apify API token for multi-domain cloud batch extraction via pecopeko PPE Actors",
+"name": "APIFY_TOKEN",
+"required": null,
+"secret": true
+}
+],
+"id": "ghcr.io/pecopeko/mcp-public-intel:1.0.0-suite",
+"transport": "stdio",
+"type": "oci",
+"version": null
+}
+],
+"remotes": [],
+"repository": "https://github.com/pecopeko/mcp-public-intel",
+"title": "SEC EDGAR, Shopify, Greenhouse/Ashby Jobs, Podcast & Substack MCP",
+"version": "1.0.0",
+"website": "https://github.com/pecopeko/mcp-public-intel"
+},
+"truncated": false,
+"url": "https://github.com/pecopeko/mcp-public-intel/blob/HEAD/README.md"
+},
 "mcp-io-github-pipeworx-io-figma": {
 "file": "data/originals/mcp-io-github-pipeworx-io-figma.md",
 "kind": "full",
@@ -14801,6 +14856,30 @@
 },
 "truncated": false,
 "url": "https://github.com/sourabhjagga/marketing-playbooks-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-storewatch-tools-shopify-price-stock-monitor": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Prices, sales and stock on any Shopify store: the full catalogue or only changes since last run.",
+"name": "io.github.storewatch-tools/shopify-price-stock-monitor",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com/?tools=fabricable_steel/shopify-price-stock-monitor"
+}
+],
+"repository": null,
+"title": "Shopify Price & Stock Monitor",
+"version": "1.0.0",
+"website": "https://apify.com/fabricable_steel/shopify-price-stock-monitor"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.storewatch-tools/shopify-price-stock-monitor&version=latest"
 },
 "mcp-io-github-storybookjs-addon-mcp": {
 "file": "data/originals/mcp-io-github-storybookjs-addon-mcp.md",
@@ -17957,6 +18036,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-amrit-palace": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-anai": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20176,6 +20262,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-awd-leeroy-agency": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-awd-letude-creative-studio": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -20828,6 +20921,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-normal-is-boring": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-nrg-build-your-data-center": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -30405,6 +30505,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-nmj9mrx-newsletter-issue-no-01": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-nnkaerr-skewed-adjacent-hover-tabs": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33566,6 +33673,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-ued-ai-design-weekly": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-ued-airbnb-dls": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -34322,6 +34436,13 @@
 "record": {
 "repo_license": "none"
 },
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-ued-pageflows": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-ued-paper-design": {
@@ -35640,6 +35761,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-w16-kaix-framer-website": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-w16-kathememorial-com": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
