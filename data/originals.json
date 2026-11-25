@@ -6391,14 +6391,16 @@
 "packages": [],
 "remotes": [
 {
-"headers": [],
+"headers": [
+"Authorization"
+],
 "type": "streamable-http",
 "url": "https://app.seomatic.ai/api/mcp"
 }
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.28.0",
+"version": "1.30.0",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -6452,6 +6454,102 @@
 "truncated": false,
 "url": "https://github.com/lukaskostka99/marketing-miner-mcp/blob/HEAD/README.md"
 },
+"mcp-ai-sprites-framer": {
+"file": "data/originals/mcp-ai-sprites-framer.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Framer for AI agents: researched posts and SEO fields written into your Framer CMS.",
+"name": "ai.sprites/framer",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.sprites.ai/mcp"
+}
+],
+"repository": "https://github.com/sprites-ai/framer-mcp-server",
+"title": "Framer by Sprites",
+"version": "1.0.0",
+"website": "https://www.sprites.ai/mcp/framer"
+},
+"truncated": false,
+"url": "https://github.com/sprites-ai/framer-mcp-server/blob/HEAD/README.md"
+},
+"mcp-ai-sprites-marketing": {
+"file": "data/originals/mcp-ai-sprites-marketing.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "One hosted MCP for paid ads, SEO, AEO, competitor research, Shopify and your CMS, with approvals.",
+"name": "ai.sprites/marketing",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.sprites.ai/mcp"
+}
+],
+"repository": "https://github.com/sprites-ai/ads-mcp-servers",
+"title": "Sprites Marketing",
+"version": "1.0.0",
+"website": "https://www.sprites.ai/mcp"
+},
+"truncated": false,
+"url": "https://github.com/sprites-ai/ads-mcp-servers/blob/HEAD/README.md"
+},
+"mcp-ai-sprites-posthog": {
+"file": "data/originals/mcp-ai-sprites-posthog.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "PostHog for marketing agents: funnels and retention by campaign, beside the ad spend.",
+"name": "ai.sprites/posthog",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.sprites.ai/mcp"
+}
+],
+"repository": "https://github.com/sprites-ai/posthog-mcp-server",
+"title": "PostHog by Sprites",
+"version": "1.0.0",
+"website": "https://www.sprites.ai/mcp/posthog"
+},
+"truncated": false,
+"url": "https://github.com/sprites-ai/posthog-mcp-server/blob/HEAD/README.md"
+},
+"mcp-ai-sprites-seo": {
+"file": "data/originals/mcp-ai-sprites-seo.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "SEO for AI agents: keyword research, posts written into your CMS, page edits with approval.",
+"name": "ai.sprites/seo",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.sprites.ai/mcp"
+}
+],
+"repository": "https://github.com/sprites-ai/seo-mcp-server",
+"title": "SEO by Sprites",
+"version": "1.0.0",
+"website": "https://www.sprites.ai/mcp/seo"
+},
+"truncated": false,
+"url": "https://github.com/sprites-ai/seo-mcp-server/blob/HEAD/README.md"
+},
 "mcp-ai-sprites-shopify": {
 "file": "data/originals/mcp-ai-sprites-shopify.md",
 "kind": "full",
@@ -6499,6 +6597,30 @@
 },
 "truncated": false,
 "url": "https://github.com/sprites-ai/tiktok-ads-mcp-server/blob/HEAD/README.md"
+},
+"mcp-ai-sprites-webflow": {
+"file": "data/originals/mcp-ai-sprites-webflow.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Webflow for AI agents: researched CMS posts, page metadata and copy edits, each approved.",
+"name": "ai.sprites/webflow",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.sprites.ai/mcp"
+}
+],
+"repository": "https://github.com/sprites-ai/webflow-mcp-server",
+"title": "Webflow by Sprites",
+"version": "1.0.0",
+"website": "https://www.sprites.ai/mcp/webflow"
+},
+"truncated": false,
+"url": "https://github.com/sprites-ai/webflow-mcp-server/blob/HEAD/README.md"
 },
 "mcp-ai-tailwind-tailwind-mcp": {
 "kind": "excerpt",
@@ -8438,13 +8560,13 @@
 "id": "@keyline-icons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "3.0.0"
+"version": "3.1.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/keyline-icons/keyline-icons",
 "title": "Keyline Icons",
-"version": "3.0.0",
+"version": "3.1.0",
 "website": "https://keylineicons.com"
 },
 "truncated": false,
@@ -8949,7 +9071,7 @@
 ],
 "repository": null,
 "title": "The notacompany newsletter",
-"version": "14.0.0",
+"version": "14.1.0",
 "website": "https://www.notacompany.com/newsletter"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.notacompany/newsletter&version=latest"
@@ -9425,28 +9547,6 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seocrawlermcp/seo-crawler&version=latest"
 },
-"mcp-com-seogrep-seogrep": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "SEO for AI agents: crawl sites, audit pages, pull Search Console data, generate shareable reports.",
-"name": "com.seogrep/seogrep",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://mcp.seogrep.com/mcp/{key}"
-}
-],
-"repository": null,
-"title": "SeoGrep",
-"version": "1.0.0",
-"website": "https://seogrep.com"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seogrep/seogrep&version=latest"
-},
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9783,7 +9883,7 @@
 ],
 "repository": "https://github.com/sultanlive/1social-mcp",
 "title": "TikTok by 1Social",
-"version": "1.0.3",
+"version": "1.0.4",
 "website": "https://1social.dev/post-to/tiktok"
 },
 "truncated": false,
@@ -10052,13 +10152,13 @@
 "id": "@wirecat/hubspot-cli",
 "transport": "stdio",
 "type": "npm",
-"version": "0.7.0"
+"version": "0.8.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/WireCatLabs/hubspot-cli",
 "title": "WireCat hubspot",
-"version": "0.7.0",
+"version": "0.8.0",
 "website": "https://wirecat.dev/en/docs/hubspot"
 },
 "truncated": false,
@@ -13263,6 +13363,30 @@
 "website": "https://apify.com/monkey.d.scraping/tiktok-trends-search-scraper"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Monkeydscraping/tiktok-trends-search-scraper&version=latest"
+},
+"mcp-io-github-mr-wolf-dev-shopify-store-intel-mcp-server": {
+"file": "data/originals/mcp-io-github-mr-wolf-dev-shopify-store-intel-mcp-server.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "HTTP-only Apify Actor & Standby MCP Server extracting Shopify themes, 25+ installed apps & pixels, p",
+"name": "io.github.Mr-Wolf-Dev/shopify-store-intel-mcp-server",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mr-wolf-1--shopify-store-intel-mcp-server.apify.actor/mcp"
+}
+],
+"repository": "https://github.com/Mr-Wolf-Dev/shopify-store-intel-mcp-server",
+"title": "Shopify Store Intelligence, Apps & Catalog + MCP",
+"version": "0.1.0",
+"website": null
+},
+"truncated": false,
+"url": "https://github.com/Mr-Wolf-Dev/shopify-store-intel-mcp-server/blob/HEAD/README.md"
 },
 "mcp-io-github-mrcoder-figmamcp": {
 "kind": "excerpt",
@@ -25367,6 +25491,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-35qkcdd-neon-particle-hand-study": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-361zrzn-corporate-id-landing-page": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26068,6 +26199,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-5vu6yk8-wonder-what-s-possible": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-5xakohy-animated-snake-specimen": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28168,6 +28306,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-e9pyqp4-firefly": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-eaj2ae4-moody-status-badges": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -30962,6 +31107,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-p4boljm-ryvn-brand-identity": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-p4h1xki-spin-to-reveal-reward": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

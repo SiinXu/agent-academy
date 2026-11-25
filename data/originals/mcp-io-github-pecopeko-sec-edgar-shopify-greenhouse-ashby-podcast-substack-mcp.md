@@ -11,7 +11,7 @@
 
 **Zero-API-key Model Context Protocol (MCP) server for live public intelligence.**
 
-Plug real-time SEC EDGAR financials & Form D startup raises, Greenhouse/Lever/Ashby engineering job boards, Shopify store catalogs, Substack public posts, and Podcasting 2.0 RSS transcripts directly into **Claude Desktop, Cursor, Antigravity, Windsurf, or Codex** in 10 seconds — with **zero API keys**, **one dependency (`httpx`)**, and **<100ms stdio startup**.
+Plug real-time **Tokyo Stock Exchange (`JPX` / `TDnet`) corporate disclosures & `.T` JPY quotes**, **SEC EDGAR financials & Form D startup raises**, **Greenhouse/Lever/Ashby engineering job boards**, **Shopify store catalogs**, **Substack public posts**, and **Podcasting 2.0 RSS transcripts** directly into **Claude Desktop, Cursor, Antigravity, Windsurf, or Codex** in 10 seconds — with **zero API keys**, **one dependency (`httpx`)**, and **<100ms stdio startup**.
 
 ---
 
@@ -60,10 +60,11 @@ Then configure your client with `"command": "mcp-public-intel"` (or `"command": 
 
 ---
 
-## Available Tools (6 Live Zero-Key Sources + Optional Cloud Batch PPE Connector)
+## Available Tools (7 Live Zero-Key Sources + Optional Cloud Batch PPE Connector)
 
 | Tool | Required Inputs | Optional Inputs | Official Public Data Source |
 | :--- | :--- | :--- | :--- |
+| **`jpx_tokyo_stock_tdnet_disclosures`** | *(none)* | `ticker`, `limit` | Real-time Tokyo Stock Exchange (`JPX` / `TDnet`) corporate announcements classified into English catalysts + live `.T` JPY equity quotes |
 | **`sec_company_financials`** | `ticker_or_cik` | `contact_email` | `data.sec.gov` submissions + ASC 606 XBRL `companyfacts` (separates annual 10-K vs quarterly 10-Q revenue, net income, operating income, cash flow, assets, cash, shares) |
 | **`sec_form_d_funding_search`** | *(none)* | `query`, `date_from`, `date_to`, `limit` | `efts.sec.gov/LATEST/search-index` (recent Form D & D/A private startup funding filings) |
 | **`ats_company_jobs`** | `provider`, `company_slug` | `remote_only`, `keyword`, `limit` | Public Greenhouse, Lever, and Ashby JSON APIs (normalized remote/hybrid, salary, seniority, tech tags) |
@@ -230,11 +231,14 @@ Then configure your client with `"command": "mcp-public-intel"` (or `"command": 
 When you need **scheduled cron runs, multi-company / multi-store batch extraction, webhooks, CSV/Parquet/JSON dataset exports, or managed cloud execution**, use our production **Apify Store Pay-Per-Event (PPE) Actors** (pay fractions of a cent per extracted record, zero infrastructure):
 
 - **Apify Store Profile**: https://apify.com/pecopeko
-- **Open-Source Actor Repo**: https://github.com/pecopeko/apify-ppe-actors
-  - `sec-edgar-8k-10k-item-extractor` — Batch SEC EDGAR 8-K/10-K/10-Q/Form D extraction with ASC 606 XBRL (`$0.004`/filing)
-  - `shopify-public-catalog-feed-extractor` — Multi-store Shopify catalog, SKU, price-drop & collection monitoring (`$0.001`/product)
-  - `substack-newsletter-posts-extractor` — Multi-publication Substack archive & RAG Markdown dataset pipeline (`$0.001`/post)
-  - `podcast-rss-transcript-extractor` — Bulk Apple Podcasts reviews, `<itunes:owner>` lead discovery & Podcasting 2.0 transcripts (`$0.002`/episode)
+  - [`tokyo-stock-exchange-jpx-tdnet-english-extractor`](https://apify.com/pecopeko/tokyo-stock-exchange-jpx-tdnet-english-extractor) — Real-time Tokyo Stock Exchange (`JPX`/`TDnet`) English corporate filings, `.T` JPY quotes, TOPIX500 Arrowhead tick sizes, 34-tier `S-taka`/`S-yasu` price limits & BOJ releases (`$0.003`/record)
+  - [`sec-edgar-8-k-10-k-item-extractor`](https://apify.com/pecopeko/sec-edgar-8-k-10-k-item-extractor) — Batch SEC EDGAR 8-K/10-K/10-Q/Form D extraction with ASC 606 XBRL (`$0.004`/filing)
+  - [`shopify-public-catalog-feed-extractor`](https://apify.com/pecopeko/shopify-public-catalog-feed-extractor) — Multi-store Shopify catalog, SKU, price-drop & collection monitoring (`$0.001`/product)
+  - [`ats-greenhouse-lever-ashby-jobs-extractor`](https://apify.com/pecopeko/ats-greenhouse-lever-ashby-jobs-extractor) — Multi-company Greenhouse, Lever & Ashby ATS job board cloud aggregator (`$0.001`/job)
+  - [`substack-newsletter-posts-extractor`](https://apify.com/pecopeko/substack-newsletter-posts-extractor) — Multi-publication Substack archive & RAG Markdown dataset pipeline (`$0.001`/post)
+  - [`podcast-rss-transcript-extractor`](https://apify.com/pecopeko/podcast-rss-transcript-extractor) — Bulk Apple Podcasts reviews, `<itunes:owner>` lead discovery & Podcasting 2.0 transcripts (`$0.002`/episode)
+- **Quantitative Python SDKs (`itch.io`)**:
+  - **[Tokyo Stock Exchange (TSE) Quant Microstructure Toolkit — Python 3.11 SDK (`$19 USD`)](https://pecopeko.itch.io/tse-quant-microstructure-kit)** — Zero-dependency `Decimal` tick ladder, `S-taka`/`S-yasu` pinned-bar detectors & `15:30` Closing Itayose backtest primitives.
 
 ### Support Open-Source Maintenance
 

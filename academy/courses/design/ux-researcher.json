@@ -2,7 +2,7 @@
  "id": "design/ux-researcher",
  "industry": "design",
  "role": "ux-researcher",
- "updated_at": "2026-11-25T04:56:00Z",
+ "updated_at": "2026-11-25T19:56:48Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -365,8 +365,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "4-do-it",
      "status": "active",
@@ -415,8 +415,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -460,7 +460,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26766,
+      "repo_stars": 26779,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",
@@ -572,6 +572,132 @@
    "step": "4-do-it",
    "read": [
     {
+     "id": "mcp-ai-sprites-framer",
+     "title": "Framer by Sprites",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "ux-researcher"
+     ],
+     "summary": "Framer for AI agents: researched posts and SEO fields written into your Framer CMS.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/sprites-ai/framer-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-sprites-framer.md",
+     "upstream_raw_url": null,
+     "repo": "sprites-ai/framer-mcp-server",
+     "author": "ai.sprites",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sprites-ai/framer-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "Framer for AI agents: researched posts and SEO fields written into your Framer CMS.",
+       "name": "ai.sprites/framer",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.sprites.ai/mcp"
+        }
+       ],
+       "repository": "https://github.com/sprites-ai/framer-mcp-server",
+       "title": "Framer by Sprites",
+       "version": "1.0.0",
+       "website": "https://www.sprites.ai/mcp/framer"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.sprites.ai/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-25",
+      "registry_updated_at": "2026-11-25"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-25T19:56:48Z",
+     "updated_at": "2026-11-25T19:56:48Z",
+     "checked_at": "2026-11-25T19:56:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-ai-sprites-framer/",
+     "source": "mcp-registry"
+    },
+    {
+     "id": "mcp-ai-sprites-webflow",
+     "title": "Webflow by Sprites",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "ux-researcher"
+     ],
+     "summary": "Webflow for AI agents: researched CMS posts, page metadata and copy edits, each approved.",
+     "summary_lang": "en",
+     "source_url": "https://github.com/sprites-ai/webflow-mcp-server",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-sprites-webflow.md",
+     "upstream_raw_url": null,
+     "repo": "sprites-ai/webflow-mcp-server",
+     "author": "ai.sprites",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/sprites-ai/webflow-mcp-server/blob/HEAD/README.md",
+      "record": {
+       "description": "Webflow for AI agents: researched CMS posts, page metadata and copy edits, each approved.",
+       "name": "ai.sprites/webflow",
+       "packages": [],
+       "remotes": [
+        {
+         "headers": [],
+         "type": "streamable-http",
+         "url": "https://mcp.sprites.ai/mcp"
+        }
+       ],
+       "repository": "https://github.com/sprites-ai/webflow-mcp-server",
+       "title": "Webflow by Sprites",
+       "version": "1.0.0",
+       "website": "https://www.sprites.ai/mcp/webflow"
+      }
+     },
+     "install": "remote (streamable-http): https://mcp.sprites.ai/mcp",
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": true,
+      "writes_external": true,
+      "credential_names": []
+     },
+     "metrics": {
+      "repo_stars": 0,
+      "repo_pushed_at": "2026-11-25",
+      "registry_updated_at": "2026-11-25"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-11-25T19:56:48Z",
+     "updated_at": "2026-11-25T19:56:48Z",
+     "checked_at": "2026-11-25T19:56:48Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-ai-sprites-webflow/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "ui-resource-hub-skills",
      "title": "UI Hub skills.json (recommended design workflow)",
      "type": "workflow",
@@ -642,7 +768,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145621,
+      "repo_stars": 145683,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
@@ -654,96 +780,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi/",
-     "source": "github"
-    },
-    {
-     "id": "shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-multimodal-d",
-     "title": "Multimodal Design Agent Team",
-     "type": "case",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "A Streamlit application that provides comprehensive design analysis using a team of specialized AI agents powered by Google's Gemini model.",
-     "summary_lang": "en",
-     "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-multimodal-d.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/README.md",
-     "repo": "Shubhamsaboo/awesome-llm-apps",
-     "author": "Shubhamsaboo",
-     "license": "Apache-2.0",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "Apache-2.0",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 145621,
-      "repo_pushed_at": "2026-11-18"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-multimodal-d/",
-     "source": "github"
-    },
-    {
-     "id": "wshobson-agents-plugins-accessibility-compliance-commands-accessibility-audit",
-     "title": "accessibility-compliance",
-     "type": "workflow",
-     "industry": "design",
-     "roles": [
-      "design-reviewer"
-     ],
-     "summary": "Audit web accessibility for WCAG compliance with automated axe-core tests, keyboard and screen reader checks, and remediation guidance",
-     "summary_lang": "en",
-     "source_url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/commands/accessibility-audit.md",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-accessibility-compliance-commands-accessibility-audit.md",
-     "upstream_raw_url": "https://raw.githubusercontent.com/wshobson/agents/main/plugins/accessibility-compliance/commands/accessibility-audit.md",
-     "repo": "wshobson/agents",
-     "author": "wshobson",
-     "license": "MIT",
-     "redistributable": true,
-     "content_policy": "mirror-with-attribution",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/commands/accessibility-audit.md"
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": 42872,
-      "repo_pushed_at": "2026-11-24"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-10-15T10:15:30Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/wshobson-agents-plugins-accessibility-compliance-commands-accessibility-audit/",
      "source": "github"
     }
    ]
@@ -910,8 +946,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153824,
-      "repo_pushed_at": "2026-11-24"
+      "repo_stars": 154139,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -955,8 +991,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153824,
-      "repo_pushed_at": "2026-11-24"
+      "repo_stars": 154139,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1000,7 +1036,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1045,7 +1081,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -1090,7 +1126,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -1135,7 +1171,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -1180,7 +1216,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -1225,8 +1261,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1270,8 +1306,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1315,8 +1351,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -1360,7 +1396,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26766,
+      "repo_stars": 26779,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

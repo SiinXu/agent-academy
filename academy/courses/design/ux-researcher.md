@@ -2,7 +2,7 @@
 name: design-ux-researcher
 description: Agent Academy course for UX research and writing (Design). Five ordered steps of real, source-linked resources.
 version: 2026-11-25
-updated_at: 2026-11-25T04:56:00Z
+updated_at: 2026-11-25T19:56:48Z
 source: https://academy.incidental.site/courses/design/ux-researcher/
 ---
 
@@ -46,12 +46,12 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1726 items
+- minimal: 1729 items
 - 3d: 662 items
 - motion: 657 items
 - editorial: 597 items
-- playful: 572 items
-- gradient: 294 items
+- playful: 574 items
+- gradient: 295 items
 - retro: 120 items
 - dark-tech: 111 items
 - glass: 57 items
@@ -121,6 +121,18 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
 
 - [case] How this site was designed (Agent Academy design record). source: https://academy.incidental.site/cases/agent-academy-build/. raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/content/cases/agent-academy-build.en.md
 
+- [mcp] Framer by Sprites. Framer for AI agents: researched posts and SEO fields written into your Framer CMS.
+  source: https://github.com/sprites-ai/framer-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-sprites-framer.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.sprites.ai/mcp
+  needs_credentials: true, writes_external: true
+- [mcp] Webflow by Sprites. Webflow for AI agents: researched CMS posts, page metadata and copy edits, each approved.
+  source: https://github.com/sprites-ai/webflow-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-ai-sprites-webflow.md
+  license: MIT
+  install: remote (streamable-http): https://mcp.sprites.ai/mcp
+  needs_credentials: true, writes_external: true
 - [workflow] UI Hub skills.json (recommended design workflow). Workflow: pick ONE direction skill (frontend-design or taste-skill) → search resources by style/kind → build with emil-design-eng → audit with impeccable + web-design-guidelines + accessibility → verify in browser light+
   source: https://siinxu.github.io/ui-resource-hub/api/skills.json
   license: aggregator
@@ -129,16 +141,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-ai-game-desi.md
   license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [case] Multimodal Design Agent Team. A Streamlit application that provides comprehensive design analysis using a team of specialized AI agents powered by Google's Gemini model.
-  source: https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/shubhamsaboo-awesome-llm-apps-advanced-ai-agents-multi-agent-apps-agent-teams-multimodal-d.md
-  license: Apache-2.0
-  needs_credentials: false, writes_external: false
-- [workflow] accessibility-compliance. Audit web accessibility for WCAG compliance with automated axe-core tests, keyboard and screen reader checks, and remediation guidance
-  source: https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/commands/accessibility-audit.md
-  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/wshobson-agents-plugins-accessibility-compliance-commands-accessibility-audit.md
-  license: MIT
   needs_credentials: false, writes_external: false
 
 ## Step 5: Self-check

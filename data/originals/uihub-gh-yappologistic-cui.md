@@ -116,7 +116,7 @@ With CMake (GCC, Clang, MSVC and MinGW are tested):
 include(FetchContent)
 FetchContent_Declare(cui
     GIT_REPOSITORY https://github.com/yappologistic/CUI.git
-    GIT_TAG v1.4.0)
+    GIT_TAG v1.5.0)
 FetchContent_MakeAvailable(cui)
 target_link_libraries(my_app PRIVATE cui::cui)
 cui_app_target(my_app)   # no console window on Windows, and only the code your app uses
@@ -324,7 +324,7 @@ To use CUI inside an engine with your own window and renderer, see [Integration]
 - **Complex scripts are partial.** Text is UTF-8 with kerning and font fallback, and layouts mirror for right-to-left languages. Arabic-script shaping and bidirectional text are an optional, experimental build option for static text ([details](docs/integration.md#optional-arabic-script-text-shaping)). CJK works once you add a fallback font.
 - **Input methods compose in the system's window.** Committed text arrives; the text being composed is not drawn inline. The window opens at the caret on Windows, macOS, X11, SDL2 and the docs site, but not yet on the GLFW backend.
 - **Native Wayland via SDL2.** Configure with `-DCUI_PLATFORM=wayland` to require SDL2 (2.0.22 or newer) with its Wayland video driver. Window creation fails if native Wayland is unavailable; it never falls back to X11. `sdl2` leaves driver selection to SDL, and `auto` still selects X11 on Linux.
-- **No Android or iOS.** Layouts adapt to phone widths and touch, and apps run in mobile browsers, but there is no platform layer for phones.
+- **Android and iOS are experimental.** The backends build with the NDK and Xcode (see [Getting started](docs/getting-started.md)) and map touch to the mouse, with a raw multi-touch API beside it, but they have had little testing on devices and CI does not build them. Layouts adapt to phone widths, and apps also run in mobile browsers.
 - **It is new.** Version 1.0 was released in November 2026, so it has little real-world use behind it yet. The [changelog](CHANGELOG.md) lists what each release changed.
 
 ## How it is built and tested

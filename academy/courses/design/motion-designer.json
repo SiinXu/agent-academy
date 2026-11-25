@@ -2,7 +2,7 @@
  "id": "design/motion-designer",
  "industry": "design",
  "role": "motion-designer",
- "updated_at": "2026-11-25T04:56:00Z",
+ "updated_at": "2026-11-25T19:56:48Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -1411,7 +1411,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 200074,
+      "repo_stars": 200437,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -1456,7 +1456,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1501,7 +1501,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1546,7 +1546,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1591,7 +1591,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1636,7 +1636,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1681,7 +1681,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1726,7 +1726,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -1771,7 +1771,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -1816,7 +1816,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -1999,7 +1999,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 41,
+      "repo_stars": 42,
       "repo_pushed_at": "2026-11-19",
       "registry_updated_at": "2026-10-20"
      },
@@ -2078,6 +2078,80 @@
      "source": "mcp-registry"
     },
     {
+     "id": "mcp-io-github-ajsmonty-adobe-mcp",
+     "title": "io.github.AJSMonty/adobe-mcp",
+     "type": "mcp",
+     "industry": "design",
+     "roles": [
+      "motion-designer"
+     ],
+     "summary": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
+     "summary_lang": "en",
+     "source_url": "https://github.com/AJSMonty/adobe-mcp",
+     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md",
+     "upstream_raw_url": null,
+     "repo": "AJSMonty/adobe-mcp",
+     "author": "io.github.AJSMonty",
+     "license": "MIT",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "full",
+      "license": "MIT",
+      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md",
+      "record": {
+       "description": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
+       "name": "io.github.AJSMonty/adobe-mcp",
+       "packages": [
+        {
+         "env": [
+          {
+           "description": "Directory for rendered assets, the asset registry, and learned lessons (default: ~/AdobeMCP)",
+           "name": "ADOBE_MCP_WORKSPACE",
+           "required": null,
+           "secret": null
+          }
+         ],
+         "id": "@ajsmonty/adobe-mcp",
+         "transport": "stdio",
+         "type": "npm",
+         "version": "1.1.1"
+        }
+       ],
+       "remotes": [],
+       "repository": "https://github.com/AJSMonty/adobe-mcp",
+       "title": null,
+       "version": "1.1.1",
+       "website": null
+      }
+     },
+     "install": "npx -y @ajsmonty/adobe-mcp",
+     "security": {
+      "audited": false,
+      "executes_code": true,
+      "needs_credentials": true,
+      "writes_external": false,
+      "credential_names": [
+       "ADOBE_MCP_WORKSPACE"
+      ]
+     },
+     "metrics": {
+      "repo_stars": 11,
+      "repo_pushed_at": "2026-09-24",
+      "registry_updated_at": "2026-07-15"
+     },
+     "course_step": "4-do-it",
+     "status": "active",
+     "first_seen": "2026-10-15T10:15:30Z",
+     "updated_at": "2026-11-17T04:33:55Z",
+     "checked_at": "2026-11-24T06:07:50Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/mcp-io-github-ajsmonty-adobe-mcp/",
+     "source": "mcp-registry"
+    },
+    {
      "id": "mcp-com-lottiefiles-generative-icons",
      "title": "Generative Icons",
      "type": "mcp",
@@ -2138,80 +2212,6 @@
       "source": 200
      },
      "page": "https://academy.incidental.site/r/mcp-com-lottiefiles-generative-icons/",
-     "source": "mcp-registry"
-    },
-    {
-     "id": "mcp-io-github-ajsmonty-adobe-mcp",
-     "title": "io.github.AJSMonty/adobe-mcp",
-     "type": "mcp",
-     "industry": "design",
-     "roles": [
-      "motion-designer"
-     ],
-     "summary": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
-     "summary_lang": "en",
-     "source_url": "https://github.com/AJSMonty/adobe-mcp",
-     "raw_url": "https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-io-github-ajsmonty-adobe-mcp.md",
-     "upstream_raw_url": null,
-     "repo": "AJSMonty/adobe-mcp",
-     "author": "io.github.AJSMonty",
-     "license": "MIT",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "full",
-      "license": "MIT",
-      "url": "https://github.com/AJSMonty/adobe-mcp/blob/HEAD/README.md",
-      "record": {
-       "description": "Drive Adobe CC (AE, Photoshop, Illustrator, Premiere, Character Animator) from any MCP client",
-       "name": "io.github.AJSMonty/adobe-mcp",
-       "packages": [
-        {
-         "env": [
-          {
-           "description": "Directory for rendered assets, the asset registry, and learned lessons (default: ~/AdobeMCP)",
-           "name": "ADOBE_MCP_WORKSPACE",
-           "required": null,
-           "secret": null
-          }
-         ],
-         "id": "@ajsmonty/adobe-mcp",
-         "transport": "stdio",
-         "type": "npm",
-         "version": "1.1.1"
-        }
-       ],
-       "remotes": [],
-       "repository": "https://github.com/AJSMonty/adobe-mcp",
-       "title": null,
-       "version": "1.1.1",
-       "website": null
-      }
-     },
-     "install": "npx -y @ajsmonty/adobe-mcp",
-     "security": {
-      "audited": false,
-      "executes_code": true,
-      "needs_credentials": true,
-      "writes_external": false,
-      "credential_names": [
-       "ADOBE_MCP_WORKSPACE"
-      ]
-     },
-     "metrics": {
-      "repo_stars": 9,
-      "repo_pushed_at": "2026-09-24",
-      "registry_updated_at": "2026-07-15"
-     },
-     "course_step": "4-do-it",
-     "status": "active",
-     "first_seen": "2026-10-15T10:15:30Z",
-     "updated_at": "2026-11-17T04:33:55Z",
-     "checked_at": "2026-11-24T06:07:50Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/mcp-io-github-ajsmonty-adobe-mcp/",
      "source": "mcp-registry"
     },
     {
@@ -2645,8 +2645,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153824,
-      "repo_pushed_at": "2026-11-24"
+      "repo_stars": 154139,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2690,8 +2690,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 153824,
-      "repo_pushed_at": "2026-11-24"
+      "repo_stars": 154139,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -2735,7 +2735,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 59335,
+      "repo_stars": 59511,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2780,7 +2780,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2825,7 +2825,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2870,7 +2870,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2915,7 +2915,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42872,
+      "repo_stars": 42887,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2960,8 +2960,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3005,8 +3005,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3050,8 +3050,8 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 36817,
-      "repo_pushed_at": "2026-11-23"
+      "repo_stars": 36925,
+      "repo_pushed_at": "2026-11-25"
      },
      "course_step": "3-learn-rules",
      "status": "active",
@@ -3095,7 +3095,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26766,
+      "repo_stars": 26779,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

@@ -80,6 +80,10 @@ The skills are plain [Agent Skills](https://agentskills.io) in [`plugins/seopen/
 }
 ```
 
+**Kiro**, in one click:
+
+[![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=seopen&config=%7B%22url%22%3A%22https%3A%2F%2Fapp.getseopen.com%2Fapi%2Fmcp%22%7D)
+
 **Codex without the plugin**, with a key, in `~/.codex/config.toml`:
 
 ```toml
@@ -104,6 +108,11 @@ The server also offers the main workflows as prompts (`fix_issues`, `weekly_revi
 - A key can read and nothing more unless you tick those boxes. Lookups that cost credits name their price first and spend only what the call allows.
 - Nothing can delete your data through the server.
 - It's written for Next.js App Router, Astro, SvelteKit and plain HTML. On anything else it tells you first.
+
+## Support and privacy
+
+- Support: hello@getseopen.com, or the [plugin docs](https://getseopen.com/docs/agents/plugin).
+- [Privacy policy](https://getseopen.com/privacy) and [terms](https://getseopen.com/terms).
 
 ## Licence
 

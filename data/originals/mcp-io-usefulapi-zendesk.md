@@ -62,7 +62,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Folk](servers/folk/) | crm | 18 | API token | [servers/folk/](servers/folk/) |
 | [Formbricks](servers/formbricks/) | productivity | 21 | API token | [servers/formbricks/](servers/formbricks/) |
 | [Foxy.io](servers/foxyio/) | ecommerce | 18 | API token | [servers/foxyio/](servers/foxyio/) |
-| [Freshdesk](servers/freshdesk/) | support | 23 | API token | [servers/freshdesk/](servers/freshdesk/) |
+| [Freshdesk](servers/freshdesk/) | support | 69 | API token | [servers/freshdesk/](servers/freshdesk/) |
 | [Geoapify](servers/geoapify/) | maps | 12 | API token | [servers/geoapify/](servers/geoapify/) |
 | [GetResponse](servers/getresponse/) | marketing | 18 | API token | [servers/getresponse/](servers/getresponse/) |
 | [GitBook](servers/gitbook/) | documents | 18 | API token | [servers/gitbook/](servers/gitbook/) |
@@ -180,7 +180,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [Deputy](servers/deputy/) | productivity | 25 | API token | [servers/deputy/](servers/deputy/) |
 | [Deskpro](servers/deskpro/) | support | 24 | API token | [servers/deskpro/](servers/deskpro/) |
 | [Elvanto](servers/elvanto/) | membership | 27 | API token | [servers/elvanto/](servers/elvanto/) |
-| [Follow Up Boss](servers/follow-up-boss/) | crm | 29 | API token | [servers/follow-up-boss/](servers/follow-up-boss/) |
+| [Follow Up Boss](servers/follow-up-boss/) | crm | 64 | API token | [servers/follow-up-boss/](servers/follow-up-boss/) |
 | [Formstack](servers/formstack/) | productivity | 25 | API token | [servers/formstack/](servers/formstack/) |
 | [TeamUp](servers/goteamup/) | membership | 24 | API token | [servers/goteamup/](servers/goteamup/) |
 | [HappyFox](servers/happyfox/) | support | 27 | API token | [servers/happyfox/](servers/happyfox/) |
@@ -276,7 +276,7 @@ from Claude, Cursor, or any MCP client. No local install, no key-juggling: autho
 | [REVIEWS.io](servers/reviews-io/) | ecommerce | 20 | API token | [servers/reviews-io/](servers/reviews-io/) |
 | [Voodoo SMS](servers/voodoo-sms/) | communications | 17 | API token | [servers/voodoo-sms/](servers/voodoo-sms/) |
 | [Eventzilla](servers/eventzilla/) | productivity | 15 | API token | [servers/eventzilla/](servers/eventzilla/) |
-| [Finale Inventory](servers/finale-inventory/) | ecommerce | 17 | API token | [servers/finale-inventory/](servers/finale-inventory/) |
+| [Finale Inventory](servers/finale-inventory/) | ecommerce | 19 | API token | [servers/finale-inventory/](servers/finale-inventory/) |
 | [ClassMarker](servers/classmarker/) | productivity | 19 | API token | [servers/classmarker/](servers/classmarker/) |
 | [SupportBee](servers/supportbee/) | support | 26 | API token | [servers/supportbee/](servers/supportbee/) |
 | [Tokeet](servers/tokeet/) | productivity | 28 | API token | [servers/tokeet/](servers/tokeet/) |
