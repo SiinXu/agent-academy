@@ -50,6 +50,8 @@ This project started as a rewrite of a few small Java + Vue 2 systems at work. R
 
 The backend, the web admin console, a desktop template, a mobile template and the docs site live in one pnpm + turbo monorepo: install once, and one `pnpm dev` starts backend and frontend.
 
+This pays off most when coding with AI: when it changes an API, the backend, the generated frontend/backend contract and the pages that call it are all in view, so the change lands in one PR; CI then runs repo-wide type checks, a contract-freshness check and an architecture check (dependency direction `i18n ← ui ← platform ← web`) on that PR.
+
 ```
 apps/
 ├── api        backend · FastAPI + Celery

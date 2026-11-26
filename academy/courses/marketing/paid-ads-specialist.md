@@ -2,7 +2,7 @@
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-26
-updated_at: 2026-11-26T04:11:52Z
+updated_at: 2026-11-26T19:37:37Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -156,6 +156,11 @@ Read the required skills, prompts and standards in order.
 - [system-prompt] Act as a Performance Marketer. Gives you 10 ad angles for any offer, from pain point to customer proof, each with a headline, one line of ad text and why it might work. From 100 Master Prompts for Business: https://consistsystemsgroup.com/100-master-p
   source: https://prompts.chat/prompts/cmw9w2wmq0001jq08yacuiqxs_act-as-a-performance-marketer
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-act-as-a-performance-marketer.md
+  license: CC0-1.0
+  needs_credentials: false, writes_external: false
+- [system-prompt] Local Buzz. Create a premium 3D smartphone advertisement. A sleek purple smartphone floats in a dark purple studio. The phone smoothly separates into individual parts: screen, frame, camera lenses and internal components. Each piece
+  source: https://prompts.chat/prompts/cmwxiomi00001le07iwrk2x06_local-buzz
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/mirror/prompts-chat-local-buzz.md
   license: CC0-1.0
   needs_credentials: false, writes_external: false
 - [system-prompt] Pet Store Advertising Campaign Strategy. Create an advertising campaign strategy for Migros' new pet stores.

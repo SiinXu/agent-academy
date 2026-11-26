@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://iconsaga.com"><img src="assets/readme/readme-1-hook-1600x800.png" width="880" alt="IconSaga: 5,519 free icons. IconSaga's icon sets and a grid of its icons on a dark stage, with iconsaga.com."></a>
+  <a href="https://iconsaga.com"><img src="assets/readme/readme-1-hook-1600x800.png" width="880" alt="IconSaga: 5,527 free icons. IconSaga's icon sets and a grid of its icons on a dark stage, with iconsaga.com."></a>
 </p>
 
 # IconSaga
 
 **Icons that match. In your colors.**
 
-IconSaga has <!-- sync:icons -->5,519<!-- /sync --> free icons for your website, slides and documents, all drawn in one style so they belong together.
+IconSaga has <!-- sync:icons -->5,527<!-- /sync --> free icons for your website, slides and documents, all drawn in one style so they belong together.
 
 **Use them yourself, or let your AI pick them for you.**
 
@@ -16,7 +16,7 @@ IconSaga has <!-- sync:icons -->5,519<!-- /sync --> free icons for your website,
 ## See it in action
 
 <p align="center">
-  <a href="https://youtu.be/cNZ1gJO2w-A"><img src="assets/readme/readme-4-demo-1600x900.png" width="880" alt="Watch the IconSaga demo on YouTube (1:23): Icons that match. In your colors. 5,519 icons in 62 sets, line, solid and duo, free with one credit line."></a>
+  <a href="https://youtu.be/cNZ1gJO2w-A"><img src="assets/readme/readme-4-demo-1600x900.png" width="880" alt="Watch the IconSaga demo on YouTube (1:23): Icons that match. In your colors. 5,527 icons in 62 sets, line, solid and duo, free with one credit line."></a>
 </p>
 
 <p align="center"><a href="https://youtu.be/cNZ1gJO2w-A">Watch the demo on YouTube</a> (1:23) · <a href="https://youtu.be/H1BwibkKLDE">Thai version</a></p>
@@ -121,7 +121,7 @@ Two short examples: **[a website section](examples/website-section.md)** · **[a
 
 | | Free | Pro |
 |---|---|---|
-| All <!-- sync:icons -->5,519<!-- /sync --> icons, in three styles and your colors | Yes | Yes |
+| All <!-- sync:icons -->5,527<!-- /sync --> icons, in three styles and your colors | Yes | Yes |
 | Use them in your own work and your clients' work | Yes, with one credit line | Yes, no credit line |
 | Your AI can use IconSaga | <!-- sync:guest-per-day -->30<!-- /sync --> times a day without an account, <!-- sync:free-per-month -->1,000<!-- /sync --> a month with a free account | <!-- sync:pro-per-month -->20,000<!-- /sync --> times a month |
 | Moving icons for slides and videos | <!-- sync:free-exports -->10<!-- /sync --> a month with a free account | No limit |

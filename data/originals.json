@@ -6426,7 +6426,7 @@
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.30.0",
+"version": "1.32.0",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -7880,6 +7880,28 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.figma.mcp/mcp&version=latest"
 },
+"mcp-com-foodfeedstudio-website-seo-check": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Quick SEO health check of any business website: score, verdict and top three problems.",
+"name": "com.foodfeedstudio/website-seo-check",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://foodfeedstudio.com/mcp"
+}
+],
+"repository": null,
+"title": "Food Feed Studio website SEO check",
+"version": "1.0.0",
+"website": "https://foodfeedstudio.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.foodfeedstudio/website-seo-check&version=latest"
+},
 "mcp-com-framertonextjs-fnj": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -8613,13 +8635,13 @@
 "id": "@keyline-icons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "3.1.0"
+"version": "3.2.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/keyline-icons/keyline-icons",
 "title": "Keyline Icons",
-"version": "3.1.0",
+"version": "3.2.0",
 "website": "https://keylineicons.com"
 },
 "truncated": false,
@@ -9578,28 +9600,6 @@
 "truncated": false,
 "url": "https://github.com/gitTerebi/seo-content-machine-plugin/blob/HEAD/README.md"
 },
-"mcp-com-seocrawlermcp-seo-crawler": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Crawl websites for technical SEO audits: indexability, redirects, canonicals, JavaScript rendering.",
-"name": "com.seocrawlermcp/seo-crawler",
-"packages": [],
-"remotes": [
-{
-"headers": [],
-"type": "streamable-http",
-"url": "https://seocrawlermcp.com/api/mcp"
-}
-],
-"repository": null,
-"title": "SEO Crawler MCP",
-"version": "0.2.0",
-"website": "https://seocrawlermcp.com"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seocrawlermcp/seo-crawler&version=latest"
-},
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9936,7 +9936,7 @@
 ],
 "repository": "https://github.com/sultanlive/1social-mcp",
 "title": "TikTok by 1Social",
-"version": "1.0.4",
+"version": "1.0.5",
 "website": "https://1social.dev/post-to/tiktok"
 },
 "truncated": false,
@@ -12078,13 +12078,13 @@
 "id": "@freevectoricons/mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "0.3.0-beta.3"
+"version": "0.3.0-beta.4"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/FreeVectorIcons/fvi-mcp",
 "title": "FreeVectorIcons",
-"version": "0.3.0-beta.3",
+"version": "0.3.0-beta.4",
 "website": "https://freevectoricons.com/mcp"
 },
 "truncated": false,
@@ -12137,13 +12137,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.13.1"
+"version": "3.14.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.13.1",
+"version": "3.14.0",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -12953,7 +12953,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Improve Japanese social media campaign copy with persona simulations. USDC or prepaid API access.",
+"description": "Optimize multilingual social media copy with persona simulations. USDC or prepaid API access.",
 "name": "io.github.m-ochi/social-media-campaign-copy-optimizer",
 "packages": [],
 "remotes": [
@@ -12971,8 +12971,8 @@
 }
 ],
 "repository": null,
-"title": "CampaTune — Japanese Social Media Campaign Copy Optimizer",
-"version": "0.1.0",
+"title": "CampaTune — Multilingual Social Media Campaign Copy Optimizer",
+"version": "0.2.2",
 "website": "https://campatune.pldlab.workers.dev/social-media-campaign-copy/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.m-ochi/social-media-campaign-copy-optimizer&version=latest"
@@ -13694,6 +13694,55 @@
 "website": "https://apify.com/myworkingmemory/shopify-store-extractor"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.myworkingmemory/shopify-store-extractor&version=latest"
+},
+"mcp-io-github-nazariinalyvaikobs-shopify-store-builder-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "MCP server for building Shopify stores via the Admin GraphQL API: themes, pages, and navigation",
+"name": "io.github.nazariinalyvaikobs/shopify-store-builder-mcp",
+"packages": [
+{
+"env": [
+{
+"description": "Store domain, e.g. my-store.myshopify.com",
+"name": "SHOPIFY_STORE_DOMAIN",
+"required": true,
+"secret": null
+},
+{
+"description": "Dev Dashboard app client ID (option A, recommended)",
+"name": "SHOPIFY_CLIENT_ID",
+"required": null,
+"secret": null
+},
+{
+"description": "Dev Dashboard app client secret (option A, recommended)",
+"name": "SHOPIFY_CLIENT_SECRET",
+"required": null,
+"secret": true
+},
+{
+"description": "Permanent admin access token shpat_… (option B, instead of client credentials)",
+"name": "SHOPIFY_ADMIN_ACCESS_TOKEN",
+"required": null,
+"secret": true
+}
+],
+"id": "shopify-store-builder-mcp",
+"transport": "stdio",
+"type": "npm",
+"version": "0.1.1"
+}
+],
+"remotes": [],
+"repository": "https://github.com/nazariinalyvaikobs/shopify-store-builder-mcp",
+"title": null,
+"version": "0.1.1",
+"website": null
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.nazariinalyvaikobs/shopify-store-builder-mcp&version=latest"
 },
 "mcp-io-github-nbhey-figma-vault": {
 "file": "data/originals/mcp-io-github-nbhey-figma-vault.md",
@@ -14754,7 +14803,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Connect Claude or ChatGPT to your Shopee and TikTok Shop stores: orders, ads, stock and profit.",
+"description": "Shopee MCP and TikTok Shop MCP server for Claude and ChatGPT: orders, ads, stock and profit.",
 "name": "io.github.sanasiniai/shopee-tiktok-shop-mcp",
 "packages": [],
 "remotes": [
@@ -14765,8 +14814,8 @@
 }
 ],
 "repository": "https://github.com/sanasiniai/shopee-tiktok-shop-mcp",
-"title": "SanasiniAI AI Connector: Shopee and TikTok Shop",
-"version": "1.0.0",
+"title": "Shopee MCP & TikTok Shop MCP Server by SanasiniAI",
+"version": "1.1.0",
 "website": "https://sanasiniai.com/ai-connector-en?utm_source=mcp-registry&utm_medium=directory&utm_campaign=geo_listing"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.sanasiniai/shopee-tiktok-shop-mcp&version=latest"
@@ -15321,13 +15370,13 @@
 "id": "@tunglt1810/figma-mcp-go",
 "transport": "stdio",
 "type": "npm",
-"version": "0.7.0"
+"version": "0.8.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/tunglt1810/figma-mcp-go",
 "title": null,
-"version": "0.7.0",
+"version": "0.8.0",
 "website": null
 },
 "truncated": false,
@@ -19076,6 +19125,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-decathlon-yestalgia": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-deep-beauty": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -25867,6 +25923,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-40ga8dy-allo-font-website": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-41h5e4a-alarm-app-concepts": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -26617,6 +26680,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-6xh77zq-doodle-app-icon-maker": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-6yx2qw0-ios-typewriter-keyboard": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -28059,6 +28129,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-cvhuzrl-wavy-carousel": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-cvlbs4p-variable-font-motion-studies": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -31608,6 +31685,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-qunuepe-weekly-vault-onboarding": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-quzz0mb-katamari-internet-game": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33709,6 +33793,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-zuidimn-boarding-pass-scanner": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-zx1w0u6-inception-ai-thinking-states": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
