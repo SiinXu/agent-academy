@@ -6356,6 +6356,32 @@
 "truncated": false,
 "url": "https://github.com/Saify-Technologies/saifs-ai-mcps-docs/blob/HEAD/README.md"
 },
+"mcp-ai-seocluster-mcp": {
+"file": "data/originals/mcp-ai-seocluster-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Google Search Console page ownership, cannibalization checks, SEO briefs, Page Edits & GEO gate.",
+"name": "ai.seocluster/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://seocluster.ai/api/mcp"
+}
+],
+"repository": "https://github.com/jfaccioli/seocluster-mcp",
+"title": "SEOcluster.ai — Google Search Console SEO MCP Server",
+"version": "0.4.1",
+"website": "https://seocluster.ai/seo-mcp-server"
+},
+"truncated": false,
+"url": "https://github.com/jfaccioli/seocluster-mcp/blob/HEAD/README.md"
+},
 "mcp-ai-seocrawl-mcp": {
 "file": "data/originals/mcp-ai-seocrawl-mcp.md",
 "kind": "full",
@@ -7261,6 +7287,33 @@
 "website": "https://www.abbyseo.com"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.abbyseo/mcp-server&version=latest"
+},
+"mcp-com-adslibraryapi-meta-google-tiktok-ads-library-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Search live Meta, Facebook, Instagram, Google, and TikTok Ad Library creatives and spend in JSON.",
+"name": "com.adslibraryapi/meta-google-tiktok-ads-library-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://api.adslibraryapi.com/mcp"
+},
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.adslibraryapi.com/v1/mcp"
+}
+],
+"repository": null,
+"title": "AdsLibraryAPI — Meta, Google & TikTok Ad Library JSON MCP",
+"version": "1.0.0",
+"website": "https://adslibraryapi.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.adslibraryapi/meta-google-tiktok-ads-library-mcp&version=latest"
 },
 "mcp-com-ahrefs-mcp": {
 "kind": "excerpt",
@@ -11174,7 +11227,7 @@
 "id": "@cesteral/tiktok-mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "2.0.0"
+"version": "3.0.0"
 }
 ],
 "remotes": [
@@ -11186,7 +11239,7 @@
 ],
 "repository": "https://github.com/cesteral/mcp-open-advertising",
 "title": "TikTok Ads MCP Server",
-"version": "2.0.0",
+"version": "3.0.0",
 "website": null
 },
 "truncated": false,
@@ -12084,13 +12137,13 @@
 "id": "@fruggr/zendesk-mcp-server",
 "transport": "stdio",
 "type": "npm",
-"version": "3.12.0"
+"version": "3.13.1"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/fruggr/zendesk-mcp-server",
 "title": null,
-"version": "3.12.0",
+"version": "3.13.1",
 "website": "https://github.com/fruggr/zendesk-mcp-server#readme"
 },
 "truncated": false,
@@ -12894,6 +12947,35 @@
 },
 "truncated": false,
 "url": "https://github.com/LMSlay/tubetext-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-m-ochi-social-media-campaign-copy-optimizer": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Improve Japanese social media campaign copy with persona simulations. USDC or prepaid API access.",
+"name": "io.github.m-ochi/social-media-campaign-copy-optimizer",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://campatune-api-373804304721.asia-northeast1.run.app/agent/mcp/"
+},
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://campatune-api-373804304721.asia-northeast1.run.app/mcp/"
+}
+],
+"repository": null,
+"title": "CampaTune — Japanese Social Media Campaign Copy Optimizer",
+"version": "0.1.0",
+"website": "https://campatune.pldlab.workers.dev/social-media-campaign-copy/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.m-ochi/social-media-campaign-copy-optimizer&version=latest"
 },
 "mcp-io-github-markusvankempen-zendesk-mcp": {
 "file": "data/originals/mcp-io-github-markusvankempen-zendesk-mcp.md",
@@ -15278,13 +15360,13 @@
 "id": "shopify-store-sync-mcp",
 "transport": "stdio",
 "type": "npm",
-"version": "0.11.8"
+"version": "0.12.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/ussefidder/shopify-store-sync-mcp",
 "title": "Shopify Store Sync",
-"version": "0.11.8",
+"version": "0.12.0",
 "website": "https://github.com/ussefidder/shopify-store-sync-mcp#readme"
 },
 "truncated": false,
@@ -25198,6 +25280,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-1tlhktw-ingamana": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-1vdjvsw-codex-icon-animations": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

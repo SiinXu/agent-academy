@@ -1,8 +1,8 @@
 ---
 name: marketing-social-media-manager
 description: Agent Academy course for Social and community (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-25
-updated_at: 2026-11-25T19:56:48Z
+version: 2026-11-26
+updated_at: 2026-11-26T04:11:52Z
 source: https://academy.incidental.site/courses/marketing/social-media-manager/
 ---
 
@@ -239,6 +239,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   source: https://campaignmagic.ai/mcp
   license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
   install: remote (streamable-http): https://campaignmagic.ai/api/mcp
+  needs_credentials: true, writes_external: false
+- [mcp] CampaTune — Japanese Social Media Campaign Copy Optimizer. Improve Japanese social media campaign copy with persona simulations. USDC or prepaid API access.
+  source: https://campatune.pldlab.workers.dev/social-media-campaign-copy/
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://campatune-api-373804304721.asia-northeast1.run.app/agent/mcp/
   needs_credentials: true, writes_external: false
 - [mcp] Flow Marketing. Brand-true motion-design marketing videos from templates, with price preview and human approval.
   source: https://flow-marketing.org/entwickler/mcp
