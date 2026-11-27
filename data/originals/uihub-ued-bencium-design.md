@@ -44,7 +44,7 @@ The SKILL.md format is compatible with 40+ AI coding tools that support markdown
 
 ## Skills
 
-### Design (6 skills)
+### Design (7 skills)
 
 | Skill | Description |
 |-------|-------------|
@@ -54,6 +54,7 @@ The SKILL.md format is compatible with 40+ AI coding tools that support markdown
 | **design-audit** | Systematic visual UI/UX audits producing phased, implementation-ready design plans. Purely visual -- does not touch functionality. |
 | **typography** | Professional typography rules enforcing correct quote marks, dashes, spacing, hierarchy. Auto-applies to generated HTML/CSS/React code. |
 | **relationship-design** | AI-first interfaces that build ongoing relationships through memory, trust evolution, and collaborative planning. |
+| **design-qe** | Design QA in your agent's own browser. Measures rendered colours, type and spacing against DESIGN.md / tokens / Figma variables, finds content cut off at each screen width, compares screenshots with baselines, runs axe-core contrast checks, then adds a labelled opinion pass. Anything unchecked says NOT measured. |
 
 ### Marketing (1 skill)
 

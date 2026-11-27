@@ -40,7 +40,7 @@ needs, with setup for every client.
 
 Every platform also reads its own reporting: spend, results and the entities behind them.
 
-## Beyond ads: SEO, AI visibility, competitor research and your site
+## Beyond ads: SEO, AI visibility, competitor research, your site and your CRM
 
 The same endpoint also covers the rest of the marketing stack. Each repository documents what that part reads,
 what it can change and what it needs.
@@ -55,6 +55,11 @@ what it can change and what it needs.
 | [Framer](https://github.com/sprites-ai/framer-mcp-server) | Researched posts and SEO fields in your Framer CMS |
 | [Google Business Profile](https://github.com/sprites-ai/google-business-profile-mcp-server) | Per-location performance, missing listing fields and posts |
 | [PostHog](https://github.com/sprites-ai/posthog-mcp-server) | Funnels, retention and trends by campaign, read-only, beside the ad spend |
+| [HubSpot](https://github.com/sprites-ai/hubspot-mcp-server) | Pipeline and lead-source reports beside Google, Meta and LinkedIn Ads, read-only |
+| [Salesforce](https://github.com/sprites-ai/salesforce-mcp-server) | Leads, pipeline and won-deal goals tracked beside ad spend, read-only |
+| [Pipedrive](https://github.com/sprites-ai/pipedrive-mcp-server) | Deals and lead sources beside ad spend; deal, record, note and activity writes approved first |
+| [GoHighLevel](https://github.com/sprites-ai/gohighlevel-mcp-server) | Goals on booked appointments and won value beside Meta and Google Ads, read-only |
+| [Attio](https://github.com/sprites-ai/attio-mcp-server) | People, companies and deals read beside your ad accounts |
 
 ## One connector, not ten
 

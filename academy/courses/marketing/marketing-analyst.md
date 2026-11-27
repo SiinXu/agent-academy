@@ -2,7 +2,7 @@
 name: marketing-marketing-analyst
 description: Agent Academy course for Marketing analytics (Marketing). Five ordered steps of real, source-linked resources.
 version: 2026-11-27
-updated_at: 2026-11-27T04:17:49Z
+updated_at: 2026-11-27T19:28:38Z
 source: https://academy.incidental.site/courses/marketing/marketing-analyst/
 ---
 
@@ -183,6 +183,11 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @pipeworx/mcp-posthog
   needs_credentials: true, writes_external: true
+- [mcp] Tolinku campaigns. Tolinku smart banners, in-app messages, audiences, A/B tests and campaign analytics
+  source: https://tolinku.com/docs/ai-tools/
+  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
+  install: remote (streamable-http): https://app.tolinku.com/mcp/campaigns
+  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

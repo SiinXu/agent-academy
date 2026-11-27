@@ -1,6 +1,6 @@
 {
-"generated_at": "2026-11-27T04:17:49Z",
-"count": 4560,
+"generated_at": "2026-11-27T19:28:38Z",
+"count": 4575,
 "items": [
 {
 "id": "ashishpatel26-500-ai-agents-projects",
@@ -114,8 +114,8 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 30890,
-"repo_pushed_at": "2026-11-25"
+"repo_stars": 30902,
+"repo_pushed_at": "2026-11-27"
 },
 "source": "github",
 "security": {
@@ -250,7 +250,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 145862,
+"repo_stars": 145947,
 "repo_pushed_at": "2026-11-18"
 },
 "source": "github",
@@ -370,6 +370,55 @@
 "classified_by": "rule",
 "registry_name": "ai.inbrix/helpdesk",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.inbrix/helpdesk&version=latest",
+"_fails": 0
+},
+{
+"id": "mcp-ai-sprites-hubspot",
+"title": "HubSpot by Sprites",
+"type": "mcp",
+"industry": "customer-service",
+"roles": [
+"support-agent"
+],
+"summary_source": "HubSpot for marketing agents: pipeline and lead sources beside ad spend. Read-only.",
+"summary_lang": "en",
+"source_url": "https://github.com/sprites-ai/hubspot-mcp-server",
+"raw_url": null,
+"repo": "sprites-ai/hubspot-mcp-server",
+"author": "ai.sprites",
+"license": "MIT",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://mcp.sprites.ai/mcp",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": 0,
+"repo_pushed_at": "2026-11-27",
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": false,
+"credential_names": []
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:5c6408b616796b3984600bee",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "ai.sprites/hubspot",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.sprites/hubspot&version=latest",
 "_fails": 0
 },
 {
@@ -510,7 +559,7 @@
 "content_hash": "sha256:689fab152c5c466b3aaa07f8",
 "first_seen": "2026-10-19T00:13:40Z",
 "updated_at": "2026-11-08T16:41:07Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -519,7 +568,7 @@
 "classified_by": "rule",
 "registry_name": "com.a2awire/benchmark-ticket-triage-2026-09-15-64b68b3e",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.a2awire/benchmark-ticket-triage-2026-09-15-64b68b3e&version=latest",
-"_fails": 80
+"_fails": 81
 },
 {
 "id": "mcp-com-b2bprofileapi-b2b-shopify-merchant-company-profile-mcp",
@@ -608,7 +657,7 @@
 "content_hash": "sha256:01af3b118e818bdacfdb717d",
 "first_seen": "2026-10-22T00:43:10Z",
 "updated_at": "2026-10-22T15:17:20Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -617,7 +666,7 @@
 "classified_by": "rule",
 "registry_name": "com.edgethirteen.www/hubspot-dbv",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.edgethirteen.www/hubspot-dbv&version=latest",
-"_fails": 74
+"_fails": 75
 },
 {
 "id": "mcp-com-hasdata-shopify",
@@ -719,6 +768,57 @@
 "classified_by": "rule",
 "registry_name": "com.insightfulpipe/shopify",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.insightfulpipe/shopify&version=latest",
+"_fails": 0
+},
+{
+"id": "mcp-com-mambabuilt-mcp-hubspot-salesforce-partner-directory",
+"title": "com.mambabuilt/mcp-hubspot-salesforce-partner-directory",
+"type": "mcp",
+"industry": "customer-service",
+"roles": [
+"support-agent"
+],
+"summary_source": "Search HubSpot and Salesforce partner directories for agencies by keyword, tier, and country.",
+"summary_lang": "en",
+"source_url": "https://github.com/mambalabsdev/mcp-hubspot-salesforce-partner-directory",
+"raw_url": null,
+"repo": "mambalabsdev/mcp-hubspot-salesforce-partner-directory",
+"author": "com.mambabuilt",
+"license": "MIT",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "npx -y @mambalabsdev/mcp-hubspot-salesforce-partner-directory",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": 0,
+"repo_pushed_at": "2026-11-27",
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": true,
+"needs_credentials": true,
+"writes_external": false,
+"credential_names": [
+"APIFY_TOKEN"
+]
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:e9400730a75635388677fc41",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "com.mambabuilt/mcp-hubspot-salesforce-partner-directory",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mambabuilt/mcp-hubspot-salesforce-partner-directory&version=latest",
 "_fails": 0
 },
 {
@@ -908,7 +1008,7 @@
 "content_hash": "sha256:487cf836a0a67b2285887070",
 "first_seen": "2026-10-23T00:43:09Z",
 "updated_at": "2026-11-16T20:29:41Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -917,7 +1017,7 @@
 "classified_by": "rule",
 "registry_name": "com.oskivo/shopify",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.oskivo/shopify&version=latest",
-"_fails": 23
+"_fails": 24
 },
 {
 "id": "mcp-com-pronovahq-pronova-sales-hubspot",
@@ -1610,7 +1710,7 @@
 "content_hash": "sha256:0336aa279dd0ceac0085f702",
 "first_seen": "2026-11-17T19:11:27Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -1619,7 +1719,7 @@
 "classified_by": "rule",
 "registry_name": "dev.datasetworks/shopify-store-products",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.datasetworks/shopify-store-products&version=latest",
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "mcp-dev-pages-wagner-data-services-shopify-catalog-import",
@@ -1768,6 +1868,57 @@
 "classified_by": "rule",
 "registry_name": "dev.workers.cybermax-tools.cybermax/shopify-scraper",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.cybermax-tools.cybermax/shopify-scraper&version=latest",
+"_fails": 0
+},
+{
+"id": "mcp-dev-workers-pomlabs-pom-data-api-trustpilot-reviews-scraper",
+"title": "Trustpilot Reviews Scraper - Reviews, Replies & AI Summary",
+"type": "mcp",
+"industry": "customer-service",
+"roles": [
+"support-agent"
+],
+"summary_source": "Trustpilot reviews of any company: rating, text, reviewer, company reply, TrustScore and AI summary",
+"summary_lang": "en",
+"source_url": "https://github.com/pomexplica/trustpilot-reviews-scraper",
+"raw_url": null,
+"repo": "pomexplica/trustpilot-reviews-scraper",
+"author": "dev.workers.pomlabs.pom-data-api",
+"license": "MIT",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://mcp.apify.com?tools=pomlabs/trustpilot-reviews-scraper",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": 0,
+"repo_pushed_at": "2026-11-27",
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": true,
+"credential_names": [
+"Authorization"
+]
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:79c6ed056c9042ed0c77778f",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "dev.workers.pomlabs.pom-data-api/trustpilot-reviews-scraper",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.pomlabs.pom-data-api/trustpilot-reviews-scraper&version=latest",
 "_fails": 0
 },
 {
@@ -2327,7 +2478,7 @@
 "content_hash": "sha256:77bb2ec9ca091dab38ae9cb7",
 "first_seen": "2026-10-22T00:43:10Z",
 "updated_at": "2026-10-22T15:17:20Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -2336,7 +2487,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.Centrify-Internal/hubspot-integrations-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Centrify-Internal/hubspot-integrations-mcp&version=latest",
-"_fails": 74
+"_fails": 75
 },
 {
 "id": "mcp-io-github-cloudcorprecords-faqmine",
@@ -3636,7 +3787,7 @@
 ],
 "metrics": {
 "repo_stars": 15,
-"repo_pushed_at": "2026-11-26",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-08-09"
 },
 "source": "mcp-registry",
@@ -3776,7 +3927,7 @@
 "roles": [
 "support-agent"
 ],
-"summary_source": "HTTP-only Apify Actor & Standby MCP Server extracting Shopify themes, 25+ installed apps & pixels, p",
+"summary_source": "Shopify store intel: theme, installed apps, tracking pixels, products and prices from any store.",
 "summary_lang": "en",
 "source_url": "https://github.com/Mr-Wolf-Dev/shopify-store-intel-mcp-server",
 "raw_url": null,
@@ -3791,8 +3942,8 @@
 ],
 "metrics": {
 "repo_stars": 0,
-"repo_pushed_at": "2026-11-26",
-"registry_updated_at": "2026-11-25"
+"repo_pushed_at": "2026-11-27",
+"registry_updated_at": "2026-11-27"
 },
 "source": "mcp-registry",
 "security": {
@@ -3803,9 +3954,9 @@
 "credential_names": []
 },
 "course_step": "4-do-it",
-"content_hash": "sha256:d14831e6a67f5537bd98df6a",
+"content_hash": "sha256:86d6ee5c1fa185965d2517a9",
 "first_seen": "2026-11-25T19:56:48Z",
-"updated_at": "2026-11-25T19:56:48Z",
+"updated_at": "2026-11-27T19:28:38Z",
 "checked_at": "2026-11-25T19:56:48Z",
 "http_status": {
 "source": 200
@@ -3855,7 +4006,7 @@
 "content_hash": "sha256:4baa1ed0be5692f4e40cebe4",
 "first_seen": "2026-10-22T00:43:10Z",
 "updated_at": "2026-10-22T15:17:20Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -3864,7 +4015,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.mrfentmen/freshdesk-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mrfentmen/freshdesk-mcp&version=latest",
-"_fails": 74
+"_fails": 75
 },
 {
 "id": "mcp-io-github-muhammadtalhamt-intercom",
@@ -4677,7 +4828,7 @@
 "content_hash": "sha256:8dce0c89e5b78ae85af67986",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -4686,7 +4837,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.saulius876-lgtm/shopify-price-monitor",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.saulius876-lgtm/shopify-price-monitor&version=latest",
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "mcp-io-github-saulius876-lgtm-trustpilot-reviews",
@@ -4726,7 +4877,7 @@
 "content_hash": "sha256:7221a10831af920411dcbae2",
 "first_seen": "2026-10-15T10:34:04Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -4735,7 +4886,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.saulius876-lgtm/trustpilot-reviews",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.saulius876-lgtm/trustpilot-reviews&version=latest",
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "mcp-io-github-servosity-hubspot-mcp",
@@ -4898,6 +5049,55 @@
 "_fails": 0
 },
 {
+"id": "mcp-io-github-truonggiang0111-shopify-app-store-churn-mcp",
+"title": "Shopify App Store 1-Star Churn & Dev Emails MCP",
+"type": "mcp",
+"industry": "customer-service",
+"roles": [
+"support-agent"
+],
+"summary_source": "Shopify App Store 1-2 star churn reviews, pricing plans & developer support emails.",
+"summary_lang": "en",
+"source_url": "https://github.com/truonggiang0111/b2b-ai-mcp-skills",
+"raw_url": null,
+"repo": "truonggiang0111/b2b-ai-mcp-skills",
+"author": "io.github.truonggiang0111",
+"license": "MIT",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://mcp.apify.com?actors=ttyan0111/shopify-app-store-churn-spy",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": 0,
+"repo_pushed_at": "2026-11-27",
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": false,
+"credential_names": []
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:3196bbe265587fedb8f4db80",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "io.github.truonggiang0111/shopify-app-store-churn-mcp",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.truonggiang0111/shopify-app-store-churn-mcp&version=latest",
+"_fails": 0
+},
+{
 "id": "mcp-io-github-ussefidder-shopify-store-sync-mcp",
 "title": "Shopify Store Sync",
 "type": "mcp",
@@ -4947,6 +5147,57 @@
 "classified_by": "rule",
 "registry_name": "io.github.ussefidder/shopify-store-sync-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.ussefidder/shopify-store-sync-mcp&version=latest",
+"_fails": 0
+},
+{
+"id": "mcp-io-github-whthpnd-shopify-store-leads-products",
+"title": "DirectAPI Labs: Shopify Store Leads & Products",
+"type": "mcp",
+"industry": "customer-service",
+"roles": [
+"support-agent"
+],
+"summary_source": "Extract Shopify catalogs, pricing, myshopify.com handle, contact emails & 20+ detected apps.",
+"summary_lang": "en",
+"source_url": "https://github.com/whthpnd/directapi-mcp-servers",
+"raw_url": null,
+"repo": "whthpnd/directapi-mcp-servers",
+"author": "io.github.whthpnd",
+"license": "MIT",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://whthpnd--shopify-store-leads-products-api.apify.actor/mcp",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": 1,
+"repo_pushed_at": "2026-11-27",
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": false,
+"credential_names": [
+"Authorization"
+]
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:eec11e766a61e3bc494c833a",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "io.github.whthpnd/shopify-store-leads-products",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.whthpnd/shopify-store-leads-products&version=latest",
 "_fails": 0
 },
 {
@@ -5023,7 +5274,7 @@
 ],
 "metrics": {
 "repo_stars": 0,
-"repo_pushed_at": "2026-11-26",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-24"
 },
 "source": "mcp-registry",
@@ -5178,7 +5429,7 @@
 ],
 "metrics": {
 "repo_stars": 1,
-"repo_pushed_at": "2026-11-26",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-24"
 },
 "source": "mcp-registry",
@@ -5820,7 +6071,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -6181,7 +6432,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 2524,
+"repo_stars": 2529,
 "repo_pushed_at": "2026-11-21"
 },
 "source": "github",
@@ -6272,7 +6523,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 2524,
+"repo_stars": 2529,
 "repo_pushed_at": "2026-11-21"
 },
 "source": "github",
@@ -6318,7 +6569,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -6364,7 +6615,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -8675,7 +8926,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -8721,7 +8972,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -8767,7 +9018,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -8813,7 +9064,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -8859,7 +9110,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -8905,7 +9156,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -8951,7 +9202,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -8997,7 +9248,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9043,7 +9294,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9089,7 +9340,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9135,7 +9386,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9181,7 +9432,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9227,7 +9478,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9273,7 +9524,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9319,7 +9570,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9365,7 +9616,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -9411,7 +9662,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9457,7 +9708,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9503,7 +9754,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9549,7 +9800,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9595,7 +9846,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9641,7 +9892,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9687,7 +9938,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9733,7 +9984,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9779,7 +10030,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9825,7 +10076,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9871,7 +10122,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9917,7 +10168,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -9963,7 +10214,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -10009,7 +10260,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -10055,7 +10306,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -10101,7 +10352,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -10147,7 +10398,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -10193,7 +10444,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 145862,
+"repo_stars": 145947,
 "repo_pushed_at": "2026-11-18"
 },
 "source": "github",
@@ -10239,7 +10490,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 145862,
+"repo_stars": 145947,
 "repo_pushed_at": "2026-11-18"
 },
 "source": "github",
@@ -11052,7 +11303,7 @@
 "content_hash": "sha256:7b2708a736264641f6088ead",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -11069,7 +11320,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "uihub-ued-samsung-one-ui",
@@ -11275,7 +11526,7 @@
 "content_hash": "sha256:2db76a24ddfba6b2a3190253",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -11293,7 +11544,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "uihub-ued-weui",
@@ -11860,7 +12111,7 @@
 "content_hash": "sha256:b19bc50b217578389e27feb4",
 "first_seen": "2026-11-13T02:40:00Z",
 "updated_at": "2026-11-13T17:45:53Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -11869,7 +12120,7 @@
 "classified_by": "rule",
 "registry_name": "com.agentfonts/agentfonts",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.agentfonts/agentfonts&version=latest",
-"_fails": 29
+"_fails": 30
 },
 {
 "id": "mcp-com-allsvgicons-icons",
@@ -11992,8 +12243,8 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 2241,
-"repo_pushed_at": "2026-11-24",
+"repo_stars": 2242,
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2025-10-16"
 },
 "source": "mcp-registry",
@@ -12308,7 +12559,7 @@
 "content_hash": "sha256:592fcd3a47f0ee3b5cdca038",
 "first_seen": "2026-10-19T00:13:40Z",
 "updated_at": "2026-10-19T16:59:16Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -12317,7 +12568,7 @@
 "classified_by": "rule",
 "registry_name": "com.iconsroom/mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.iconsroom/mcp&version=latest",
-"_fails": 80
+"_fails": 81
 },
 {
 "id": "mcp-com-keylineicons-mcp",
@@ -12341,8 +12592,8 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 258,
-"repo_pushed_at": "2026-11-26",
+"repo_stars": 271,
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-26"
 },
 "source": "mcp-registry",
@@ -12849,7 +13100,7 @@
 "content_hash": "sha256:0ba75d2c42cd03f0acb30dbc",
 "first_seen": "2026-10-28T01:26:45Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 503
 },
@@ -12858,7 +13109,7 @@
 "classified_by": "rule",
 "registry_name": "exchange.shadcn/blocks",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=exchange.shadcn/blocks&version=latest",
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "mcp-free-fonts-mcp",
@@ -12982,7 +13233,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 11,
+"repo_stars": 10,
 "repo_pushed_at": "2026-09-24",
 "registry_updated_at": "2026-07-15"
 },
@@ -13590,7 +13841,7 @@
 "content_hash": "sha256:c10d87881de7f7c0900ff514",
 "first_seen": "2026-10-19T00:13:40Z",
 "updated_at": "2026-10-19T16:59:16Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -13599,7 +13850,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.Elinaseri/digche-icons",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.Elinaseri/digche-icons&version=latest",
-"_fails": 80
+"_fails": 81
 },
 {
 "id": "mcp-io-github-felixanhalt-figma-context-mcp",
@@ -13728,7 +13979,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 16324,
+"repo_stars": 16331,
 "repo_pushed_at": "2026-11-15",
 "registry_updated_at": "2026-06-18"
 },
@@ -14099,7 +14350,7 @@
 "content_hash": "sha256:a8bdffd091dcb6890a60b6c0",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-15T10:34:04Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -14108,7 +14359,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.MananSingh2001/figma-react",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MananSingh2001/figma-react&version=latest",
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "mcp-io-github-mehmoodqureshi-figma-codekit-mcp",
@@ -14200,7 +14451,7 @@
 "content_hash": "sha256:6d4b995b380e148457557352",
 "first_seen": "2026-10-19T00:13:40Z",
 "updated_at": "2026-10-19T16:59:16Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -14209,7 +14460,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.mewc/favicon-app-icons",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mewc/favicon-app-icons&version=latest",
-"_fails": 80
+"_fails": 81
 },
 {
 "id": "mcp-io-github-miapre-html-to-figma-design-system",
@@ -15195,7 +15446,7 @@
 "content_hash": "sha256:73f50cd7aa56daf984759205",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-15T10:34:04Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 451
 },
@@ -15204,7 +15455,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.vkhanhqui/figma-mcp-go",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.vkhanhqui/figma-mcp-go&version=latest",
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "mcp-io-github-vola-trebla-tailwind-context-resolver-mcp",
@@ -15296,7 +15547,7 @@
 "content_hash": "sha256:7d356cf4ee37c8102affac5a",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-15T10:34:04Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -15305,7 +15556,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.wmarceau/canva-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.wmarceau/canva-mcp&version=latest",
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "mcp-io-github-workingmodel-figma-vector-mcp",
@@ -15382,7 +15633,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 45,
+"repo_stars": 46,
 "repo_pushed_at": "2026-11-19",
 "registry_updated_at": "2026-10-20"
 },
@@ -15492,7 +15743,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15538,7 +15789,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15584,7 +15835,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15630,7 +15881,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15676,7 +15927,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15722,7 +15973,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15768,7 +16019,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15814,7 +16065,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -15860,7 +16111,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -15906,7 +16157,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -15952,7 +16203,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -16044,7 +16295,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -16090,7 +16341,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -16136,7 +16387,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -16182,7 +16433,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16228,7 +16479,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16274,7 +16525,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16320,7 +16571,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16366,7 +16617,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16458,7 +16709,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16504,7 +16755,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16550,7 +16801,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16596,7 +16847,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16642,7 +16893,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16688,7 +16939,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 60173,
+"repo_stars": 60479,
 "repo_pushed_at": "2026-11-15"
 },
 "source": "github",
@@ -16748,14 +16999,14 @@
 "content_hash": "sha256:0ab3b9932668d7e018be400a",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-26T16:48:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
 "status": "dead",
 "duplicate_of": null,
 "classified_by": "rule",
-"_fails": 66
+"_fails": 67
 },
 {
 "id": "leonxlnx-taste-skill-skills-redesign-skill-skill-md",
@@ -16793,14 +17044,14 @@
 "content_hash": "sha256:9e64de5d888bdd94dc455cc5",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-26T16:48:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
 "status": "dead",
 "duplicate_of": null,
 "classified_by": "rule",
-"_fails": 66
+"_fails": 67
 },
 {
 "id": "leonxlnx-taste-skill-skills-taste-skill",
@@ -16824,7 +17075,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 122030,
+"repo_stars": 122283,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -16870,7 +17121,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 154704,
+"repo_stars": 155065,
 "repo_pushed_at": "2026-11-27"
 },
 "source": "github",
@@ -16916,7 +17167,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 154704,
+"repo_stars": 155065,
 "repo_pushed_at": "2026-11-27"
 },
 "source": "github",
@@ -16962,7 +17213,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 154704,
+"repo_stars": 155065,
 "repo_pushed_at": "2026-11-27"
 },
 "source": "github",
@@ -17054,7 +17305,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 154704,
+"repo_stars": 155065,
 "repo_pushed_at": "2026-11-27"
 },
 "source": "github",
@@ -17100,7 +17351,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 154704,
+"repo_stars": 155065,
 "repo_pushed_at": "2026-11-27"
 },
 "source": "github",
@@ -17146,13 +17397,13 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 154704,
+"repo_stars": 155065,
 "repo_pushed_at": "2026-11-27"
 },
 "source": "github",
 "security": {
 "audited": false,
-"executes_code": true,
+"executes_code": false,
 "needs_credentials": false,
 "writes_external": false
 },
@@ -20623,7 +20874,7 @@
 "content_hash": "sha256:f21b81871ccaad7d36c54a22",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -20641,7 +20892,7 @@
 "component_types": [],
 "pricing": "unknown"
 },
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "uihub-www-ui-skills-com-skills-raphaelsalaja-12-principles-of-anim",
@@ -21263,7 +21514,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21309,7 +21560,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21355,7 +21606,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21401,7 +21652,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21447,7 +21698,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21493,7 +21744,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21539,7 +21790,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21585,7 +21836,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21631,7 +21882,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21677,7 +21928,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21723,7 +21974,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21769,7 +22020,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21815,7 +22066,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21861,7 +22112,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21907,7 +22158,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -21953,7 +22204,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -24056,7 +24307,7 @@
 "content_hash": "sha256:4294e65c2cd1d1d5297ea842",
 "first_seen": "2026-10-21T15:15:15Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 402
 },
@@ -24075,7 +24326,7 @@
 ],
 "pricing": "unknown"
 },
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "uihub-aw-ascii-cnlibs-com",
@@ -25437,7 +25688,7 @@
 "content_hash": "sha256:7f10a5e6ad35f8c91e7ff75c",
 "first_seen": "2026-10-26T16:48:06Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 503
 },
@@ -25454,7 +25705,7 @@
 "component_types": [],
 "pricing": "unknown"
 },
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "uihub-aw-diarmuradi-com",
@@ -25949,7 +26200,7 @@
 "content_hash": "sha256:5c9b99e31362938b101e2d11",
 "first_seen": "2026-10-18T14:01:50Z",
 "updated_at": "2026-10-20T01:06:48Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -25968,7 +26219,7 @@
 ],
 "pricing": "unknown"
 },
-"_fails": 79
+"_fails": 80
 },
 {
 "id": "uihub-aw-facadeui-dev",
@@ -31921,7 +32172,7 @@
 "content_hash": "sha256:96730b08eacc0ed4e3e97124",
 "first_seen": "2026-10-21T15:15:15Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 402
 },
@@ -31938,7 +32189,7 @@
 "component_types": [],
 "pricing": "unknown"
 },
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "uihub-aw-medium-zoom-francoischalifour-com-react",
@@ -35976,7 +36227,7 @@
 "content_hash": "sha256:0fcf84c87de3d239fc69a070",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 402
 },
@@ -35995,7 +36246,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-13322566869",
@@ -39201,7 +39452,7 @@
 "content_hash": "sha256:bc59d9f3c7efd69517c017ab",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -39221,7 +39472,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-armur",
@@ -40317,7 +40568,7 @@
 "content_hash": "sha256:9acfcf520e52713851d31585",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-24T06:07:50Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -40336,7 +40587,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 8
+"_fails": 9
 },
 {
 "id": "uihub-awd-axolot-games",
@@ -41892,12 +42143,12 @@
 "course_step": "2-pick-direction",
 "content_hash": "sha256:5677276c40662967f97b3cc8",
 "first_seen": "2026-10-16T14:52:06Z",
-"updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
-"source": 0
+"source": 200
 },
-"status": "dead",
+"status": "active",
 "duplicate_of": null,
 "classified_by": "rule",
 "title_en": "Broed",
@@ -41913,7 +42164,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 0
 },
 {
 "id": "uihub-awd-brunello-cucinelli-ai-e-com",
@@ -41951,7 +42202,7 @@
 "content_hash": "sha256:996b28bede43974c7bd7bcb4",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -41970,7 +42221,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-brunos-portfolio",
@@ -42124,7 +42375,7 @@
 "content_hash": "sha256:3cb9d6642989c59be2db3eae",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -42143,7 +42394,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-buena-suerte",
@@ -42295,7 +42546,7 @@
 "content_hash": "sha256:67a258345e58b8b58cabd5e9",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 502
 },
@@ -42315,7 +42566,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-c-design-by-dylan",
@@ -43174,7 +43425,7 @@
 "content_hash": "sha256:deb4d19c8b6d0ea15f5bc515",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-16T20:29:41Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -43194,7 +43445,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 23
+"_fails": 24
 },
 {
 "id": "uihub-awd-cerebrium",
@@ -43409,7 +43660,7 @@
 "content_hash": "sha256:321def546edc0c61b7f463f6",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -43429,7 +43680,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-charles-leclerc",
@@ -45583,7 +45834,7 @@
 "content_hash": "sha256:0b1bbc1e6157ce67ba57c655",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -45605,7 +45856,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-david-whyte-experience",
@@ -45936,7 +46187,7 @@
 "content_hash": "sha256:fcd1f99589b9e806d29f48bc",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -45958,7 +46209,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-de-malde-canvas-chronicles",
@@ -46053,7 +46304,7 @@
 "content_hash": "sha256:0ed831d335e512dc7171acc7",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -46074,7 +46325,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-decathlon-wlkr-76",
@@ -46880,7 +47131,7 @@
 "content_hash": "sha256:aa536e4379d432ca168988c0",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -46900,7 +47151,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-dg-velvet-collection-experience",
@@ -48109,7 +48360,7 @@
 "content_hash": "sha256:ed0cc4aedcf7ab2b219278c0",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 500
 },
@@ -48128,7 +48379,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "uihub-awd-duck-english",
@@ -48635,7 +48886,7 @@
 "content_hash": "sha256:55de43f59367cc40e00b6975",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 308
 },
@@ -48693,7 +48944,7 @@
 "content_hash": "sha256:02447f07d2f237c627cbfaa1",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -48714,7 +48965,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "uihub-awd-elementis",
@@ -49102,7 +49353,7 @@
 "content_hash": "sha256:ae85c69f3f8cc69f61be7723",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -49123,7 +49374,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-emmpo",
@@ -50563,7 +50814,7 @@
 "content_hash": "sha256:47a1360562a2931ac927bec9",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -50584,7 +50835,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-find-your-love",
@@ -51789,7 +52040,7 @@
 "content_hash": "sha256:0ee82d957113a15571661c92",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -51808,7 +52059,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "uihub-awd-g-colombel-portfolio-2024",
@@ -52137,7 +52388,7 @@
 "content_hash": "sha256:08bf817dba9887ea25e469b3",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -52158,7 +52409,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-get-hyped",
@@ -53195,7 +53446,7 @@
 "content_hash": "sha256:07be99af385fac3f5d0dd26a",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -53217,7 +53468,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-hartmann-capital",
@@ -54662,7 +54913,7 @@
 "content_hash": "sha256:1738d57ffe44f99a65b4ebe4",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 402
 },
@@ -54683,7 +54934,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "uihub-awd-icg-galleries",
@@ -58406,7 +58657,7 @@
 "content_hash": "sha256:db73414340024cdf6cf4635f",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -58426,7 +58677,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-leeroy-agency",
@@ -58522,7 +58773,7 @@
 "content_hash": "sha256:c2f21f4d665aa5f2ca7dc588",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -58541,7 +58792,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-letude-creative-studio",
@@ -60278,7 +60529,7 @@
 "content_hash": "sha256:e6b537aa55a3bdf90e793345",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -60299,7 +60550,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-mastering-web-animations",
@@ -61507,7 +61758,7 @@
 "content_hash": "sha256:7163ae284f4698d33b3fe31a",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -61527,7 +61778,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-milk-network",
@@ -62443,7 +62694,7 @@
 "content_hash": "sha256:06a418d75dd2423db2b8b163",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-02T20:22:18Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -62465,7 +62716,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 52
+"_fails": 53
 },
 {
 "id": "uihub-awd-more-nutrition",
@@ -62681,7 +62932,7 @@
 "content_hash": "sha256:e29331b6ec5d039b4dd854f3",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -62703,7 +62954,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-mr-pandas-paper-portfolio",
@@ -62799,7 +63050,7 @@
 "content_hash": "sha256:9fcf0a7363b30507baca33ec",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -62821,7 +63072,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-museums-for-the-21st-century",
@@ -62977,7 +63228,7 @@
 "content_hash": "sha256:d4291771d200f9d36b551905",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -62996,7 +63247,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-native",
@@ -63152,7 +63403,7 @@
 "content_hash": "sha256:ee254424775b81b3257414a3",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 525
 },
@@ -63173,7 +63424,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-neocultural-couture",
@@ -63211,7 +63462,7 @@
 "content_hash": "sha256:8cf506bde354929e531028ba",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -63232,7 +63483,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-neon-rated",
@@ -64678,7 +64929,7 @@
 "content_hash": "sha256:b02970e85eccc0df0e05150c",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -64698,7 +64949,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-obys-2",
@@ -65147,7 +65398,7 @@
 "content_hash": "sha256:bfdbbd238804f4046b12c06e",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -65168,7 +65419,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-off-brand-manifesto",
@@ -65498,7 +65749,7 @@
 "content_hash": "sha256:8503217afa67d1d9f9cd7bf0",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -65518,7 +65769,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-omega-my-little-secret",
@@ -66851,9 +67102,9 @@
 "content_hash": "sha256:b940993f95b4194397891dea",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
-"source": 0
+"source": 406
 },
 "status": "dead",
 "duplicate_of": null,
@@ -66870,7 +67121,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-paisana-house",
@@ -71111,7 +71362,7 @@
 "content_hash": "sha256:055112f56151ac8d47672ac9",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 530
 },
@@ -71132,7 +71383,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-rickman-architecture-design",
@@ -71879,7 +72130,7 @@
 "content_hash": "sha256:025ab6c284d5f7ab7e51724c",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-24T06:07:50Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -71900,7 +72151,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 8
+"_fails": 9
 },
 {
 "id": "uihub-awd-salt-and-pepper",
@@ -71995,7 +72246,7 @@
 "content_hash": "sha256:c5b34216cb426e9785dab3ee",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -72016,7 +72267,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-san-rita",
@@ -73524,7 +73775,7 @@
 "content_hash": "sha256:84538a0f3e30e504759d3e04",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -73543,7 +73794,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-smooothy",
@@ -74582,7 +74833,7 @@
 "content_hash": "sha256:ae3b97ac7dcd2c570d3a1cab",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -74603,7 +74854,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-space-trash-signs",
@@ -75226,7 +75477,7 @@
 "content_hash": "sha256:3b2d3986fe914f01451fb210",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -75246,7 +75497,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-steven-com",
@@ -76746,7 +76997,7 @@
 "content_hash": "sha256:8dd6260620f0e678cd9d14bf",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -76767,7 +77018,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-superlocal-design-festival-25",
@@ -76923,7 +77174,7 @@
 "content_hash": "sha256:eb1fdfa51cda202f7d96fa89",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -76943,7 +77194,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-takamitsu-motoyoshi",
@@ -77741,7 +77992,7 @@
 "content_hash": "sha256:52ea3ab5fcfdf389a6b828ce",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -77763,7 +78014,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-the-art-of-silk",
@@ -77801,7 +78052,7 @@
 "content_hash": "sha256:02cd4ee62653e434c2d10023",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -77823,7 +78074,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-the-best-you-by-klook",
@@ -79677,7 +79928,7 @@
 "content_hash": "sha256:de5db7403fda165e210281b5",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -79698,7 +79949,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-trawelt",
@@ -79795,7 +80046,7 @@
 "content_hash": "sha256:7469dc87cb576305934cf89b",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -79816,7 +80067,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-tribute-to-steamboat-willie",
@@ -81557,7 +81808,7 @@
 "content_hash": "sha256:ff56e876ce3f40d97fcbdc07",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -81579,7 +81830,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-vogue-business-archrival",
@@ -82201,7 +82452,7 @@
 "content_hash": "sha256:01bb6ac4eaf61869eed48991",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-26T16:48:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -82220,7 +82471,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 66
+"_fails": 67
 },
 {
 "id": "uihub-awd-wembi",
@@ -83136,7 +83387,7 @@
 "content_hash": "sha256:0d4f6c5688fa5aceb7fe23d9",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -83155,7 +83406,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-xox",
@@ -83544,7 +83795,7 @@
 "content_hash": "sha256:0f38f780eaea96f83de0e525",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -83565,7 +83816,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-awd-yza-voku",
@@ -83660,7 +83911,7 @@
 "content_hash": "sha256:f8bc11e058caaafe9206727b",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-02T20:22:18Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -83682,7 +83933,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 52
+"_fails": 53
 },
 {
 "id": "uihub-awd-zentry",
@@ -84862,7 +85113,7 @@
 "content_hash": "sha256:e35efb7f1869ea971d5589b9",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -84879,7 +85130,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 86
+"_fails": 87
 },
 {
 "id": "uihub-gh-appllama-appllama-skills",
@@ -85604,7 +85855,7 @@
 "content_hash": "sha256:cf748ae3cd140ab1ea8c1ee7",
 "first_seen": "2026-11-03T17:52:01Z",
 "updated_at": "2026-11-04T02:24:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -85623,7 +85874,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 49
+"_fails": 50
 },
 {
 "id": "uihub-gh-flohoeller-affectui",
@@ -96341,7 +96592,7 @@
 "content_hash": "sha256:e0cab2be6a44e184e9f69fcb",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-11-02T20:22:18Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -96359,7 +96610,7 @@
 "component_types": [],
 "pricing": "unknown"
 },
-"_fails": 52
+"_fails": 53
 },
 {
 "id": "uihub-rd-00aws7d-slot-text-animation-library",
@@ -98658,7 +98909,7 @@
 "content_hash": "sha256:962f1b5a40df9056096a7bbe",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -98678,7 +98929,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-11mncji-ipo-allotment-status-screen",
@@ -100014,7 +100265,7 @@
 "content_hash": "sha256:ff660ee9f85df497754ce12f",
 "first_seen": "2026-10-28T01:26:45Z",
 "updated_at": "2026-11-24T06:07:50Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -100033,7 +100284,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 8
+"_fails": 9
 },
 {
 "id": "uihub-rd-1vdjvsw-codex-icon-animations",
@@ -105185,7 +105436,7 @@
 "content_hash": "sha256:b8447d11256e1e2713d01eaa",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-24T06:07:50Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 402
 },
@@ -105205,7 +105456,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 8
+"_fails": 9
 },
 {
 "id": "uihub-rd-48otgia-astro-black-book",
@@ -112135,7 +112386,7 @@
 "content_hash": "sha256:ceed7c3ceba2d0f0efaf7751",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 500
 },
@@ -112152,7 +112403,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-7blmeso-motion-inspo-008",
@@ -112982,7 +113233,7 @@
 "content_hash": "sha256:8ab1333d90d741e12319640a",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-16T20:29:41Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -113002,7 +113253,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 23
+"_fails": 24
 },
 {
 "id": "uihub-rd-7msp6ij-the-roman-sage",
@@ -116879,6 +117130,61 @@
 "visual_style": [
 "minimal",
 "playful"
+],
+"component_types": [],
+"pricing": "free"
+},
+"_fails": 0
+},
+{
+"id": "uihub-rd-a430lxw-arcfront-ai-research-lab-branding",
+"title": "Arcfront AI Research Lab Branding",
+"type": "style-library",
+"industry": "design",
+"roles": [
+"ui-designer"
+],
+"summary_source": "Full identity system for an AI research lab built around an arc mark rendered across gradient, halftone, glitch, and editorial layouts with a consistent technical annotation language.",
+"summary_lang": "en",
+"source_url": "https://x.com/kyleanthony/status/2125946341616476506",
+"raw_url": null,
+"repo": null,
+"author": "@kyleanthony",
+"license": "see source (listed via UI Hub)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null
+},
+"source": "ui-hub",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "2-pick-direction",
+"content_hash": "sha256:6361bf07f7dd6476e0422517",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"title_en": "Arcfront AI Research Lab Branding",
+"summary_en": "Full identity system for an AI research lab built around an arc mark rendered across gradient, halftone, glitch, and editorial layouts with a consistent technical annotation language.",
+"via": "https://siinxu.github.io/ui-resource-hub/",
+"facets": {
+"visual_style": [
+"gradient"
 ],
 "component_types": [],
 "pricing": "free"
@@ -122355,6 +122661,61 @@
 "_fails": 0
 },
 {
+"id": "uihub-rd-cq4f1e0-plasma-wallet-send-flow",
+"title": "Plasma Wallet Send Flow",
+"type": "style-library",
+"industry": "design",
+"roles": [
+"ui-designer"
+],
+"summary_source": "Particle explosion animation plays across the screen as $2,500 is sent via swipe, with a glowing Dynamic Island logo confirming the transfer before the home balance updates.",
+"summary_lang": "en",
+"source_url": "https://x.com/ssemenov/status/2125953159608578336",
+"raw_url": null,
+"repo": null,
+"author": "@ssemenov",
+"license": "see source (listed via UI Hub)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null
+},
+"source": "ui-hub",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "2-pick-direction",
+"content_hash": "sha256:78c52c6e2555307897542c4a",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"title_en": "Plasma Wallet Send Flow",
+"summary_en": "Particle explosion animation plays across the screen as $2,500 is sent via swipe, with a glowing Dynamic Island logo confirming the transfer before the home balance updates.",
+"via": "https://siinxu.github.io/ui-resource-hub/",
+"facets": {
+"visual_style": [
+"minimal"
+],
+"component_types": [],
+"pricing": "free"
+},
+"_fails": 0
+},
+{
 "id": "uihub-rd-cqmicuo-custom-ad-library-interface",
 "title": "Custom Ad Library Interface",
 "type": "style-library",
@@ -125211,7 +125572,7 @@
 "content_hash": "sha256:1bfca8c6e74ba8497dcd7259",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -125232,7 +125593,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-e6q54iq-libraries-dev-ui-effects",
@@ -125905,6 +126266,61 @@
 "classified_by": "rule",
 "title_en": "Thinking States",
 "summary_en": "A dark motion study exploring four animated thinking states for an agent interface with subtle looping icon variations.",
+"via": "https://siinxu.github.io/ui-resource-hub/",
+"facets": {
+"visual_style": [
+"minimal"
+],
+"component_types": [],
+"pricing": "free"
+},
+"_fails": 0
+},
+{
+"id": "uihub-rd-ekdr2cw-woven-micrographics",
+"title": "Woven Micrographics",
+"type": "style-library",
+"industry": "design",
+"roles": [
+"ui-designer"
+],
+"summary_source": "A series of small graphic design objects for Woven, mixing barcodes, monospaced labels, and vivid painted textures into stamp-like compositions.",
+"summary_lang": "en",
+"source_url": "https://x.com/kraigdesigns/status/2125922810145235218",
+"raw_url": null,
+"repo": null,
+"author": "@kraigdesigns",
+"license": "see source (listed via UI Hub)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null
+},
+"source": "ui-hub",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "2-pick-direction",
+"content_hash": "sha256:9292978c23089b3a449a7c23",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"title_en": "Woven Micrographics",
+"summary_en": "A series of small graphic design objects for Woven, mixing barcodes, monospaced labels, and vivid painted textures into stamp-like compositions.",
 "via": "https://siinxu.github.io/ui-resource-hub/",
 "facets": {
 "visual_style": [
@@ -127855,7 +128271,7 @@
 "content_hash": "sha256:e9d19fae5044270d1feca033",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -127872,7 +128288,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-fgweqvk-thumbnail-grid-transition",
@@ -132760,7 +133176,7 @@
 "content_hash": "sha256:03adcbb56a5ab885ba219b0e",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -132781,7 +133197,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "uihub-rd-htqifu7-gradient-motion-study",
@@ -135356,7 +135772,7 @@
 "content_hash": "sha256:ecb0f0e37b145f1d8d6ac4ea",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -135373,7 +135789,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "uihub-rd-j5yd5l1-access-grid-homepage",
@@ -141435,7 +141851,7 @@
 "content_hash": "sha256:3db90de88c4d0289dad06c00",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -141452,7 +141868,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-m46j11e-stamply",
@@ -144662,7 +145078,7 @@
 "content_hash": "sha256:897da022f5a13d081483fb7d",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -144679,7 +145095,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-nnkaerr-skewed-adjacent-hover-tabs",
@@ -149280,7 +149696,7 @@
 "content_hash": "sha256:d1747acf51516d2d77f82e95",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-11-17T04:33:55Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -149298,7 +149714,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 22
+"_fails": 23
 },
 {
 "id": "uihub-rd-pmlxfjn-survive-particle-animation",
@@ -153740,7 +154156,7 @@
 "content_hash": "sha256:9f56bd0efd4638cdfea4abbc",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -153757,7 +154173,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-ru0f52c-dot-grid-spiral-loop",
@@ -154993,6 +155409,63 @@
 "_fails": 0
 },
 {
+"id": "uihub-rd-sas2qfu-holographic-depth-transition-shader",
+"title": "Holographic Depth Shader",
+"type": "style-library",
+"industry": "design",
+"roles": [
+"motion-designer"
+],
+"summary_source": "A surrealist collage illustration liquifies and dissolves into swirling holographic fluid using a GLSL depth-transition shader, cycling between composed and abstract marbled states.",
+"summary_lang": "en",
+"source_url": "https://x.com/Jaenam97/status/2125952982957048161",
+"raw_url": null,
+"repo": null,
+"author": "@jaenam97",
+"license": "see source (listed via UI Hub)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null
+},
+"source": "ui-hub",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "2-pick-direction",
+"content_hash": "sha256:ff77301bacd269515e776f07",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"title_en": "Holographic Depth Shader",
+"summary_en": "A surrealist collage illustration liquifies and dissolves into swirling holographic fluid using a GLSL depth-transition shader, cycling between composed and abstract marbled states.",
+"via": "https://siinxu.github.io/ui-resource-hub/",
+"facets": {
+"visual_style": [
+"minimal"
+],
+"component_types": [
+"motion"
+],
+"pricing": "free"
+},
+"_fails": 0
+},
+{
 "id": "uihub-rd-sayzd67-cathy-dolle",
 "title": "Cathy Dolle",
 "type": "style-library",
@@ -156150,7 +156623,7 @@
 "content_hash": "sha256:a77cc483e94d37de328054bc",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 402
 },
@@ -156170,7 +156643,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-sxy775a-ownit-symbol-motion-study",
@@ -157898,7 +158371,7 @@
 "content_hash": "sha256:40d96d87c0a5ea695b3fa828",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -157919,7 +158392,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-tvq5zr2-neos-app-icon-variants",
@@ -158477,6 +158950,61 @@
 "classified_by": "rule",
 "title_en": "Color Badge System",
 "summary_en": "A balanced set of pastel color badge components spanning warm and cool hues, from Cherry and Vermilion to Teal and Sapphire, each pill tinted to match its named color.",
+"via": "https://siinxu.github.io/ui-resource-hub/",
+"facets": {
+"visual_style": [
+"minimal"
+],
+"component_types": [],
+"pricing": "free"
+},
+"_fails": 0
+},
+{
+"id": "uihub-rd-u8fpnli-bending-nav-indicator",
+"title": "Bending Nav Indicator",
+"type": "style-library",
+"industry": "design",
+"roles": [
+"ui-designer"
+],
+"summary_source": "A sidebar table-of-contents component where a blue line bends outward into a curved bracket to mark the active section as you navigate between items.",
+"summary_lang": "en",
+"source_url": "https://x.com/keviduk/status/2125963533821067730",
+"raw_url": null,
+"repo": null,
+"author": "@keviduk",
+"license": "see source (listed via UI Hub)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null
+},
+"source": "ui-hub",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "2-pick-direction",
+"content_hash": "sha256:8ffc771a5a78faf9427958ab",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"title_en": "Bending Nav Indicator",
+"summary_en": "A sidebar table-of-contents component where a blue line bends outward into a curved bracket to mark the active section as you navigate between items.",
 "via": "https://siinxu.github.io/ui-resource-hub/",
 "facets": {
 "visual_style": [
@@ -163766,6 +164294,62 @@
 "_fails": 0
 },
 {
+"id": "uihub-rd-x8xr1s6-stock-gift-capsule",
+"title": "Stock Gift Capsule",
+"type": "style-library",
+"industry": "design",
+"roles": [
+"ui-designer"
+],
+"summary_source": "Mobile app concept where a 3D glass capsule fills with branded stock coins one by one, then seals into a gift card revealing the total value and unlock date.",
+"summary_lang": "en",
+"source_url": "https://x.com/builtbysasha/status/2126045409982177657",
+"raw_url": null,
+"repo": null,
+"author": "@builtbysasha",
+"license": "see source (listed via UI Hub)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null
+},
+"source": "ui-hub",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "2-pick-direction",
+"content_hash": "sha256:a996ca799be935a24eb07801",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"title_en": "Stock Gift Capsule",
+"summary_en": "Mobile app concept where a 3D glass capsule fills with branded stock coins one by one, then seals into a gift card revealing the total value and unlock date.",
+"via": "https://siinxu.github.io/ui-resource-hub/",
+"facets": {
+"visual_style": [
+"3d",
+"playful"
+],
+"component_types": [],
+"pricing": "free"
+},
+"_fails": 0
+},
+{
 "id": "uihub-rd-x97ktju-album-carousel-ui",
 "title": "Album Carousel UI",
 "type": "style-library",
@@ -163857,7 +164441,7 @@
 "content_hash": "sha256:e20283c2f724a368deb2c95b",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -163874,7 +164458,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-xb5b2cn-homemade-birthday-invite",
@@ -164758,7 +165342,7 @@
 "content_hash": "sha256:722c4fbf0d3efd8fb8402fc7",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-17T00:33:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -164776,7 +165360,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 85
+"_fails": 86
 },
 {
 "id": "uihub-rd-xny36la-brain-effort-dial",
@@ -164942,6 +165526,61 @@
 "component_types": [
 "motion"
 ],
+"pricing": "free"
+},
+"_fails": 0
+},
+{
+"id": "uihub-rd-xsy5aye-outcome-profile-cards",
+"title": "Outcome Profile Cards",
+"type": "style-library",
+"industry": "design",
+"roles": [
+"ui-designer"
+],
+"summary_source": "Animated profile cards for Outcome cycle through Hype, Captain, and Closer roles, each with vivid illustrative art and live stats, tilting and rotating in 3D space.",
+"summary_lang": "en",
+"source_url": "https://x.com/jumeh/status/2125930002852315279",
+"raw_url": null,
+"repo": null,
+"author": "@jumeh",
+"license": "see source (listed via UI Hub)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null
+},
+"source": "ui-hub",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "2-pick-direction",
+"content_hash": "sha256:4b68515cfd2c4afd0cd340c1",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"title_en": "Outcome Profile Cards",
+"summary_en": "Animated profile cards for Outcome cycle through Hype, Captain, and Closer roles, each with vivid illustrative art and live stats, tilting and rotating in 3D space.",
+"via": "https://siinxu.github.io/ui-resource-hub/",
+"facets": {
+"visual_style": [
+"minimal"
+],
+"component_types": [],
 "pricing": "free"
 },
 "_fails": 0
@@ -168264,7 +168903,7 @@
 "content_hash": "sha256:38aec931430fe3ef429f00d8",
 "first_seen": "2026-10-16T14:52:06Z",
 "updated_at": "2026-10-19T16:59:16Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -168285,7 +168924,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 80
+"_fails": 81
 },
 {
 "id": "uihub-rd-zgannql-omou-stamp-characters",
@@ -170973,7 +171612,7 @@
 "content_hash": "sha256:6b816991fbd2c7432743865a",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -170991,7 +171630,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "uihub-ued-designeer",
@@ -171029,7 +171668,7 @@
 "content_hash": "sha256:23fd4589639245c07bca40d8",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-19T16:59:16Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -171046,7 +171685,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 80
+"_fails": 81
 },
 {
 "id": "uihub-ued-designmd-ai",
@@ -171528,7 +172167,7 @@
 "content_hash": "sha256:9ff61b63bdbfb353c192fa33",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -171545,7 +172184,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "uihub-ued-gradient-buttons",
@@ -173701,7 +174340,7 @@
 "content_hash": "sha256:4854e4d707469b6dfa143562",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -173721,7 +174360,7 @@
 ],
 "pricing": "unknown"
 },
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "uihub-ui-inference-sh",
@@ -177461,7 +178100,7 @@
 "content_hash": "sha256:843d6491884347688588ce4b",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-11-23T22:03:10Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -177481,7 +178120,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 9
+"_fails": 10
 },
 {
 "id": "uihub-w16-eladiodieste-com",
@@ -179491,7 +180130,7 @@
 "content_hash": "sha256:de1c98f4cc4609975157349e",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-11-17T04:33:55Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -179511,7 +180150,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 22
+"_fails": 23
 },
 {
 "id": "uihub-w16-isadeburgh-com",
@@ -181115,7 +181754,7 @@
 "content_hash": "sha256:c69e41af296fe9e3d96f4804",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -181135,7 +181774,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 86
+"_fails": 87
 },
 {
 "id": "uihub-w16-marfala-com",
@@ -182216,7 +182855,7 @@
 "content_hash": "sha256:81d99fbeac9f92b816b4c035",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 520
 },
@@ -182236,7 +182875,7 @@
 ],
 "pricing": "free"
 },
-"_fails": 86
+"_fails": 87
 },
 {
 "id": "uihub-w16-opos-buzzworthystudio-com",
@@ -192969,7 +193608,7 @@
 "content_hash": "sha256:b762512f266763efe237cfcd",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -192986,7 +193625,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 86
+"_fails": 87
 },
 {
 "id": "uihub-x16-onepagelove",
@@ -193135,7 +193774,7 @@
 "content_hash": "sha256:d2d1027f51ffe2f5506cb1cf",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -193153,7 +193792,7 @@
 "component_types": [],
 "pricing": "free"
 },
-"_fails": 86
+"_fails": 87
 },
 {
 "id": "prompts-chat-apple-level-ui-system-designer-2026-standard",
@@ -194437,7 +195076,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -194483,7 +195122,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -194529,7 +195168,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -194575,7 +195214,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -194621,7 +195260,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -194667,7 +195306,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -194713,7 +195352,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -194759,7 +195398,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -196405,7 +197044,7 @@
 "content_hash": "sha256:614bfd2fec8de67bfcedd1b6",
 "first_seen": "2026-10-16T10:29:38Z",
 "updated_at": "2026-11-16T20:29:41Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -196425,7 +197064,7 @@
 ],
 "pricing": "unknown"
 },
-"_fails": 23
+"_fails": 24
 },
 {
 "id": "uihub-w16-baristi-framer-website",
@@ -200628,7 +201267,7 @@
 "content_hash": "sha256:bbf63195d1599c8edd4a35e2",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-16T14:52:06Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -200645,7 +201284,7 @@
 "component_types": [],
 "pricing": "unknown"
 },
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "uihub-stitch-withgoogle-com",
@@ -205010,7 +205649,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205056,7 +205695,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205102,7 +205741,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205148,7 +205787,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205194,7 +205833,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205240,7 +205879,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205286,7 +205925,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205332,7 +205971,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205378,7 +206017,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205424,7 +206063,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205470,7 +206109,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205516,7 +206155,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205562,7 +206201,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205608,7 +206247,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205654,7 +206293,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205700,7 +206339,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205746,7 +206385,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205792,7 +206431,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205838,7 +206477,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -205884,7 +206523,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205930,7 +206569,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -205976,7 +206615,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206022,7 +206661,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206068,7 +206707,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206114,7 +206753,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206160,7 +206799,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206206,7 +206845,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206252,7 +206891,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206298,7 +206937,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206344,7 +206983,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206390,7 +207029,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206436,7 +207075,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206482,7 +207121,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206528,7 +207167,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206574,7 +207213,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206620,7 +207259,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206666,7 +207305,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -206712,7 +207351,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -206758,7 +207397,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -206895,7 +207534,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 145862,
+"repo_stars": 145947,
 "repo_pushed_at": "2026-11-18"
 },
 "source": "github",
@@ -207343,7 +207982,7 @@
 "content_hash": "sha256:1d8de4ffa226de70c5418b52",
 "first_seen": "2026-10-27T15:53:32Z",
 "updated_at": "2026-11-17T04:33:55Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 403
 },
@@ -207352,7 +207991,7 @@
 "classified_by": "rule",
 "registry_name": "ai.chipp/chipp-newsletters",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ai.chipp/chipp-newsletters&version=latest",
-"_fails": 22
+"_fails": 23
 },
 {
 "id": "mcp-ai-livecore-ai-video-editor-captions-subtitles-tiktok-shorts-reels-podcast",
@@ -207377,7 +208016,7 @@
 ],
 "metrics": {
 "repo_stars": 10,
-"repo_pushed_at": "2026-11-26",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-18"
 },
 "source": "mcp-registry",
@@ -207624,7 +208263,7 @@
 ],
 "metrics": {
 "repo_stars": 0,
-"repo_pushed_at": "2026-11-26",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-26"
 },
 "source": "mcp-registry",
@@ -207875,7 +208514,7 @@
 ],
 "metrics": {
 "repo_stars": 0,
-"repo_pushed_at": "2026-11-25",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-25"
 },
 "source": "mcp-registry",
@@ -209025,7 +209664,7 @@
 "content_hash": "sha256:dd2738cc77f8b2ed55e66767",
 "first_seen": "2026-10-21T00:40:03Z",
 "updated_at": "2026-10-21T15:15:15Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -209034,7 +209673,7 @@
 "classified_by": "rule",
 "registry_name": "ca.wiremi/marketing-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=ca.wiremi/marketing-mcp&version=latest",
-"_fails": 76
+"_fails": 77
 },
 {
 "id": "mcp-cc-ssave-tiktok-instagram-downloader",
@@ -209666,7 +210305,7 @@
 "content_hash": "sha256:4125c664251ed717a9f9b1ba",
 "first_seen": "2026-11-16T20:29:41Z",
 "updated_at": "2026-11-17T04:33:55Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 429
 },
@@ -209675,7 +210314,7 @@
 "classified_by": "rule",
 "registry_name": "com.bee-directory/newsletter-sponsorship",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.bee-directory/newsletter-sponsorship&version=latest",
-"_fails": 22
+"_fails": 23
 },
 {
 "id": "mcp-com-beehiiv-beehiiv",
@@ -209724,6 +210363,55 @@
 "classified_by": "rule",
 "registry_name": "com.beehiiv/beehiiv",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.beehiiv/beehiiv&version=latest",
+"_fails": 0
+},
+{
+"id": "mcp-com-booknewsletterads-catalog",
+"title": "Book Newsletter Ads",
+"type": "mcp",
+"industry": "marketing",
+"roles": [
+"seo-specialist"
+],
+"summary_source": "Search public newsletter ad prices and send an inquiry. No account required.",
+"summary_lang": "en",
+"source_url": "https://github.com/Magnusloev/book-newsletter-ads-mcp",
+"raw_url": null,
+"repo": "Magnusloev/book-newsletter-ads-mcp",
+"author": "com.booknewsletterads",
+"license": "MIT",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://booknewsletterads.com/mcp",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": 0,
+"repo_pushed_at": "2026-11-27",
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": true,
+"credential_names": []
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:942163080b550380d45d8011",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "com.booknewsletterads/catalog",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.booknewsletterads/catalog&version=latest",
 "_fails": 0
 },
 {
@@ -209913,7 +210601,7 @@
 "content_hash": "sha256:50dce0bd1aa70eda9ffa072e",
 "first_seen": "2026-10-22T00:43:10Z",
 "updated_at": "2026-10-22T15:17:20Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -209922,7 +210610,7 @@
 "classified_by": "rule",
 "registry_name": "com.calmseo/seo-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.calmseo/seo-mcp&version=latest",
-"_fails": 74
+"_fails": 75
 },
 {
 "id": "mcp-com-clearpostplugin-wordpress-seo",
@@ -210315,7 +211003,7 @@
 "content_hash": "sha256:fc125d3eb5fc67574f7c1829",
 "first_seen": "2026-10-21T00:40:03Z",
 "updated_at": "2026-10-21T15:15:15Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -210324,7 +211012,7 @@
 "classified_by": "rule",
 "registry_name": "com.digitalpublic/marketing-operations",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.digitalpublic/marketing-operations&version=latest",
-"_fails": 76
+"_fails": 77
 },
 {
 "id": "mcp-com-eliteaiempire-data-seo-brief",
@@ -210822,7 +211510,7 @@
 "content_hash": "sha256:cde37647c180a60ee2f523e1",
 "first_seen": "2026-10-22T00:43:10Z",
 "updated_at": "2026-10-22T15:17:20Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 0
 },
@@ -210831,7 +211519,7 @@
 "classified_by": "rule",
 "registry_name": "com.gettransformseo/mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.gettransformseo/mcp&version=latest",
-"_fails": 74
+"_fails": 75
 },
 {
 "id": "mcp-com-glowytics-marketing-analytics",
@@ -211051,7 +211739,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 11,
+"repo_stars": 12,
 "repo_pushed_at": "2026-10-29",
 "registry_updated_at": "2026-09-24"
 },
@@ -211580,7 +212268,7 @@
 "roles": [
 "seo-specialist"
 ],
-"summary_source": "AI marketing agent: audits, plans, SEO, AI visibility, social posting, and Google, Meta & TikTok ads",
+"summary_source": "Marketing for AI agents: brand context, analytics, ads, SEO and publishing, with approvals",
 "summary_lang": "en",
 "source_url": "https://github.com/Magister-Marketing/magister-mcp",
 "raw_url": null,
@@ -211596,7 +212284,7 @@
 "metrics": {
 "repo_stars": 0,
 "repo_pushed_at": "2026-11-15",
-"registry_updated_at": "2026-11-10"
+"registry_updated_at": "2026-11-27"
 },
 "source": "mcp-registry",
 "security": {
@@ -211607,9 +212295,9 @@
 "credential_names": []
 },
 "course_step": "4-do-it",
-"content_hash": "sha256:d547bba383cf720de2510f75",
+"content_hash": "sha256:22ae993b3b6d5104a67b45d2",
 "first_seen": "2026-11-10T17:50:52Z",
-"updated_at": "2026-11-17T04:33:55Z",
+"updated_at": "2026-11-27T19:28:38Z",
 "checked_at": "2026-11-24T06:07:50Z",
 "http_status": {
 "source": 200
@@ -212027,6 +212715,57 @@
 "_fails": 0
 },
 {
+"id": "mcp-com-mr-bridge-seo-geo-mcp",
+"title": "AI SEO & GEO MCP Server",
+"type": "mcp",
+"industry": "marketing",
+"roles": [
+"seo-specialist"
+],
+"summary_source": "SERP, keyword, backlink, site audit and AI-answer visibility data via MCP. No SEO data account.",
+"summary_lang": "en",
+"source_url": "https://mr-bridge.com/solutions/seo-geo-mcp",
+"raw_url": null,
+"repo": null,
+"author": "com.mr-bridge",
+"license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://mrbridge--seo-geo-mcp.apify.actor/mcp",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null,
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": false,
+"credential_names": [
+"Authorization"
+]
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:48c5fccbd3f7ae0f50b4be52",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "com.mr-bridge/seo-geo-mcp",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mr-bridge/seo-geo-mcp&version=latest",
+"_fails": 0
+},
+{
 "id": "mcp-com-notacompany-newsletter",
 "title": "The notacompany newsletter",
 "type": "mcp",
@@ -212050,7 +212789,7 @@
 "metrics": {
 "repo_stars": null,
 "repo_pushed_at": null,
-"registry_updated_at": "2026-11-25"
+"registry_updated_at": "2026-11-27"
 },
 "source": "mcp-registry",
 "security": {
@@ -212061,9 +212800,9 @@
 "credential_names": []
 },
 "course_step": "4-do-it",
-"content_hash": "sha256:0f0a51f666ce118816930276",
+"content_hash": "sha256:a4d98627fc593d6813489802",
 "first_seen": "2026-11-21T17:33:18Z",
-"updated_at": "2026-11-25T19:56:48Z",
+"updated_at": "2026-11-27T19:28:38Z",
 "checked_at": "2026-11-23T22:03:10Z",
 "http_status": {
 "source": 200
@@ -212195,7 +212934,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 41180,
+"repo_stars": 41200,
 "repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-22"
 },
@@ -212223,6 +212962,55 @@
 "_fails": 0
 },
 {
+"id": "mcp-com-postlaunchseo-mcp",
+"title": "Post Launch SEO",
+"type": "mcp",
+"industry": "marketing",
+"roles": [
+"seo-specialist"
+],
+"summary_source": "Check a site after launch, read its results and fixes, and run checks from your AI agent.",
+"summary_lang": "en",
+"source_url": "https://postlaunchseo.com",
+"raw_url": null,
+"repo": null,
+"author": "com.postlaunchseo",
+"license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://postlaunchseo.com/platform/api/mcp",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null,
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": true,
+"credential_names": []
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:2b40fe5d1a3d4d9054643ac5",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "com.postlaunchseo/mcp",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.postlaunchseo/mcp&version=latest",
+"_fails": 0
+},
+{
 "id": "mcp-com-probativegrowth-legal-marketing-data",
 "title": "Probative legal-marketing data",
 "type": "mcp",
@@ -212245,7 +213033,7 @@
 ],
 "metrics": {
 "repo_stars": 1,
-"repo_pushed_at": "2026-11-23",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-10-30"
 },
 "source": "mcp-registry",
@@ -212667,109 +213455,6 @@
 "_fails": 0
 },
 {
-"id": "mcp-com-seoclerks-seoclerks",
-"title": "Seoclerks",
-"type": "mcp",
-"industry": "marketing",
-"roles": [
-"seo-specialist"
-],
-"summary_source": "Find and order SEO services, follow your orders and answer messages on the Seoclerks marketplace.",
-"summary_lang": "en",
-"source_url": "https://developers.seoclerk.com/connect-ai-agent",
-"raw_url": null,
-"repo": null,
-"author": "com.seoclerks",
-"license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
-"redistributable": false,
-"content_policy": "link-and-summary-only",
-"install": "remote (streamable-http): https://www.seoclerks.com/mcp",
-"languages": [
-"en"
-],
-"metrics": {
-"repo_stars": null,
-"repo_pushed_at": null,
-"registry_updated_at": "2026-10-23"
-},
-"source": "mcp-registry",
-"security": {
-"audited": false,
-"executes_code": false,
-"needs_credentials": true,
-"writes_external": false,
-"credential_names": [
-"Authorization"
-]
-},
-"course_step": "4-do-it",
-"content_hash": "sha256:9bb54fde20ec320fc56c270d",
-"first_seen": "2026-10-24T00:46:06Z",
-"updated_at": "2026-10-24T00:46:06Z",
-"checked_at": "2026-11-23T22:03:10Z",
-"http_status": {
-"source": 200
-},
-"status": "active",
-"duplicate_of": null,
-"classified_by": "rule",
-"registry_name": "com.seoclerks/seoclerks",
-"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoclerks/seoclerks&version=latest",
-"_fails": 0
-},
-{
-"id": "mcp-com-seocontentmachine-scm",
-"title": "SEO Content Machine",
-"type": "mcp",
-"industry": "marketing",
-"roles": [
-"seo-specialist"
-],
-"summary_source": "Run SEO Content Machine tasks from an MCP client: scraping, crawls, Google Maps, Workspace pages.",
-"summary_lang": "en",
-"source_url": "https://github.com/gitTerebi/seo-content-machine-plugin",
-"raw_url": null,
-"repo": "gitTerebi/seo-content-machine-plugin",
-"author": "com.seocontentmachine",
-"license": "MIT",
-"redistributable": false,
-"content_policy": "link-and-summary-only",
-"install": "npx -y seo-content-machine-mcp",
-"languages": [
-"en"
-],
-"metrics": {
-"repo_stars": 0,
-"repo_pushed_at": "2026-11-02",
-"registry_updated_at": "2026-11-02"
-},
-"source": "mcp-registry",
-"security": {
-"audited": false,
-"executes_code": true,
-"needs_credentials": true,
-"writes_external": false,
-"credential_names": [
-"SCM_API_URL",
-"SCM_API_KEY"
-]
-},
-"course_step": "4-do-it",
-"content_hash": "sha256:c77abd511de28cc11751b20c",
-"first_seen": "2026-10-22T00:43:10Z",
-"updated_at": "2026-11-17T04:33:55Z",
-"checked_at": "2026-11-24T06:07:50Z",
-"http_status": {
-"source": 200
-},
-"status": "active",
-"duplicate_of": null,
-"classified_by": "rule",
-"registry_name": "com.seocontentmachine/scm",
-"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seocontentmachine/scm&version=latest",
-"_fails": 0
-},
-{
 "id": "mcp-com-shopdataapi-amazon-walmart-shopee-tiktok-shop-ecommerce-mcp",
 "title": "ShopDataAPI — Amazon, Walmart, Shopee & TikTok Shop MCP. Zero-signup x402",
 "type": "mcp",
@@ -213064,6 +213749,55 @@
 "_fails": 0
 },
 {
+"id": "mcp-com-tolinku-tolinku-campaigns",
+"title": "Tolinku campaigns",
+"type": "mcp",
+"industry": "marketing",
+"roles": [
+"marketing-analyst"
+],
+"summary_source": "Tolinku smart banners, in-app messages, audiences, A/B tests and campaign analytics",
+"summary_lang": "en",
+"source_url": "https://tolinku.com/docs/ai-tools/",
+"raw_url": null,
+"repo": null,
+"author": "com.tolinku",
+"license": "unknown (registry metadata: CC-BY-4.0 docs; server license not stated)",
+"redistributable": false,
+"content_policy": "link-and-summary-only",
+"install": "remote (streamable-http): https://app.tolinku.com/mcp/campaigns",
+"languages": [
+"en"
+],
+"metrics": {
+"repo_stars": null,
+"repo_pushed_at": null,
+"registry_updated_at": "2026-11-27"
+},
+"source": "mcp-registry",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": true,
+"writes_external": false,
+"credential_names": []
+},
+"course_step": "4-do-it",
+"content_hash": "sha256:ac25f4ea7ccb77ee03c233ce",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"registry_name": "com.tolinku/tolinku-campaigns",
+"registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tolinku/tolinku-campaigns&version=latest",
+"_fails": 0
+},
+{
 "id": "mcp-dev-1social-tiktok",
 "title": "TikTok by 1Social",
 "type": "mcp",
@@ -213250,7 +213984,7 @@
 "content_hash": "sha256:1fe9d0a5d0616a721acc3611",
 "first_seen": "2026-10-21T00:40:03Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -213259,7 +213993,7 @@
 "classified_by": "rule",
 "registry_name": "fi.northpoint/marketing-compliance",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=fi.northpoint/marketing-compliance&version=latest",
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "mcp-io-afterlaunch-agentic-growth-marketing",
@@ -213499,7 +214233,7 @@
 "content_hash": "sha256:18787898c374602eebd147f9",
 "first_seen": "2026-10-22T00:43:10Z",
 "updated_at": "2026-11-09T20:44:54Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -213508,7 +214242,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill&version=latest",
-"_fails": 37
+"_fails": 38
 },
 {
 "id": "mcp-io-github-asklokesh-hootsuite-mcp-server",
@@ -214857,7 +215591,7 @@
 ],
 "metrics": {
 "repo_stars": 0,
-"repo_pushed_at": "2026-11-21",
+"repo_pushed_at": "2026-11-27",
 "registry_updated_at": "2026-11-20"
 },
 "source": "mcp-registry",
@@ -214942,9 +215676,9 @@
 "type": "mcp",
 "industry": "marketing",
 "roles": [
-"social-media-manager"
+"seo-specialist"
 ],
-"summary_source": "Optimize multilingual social media copy with persona simulations. USDC or prepaid API access.",
+"summary_source": "Delegate campaign copy search, synthetic persona comparison and supplied-constraint checks.",
 "summary_lang": "en",
 "source_url": "https://campatune.pldlab.workers.dev/social-media-campaign-copy/",
 "raw_url": null,
@@ -214960,7 +215694,7 @@
 "metrics": {
 "repo_stars": null,
 "repo_pushed_at": null,
-"registry_updated_at": "2026-11-26"
+"registry_updated_at": "2026-11-27"
 },
 "source": "mcp-registry",
 "security": {
@@ -214973,9 +215707,9 @@
 ]
 },
 "course_step": "4-do-it",
-"content_hash": "sha256:ef1a0a31754d8ae37f018f25",
+"content_hash": "sha256:3333812cacd1f6c564a3703e",
 "first_seen": "2026-11-26T04:11:52Z",
-"updated_at": "2026-11-26T19:37:37Z",
+"updated_at": "2026-11-27T19:28:38Z",
 "checked_at": "2026-11-26T04:11:52Z",
 "http_status": {
 "source": 200
@@ -216440,7 +217174,7 @@
 "content_hash": "sha256:bd4b805c13a42c1283a66e94",
 "first_seen": "2026-10-23T00:43:09Z",
 "updated_at": "2026-10-23T15:04:39Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -216449,7 +217183,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.tokconnect/tiktok-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.tokconnect/tiktok-mcp&version=latest",
-"_fails": 72
+"_fails": 73
 },
 {
 "id": "mcp-io-github-varvararatta-marketing-mcp",
@@ -216538,7 +217272,7 @@
 "content_hash": "sha256:de24f894361b182c0b550a5c",
 "first_seen": "2026-10-22T00:43:10Z",
 "updated_at": "2026-10-22T15:17:20Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -216547,7 +217281,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.vladkarpman/screen-buffer-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.vladkarpman/screen-buffer-mcp&version=latest",
-"_fails": 74
+"_fails": 75
 },
 {
 "id": "mcp-io-github-willowswt-tiktok-intelligence-mcp",
@@ -216643,7 +217377,7 @@
 "content_hash": "sha256:03c6f5604d4517ad07008ddd",
 "first_seen": "2026-10-23T00:43:09Z",
 "updated_at": "2026-10-23T15:04:39Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -216652,7 +217386,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.wmarceau/tiktok-creator",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.wmarceau/tiktok-creator&version=latest",
-"_fails": 72
+"_fails": 73
 },
 {
 "id": "mcp-io-github-xpaysh-marketing",
@@ -216747,7 +217481,7 @@
 "content_hash": "sha256:dd7f2becf708a621f7b5b5fa",
 "first_seen": "2026-10-15T10:15:30Z",
 "updated_at": "2026-10-15T10:34:04Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -216756,7 +217490,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.ZLeventer/linkedin-campaign-manager-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.ZLeventer/linkedin-campaign-manager-mcp&version=latest",
-"_fails": 89
+"_fails": 90
 },
 {
 "id": "mcp-io-github-zleventer-salesforce-marketing-mcp",
@@ -216802,7 +217536,7 @@
 "content_hash": "sha256:ee0b37d7cb1930f83c166555",
 "first_seen": "2026-10-21T00:40:03Z",
 "updated_at": "2026-10-21T15:15:15Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -216811,7 +217545,7 @@
 "classified_by": "rule",
 "registry_name": "io.github.ZLeventer/salesforce-marketing-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.ZLeventer/salesforce-marketing-mcp&version=latest",
-"_fails": 76
+"_fails": 77
 },
 {
 "id": "mcp-io-scalably-dataforseo-mcp",
@@ -217153,7 +217887,7 @@
 "content_hash": "sha256:3124b0537d7697e6b506a570",
 "first_seen": "2026-10-23T00:43:09Z",
 "updated_at": "2026-10-23T15:04:39Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -217162,7 +217896,7 @@
 "classified_by": "rule",
 "registry_name": "md.adsagent/tiktok-mcp",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=md.adsagent/tiktok-mcp&version=latest",
-"_fails": 72
+"_fails": 73
 },
 {
 "id": "mcp-net-recmoment-grader-marketing-grader",
@@ -217300,7 +218034,7 @@
 "content_hash": "sha256:d9ec746d98c9f357c3eefd81",
 "first_seen": "2026-10-21T00:40:03Z",
 "updated_at": "2026-10-21T15:15:15Z",
-"checked_at": "2026-11-27T04:17:49Z",
+"checked_at": "2026-11-27T19:28:38Z",
 "http_status": {
 "source": 404
 },
@@ -217309,7 +218043,7 @@
 "classified_by": "rule",
 "registry_name": "nz.phos/marketing-engine",
 "registry_url": "https://registry.modelcontextprotocol.io/v0/servers?search=nz.phos/marketing-engine&version=latest",
-"_fails": 76
+"_fails": 77
 },
 {
 "id": "mcp-one-aisa-similarweb",
@@ -217859,7 +218593,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -217905,7 +218639,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218086,7 +218820,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218132,7 +218866,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218178,7 +218912,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218224,7 +218958,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -218270,7 +219004,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218316,7 +219050,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218497,7 +219231,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218543,7 +219277,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218589,7 +219323,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218681,7 +219415,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218727,7 +219461,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218773,7 +219507,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218864,7 +219598,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -218910,7 +219644,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219002,7 +219736,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219048,7 +219782,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219094,7 +219828,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219140,7 +219874,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219186,7 +219920,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219232,7 +219966,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219278,7 +220012,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219324,7 +220058,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219415,7 +220149,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219461,7 +220195,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219507,7 +220241,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219553,7 +220287,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219599,7 +220333,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219645,7 +220379,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219691,7 +220425,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219737,7 +220471,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219783,7 +220517,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219829,7 +220563,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219875,7 +220609,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219921,7 +220655,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -219967,7 +220701,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220013,7 +220747,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220059,7 +220793,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220105,7 +220839,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220151,7 +220885,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220197,7 +220931,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220243,7 +220977,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220289,7 +221023,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220335,7 +221069,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220426,7 +221160,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220472,7 +221206,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220518,7 +221252,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220564,7 +221298,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220610,7 +221344,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 62878,
+"repo_stars": 63001,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -220656,7 +221390,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -220702,7 +221436,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -220748,7 +221482,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -220794,7 +221528,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -220840,7 +221574,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -224465,6 +225199,51 @@
 "_fails": 0
 },
 {
+"id": "prompts-chat-the-last-train-home-30-second-korean-zombie-subway-horror-short-timestamped-v",
+"title": "The Last Train Home: 30-Second Korean Zombie Subway Horror Short (Timestamped Video Prompt)",
+"type": "system-prompt",
+"industry": "marketing",
+"roles": [
+"seo-specialist"
+],
+"summary_source": "A timestamped 30-second live-action Korean zombie-horror prompt: a university student flees an infected passenger on a Seoul subway platform, escapes onto the last train and discovers the infection is already with her. Includes a character lock, beat-by-beat shots, native audio and a negative prompt that keeps gore restrained.",
+"summary_lang": "en",
+"source_url": "https://prompts.chat/prompts/cmwyt7me40005lg079kpvv9c5_the-last-train-home-30-second-korean-zombie-subway-horror-short-timestamped-video-prompt",
+"raw_url": null,
+"repo": null,
+"author": "f",
+"license": "CC0-1.0",
+"redistributable": true,
+"content_policy": "mirror-with-attribution",
+"install": null,
+"languages": [
+"en"
+],
+"metrics": {
+"votes": 0,
+"created_at": "2026-11-27"
+},
+"source": "prompts.chat",
+"security": {
+"audited": false,
+"executes_code": false,
+"needs_credentials": false,
+"writes_external": false
+},
+"course_step": "3-learn-rules",
+"content_hash": "sha256:88f1c90a071f5a0c5ab5f495",
+"first_seen": "2026-11-27T19:28:38Z",
+"updated_at": "2026-11-27T19:28:38Z",
+"checked_at": "2026-11-27T19:28:38Z",
+"http_status": {
+"source": 200
+},
+"status": "active",
+"duplicate_of": null,
+"classified_by": "rule",
+"_fails": 0
+},
+{
 "id": "prompts-chat-the-lovelyline",
 "title": "The Lovelyline",
 "type": "system-prompt",
@@ -225026,7 +225805,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -225072,7 +225851,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -225118,7 +225897,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -225164,7 +225943,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -225210,7 +225989,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -225256,7 +226035,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -225302,7 +226081,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 26796,
+"repo_stars": 26807,
 "repo_pushed_at": "2026-11-02"
 },
 "source": "github",
@@ -225348,7 +226127,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225394,7 +226173,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225440,7 +226219,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225486,7 +226265,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225532,7 +226311,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225578,7 +226357,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225624,7 +226403,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225670,7 +226449,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225716,7 +226495,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225762,7 +226541,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225808,7 +226587,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225854,7 +226633,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225900,7 +226679,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -225946,7 +226725,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -233023,7 +233802,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233069,7 +233848,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233115,7 +233894,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233161,7 +233940,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233207,7 +233986,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233253,7 +234032,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233299,7 +234078,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233345,7 +234124,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233391,7 +234170,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233437,7 +234216,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233483,7 +234262,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233529,7 +234308,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233575,7 +234354,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233621,7 +234400,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233667,7 +234446,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233713,7 +234492,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233759,7 +234538,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233805,7 +234584,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233851,7 +234630,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233897,7 +234676,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233943,7 +234722,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -233989,7 +234768,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234035,7 +234814,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234081,7 +234860,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234127,7 +234906,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234173,7 +234952,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234219,7 +234998,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234265,7 +235044,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234311,7 +235090,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234357,7 +235136,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234403,7 +235182,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234449,7 +235228,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234495,7 +235274,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234541,7 +235320,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234587,7 +235366,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234633,7 +235412,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234679,7 +235458,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234725,7 +235504,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234771,7 +235550,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234817,7 +235596,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234863,7 +235642,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234909,7 +235688,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -234955,7 +235734,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235001,7 +235780,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235047,7 +235826,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235093,7 +235872,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235139,7 +235918,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235185,7 +235964,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235231,7 +236010,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235277,7 +236056,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235323,7 +236102,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235369,7 +236148,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235415,7 +236194,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235461,7 +236240,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235507,7 +236286,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235553,7 +236332,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235599,7 +236378,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235645,7 +236424,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235691,7 +236470,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235737,7 +236516,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235783,7 +236562,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235829,7 +236608,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235875,7 +236654,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235921,7 +236700,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -235967,7 +236746,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -236013,7 +236792,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236059,7 +236838,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236105,7 +236884,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236151,7 +236930,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236197,7 +236976,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236243,7 +237022,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236289,7 +237068,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236335,7 +237114,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236381,7 +237160,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236427,7 +237206,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236473,7 +237252,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236519,7 +237298,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236565,7 +237344,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236611,7 +237390,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236657,7 +237436,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236703,7 +237482,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236749,7 +237528,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236795,7 +237574,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -236841,7 +237620,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -236887,7 +237666,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -236933,7 +237712,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -236979,7 +237758,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237025,7 +237804,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237071,7 +237850,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237117,7 +237896,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237163,7 +237942,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237209,7 +237988,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237255,7 +238034,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237301,7 +238080,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237347,7 +238126,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237393,7 +238172,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237439,7 +238218,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237485,7 +238264,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237531,7 +238310,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237577,7 +238356,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237623,7 +238402,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237669,7 +238448,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237715,7 +238494,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237761,7 +238540,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237807,7 +238586,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237853,7 +238632,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237899,7 +238678,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237945,7 +238724,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -237991,7 +238770,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238037,7 +238816,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238083,7 +238862,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238129,7 +238908,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238175,7 +238954,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238221,7 +239000,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238267,7 +239046,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238313,7 +239092,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238359,7 +239138,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238405,7 +239184,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238451,7 +239230,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238497,7 +239276,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238543,7 +239322,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238589,7 +239368,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238635,7 +239414,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238681,7 +239460,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238727,7 +239506,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238773,7 +239552,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238819,7 +239598,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238865,7 +239644,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238911,7 +239690,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -238957,7 +239736,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239003,7 +239782,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239049,7 +239828,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239095,7 +239874,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239141,7 +239920,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239187,7 +239966,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239233,7 +240012,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239279,7 +240058,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239325,7 +240104,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239371,7 +240150,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239417,7 +240196,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239463,7 +240242,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239509,7 +240288,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239555,7 +240334,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239601,7 +240380,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239647,7 +240426,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239693,7 +240472,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239739,7 +240518,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239785,7 +240564,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239831,7 +240610,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239877,7 +240656,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239923,7 +240702,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -239969,7 +240748,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240015,7 +240794,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240061,7 +240840,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240107,7 +240886,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240153,7 +240932,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240199,7 +240978,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240245,7 +241024,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240291,7 +241070,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240337,7 +241116,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240383,7 +241162,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240429,7 +241208,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240475,7 +241254,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240521,7 +241300,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240567,7 +241346,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240613,7 +241392,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240659,7 +241438,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240705,7 +241484,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240751,7 +241530,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240797,7 +241576,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240843,7 +241622,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240889,7 +241668,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240935,7 +241714,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -240981,7 +241760,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -241027,7 +241806,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -241073,7 +241852,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -241119,7 +241898,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -241165,7 +241944,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 37106,
+"repo_stars": 37178,
 "repo_pushed_at": "2026-11-26"
 },
 "source": "github",
@@ -241211,7 +241990,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -241257,7 +242036,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -241303,7 +242082,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -241349,7 +242128,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -241395,7 +242174,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 201115,
+"repo_stars": 201402,
 "repo_pushed_at": "2026-11-16"
 },
 "source": "github",
@@ -241441,7 +242220,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241487,7 +242266,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241533,7 +242312,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241579,7 +242358,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241625,7 +242404,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241671,7 +242450,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241717,7 +242496,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241763,7 +242542,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241809,7 +242588,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241855,7 +242634,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241901,7 +242680,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241947,7 +242726,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -241993,7 +242772,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242039,7 +242818,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242085,7 +242864,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242131,7 +242910,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242177,7 +242956,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242223,7 +243002,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242269,7 +243048,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242315,7 +243094,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242361,7 +243140,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 10688,
+"repo_stars": 10691,
 "repo_pushed_at": "2026-11-25"
 },
 "source": "github",
@@ -242407,7 +243186,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242453,7 +243232,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242499,7 +243278,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242545,7 +243324,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242591,7 +243370,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242637,7 +243416,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242683,7 +243462,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242729,7 +243508,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242775,7 +243554,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242821,7 +243600,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242867,7 +243646,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242913,7 +243692,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -242959,7 +243738,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243005,7 +243784,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243051,7 +243830,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243097,7 +243876,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243143,7 +243922,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243189,7 +243968,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243235,7 +244014,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243281,7 +244060,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243327,7 +244106,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243373,7 +244152,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243419,7 +244198,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243465,7 +244244,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243511,7 +244290,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243557,7 +244336,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243603,7 +244382,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243649,7 +244428,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243695,7 +244474,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243741,7 +244520,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243787,7 +244566,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243833,7 +244612,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243879,7 +244658,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243925,7 +244704,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -243971,7 +244750,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244017,7 +244796,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244063,7 +244842,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244109,7 +244888,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244155,7 +244934,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244201,7 +244980,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244247,7 +245026,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244293,7 +245072,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244339,7 +245118,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244385,7 +245164,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244431,7 +245210,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244477,7 +245256,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244523,7 +245302,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244569,7 +245348,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244615,7 +245394,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244661,7 +245440,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244707,7 +245486,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244753,7 +245532,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244799,7 +245578,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244845,7 +245624,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244891,7 +245670,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244937,7 +245716,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -244983,7 +245762,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245029,7 +245808,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245075,7 +245854,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245121,7 +245900,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245167,7 +245946,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245213,7 +245992,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245259,7 +246038,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245305,7 +246084,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245351,7 +246130,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245397,7 +246176,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245443,7 +246222,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245489,7 +246268,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245535,7 +246314,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245581,7 +246360,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245627,7 +246406,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245673,7 +246452,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245719,7 +246498,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245765,7 +246544,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245811,7 +246590,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245857,7 +246636,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245903,7 +246682,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245949,7 +246728,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -245995,7 +246774,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246041,7 +246820,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246087,7 +246866,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246133,7 +246912,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246179,7 +246958,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246225,7 +247004,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246271,7 +247050,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246317,7 +247096,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246363,7 +247142,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246409,7 +247188,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246455,7 +247234,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246501,7 +247280,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246547,7 +247326,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246593,7 +247372,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246639,7 +247418,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246685,7 +247464,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246731,7 +247510,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246777,7 +247556,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246823,7 +247602,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246869,7 +247648,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246915,7 +247694,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -246961,7 +247740,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247007,7 +247786,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247053,7 +247832,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247099,7 +247878,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247145,7 +247924,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247191,7 +247970,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247237,7 +248016,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247283,7 +248062,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247329,7 +248108,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247375,7 +248154,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247421,7 +248200,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247467,7 +248246,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247513,7 +248292,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247559,7 +248338,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247605,7 +248384,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247651,7 +248430,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247697,7 +248476,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247743,7 +248522,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247789,7 +248568,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247835,7 +248614,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247881,7 +248660,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",
@@ -247927,7 +248706,7 @@
 "en"
 ],
 "metrics": {
-"repo_stars": 42941,
+"repo_stars": 42985,
 "repo_pushed_at": "2026-11-24"
 },
 "source": "github",

@@ -6504,6 +6504,30 @@
 "truncated": false,
 "url": "https://github.com/sprites-ai/framer-mcp-server/blob/HEAD/README.md"
 },
+"mcp-ai-sprites-hubspot": {
+"file": "data/originals/mcp-ai-sprites-hubspot.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "HubSpot for marketing agents: pipeline and lead sources beside ad spend. Read-only.",
+"name": "ai.sprites/hubspot",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.sprites.ai/mcp"
+}
+],
+"repository": "https://github.com/sprites-ai/hubspot-mcp-server",
+"title": "HubSpot by Sprites",
+"version": "1.0.0",
+"website": "https://www.sprites.ai/mcp/hubspot"
+},
+"truncated": false,
+"url": "https://github.com/sprites-ai/hubspot-mcp-server/blob/HEAD/README.md"
+},
 "mcp-ai-sprites-marketing": {
 "file": "data/originals/mcp-ai-sprites-marketing.md",
 "kind": "full",
@@ -7501,6 +7525,30 @@
 },
 "truncated": false,
 "url": "https://github.com/beehiiv/agents/blob/HEAD/README.md"
+},
+"mcp-com-booknewsletterads-catalog": {
+"file": "data/originals/mcp-com-booknewsletterads-catalog.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Search public newsletter ad prices and send an inquiry. No account required.",
+"name": "com.booknewsletterads/catalog",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://booknewsletterads.com/mcp"
+}
+],
+"repository": "https://github.com/Magnusloev/book-newsletter-ads-mcp",
+"title": "Book Newsletter Ads",
+"version": "1.0.1",
+"website": null
+},
+"truncated": false,
+"url": "https://github.com/Magnusloev/book-newsletter-ads-mcp/blob/HEAD/README.md"
 },
 "mcp-com-buffer-mcp": {
 "kind": "excerpt",
@@ -8723,7 +8771,7 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "AI marketing agent: audits, plans, SEO, AI visibility, social posting, and Google, Meta & TikTok ads",
+"description": "Marketing for AI agents: brand context, analytics, ads, SEO and publishing, with approvals",
 "name": "com.magistermarketing/magister",
 "packages": [],
 "remotes": [
@@ -8735,11 +8783,44 @@
 ],
 "repository": "https://github.com/Magister-Marketing/magister-mcp",
 "title": "Magister Marketing",
-"version": "1.0.0",
+"version": "1.1.0",
 "website": "https://magistermarketing.com/mcp"
 },
 "truncated": false,
 "url": "https://github.com/Magister-Marketing/magister-mcp/blob/HEAD/README.md"
+},
+"mcp-com-mambabuilt-mcp-hubspot-salesforce-partner-directory": {
+"file": "data/originals/mcp-com-mambabuilt-mcp-hubspot-salesforce-partner-directory.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Search HubSpot and Salesforce partner directories for agencies by keyword, tier, and country.",
+"name": "com.mambabuilt/mcp-hubspot-salesforce-partner-directory",
+"packages": [
+{
+"env": [
+{
+"description": "Apify API token from https://console.apify.com/account/integrations",
+"name": "APIFY_TOKEN",
+"required": true,
+"secret": true
+}
+],
+"id": "@mambalabsdev/mcp-hubspot-salesforce-partner-directory",
+"transport": "stdio",
+"type": "npm",
+"version": "1.0.2"
+}
+],
+"remotes": [],
+"repository": "https://github.com/mambalabsdev/mcp-hubspot-salesforce-partner-directory",
+"title": null,
+"version": "1.0.2",
+"website": null
+},
+"truncated": false,
+"url": "https://github.com/mambalabsdev/mcp-hubspot-salesforce-partner-directory/blob/HEAD/README.md"
 },
 "mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker": {
 "file": "data/originals/mcp-com-mambabuilt-mcp-link-in-bio-newsletter-checker.md",
@@ -9081,6 +9162,30 @@
 "truncated": false,
 "url": "https://github.com/monetizemarketing/mcp/blob/HEAD/README.md"
 },
+"mcp-com-mr-bridge-seo-geo-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "SERP, keyword, backlink, site audit and AI-answer visibility data via MCP. No SEO data account.",
+"name": "com.mr-bridge/seo-geo-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mrbridge--seo-geo-mcp.apify.actor/mcp"
+}
+],
+"repository": null,
+"title": "AI SEO & GEO MCP Server",
+"version": "1.0.0",
+"website": "https://mr-bridge.com/solutions/seo-geo-mcp"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.mr-bridge/seo-geo-mcp&version=latest"
+},
 "mcp-com-neaticons-icons": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9146,7 +9251,7 @@
 ],
 "repository": null,
 "title": "The notacompany newsletter",
-"version": "14.1.0",
+"version": "14.2.0",
 "website": "https://www.notacompany.com/newsletter"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.notacompany/newsletter&version=latest"
@@ -9242,6 +9347,28 @@
 },
 "truncated": false,
 "url": "https://github.com/PostHog/posthog/blob/HEAD/README.md"
+},
+"mcp-com-postlaunchseo-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Check a site after launch, read its results and fixes, and run checks from your AI agent.",
+"name": "com.postlaunchseo/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://postlaunchseo.com/platform/api/mcp"
+}
+],
+"repository": null,
+"title": "Post Launch SEO",
+"version": "1.0.0",
+"website": "https://postlaunchseo.com"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.postlaunchseo/mcp&version=latest"
 },
 "mcp-com-probativegrowth-legal-marketing-data": {
 "file": "data/originals/mcp-com-probativegrowth-legal-marketing-data.md",
@@ -9537,69 +9664,6 @@
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoclave/seoclave&version=latest"
 },
-"mcp-com-seoclerks-seoclerks": {
-"kind": "excerpt",
-"label": "mcp-registry",
-"license": "MCP Registry record",
-"record": {
-"description": "Find and order SEO services, follow your orders and answer messages on the Seoclerks marketplace.",
-"name": "com.seoclerks/seoclerks",
-"packages": [],
-"remotes": [
-{
-"headers": [
-"Authorization"
-],
-"type": "streamable-http",
-"url": "https://www.seoclerks.com/mcp"
-}
-],
-"repository": null,
-"title": "Seoclerks",
-"version": "1.0.0",
-"website": "https://developers.seoclerk.com/connect-ai-agent"
-},
-"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.seoclerks/seoclerks&version=latest"
-},
-"mcp-com-seocontentmachine-scm": {
-"file": "data/originals/mcp-com-seocontentmachine-scm.md",
-"kind": "full",
-"label": "readme",
-"license": "MIT",
-"record": {
-"description": "Run SEO Content Machine tasks from an MCP client: scraping, crawls, Google Maps, Workspace pages.",
-"name": "com.seocontentmachine/scm",
-"packages": [
-{
-"env": [
-{
-"description": "SCM API server address. Default http://localhost:8008",
-"name": "SCM_API_URL",
-"required": null,
-"secret": null
-},
-{
-"description": "The key from SCM Settings > App > Api secret key, if you set one",
-"name": "SCM_API_KEY",
-"required": null,
-"secret": true
-}
-],
-"id": "seo-content-machine-mcp",
-"transport": "stdio",
-"type": "npm",
-"version": "1.1.1"
-}
-],
-"remotes": [],
-"repository": "https://github.com/gitTerebi/seo-content-machine-plugin",
-"title": "SEO Content Machine",
-"version": "1.1.1",
-"website": "https://seocontentmachine.com/?utm_source=npm-mcp&utm_medium=mcp&utm_campaign=mcp-registry&utm_content=website"
-},
-"truncated": false,
-"url": "https://github.com/gitTerebi/seo-content-machine-plugin/blob/HEAD/README.md"
-},
 "mcp-com-shadcndesign-manager-ds-manager": {
 "kind": "excerpt",
 "label": "mcp-registry",
@@ -9893,6 +9957,28 @@
 },
 "truncated": false,
 "url": "https://github.com/buildmodus/open-service-profile/blob/HEAD/README.md"
+},
+"mcp-com-tolinku-tolinku-campaigns": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Tolinku smart banners, in-app messages, audiences, A/B tests and campaign analytics",
+"name": "com.tolinku/tolinku-campaigns",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://app.tolinku.com/mcp/campaigns"
+}
+],
+"repository": null,
+"title": "Tolinku campaigns",
+"version": "1.0.0",
+"website": "https://tolinku.com/docs/ai-tools/"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=com.tolinku/tolinku-campaigns&version=latest"
 },
 "mcp-com-webflow-mcp": {
 "file": "data/originals/mcp-com-webflow-mcp.md",
@@ -10240,6 +10326,32 @@
 "website": "https://cybermaxtools.com/store/cartlark-shopify-scraper/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.cybermax-tools.cybermax/shopify-scraper&version=latest"
+},
+"mcp-dev-workers-pomlabs-pom-data-api-trustpilot-reviews-scraper": {
+"file": "data/originals/mcp-dev-workers-pomlabs-pom-data-api-trustpilot-reviews-scraper.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Trustpilot reviews of any company: rating, text, reviewer, company reply, TrustScore and AI summary",
+"name": "dev.workers.pomlabs.pom-data-api/trustpilot-reviews-scraper",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://mcp.apify.com?tools=pomlabs/trustpilot-reviews-scraper"
+}
+],
+"repository": "https://github.com/pomexplica/trustpilot-reviews-scraper",
+"title": "Trustpilot Reviews Scraper - Reviews, Replies & AI Summary",
+"version": "1.0.1",
+"website": "https://apify.com/pomlabs/trustpilot-reviews-scraper"
+},
+"truncated": false,
+"url": "https://github.com/pomexplica/trustpilot-reviews-scraper/blob/HEAD/README.md"
 },
 "mcp-email-marketing-mcp": {
 "kind": "excerpt",
@@ -12975,7 +13087,7 @@
 "label": "mcp-registry",
 "license": "MCP Registry record",
 "record": {
-"description": "Optimize multilingual social media copy with persona simulations. USDC or prepaid API access.",
+"description": "Delegate campaign copy search, synthetic persona comparison and supplied-constraint checks.",
 "name": "io.github.m-ochi/social-media-campaign-copy-optimizer",
 "packages": [],
 "remotes": [
@@ -12994,7 +13106,7 @@
 ],
 "repository": null,
 "title": "CampaTune — Multilingual Social Media Campaign Copy Optimizer",
-"version": "0.2.2",
+"version": "0.2.3",
 "website": "https://campatune.pldlab.workers.dev/social-media-campaign-copy/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.m-ochi/social-media-campaign-copy-optimizer&version=latest"
@@ -13474,7 +13586,7 @@
 "label": "readme",
 "license": "MIT",
 "record": {
-"description": "HTTP-only Apify Actor & Standby MCP Server extracting Shopify themes, 25+ installed apps & pixels, p",
+"description": "Shopify store intel: theme, installed apps, tracking pixels, products and prices from any store.",
 "name": "io.github.Mr-Wolf-Dev/shopify-store-intel-mcp-server",
 "packages": [],
 "remotes": [
@@ -13486,7 +13598,7 @@
 ],
 "repository": "https://github.com/Mr-Wolf-Dev/shopify-store-intel-mcp-server",
 "title": "Shopify Store Intelligence, Apps & Catalog + MCP",
-"version": "0.1.0",
+"version": "0.1.1",
 "website": null
 },
 "truncated": false,
@@ -15378,6 +15490,30 @@
 "truncated": false,
 "url": "https://github.com/TranHoaiHung/figma-ui-mcp/blob/HEAD/README.md"
 },
+"mcp-io-github-truonggiang0111-shopify-app-store-churn-mcp": {
+"file": "data/originals/mcp-io-github-truonggiang0111-shopify-app-store-churn-mcp.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Shopify App Store 1-2 star churn reviews, pricing plans & developer support emails.",
+"name": "io.github.truonggiang0111/shopify-app-store-churn-mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://mcp.apify.com?actors=ttyan0111/shopify-app-store-churn-spy"
+}
+],
+"repository": "https://github.com/truonggiang0111/b2b-ai-mcp-skills",
+"title": "Shopify App Store 1-Star Churn & Dev Emails MCP",
+"version": "1.0.0",
+"website": "https://apify.com/ttyan0111/shopify-app-store-churn-spy"
+},
+"truncated": false,
+"url": "https://github.com/truonggiang0111/b2b-ai-mcp-skills/blob/HEAD/README.md"
+},
 "mcp-io-github-tunglt1810-figma-mcp-go": {
 "file": "data/originals/mcp-io-github-tunglt1810-figma-mcp-go.md",
 "kind": "full",
@@ -15490,6 +15626,32 @@
 },
 "truncated": false,
 "url": "https://github.com/vola-trebla/tailwind-context-resolver-mcp/blob/HEAD/README.md"
+},
+"mcp-io-github-whthpnd-shopify-store-leads-products": {
+"file": "data/originals/mcp-io-github-whthpnd-shopify-store-leads-products.md",
+"kind": "full",
+"label": "readme",
+"license": "MIT",
+"record": {
+"description": "Extract Shopify catalogs, pricing, myshopify.com handle, contact emails & 20+ detected apps.",
+"name": "io.github.whthpnd/shopify-store-leads-products",
+"packages": [],
+"remotes": [
+{
+"headers": [
+"Authorization"
+],
+"type": "streamable-http",
+"url": "https://whthpnd--shopify-store-leads-products-api.apify.actor/mcp"
+}
+],
+"repository": "https://github.com/whthpnd/directapi-mcp-servers",
+"title": "DirectAPI Labs: Shopify Store Leads & Products",
+"version": "1.0.0",
+"website": "https://apify.com/whthpnd/shopify-store-leads-products-api"
+},
+"truncated": false,
+"url": "https://github.com/whthpnd/directapi-mcp-servers/blob/HEAD/README.md"
 },
 "mcp-io-github-willowswt-tiktok-intelligence-mcp": {
 "file": "data/originals/mcp-io-github-willowswt-tiktok-intelligence-mcp.md",
@@ -18692,6 +18854,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-awd-breakthrough-energy": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-awd-broed": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -27436,6 +27605,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-a430lxw-arcfront-ai-research-lab-branding": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-a4hb69f-voice-ui-library": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28115,6 +28291,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-cq4f1e0-plasma-wallet-send-flow": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-cqmicuo-custom-ad-library-interface": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -28543,6 +28726,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-ekck88i-thinking-states": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-ekdr2cw-woven-micrographics": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -32113,6 +32303,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-sas2qfu-holographic-depth-transition-shader": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-sayzd67-cathy-dolle": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -32527,6 +32724,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-u6rejp1-color-badge-system": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-u8fpnli-bending-nav-indicator": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",
@@ -33191,6 +33395,13 @@
 "record": {},
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
+"uihub-rd-x8xr1s6-stock-gift-capsule": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
 "uihub-rd-x97ktju-album-carousel-ui": {
 "kind": "excerpt",
 "label": "ui-hub",
@@ -33318,6 +33529,13 @@
 "url": "https://siinxu.github.io/ui-resource-hub/"
 },
 "uihub-rd-xsdpew5-geometric-logo-motion-study": {
+"kind": "excerpt",
+"label": "ui-hub",
+"license": "UI Hub entry",
+"record": {},
+"url": "https://siinxu.github.io/ui-resource-hub/"
+},
+"uihub-rd-xsy5aye-outcome-profile-cards": {
 "kind": "excerpt",
 "label": "ui-hub",
 "license": "UI Hub entry",

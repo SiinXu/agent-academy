@@ -7,7 +7,7 @@ Open, citable datasets on US law-firm marketing, maintained by [Probative Growth
 Each dataset names its sources, and each public-source record carries its source and the date checked. Each dataset has a DOI on Zenodo. Not legal advice: check the source and your own counsel before you rely on a rule.
 
 - **How much.** 97 datasets as plain CSV and JSON. The main CSV files hold 153,524 rows in all.
-- **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 97 main files falls between 2026-10-25 and 2026-11-20. The newest dataset version here was released on 2026-11-20.
+- **How fresh.** Every row has a `lastChecked` date: the day its source was last read. The newest `lastChecked` date in each of the 97 main files falls between 2026-10-25 and 2026-11-27. The newest dataset version here was released on 2026-11-27.
 - **How to use it.** Free under CC BY 4.0. Credit "Probative Growth" and link the dataset page.
 
 ## Start here
@@ -32,7 +32,7 @@ def rows(name):
 | [`data/eeoc-charges/eeoc-charges.csv`](data/eeoc-charges/eeoc-charges.csv) | Job discrimination charges by state and basis | 658 | 2026-10-27 | `{r['basisLabel']: int(r['value']) for r in rows('eeoc-charges') if r['jurisdiction']=='TX'}` |
 | [`data/civil-filings/civil-filings.csv`](data/civil-filings/civil-filings.csv) | Federal civil cases filed, by type of case and court district | 3,239 | 2026-10-27 | `sorted(((int(r['value']), r['districtName']) for r in rows('civil-filings') if r['category']=='all' and r['district']!='US' and r['value']), reverse=True)[:5]` |
 | [`data/legal-need/legal-need.csv`](data/legal-need/legal-need.csv) | People who may need a lawyer in each county: older adults, noncitizens, veterans, Spanish speakers | 3,196 | 2026-10-31 | `sorted(((float(r['spanish_lep_pct']), r['name']) for r in rows('legal-need') if r['level']=='county' and r['spanish_lep_pct']), reverse=True)[:5]` |
-| [`data/crosswalks/crosswalks.csv`](data/crosswalks/crosswalks.csv) | The join keys: practice areas, federal case codes, states, court districts and counties | 3,704 | 2026-11-20 | `[(r['code'], r['name']) for r in rows('crosswalks') if r['table']=='PRACTICE'][:5]` |
+| [`data/crosswalks/crosswalks.csv`](data/crosswalks/crosswalks.csv) | The join keys: practice areas, federal case codes, states, court districts and counties | 3,704 | 2026-11-27 | `[(r['code'], r['name']) for r in rows('crosswalks') if r['table']=='PRACTICE'][:5]` |
 
 Each folder also has a `starter.ipynb` notebook that loads the data and works through example questions (on Kaggle, import it from its GitHub link), and a `README.txt` that explains every column.
 
@@ -62,7 +62,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 | [Small-claims dollar limits by state: the most a claim can seek in each state's small-claims court](https://probativegrowth.com/data/court-fees/) | [`data/court-fees/`](data/court-fees/) | 51 | quarterly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23792752](https://doi.org/10.5281/zenodo.23792752) |
 | [Crime and arrests by county and state: violent and property crime, DUI and drug arrests (FBI)](https://probativegrowth.com/data/crime-data/) | [`data/crime-data/`](data/crime-data/) | 3,078 | quarterly | 2026-10-28 | 2.1.0 | [10.5281/zenodo.24011321](https://doi.org/10.5281/zenodo.24011321) |
 | [Federal criminal cases by offense and district (U.S. Courts Tables D-1, D-2 and D-3)](https://probativegrowth.com/data/criminal-filings/) | [`data/criminal-filings/`](data/criminal-filings/) | 2,023 | quarterly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23963315](https://doi.org/10.5281/zenodo.23963315) |
-| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | [`data/crosswalks/`](data/crosswalks/) | 3,704 | yearly | 2026-11-20 | 2.4.0 | [10.5281/zenodo.24326296](https://doi.org/10.5281/zenodo.24326296) |
+| [Legal market crosswalks: practice areas, federal case codes, states, federal districts and counties](https://probativegrowth.com/data/crosswalks/) | [`data/crosswalks/`](data/crosswalks/) | 3,704 | yearly | 2026-11-27 | 2.4.0 | [10.5281/zenodo.24326296](https://doi.org/10.5281/zenodo.24326296) |
 | [Demand per law office, by state: residents, bankruptcy cases, fatal crashes, divorces, Spanish speakers and evictions for each law office](https://probativegrowth.com/data/demand-per-law-office/) | [`data/demand-per-law-office/`](data/demand-per-law-office/) | 334 | quarterly | 2026-10-30 | 1.0.0 | [10.5281/zenodo.23851281](https://doi.org/10.5281/zenodo.23851281) |
 | [Legal deserts: law offices and lawyers per resident in every U.S. county](https://probativegrowth.com/research/legal-deserts/) | [`data/deserts/`](data/deserts/) | 3,196 | quarterly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23963393](https://doi.org/10.5281/zenodo.23963393) |
 | [Medical device adverse event reports by product code and quarter (FDA MAUDE via openFDA)](https://probativegrowth.com/data/device-events/) | [`data/device-events/`](data/device-events/) | 2,079 | monthly | 2026-10-29 | 2.0.0 | [10.5281/zenodo.23963431](https://doi.org/10.5281/zenodo.23963431) |
@@ -137,7 +137,7 @@ Each folder also has a `starter.ipynb` notebook that loads the data and works th
 | [VA-accredited attorneys and claims agents per veteran, by state, with county counts and Board of Veterans' Appeals outcomes by type of representation](https://probativegrowth.com/data/veterans-representation/) | [`data/veterans-representation/`](data/veterans-representation/) | 73 | monthly | 2026-11-10 | 2.0.1 | [10.5281/zenodo.24116062](https://doi.org/10.5281/zenodo.24116062) |
 | [Wage-and-hour and OSHA enforcement by county, state, act and industry (U.S. Department of Labor)](https://probativegrowth.com/data/wage-enforcement/) | [`data/wage-enforcement/`](data/wage-enforcement/) | 5,008 | monthly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23898146](https://doi.org/10.5281/zenodo.23898146) |
 | [WARN Act layoff and closure notices by county: California and Texas](https://probativegrowth.com/data/warn-layoffs/) | [`data/warn-layoffs/`](data/warn-layoffs/) | 315 | monthly | 2026-11-10 | 2.0.1 | [10.5281/zenodo.24116063](https://doi.org/10.5281/zenodo.24116063) |
-| [Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state](https://probativegrowth.com/data/wc-benefits/) | [`data/wc-benefits/`](data/wc-benefits/) | 35 | monthly | 2026-11-05 | 1.1.1 | [10.5281/zenodo.23969440](https://doi.org/10.5281/zenodo.23969440) |
+| [Workers' compensation maximum weekly benefit by state: the cap on total-disability pay in each state](https://probativegrowth.com/data/wc-benefits/) | [`data/wc-benefits/`](data/wc-benefits/) | 35 | monthly | 2026-11-05 | 1.1.2 | [10.5281/zenodo.24541254](https://doi.org/10.5281/zenodo.24541254) |
 | [Workplace injuries and fatal work injuries by state and industry (BLS SOII and CFOI)](https://probativegrowth.com/data/work-injuries/) | [`data/work-injuries/`](data/work-injuries/) | 2,942 | yearly | 2026-10-28 | 2.0.0 | [10.5281/zenodo.23898154](https://doi.org/10.5281/zenodo.23898154) |
 
 Each folder holds the full CSV and JSON, `README.txt` (the columns), `changes.json` (the change log), `openapi.json`, `croissant.json` ([Croissant](https://mlcommons.org/croissant/) metadata), `CITATION.cff` and `starter.ipynb`. The root has a [Frictionless](https://frictionlessdata.io/) `datapackage.json` that describes every CSV and its columns. Each dataset version has a tagged release with the CSV, the JSON and the README.
@@ -280,7 +280,7 @@ Each dataset also has its own smaller server:
 
 ## Mirrors
 
-- Hugging Face: <https://huggingface.co/datasets/ProbativeGrowth/legal-marketing-data> (CSV and JSON, one config per dataset)
+- Hugging Face: <https://huggingface.co/datasets/probative-growth/legal-marketing-data> (CSV and JSON, one config per dataset)
 - Kaggle: <https://www.kaggle.com/datasets/probativeoperations/legal-marketing-open-data-us> (CSV and JSON, with the data dictionaries)
 - Zenodo: <https://zenodo.org/communities/probative-legal-marketing-data/> (every version, with its DOI)
 
