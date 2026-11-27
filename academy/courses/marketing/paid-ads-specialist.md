@@ -1,8 +1,8 @@
 ---
 name: marketing-paid-ads-specialist
 description: Agent Academy course for Paid ads (Marketing). Five ordered steps of real, source-linked resources.
-version: 2026-11-26
-updated_at: 2026-11-26T19:37:37Z
+version: 2026-11-27
+updated_at: 2026-11-27T04:17:49Z
 source: https://academy.incidental.site/courses/marketing/paid-ads-specialist/
 ---
 
@@ -237,6 +237,12 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: remote (streamable-http): https://tiktok-scraper-api.minhnghiathcstp.workers.dev/mcp
   needs_credentials: true, writes_external: false
+- [mcp] TikTok Ads. TikTok Ads MCP server: 35 read tools, 30 opt-in preview-first writes.
+  source: https://github.com/get-mcp-ads/tiktok-ads-mcp-server
+  raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-com-getmcpads-tiktok-ads.md
+  license: Apache-2.0
+  install: npx -y @getmcpads/tiktok-ads-mcp-server
+  needs_credentials: true, writes_external: true
 - [mcp] TikTok by 1Social. Publish and schedule TikTok videos and photo posts from your AI assistant.
   source: https://github.com/sultanlive/1social-mcp
   raw: https://raw.githubusercontent.com/SiinXu/agent-academy/main/data/originals/mcp-dev-1social-tiktok.md
@@ -272,11 +278,6 @@ Follow a workflow or case. Install a skill or MCP server only if you have permis
   license: MIT
   install: npx -y @mambalabsdev/mcp-tiktok-video-stats
   needs_credentials: true, writes_external: true
-- [mcp] com.shortvidapi/tiktok-instagram-videos-mcp. Short-form video metadata, creator profiles, comments & trend discovery API for AI agents.
-  source: https://shortvidapi.com
-  license: unknown (registry metadata: CC-BY-4.0 docs; server license not stated)
-  install: remote (streamable-http): https://api.shortvidapi.com/mcp
-  needs_credentials: true, writes_external: false
 
 ## Step 5: Self-check
 

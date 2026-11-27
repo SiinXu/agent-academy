@@ -27,8 +27,10 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/at-a-glance.png" alt="Everything it does: field-level diff, dry-run plans, safe apply, production guardrails, cross-store ID remapping, big catalogs (4,000 products in 51 minutes), live status and cancel, products with prices and stock, metafields and translations, theme settings diff, config as code, CLI and drift checks" width="100%">
+  <img src="docs/images/at-a-glance.png" alt="Everything it does, each with the version that added it: field-level diff, dry-run plans, safe apply, production guardrails and ID remapping (0.1), metafields, translations, theme diff, config as code and CLI (0.2), products, prices and stock (0.4), live status and cancel (0.10), big catalogs (0.11); new in 0.12: markets and catalogs, sales channels and locations, multi-currency stores, metafield type differences" width="100%">
 </p>
+
+<p align="center"><img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> <b>Markets, catalogs, sales channels and locations</b>, collections on Shopify's sources model, stores in different currencies, and a fix for metafields whose type differs. <a href="CHANGELOG.md#0120">What changed</a></p>
 
 <p align="center"><b>Open to recommendations.</b> Missing a resource, a workflow or a check you need? <a href="https://github.com/ussefidder/shopify-store-sync-mcp/issues/new">Open an issue</a> and tell us.</p>
 
@@ -51,30 +53,32 @@ https://github.com/user-attachments/assets/07dd060d-aec6-4b71-b29b-486bfd9ccf35
 The store setup that usually gets rebuilt by hand, plus the images it uses. References between items (a size guide pointing at a product, a menu linking to a page) are carried across by handle, so they land on the right item instead of a broken ID.
 
 <p align="center">
-  <img src="docs/images/what-it-syncs.png" alt="Metafield definitions, metaobject definitions and entries, collections, pages, menus, redirects, store policies, files and images, and opt-in products (variants with SKU, barcode, weight and variant image; prices and stock when asked), metafield values and translations" width="100%">
+  <img src="docs/images/what-it-syncs.png" alt="What it syncs, with the version that added each: metafield definitions, metaobject definitions and entries, pages, menus, redirects (0.1), collections, store policies, metafield values, translations, files and images (0.2), products (0.4); new in 0.12: markets, catalogs, sales channels, locations; updated in 0.12: metafield definitions, collections, translations" width="100%">
 </p>
 
 <details>
 <summary><b>Details per resource</b></summary>
 
-| Resource | Keyed by | Notes |
-|---|---|---|
-| `metafield_definitions` | `OWNER_TYPE.namespace.key` | Name, description, pinning, storefront and customer account access, capabilities, validations. A type change is reported as a conflict, since Shopify can't change a definition's type in place, unless you choose what to do with `type_mismatch` (see [When a metafield's type differs](#when-a-metafields-type-differs)). |
-| `metaobject_definitions` | `type` | Schema, access, capabilities. Fields are added or updated, never removed. Self-referencing definitions are handled. |
-| `pages` | `handle` | Title, body HTML, template, published state. With `as_drafts` (`--as-drafts`), new pages are created hidden and existing ones keep their state. |
-| `metaobjects` | `type/handle` | All field values, publish status. References to products, collections, pages and other metaobjects are remapped. A field the source leaves empty is never cleared in the target. With `as_drafts`, new entries are created as drafts. |
-| `menus` | `handle` | Full item tree (3 levels), including customer account menus. Links to resources are remapped; custom URLs are kept; links to things that can't be matched are left out and reported. **Links that only the target menu has are kept**, in place, and the plan names them. |
-| `redirects` | `path` | Thousands are fine. |
-| `collections` | `handle` | Title, description, sort order, template, SEO and smart-collection rules (rules on a metafield definition are remapped). On Admin API 2026-07 and later, also what Shopify's collection sources add: **exclusions** (by tag, type, vendor, category or another collection), **sub-collections**, and conditions only the new model has (product status, category, metaobject values...). Products picked by hand into manual collections with `collection_products: true` (`--with-collection-products`). Conditions, exclusions, sub-collections and picked products that only the target has are kept. Manual versus smart is reported as a conflict. |
-| `shop_policies` | `type` | Refund, privacy, terms, shipping and contact policy text. |
-| `products` *(opt-in)* | `handle` | Title, description, vendor, type, category, tags, template, SEO, options, images, and variants matched by option values: SKU, barcode, weight, taxable flag, inventory policy, inventory tracking, shipping, customs details (HS code, country of origin) and the variant's image. **New products are created as drafts.** Prices only with `prices: true` (`--with-prices`), stock only with `inventory: true` (`--with-inventory`, available quantity per location, matched to the target's locations by name). On update, the tags, variants, option values and media (images, videos, 3D models) that only the target has are kept, and don't count as differences. Gift cards are skipped. See "What product sync leaves alone" below. |
-| `metafields` *(opt-in)* | `PRODUCT/handle/namespace.key`, `COLLECTION/handle/…`, `PRODUCTVARIANT/handle/Size=M/…`, `SHOP/namespace.key` | Metafield **values** on products, collections, product variants and the shop. A value lands on the item with the same handle in the target; a variant value on the variant with the same option values; a shop value on the target's own shop. Reference values (including references to variants) are remapped. Filter with `namespaces` and `owner_types`. Shopify's own copies of built-in fields (`global.title_tag`, `global.description_tag`, `global.harmonized_system_code`) are left out: they travel with the item itself. |
-| `discounts` *(opt-in, compared only)* | `automatic/title`, `code/title` | Automatic and code discounts: type, Shopify's summary of what they give, status, dates, combinations, codes (or their count for bulk sets) and usage limits. **Never written**: a plan lists differences as conflicts, since a discount changes what customers pay. Two discounts with the same title are reported instead of matched. |
-| `translations` *(opt-in)* | `locale:Type/handle` | Translations of products, pages, collections, metaobjects, menus and policies. Registered against the target's own text, after the content itself is synced. A translated field only the target has is kept. The plan warns when a language isn't added to the target. With `market_translations: true` (`--market-translations`), the translations each market overrides too, keyed `locale@market:Type/handle` and registered for the market of the same handle. |
-| `locations` *(opt-in)* | `name` | Inventory locations: address and whether they fulfill online orders. Locations run by a fulfillment app and deactivated ones are left out; nothing is deactivated or deleted. Two locations with the same name in different countries (often each store's default "Shop location") are a conflict, not a move. |
-| `markets` *(opt-in)* | `handle` | Country markets: name, status, countries, currency settings, tax and duty price inclusions, web presences (subfolders or domains, with languages). Countries and web presences only the target has are kept. A missing subfolder is created; a missing domain is reported, since domains are connected by hand. B2B, location and channel markets are not synced. |
-| `catalogs` *(opt-in)* | `title` | Market catalogs: status, markets, price list (currency, percentage adjustment, compare-at mode), and fixed variant prices with `prices: true`. A price list in a currency the target doesn't sell in is refused before anything is written. Which products a catalog includes is synced by `sales_channels`; a new catalog starts empty and the plan says so. |
-| `sales_channels` *(opt-in)* | `Product/handle`, `Collection/handle` | Where products and collections are published: sales channels by app handle (`online_store`, `pos`...) and market catalogs (`catalog:<title>`), plus each product's status (active, draft, archived). **Only adds: nothing is unpublished.** A sales channel is an app, so it can't be created: the plan names channels the target hasn't installed, and items are still published on the others. Big catalogs are read with bulk exports and written 25 per request, 12 requests at once. Narrow with `include: ["Product/linen-*"]`. |
+"Since" is the version that added it; "updated" marks what 0.12 extended.
+
+| Resource | Since | Keyed by | Notes |
+|---|---|---|---|
+| `metafield_definitions` | 0.1 <img src="docs/images/badge-updated-0.12.svg" alt="updated 0.12" height="20"> | `OWNER_TYPE.namespace.key` | Name, description, pinning, storefront and customer account access, capabilities, validations. A type change is reported as a conflict, since Shopify can't change a definition's type in place, unless you choose what to do with `type_mismatch` (see [When a metafield's type differs](#when-a-metafields-type-differs)). |
+| `metaobject_definitions` | 0.1 | `type` | Schema, access, capabilities. Fields are added or updated, never removed. Self-referencing definitions are handled. |
+| `pages` | 0.1 | `handle` | Title, body HTML, template, published state. With `as_drafts` (`--as-drafts`), new pages are created hidden and existing ones keep their state. |
+| `metaobjects` | 0.1 | `type/handle` | All field values, publish status. References to products, collections, pages and other metaobjects are remapped. A field the source leaves empty is never cleared in the target. With `as_drafts`, new entries are created as drafts. |
+| `menus` | 0.1 | `handle` | Full item tree (3 levels), including customer account menus. Links to resources are remapped; custom URLs are kept; links to things that can't be matched are left out and reported. **Links that only the target menu has are kept**, in place, and the plan names them. |
+| `redirects` | 0.1 | `path` | Thousands are fine. |
+| `collections` | 0.2 <img src="docs/images/badge-updated-0.12.svg" alt="updated 0.12" height="20"> | `handle` | Title, description, sort order, template, SEO and smart-collection rules (rules on a metafield definition are remapped). On Admin API 2026-07 and later, also what Shopify's collection sources add: **exclusions** (by tag, type, vendor, category or another collection), **sub-collections**, and conditions only the new model has (product status, category, metaobject values...). Products picked by hand into manual collections with `collection_products: true` (`--with-collection-products`). Conditions, exclusions, sub-collections and picked products that only the target has are kept. Manual versus smart is reported as a conflict. |
+| `shop_policies` | 0.2 | `type` | Refund, privacy, terms, shipping and contact policy text. |
+| `products` *(opt-in)* | 0.4 | `handle` | Title, description, vendor, type, category, tags, template, SEO, options, images, and variants matched by option values: SKU, barcode, weight, taxable flag, inventory policy, inventory tracking, shipping, customs details (HS code, country of origin) and the variant's image. **New products are created as drafts.** Prices only with `prices: true` (`--with-prices`), stock only with `inventory: true` (`--with-inventory`, available quantity per location, matched to the target's locations by name). On update, the tags, variants, option values and media (images, videos, 3D models) that only the target has are kept, and don't count as differences. Gift cards are skipped. See "What product sync leaves alone" below. |
+| `metafields` *(opt-in)* | 0.2 | `PRODUCT/handle/namespace.key`, `COLLECTION/handle/…`, `PRODUCTVARIANT/handle/Size=M/…`, `SHOP/namespace.key` | Metafield **values** on products, collections, product variants and the shop. A value lands on the item with the same handle in the target; a variant value on the variant with the same option values; a shop value on the target's own shop. Reference values (including references to variants) are remapped. Filter with `namespaces` and `owner_types`. Shopify's own copies of built-in fields (`global.title_tag`, `global.description_tag`, `global.harmonized_system_code`) are left out: they travel with the item itself. |
+| `discounts` *(opt-in, compared only)* | 0.7 | `automatic/title`, `code/title` | Automatic and code discounts: type, Shopify's summary of what they give, status, dates, combinations, codes (or their count for bulk sets) and usage limits. **Never written**: a plan lists differences as conflicts, since a discount changes what customers pay. Two discounts with the same title are reported instead of matched. |
+| `translations` *(opt-in)* | 0.2 <img src="docs/images/badge-updated-0.12.svg" alt="updated 0.12" height="20"> | `locale:Type/handle` | Translations of products, pages, collections, metaobjects, menus and policies. Registered against the target's own text, after the content itself is synced. A translated field only the target has is kept. The plan warns when a language isn't added to the target. With `market_translations: true` (`--market-translations`), the translations each market overrides too, keyed `locale@market:Type/handle` and registered for the market of the same handle. |
+| `locations` *(opt-in)* | <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> | `name` | Inventory locations: address and whether they fulfill online orders. Locations run by a fulfillment app and deactivated ones are left out; nothing is deactivated or deleted. Two locations with the same name in different countries (often each store's default "Shop location") are a conflict, not a move. |
+| `markets` *(opt-in)* | <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> | `handle` | Country markets: name, status, countries, currency settings, tax and duty price inclusions, web presences (subfolders or domains, with languages). Countries and web presences only the target has are kept. A missing subfolder is created; a missing domain is reported, since domains are connected by hand. B2B, location and channel markets are not synced. |
+| `catalogs` *(opt-in)* | <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> | `title` | Market catalogs: status, markets, price list (currency, percentage adjustment, compare-at mode), and fixed variant prices with `prices: true`. A price list in a currency the target doesn't sell in is refused before anything is written. Which products a catalog includes is synced by `sales_channels`; a new catalog starts empty and the plan says so. |
+| `sales_channels` *(opt-in)* | <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> | `Product/handle`, `Collection/handle` | Where products and collections are published: sales channels by app handle (`online_store`, `pos`...) and market catalogs (`catalog:<title>`), plus each product's status (active, draft, archived). **Only adds: nothing is unpublished.** A sales channel is an app, so it can't be created: the plan names channels the target hasn't installed, and items are still published on the others. Big catalogs are read with bulk exports and written 25 per request, 12 requests at once. Narrow with `include: ["Product/linen-*"]`. |
 
 `products`, `metafields`, `translations` and `discounts` are read only when you ask for them (`resources: ["products"]`). Name what you want and only that is read (see [Targeted checks](#targeted-checks)). `owner_types` (`--owner-types`) limits metafield definitions and values to some owners, e.g. `["SHOP"]`. App-owned (`app--…`) and Shopify-reserved (`shopify--…`) data is skipped and listed in the report. Shopify's category metafield definitions (namespace `shopify`, the ones behind storefront filters such as fabric or size) can be compared with `include_reserved` (`--include-reserved`); they are never written, so a plan lists them as conflicts to enable in the target's admin.
 
@@ -90,6 +94,8 @@ The store setup that usually gets rebuilt by hand, plus the images it uses. Refe
 
 ### Stores in different currencies
 
+<img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20">
+
 When the two stores sell in different currencies, amounts are never converted on a guess. Give the rate with `currency_rates` (`--currency-rate MAD:EUR=0.092`; the reverse rate works too) and the tool converts:
 
 - **product prices** (with `prices`), rounded to the target currency's decimals
@@ -103,6 +109,8 @@ shopify-store-sync-mcp plan dev prod --resources products,markets,catalogs --wit
 ```
 
 ### When a metafield's type differs
+
+<img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20">
 
 A metafield can have one type in the source and another in the target, say `single_line_text_field` on one side and `list.single_line_text_field` on the other. By default the plan reports it as a conflict and skips it. `type_mismatch` (`--type-mismatch`) says what to do instead; it needs `metafields`, and `metafield_definitions` for retyping:
 
@@ -474,21 +482,21 @@ What `diff_stores` reports, field by field (real output):
 <details>
 <summary><b>All 13 tools</b></summary>
 
-| Tool | Writes? | What it does |
-|---|---|---|
-| `list_stores` | no | Configured stores and their write permissions, and the server's version. Secrets are never returned. |
-| `list_resource_types` | no | What can be synced and how it's keyed. |
-| `snapshot_store` | no | Read one store's configuration in portable form. |
-| `compare_item` | no | One item side by side: each field that differs, and whether what it points at exists in the target. Reads only that item where possible. |
-| `diff_stores` | no | Only-in-source, changed (field by field, and entry by entry inside JSON values), only-in-target. `format: "markdown"` returns a report to paste into a ticket. |
-| `plan_sync` | no | Dry-run plan: creates, updates, conflicts, missing references. Returns a `plan_id`. |
-| `get_plan` | no | Show a plan, or list recent ones. `format: "markdown"` returns it as a report to share before applying. |
-| `apply_plan` | **yes** | Execute a plan, with every safety check above. For a protected store your client asks you to confirm. A plan of more than 50 steps runs in the background and this returns at once. |
-| `apply_status` | no | How far an apply has got: written, failed and left per resource type, phase, time so far and time remaining, failures counted per reason. Also answers after a server restart. |
-| `cancel_apply` | stops writes | Stop a running apply and the Shopify bulk operations it started. What was written stays written. |
-| `get_audit_log` | no | Read what an apply wrote, newest first: one entry per step with its outcome. Filter by plan, outcome or resource type. |
-| `export_snapshot` | local files only | Write a store's configuration to a folder for git ([config as code](#config-as-code)). |
-| `diff_themes` | no | Compare theme templates and settings between two stores ([theme settings](#theme-settings-diff)). |
+| Tool | Since | Writes? | What it does |
+|---|---|---|---|
+| `list_stores` | 0.1 | no | Configured stores and their write permissions, and the server's version. Secrets are never returned. |
+| `list_resource_types` | 0.1 | no | What can be synced and how it's keyed. |
+| `snapshot_store` | 0.1 | no | Read one store's configuration in portable form. |
+| `compare_item` | 0.8 | no | One item side by side: each field that differs, and whether what it points at exists in the target. Reads only that item where possible. |
+| `diff_stores` | 0.1 | no | Only-in-source, changed (field by field, and entry by entry inside JSON values), only-in-target. `format: "markdown"` returns a report to paste into a ticket. |
+| `plan_sync` | 0.1 | no | Dry-run plan: creates, updates, conflicts, missing references. Returns a `plan_id`. |
+| `get_plan` | 0.1 | no | Show a plan, or list recent ones. `format: "markdown"` returns it as a report to share before applying. |
+| `apply_plan` | 0.1 | **yes** | Execute a plan, with every safety check above. For a protected store your client asks you to confirm. A plan of more than 50 steps runs in the background and this returns at once. |
+| `apply_status` | 0.10 | no | How far an apply has got: written, failed and left per resource type, phase, time so far and time remaining, failures counted per reason. Also answers after a server restart. |
+| `cancel_apply` | 0.10 | stops writes | Stop a running apply and the Shopify bulk operations it started. What was written stays written. |
+| `get_audit_log` | 0.11 | no | Read what an apply wrote, newest first: one entry per step with its outcome. Filter by plan, outcome or resource type. |
+| `export_snapshot` | 0.2 | local files only | Write a store's configuration to a folder for git ([config as code](#config-as-code)). |
+| `diff_themes` | 0.2 | no | Compare theme templates and settings between two stores ([theme settings](#theme-settings-diff)). |
 
 Every tool except `apply_plan` and `cancel_apply` is read-only toward Shopify and annotated as such, so clients can auto-approve them. Long calls report progress (what was read, which step was written) to clients that ask for it.
 
@@ -599,7 +607,7 @@ Two references followed from the source store to the target, as the sample sync 
 ## Tested on real stores
 
 <p align="center">
-  <img src="docs/images/tested.png" alt="163 automated tests, 83 GraphQL operations validated, 11 item types written live, 2 sign-in methods used live" width="100%">
+  <img src="docs/images/tested.png" alt="198 automated tests, 122 GraphQL operations validated, 15 item types written live, 2 sign-in methods used live; new in 0.12: markets and a catalog created, 990 MAD copied as 91.08 EUR, 100 products published in 40 seconds, a metafield retyped with a backup" width="100%">
 </p>
 
 <details>
@@ -640,7 +648,7 @@ Behaviours of the live API found this way are covered by tests: `nodes` returns 
 ## Roadmap
 
 <p align="center">
-  <img src="docs/images/roadmap.png" alt="Roadmap: shipped (syncing, safety, ways to use it, quality) and next (collection sources, batch writes, more product fields, variants and articles, more metafield owners, menu translations, markets, undo, optional deletes)" width="100%">
+  <img src="docs/images/roadmap.png" alt="Roadmap with the version of each shipped feature; new in 0.12: markets, catalogs, sales channels, locations, collection sources, currency conversion, type fixes, backup before a retype; next: smart rules through sources only, bulk writes for updates and redirects, option translations, blog articles, metafields on pages and blogs, menu link translations, discounts, undo, optional deletes" width="100%">
 </p>
 
 <details>
@@ -649,41 +657,41 @@ Behaviours of the live API found this way are covered by tests: `nodes` returns 
 **Shipped**
 
 *Syncing*
-- [x] Metafield definitions, metaobject definitions and metaobject entries
-- [x] Products: content, category, options, images, variants matched by option values (SKU, barcode, weight, customs, shipping, variant image); new ones as drafts, prices and stock only when asked
-- [x] Big catalogs: bulk reads, and bulk writes for new products and metafield values
-- [x] Collections with smart-collection rules, pages, menus (3 levels, customer account menus too), redirects, store policies
-- [x] Metafield values on products, collections, product variants and the shop, translations per language, products included (opt-in)
-- [x] Images and files matched by file name, uploaded to the target when missing
-- [x] Cross-store ID remapping by handle, including list references and rules on metafield definitions
-- [x] Two-pass writes for items that point at each other or at themselves
-- [x] Filters: resource types, include and exclude patterns, namespaces, metaobject types, owner types, languages
-- [x] `as_drafts`: new pages hidden, new metaobject entries as drafts, published state of existing ones left alone
-- [x] Markets, market catalogs with price lists, sales channel publishing with product status, inventory locations, market-specific translations (opt-in)
-- [x] Collection sources (2026-07+): exclusions, sub-collections, conditions of the new model; products picked by hand (opt-in)
-- [x] Stores in different currencies: prices, fixed prices and market currencies converted with a rate you give, never guessed
-- [x] Metafield type differences resolved on request: values converted to the target's type, or the target's definition retyped with its values backed up
-- [x] Compared only, never written: discounts (automatic and code) and Shopify's category metafield definitions
+- [x] `0.1` Metafield definitions, metaobject definitions and metaobject entries
+- [x] `0.4` Products: content, category, options, images, variants matched by option values (SKU, barcode, weight, customs, shipping, variant image); new ones as drafts, prices and stock only when asked
+- [x] `0.8` Big catalogs: bulk reads, and bulk writes for new products and metafield values
+- [x] `0.1, 0.2` Collections with smart-collection rules, pages, menus (3 levels, customer account menus too), redirects, store policies
+- [x] `0.2` Metafield values on products, collections, product variants and the shop, translations per language, products included (opt-in)
+- [x] `0.2` Images and files matched by file name, uploaded to the target when missing
+- [x] `0.1` Cross-store ID remapping by handle, including list references and rules on metafield definitions
+- [x] `0.1` Two-pass writes for items that point at each other or at themselves
+- [x] `0.1` Filters: resource types, include and exclude patterns, namespaces, metaobject types, owner types, languages
+- [x] `0.5` `as_drafts`: new pages hidden, new metaobject entries as drafts, published state of existing ones left alone
+- [x] <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> Markets, market catalogs with price lists, sales channel publishing with product status, inventory locations, market-specific translations (opt-in)
+- [x] <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> Collection sources (2026-07+): exclusions, sub-collections, conditions of the new model; products picked by hand (opt-in)
+- [x] <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> Stores in different currencies: prices, fixed prices and market currencies converted with a rate you give, never guessed
+- [x] <img src="docs/images/badge-new-0.12.svg" alt="NEW 0.12" height="20"> Metafield type differences resolved on request: values converted to the target's type, or the target's definition retyped with its values backed up
+- [x] `0.7` Compared only, never written: discounts (automatic and code) and Shopify's category metafield definitions
 
 *Safety*
-- [x] Dry-run plans that expire after an hour, applied in full or step by step (`--only`)
-- [x] Drift check before every write, read-only by default
-- [x] Never deletes, also inside an item: menu links, product tags, variants and media that only the target has are kept
-- [x] Protected stores are confirmed by a person (asked by the client, or `--confirm` on the command line), never by the assistant
-- [x] Conflicts reported instead of forced (type changes, manual versus smart collections, values on items missing from the target)
-- [x] Snapshot folders validated, files uploaded only from Shopify's hosts, folders kept inside a base folder over MCP
-- [x] Time limits on every request, and an error instead of a shortened list
-- [x] Audit log of every write
+- [x] `0.1` Dry-run plans that expire after an hour, applied in full or step by step (`--only`)
+- [x] `0.1` Drift check before every write, read-only by default
+- [x] `0.1` Never deletes, also inside an item: menu links, product tags, variants and media that only the target has are kept
+- [x] `0.5` Protected stores are confirmed by a person (asked by the client, or `--confirm` on the command line), never by the assistant
+- [x] `0.1` Conflicts reported instead of forced (type changes, manual versus smart collections, values on items missing from the target)
+- [x] `0.5` Snapshot folders validated, files uploaded only from Shopify's hosts, folders kept inside a base folder over MCP
+- [x] `0.5` Time limits on every request, and an error instead of a shortened list
+- [x] `0.1` Audit log of every write
 
 *Ways to use it*
-- [x] MCP server with 10 tools, read-only tools annotated for auto-approval, progress reported on long calls
-- [x] Command line with `--json` output (values never shortened), `--format md` reports, `--exit-code` for scheduled drift checks, and progress with time left
-- [x] Targeted checks: one item side by side (`check`, `compare_item`), and include patterns that limit what is read
-- [x] Config as code: export a store to files and use the folder as a source (`dir:`)
-- [x] Read-only theme settings diff, with settings that differ on purpose left out
-- [x] JSON values (json metafields, settings) compared entry by entry
-- [x] Connect without creating an app (Shopify CLI sign-in), or with a Dev Dashboard app or an access token
-- [x] Published on npm, runs with `npx`
+- [x] `0.1` MCP server with 13 tools, read-only tools annotated for auto-approval, progress reported on long calls
+- [x] `0.2` Command line with `--json` output (values never shortened), `--format md` reports, `--exit-code` for scheduled drift checks, and progress with time left
+- [x] `0.8` Targeted checks: one item side by side (`check`, `compare_item`), and include patterns that limit what is read
+- [x] `0.2` Config as code: export a store to files and use the folder as a source (`dir:`)
+- [x] `0.2` Read-only theme settings diff, with settings that differ on purpose left out
+- [x] `0.7` JSON values (json metafields, settings) compared entry by entry
+- [x] `0.3` Connect without creating an app (Shopify CLI sign-in), or with a Dev Dashboard app or an access token
+- [x] `0.1` Published on npm, runs with `npx`
 
 *Quality*
 - [x] 198 automated tests against an in-memory Shopify, plus MCP protocol tests
@@ -769,9 +777,3 @@ What this project adds: it runs inside your AI client as an MCP server (or as a 
 </details>
 
 ## Disclaimer
-
-Not affiliated with, endorsed by or sponsored by Shopify Inc. "Shopify" is a trademark of Shopify Inc. Test on development stores first; you are responsible for what you apply to production.
-
-## License
-
-[MIT](LICENSE) © Youssef Idder

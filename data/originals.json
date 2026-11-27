@@ -6426,7 +6426,7 @@
 ],
 "repository": "https://github.com/Minh42/seomatic-mcp",
 "title": "SEOmatic",
-"version": "1.32.0",
+"version": "1.33.0",
 "website": "https://seomatic.ai/developers/mcp"
 },
 "truncated": false,
@@ -10205,13 +10205,13 @@
 "id": "@wirecat/hubspot-cli",
 "transport": "stdio",
 "type": "npm",
-"version": "0.8.0"
+"version": "0.9.0"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/WireCatLabs/hubspot-cli",
 "title": "WireCat hubspot",
-"version": "0.8.0",
+"version": "0.9.0",
 "website": "https://wirecat.dev/en/docs/hubspot"
 },
 "truncated": false,
@@ -10240,6 +10240,28 @@
 "website": "https://cybermaxtools.com/store/cartlark-shopify-scraper/"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=dev.workers.cybermax-tools.cybermax/shopify-scraper&version=latest"
+},
+"mcp-email-marketing-mcp": {
+"kind": "excerpt",
+"label": "mcp-registry",
+"license": "MCP Registry record",
+"record": {
+"description": "Send personalized email campaigns from your Gmail: templates, contacts, Sheets, follow-ups, stats",
+"name": "email.marketing/mcp",
+"packages": [],
+"remotes": [
+{
+"headers": [],
+"type": "streamable-http",
+"url": "https://merge.email/mcp"
+}
+],
+"repository": null,
+"title": "Email Marketing",
+"version": "1.0.0",
+"website": "https://marketing.email/ai-agents"
+},
+"url": "https://registry.modelcontextprotocol.io/v0/servers?search=email.marketing/mcp&version=latest"
 },
 "mcp-free-fonts-mcp": {
 "kind": "excerpt",
@@ -13480,16 +13502,16 @@
 "packages": [
 {
 "env": [],
-"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.25/figmamcp-0.1.25-darwin.mcpb",
+"id": "https://github.com/MrCoder/figmamcp-releases/releases/download/v0.1.26/figmamcp-0.1.26-darwin.mcpb",
 "transport": "stdio",
 "type": "mcpb",
-"version": "0.1.25"
+"version": "0.1.26"
 }
 ],
 "remotes": [],
 "repository": "https://github.com/MrCoder/figmamcp-releases",
 "title": "FigmaMCP",
-"version": "0.1.25",
+"version": "0.1.26",
 "website": "https://figmamcp.dev"
 },
 "url": "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.MrCoder/figmamcp&version=latest"
@@ -15418,7 +15440,7 @@
 "version": "0.12.0",
 "website": "https://github.com/ussefidder/shopify-store-sync-mcp#readme"
 },
-"truncated": false,
+"truncated": true,
 "url": "https://github.com/ussefidder/shopify-store-sync-mcp/blob/HEAD/README.md"
 },
 "mcp-io-github-varvararatta-marketing-mcp": {
