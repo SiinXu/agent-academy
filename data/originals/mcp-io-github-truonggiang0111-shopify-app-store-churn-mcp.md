@@ -1,14 +1,15 @@
-# B2B Market Intel MCP Servers, Agent Skills (`SKILL.md`) & `n8n` Workflows
+# B2B Market Intel MCP Servers, Agent Skills (`SKILL.md`), `n8n` & `Make.com` Workflows
 
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.truonggiang0111-10b981?style=flat-square)](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.truonggiang0111)
 [![B2B Market Intel Suite MCP connector](https://glama.ai/mcp/connectors/io.github.truonggiang0111/b2b-market-intel-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.truonggiang0111/b2b-market-intel-mcp)
 [![Apify Profile](https://img.shields.io/badge/Apify%20Store-ttyan0111-2563eb?style=flat-square)](https://apify.com/ttyan0111)
-[![Agensi.io Storefront](https://img.shields.io/badge/Agensi.io-16%20Live%20Skills%20%2B%203%20Bundles-0f172a?style=flat-square)](https://www.agensi.io/creators/giang-tr-ng-tr-ng)
+[![Agensi.io Storefront](https://img.shields.io/badge/Agensi.io-16%20Live%20Skills%20%2B%203%20Bundles-0f172a?style=flat-square)](https://www.agensi.io/r/GIANGTRNGTRNG?to=/creators/giang-tr-ng-tr-ng&utm_source=github_readme)
 [![Agent Skills](https://img.shields.io/badge/skills.sh-15%20Skills-6366f1?style=flat-square)](#-2-install-portable-agent-skills-claude-code--cursor--codex)
 [![n8n Workflows](https://img.shields.io/badge/n8n-16%20Workflows%20%2B%20Node-ea4b71?style=flat-square)](#-3-16-ready-to-import-n8n-workflows--native-community-node)
+[![Make.com Blueprints](https://img.shields.io/badge/Make.com-8%20Blueprints-6d00cc?style=flat-square)](#-3a-8-ready-to-import-makecom-blueprints-workflowsmake)
 [![llms.txt](https://img.shields.io/badge/AI%20Index-llms--full.txt-059669?style=flat-square)](./llms-full.txt)
 
-Production-tested **MCP endpoints**, **`15` portable `SKILL.md` playbooks**, **`16` `n8n` JSON templates** + **[`n8n-nodes-b2b-market-intel`](https://github.com/truonggiang0111/n8n-nodes-b2b-market-intel)** (`usableAsTool: true`, `18` ops), **[`b2b-market-intel-python`](https://github.com/truonggiang0111/b2b-market-intel-python)** zero-dep Python SDK, **[`b2b-market-intel-mcp`](https://github.com/truonggiang0111/b2b-market-intel-mcp)** STDIO CLI, and **`100` AI `.md` use-case blueprints** for AI Agents, B2B growth teams, recruiters, and RAG developers. Powered by lightweight zero-proxy cloud endpoints on Apify (**new Apify accounts receive `$5/month` in free usage — try all tools at `$0` out-of-pocket**).
+Production-tested **MCP endpoints**, **`15` portable `SKILL.md` playbooks**, **`16` `n8n` JSON templates**, **`8` Make.com `.make.json` blueprints** ([interactive gallery](https://truonggiang0111.github.io/mcp/make-com-apify-b2b-lead-blueprints/)), **[`n8n-nodes-b2b-market-intel`](https://github.com/truonggiang0111/n8n-nodes-b2b-market-intel)** (`usableAsTool: true`, `18` ops), **[`b2b-market-intel-python`](https://github.com/truonggiang0111/b2b-market-intel-python)** zero-dep Python SDK, **[`b2b-market-intel-mcp`](https://github.com/truonggiang0111/b2b-market-intel-mcp)** STDIO CLI, and **`100` AI `.md` use-case blueprints** for AI Agents, B2B growth teams, recruiters, and RAG developers. Powered by lightweight zero-proxy cloud endpoints on Apify (**new Apify accounts receive `$5/month` in free usage — try all tools at `$0` out-of-pocket**).
 
 ---
 
@@ -42,8 +43,9 @@ Production-tested **MCP endpoints**, **`15` portable `SKILL.md` playbooks**, **`
 - **Zero-Dep Python 3.10+ SDK, CLI & Tool Schemas (`v1.0.0`):** [`truonggiang0111/b2b-market-intel-python`](https://github.com/truonggiang0111/b2b-market-intel-python) — `pip install git+https://github.com/truonggiang0111/b2b-market-intel-python` / `uvx` (`b2b-intel --self-test`, OpenAI/Anthropic/LangChain schemas + `ApifyB2BClient`).
 - **Standalone Zero-Dependency Node.js 18+ CLI & ESM Helper:** [`truonggiang0111/google-news-url-decoder` (`v1.0.0`)](https://github.com/truonggiang0111/google-news-url-decoder) — offline protobuf inspector + live `DotsSplashUi` `Fbv4je` single-URL decoder (`MIT`).
 - **Sanitised B2B Sample Datasets (`v1.0.0`, `6` CSV + `6` JSON):** [`truonggiang0111/b2b-sample-datasets-2026`](https://github.com/truonggiang0111/b2b-sample-datasets-2026) — `150` real zero-PII sample rows across 6 B2B verticals ([Direct Order Hub & Bundles](https://truonggiang0111.github.io/mcp/b2b-leads-datasets-and-custom-scrapers/)).
-- **Technical Guides & Gallery (`12` Web Pages + `2` Dev.to):**
+- **Technical Guides & Gallery (`13` Web Pages + `2` Dev.to):**
   - [**Direct B2B Data Storefront (`$29` CSV Packs, `$199–$350` Custom Scrapers, Agensi Bundles)**](https://truonggiang0111.github.io/mcp/b2b-leads-datasets-and-custom-scrapers/)
+  - [**Interactive Make.com B2B Lead & Zero-Key Blueprints (`8` `.make.json` Scenarios)**](https://truonggiang0111.github.io/mcp/make-com-apify-b2b-lead-blueprints/) · [`workflows/make/`](./workflows/make/README.md)
   - [**Interactive 1-Click `n8n` Workflow Gallery (`16` Workflows)**](https://truonggiang0111.github.io/mcp/n8n-b2b-lead-automation-workflows/) · [Dev.to Guide](https://dev.to/truonggiang0111/how-to-connect-n8n-ai-agents-to-b2b-lead-scrapers-via-mcp-zero-key-apis-16-free-workflows-145b)
   - [Connecting n8n AI Agents to Streamable HTTP & STDIO MCP Servers (2026)](https://truonggiang0111.github.io/mcp/n8n-mcp-client-ai-agent-b2b-leads/)
   - [Google Sheets Zero-Key Apps Script & Apify Lead Automation](https://truonggiang0111.github.io/mcp/google-sheets-apify-b2b-lead-automation/)
@@ -151,6 +153,21 @@ npm install github:truonggiang0111/n8n-nodes-b2b-market-intel
 - [`workflows/n8n/n8n-ai-agent-streamable-http-mcp-prospecting.n8n.json`](./workflows/n8n/n8n-ai-agent-streamable-http-mcp-prospecting.n8n.json) — **n8n AI Agent** (`chatTrigger` + `agent` + `lmChatOpenAi`) wired via `mcpClientTool` (`httpStreamable`) to Apify B2B MCP tools.
 - [`workflows/n8n/n8n-ai-agent-stdio-zero-key-mcp-research.n8n.json`](./workflows/n8n/n8n-ai-agent-stdio-zero-key-mcp-research.n8n.json) — **Zero-Key n8n AI Agent** wired via `mcpClientTool` to local STDIO `npx -y github:truonggiang0111/b2b-market-intel-mcp` (`supergateway` bridge).
 - [`workflows/n8n/weekly-competitor-review-databait-outreach-drafter.n8n.json`](./workflows/n8n/weekly-competitor-review-databait-outreach-drafter.n8n.json) — Groups competitor `1★–2★` crash/billing quotes into `<80`-word Data-Bait outreach payloads.
+
+---
+
+## 3a. `8` Ready-to-Import `Make.com` Blueprints (`workflows/make/`)
+
+Import any of the **`8` Make.com `.make.json` scenarios** via **Scenarios -> ... -> Import Blueprint** (or preview & download them in 1 click at the [**Interactive Make.com Blueprints Gallery**](https://truonggiang0111.github.io/mcp/make-com-apify-b2b-lead-blueprints/); full setup + Agensi 3 Free Skills + `$29` CSV / `$199–$350` Custom Scraper links in [`workflows/make/README.md`](./workflows/make/README.md)):
+
+- [`workflows/make/google-news-real-url-rag.make.json`](./workflows/make/google-news-real-url-rag.make.json) — Decodes `news.google.com` `CBMi`/`AU_yqL` wrapper links into canonical publisher `url` + LLM/RAG Markdown digests via `/run-sync-get-dataset-items`.
+- [`workflows/make/shopify-1star-churn-leads.make.json`](./workflows/make/shopify-1star-churn-leads.make.json) — Extracts Shopify App Store `1★–2★` churn reviews, complaining merchant domains & `developerEmail` leads.
+- [`workflows/make/clinicaltrials-biotech-pi-leads.make.json`](./workflows/make/clinicaltrials-biotech-pi-leads.make.json) — **Zero-Key** `clinicaltrials.gov/api/v2/studies` biotech sponsor/contact pipeline + optional Apify Site-PI enrichment route.
+- [`workflows/make/uk-gov-tenders-buyer-emails.make.json`](./workflows/make/uk-gov-tenders-buyer-emails.make.json) — **Zero-Key** UK Contracts Finder OCDS public tender pipeline + optional Apify `.gov.uk`/NHS buyer email enricher.
+- [`workflows/make/reed-seek-direct-hiring-leads.make.json`](./workflows/make/reed-seek-direct-hiring-leads.make.json) — Dual-route UK (`Reed.co.uk` `directEmployerOnly` + IR35) & AU/NZ (`Seek` GraphQL) direct-employer hiring leads.
+- [`workflows/make/substack-creator-sponsor-leads.make.json`](./workflows/make/substack-creator-sponsor-leads.make.json) — Extracts paid Substack publications, verified creator contact emails & sponsor-ready engagement aggregates.
+- [`workflows/make/vscode-chrome-competitor-bug-spy.make.json`](./workflows/make/vscode-chrome-competitor-bug-spy.make.json) — Dual-route VS Code + Cursor Open-VSX bug spy and Chrome Web Store `developerEmail` extractor.
+- [`workflows/make/wordpress-atlassian-churn-leads.make.json`](./workflows/make/wordpress-atlassian-churn-leads.make.json) — **Zero-Key** WordPress.org Plugins 1.2 + Atlassian Marketplace REST v2 churn signals + optional Apify vendor email enrichment.
 
 ---
 

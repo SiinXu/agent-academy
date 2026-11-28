@@ -1,8 +1,8 @@
 ---
 name: design-ui-designer
 description: Agent Academy course for UI designer (Design). Five ordered steps of real, source-linked resources.
-version: 2026-11-27
-updated_at: 2026-11-27T19:28:38Z
+version: 2026-11-28
+updated_at: 2026-11-28T03:58:08Z
 source: https://academy.incidental.site/courses/design/ui-designer/
 ---
 
@@ -94,8 +94,8 @@ Choose one style, platform or channel from the reference library. Only one.
 
 Pick ONE visual direction from UI Hub (https://siinxu.github.io/ui-resource-hub/api/resources.json, field `vs`). Write down 2-4 reference previews and the clusters you rejected. Clusters and item counts in this course:
 
-- minimal: 1738 items
-- 3d: 666 items
+- minimal: 1742 items
+- 3d: 667 items
 - motion: 659 items
 - editorial: 597 items
 - playful: 576 items
@@ -171,6 +171,10 @@ First case to read: how this site was designed by an agent: https://academy.inci
   license: template belongs to its creator (catalog CC0)
   install: https://x.ai/bot/SahTwJB0g7SDbAmHBvFTD
   needs_credentials: false, writes_external: false
+- [style-library] .solutions Website Portfolio. A fashion e-commerce site shown inside a portfolio, featuring a circular grid catalog of streetwear items with smooth scroll and zoom transitions between views.
+  source: https://x.com/iamerrormade/status/2126280581004587412
+  license: see source (listed via UI Hub)
+  needs_credentials: false, writes_external: false
 - [style-library] /zeroz official site. Fashion photography on white with an oversized slash wordmark /zeroz: Japanese whitespace and sharpness (via Awwwards)
   source: https://otsuka-air.jp/
   license: see source (listed via UI Hub)
@@ -209,10 +213,6 @@ First case to read: how this site was designed by an agent: https://academy.inci
   needs_credentials: false, writes_external: false
 - [style-library] 2xA. Handwritten tagline on black, like writing on paper with a hand-drawn line (via Awwwards)
   source: https://2xa.studio/
-  license: see source (listed via UI Hub)
-  needs_credentials: false, writes_external: false
-- [style-library] 3 Logos. A set of three logo concepts: a rounded flower-like monogram, a red cursive wordmark, and a black handwritten script logotype.
-  source: https://x.com/lancedraws/status/2075536899217760307
   license: see source (listed via UI Hub)
   needs_credentials: false, writes_external: false
 

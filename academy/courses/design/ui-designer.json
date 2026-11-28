@@ -2,7 +2,7 @@
  "id": "design/ui-designer",
  "industry": "design",
  "role": "ui-designer",
- "updated_at": "2026-11-27T19:28:38Z",
+ "updated_at": "2026-11-28T03:58:08Z",
  "goal": "Learn to design an interface that does not look templated: pick one style from UI Hub, follow design skills, build, and verify with four screenshots.",
  "permissions": "Mostly read-only. Figma/Canva MCP servers need tokens; skills are text you can read. Installing a skill writes files into the project; ask first.",
  "checklist": [
@@ -876,7 +876,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 37178,
+      "repo_stars": 37197,
       "repo_pushed_at": "2026-11-26"
      },
      "course_step": "4-do-it",
@@ -1431,6 +1431,52 @@
      "source": "botsdots"
     },
     {
+     "id": "uihub-rd-kydn5g1-solutions-website-portfolio",
+     "title": ".solutions Website Portfolio",
+     "type": "style-library",
+     "industry": "design",
+     "roles": [
+      "ui-designer"
+     ],
+     "summary": "A fashion e-commerce site shown inside a portfolio, featuring a circular grid catalog of streetwear items with smooth scroll and zoom transitions between views.",
+     "summary_lang": "en",
+     "source_url": "https://x.com/iamerrormade/status/2126280581004587412",
+     "raw_url": null,
+     "upstream_raw_url": null,
+     "repo": null,
+     "author": "@iamerrormade",
+     "license": "see source (listed via UI Hub)",
+     "redistributable": false,
+     "content_policy": "link-and-summary-only",
+     "original": {
+      "kind": "excerpt",
+      "license": "UI Hub entry",
+      "url": "https://siinxu.github.io/ui-resource-hub/",
+      "record": {}
+     },
+     "install": null,
+     "security": {
+      "audited": false,
+      "executes_code": false,
+      "needs_credentials": false,
+      "writes_external": false
+     },
+     "metrics": {
+      "repo_stars": null,
+      "repo_pushed_at": null
+     },
+     "course_step": "2-pick-direction",
+     "status": "active",
+     "first_seen": "2026-11-28T03:58:08Z",
+     "updated_at": "2026-11-28T03:58:08Z",
+     "checked_at": "2026-11-28T03:58:08Z",
+     "http_status": {
+      "source": 200
+     },
+     "page": "https://academy.incidental.site/r/uihub-rd-kydn5g1-solutions-website-portfolio/",
+     "source": "ui-hub"
+    },
+    {
      "id": "uihub-w16-otsuka-air-jp",
      "title": "/zeroz official site",
      "type": "style-library",
@@ -1889,52 +1935,6 @@
      },
      "page": "https://academy.incidental.site/r/uihub-w16-2xa-studio/",
      "source": "ui-hub"
-    },
-    {
-     "id": "uihub-rd-j303jun-3-logos",
-     "title": "3 Logos",
-     "type": "style-library",
-     "industry": "design",
-     "roles": [
-      "ui-designer"
-     ],
-     "summary": "A set of three logo concepts: a rounded flower-like monogram, a red cursive wordmark, and a black handwritten script logotype.",
-     "summary_lang": "en",
-     "source_url": "https://x.com/lancedraws/status/2075536899217760307",
-     "raw_url": null,
-     "upstream_raw_url": null,
-     "repo": null,
-     "author": "@lancedraws",
-     "license": "see source (listed via UI Hub)",
-     "redistributable": false,
-     "content_policy": "link-and-summary-only",
-     "original": {
-      "kind": "excerpt",
-      "license": "UI Hub entry",
-      "url": "https://siinxu.github.io/ui-resource-hub/",
-      "record": {}
-     },
-     "install": null,
-     "security": {
-      "audited": false,
-      "executes_code": false,
-      "needs_credentials": false,
-      "writes_external": false
-     },
-     "metrics": {
-      "repo_stars": null,
-      "repo_pushed_at": null
-     },
-     "course_step": "2-pick-direction",
-     "status": "active",
-     "first_seen": "2026-10-16T14:52:06Z",
-     "updated_at": "2026-10-16T14:52:06Z",
-     "checked_at": "2026-11-23T22:03:10Z",
-     "http_status": {
-      "source": 200
-     },
-     "page": "https://academy.incidental.site/r/uihub-rd-j303jun-3-logos/",
-     "source": "ui-hub"
     }
    ]
   },
@@ -1972,7 +1972,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 201402,
+      "repo_stars": 201573,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2017,7 +2017,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 201402,
+      "repo_stars": 201573,
       "repo_pushed_at": "2026-11-16"
      },
      "course_step": "3-learn-rules",
@@ -2062,7 +2062,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 155065,
+      "repo_stars": 155211,
       "repo_pushed_at": "2026-11-27"
      },
      "course_step": "3-learn-rules",
@@ -2107,7 +2107,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 60479,
+      "repo_stars": 60626,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -2152,7 +2152,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42985,
+      "repo_stars": 42994,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2197,7 +2197,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42985,
+      "repo_stars": 42994,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2242,7 +2242,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42985,
+      "repo_stars": 42994,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -2827,7 +2827,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 145947,
+      "repo_stars": 145977,
       "repo_pushed_at": "2026-11-18"
      },
      "course_step": "4-do-it",
@@ -2900,7 +2900,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 16331,
+      "repo_stars": 16332,
       "repo_pushed_at": "2026-11-15",
       "registry_updated_at": "2026-06-18"
      },
@@ -3094,7 +3094,7 @@
       "credential_names": []
      },
      "metrics": {
-      "repo_stars": 271,
+      "repo_stars": 272,
       "repo_pushed_at": "2026-11-27",
       "registry_updated_at": "2026-11-26"
      },
@@ -3246,7 +3246,7 @@
       ]
      },
      "metrics": {
-      "repo_stars": 46,
+      "repo_stars": 47,
       "repo_pushed_at": "2026-11-19",
       "registry_updated_at": "2026-10-20"
      },
@@ -4160,7 +4160,7 @@
      },
      "metrics": {
       "repo_stars": 0,
-      "repo_pushed_at": "2026-11-06",
+      "repo_pushed_at": "2026-11-28",
       "registry_updated_at": "2026-10-29"
      },
      "course_step": "4-do-it",
@@ -4451,7 +4451,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 155065,
+      "repo_stars": 155211,
       "repo_pushed_at": "2026-11-27"
      },
      "course_step": "3-learn-rules",
@@ -4496,7 +4496,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 155065,
+      "repo_stars": 155211,
       "repo_pushed_at": "2026-11-27"
      },
      "course_step": "3-learn-rules",
@@ -4541,7 +4541,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 60479,
+      "repo_stars": 60626,
       "repo_pushed_at": "2026-11-15"
      },
      "course_step": "3-learn-rules",
@@ -4586,7 +4586,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42985,
+      "repo_stars": 42994,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4631,7 +4631,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42985,
+      "repo_stars": 42994,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4676,7 +4676,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42985,
+      "repo_stars": 42994,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4721,7 +4721,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 42985,
+      "repo_stars": 42994,
       "repo_pushed_at": "2026-11-24"
      },
      "course_step": "3-learn-rules",
@@ -4766,7 +4766,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 37178,
+      "repo_stars": 37197,
       "repo_pushed_at": "2026-11-26"
      },
      "course_step": "3-learn-rules",
@@ -4811,7 +4811,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 37178,
+      "repo_stars": 37197,
       "repo_pushed_at": "2026-11-26"
      },
      "course_step": "3-learn-rules",
@@ -4856,7 +4856,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 37178,
+      "repo_stars": 37197,
       "repo_pushed_at": "2026-11-26"
      },
      "course_step": "3-learn-rules",
@@ -4901,7 +4901,7 @@
       "writes_external": false
      },
      "metrics": {
-      "repo_stars": 26807,
+      "repo_stars": 26812,
       "repo_pushed_at": "2026-11-02"
      },
      "course_step": "3-learn-rules",

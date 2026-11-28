@@ -1,8 +1,8 @@
 ---
 name: customer-service-customer-success
 description: Agent Academy course for Customer success (Customer service). Five ordered steps of real, source-linked resources.
-version: 2026-11-27
-updated_at: 2026-11-27T19:28:38Z
+version: 2026-11-28
+updated_at: 2026-11-28T03:58:08Z
 source: https://academy.incidental.site/courses/customer-service/customer-success/
 ---
 
