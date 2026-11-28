@@ -310,6 +310,16 @@ ${zhOnly ? `<div class="alert" role="note" data-nonzh-only>${ic('ext')}<div><p>$
 }
 // ---------------------------------------------------------------- RESOURCE detail pages + md + json
 const related = (i) => (byInd[i.industry] || []).filter((x) => x.id !== i.id && x.roles.some((r) => i.roles.includes(r))).sort(sortQ).slice(0, 6);
+const relatedCourses = (i) => {
+  const exact = COURSE_LIST.filter((c) => c.industry === i.industry && i.roles.includes(c.role));
+  if (exact.length) return exact.slice(0, 4);
+  return COURSE_LIST.filter((c) => c.industry === i.industry).slice(0, 4);
+};
+const coursesBlock = (i) => {
+  const cs = relatedCourses(i);
+  const cards = cs.length ? `<div class="roles" data-mod="roles">${cs.map((c) => roleCard(c.industry, c.role)).join('')}</div>` : `<p><a class="btn btn-o" href="${u('courses/')}">${ti('nav.courses')}</a></p>`;
+  return `<section class="wrap p-sec" id="related-courses"><div class="p-sh"><h2 class="p-h2">${ti('r.related_courses')}</h2></div>${cards}</section>`;
+};
 for (const i of ALL) {
   const mirrorP = path.join(ROOT, 'data/mirror', i.id + '.md');
   const mirror = i.redistributable && fs.existsSync(mirrorP) ? fs.readFileSync(mirrorP, 'utf8') : null;
@@ -325,7 +335,7 @@ ${i.install ? `<div class="cbk" data-mod="code-block"><div class="cbk-h"><span>$
 ${origBlock(i, mirror)}
 </div><aside class="d-side"><div class="tbl-card" data-mod="table"><table class="meta"><tbody>${rows.map(([k, v]) => `<tr><th scope="row" data-i="${k}">${t(k)}</th><td>${v}</td></tr>`).join('')}</tbody></table></div>
 <div class="d-agent"><h2 class="p-h3">${ti('nav.agents')}</h2>${btn(u('api/resources/' + i.id + '.json'), ti('r.json'), 'btn btn-o btn-sm', 'json')}${btn(u('r/' + i.id + '.md'), ti('r.md'), 'btn btn-o btn-sm', 'doc')}${resRaw(i) ? btn(resRaw(i), ti('r.raw'), 'btn btn-o btn-sm', 'doc') : ''}</div></aside></section>
-${related(i).length ? `<section class="wrap p-sec"><div class="p-sh"><h2 class="p-h2">${ti('r.related')}</h2></div>${grid(related(i))}</section>` : ''}`;
+${related(i).length ? `<section class="wrap p-sec"><div class="p-sh"><h2 class="p-h2">${ti('r.related')}</h2></div>${grid(related(i))}</section>` : ''}${coursesBlock(i)}`;
   const tr = Object.fromEntries(LOCALES.filter((l) => l !== 'en' && L10N[l][i.id] && keepTr(l, i.id)).map((l) => [l, L10N[l][i.id].s]));
   if (ZH_ORIG[i.id]?.s) { tr['zh-CN'] = ZH_ORIG[i.id].s; tr['zh-TW'] = (L10N['zh-TW'][i.id]?.by === 'opencc' && L10N['zh-TW'][i.id].s) || ZH_ORIG[i.id].s; }
   write(DIST, `r/${i.id}/index.html`, page({ title: `${i.title} · Agent Academy`, desc: (i.summary_source || i.title).slice(0, 160), body, active: 'nav.library', og: 'article', ld: [{ '@type': 'CreativeWork', name: i.title, description: (i.summary_source || i.title).slice(0, 300), url: `${SITE}/r/${i.id}/`, ...(i.license && !/^(see-skill-folder|NOASSERTION|NONE|unknown)/.test(String(i.license)) ? { license: String(i.license) } : {}), ...(i.updated_at ? { dateModified: String(i.updated_at).slice(0, 10) } : {}), isBasedOn: { '@type': 'CreativeWork', url: i.source_url || i.repo || `${SITE}/r/${i.id}/` }, publisher: { '@id': ORG['@id'] } }], rel: `r/${i.id}/`, pageData: { kind: 'resource', sum: { [i.id]: tr }, lang: i.summary_lang } }));
